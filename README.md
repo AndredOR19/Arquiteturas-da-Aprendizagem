@@ -47,4 +47,4 @@ Aulas HTML devem ser entregues com link funcional no GitHub Pages. `publicacao/c
 | Documento escolar | Modelo de documento e conteúdo por turma | Arquivo editável nas exportações |
 | Material reservado do professor | Canal próprio com acesso adequado | Fora do pacote público |
 
-As alterações em pastas de materiais e publicação disparam o fluxo do Pages. Apenas salvar um HTML no GitHub não comprova que o site foi publicado: confira o deploy e o endereço final. A conexão usa uma versão fixa do motor para evitar mudanças inesperadas e reduzir a repetição de código, sem prometer economia percentual de tokens.
+Cada atualização na branch main dispara o fluxo do Pages, que aguarda a publicação automática anterior para evitar conflito. Apenas salvar um HTML no GitHub não comprova que o site foi publicado: confira o deploy e o endereço final. A conexão usa uma versão fixa do motor para evitar mudanças inesperadas e reduzir a repetição de código, sem prometer economia percentual de tokens.
