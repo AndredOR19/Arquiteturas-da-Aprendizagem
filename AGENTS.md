@@ -23,7 +23,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 - AEE + MACI + ARN + SVS + EPC + SSS, integradas em ASA.
 - No mínimo 26 percursos; pistas graduadas; glossário e dicionário.
 - Próximo percurso liberado somente após acerto; preservar tentativas e apoios.
-- Relatório completo, não somente nota; prévia, cópia, download e entrega transparente.
+- Relatório completo, não somente nota; prévia, cópia e download. Ao final, botão “Enviar relatório ao professor” abre o aplicativo de e-mail com destinatário confirmado do solicitante, assunto e relatório completo preenchidos; o estudante confere e envia. Não exige backend de e-mail e não confirmar envio pelo simples clique. Consulte a seção 13 do prompt para limites e alternativas.
 - Guias e gabaritos docentes separados do material público; não usar senha no JavaScript como proteção.
 - Nunca registrar alunos identificáveis, senhas, tokens ou segredos neste repositório.
 
