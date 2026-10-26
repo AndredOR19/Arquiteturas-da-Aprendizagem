@@ -10,10 +10,11 @@ permissions:
   id-token: write
 concurrency:
   group: github-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   publicar:
     runs-on: ubuntu-24.04
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -28,9 +29,10 @@ jobs:
       - name: Preparar somente os materiais públicos
         run: python publicacao/preparar.py
       - name: Conferir os slides no navegador
+        timeout-minutes: 5
         run: |
           npm install --no-save --ignore-scripts playwright@1.58.2
-          npx playwright install chromium --with-deps
+          npx playwright install chromium
           mkdir -p exportacoes/projetos/demonstracao-slides/revealjs
           cp _site/slides/aprender-a-aprender/index.html exportacoes/projetos/demonstracao-slides/revealjs/index.html
           node ferramentas/conferir-slides.cjs
