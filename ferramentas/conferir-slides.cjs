@@ -6,6 +6,8 @@ const { pathToFileURL } = require('node:url');
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    page.setDefaultTimeout(30000);
+    page.setDefaultNavigationTimeout(30000);
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
     const file = resolve(__dirname, '../exportacoes/projetos/demonstracao-slides/revealjs/index.html');
