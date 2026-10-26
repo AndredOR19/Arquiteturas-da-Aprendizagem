@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.3.0**  
+Versão vigente: **2.3.1**  
 Atualização: **26/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -274,3 +274,8 @@ Slides também integram as entregas possíveis: HTML Reveal.js e PowerPoint edit
 O modelo técnico fornece o ponto de partida, não certifica uma aula pronta. Personalize imagens, fundo e diagramação conforme o tema. Confira separadamente HTML e PowerPoint, pois CSS não se transfere ao PPTX. Guias e respostas reservadas ficam fora dos slides públicos, inclusive de suas notas.
 
 Para economizar contexto, após as leituras pedagógicas obrigatórias consulte somente os componentes e instruções técnicas pertinentes. Não releia livros ou fontes de projetos sem relação com a tarefa. Não prometa percentual de economia. Registre mudanças no motor e atualize a revisão da conexão somente após verificação.
+
+## 21. Publicação das aulas HTML
+Diretriz expressa do professor: aulas em HTML devem ser publicadas no GitHub Pages do repositório Arquiteturas da Aprendizagem. Após produzir e conferir, cadastre o material discente em publicacao/catalogo.json. O fluxo publicar-pages.yml prepara somente as pastas cadastradas e publica após os testes. Preserve os endereços existentes de aulas e laboratórios.
+
+Uma entrega de aula HTML inclui o endereço público funcional, não apenas o código ou o artefato do Actions. Confira o sucesso do deploy e abra o endereço final antes de declarar publicação concluída. Se houver falha, informe a pendência real. Mantenha biblioteca privada, guias docentes, gabaritos reservados e dados identificáveis dos estudantes fora do pacote público.

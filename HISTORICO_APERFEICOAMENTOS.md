@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.3.1 — 26/10/2026
+**Pedido:** publicar as aulas HTML no GitHub Pages.
+
+**Alterações:** regra de publicação no prompt; catálogo explícito de materiais discentes; preparação seletiva do site; workflow de conferência de slides, configuração e deploy. Preservados os caminhos da aula 192 e do laboratório. Slides de demonstração ganham endereço próprio.
+
+**Verificação:** preparação local e execução remota documentadas em ferramentas/VERIFICACAO.md. A produção conectada anterior concluiu com sucesso na execução 40379468444 da biblioteca.
+
+**Limites:** somente materiais cadastrados entram no site. Uma nova aula exige cadastro e conferência de publicação. Não inclui material docente reservado nem envio de e-mail.
+
 ## 2.3.0 — 26/10/2026
 **Pedido:** conectar a Biblioteca de Diagramação para produzir aulas digitais, materiais e slides, com reutilização e menor repetição de código e instruções.
 

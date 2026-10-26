@@ -22,9 +22,7 @@ No exemplo imaginado, a terra está úmida e a planta recebe pouca luz.
 
 Terra úmida enfraquece a ideia de falta de água. Ainda precisamos investigar outras condições.
 
-## O todo e as partes {layout="Title and Content"}
-
-**O que preciso examinar?**
+## O todo e as partes
 
 | Parte da situação | Pergunta de observação |
 |---|---|
@@ -48,7 +46,7 @@ O que precisaria ser comparado antes de concluir?
 
 Agora aplique essas perguntas a um tema de História ou a um problema do cotidiano.
 
-## Meu caminho de revisão {layout="Title and Content"}
+## Meu caminho de revisão
 
 | Quando isso acontecer | Posso fazer isto |
 |---|---|

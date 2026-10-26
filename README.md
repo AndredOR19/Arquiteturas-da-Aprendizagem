@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.3.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.3.1](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -29,3 +29,22 @@ Não incluir senhas, tokens, dados identificáveis de estudantes ou guias docent
 
 ## Produção conectada: aulas, documentos e slides
 [Como usar a Biblioteca de Diagramação](ferramentas/README.md). O motor central usa uma revisão fixada, sem duplicação neste repositório. [Exemplo editável de slides](projetos/demonstracao-slides/index.qmd), com saídas HTML e PowerPoint.
+
+## Publicação das aulas
+Aulas HTML devem ser entregues com link funcional no GitHub Pages. `publicacao/catalogo.json` lista o que será publicado; o fluxo `Publicar aulas no GitHub Pages` prepara, testa e publica. Cadastre cada nova aula antes da entrega e preserve o endereço dos materiais existentes.
+
+### Onde abrir e produzir
+- [Portal das aulas no GitHub Pages](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/)
+- [Publicar aulas no GitHub Pages — execução e resultados](https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/actions/workflows/publicar-pages.yml)
+- [Produzir com a biblioteca central privada](https://github.com/AndredOR19/Biblioteca-de-Diagramacao/actions/workflows/produzir-aprendizagem.yml)
+- [Catálogo do que entra na publicação](publicacao/catalogo.json)
+- [Conferências e limitações registradas](ferramentas/VERIFICACAO.md)
+
+| Entrega | Produção | Disponibilização |
+|---|---|---|
+| Aula digital | Motor central e conteúdo da aula | GitHub Pages, com link conferido |
+| Slides | Uma fonte Quarto, saídas HTML e PowerPoint | HTML no Pages quando cadastrado; PPTX nas exportações |
+| Documento escolar | Modelo de documento e conteúdo por turma | Arquivo editável nas exportações |
+| Material reservado do professor | Canal próprio com acesso adequado | Fora do pacote público |
+
+As alterações em pastas de materiais e publicação disparam o fluxo do Pages. Apenas salvar um HTML no GitHub não comprova que o site foi publicado: confira o deploy e o endereço final. A conexão usa uma versão fixa do motor para evitar mudanças inesperadas e reduzir a repetição de código, sem prometer economia percentual de tokens.

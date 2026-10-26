@@ -5,6 +5,6 @@
 - Quarto 1.10.19: demonstração compilada em HTML Reveal.js e PowerPoint. Arquivos e hashes registrados no manifesto local da produção.
 - PowerPoint: nove slides, incluindo a capa. Renderização por LibreOffice e inspeção visual realizadas. Não foi aberto no Microsoft PowerPoint.
 - HTML: compilação concluída. A inspeção interativa em navegador local ficou pendente por indisponibilidade do executável Chromium. Não declarar navegação conferida a partir da compilação.
-- O fluxo remoto de produção conectada foi criado para execução manual. Sua execução entre repositórios ainda deve ser conferida no Actions; a criação do YAML não comprova execução.
+- Produção conectada remota concluída com sucesso na execução 40379468444 da biblioteca; fluxo geral do motor também passou na execução 40379159805.
 
 Os projetos e instruções estão versionados. As exportações ficam fora das fontes. O exemplo é uma demonstração de infraestrutura, não aula aplicada nem avaliação de estudantes. Não houve publicação de novo site ou envio de e-mail.

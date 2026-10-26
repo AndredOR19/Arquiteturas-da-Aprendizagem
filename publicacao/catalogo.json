@@ -1,0 +1,7 @@
+{
+  "materiais": [
+    {"tipo": "html", "origem": "aulas/21-10-2026-historia-192", "destino": "aulas/21-10-2026-historia-192", "titulo": "História — turma 192"},
+    {"tipo": "html", "origem": "laboratorios/aprender-a-aprender", "destino": "laboratorios/aprender-a-aprender", "titulo": "Laboratório de aprender a aprender"},
+    {"tipo": "slides", "origem": "projetos/demonstracao-slides", "destino": "slides/aprender-a-aprender", "titulo": "Slides — Meu caminho para aprender"}
+  ]
+}

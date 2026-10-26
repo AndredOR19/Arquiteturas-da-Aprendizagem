@@ -38,3 +38,8 @@ Autoria pedagógica: Prof. André de Oliveira Rodrigues.
 - A biblioteca privada é a fonte técnica; este repositório público guarda os conteúdos. Não copie o motor ou credenciais.
 - Leia só os arquivos técnicos pertinentes depois de cumprir a consulta pedagógica obrigatória.
 - Slides: uma ideia por tela, imagens explicativas e aplicação. Confira HTML e PPTX separadamente e mantenha material docente fora dos arquivos públicos.
+
+## Publicação de HTML
+- Publique as aulas HTML no GitHub Pages. Cadastre cada entrega em publicacao/catalogo.json e acompanhe publicar-pages.yml até o deploy.
+- Confirme o endereço público funcional antes de entregar. Preserve os caminhos anteriores de aulas e laboratórios.
+- Somente material discente pode entrar no pacote público; exclua guias, dados de estudantes e respostas docentes reservadas.
