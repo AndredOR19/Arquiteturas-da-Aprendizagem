@@ -2,10 +2,10 @@ name: Publicar aulas no GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ['aulas/**', 'laboratorios/**', 'projetos/**', 'publicacao/**', 'ferramentas/conferir-slides.cjs', '.github/workflows/publicar-pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -40,6 +40,17 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      - name: Aguardar publicação automática anterior
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for tentativa in $(seq 1 60); do
+            pendentes=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs?head_sha=$GITHUB_SHA&per_page=30" --jq '[.workflow_runs[] | select(.name == "pages build and deployment" and .status != "completed")] | length')
+            if [ "$pendentes" = "0" ]; then exit 0; fi
+            sleep 5
+          done
+          echo "A publicação automática anterior ainda está em andamento."
+          exit 1
       - name: Publicar
         id: deploy
         uses: actions/deploy-pages@v4
