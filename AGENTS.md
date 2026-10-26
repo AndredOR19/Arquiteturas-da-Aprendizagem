@@ -31,3 +31,10 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 O diretório base-curricular organiza documentos oficiais e seus metadados. Espaço reservado não significa documento recebido. Use status explícito e proveniência verificável.
 
 Autoria pedagógica: Prof. André de Oliveira Rodrigues.
+
+
+## Produção conectada
+- Consulte ferramentas/README.md e ferramentas/biblioteca.lock.json antes de produzir com o motor central.
+- A biblioteca privada é a fonte técnica; este repositório público guarda os conteúdos. Não copie o motor ou credenciais.
+- Leia só os arquivos técnicos pertinentes depois de cumprir a consulta pedagógica obrigatória.
+- Slides: uma ideia por tela, imagens explicativas e aplicação. Confira HTML e PPTX separadamente e mantenha material docente fora dos arquivos públicos.

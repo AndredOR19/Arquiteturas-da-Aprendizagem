@@ -1,0 +1,13 @@
+:root { --dado: #145ca4; --relacao: #8a5200; --efeito: #167344; --limite: #7044a0; }
+.reveal { font-family: Arial, sans-serif; color: #172b40; font-size: 32px; }
+.reveal h1 { font-size: 2em; color: #123652; }
+.reveal h2 { font-size: 1.55em; color: #123652; }
+.reveal .slides section { text-align: left; }
+.reveal p, .reveal li { line-height: 1.4; }
+.reveal a { color: var(--dado); }
+.reveal img { max-height: 440px; object-fit: contain; }
+.reveal .dado { color: var(--dado); }
+.reveal .relacao { color: var(--relacao); }
+.reveal .efeito { color: var(--efeito); }
+.reveal .limite { color: var(--limite); }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

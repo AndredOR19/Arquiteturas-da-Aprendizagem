@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.3.0 — 26/10/2026
+**Pedido:** conectar a Biblioteca de Diagramação para produzir aulas digitais, materiais e slides, com reutilização e menor repetição de código e instruções.
+
+**Alterações:** seção 20 do prompt; motor central com raiz externa; modelo de slides HTML/PowerPoint; conexão por commit fixado; comando de produção e exemplo transversal de slides; fluxo de produção no repositório privado da biblioteca, sem copiar seu motor para o repositório pedagógico público.
+
+**Verificação:** 13 testes do motor e integração passaram. Demonstração de slides submetida a compilação e conferência próprias. Consulte ferramentas/VERIFICACAO.md para os resultados efetivamente concluídos.
+
+**Limites:** não migra automaticamente aulas antigas, não publica sites nem envia e-mail. Os slides de demonstração não são uma aula curricular aplicada. Economia de tokens não quantificada.
+
 ## 2.2.0 — 26/10/2026
 **Pedido:** laboratório de aprender a aprender na linguagem dos alunos e mural de uma página com dois diagramas paralelos, sem campos de identificação, com QR Code após publicação verificada.
 
@@ -42,3 +51,4 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 - Arquivos e aulas efetivamente alterados:
 - Verificação realizada:
 - Pendências:
+

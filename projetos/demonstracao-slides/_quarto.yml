@@ -1,0 +1,20 @@
+project:
+  type: default
+  render: [index.qmd]
+lang: pt-BR
+execute:
+  enabled: false
+title: Meu caminho para aprender
+author: Prof. André de Oliveira Rodrigues
+format:
+  revealjs:
+    theme: simple
+    css: slides.css
+    width: 1280
+    height: 720
+    slide-number: true
+    transition: none
+    embed-resources: true
+  pptx:
+    slide-level: 2
+    aspect-ratio: 1.7777778

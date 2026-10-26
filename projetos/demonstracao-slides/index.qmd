@@ -1,0 +1,65 @@
+## Uma pergunta que orienta
+
+**O que vou aprender?**
+
+Exemplo de treino: descobrir por que uma planta da sala está murchando.
+
+A pergunta orienta quais informações precisamos procurar.
+
+## O que já sei
+
+**Qual é minha primeira explicação?**
+
+“Acho que faltou água.” Essa é uma ideia inicial que ainda precisa de conferência.
+
+Que outra explicação seria possível?
+
+## O que percebo
+
+**Quais informações consigo observar?**
+
+No exemplo imaginado, a terra está úmida e a planta recebe pouca luz.
+
+Terra úmida enfraquece a ideia de falta de água. Ainda precisamos investigar outras condições.
+
+## O todo e as partes {layout="Title and Content"}
+
+**O que preciso examinar?**
+
+| Parte da situação | Pergunta de observação |
+|---|---|
+| Água | Como está a umidade da terra? |
+| Luz | Onde a planta fica durante o dia? |
+| Tempo | Quando começou a mudança? |
+
+## Como as partes se ligam
+
+**Qual informação apoia minha explicação?**
+
+Observar pouca luz ajuda a levantar uma possibilidade. Essa observação isolada ainda não confirma a causa.
+
+O que precisaria ser comparado antes de concluir?
+
+## Consigo explicar e usar
+
+**Minha explicação tem apoio?**
+
+“Minha ideia é… A informação que a apoia é… Ainda preciso verificar…”
+
+Agora aplique essas perguntas a um tema de História ou a um problema do cotidiano.
+
+## Meu caminho de revisão {layout="Title and Content"}
+
+| Quando isso acontecer | Posso fazer isto |
+|---|---|
+| Minha primeira ideia não combinar com os dados | Voltar às observações e rever a explicação |
+| Eu lembrar palavras, mas não conseguir explicar | Usar um exemplo e mostrar a ligação |
+| Eu conseguir explicar um caso | Tentar outro caso e conferir o que muda |
+
+## Origem deste roteiro
+
+Proposta didática do Prof. André de Oliveira Rodrigues, registrada no prompt mestre, seção 19.
+
+O caso da planta é imaginado para treinar perguntas e revisão de explicações. Não é um experimento realizado.
+
+[Laboratório de aprender a aprender](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/laboratorios/aprender-a-aprender/)

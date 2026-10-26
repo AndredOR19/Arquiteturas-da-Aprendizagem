@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.2.0**  
+Versão vigente: **2.3.0**  
 Atualização: **26/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -264,3 +264,13 @@ A folha para mural tem uma página, sem campos de nome, turma ou data. Apresenta
 A hierarquia interna dos livros é um recurso para orientar leitura e organização do estudo. A hipótese sobre aprendizagem implícita dessa organização precisa de fundamentação; não apresentar reorganização cerebral garantida nem diagnóstico a partir de dispersão de ideias.
 
 Decisão editorial registrada em 26/10/2026: dedicar um livro ao processo de organização do pensamento para a autoaprendizagem, à hierarquia interna da leitura e à formação para a investigação rigorosa. Título definitivo em aberto. Este registro no repositório permite continuidade documental; não implica memória automática de todas as sessões.
+
+
+## 20. Produção conectada e apresentações
+A Biblioteca de Diagramação é o motor central de produção. Este repositório guarda o conteúdo e a metodologia. Consulte ferramentas/README.md e ferramentas/biblioteca.lock.json. Use a revisão fixada, sem copiar ou reescrever o motor em cada aula. A integração não aplica automaticamente as novas regras aos materiais antigos.
+
+Slides também integram as entregas possíveis: HTML Reveal.js e PowerPoint editável. Estruture uma ideia central por tela, contexto, explicação causal, âncoras visuais pertinentes, retomada e aplicação. Adapte a linguagem à turma, use fontes verificadas e preserve a explicação completa em material próprio. Não limite uma aula a telas de tópicos. As cores D/R/E/L mantêm seus significados acompanhadas por rótulos.
+
+O modelo técnico fornece o ponto de partida, não certifica uma aula pronta. Personalize imagens, fundo e diagramação conforme o tema. Confira separadamente HTML e PowerPoint, pois CSS não se transfere ao PPTX. Guias e respostas reservadas ficam fora dos slides públicos, inclusive de suas notas.
+
+Para economizar contexto, após as leituras pedagógicas obrigatórias consulte somente os componentes e instruções técnicas pertinentes. Não releia livros ou fontes de projetos sem relação com a tarefa. Não prometa percentual de economia. Registre mudanças no motor e atualize a revisão da conexão somente após verificação.
