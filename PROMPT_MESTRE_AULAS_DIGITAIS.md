@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.1.0**  
+Versão vigente: **2.2.0**  
 Atualização: **26/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -251,3 +251,16 @@ Status de aplicação:
 Versão deste prompt utilizada:
 
 Execute com autonomia as decisões rotineiras dentro do escopo solicitado. Quando faltar informação essencial, consulte os registros disponíveis e explicite a limitação; não fabrique dados.
+
+## 19. Laboratório de aprender a aprender e mural
+Diretriz de 26/10/2026: valorizar primeiro o benefício de organizar o pensamento e a investigação. Traduzir os nomes das operações em perguntas curtas na linguagem dos estudantes. Usar os sete movimentos: o que vou aprender; o que já sei; o que percebo; como é o todo; quais são as partes; como as partes se ligam; consigo explicar e usar.
+
+O laboratório deve permitir explorar informações, organizar sequências, comparar dados e transferir o caminho para outro assunto. Trabalhar com apoio progressivamente menor, pistas graduadas e explicações antes das tarefas; não reduzir a proposta a uma lista de perguntas. Preservar tentativas e separar apoio, correção e compreensão demonstrada. Nos treinos sem nota, deixar explícito que pistas e erros não geram desconto.
+
+Para este laboratório transversal, não inventar escola, turma, horário, data de aplicação nem códigos curriculares pendentes. A entrada deve identificar o propósito, autoria e modo de uso. Manter aparência, voz, glossário/dicionário, relatório completo e no mínimo 26 percursos, salvo alteração explícita.
+
+A folha para mural tem uma página, sem campos de nome, turma ou data. Apresentar dois diagramas paralelos: Meu caminho para aprender e Como fazemos uma investigação científica. Mostrar aproximações sem declarar equivalência completa. Na ciência, destacar método, evidências, revisão e comunicação dos limites; indicar que as etapas podem se cruzar e retornar. Inserir QR Code somente depois de conferir o endereço público funcional do laboratório.
+
+A hierarquia interna dos livros é um recurso para orientar leitura e organização do estudo. A hipótese sobre aprendizagem implícita dessa organização precisa de fundamentação; não apresentar reorganização cerebral garantida nem diagnóstico a partir de dispersão de ideias.
+
+Decisão editorial registrada em 26/10/2026: dedicar um livro ao processo de organização do pensamento para a autoaprendizagem, à hierarquia interna da leitura e à formação para a investigação rigorosa. Título definitivo em aberto. Este registro no repositório permite continuidade documental; não implica memória automática de todas as sessões.

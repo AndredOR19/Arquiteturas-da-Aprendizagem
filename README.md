@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.1.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.2.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -22,3 +22,6 @@ Cada aperfeiçoamento acordado com o professor deve atualizar o prompt e o hist�
 Estrutura preparada para BNCC, Referencial Curricular Gaúcho, matrizes SEDUC-RS e EJA/EJATEC. Nesta atualização, o cadastro está pendente de incorporação e verificação dos arquivos; não estão sendo anunciados documentos já carregados.
 
 Não incluir senhas, tokens, dados identificáveis de estudantes ou guias docentes que devam permanecer restritos.
+
+## Laboratório de aprender a aprender
+[Código e orientações do laboratório](laboratorios/aprender-a-aprender/README.md). Quatro experiências e 28 passos para treinar organização do estudo, investigação e transferência. O endereço público será registrado após confirmação de GitHub Pages.
