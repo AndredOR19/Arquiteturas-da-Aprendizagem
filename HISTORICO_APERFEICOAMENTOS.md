@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.4.0 — 26/10/2026
+**Pedido:** os slides ficaram pouco desenvolvidos; incorporar Gamma ao processo.
+
+**Alterações:** Gamma como etapa preferencial para slides, com briefing pedagógico, conteúdo e fontes preparados pelo assistente, design/geração pelo Gamma e conferência posterior; Quarto mantido como alternativa técnica. Prompt, orientações e README atualizados. Portal passa a aceitar links HTTPS identificados para apresentações no Gamma.
+
+**Verificação:** geração de uma nova apresentação sobre aprender a aprender iniciada pelo conector Gamma. ID e endereço final registrados em ferramentas/gamma-aprender-a-aprender.json quando disponíveis. Validação local da inclusão do link no portal e acompanhamento do deploy.
+
+**Limites:** o conector da sessão não equivale a uma API instalada no GitHub Actions. Não foram configuradas credenciais Gamma no repositório. Conteúdo Gamma nativo permanece no Gamma; o Pages publica o portal e as aulas HTML.
+
 ## 2.3.1 — 26/10/2026
 **Pedido:** publicar as aulas HTML no GitHub Pages.
 
@@ -60,4 +69,5 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 - Arquivos e aulas efetivamente alterados:
 - Verificação realizada:
 - Pendências:
+
 

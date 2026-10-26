@@ -43,3 +43,10 @@ Autoria pedagógica: Prof. André de Oliveira Rodrigues.
 - Publique as aulas HTML no GitHub Pages. Cadastre cada entrega em publicacao/catalogo.json e acompanhe publicar-pages.yml até o deploy.
 - Confirme o endereço público funcional antes de entregar. Preserve os caminhos anteriores de aulas e laboratórios.
 - Somente material discente pode entrar no pacote público; exclua guias, dados de estudantes e respostas docentes reservadas.
+
+
+## Gamma na produção de apresentações
+- Prefira o conector Gamma disponível para apresentações didáticas visuais, conforme ferramentas/GAMMA.md e seção 22 do prompt.
+- Prepare conteúdo, exemplos e fontes antes da geração. Confira o resultado e corrija profundidade e apoio visual insuficientes.
+- Mantenha o modelo Quarto como alternativa técnica; a demonstração simples não define o padrão final de qualidade.
+- Não confunda o uso do conector nesta sessão com uma API instalada no Actions. Registre apenas o link final, sem credenciais.

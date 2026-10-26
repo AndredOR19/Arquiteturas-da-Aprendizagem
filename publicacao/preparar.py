@@ -6,6 +6,7 @@ import shutil
 import subprocess
 import tempfile
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '_site'
@@ -25,6 +26,13 @@ def main():
     links = []
     destinations = set()
     for item in items:
+        if item['tipo'] == 'link':
+            url = item.get('url', '')
+            parsed = urlparse(url)
+            if parsed.scheme != 'https' or parsed.netloc != 'gamma.app':
+                raise ValueError('Apresentação externa deve usar HTTPS no Gamma.')
+            links.append('<li><a href="' + html.escape(url, quote=True) + '">' + html.escape(item['titulo']) + '</a></li>')
+            continue
         source = safe_path(ROOT, item['origem'])
         dest = safe_path(OUT, item['destino'])
         if dest in destinations:
@@ -66,3 +74,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

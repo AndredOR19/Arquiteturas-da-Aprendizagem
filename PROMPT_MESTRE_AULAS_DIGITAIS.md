@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.3.1**  
+Versão vigente: **2.4.0**  
 Atualização: **26/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -269,7 +269,7 @@ Decisão editorial registrada em 26/10/2026: dedicar um livro ao processo de org
 ## 20. Produção conectada e apresentações
 A Biblioteca de Diagramação é o motor central de produção. Este repositório guarda o conteúdo e a metodologia. Consulte ferramentas/README.md e ferramentas/biblioteca.lock.json. Use a revisão fixada, sem copiar ou reescrever o motor em cada aula. A integração não aplica automaticamente as novas regras aos materiais antigos.
 
-Slides também integram as entregas possíveis: HTML Reveal.js e PowerPoint editável. Estruture uma ideia central por tela, contexto, explicação causal, âncoras visuais pertinentes, retomada e aplicação. Adapte a linguagem à turma, use fontes verificadas e preserve a explicação completa em material próprio. Não limite uma aula a telas de tópicos. As cores D/R/E/L mantêm seus significados acompanhadas por rótulos.
+Slides também integram as entregas possíveis. O Gamma é a opção preferencial para apresentações didáticas visuais quando seu conector estiver disponível; o modelo Quarto fornece a alternativa HTML Reveal.js e PowerPoint editável. Estruture uma ideia central por tela, contexto, explicação causal, âncoras visuais pertinentes, retomada e aplicação. Adapte a linguagem à turma, use fontes verificadas e preserve a explicação completa em material próprio. Não limite uma aula a telas de tópicos. As cores D/R/E/L mantêm seus significados acompanhadas por rótulos.
 
 O modelo técnico fornece o ponto de partida, não certifica uma aula pronta. Personalize imagens, fundo e diagramação conforme o tema. Confira separadamente HTML e PowerPoint, pois CSS não se transfere ao PPTX. Guias e respostas reservadas ficam fora dos slides públicos, inclusive de suas notas.
 
@@ -279,3 +279,13 @@ Para economizar contexto, após as leituras pedagógicas obrigatórias consulte 
 Diretriz expressa do professor: aulas em HTML devem ser publicadas no GitHub Pages do repositório Arquiteturas da Aprendizagem. Após produzir e conferir, cadastre o material discente em publicacao/catalogo.json. O fluxo publicar-pages.yml prepara somente as pastas cadastradas e publica após os testes. Preserve os endereços existentes de aulas e laboratórios.
 
 Uma entrega de aula HTML inclui o endereço público funcional, não apenas o código ou o artefato do Actions. Confira o sucesso do deploy e abra o endereço final antes de declarar publicação concluída. Se houver falha, informe a pendência real. Mantenha biblioteca privada, guias docentes, gabaritos reservados e dados identificáveis dos estudantes fora do pacote público.
+
+
+## 22. Gamma no processo de produção de slides
+O professor considerou os slides de demonstração pouco desenvolvidos e indicou o uso do Gamma. Incorporar o Gamma como etapa preferencial: conteúdo e fontes conferidos pelo assistente, briefing pedagógico, escrita e design pelo Gamma, conferência do resultado, correção quando necessária e registro do endereço final no portal. Consulte ferramentas/GAMMA.md.
+
+O briefing deve pedir explicações desenvolvidas, exemplos concretos, imagens que ensinem e mantenham unidade visual, comparação ou mecanismo visível, pausas de participação, recuperação e transferência. Distribuir a profundidade entre telas legíveis. Não entregar apenas títulos, listas genéricas ou uma apresentação visualmente bonita sem desenvolvimento conceitual. Integrar a AEE e os requisitos ASA pertinentes, sem sobrecarregar estudantes com siglas.
+
+O conector Gamma pode ser usado nas sessões autorizadas em que estiver disponível. Não afirmar que o GitHub Actions chama a API Gamma automaticamente: essa integração independente não foi instalada. Não registrar chaves de API no código, prompt, README ou conteúdo discente.
+
+Aulas HTML continuam no GitHub Pages. Uma apresentação nativa do Gamma pode ser acessada por link no portal, identificado como Gamma. Isso não significa exportação ou hospedagem do conteúdo nativo no Pages. Só prometer PPTX/PDF, incorporação ou outro formato depois de produzir e conferir a entrega solicitada.

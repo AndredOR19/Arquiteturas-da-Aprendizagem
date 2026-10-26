@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.3.1](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.4.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -28,7 +28,7 @@ Não incluir senhas, tokens, dados identificáveis de estudantes ou guias docent
 
 
 ## Produção conectada: aulas, documentos e slides
-[Como usar a Biblioteca de Diagramação](ferramentas/README.md). O motor central usa uma revisão fixada, sem duplicação neste repositório. [Exemplo editável de slides](projetos/demonstracao-slides/index.qmd), com saídas HTML e PowerPoint.
+[Como usar a Biblioteca de Diagramação](ferramentas/README.md). O motor central usa uma revisão fixada, sem duplicação neste repositório. [Demonstração técnica editável em Quarto](projetos/demonstracao-slides/index.qmd), com saídas HTML e PowerPoint.
 
 ## Publicação das aulas
 Aulas HTML devem ser entregues com link funcional no GitHub Pages. `publicacao/catalogo.json` lista o que será publicado; o fluxo `Publicar aulas no GitHub Pages` prepara, testa e publica. Cadastre cada nova aula antes da entrega e preserve o endereço dos materiais existentes.
@@ -43,8 +43,14 @@ Aulas HTML devem ser entregues com link funcional no GitHub Pages. `publicacao/c
 | Entrega | Produção | Disponibilização |
 |---|---|---|
 | Aula digital | Motor central e conteúdo da aula | GitHub Pages, com link conferido |
-| Slides | Uma fonte Quarto, saídas HTML e PowerPoint | HTML no Pages quando cadastrado; PPTX nas exportações |
+| Slides | Gamma como opção preferencial; Quarto como alternativa técnica | Link Gamma no portal; HTML no Pages e PowerPoint quando produzidos pelo modelo local |
 | Documento escolar | Modelo de documento e conteúdo por turma | Arquivo editável nas exportações |
 | Material reservado do professor | Canal próprio com acesso adequado | Fora do pacote público |
 
 Cada atualização na branch main dispara o fluxo do Pages, que aguarda a publicação automática anterior para evitar conflito. Apenas salvar um HTML no GitHub não comprova que o site foi publicado: confira o deploy e o endereço final. A conexão usa uma versão fixa do motor para evitar mudanças inesperadas e reduzir a repetição de código, sem prometer economia percentual de tokens.
+
+
+## Gamma no processo de apresentações
+O Gamma integra o fluxo de slides: o assistente prepara conteúdo e fontes, o Gamma escreve e desenha, e o assistente confere e solicita correções antes de disponibilizar o resultado. [Procedimento e critérios de qualidade](ferramentas/GAMMA.md).
+
+O conector está disponível para uso nas sessões em que houver acesso. Isso não instala uma chave de API no GitHub nem configura geração autônoma pelo Actions. Aulas HTML continuam publicadas no Pages; apresentações nativas Gamma podem ser abertas por links identificados no portal.
