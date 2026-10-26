@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.4.1 — 26/10/2026
+**Pedido:** esclarecer que a entrega desejada é um botão que abre o aplicativo de e-mail com a mensagem pronta, para o aluno conferir e enviar.
+
+**Alterações:** seção 13 exige botão final “Enviar relatório ao professor”, link mailto: com destinatário do professor solicitante, assunto e relatório completo preenchidos. Endereço habitual de André mantido somente para suas solicitações. Acrescentados parâmetro de destinatário e conferência do botão; orientações AGENTS.md alinhadas.
+
+**Verificação:** conferência documental da regra, preservação de prévia/cópia/download e alternativas para limites de tamanho. Abertura do aplicativo não deve ser tratada como confirmação de envio.
+
+**Escopo e pendências:** atualização do prompt e das orientações. Não altera retroativamente os artefatos publicados; implementação e teste dos botões nesses materiais continuam pendentes.
+
 ## 2.4.0 — 26/10/2026
 **Pedido:** os slides ficaram pouco desenvolvidos; incorporar Gamma ao processo.
 
