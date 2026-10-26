@@ -7,7 +7,7 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 
 **Alterações:** Gamma como etapa preferencial para slides, com briefing pedagógico, conteúdo e fontes preparados pelo assistente, design/geração pelo Gamma e conferência posterior; Quarto mantido como alternativa técnica. Prompt, orientações e README atualizados. Portal passa a aceitar links HTTPS identificados para apresentações no Gamma.
 
-**Verificação:** geração de uma nova apresentação sobre aprender a aprender iniciada pelo conector Gamma. ID e endereço final registrados em ferramentas/gamma-aprender-a-aprender.json quando disponíveis. Validação local da inclusão do link no portal e acompanhamento do deploy.
+**Verificação:** nova apresentação gerada e ampliada de 10 para 18 cartões após conferência. Acrescentados livro, comparação científica, pistas, recuperação e transferência; corrigidas afirmações exageradas e removidas notas do orador. Conteúdo e amostras visuais conferidos no navegador; link do laboratório aberto com sucesso. ID e endereço registrados em ferramentas/gamma-aprender-a-aprender.json. Inclusão do link no portal validada localmente, com rejeição de URLs inválidas.
 
 **Limites:** o conector da sessão não equivale a uma API instalada no GitHub Actions. Não foram configuradas credenciais Gamma no repositório. Conteúdo Gamma nativo permanece no Gamma; o Pages publica o portal e as aulas HTML.
 

@@ -54,3 +54,5 @@ Cada atualização na branch main dispara o fluxo do Pages, que aguarda a public
 O Gamma integra o fluxo de slides: o assistente prepara conteúdo e fontes, o Gamma escreve e desenha, e o assistente confere e solicita correções antes de disponibilizar o resultado. [Procedimento e critérios de qualidade](ferramentas/GAMMA.md).
 
 O conector está disponível para uso nas sessões em que houver acesso. Isso não instala uma chave de API no GitHub nem configura geração autônoma pelo Actions. Aulas HTML continuam publicadas no Pages; apresentações nativas Gamma podem ser abertas por links identificados no portal.
+
+[Apresentação ilustrada no Gamma — Meu caminho para aprender](https://gamma.app/docs/Meu-caminho-para-aprender-Laboratorio-de-ideias-7u1ljgpnc3dywz5). A versão ampliada tem 18 cartões e integra o mesmo laboratório de estudo.

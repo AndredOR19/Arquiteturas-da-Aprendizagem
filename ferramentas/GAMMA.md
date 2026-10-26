@@ -19,7 +19,8 @@ O Gamma passa a ser a opção preferencial para apresentações didáticas visua
 - Uma ideia central por tela, distribuindo a profundidade sem transformar a apresentação em um texto corrido.
 - Dado/azul, relação/âmbar, efeito/verde e limite/roxo acompanhados de rótulos, quando pertinentes.
 - Fontes verificadas, sem bibliografia inventada. Situações fictícias e imagens de reconstrução devem ser identificadas.
-- Nenhum guia reservado, gabarito consolidado, dado identificável de estudante ou credencial na apresentação pública.
+- Nenhum guia reservado, gabarito consolidado, dado identificável de estudante ou credencial na apresentação pública. Remova notas do orador geradas automaticamente quando trouxerem bastidores ou conteúdo reservado.
+- Confira o destino real dos links, além do texto visível: URLs com colchetes ou codificação duplicada podem parecer corretas e não abrir o material.
 - Tempo flexível e alternativas de expressão. Hesitar ou gaguejar não comprova falta de compreensão. Conferir relações e evidências, sem diagnósticos a partir da fluência.
 - Na revisão, verificar se o Gamma omitiu conteúdo do briefing ou acrescentou garantias de aprendizagem e fatos sem fonte. Solicitar edição antes de apresentar a geração como material conferido.
 

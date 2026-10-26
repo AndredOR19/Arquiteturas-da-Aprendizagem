@@ -1,0 +1,14 @@
+{
+  "servico": "Gamma",
+  "gamma_id": "7u1ljgpnc3dywz5",
+  "generation_id": "gen_XWfWrgBKuMn3EL1mRVbyJ",
+  "url": "https://gamma.app/docs/Meu-caminho-para-aprender-Laboratorio-de-ideias-7u1ljgpnc3dywz5",
+  "titulo": "Meu caminho para aprender — Laboratório de ideias",
+  "cartoes": 18,
+  "data": "2026-10-26",
+  "tema": "aprender a aprender",
+  "conector": "Gamma disponível ao assistente; sem chave instalada no GitHub Actions",
+  "revisao_conteudo": "Concluída: desenvolvimento ampliado, exemplos fictícios, hierarquia do livro, comparação científica, pistas, recuperação e transferência. Notas do orador removidas.",
+  "conferencia": "Conteúdo lido na página pública. Capa e cartões de livro, pistas e recuperação inspecionados visualmente. Link do laboratório aberto com sucesso.",
+  "ajuste_final": "Fundo azul do rótulo DADO removido e resultado conferido no DOM da página pública. Ambos os rótulos usam texto escuro sobre fundo claro."
+}
