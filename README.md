@@ -24,4 +24,4 @@ Estrutura preparada para BNCC, Referencial Curricular Gaúcho, matrizes SEDUC-RS
 Não incluir senhas, tokens, dados identificáveis de estudantes ou guias docentes que devam permanecer restritos.
 
 ## Laboratório de aprender a aprender
-[Código e orientações do laboratório](laboratorios/aprender-a-aprender/README.md). Quatro experiências e 28 passos para treinar organização do estudo, investigação e transferência. O endereço público será registrado após confirmação de GitHub Pages.
+[Código e orientações do laboratório](laboratorios/aprender-a-aprender/README.md). Quatro experiências e 28 passos para treinar organização do estudo, investigação e transferência. [Abrir o laboratório publicado](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/laboratorios/aprender-a-aprender/). Publicação e abertura conferidas em 26/10/2026.
