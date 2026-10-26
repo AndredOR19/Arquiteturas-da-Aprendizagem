@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.4.0**  
+Versão vigente: **2.4.1**  
 Atualização: **26/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -173,13 +173,15 @@ Registrar separadamente acerto inicial, apoio antes da primeira confirmação, t
 Uma divisão como 20 treinos e 6 aplicações é uma implementação possível, não regra universal. O domínio final após revisão deve aparecer além do indicador inicial. Avaliação do material pelo estudante não compõe a nota.
 
 ## 13. Relatório completo e entrega
-Destinatário habitual autorizado para a opção de entrega: andre-orodrigues@educar.rs.gov.br.
+Ao final de cada artefato digital, incluir o botão **“Enviar relatório ao professor”**. Ao clicar, abrir o aplicativo de e-mail do estudante com destinatário, assunto e corpo preenchidos com o relatório completo. O estudante confere a mensagem e clica em Enviar no aplicativo. Esse é o comportamento solicitado pelo professor; não exige envio automático por servidor ou integração de e-mail.
+
+O destinatário deve ser o e-mail confirmado do professor solicitante do sistema, configurado por aula/instância. Para materiais solicitados pelo Prof. André, o destinatário habitual autorizado é andre-orodrigues@educar.rs.gov.br. Não usar esse endereço para outros professores por padrão nem inventar destinatários.
 
 O relatório deve conter escola, turma, componente, data, título, resumo, habilidades, identificação quando fornecida, progresso, critérios, primeira escolha, acertos iniciais, tentativas, respostas, pistas abertas, consultas, apoio antes da primeira confirmação, recuperação, organização/manipulações pertinentes e avaliação da experiência.
 
 A diretriz é preencher o corpo do e-mail com o **relatório completo**, não somente nota ou resumo. Oferecer prévia, cópia e download. Se houver limite de tamanho, avisar claramente e orientar cópia ou anexo manual; nunca truncar silenciosamente nem apresentar uma mensagem de instruções como se já contivesse o relatório completo.
 
-Não confundir abertura do Gmail com envio. Sem integração implementada e validada, informar que o estudante deve conferir e clicar em Enviar. Não prometer anexo automático.
+Implementar a abertura por link mailto: com destinatário, assunto identificando aula/turma e corpo devidamente codificados. Informar junto ao botão: “Abre seu aplicativo de e-mail com o relatório preenchido. Confira e clique em Enviar.” Abrir o aplicativo não comprova envio: não mostrar “Relatório enviado” nem registrar entrega confirmada apenas pelo clique. Não prometer anexo automático.
 
 Registrar apenas eventos pertinentes da própria página, com informação clara: abertura, retorno, visibilidade e recarregamento quando implementado. Não monitorar outros sites. Mudança de visibilidade não comprova atenção ou desatenção. Diferenciar ausência de registro de zero; não inventar tempos ou eventos.
 
@@ -214,7 +216,7 @@ Verificar:
 - Glossário, dicionário, voz, navegação e contraste.
 - Registro copiável correto para cada turma.
 - Cálculo de indicadores e preservação das primeiras respostas.
-- Relatório completo, exportação e correspondência com o corpo do e-mail quando implementado.
+- Botão final “Enviar relatório ao professor”: destinatário confirmado do solicitante, assunto e corpo completo devidamente codificados; correspondência com a prévia/exportação, alternativas para limites de tamanho e ausência de confirmação falsa de envio.
 - Ausência de guias e segredos no pacote público.
 - Verificação adequada em navegador e publicação quando solicitada ou integrante da entrega.
 
@@ -246,6 +248,7 @@ Habilidades e fonte curricular:
 Modelo visual de referência:
 Documentos/fontes do conteúdo:
 Entregáveis solicitados:
+E-mail confirmado do professor solicitante para entrega do relatório:
 Recursos disponíveis e limitações:
 Status de aplicação:
 Versão deste prompt utilizada:
