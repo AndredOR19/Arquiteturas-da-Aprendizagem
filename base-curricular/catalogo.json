@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "atualizado_em": "2026-10-26",
+  "documentos": [
+    {
+      "id": "bncc",
+      "titulo": "Base Nacional Comum Curricular",
+      "orgao": "MEC",
+      "status": "aguardando_documento",
+      "etapa": null,
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null,
+      "observacao": "Selecionar documento oficial e etapa antes de incorporar."
+    },
+    {
+      "id": "rcg",
+      "titulo": "Referencial Curricular Gaúcho",
+      "orgao": "A conferir no documento",
+      "status": "aguardando_documento",
+      "etapa": null,
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null,
+      "observacao": "Identificar etapa e versão; não confundir com outras matrizes da rede."
+    },
+    {
+      "id": "seduc-rs",
+      "titulo": "Matrizes e orientações curriculares SEDUC-RS",
+      "orgao": "SEDUC-RS",
+      "status": "aguardando_documento",
+      "etapa": null,
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null
+    },
+    {
+      "id": "eja-ejatec",
+      "titulo": "Documentos curriculares EJA/EJATEC",
+      "orgao": "A conferir no documento",
+      "status": "aguardando_documento",
+      "etapa": null,
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null
+    }
+  ]
+}
