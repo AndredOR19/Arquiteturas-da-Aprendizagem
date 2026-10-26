@@ -34,10 +34,6 @@ jobs:
           mkdir -p exportacoes/projetos/demonstracao-slides/revealjs
           cp _site/slides/aprender-a-aprender/index.html exportacoes/projetos/demonstracao-slides/revealjs/index.html
           node ferramentas/conferir-slides.cjs
-      - name: Usar publicação por GitHub Actions
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -f build_type=workflow --silent
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
