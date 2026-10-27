@@ -1,0 +1,717 @@
+{
+  "title": "Conectar & investigar",
+  "subtitle": "Laboratório de observação, associações e práticas experimentais",
+  "modules": [
+    {
+      "name": "Olhar com intenção",
+      "tag": "OBSERVAR",
+      "scene": "observe",
+      "relation": "Objeto → propriedade → registro",
+      "intro": "Observar não é apenas olhar. É escolher uma pergunta e procurar detalhes que possam ajudar a respondê-la. Uma régua permite registrar comprimento; um relógio permite registrar duração. A imagem do instrumento e a palavra que nomeia a medida devem apontar para a mesma ação. Se a pergunta é sobre comprimento, a cor do objeto pode não ajudar. Isso não torna a cor inútil: ela apenas não responde a essa pergunta.",
+      "extra": "Nesta bancada, uma tira aparece ao lado de uma régua. O início da tira coincide com o zero, e o fim coincide com o número 6. Podemos registrar 6 centímetros. Já dizer que a tira é resistente exige outro procedimento: a régua não mede resistência. Uma observação deve ser separada da explicação que imaginamos para ela. Ao registrar, inclua o que foi observado e a unidade quando houver medida. Esses cuidados tornam o registro compreensível para outra pessoa."
+    },
+    {
+      "name": "Conectar para compreender",
+      "tag": "ASSOCIAR",
+      "scene": "connect",
+      "relation": "Pergunta → informação necessária → ação",
+      "intro": "Associar é construir uma ligação com um critério. Uma chave e uma fechadura podem ser relacionadas pela função. Uma folha e uma árvore podem ser relacionadas como parte e conjunto. Uma cena e uma frase podem se corresponder pelo que representam. Não basta que dois desenhos tenham a mesma cor ou estejam próximos. Precisamos conseguir indicar o que os liga. Nesta bancada, as imagens dão referências, e as frases tornam explícita a relação que está sendo construída.",
+      "extra": "Veja um exemplo resolvido: pergunta — quanto tempo durou? Informação necessária — duração. Instrumento — relógio ou cronômetro. A ligação não depende de o relógio ser redondo ou quadrado; depende da função de medir tempo. Primeiro você verá objetos acompanhados de seus nomes. Depois encontrará as mesmas funções em outra aparência. Quando a pista visual muda e você ainda reconhece a ligação, temos uma oportunidade melhor de verificar a aplicação da ideia. Você pode justificar sua escolha apontando uma informação ou selecionando uma explicação."
+    },
+    {
+      "name": "Mudar, testar e comparar",
+      "tag": "EXPERIMENTAR",
+      "scene": "bridge",
+      "relation": "Formato alterado → comparação → resultado limitado",
+      "intro": "Para investigar uma diferença, precisamos planejar a comparação. Aqui usaremos uma ponte de papel simulada. As duas condições mantêm o tipo e o tamanho da tira, a distância entre os apoios e as peças usadas como carga. Alteramos o formato: liso ou dobrado. A pergunta é qual formato suporta mais peças neste modelo. Se mudássemos também papel, distância e peças, ficaria difícil atribuir a diferença observada ao formato. Manter condições comparáveis ajuda a examinar a pergunta escolhida.",
+      "extra": "Os resultados foram programados para este exercício: a tira lisa suporta 2 peças; a dobrada suporta 6. Esses números são dados fictícios do modelo, não previsões de uma ponte real. Teste as duas condições antes de concluir. Uma hipótese é uma explicação provisória; um resultado pode apoiá-la ou exigir revisão. Na investigação real, seria necessário definir o procedimento de falha, repetir os testes e registrar a variação. Não podemos concluir que toda tira dobrada suporta qualquer peso. A conclusão deve respeitar as condições e os limites do que foi examinado."
+    },
+    {
+      "name": "Levar a ideia para outro lugar",
+      "tag": "TRANSFERIR",
+      "scene": "plants",
+      "relation": "Novo caso → mesma relação → justificativa",
+      "intro": "Agora o papel sai de cena. Uma turma quer investigar se a quantidade de água altera o crescimento de plantas. O desafio não é lembrar a cor da ponte: é reconhecer a relação entre pergunta, mudança planejada, condições comparáveis e registro. Para investigar água, precisamos considerar outras condições, como tipo de planta, luz, solo e tempo de observação. Esta bancada trabalha com planos e registros fictícios. Não apresenta uma receita de cultivo nem demonstra que uma quantidade de água serve para qualquer espécie.",
+      "extra": "Suponha que um registro fictício mostre 3 centímetros de crescimento em uma condição e 5 em outra. Isso descreve uma diferença naquele registro. Para interpretar sua causa, precisamos conhecer o plano, as medidas iniciais, as condições e as repetições. Se uma planta ficou na sombra e outra no sol, além de receberem águas diferentes, temos mais de uma explicação possível. Uma conclusão cuidadosa também declara o que falta investigar. O caminho da investigação pode voltar: uma dúvida no resultado pode exigir nova pergunta, outro registro ou revisão do teste. Terminar os cliques não substitui explicar uma relação para outra pessoa."
+    }
+  ],
+  "tasks": [
+    {
+      "m": 0,
+      "type": "choice",
+      "title": "O que está diante de você?",
+      "teach": "Comece pelos detalhes que a cena permite conferir. A tira está sobre uma régua, com início no zero e fim no seis. Sua resistência ainda não foi testada. Separar o que vemos do que imaginamos evita transformar uma suposição em registro.",
+      "prompt": "Qual frase registra uma observação da cena?",
+      "options": [
+        "A tira aguenta qualquer peso.",
+        "A tira mede 6 cm na régua.",
+        "A tira é feita do melhor material."
+      ],
+      "answer": 1,
+      "why": "O comprimento pode ser conferido na régua. Resistência e qualidade exigiriam outros critérios e testes.",
+      "hints": [
+        "Olhe o começo e o fim da tira.",
+        "A régua mostra centímetros.",
+        "O fim coincide com 6 e o começo com 0."
+      ]
+    },
+    {
+      "m": 0,
+      "type": "match",
+      "title": "Ligue instrumento e informação",
+      "teach": "Cada instrumento oferece um tipo de informação. Veja o exemplo: a régua acompanha uma marca de comprimento. Agora relacione as demais imagens às medidas. Leia o nome junto ao desenho: a função é a pista principal, não a forma do ícone.",
+      "prompt": "Escolha uma informação para cada instrumento.",
+      "options": [],
+      "answer": [
+        1,
+        2,
+        0
+      ],
+      "why": "A régua registra comprimento, o relógio duração e a balança massa. A associação usa a função de cada instrumento.",
+      "hints": [
+        "Leia os nomes abaixo dos desenhos.",
+        "Duração responde a “quanto tempo?”.",
+        "Comprimento combina com régua; massa, com balança."
+      ],
+      "items": [
+        [
+          "ruler",
+          "Régua"
+        ],
+        [
+          "clock",
+          "Relógio"
+        ],
+        [
+          "scale",
+          "Balança"
+        ]
+      ],
+      "targets": [
+        "Massa",
+        "Comprimento",
+        "Duração"
+      ]
+    },
+    {
+      "m": 0,
+      "type": "choice",
+      "title": "Encontre a unidade",
+      "teach": "Um número isolado pode deixar a medida incompleta. Dizer “seis” não informa se falamos de minutos, centímetros ou gramas. A unidade acompanha a grandeza e permite que outra pessoa interprete o registro. Observe as marcas da régua.",
+      "prompt": "Qual registro responde à pergunta “qual é o comprimento?”",
+      "options": [
+        "6 minutos",
+        "6 gramas",
+        "6 centímetros"
+      ],
+      "answer": 2,
+      "why": "Centímetro é uma unidade de comprimento. O instrumento e a unidade precisam corresponder à pergunta.",
+      "hints": [
+        "Observe a palavra comprimento.",
+        "Minutos indicam duração.",
+        "A régua está marcada em centímetros."
+      ]
+    },
+    {
+      "m": 0,
+      "type": "multi",
+      "title": "Selecione o que ajuda",
+      "teach": "Uma pergunta direciona a observação. Para comparar o comprimento de duas tiras, precisamos registrar a medida de cada uma com um procedimento compatível. A cor pode ser descrita, mas não substitui a medida que responde à pergunta.",
+      "prompt": "Marque as duas informações necessárias para comparar comprimentos.",
+      "options": [
+        "Medida da tira A em cm.",
+        "Cor favorita de quem mede.",
+        "Medida da tira B em cm.",
+        "Nome de quem achou a tira bonita."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "why": "As duas medidas, na mesma unidade, permitem a comparação pedida. Os outros dados não informam o comprimento.",
+      "hints": [
+        "Precisamos de informação sobre as duas tiras.",
+        "Use a mesma unidade.",
+        "Marque as medidas de A e B."
+      ]
+    },
+    {
+      "m": 0,
+      "type": "order",
+      "title": "Organize a medição",
+      "teach": "Uma sequência organizada permite repetir a observação. Primeiro posicione a referência; depois leia a marca; por fim registre o valor com unidade. Essa é uma ordem útil para esta tarefa, não uma regra única para todas as investigações.",
+      "prompt": "Use as setas para ordenar as ações.",
+      "options": [],
+      "answer": [
+        1,
+        2,
+        0
+      ],
+      "why": "Alinhar no zero evita contar a partir de uma referência errada. Ler e registrar completam o procedimento.",
+      "hints": [
+        "Qual ação prepara a leitura?",
+        "O registro vem depois da leitura.",
+        "Alinhar → ler → registrar."
+      ],
+      "items": [
+        "Registrar o valor em centímetros.",
+        "Alinhar o início da tira no zero.",
+        "Ler a marca no fim da tira."
+      ]
+    },
+    {
+      "m": 0,
+      "type": "choice",
+      "title": "Dado ou explicação?",
+      "teach": "Um dado é um registro produzido por observação ou medição. Uma interpretação busca dar sentido ao dado. Se encontramos uma tira de seis centímetros, ainda não sabemos por que ela foi cortada nesse tamanho. Precisamos de outra informação para explicar a intenção.",
+      "prompt": "Qual frase é uma interpretação ainda não verificada?",
+      "options": [
+        "A tira começa na marca zero.",
+        "A régua indica 6 cm.",
+        "A tira foi cortada assim para fazer uma ponte."
+      ],
+      "answer": 2,
+      "why": "A intenção do corte não aparece na medida. É uma possibilidade que precisaria de outra fonte.",
+      "hints": [
+        "Procure uma frase sobre uma intenção.",
+        "A régua não informa o objetivo de quem cortou.",
+        "“Para fazer uma ponte” é a explicação ainda não conferida."
+      ]
+    },
+    {
+      "m": 0,
+      "type": "choice",
+      "title": "A aparência mudou",
+      "teach": "Uma fita métrica pode ter outra forma e continuar medindo comprimento. Reconhecer a função além do desenho ajuda a levar a associação para outro contexto. O instrumento escolhido deve continuar adequado à pergunta.",
+      "prompt": "Você quer medir o comprimento de uma mesa. Qual recurso corresponde à tarefa?",
+      "options": [
+        "Uma fita métrica.",
+        "Um cronômetro.",
+        "Uma balança de cozinha."
+      ],
+      "answer": 0,
+      "why": "A fita métrica mede comprimento, mesmo tendo aparência diferente da régua.",
+      "hints": [
+        "O que precisamos saber sobre a mesa?",
+        "A pergunta não é sobre massa nem tempo.",
+        "Procure outro instrumento de comprimento."
+      ],
+      "scene": "tape"
+    },
+    {
+      "m": 1,
+      "type": "match",
+      "title": "Qual ligação faz sentido?",
+      "teach": "Dois objetos podem se relacionar pela função ou pela posição em um conjunto. A chave permite abrir uma fechadura compatível; a folha integra uma árvore; o livro pode integrar uma biblioteca. São relações diferentes: nomeá-las ajuda a compreender cada associação.",
+      "prompt": "Associe cada imagem ao elemento correspondente.",
+      "options": [],
+      "answer": [
+        2,
+        0,
+        1
+      ],
+      "why": "Você associou função e parte–conjunto. Estar próximo ou ter a mesma cor não é o critério.",
+      "hints": [
+        "Leia os nomes dos três elementos.",
+        "Uma folha faz parte de uma árvore.",
+        "Chave–fechadura; folha–árvore; livro–biblioteca."
+      ],
+      "items": [
+        [
+          "key",
+          "Chave"
+        ],
+        [
+          "leaf",
+          "Folha"
+        ],
+        [
+          "book",
+          "Livro"
+        ]
+      ],
+      "targets": [
+        "Árvore",
+        "Biblioteca",
+        "Fechadura"
+      ]
+    },
+    {
+      "m": 1,
+      "type": "choice",
+      "title": "Nomeie a relação",
+      "teach": "A imagem mostra uma folha destacada ao lado de uma árvore. A palavra que liga as duas informa como pensar essa proximidade. Uma seta sem legenda pode esconder relações muito diferentes. Precisamos dizer o que a seta representa.",
+      "prompt": "Qual frase nomeia a relação folha–árvore?",
+      "options": [
+        "A folha mede o tempo da árvore.",
+        "A folha é uma parte da árvore.",
+        "A folha prova que a árvore não precisa de água."
+      ],
+      "answer": 1,
+      "why": "“É parte de” nomeia uma relação entre uma parte e um conjunto. Não é uma medida nem uma prova causal.",
+      "hints": [
+        "Observe a ideia de parte e conjunto.",
+        "A folha pertence à estrutura da planta.",
+        "Procure “é uma parte”."
+      ]
+    },
+    {
+      "m": 1,
+      "type": "match",
+      "title": "Da pergunta à ação",
+      "teach": "Perguntas diferentes pedem informações diferentes. Se queremos duração, observamos o tempo. Se queremos comprimento, comparamos uma extensão com uma unidade. O exemplo resolvido da bancada fornece esse caminho; agora complete as correspondências sem depender da posição dos cartões.",
+      "prompt": "Ligue cada pergunta ao procedimento adequado.",
+      "options": [],
+      "answer": [
+        1,
+        0,
+        2
+      ],
+      "why": "Cada ação produz o tipo de informação solicitado pela pergunta.",
+      "hints": [
+        "Observe “tempo”, “comprimento” e “massa”.",
+        "Medir massa pede balança.",
+        "Tempo–cronômetro; comprimento–régua; massa–balança."
+      ],
+      "items": [
+        [
+          "clock",
+          "Quanto tempo durou?"
+        ],
+        [
+          "ruler",
+          "Qual o comprimento?"
+        ],
+        [
+          "scale",
+          "Qual a massa?"
+        ]
+      ],
+      "targets": [
+        "Usar uma régua.",
+        "Usar um cronômetro.",
+        "Usar uma balança."
+      ]
+    },
+    {
+      "m": 1,
+      "type": "order",
+      "title": "Uma ligação por vez",
+      "teach": "Podemos decompor uma tarefa em ações menores e depois reuni-las. Para medir, primeiro reconhecemos a pergunta, escolhemos o recurso adequado e produzimos um registro. Dividir a tarefa ajuda a localizar onde uma escolha deixou de responder ao objetivo.",
+      "prompt": "Ordene o caminho para obter uma medida.",
+      "options": [],
+      "answer": [
+        2,
+        0,
+        1
+      ],
+      "why": "O objetivo orienta a escolha do instrumento, e o instrumento permite produzir o registro.",
+      "hints": [
+        "O começo precisa dizer o que queremos saber.",
+        "Medir e registrar vem depois da escolha.",
+        "Pergunta → instrumento → registro."
+      ],
+      "items": [
+        "Escolher um instrumento adequado.",
+        "Medir e registrar com unidade.",
+        "Identificar o que queremos saber."
+      ]
+    },
+    {
+      "m": 1,
+      "type": "choice",
+      "title": "Cuidado com a pista bonita",
+      "teach": "Cores podem ajudar a localizar elementos, mas não definem sozinhas a relação. Imagine uma régua e um relógio pintados de verde. Eles têm uma propriedade visual em comum, mas continuam oferecendo informações diferentes. A tarefa determina qual semelhança importa.",
+      "prompt": "Os dois são verdes. Isso significa que medem a mesma coisa?",
+      "options": [
+        "Sim, a cor define a função.",
+        "Sim, qualquer instrumento mede tempo.",
+        "Não; precisamos observar a função de cada um."
+      ],
+      "answer": 2,
+      "why": "Uma pista visual compartilhada não substitui o critério funcional. Cor pode orientar, mas a relação precisa ser explicada.",
+      "hints": [
+        "Separe aparência e função.",
+        "Mudar a pintura não transforma régua em relógio.",
+        "Verifique o que cada instrumento mede."
+      ]
+    },
+    {
+      "m": 1,
+      "type": "choice",
+      "title": "Explique a escolha",
+      "teach": "A justificativa torna a associação examinável por outra pessoa. Dizer “escolhi porque estava à direita” informa uma posição. Dizer “escolhi porque mede duração” mostra a relação entre o recurso e a pergunta. Podemos indicar essa razão sem escrever uma redação.",
+      "prompt": "Por que usar um cronômetro numa corrida?",
+      "options": [
+        "Porque a duração responde a quanto tempo a corrida levou.",
+        "Porque o desenho estava na primeira posição.",
+        "Porque todos os participantes gostam da mesma cor."
+      ],
+      "answer": 0,
+      "why": "A razão está ligada à pergunta sobre duração, não à posição ou preferência.",
+      "hints": [
+        "Procure uma razão que responda à tarefa.",
+        "A corrida tem início e fim no tempo.",
+        "O cronômetro registra a duração."
+      ]
+    },
+    {
+      "m": 1,
+      "type": "choice",
+      "title": "Leve a associação para outra cena",
+      "teach": "Agora o desenho não apresenta um relógio de ponteiros. Um celular mostra um cronômetro digital. O formato mudou, mas a operação continua sendo medir a duração. A aplicação depende de reconhecer a função em outro suporte.",
+      "prompt": "Para registrar a duração de uma música, qual função do celular usar?",
+      "options": [
+        "Ajustar o brilho.",
+        "Abrir o cronômetro.",
+        "Ver o tamanho do arquivo sem tocar a música."
+      ],
+      "answer": 1,
+      "why": "Você reconheceu uma função conhecida em uma aparência diferente.",
+      "hints": [
+        "A pergunta é sobre tempo decorrido.",
+        "A forma do instrumento pode mudar.",
+        "Use a função que marca início e fim."
+      ],
+      "scene": "digital"
+    },
+    {
+      "m": 2,
+      "type": "choice",
+      "title": "Faça uma pergunta investigável",
+      "teach": "A bancada permite comparar dois formatos de papel. Uma pergunta útil precisa corresponder ao que podemos variar e registrar. Perguntar pela segurança de todas as pontes do mundo excederia este modelo. Delimitar a pergunta ajuda a planejar uma resposta possível.",
+      "prompt": "Qual pergunta esta simulação pode explorar?",
+      "options": [
+        "Qual ponte é a mais bonita do mundo?",
+        "Papel nunca quebra?",
+        "Qual formato suporta mais peças neste modelo?"
+      ],
+      "answer": 2,
+      "why": "O modelo permite comparar formato e quantidade de peças, com alcance limitado.",
+      "hints": [
+        "Veja o que muda na bancada.",
+        "O resultado será uma quantidade de peças.",
+        "Limite a pergunta a este modelo."
+      ]
+    },
+    {
+      "m": 2,
+      "type": "match",
+      "title": "Separe três funções",
+      "teach": "Planejar uma comparação exige distinguir o que mudamos, o que mantemos comparável e o que observamos no resultado. Essas funções não são a mesma coisa. Leia os rótulos próximos aos desenhos e relacione cada elemento à sua função neste teste.",
+      "prompt": "Associe cada elemento ao seu papel.",
+      "options": [],
+      "answer": [
+        2,
+        0,
+        1
+      ],
+      "why": "O formato varia; o tipo de papel permanece; a quantidade suportada é o resultado observado.",
+      "hints": [
+        "Qual elemento tem duas versões?",
+        "As peças suportadas informam o resultado.",
+        "Formato muda; papel se mantém; quantidade é registrada."
+      ],
+      "items": [
+        [
+          "fold",
+          "Formato liso ou dobrado"
+        ],
+        [
+          "paper",
+          "Tipo de papel"
+        ],
+        [
+          "blocks",
+          "Peças suportadas"
+        ]
+      ],
+      "targets": [
+        "Manter comparável.",
+        "Observar e registrar.",
+        "Alterar para comparar."
+      ]
+    },
+    {
+      "m": 2,
+      "type": "sim",
+      "title": "Experimente os dois formatos",
+      "teach": "Antes de interpretar, produza os registros disponíveis. Acione as duas condições na bancada. A imagem mantém os mesmos apoios e altera o formato do papel. Os números são programados para este exercício e não substituem uma experiência real.",
+      "prompt": "Teste liso e dobrado. Qual registro corresponde ao modelo?",
+      "options": [
+        "Liso: 6; dobrado: 2.",
+        "Liso: 2; dobrado: 6.",
+        "Os dois suportam 10."
+      ],
+      "answer": 1,
+      "why": "Os dois testes fornecem uma comparação: 2 e 6 peças nas condições programadas.",
+      "hints": [
+        "Acione os dois botões da bancada.",
+        "Compare as quantidades apresentadas.",
+        "Liso suporta 2; dobrado suporta 6."
+      ]
+    },
+    {
+      "m": 2,
+      "type": "multi",
+      "title": "Proteja a comparação",
+      "teach": "Se queremos investigar formato, outras diferenças não devem ser acrescentadas sem controle. Usar papel maior em uma condição, além de dobrá-lo, mistura mudanças. Manter comparáveis as condições relevantes permite uma interpretação mais cuidadosa do resultado.",
+      "prompt": "Marque três condições a manter comparáveis.",
+      "options": [
+        "Tipo e tamanho do papel.",
+        "Distância entre os apoios.",
+        "Tipo das peças usadas como carga.",
+        "Formato liso ou dobrado."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "why": "O formato é a diferença investigada. Papel, apoios e carga precisam permitir comparação.",
+      "hints": [
+        "Uma opção precisa variar.",
+        "Queremos comparar formatos.",
+        "Marque papel, distância e peças."
+      ]
+    },
+    {
+      "m": 2,
+      "type": "order",
+      "title": "Do plano ao registro",
+      "teach": "Uma hipótese orienta o que esperamos encontrar, mas não escolhe o resultado. Definir o procedimento antes de comparar ajuda a evitar mudanças oportunistas. Depois do teste, o registro pode exigir revisão da ideia inicial. A investigação pode retornar a etapas anteriores.",
+      "prompt": "Ordene uma sequência útil para este teste.",
+      "options": [],
+      "answer": [
+        1,
+        2,
+        0
+      ],
+      "why": "Definimos a comparação, realizamos os dois testes e então confrontamos os registros.",
+      "hints": [
+        "O planejamento precisa vir antes da execução.",
+        "A comparação dos registros vem após os testes.",
+        "Planejar → testar → comparar."
+      ],
+      "items": [
+        "Comparar os registros e avaliar a ideia.",
+        "Definir pergunta e condições comparáveis.",
+        "Testar as duas condições e registrar."
+      ]
+    },
+    {
+      "m": 2,
+      "type": "choice",
+      "title": "Diga o que o resultado permite",
+      "teach": "Uma conclusão precisa corresponder ao alcance dos registros. Neste modelo, o formato dobrado suporta mais peças. Não testamos todos os papéis nem cargas infinitas. Indicar o limite faz parte de uma explicação que outra pessoa pode examinar.",
+      "prompt": "Qual conclusão respeita os registros?",
+      "options": [
+        "Neste modelo, o dobrado suportou mais peças que o liso.",
+        "Qualquer papel dobrado suporta qualquer peso.",
+        "Uma ponte real suportará exatamente 6 pessoas."
+      ],
+      "answer": 0,
+      "why": "A conclusão se refere ao modelo, sem transformar peças fictícias em previsão de uso real.",
+      "hints": [
+        "Procure a expressão “neste modelo”.",
+        "Pessoas não são as peças da simulação.",
+        "A comparação não vale para todo papel."
+      ]
+    },
+    {
+      "m": 2,
+      "type": "choice",
+      "title": "E se os testes reais variarem?",
+      "teach": "Em uma investigação real, repetições podem apresentar resultados diferentes. Essa variação não deve ser escondida. Registrar o procedimento e os resultados ajuda a identificar diferenças nas condições e a avaliar a consistência da comparação.",
+      "prompt": "Num teste real, uma repetição deu resultado diferente. O que fazer?",
+      "options": [
+        "Apagar o resultado diferente.",
+        "Escolher só o número que confirma a ideia.",
+        "Registrar a diferença e revisar condições e procedimento."
+      ],
+      "answer": 2,
+      "why": "Rever o procedimento e manter os registros permite investigar a variação sem fabricar confirmação.",
+      "hints": [
+        "Um resultado inesperado também informa algo.",
+        "Não esconda registros.",
+        "Registre e examine o que pode ter mudado."
+      ]
+    },
+    {
+      "m": 3,
+      "type": "choice",
+      "title": "A mesma pergunta, outro material",
+      "teach": "A turma agora investiga água e crescimento. Os objetos mudaram, mas a estrutura da comparação continua relevante. Escolher uma pergunta delimitada ajuda a definir o que variar e observar. Não é possível responder por todas as plantas a partir de um único par.",
+      "prompt": "Qual pergunta pode orientar um teste delimitado?",
+      "options": [
+        "Toda planta cresce igual?",
+        "Como duas quantidades de água se relacionam ao crescimento nestas condições?",
+        "Qual planta é a mais feliz?"
+      ],
+      "answer": 1,
+      "why": "A pergunta delimita a mudança e o resultado a registrar.",
+      "hints": [
+        "Qual fator a turma quer investigar?",
+        "O registro será crescimento.",
+        "Relacione quantidade de água e crescimento nas condições definidas."
+      ]
+    },
+    {
+      "m": 3,
+      "type": "match",
+      "title": "Recupere as funções sem a ponte",
+      "teach": "A relação entre mudança, condições e resultado não depende do papel. Num plano sobre água e plantas, precisamos reconhecer essas funções novamente. Agora as imagens apenas identificam os elementos; a correspondência precisa ser recuperada pelo seu papel na investigação.",
+      "prompt": "Associe cada elemento à sua função no plano.",
+      "options": [],
+      "answer": [
+        1,
+        2,
+        0
+      ],
+      "why": "Água é o fator variado; luz precisa ser comparável; crescimento é a medida observada.",
+      "hints": [
+        "Qual fator a pergunta destaca?",
+        "Crescimento é o resultado observado.",
+        "Água varia; luz se mantém comparável; crescimento se registra."
+      ],
+      "items": [
+        [
+          "water",
+          "Quantidade de água"
+        ],
+        [
+          "sun",
+          "Condição de luz"
+        ],
+        [
+          "plant",
+          "Crescimento em cm"
+        ]
+      ],
+      "targets": [
+        "Resultado a registrar.",
+        "Fator que vamos variar.",
+        "Outra condição a comparar."
+      ]
+    },
+    {
+      "m": 3,
+      "type": "choice",
+      "title": "Encontre uma comparação confundida",
+      "teach": "Um plano coloca uma planta na sombra e outra no sol. Também fornece quantidades diferentes de água. Se houver diferença no crescimento, luz e água serão explicações possíveis. Reconhecer mais de uma mudança evita atribuir o resultado a uma única causa sem base suficiente.",
+      "prompt": "Por que esse plano dificulta investigar só a água?",
+      "options": [
+        "Porque luz e água mudaram juntas.",
+        "Porque toda planta precisa ter a mesma cor.",
+        "Porque medir não ajuda nenhuma investigação."
+      ],
+      "answer": 0,
+      "why": "Duas mudanças relevantes impedem isolar facilmente a interpretação sobre água.",
+      "hints": [
+        "Conte quantas condições mudaram.",
+        "Uma planta ficou no sol e outra na sombra.",
+        "Além da água, também mudou a luz."
+      ]
+    },
+    {
+      "m": 3,
+      "type": "choice",
+      "title": "Leia o registro antes de explicar",
+      "teach": "Considere os dados fictícios: crescimento de 3 cm na condição A e 5 cm na B. Esses valores descrevem uma diferença. A explicação causal depende de como o teste foi planejado e executado. Observar mais crescimento não revela sozinho todos os fatores envolvidos.",
+      "prompt": "Qual afirmação descreve diretamente esses dados?",
+      "options": [
+        "B sempre será melhor em qualquer lugar.",
+        "A planta A não recebeu luz.",
+        "B cresceu 2 cm a mais que A neste registro."
+      ],
+      "answer": 2,
+      "why": "5 menos 3 corresponde a 2 cm. A afirmação se limita ao registro fornecido.",
+      "hints": [
+        "Compare 3 e 5.",
+        "O enunciado não informou falta de luz.",
+        "A diferença registrada é de 2 centímetros."
+      ],
+      "scene": "growth"
+    },
+    {
+      "m": 3,
+      "type": "multi",
+      "title": "O que falta saber?",
+      "teach": "A diferença registrada pode gerar novas perguntas. Para avaliar uma explicação sobre água, precisamos conhecer outras condições e a consistência do resultado. Buscar essas informações ajuda a interpretar a comparação; elas não podem ser substituídas por preferência pela imagem.",
+      "prompt": "Marque duas informações relevantes para avaliar o plano.",
+      "options": [
+        "Se as condições de luz eram comparáveis.",
+        "Qual desenho da planta ficou mais bonito.",
+        "Se houve repetições e como variaram os resultados.",
+        "A cor favorita de quem montou o gráfico."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "why": "Condições e repetições ajudam a avaliar a interpretação. Beleza e preferência não respondem ao problema.",
+      "hints": [
+        "O que pode alterar a interpretação do crescimento?",
+        "Precisamos conhecer condições e consistência.",
+        "Marque luz e repetições."
+      ]
+    },
+    {
+      "m": 3,
+      "type": "choice",
+      "title": "Justifique com evidência e limite",
+      "teach": "Uma boa justificativa conecta registro, interpretação e alcance. É possível reconhecer uma diferença e, ao mesmo tempo, indicar que faltam condições para explicar sua causa. Essa combinação mantém a conclusão aberta a revisão sem ignorar o que foi observado.",
+      "prompt": "Qual explicação é mais cuidadosa?",
+      "options": [
+        "A figura maior prova que toda planta precisa de mais água.",
+        "B cresceu mais neste registro; precisamos examinar condições e repetições para avaliar a relação com a água.",
+        "Se o desenho é verde, qualquer conclusão está certa."
+      ],
+      "answer": 1,
+      "why": "A frase usa o registro e declara o que ainda precisa ser examinado.",
+      "hints": [
+        "Procure dado e limite na mesma frase.",
+        "Evite conclusões sobre toda planta.",
+        "A diferença existe; a explicação exige conhecer o teste."
+      ]
+    },
+    {
+      "m": 3,
+      "type": "choice",
+      "title": "Sua próxima investigação",
+      "teach": "O laboratório termina com uma situação diferente: comparar materiais para reduzir o som que atravessa uma caixa. Não faremos esse teste aqui. Você deve transferir o cuidado de definir a pergunta, manter condições comparáveis e registrar o resultado. O material será o fator escolhido para variar.",
+      "prompt": "Qual plano permite uma comparação mais cuidadosa?",
+      "options": [
+        "Mesma caixa, mesma fonte sonora e mesma posição de medida; variar o material e repetir registros.",
+        "Trocar caixa, volume, distância e material de uma vez.",
+        "Escolher o material de que você mais gosta sem testar."
+      ],
+      "answer": 0,
+      "why": "Você aplicou a relação em outro contexto: variar um fator relevante e cuidar das demais condições. Explique essa ligação a um colega.",
+      "hints": [
+        "Qual fator queremos comparar?",
+        "Trocar tudo dificulta interpretar a diferença.",
+        "Mantenha fonte, caixa e medida comparáveis; varie o material."
+      ],
+      "scene": "sound"
+    }
+  ],
+  "glossary": {
+    "Associação": "Ligação entre elementos segundo um critério: função, parte–todo, comparação ou outro.",
+    "Dado": "Registro de observação ou medição que pode ser examinado.",
+    "Evidência": "Informação usada para avaliar uma explicação.",
+    "Hipótese": "Explicação provisória que pode ser confrontada com registros.",
+    "Variável": "Característica ou condição que pode assumir valores diferentes.",
+    "Transferência": "Uso de uma relação ou procedimento em outra situação.",
+    "Simulação": "Modelo programado que representa alguns aspectos de uma situação.",
+    "Condição comparável": "Condição mantida suficientemente semelhante para ajudar a interpretar uma comparação."
+  },
+  "dictionary": {
+    "Comparar": "Identificar semelhanças e diferenças segundo um critério.",
+    "Ordenar": "Colocar elementos numa sequência com sentido.",
+    "Justificar": "Indicar a razão ou informação que sustenta uma escolha.",
+    "Registrar": "Guardar uma observação de modo que possa ser consultada.",
+    "Provisório": "Que pode ser revisto.",
+    "Limite": "O que os registros ainda não permitem afirmar."
+  }
+}

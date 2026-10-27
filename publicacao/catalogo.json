@@ -34,6 +34,12 @@
       "origem": "aulas/27-10-2026-ensino-religioso-192",
       "destino": "aulas/27-10-2026-ensino-religioso-192",
       "titulo": "Ensino Religioso 192 — Conviver com quem pensa diferente"
+    },
+    {
+      "tipo": "html",
+      "origem": "laboratorios/conectar-investigar",
+      "destino": "laboratorios/conectar-investigar",
+      "titulo": "Conectar e investigar — laboratório de práticas experimentais"
     }
   ]
 }
