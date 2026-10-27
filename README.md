@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.4.2](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.5.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -11,6 +11,11 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 
 ## Diretriz vigente
 Preservar o modelo visual aprovado de 19/10, com texto explicativo ampliado, referências verificáveis e âncoras visuais que representem o conteúdo. Integrar AEE, MACI, ARN, SVS, EPC e SSS/ASA. Aulas digitais com no mínimo 26 percursos, pistas graduadas, glossário, dicionário e relatório completo.
+
+## Design de associações — atualização 2.5.0
+A partir de 27/10/2026, novas produções e revisões devem seguir a seção 6.1 do prompt: relações perceptíveis entre imagem e linguagem, referências estáveis, sinais redundantes, interação acessível, retirada gradual de pistas e aplicação em novo contexto. Preservar D/R/E/L e adaptar a disposição ao conteúdo. Registro documental não altera automaticamente aulas anteriores.
+
+[Esboço do novo livro — Arquitetura das Associações](livros/arquitetura-das-associacoes/ESBOCO.md), título provisório, de André de Oliveira Rodrigues. Inclui proposta, 14 capítulos, instrumentos e roteiro para contribuições do autor.
 
 ## Modelos existentes
 As capturas MHTML de 19/10 e 15–16/10 permanecem como referências de interface e evolução. Capturas podem não conter todas as interações do aplicativo; o prompt vigente define os requisitos atuais.
