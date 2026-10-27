@@ -11,3 +11,6 @@ Produção: tipo HTML livre pelo motor central fixado em ferramentas/biblioteca.
 Habilidade em síntese didática: EM13CHS602 — autoritarismo e organização social em defesa da democracia; síntese didática da habilidade. Correspondência com matriz escolar e RCG pendente de conferência.
 
 Fontes e cenários fictícios identificados na interface.
+
+Endereço publicado e aberto em navegador: https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/27-10-2026-historia-231/
+QR Codes PNG e SVG gerados com esse endereço após a conferência.
