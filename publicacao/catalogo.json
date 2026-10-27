@@ -22,6 +22,18 @@
       "origem": "projetos/demonstracao-slides",
       "destino": "slides/aprender-a-aprender",
       "titulo": "Demonstração técnica — slides HTML/PowerPoint"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/27-10-2026-historia-231",
+      "destino": "aulas/27-10-2026-historia-231",
+      "titulo": "História 231 — Ditadura e redemocratização"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/27-10-2026-ensino-religioso-192",
+      "destino": "aulas/27-10-2026-ensino-religioso-192",
+      "titulo": "Ensino Religioso 192 — Conviver com quem pensa diferente"
     }
   ]
 }

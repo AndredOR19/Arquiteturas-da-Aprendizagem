@@ -1,0 +1,688 @@
+{
+  "id": "27-10-2026-ensino-religioso-192",
+  "titulo": "Conviver com quem pensa diferente",
+  "pergunta": "Podemos discordar e continuar garantindo os mesmos direitos?",
+  "escola": "Escola Bernardina Padilha",
+  "turma": "192",
+  "componente": "Ensino Religioso",
+  "data": "27/10/2026",
+  "status": "Planejada",
+  "habilidades": [
+    "EF09ER06 — coexistência ética e respeito à vida e à dignidade humana; síntese didática da habilidade."
+  ],
+  "resumo": "Estudo da coexistência ética, distinguindo discordância e discriminação, com análise de situações fictícias e intervenções para garantir dignidade e participação.",
+  "contexto": "Imagine uma turma em que todos podem participar de um trabalho, mas não precisam ter a mesma opinião. Algumas pessoas seguem uma tradição religiosa; outras não têm religião; outras estão elaborando suas convicções. Aprender a conviver começa por reconhecer essa diversidade sem transformar alguém em representante obrigatório de um grupo. Nesta aula, não vamos decidir qual crença é verdadeira nem pedir que você informe sua religião. Vamos investigar comportamentos: o que as pessoas fazem, quais efeitos essas ações produzem e como garantir participação. Para iniciar, pense num exemplo fictício: duas pessoas podem discordar e continuar cooperando? A pergunta desloca o foco da obrigação de pensar igual para a responsabilidade de tratar o outro com dignidade.",
+  "blocos": [
+    {
+      "titulo": "Uma turma não precisa pensar igual",
+      "texto": "Imagine uma turma em que todos podem participar de um trabalho, mas não precisam ter a mesma opinião. Algumas pessoas seguem uma tradição religiosa; outras não têm religião; outras estão elaborando suas convicções. Aprender a conviver começa por reconhecer essa diversidade sem transformar alguém em representante obrigatório de um grupo. Nesta aula, não vamos decidir qual crença é verdadeira nem pedir que você informe sua religião. Vamos investigar comportamentos: o que as pessoas fazem, quais efeitos essas ações produzem e como garantir participação. Para iniciar, pense num exemplo fictício: duas pessoas podem discordar e continuar cooperando? A pergunta desloca o foco da obrigação de pensar igual para a responsabilidade de tratar o outro com dignidade.",
+      "ancora": "Diferenças de convicção + direitos comuns → convivência",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dignidade não é uma recompensa",
+      "texto": "Dignidade é o valor reconhecido a toda pessoa. Ela não precisa ser conquistada por concordar com a maioria, seguir certa religião ou apresentar boas notas. Isso muda a maneira de agir diante de um conflito: podemos avaliar uma ideia ou conduta sem humilhar a pessoa. Se alguém errou, deve responder pelo que fez e aprender a reparar o dano; o erro não autoriza ameaças ou exclusão por sua identidade. Um exemplo ajuda: corrigir uma informação falsa apresentada num trabalho é diferente de dizer que o estudante não merece participar por sua crença. A primeira ação examina uma afirmação; a segunda usa uma diferença como motivo de inferiorização. O critério ético deve continuar funcionando também quando não gostamos de uma opinião.",
+      "ancora": "Pessoa tem dignidade • ideia pode ser examinada",
+      "fonte": 0
+    },
+    {
+      "titulo": "Discordar é apresentar uma diferença de entendimento",
+      "texto": "Uma discordância aparece quando as pessoas interpretam uma questão de modos diferentes. Ela pode ser expressa por perguntas, razões e comparação de fontes. Dizer “não compreendi essa explicação; em que texto ela se apoia?” abre espaço de investigação. Dizer “quem pensa assim não pode ficar no grupo” muda a situação: em vez de discutir a ideia, restringe a participação da pessoa. Respeitar a dignidade não obriga ninguém a adotar a convicção do outro. Também não impede crítica a práticas ou instituições. Para distinguir situações, examine o conteúdo da fala e o contexto: há argumento? Há ameaça? Há humilhação? Um desacordo pode exigir mediação, mas não deve ser tratado automaticamente como discriminação.",
+      "ancora": "Pergunta e argumento → diálogo possível",
+      "fonte": 0
+    },
+    {
+      "titulo": "Quando uma diferença se torna exclusão",
+      "texto": "Discriminação é um tratamento injusto que usa uma característica ou pertencimento para prejudicar alguém. No caso religioso, pode aparecer em apelidos ofensivos, recusa de participação ou pressão para abandonar uma convicção. A intenção declarada de “brincar” não elimina o efeito de uma humilhação. É preciso observar a ação e seu resultado: alguém foi silenciado, exposto ou impedido de participar? O silêncio de quem foi atingido também não prova concordância; a pessoa pode temer piorar a situação. Em vez de exigir que ela se defenda publicamente, a turma e o professor podem interromper o comportamento e oferecer escuta em condições adequadas. O objetivo é restabelecer direitos, sem transformar a vítima em responsável por resolver sozinha a agressão.",
+      "ancora": "Diferença usada como barreira → participação prejudicada",
+      "fonte": 0
+    },
+    {
+      "titulo": "O caso de Júlia e Lia",
+      "texto": "Caso fictício: uma turma prepara uma apresentação sobre festas e formas de celebrar. Júlia propõe pesquisar uma tradição de matriz africana. Pedro diz que ela não deveria entrar no grupo por causa dessa proposta. Lia, que não segue religião, ouve que não pode opinar porque “não acredita em nada”. Alguns colegas riem, outros ficam em silêncio. O problema não é todos terem de gostar das mesmas tradições. As falas criam barreiras à participação e atribuem inferioridade às pessoas por suas convicções reais ou presumidas. Não seguir religião não significa não ter valores. Seguir uma tradição também não informa tudo sobre o pensamento de alguém. Antes de julgar identidades, descreva o comportamento e explique seu efeito.",
+      "ancora": "Júlia e Lia → exclusão por convicção → intervenção necessária",
+      "fonte": 0
+    },
+    {
+      "titulo": "Liberdade de consciência na vida comum",
+      "texto": "A Constituição brasileira protege a liberdade de consciência e de crença. Em linguagem de sala de aula, isso inclui formar convicções, ter uma religião, mudar de religião ou não seguir religião. O artigo 5º também protege contra privação de direitos por motivo de crença ou convicção, com a ressalva constitucional sobre obrigação legal e prestação alternativa. Liberdade não é uma autorização para ameaçar ou retirar direitos de outras pessoas. Na atividade escolar, pesquisar uma tradição para compreendê-la não deve ser confundido com aderir a ela. Podemos aprender sobre festas, textos e práticas sem participar de um culto. A distinção entre conhecer e praticar ajuda a realizar uma pesquisa com respeito, sem impor adesão religiosa e sem excluir posições não religiosas.",
+      "ancora": "Conhecer uma tradição ≠ aderir à tradição",
+      "fonte": 0
+    },
+    {
+      "titulo": "Um grupo nunca cabe num único rótulo",
+      "texto": "Tradições religiosas e filosofias de vida têm histórias e diferenças internas. Não é adequado concluir que todos os seus integrantes pensam ou agem de modo idêntico. Quando uma pessoa conta uma experiência, ela oferece um relato situado, não uma descrição completa de todo o grupo. A pesquisa deve identificar de quem é a informação, em que contexto foi produzida e quais limites possui. Se você usa um material de uma comunidade, apresente-o como uma perspectiva daquela comunidade. Se uma postagem generaliza e ridiculariza milhões de pessoas, o número de compartilhamentos não a transforma em evidência. Comparar fontes e formular perguntas respeitosas permite ampliar o conhecimento sem transformar curiosidade em invasão da intimidade.",
+      "ancora": "Relato situado → comparação de fontes → conhecimento com limites",
+      "fonte": 1
+    },
+    {
+      "titulo": "Como interromper o problema sem reproduzi-lo",
+      "texto": "Uma intervenção responsável precisa agir sobre a conduta e proteger quem foi atingido. Um colega pode dizer “essa fala está excluindo alguém; vamos discutir a proposta sem atacar a pessoa” e procurar o professor quando necessário. Não é preciso responder à humilhação com outra humilhação. Ao professor cabe interromper a agressão, ouvir os envolvidos e reorganizar a participação, seguindo os procedimentos da escola. Pedir simplesmente “tenham respeito” pode ser insuficiente se o estudante continuar fora do grupo. Também não é adequado exigir exposição pública da fé para provar que a ofensa foi grave. Uma solução deve ser observável: a fala ofensiva foi interrompida? A pessoa voltou a participar? A regra deixou claro o que precisa mudar?",
+      "ancora": "Interromper → proteger → reorganizar → acompanhar",
+      "fonte": 1
+    },
+    {
+      "titulo": "Uma regra justa pode ser verificada",
+      "texto": "Compare duas regras: “sejam legais” e “discutam as propostas sem apelidos sobre crenças; todos terão oportunidade de contribuir”. A segunda permite observar o comportamento esperado. Uma regra de convivência precisa indicar ações e valer para diferentes posições, inclusive a ausência de religião. Igualdade não significa impedir que alguém estude uma tradição específica; significa oferecer condições justas de participação. Se o grupo percebe que uma pessoa foi sistematicamente ignorada, pode organizar turnos de fala e redistribuir tarefas. Depois deve verificar o efeito da mudança, pois uma regra escrita sem aplicação pode manter a mesma exclusão. Conviver é um trabalho contínuo de combinar critérios, agir e rever o que não funcionou.",
+      "ancora": "Regra clara → ação concreta → efeito observado → revisão",
+      "fonte": 1
+    },
+    {
+      "titulo": "Coexistir é uma prática que você pode explicar",
+      "texto": "Retome o caso de Júlia e Lia. Uma resposta ética não exige que todos adotem a proposta inicial sem debate. Exige que as propostas sejam examinadas por critérios de pesquisa e que as pessoas possam participar sem humilhação por suas convicções. Você pode formular uma intervenção em três movimentos: descrever a ação injusta, explicar o direito afetado e indicar o que fazer para restabelecer a participação. Depois teste sua proposta em outro caso, por exemplo, alguém excluído por ter uma crença diferente da maioria. Se a regra só protege quem pensa como você, ela precisa ser revista. O ponto de chegada da aula é conseguir reconhecer uma situação, justificar sua avaliação e propor uma ação viável, mantendo espaço para discordância e escuta.",
+      "ancora": "D conduta → R direito → E intervenção → L verificar o resultado",
+      "fonte": 1
+    }
+  ],
+  "percursos": [
+    {
+      "titulo": "Coexistir sem pensar igual",
+      "explicacao": "Duas pessoas discordam sobre uma questão religiosa e trabalham juntas usando critérios comuns de pesquisa.",
+      "pergunta": "O que essa situação mostra?",
+      "alternativas": [
+        "A convivência pode preservar diferenças e direitos de participação.",
+        "A cooperação exige que as duas adotem a mesma crença.",
+        "A discordância impede qualquer atividade compartilhada."
+      ],
+      "correta": 0,
+      "justificativa": "Coexistência não depende de uniformidade de convicções.",
+      "pistas": [
+        "Separe concordância e direito de participar.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Coexistência não depende de uniformidade de convicções."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Dignidade para quem discorda",
+      "explicacao": "Uma pessoa apresentou uma ideia que você considera equivocada.",
+      "pergunta": "Qual atitude preserva a dignidade?",
+      "alternativas": [
+        "Retirar seu direito de participar até mudar de convicção.",
+        "Evitar todo exame da ideia por medo de discordar.",
+        "Questionar a ideia com razões, sem humilhar a pessoa."
+      ],
+      "correta": 2,
+      "justificativa": "Ideias podem ser discutidas sem inferiorizar pessoas.",
+      "pistas": [
+        "Observe se a ação incide sobre o argumento ou sobre a pessoa.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Ideias podem ser discutidas sem inferiorizar pessoas."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Uma pergunta abre o diálogo",
+      "explicacao": "Você não conhece uma tradição citada no trabalho.",
+      "pergunta": "Qual pergunta favorece a investigação?",
+      "alternativas": [
+        "Você provaria sua crença diante de todos para continuar aqui?",
+        "Que fonte podemos consultar para compreender essa prática?",
+        "Por que pessoas assim deveriam ficar fora do grupo?"
+      ],
+      "correta": 1,
+      "justificativa": "A pergunta pede conhecimento sem impor exposição de identidade.",
+      "pistas": [
+        "Procure uma pergunta sobre a informação, sem ameaça.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A pergunta pede conhecimento sem impor exposição de identidade."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Discordância ou exclusão",
+      "explicacao": "Um colega diz: “Não concordo com essa explicação; meu argumento é outro”. Ele permite que o outro responda.",
+      "pergunta": "Como interpretar a conduta descrita?",
+      "alternativas": [
+        "Discordância com espaço de resposta.",
+        "Discriminação comprovada apenas porque houve desacordo.",
+        "Concordância obrigatória com a crença de todos."
+      ],
+      "correta": 0,
+      "justificativa": "Uma diferença de argumento não equivale sozinha a discriminação.",
+      "pistas": [
+        "Há restrição de participação ou troca de razões?",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Uma diferença de argumento não equivale sozinha a discriminação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "A proposta de Júlia",
+      "explicacao": "No caso fictício, Júlia sugeriu pesquisar uma tradição de matriz africana. Pedro tentou retirá-la do grupo por isso.",
+      "pergunta": "Qual ação precisa ser interrompida?",
+      "alternativas": [
+        "A pesquisa de tradições diferentes da maioria da turma.",
+        "A possibilidade de comparar fontes sobre a tradição.",
+        "A tentativa de exclusão por causa da tradição proposta."
+      ],
+      "correta": 2,
+      "justificativa": "O problema é a barreira imposta à participação.",
+      "pistas": [
+        "Localize a conduta que prejudica uma pessoa.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: O problema é a barreira imposta à participação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "A fala dirigida a Lia",
+      "explicacao": "Lia não segue religião e ouve que não pode opinar porque “não acredita em nada”.",
+      "pergunta": "Qual pressuposto deve ser revisto?",
+      "alternativas": [
+        "A participação em pesquisa depende de praticar uma religião.",
+        "A ausência de religião foi confundida com ausência de valores.",
+        "Todas as pessoas sem religião compartilham a mesma filosofia."
+      ],
+      "correta": 1,
+      "justificativa": "Convicções não religiosas também podem orientar valores e escolhas.",
+      "pistas": [
+        "Não use um rótulo para definir toda a vida de alguém.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Convicções não religiosas também podem orientar valores e escolhas."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "O efeito da brincadeira",
+      "explicacao": "Um apelido sobre crença é repetido no grupo. A pessoa atingida fica constrangida e deixa de contribuir.",
+      "pergunta": "Qual critério ajuda a avaliar a situação?",
+      "alternativas": [
+        "Examinar a humilhação e o prejuízo de participação.",
+        "Aceitar a justificativa de brincadeira como encerramento do problema.",
+        "Exigir que a pessoa faça o mesmo apelido para equilibrar a situação."
+      ],
+      "correta": 0,
+      "justificativa": "A intenção alegada não elimina os efeitos da conduta.",
+      "pistas": [
+        "Observe a consequência para quem recebeu o apelido.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A intenção alegada não elimina os efeitos da conduta."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Silêncio não é prova",
+      "explicacao": "Após uma fala ofensiva, a pessoa atingida não responde.",
+      "pergunta": "Qual interpretação evita uma conclusão precipitada?",
+      "alternativas": [
+        "O silêncio demonstra que não houve qualquer constrangimento.",
+        "O silêncio autoriza repetir a fala até surgir uma resposta.",
+        "O silêncio não comprova concordância; cabe oferecer proteção e escuta."
+      ],
+      "correta": 2,
+      "justificativa": "Pessoas podem silenciar por diferentes razões, inclusive medo.",
+      "pistas": [
+        "Não transforme ausência de reação em autorização.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Pessoas podem silenciar por diferentes razões, inclusive medo."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Conhecer e aderir",
+      "explicacao": "A turma pesquisa textos e festas de diferentes tradições. Ninguém é obrigado a realizar um culto.",
+      "pergunta": "Qual distinção orienta o trabalho?",
+      "alternativas": [
+        "A pesquisa só pode ser feita por quem pratica aquela tradição.",
+        "Estudar uma tradição não exige aderir a ela.",
+        "Conhecer uma tradição equivale a mudar de religião."
+      ],
+      "correta": 1,
+      "justificativa": "Conhecimento e adesão são ações diferentes.",
+      "pistas": [
+        "Compare aprender sobre e praticar como crença.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Conhecimento e adesão são ações diferentes."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Liberdade de consciência",
+      "explicacao": "Uma pessoa muda de convicção e outra não segue religião.",
+      "pergunta": "Qual princípio deve orientar o tratamento de ambas?",
+      "alternativas": [
+        "Proteção da liberdade de consciência e de crença.",
+        "Participação condicionada à religião majoritária.",
+        "Obrigação de justificar publicamente cada escolha pessoal."
+      ],
+      "correta": 0,
+      "justificativa": "O direito protege diferentes posições sem exigir uniformidade.",
+      "pistas": [
+        "A proteção se aplica também a posições minoritárias.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: O direito protege diferentes posições sem exigir uniformidade."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Limite da liberdade",
+      "explicacao": "Um colega afirma que sua liberdade o autoriza a ameaçar quem discorda de sua religião.",
+      "pergunta": "Qual resposta é adequada?",
+      "alternativas": [
+        "A ameaça deixa de importar quando tem motivação religiosa.",
+        "A única solução é proibir todas as diferenças de opinião.",
+        "Liberdade de crença não autoriza ameaças ou retirada de direitos."
+      ],
+      "correta": 2,
+      "justificativa": "Direitos de uma pessoa coexistem com a proteção das outras.",
+      "pistas": [
+        "Observe o efeito da ação sobre os direitos alheios.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Direitos de uma pessoa coexistem com a proteção das outras."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Uma pessoa não é todo o grupo",
+      "explicacao": "Uma entrevista apresenta a experiência de um integrante de uma comunidade religiosa.",
+      "pergunta": "Como usar esse relato numa pesquisa?",
+      "alternativas": [
+        "Descartá-lo porque experiências individuais nunca informam.",
+        "Apresentá-lo como experiência situada e compará-lo a outras fontes.",
+        "Tratá-lo como descrição de todos os integrantes da tradição."
+      ],
+      "correta": 1,
+      "justificativa": "O relato tem valor e limites; não representa sozinho o grupo inteiro.",
+      "pistas": [
+        "Pergunte qual é o alcance da informação obtida.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: O relato tem valor e limites; não representa sozinho o grupo inteiro."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Fonte e popularidade",
+      "explicacao": "Uma postagem muito compartilhada ridiculariza uma tradição sem indicar fontes.",
+      "pergunta": "Qual ação melhora a pesquisa?",
+      "alternativas": [
+        "Verificar autoria, contexto e outras fontes antes de usar a afirmação.",
+        "Considerar o número de compartilhamentos uma comprovação.",
+        "Usar a ridicularização como descrição neutra da tradição."
+      ],
+      "correta": 0,
+      "justificativa": "Circulação não é o mesmo que fundamentação.",
+      "pistas": [
+        "Popularidade informa alcance, não prova veracidade.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Circulação não é o mesmo que fundamentação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Interromper sem humilhar",
+      "explicacao": "Você presencia a tentativa de excluir alguém por convicção religiosa.",
+      "pergunta": "Qual fala oferece intervenção possível?",
+      "alternativas": [
+        "Vamos excluir quem falou para ninguém precisar conversar.",
+        "Vamos pedir que a pessoa atacada prove sua fé para resolver.",
+        "Essa fala está excluindo alguém; vamos discutir a proposta sem atacar a pessoa."
+      ],
+      "correta": 2,
+      "justificativa": "A intervenção nomeia a conduta e reorganiza a participação.",
+      "pistas": [
+        "Proteja a participação sem reproduzir a agressão.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A intervenção nomeia a conduta e reorganiza a participação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "O papel do professor",
+      "explicacao": "Uma ofensa continua e o estudante atingido está inseguro.",
+      "pergunta": "Qual ação cabe ao professor?",
+      "alternativas": [
+        "Exigir exposição pública de crenças como condição de acolhimento.",
+        "Interromper a conduta, oferecer escuta e reorganizar a participação.",
+        "Pedir que a vítima resolva sozinha para demonstrar autonomia."
+      ],
+      "correta": 1,
+      "justificativa": "A mediação envolve proteção e condições concretas de participação.",
+      "pistas": [
+        "A responsabilidade não pode recair apenas em quem foi atingido.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A mediação envolve proteção e condições concretas de participação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Pesquisa sem exposição",
+      "explicacao": "O grupo quer conhecer uma tradição seguida por uma colega. Ela não deseja falar sobre sua vida pessoal.",
+      "pergunta": "Como continuar?",
+      "alternativas": [
+        "Respeitar sua escolha e buscar fontes públicas pertinentes.",
+        "Obrigá-la a falar porque representa aquela tradição.",
+        "Abandonar o tema porque só um integrante poderia explicá-lo."
+      ],
+      "correta": 0,
+      "justificativa": "Pesquisa não exige invadir intimidade ou impor representação.",
+      "pistas": [
+        "O que pode ser consultado sem exigir relato pessoal?",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Pesquisa não exige invadir intimidade ou impor representação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Uma regra observável",
+      "explicacao": "O grupo combina critérios de convivência.",
+      "pergunta": "Qual regra permite verificar comportamentos?",
+      "alternativas": [
+        "Cada integrante deve ser uma pessoa legal durante o trabalho.",
+        "A maioria decide quem pode opinar conforme suas convicções.",
+        "Todos terão oportunidade de contribuir e propostas serão discutidas sem apelidos sobre crenças."
+      ],
+      "correta": 2,
+      "justificativa": "A regra indica ações concretas e vale para diferentes pessoas.",
+      "pistas": [
+        "Prefira um comportamento que possa ser observado.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A regra indica ações concretas e vale para diferentes pessoas."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Distribuir participação",
+      "explicacao": "Uma integrante tem suas propostas sempre interrompidas. O grupo organiza turnos de fala e redistribui tarefas.",
+      "pergunta": "O que deve ser verificado depois?",
+      "alternativas": [
+        "Se ela passou a concordar com a posição majoritária.",
+        "Se ela passou a ter condições reais de contribuir.",
+        "Apenas se a regra foi escrita num cartaz visível."
+      ],
+      "correta": 1,
+      "justificativa": "A qualidade da regra também depende do efeito de sua aplicação.",
+      "pistas": [
+        "Avalie o resultado, além do anúncio da regra.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A qualidade da regra também depende do efeito de sua aplicação."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Comparar duas condutas",
+      "explicacao": "Um estudante pergunta pela fonte de uma afirmação. Outro usa a crença do colega para exigir sua saída.",
+      "pergunta": "Qual comparação é adequada?",
+      "alternativas": [
+        "A primeira examina uma ideia; a segunda cria exclusão por convicção.",
+        "As duas condutas são necessariamente a mesma forma de diálogo.",
+        "A primeira é ofensiva porque toda pergunta implica discriminação."
+      ],
+      "correta": 0,
+      "justificativa": "A distinção depende do comportamento e do direito afetado.",
+      "pistas": [
+        "Identifique o objeto de cada ação: ideia ou participação.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A distinção depende do comportamento e do direito afetado."
+      ],
+      "fase": "Investigar e relacionar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Recuperar o critério",
+      "explicacao": "Feche mentalmente a explicação e recupere a diferença central estudada.",
+      "pergunta": "Qual síntese é adequada?",
+      "alternativas": [
+        "Discordar exige retirar direitos; respeitar exige pensar igual.",
+        "Discriminar depende apenas de alguém declarar má intenção.",
+        "Discordar questiona uma ideia; discriminar pode negar participação por uma diferença."
+      ],
+      "correta": 2,
+      "justificativa": "O critério observa conduta, contexto e efeitos.",
+      "pistas": [
+        "Lembre a diferença entre argumento e barreira.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: O critério observa conduta, contexto e efeitos."
+      ],
+      "fase": "Recuperar",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Aplicar a uma minoria",
+      "explicacao": "Caso fictício: a maioria segue uma religião e quer impedir a participação de um colega de outra crença.",
+      "pergunta": "Qual regra deve valer?",
+      "alternativas": [
+        "O colega só participa depois de explicar publicamente sua intimidade.",
+        "A participação não depende de compartilhar a religião da maioria.",
+        "A maioria pode retirar direitos de quem discorda em matéria de fé."
+      ],
+      "correta": 1,
+      "justificativa": "Direitos comuns não dependem de ser maioria.",
+      "pistas": [
+        "Teste a regra com quem está em posição minoritária.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Direitos comuns não dependem de ser maioria."
+      ],
+      "fase": "Aplicar e transferir",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Reparar não é apenas anunciar",
+      "explicacao": "Após a mediação, alguém pede desculpas, mas a pessoa atingida continua sem tarefa no grupo.",
+      "pergunta": "O que ainda precisa acontecer?",
+      "alternativas": [
+        "Restabelecer condições concretas de participação e acompanhar o resultado.",
+        "Encerrar o caso porque as palavras substituem qualquer mudança prática.",
+        "Exigir que a vítima aceite tudo imediatamente para demonstrar respeito."
+      ],
+      "correta": 0,
+      "justificativa": "A reparação deve alcançar a situação produzida pela conduta.",
+      "pistas": [
+        "Confira o que mudou na vida do grupo.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A reparação deve alcançar a situação produzida pela conduta."
+      ],
+      "fase": "Aplicar e transferir",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Princípio e evidência",
+      "explicacao": "O grupo afirma que todos foram ouvidos, mas somente duas pessoas tiveram suas propostas discutidas.",
+      "pergunta": "Qual avaliação é mais consistente?",
+      "alternativas": [
+        "Aceitar a afirmação do grupo sem examinar o que ocorreu.",
+        "Concluir que qualquer debate é incompatível com convivência.",
+        "Comparar a regra anunciada com as oportunidades efetivas de contribuição."
+      ],
+      "correta": 2,
+      "justificativa": "Uma avaliação usa ações observáveis para examinar a regra.",
+      "pistas": [
+        "Diferencie declaração e prática.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Uma avaliação usa ações observáveis para examinar a regra."
+      ],
+      "fase": "Aplicar e transferir",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Curiosidade com respeito",
+      "explicacao": "Você quer saber mais sobre uma prática citada por uma comunidade.",
+      "pergunta": "Qual caminho combina pesquisa e respeito?",
+      "alternativas": [
+        "Usar estereótipos como atalho porque o tema é desconhecido.",
+        "Consultar fontes identificadas e formular perguntas sem exigir exposição pessoal.",
+        "Atribuir a todos os integrantes a primeira explicação encontrada."
+      ],
+      "correta": 1,
+      "justificativa": "Conhecer exige fontes e atenção aos limites das generalizações.",
+      "pistas": [
+        "Procure informação sem transformar pessoas em rótulos.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Conhecer exige fontes e atenção aos limites das generalizações."
+      ],
+      "fase": "Aplicar e transferir",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "Uma intervenção completa",
+      "explicacao": "Um colega foi excluído de uma atividade por não ter religião.",
+      "pergunta": "Qual proposta reúne os movimentos da aula?",
+      "alternativas": [
+        "Identificar a exclusão, explicar o direito de participar e reorganizar tarefas para incluí-lo.",
+        "Dizer apenas que todos devem ter respeito e manter a divisão.",
+        "Pedir que o colega escolha uma crença para facilitar a integração."
+      ],
+      "correta": 0,
+      "justificativa": "Nomear a conduta, justificar e agir torna a intervenção verificável.",
+      "pistas": [
+        "A resposta precisa alcançar a causa e o efeito da exclusão.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: Nomear a conduta, justificar e agir torna a intervenção verificável."
+      ],
+      "fase": "Aplicar e transferir",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    },
+    {
+      "titulo": "O que consigo fazer agora",
+      "explicacao": "Você precisa orientar uma nova turma sobre convivência.",
+      "pergunta": "Qual síntese demonstra a aprendizagem?",
+      "alternativas": [
+        "Conviver exige esconder diferenças e evitar toda pergunta.",
+        "Respeitar depende de todos adotarem as convicções da maioria.",
+        "Podemos discordar com argumentos, proteger a dignidade e corrigir barreiras à participação."
+      ],
+      "correta": 2,
+      "justificativa": "A coexistência combina liberdade, direitos e responsabilidade nas ações.",
+      "pistas": [
+        "Una diferença de ideias e igualdade de dignidade.",
+        "Compare cada alternativa com a conduta ou o mecanismo descrito no contexto.",
+        "Teste a relação: qual escolha explica o efeito sem generalizar nem apagar um direito?",
+        "Releia a frase central: A coexistência combina liberdade, direitos e responsabilidade nas ações."
+      ],
+      "fase": "Aplicar e transferir",
+      "ponto": "Não transforme uma informação parcial numa conclusão total.",
+      "acao": "Volte ao dado, identifique a relação e confira o efeito."
+    }
+  ],
+  "fontes": [
+    [
+      "Brasil",
+      "Constituição de 1988, art. 5º, VI e VIII",
+      "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+    ],
+    [
+      "MEC",
+      "BNCC — Ensino Religioso, princípios e valores éticos",
+      "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf"
+    ]
+  ],
+  "glossario": {
+    "Dignidade": "Valor de toda pessoa, independentemente de crença ou concordância.",
+    "Convicção": "Entendimento ou princípio que uma pessoa considera verdadeiro.",
+    "Coexistência": "Convivência entre pessoas diferentes com direitos e dignidade.",
+    "Discriminação": "Tratamento injusto que usa uma diferença para prejudicar ou excluir.",
+    "Liberdade de consciência": "Direito de formar e manter convicções, inclusive não religiosas.",
+    "Estereótipo": "Generalização que reduz pessoas ou grupos a características presumidas.",
+    "Mediação": "Intervenção que ajuda a lidar com um conflito e restabelecer condições de participação.",
+    "Filosofia de vida": "Conjunto de ideias e valores que orienta escolhas e sentidos."
+  },
+  "dicionario": {
+    "Analisar": "Examinar partes e relações para compreender.",
+    "Comparar": "Identificar semelhanças e diferenças usando um critério.",
+    "Justificar": "Apresentar razões e evidências para uma afirmação.",
+    "Inferir": "Concluir a partir de dados, reconhecendo limites.",
+    "Contexto": "Condições de tempo, lugar e produção de uma ação ou informação.",
+    "Evidência": "Informação que sustenta uma interpretação.",
+    "Coerção": "Imposição por ameaça ou força.",
+    "Restabelecer": "Criar novamente uma condição que foi prejudicada."
+  },
+  "exploracao": [
+    [
+      "Júlia",
+      "Observar",
+      "Tentativa de exclusão por propor pesquisa sobre tradição de matriz africana. Caso fictício."
+    ],
+    [
+      "Lia",
+      "Examinar",
+      "Ausência de religião confundida com ausência de valores. A participação foi desvalorizada. Caso fictício."
+    ],
+    [
+      "Pedro",
+      "Interromper",
+      "É necessário agir sobre a fala e a tentativa de exclusão, sem responder com humilhação."
+    ],
+    [
+      "Grupo",
+      "Reorganizar",
+      "Reabrir condições de participação, organizar turnos de fala e distribuir tarefas por critérios comuns."
+    ],
+    [
+      "Depois",
+      "Verificar",
+      "Perguntar se as pessoas voltaram a contribuir e se a conduta ofensiva deixou de ocorrer."
+    ]
+  ],
+  "email": "andre-orodrigues@educar.rs.gov.br",
+  "continuidade": "Proposta de coexistência ética; aplicação anterior não presumida.",
+  "prompt": "2.4.2",
+  "fundo": "assets/fundo.svg"
+}

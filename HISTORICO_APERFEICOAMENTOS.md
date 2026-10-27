@@ -2,6 +2,17 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.4.2 — 26/10/2026
+**Pedido:** “aula” deve ser entendida como artefato digital completo no fluxo GitHub; conferir memória e diretrizes antes de produzir. Acrescentar QR Code ao final.
+
+**Alterações:** interpretação padrão explicitada na seção 1. Criadas aulas de História 231 e Ensino Religioso 192 do Bernardina, previstas para 27/10, com 26 percursos cada, quatro pistas por percurso, texto ampliado, fundo SVG temático, exploração, glossário e dicionário, leitura por voz, aparência, progresso e relatório completo com mailto. Documentos e guia docente permanecem fora do pacote público.
+
+**Produção:** modelo de interface de 19/10 consultado; estilo funcional de 21/10 reaproveitado. Motor central de produção HTML, revisão d10a9a45ab2b06ef1d9b51383947f6dcc13502b8, consultado pelo conector por ser privado. O arquivo de motor não foi copiado para este repositório público. Conteúdos e interfaces de cada projeto ficam em aulas/, com projeto.yml e recursos explícitos.
+
+**Verificação:** validação e compilação pelo motor; sintaxe JavaScript; conferência de publicação e interação registrada em aulas/VERIFICACAO_27-10-2026.md. QR Codes devem apontar apenas para endereços públicos conferidos.
+
+**Limites:** último conteúdo aplicado à 231 não confirmado; tema proposto com retomada diagnóstica. BNCC consultada em fontes públicas, sem declarar os documentos do catálogo incorporados. Matriz escolar e RCG aguardam conferência. Voz depende do dispositivo. E-mail é aberto com mensagem completa; envio deve ser confirmado no aplicativo pelo estudante. Não há envio por servidor ou monitoramento externo.
+
 ## 2.4.1 — 26/10/2026
 **Pedido:** esclarecer que a entrega desejada é um botão que abre o aplicativo de e-mail com a mensagem pronta, para o aluno conferir e enviar.
 

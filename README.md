@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.4.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.4.2](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -56,3 +56,9 @@ O Gamma integra o fluxo de slides: o assistente prepara conteúdo e fontes, o Ga
 O conector está disponível para uso nas sessões em que houver acesso. Isso não instala uma chave de API no GitHub nem configura geração autônoma pelo Actions. Aulas HTML continuam publicadas no Pages; apresentações nativas Gamma podem ser abertas por links identificados no portal.
 
 [Apresentação ilustrada no Gamma — Meu caminho para aprender](https://gamma.app/docs/Meu-caminho-para-aprender-Laboratorio-de-ideias-7u1ljgpnc3dywz5). A versão ampliada tem 18 cartões e integra o mesmo laboratório de estudo.
+
+## Aulas do Bernardina previstas para 27 de outubro
+- História 231 — Ditadura e redemocratização, 26 percursos.
+- Ensino Religioso 192 — Conviver com quem pensa diferente, 26 percursos.
+
+Incluídas no catálogo de publicação. “Aula” significa a entrega digital completa conforme o prompt mestre. Confira o registro de validação em aulas/VERIFICACAO_27-10-2026.md.

@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.4.1**  
+Versão vigente: **2.4.2**  
 Atualização: **26/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -13,6 +13,8 @@ Antes de criar ou revisar uma aula:
 3. Confira escola, turma, componente, data, horário vigente e sequência de conteúdos. Use o último horário confirmado; versões antigas não são referência automática.
 4. Localize o último material e distinga conteúdo planejado de conteúdo confirmado como aplicado. Não invente continuidade.
 5. Confira os modelos de interface indicados pelo professor. Em caso de divergência, a instrução atual do professor prevalece; registre a alteração pertinente neste prompt e no histórico.
+
+**Interpretação padrão de “aula”:** quando o professor pedir uma aula, produzir a aula digital completa em HTML, seguindo este fluxo de produção, conferência, cadastro e publicação no GitHub Pages. Documento editável é complemento quando pertinente ou quando solicitado; sua entrega isolada não encerra o pedido de aula. Consultar memória e este repositório a cada pedido, sem exigir que o professor repita o padrão. Quando solicitado QR Code, gerar um por aula somente após conferir o endereço publicado.
 
 Este repositório é a base documental de referência do projeto. Não presuma que seu conteúdo é carregado automaticamente em todas as conversas: consulte-o explicitamente quando houver acesso.
 
