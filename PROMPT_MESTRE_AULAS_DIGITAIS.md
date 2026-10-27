@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.4.2**  
-Atualização: **26/10/2026**  
+Versão vigente: **2.5.0**  
+Atualização: **27/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -101,6 +101,42 @@ Para cada bloco conceitual importante, escolher uma âncora pertinente. Não rep
 - Não representar hipótese ou interpretação como comprovação documental.
 
 Manter fundo moderno relacionado ao tema, com legibilidade dos painéis. Fundos e imagens de ambientação não substituem as âncoras que ensinam. SVGs devem ser bem construídos, específicos e acessíveis. Evitar emojis decorativos, excesso de fontes, caixa alta indiscriminada e painéis densos.
+
+
+### 6.1. Design de associações — diretriz vigente de 27/10/2026
+A organização visual e verbal deve tornar perceptíveis as relações do conteúdo e articulá-las à leitura. Associação é parte da explicação, da disposição dos elementos e da interação; não apenas uma modalidade de pergunta ao final. Aplicar em HTML, slides, documentos, pranchas e materiais impressos.
+
+Antes de desenhar cada unidade conceitual, declarar no planejamento: quais elementos o estudante deve relacionar; qual relação os conecta; qual recurso torna essa relação perceptível; qual ação permite verificar sua compreensão. Não exibir essas instruções técnicas como conteúdo para o estudante.
+
+**Composição funcional, sem layout rígido:** oferecer âncora conceitual, representação da relação com texto próximo e ação de checagem. Adaptar a disposição à operação, ao conteúdo, à tela e às necessidades observadas. Preservar hierarquia e navegação aprovadas; não obrigar todas as telas a três cenas nem a três colunas.
+
+**Construção das correspondências:**
+- Aproximar imagem, palavra/frase e detalhe correspondente, com leitura clara e sem sobreposição. Integrar narração opcional quando ajudar; não depender de áudio.
+- Usar símbolos, rótulos e posições consistentes. Manter D/R/E/L e suas cores da seção 6; não introduzir simultaneamente outra tabela de cores conflitante. Cor nunca é o único marcador, nem tem significado universal presumido.
+- Introduzir códigos com legenda e exemplo; não presumir que ícones ou imagens se explicam sozinhos. Disponibilizar descrição textual que também expresse a relação.
+- Em comparações iniciais, manter referências relevantes estáveis e destacar uma mudança por vez quando adequado. Em processos com múltiplas causas, explicitar os demais fatores e os limites do recorte; não fabricar causalidade simples.
+- Usar direção de leitura consistente como orientação. Proximidade, sequência e seta não comprovam causa: nomear a relação (“limita”, “permite”, “contrasta com”, “ocorre depois”, “depende de”).
+- Variar personagens, aparência e contexto posteriormente, para verificar reconhecimento do conceito além do desenho conhecido.
+- Fundos são ambientação; diagramas, cenas e imagens explicativas devem representar relações específicas. Não substituir associação por decoração.
+
+**Sequência de mediação:** observar uma relação com explicação e exemplo resolvido → associar com apoio → comparar/ordenar/classificar/ligar conforme o objetivo → reduzir pistas gradualmente → recuperar a relação → aplicá-la em novo contexto. Essa sequência se distribui nos blocos e percursos, sem multiplicar artificialmente telas nem impor todas as operações a cada item. A observação pode anteceder o texto extenso, acompanhada de explicação acessível; preservar a exposição desenvolvida da seção 3 antes de cobrar desempenho.
+
+**Interações e inclusão:** combinar associação imagem–frase, parte–todo, conceito–exemplo, causa–consequência, mudança–permanência ou outras relações pertinentes. Selecionar as que servem ao conteúdo; não tratar toda relação como causal. Oferecer seleção por clique/toque e teclado; arrastar nunca pode ser o único meio de responder. Não exigir escrita ou fala como única demonstração. Usar linguagem adequada à idade, sem infantilização. Necessidades de estudantes neurodivergentes variam; oferecer apoios ajustáveis, observar seu uso e articulá-los às orientações educacionais individuais disponíveis.
+
+**Verificação e registro:** diferenciar acerto com correspondência evidente, resolução com apoio, recuperação e aplicação em novo exemplo. Registrar pistas e tentativas conforme seções 12–13, sem inferir diagnóstico ou domínio pleno de um clique. Incluir ao longo da aula checagens com aparência/contexto diferentes e justificativa acessível (seleção de explicação, indicação de evidência, fala ou outro meio pertinente). A quantidade de atividades não substitui diversidade das operações nem demonstração de aprendizagem.
+
+**Precisão do exemplo histórico:** monarquia constitucional significa limitação constitucional do poder, não participação popular universal. Identificar contexto, sujeitos e restrições de participação. Distinguir limitação do governante de freios e contrapesos; não afirmar domínio do segundo conceito a partir da identificação de um símbolo da Constituição.
+
+**Limites de interpretação:** organização consistente pode oferecer pistas para construir relações; não prometer associações inconscientes, reorganização cerebral ou aprendizagem automática garantida. Distinguir proposta autoral, fundamentação consultada e observação de sala. AEE designa Arquitetura de Exposição Explicativa neste projeto; escrever Atendimento Educacional Especializado por extenso quando esse for o sentido.
+
+**Checklist obrigatório de cada unidade conceitual:**
+1. A relação pretendida está definida e representada com precisão?
+2. Texto, imagem e detalhe correspondente estão próximos e legíveis?
+3. Há sinais redundantes, descrição e forma acessível de interagir?
+4. O apoio inicial pode ser reduzido e a relação reaparece em exemplo diferente?
+5. A checagem distingue pista visual, resposta assistida e aplicação do conceito?
+
+Não liberar a unidade com alguma resposta negativa sem corrigir ou registrar justificativa e adaptação pertinente. Conferir também em celular, preto e branco e teclado. Esta é uma diretriz de produção: o registro não altera automaticamente aulas anteriores nem implementa novos componentes no motor.
 
 ## 7. Referências, documentos e honestidade intelectual
 Usar documentos oficiais para currículo e fontes primárias ou referências acadêmicas pertinentes para o conteúdo. Não inventar autores, títulos, páginas, citações ou códigos.
@@ -212,6 +248,7 @@ Verificar:
 - Continuidade e horário com fonte identificada.
 - Texto realmente desenvolvido, com mecanismo, exemplos, referências e âncoras visuais.
 - AEE completa e integração ASA funcional.
+- Checklist da seção 6.1: associação visível, correspondência imagem–texto, sinais redundantes, retirada gradual de apoio e aplicação em novo exemplo; alternativas ao arraste e conferência em preto e branco.
 - Precisão factual e curricular; fontes correspondentes às afirmações.
 - No mínimo 26 percursos e pistas graduadas.
 - Bloqueio de avanço após erro e liberação após acerto.
@@ -246,6 +283,9 @@ Duração/períodos (somente se confirmados):
 Horário vigente e fonte:
 Tema e continuidade documentada:
 Objetivo imediato:
+Relações a construir e elementos associados:
+Representação inicial, apoios e retirada gradual:
+Novo exemplo e evidência de compreensão:
 Habilidades e fonte curricular:
 Modelo visual de referência:
 Documentos/fontes do conteúdo:
@@ -294,3 +334,8 @@ O briefing deve pedir explicações desenvolvidas, exemplos concretos, imagens q
 O conector Gamma pode ser usado nas sessões autorizadas em que estiver disponível. Não afirmar que o GitHub Actions chama a API Gamma automaticamente: essa integração independente não foi instalada. Não registrar chaves de API no código, prompt, README ou conteúdo discente.
 
 Aulas HTML continuam no GitHub Pages. Uma apresentação nativa do Gamma pode ser acessada por link no portal, identificado como Gamma. Isso não significa exportação ou hospedagem do conteúdo nativo no Pages. Só prometer PPTX/PDF, incorporação ou outro formato depois de produzir e conferir a entrega solicitada.
+
+## 23. Projeto editorial — Arquitetura das Associações
+Decisão do professor em 27/10/2026: desenvolver novo livro a partir do design pedagógico de associações, integrado às arquiteturas existentes e com foco próprio na organização de relações entre imagens, linguagem, espaço, interação e transferência. Título de trabalho, sem alegação de ineditismo científico: **Arquitetura das Associações — Quando a organização do material participa da aprendizagem**. Autoria: André de Oliveira Rodrigues.
+
+Esboço e roteiro de contribuição: [livros/arquitetura-das-associacoes/ESBOCO.md](livros/arquitetura-das-associacoes/ESBOCO.md). Documento editorial em elaboração, distinto de plano de aula. Não gerar livro completo, bibliografia não verificada ou resultados empíricos inexistentes a partir deste registro. Diferenciar esta obra do projeto de autoaprendizagem da seção 19.
