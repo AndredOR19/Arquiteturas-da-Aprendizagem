@@ -24,3 +24,5 @@ Voz depende do navegador/dispositivo; envio pelo aplicativo de e-mail é manual.
 Teste isolado do gerador mailto: destinatário, assunto e corpo codificado conferidos nas duas aulas; corpo decodificado idêntico à prévia, incluindo o percurso 26. Nenhuma mensagem foi enviada.
 
 A conferência de limpeza identificou que o evento de saída podia regravar a sessão apagada. Corrigido com suspensão da persistência durante a exclusão; retomada normal permanece habilitada nas demais saídas.
+
+Recursos JS e CSS versionados na URL para impedir reutilização de versões anteriores pelo cache do navegador.
