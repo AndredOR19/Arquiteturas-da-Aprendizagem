@@ -22,3 +22,5 @@ QR Codes gerados após os dois links serem abertos com sucesso; matrizes PNG e S
 Voz depende do navegador/dispositivo; envio pelo aplicativo de e-mail é manual. Mensagens muito longas podem exceder limites do aplicativo: cópia e download TXT são alternativas, sem truncamento deliberado. Os registros de visibilidade não comprovam atenção. Conteúdo aplicado anteriormente à 231 e matriz escolar não confirmados.
 
 Teste isolado do gerador mailto: destinatário, assunto e corpo codificado conferidos nas duas aulas; corpo decodificado idêntico à prévia, incluindo o percurso 26. Nenhuma mensagem foi enviada.
+
+A conferência de limpeza identificou que o evento de saída podia regravar a sessão apagada. Corrigido com suspensão da persistência durante a exclusão; retomada normal permanece habilitada nas demais saídas.
