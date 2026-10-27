@@ -2,6 +2,19 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.5.0 — 27/10/2026
+**Pedido:** incorporar ao Prompt Mestre o aperfeiçoamento sobre associações entre imagens, linguagem, disposição espacial e interação; iniciar esboço de novo livro.
+
+**Regra anterior e nova regra:** âncoras visuais e associação já eram previstas, mas sem protocolo operacional suficiente. A seção 6.1 passa a exigir relação definida, correspondência visível imagem–texto, referências estáveis na introdução, sinais redundantes, ação acessível, retirada gradual de pistas e aplicação em exemplo diferente. Layout funcional flexível; código D/R/E/L preservado.
+
+**Justificativa pedagógica:** ajudar o estudante a localizar e construir relações, distinguindo resposta apoiada, reconhecimento e aplicação. Não presumir aprendizagem inconsciente garantida nem necessidades uniformes entre estudantes neurodivergentes.
+
+**Arquivos:** PROMPT_MESTRE_AULAS_DIGITAIS.md (6.1, 16, 18 e 23), AGENTS.md, README.md, este histórico e livros/arquitetura-das-associacoes/ESBOCO.md. Novo livro com título provisório, autoria André de Oliveira Rodrigues, 14 capítulos propostos, instrumentos e roteiro de contribuição textual.
+
+**Verificação:** leitura integral do prompt vigente e das orientações; conferência de consistência com cores existentes, exposição ampliada, acessibilidade e avaliação. Conferência por releitura dos arquivos salvos. Alteração documental: não exige teste de execução do motor.
+
+**Limites:** aulas antigas e motor não modificados; a aplicação deve ser conferida nas próximas produções/revisões. Esboço editorial não é manuscrito completo nem metodologia com eficácia empiricamente validada. Bibliografia do novo livro ainda requer pesquisa e verificação.
+
 ## 2.4.2 — 26/10/2026
 **Pedido:** “aula” deve ser entendida como artefato digital completo no fluxo GitHub; conferir memória e diretrizes antes de produzir. Acrescentar QR Code ao final.
 
