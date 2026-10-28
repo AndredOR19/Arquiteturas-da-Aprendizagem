@@ -13,3 +13,6 @@ Os ensaios verificam estrutura e funcionamento local, não aprendizagem, eficác
 
 ## Proveniência e próximos passos
 O diário sintetiza esta conversa, sem afirmar transcrição ou recuperação de todos os chats. AIES e o esboço das Associações são referências anteriores documentadas no repositório, sem reconstrução integral de suas conversas de origem. Conferir a definição do giro de 180 graus no manuscrito; alinhar o recorte do mestrado com a orientação/programa; confirmar listas e matrículas privadas; definir instrumentos antes de avaliar resultados.
+
+## Execução de simulação acrescentada em 28 de outubro de 2026
+O validador documental conferiu oito registros e dez produções após o pedido de simulações. O código em pesquisa/simulacoes executou oito cenários com 5.000 réplicas cada, totalizando 40.000, todas válidas. Foram conferidos limites das frequências, falso positivo próximo do alfa no cenário nulo e reprodução com semente fixa. NumPy 2.3.5 e SciPy 1.17.0. Isso verifica o exercício computacional, sem confirmar um modelo cognitivo ou efeito das arquiteturas. Não foram modificados prompt, coleta ou banco de alunos nessa execução.

@@ -237,6 +237,41 @@
       "proxima_acao": "Alinhar pergunta, instrumentos e procedimentos institucionais com orientação/programa.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Delimitação documental; não certifica aprovação acadêmica ou ética."
+    },
+    {
+      "id": "SIM-20261028-001",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Simulações como instrumento de investigação",
+      "formulacao": "O autor pede explorar cenários computacionais a partir de suas teorias e do conhecimento científico. Primeira execução do assistente: simulação de desenho de pesquisa, não dos mecanismos das teorias.",
+      "natureza": "solicitacao_e_execucao_de_simulacao",
+      "tipo_texto": "proposta_assistente",
+      "origem": {
+        "tipo": "solicitacao_direta_e_execucao_computacional",
+        "registro": "pesquisa/simulacoes/README.md",
+        "transcricao_integral": false
+      },
+      "estado": "implementado_e_executado_com_dados_sinteticos",
+      "evidencia": {
+        "tipo": "experimento_computacional_ilustrativo",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "ritmo-progressao",
+        "cadencia-textual"
+      ],
+      "producoes": [
+        "SIM-001",
+        "MES-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-002"
+      ],
+      "proxima_acao": "Escolher mecanismo e hipóteses concorrentes; confrontar parâmetros e previsões com dados adequados.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Escolha do primeiro recorte, código Monte Carlo, execução e documentação; parâmetros fictícios declarados."
     }
   ]
 }

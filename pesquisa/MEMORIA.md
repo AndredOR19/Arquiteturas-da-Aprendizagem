@@ -24,3 +24,6 @@ Ler este arquivo e os registros vinculados, verificar arquivos vigentes e pergun
 
 ## Finalidade para o mestrado
 O autor quer que estes registros contribuam para a sustentação do mestrado. Consultar MESTRADO.md e MES-001. Alinhar pergunta, desenho e procedimentos com orientação/programa; não certificar aprovação nem transformar dados escolares automaticamente em pesquisa autorizada.
+
+## Simulações
+O autor solicitou explorar cenários com base científica. Primeira execução em pesquisa/simulacoes: planejamento por Monte Carlo, 40.000 estudos sintéticos e oito cenários, sem calibração e sem simular mecanismos cognitivos. Consultar premissas antes de interpretar números. Próxima etapa é delimitar uma hipótese e seus modelos concorrentes; nunca usar dados sintéticos como resultados com alunos.

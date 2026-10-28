@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "tipo": "simulacao_sintetica_de_planejamento",
+  "data_execucao": "2026-10-28",
+  "dados_reais": false,
+  "calibrado_para_arquiteturas": false,
+  "modelo_cognitivo": false,
+  "pergunta": "Como tamanho da amostra e efeito hipotético influenciam a detecção de uma diferença entre ganhos?",
+  "pressupostos": {
+    "grupos": 2,
+    "unidade": "indivíduo independente",
+    "atribuicao": "grupos comparáveis gerados da mesma população fictícia",
+    "itens_por_teste": 20,
+    "probabilidade_inicial": "Beta(6,4), média 0.60",
+    "mudanca_comum_pos": 0.05,
+    "perda_acompanhamento": 0.2,
+    "mecanismo_perda": "independente de grupo, habilidade e resultado",
+    "efeito": "incremento adicional na probabilidade pós, antes do limite 0.01 a 0.99",
+    "teste": "Welch bilateral sobre ganho individual pós menos pré",
+    "alfa": 0.05,
+    "parametros": "ilustrativos, não estimados de artigos ou alunos"
+  },
+  "limitacoes": [
+    "Não simula cérebro, marcha, leitura ou mecanismo das arquiteturas.",
+    "Não estima a chance de a teoria estar correta.",
+    "Não modela agrupamento por turma, escola, maturação entre séries, contaminação ou perda seletiva.",
+    "O efeito foi imposto; a diferença simulada não demonstra que ele existe.",
+    "p<0.05 no cenário nulo é falso positivo; em cenários com efeito, rejeição pode inclusive ter sinal errado.",
+    "Percentis de estimativas sintéticas não são intervalo de confiança de um efeito real."
+  ],
+  "ambiente": {
+    "numpy": "2.3.5"
+  },
+  "cenarios": [
+    {
+      "n_inicial_por_grupo": 30,
+      "n_inicial_total": 60,
+      "efeito_adicional_assumido_pp": -5.0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261028,
+      "media_acompanhados_total": 47.9972,
+      "diferenca_media_estimada_pp": -4.864574545250062,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        -13.042872670807453,
+        3.3750405844155837
+      ],
+      "fracao_p_menor_005": 0.1988,
+      "erro_padrao_monte_carlo": 0.0056440864628387825
+    },
+    {
+      "n_inicial_por_grupo": 30,
+      "n_inicial_total": 60,
+      "efeito_adicional_assumido_pp": 0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261029,
+      "media_acompanhados_total": 47.9412,
+      "diferenca_media_estimada_pp": 0.08265759787872852,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        -8.351683189998408,
+        8.508541666666664
+      ],
+      "fracao_p_menor_005": 0.0538,
+      "erro_padrao_monte_carlo": 0.0031907854832313627
+    },
+    {
+      "n_inicial_por_grupo": 30,
+      "n_inicial_total": 60,
+      "efeito_adicional_assumido_pp": 5.0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261030,
+      "media_acompanhados_total": 48.0114,
+      "diferenca_media_estimada_pp": 4.962916070863193,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        -3.1233465608465614,
+        13.089375901875899
+      ],
+      "fracao_p_menor_005": 0.213,
+      "erro_padrao_monte_carlo": 0.005790181344310383
+    },
+    {
+      "n_inicial_por_grupo": 30,
+      "n_inicial_total": 60,
+      "efeito_adicional_assumido_pp": 10.0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261031,
+      "media_acompanhados_total": 47.963,
+      "diferenca_media_estimada_pp": 9.906896634639216,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        1.714793756967669,
+        17.72773020055628
+      ],
+      "fracao_p_menor_005": 0.652,
+      "erro_padrao_monte_carlo": 0.006736408538679939
+    },
+    {
+      "n_inicial_por_grupo": 60,
+      "n_inicial_total": 120,
+      "efeito_adicional_assumido_pp": -5.0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261128,
+      "media_acompanhados_total": 95.892,
+      "diferenca_media_estimada_pp": -4.966167039389504,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        -10.83039453183289,
+        1.0013197586726963
+      ],
+      "fracao_p_menor_005": 0.3742,
+      "erro_padrao_monte_carlo": 0.006843600806592974
+    },
+    {
+      "n_inicial_por_grupo": 60,
+      "n_inicial_total": 120,
+      "efeito_adicional_assumido_pp": 0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261129,
+      "media_acompanhados_total": 95.99,
+      "diferenca_media_estimada_pp": -0.018484991642032197,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        -5.77940935192781,
+        5.717963435374148
+      ],
+      "fracao_p_menor_005": 0.0468,
+      "erro_padrao_monte_carlo": 0.0029869636757081596
+    },
+    {
+      "n_inicial_por_grupo": 60,
+      "n_inicial_total": 120,
+      "efeito_adicional_assumido_pp": 5.0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261130,
+      "media_acompanhados_total": 96.0228,
+      "diferenca_media_estimada_pp": 4.962145936786706,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        -1.055286808872488,
+        10.697631712259367
+      ],
+      "fracao_p_menor_005": 0.3962,
+      "erro_padrao_monte_carlo": 0.006917016119686291
+    },
+    {
+      "n_inicial_por_grupo": 60,
+      "n_inicial_total": 120,
+      "efeito_adicional_assumido_pp": 10.0,
+      "repeticoes": 5000,
+      "repeticoes_validas": 5000,
+      "semente": 20261131,
+      "media_acompanhados_total": 95.9548,
+      "diferenca_media_estimada_pp": 9.881984800271482,
+      "percentis_2_5_e_97_5_das_estimativas_pp": [
+        4.11730283868867,
+        15.557160326086954
+      ],
+      "fracao_p_menor_005": 0.9194,
+      "erro_padrao_monte_carlo": 0.0038497698632515686
+    }
+  ]
+}

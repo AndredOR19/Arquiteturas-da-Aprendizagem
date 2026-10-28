@@ -116,6 +116,19 @@
         "PES-001",
         "INF-001"
       ]
+    },
+    {
+      "id": "SIM-001",
+      "tipo": "simulacao",
+      "titulo": "Cenários computacionais para planejamento e teste de hipóteses",
+      "estado": "primeira_simulacao_de_planejamento_executada_sem_calibracao",
+      "caminho": "pesquisa/simulacoes/README.md",
+      "responsavel": "Prof. André com apoio técnico do assistente",
+      "proximo_marco": "Selecionar uma hipótese mecanística delimitada e reunir parâmetros empíricos e modelos concorrentes.",
+      "criterio_conclusao": "Modelo documentado e confrontado com observações fora do ajuste; o exercício atual não valida as arquiteturas.",
+      "depende_de": [
+        "PES-001"
+      ]
     }
   ],
   "projetos_anteriores_documentados": [
