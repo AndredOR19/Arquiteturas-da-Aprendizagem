@@ -68,3 +68,11 @@ node coleta/testes.mjs
 Gerar Code.gs novamente após alterar contrato.js, headers.json ou receptor.gs. Não editar a cópia gerada como fonte primária. Os testes simulam serviços Google e incluem perda de confirmação, falha parcial e reenvio. Eles não substituem o envio real após implantação.
 
 Referências técnicas consultadas em 28/10/2026: https://developers.google.com/apps-script/guides/web ; https://developers.google.com/apps-script/guides/content ; https://developers.google.com/apps-script/reference/lock/lock ; https://developers.google.com/apps-script/reference/properties/properties-service .
+
+
+## Extensão longitudinal opcional
+A seção 13.2 do prompt e pesquisa/longitudinal definem identidade estável e matrícula por ano/série. O módulo longitudinal.mjs oferece comAcompanhamento(payload,dados), que anexa a mesma informação ao relatório textual e ao JSON. Contrato.js valida a extensão opcional acompanhamento, versão 1.0.0; envelopes anteriores sem ela continuam válidos. O receptor conserva o objeto integral em Relatorios, sem mudar cabeçalhos ou abas.
+
+A extensão exige aluno_id e matricula_id UUID, ano letivo confirmado, etapa, série, fonte, data de aplicação, protocolo e versão, método e lista de medidas. Cada medida identifica indicador, momento, instrumento/versão, rubrica, unidade, fonte, valor e denominador; valor null exige motivo de ausência. Lista vazia significa que não há medidas extras. Coorte é opcional; escola e turma continuam nos campos da aula.
+
+Identificadores fornecidos pelo cliente são declarados, não prova da identidade ou matrícula. O professor precisa conferir os vínculos no cadastro privado antes da análise. Não publicar listas nominais. O módulo não consulta a lista, não atribui série e não importa entregas para SQLite. O serviço continua não implantado e nenhuma aula foi migrada. Conferir por teste real o armazenamento integral, texto e vínculo depois da implantação.

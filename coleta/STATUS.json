@@ -7,9 +7,17 @@
   "receptor_implantado": false,
   "endpoint": null,
   "teste_real_navegador": false,
-  "ensaios_locais_aprovados": 18,
+  "ensaios_locais_aprovados": 23,
   "servicos_google_simulados_nos_testes": true,
   "producao_ativada": false,
   "registros_de_estudantes": false,
-  "aulas_migradas": []
+  "aulas_migradas": [],
+  "extensao_longitudinal": {
+    "versao": "1.0.0",
+    "validacao_e_texto_json_implementados": true,
+    "receptor_simulado_preserva_extensao": true,
+    "aulas_migradas": [],
+    "teste_real_navegador": false,
+    "importacao_sqlite_implementada": false
+  }
 }

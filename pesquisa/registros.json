@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-10-28",
+  "registros": [
+    {
+      "id": "INS-20261028-001",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Progressão das unidades e das transições",
+      "formulacao": "Começar com alternâncias simples e avançar para sequências que exigem trocas mais rápidas.",
+      "natureza": "proposta_metodologica",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "relato_e_formulacao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "maci",
+        "arn",
+        "ritmo-progressao"
+      ],
+      "producoes": [
+        "LIV-001"
+      ],
+      "relacionados": [],
+      "proxima_acao": "Definir unidade, transição, critério de progressão e tarefa de transferência.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização documental e proposta operacional; sem autoria das formulações do professor."
+    },
+    {
+      "id": "INS-20261028-002",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Dança e aprendizagem do corpo no espaço",
+      "formulacao": "Investigar dança, coordenação, lateralidade e noções espaciais em Artes, Educação Física, Geografia e Pedagogia.",
+      "natureza": "hipotese",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "relato_e_formulacao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "ritmo-progressao"
+      ],
+      "producoes": [
+        "LIV-001",
+        "LIV-002"
+      ],
+      "relacionados": [
+        "INS-20261028-001"
+      ],
+      "proxima_acao": "Selecionar etapa e piloto acessível; distinguir melhora motora de transferência lógica.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização documental e proposta operacional; sem autoria das formulações do professor."
+    },
+    {
+      "id": "INS-20261028-003",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Operador Cognitivo e coordenação de equipes",
+      "formulacao": "Investigar se atividades coordenadas podem aproximar participantes e apoiar a cooperação.",
+      "natureza": "hipotese",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "relato_e_formulacao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "ritmo-progressao"
+      ],
+      "producoes": [
+        "LIV-003"
+      ],
+      "relacionados": [
+        "INS-20261028-001"
+      ],
+      "proxima_acao": "Definir medidas de cooperação fora da sequência sincronizada.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização documental e proposta operacional; sem autoria das formulações do professor."
+    },
+    {
+      "id": "INS-20261028-004",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Alternâncias textuais e visuais na leitura",
+      "formulacao": "Transferir para a arquitetura semântica uma lógica de alternância inspirada na dança.",
+      "natureza": "hipotese",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "relato_e_formulacao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "svs",
+        "aies",
+        "cadencia-textual"
+      ],
+      "producoes": [
+        "LIV-004"
+      ],
+      "relacionados": [
+        "INS-20261028-001"
+      ],
+      "proxima_acao": "Definir composição e instrumentos; não afirmar alternância neural ou fixação demonstradas.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização documental e proposta operacional; sem autoria das formulações do professor."
+    },
+    {
+      "id": "INS-20261028-005",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Cadência textual e giro de 180 graus",
+      "formulacao": "Acrescentar uma camada de cadência à dimensão do texto e precisar o giro de 180 graus.",
+      "natureza": "proposta_metodologica",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "relato_e_formulacao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "cadencia-textual",
+        "aies"
+      ],
+      "producoes": [
+        "LIV-004"
+      ],
+      "relacionados": [
+        "INS-20261028-004"
+      ],
+      "proxima_acao": "Conferir no manuscrito o sentido de giro e a relação com a formulação anterior.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização documental e proposta operacional; sem autoria das formulações do professor."
+    },
+    {
+      "id": "DEC-20261028-001",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Diário persistente e acompanhamento entre anos",
+      "formulacao": "Usar GitHub para registrar metodologias e produção; acompanhar os mesmos alunos entre anos e séries, com lista nominal privada.",
+      "natureza": "decisao",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "relato_e_formulacao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "avaliacao-experiencia"
+      ],
+      "producoes": [
+        "INF-001",
+        "INF-002"
+      ],
+      "relacionados": [],
+      "proxima_acao": "Receber listas privadas e confirmar matrículas de 2026; preservar vínculo em 2027 sem presumir aprovação.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização documental e proposta operacional; sem autoria das formulações do professor."
+    },
+    {
+      "id": "DEC-20261028-002",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Finalidade de sustentação da pesquisa de mestrado",
+      "formulacao": "Organizar diário e acompanhamento para contribuir como documentação e possível base empírica do mestrado.",
+      "natureza": "finalidade_de_pesquisa",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "intencao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "avaliacao-experiencia"
+      ],
+      "producoes": [
+        "PES-001",
+        "ANA-001",
+        "MES-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-001"
+      ],
+      "proxima_acao": "Alinhar pergunta, instrumentos e procedimentos institucionais com orientação/programa.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Delimitação documental; não certifica aprovação acadêmica ou ética."
+    }
+  ]
+}

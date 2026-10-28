@@ -18,3 +18,7 @@
 - Ativação de produção e primeiros registros efetivos.
 
 Não interpretar teste simulado como recebimento de estudante. Não há monitoramento automático de novas entregas nesta conversa.
+
+
+## Extensão longitudinal de 28 de outubro de 2026
+Cinco ensaios adicionais, totalizando 23: texto/JSON preservados, campos e datas inválidas recusados, ausência distinta de zero, persistência integral no receptor simulado e mesmo aluno com matrículas de 2026/2027. Code.gs regenerado da fonte compartilhada. Nenhum teste real de navegador, implantação ou migração de aula foi realizado nesta extensão. O estado online permanece não implantado.

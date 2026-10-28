@@ -5,3 +5,14 @@ node_modules/
 **/.quarto/
 **/__pycache__/
 *.pyc
+
+
+# Dados locais individuais e relatórios reservados
+/dados-privados/
+/pesquisa/longitudinal/privado/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sqlite3-wal
+*.sqlite3-shm

@@ -64,3 +64,10 @@ Autoria pedagógica: Prof. André de Oliveira Rodrigues.
 Aplicar seção 13.1 e planta avaliacao-experiencia: exigir todas as respostas e confirmação da avaliação de layout, leitura, fontes e interação para concluir, liberar nota e relatório final/e-mail, sem a opinião afetar o cálculo da nota; explicar finalidade de pesquisa e revisão; preservar respostas e preferências no relatório completo, inclusive e-mail. Distinguir não uso, indisponibilidade e ausência de resposta; não inferir diagnósticos ou efeito causal.
 
 Bloqueio de conclusão: validar completude em todas as rotas de resultado e após recarregar; sem alternativas pré-marcadas. Aceitar não uso/não teste/não saber quando pertinentes. Sugestão escrita tem alternativa explícita “não tenho sugestão agora”. Preservar progresso e revalidar após edição. E-mail aberto não comprova entrega; o professor confere relatório recebido.
+
+
+## Diário, metodologias e acompanhamento entre anos
+- Consultar pesquisa/MEMORIA.md, registros.json, producoes.json e o diário pertinente antes de continuar esses projetos. Registrar os insights em sessão autorizada, preservando autoria, origem, hipótese e evidência; não prometer memória automática.
+- Aplicar seções 27–28 do prompt: progressão coordenada e cadência textual são propostas em desenvolvimento. Não afirmar alternância neural, benefício universal ou transferência demonstrada.
+- Seguir seção 13.2 e pesquisa/longitudinal/README.md: aluno estável, matrículas por ano/série/turma, listas nominais privadas, ausências diferentes de zero e promoção somente confirmada. Nunca publicar dados individuais ou códigos vinculáveis.
+- Validar catálogo e banco documental; executar os ensaios longitudinais ao alterar esquema ou ferramenta. Registrar o estado real da integração com a coleta, sem ativação implícita.

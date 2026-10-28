@@ -108,3 +108,7 @@ Preparar ficha de tradução objetivo → fonte → característica formal → f
 Próximo marco: selecionar duas obras para o estudo Basquiat, desenvolver duas unidades comentadas e comparar uma apresentação expressiva e uma simplificada. Registrar o que foi produzido, aplicado e observado separadamente.
 
 A fundamentação pedagógica ainda requer levantamento e leitura de fontes sobre representação, aprendizagem multimídia, educação artística, acessibilidade e transferência. As referências museológicas acima não substituem essa pesquisa. Não há, nesta versão, validação empírica da arquitetura nem reivindicação de ineditismo científico.
+
+
+## Desdobramento de 28 de outubro de 2026
+O autor propôs uma camada de cadência textual articulada à dimensão espacial e semântica, incluindo um giro de 180 graus a precisar. O desenvolvimento está em livros/leitura-cadencia-textual/PROJETO.md e pesquisa/diario/2026-10-28.md. Esse registro não redefine silenciosamente as camadas anteriores nem presume equivalência entre giro gráfico e lateralização cerebral.

@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.9.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.10.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -80,4 +80,8 @@ O conector está disponível para uso nas sessões em que houver acesso. Isso n�
 Incluídas no catálogo de publicação. “Aula” significa a entrega digital completa conforme o prompt mestre. Confira o registro de validação em aulas/VERIFICACAO_27-10-2026.md.
 
 ## Coleta de relatórios — implementação em preparação
-[Receptor e orientações](coleta/README.md), [estado](coleta/STATUS.json) e [conferências](coleta/VERIFICACAO.md). Planilha privada criada na conta autorizada; contrato, cliente e receptor preparados com 18 ensaios locais. Implantação Apps Script, autorização, envio real pelo navegador e migração de aulas ainda pendentes. Relatórios de estudantes não entram no GitHub público. O fluxo atual de e-mail permanece até integração conferida.
+[Receptor e orientações](coleta/README.md), [estado](coleta/STATUS.json) e [conferências](coleta/VERIFICACAO.md). Planilha privada criada na conta autorizada; contrato, cliente e receptor preparados com 23 ensaios locais. Implantação Apps Script, autorização, envio real pelo navegador e migração de aulas ainda pendentes. Relatórios de estudantes não entram no GitHub público. O fluxo atual de e-mail permanece até integração conferida.
+
+
+## Diário de pesquisa e continuidade
+O [diário e banco de insights](pesquisa/README.md) registram as correlações autorais, as metodologias em desenvolvimento e a fila dos livros. Começar por [MEMORIA.md](pesquisa/MEMORIA.md). O [acompanhamento longitudinal](pesquisa/longitudinal/README.md) separa aluno, matrícula histórica, coorte e observação; nomes e dados reais ficam fora do repositório público. Prompt vigente 2.10.0. O registro não ativa coleta online nem memória automática.

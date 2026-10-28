@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "atualizado_em": "2026-10-28",
+  "titulos_provisorios": true,
+  "producoes": [
+    {
+      "id": "LIV-001",
+      "tipo": "livro",
+      "titulo": "Arquiteturas da aprendizagem pela dança",
+      "estado": "projeto_inicial",
+      "caminho": "livros/aprendizagem-pela-danca/PROJETO.md",
+      "responsavel": "Prof. André",
+      "proximo_marco": "Confirmar recorte e elaborar protocolo do exemplo.",
+      "criterio_conclusao": "Recorte revisto, fontes consultadas e exemplo documentado; não implica livro finalizado.",
+      "depende_de": [
+        "PES-001"
+      ]
+    },
+    {
+      "id": "LIV-002",
+      "tipo": "livro",
+      "titulo": "Arquiteturas do corpo e do espaço na infância",
+      "estado": "projeto_inicial",
+      "caminho": "livros/corpo-espaco-infancia/PROJETO.md",
+      "responsavel": "Prof. André",
+      "proximo_marco": "Confirmar recorte e elaborar protocolo do exemplo.",
+      "criterio_conclusao": "Recorte revisto, fontes consultadas e exemplo documentado; não implica livro finalizado.",
+      "depende_de": [
+        "PES-001"
+      ]
+    },
+    {
+      "id": "LIV-003",
+      "tipo": "livro",
+      "titulo": "Operador Cognitivo e coordenação de equipes",
+      "estado": "projeto_inicial",
+      "caminho": "livros/operador-cognitivo-coordenacao/PROJETO.md",
+      "responsavel": "Prof. André",
+      "proximo_marco": "Confirmar recorte e elaborar protocolo do exemplo.",
+      "criterio_conclusao": "Recorte revisto, fontes consultadas e exemplo documentado; não implica livro finalizado.",
+      "depende_de": [
+        "PES-001"
+      ]
+    },
+    {
+      "id": "LIV-004",
+      "tipo": "livro",
+      "titulo": "Arquiteturas da leitura e da cadência textual",
+      "estado": "projeto_inicial",
+      "caminho": "livros/leitura-cadencia-textual/PROJETO.md",
+      "responsavel": "Prof. André",
+      "proximo_marco": "Confirmar recorte e elaborar protocolo do exemplo.",
+      "criterio_conclusao": "Recorte revisto, fontes consultadas e exemplo documentado; não implica livro finalizado.",
+      "depende_de": [
+        "PES-001"
+      ]
+    },
+    {
+      "id": "PES-001",
+      "tipo": "pesquisa",
+      "titulo": "Fundamentação e protocolo dos pilotos",
+      "estado": "pendente",
+      "responsavel": "Prof. André com apoio do assistente",
+      "proximo_marco": "Escolher uma hipótese e definir medida inicial, prática, retenção e transferência.",
+      "criterio_conclusao": "Protocolo versionado, instrumentos, critérios e limites definidos antes da aplicação.",
+      "depende_de": []
+    },
+    {
+      "id": "INF-001",
+      "tipo": "infraestrutura",
+      "titulo": "Cadastro nominal e matrículas históricas",
+      "estado": "estrutura_local_implementada_sem_dados_reais",
+      "caminho": "pesquisa/longitudinal/README.md",
+      "responsavel": "Prof. André",
+      "proximo_marco": "Receber lista oficial por canal privado e confirmar matrículas de 2026.",
+      "criterio_conclusao": "Lista privada conferida e IDs estáveis vinculados às matrículas corretas.",
+      "depende_de": []
+    },
+    {
+      "id": "INF-002",
+      "tipo": "infraestrutura",
+      "titulo": "Integração longitudinal na coleta e nas aulas",
+      "estado": "pendente",
+      "caminho": "coleta/README.md",
+      "responsavel": "Prof. André com apoio técnico",
+      "proximo_marco": "Evoluir contrato versionado, receptor e exportação com vínculo de matrícula; testar antes de migrar.",
+      "criterio_conclusao": "Teste real de entrega e leitura privada, sem regressão dos relatórios e com aulas migradas identificadas.",
+      "depende_de": [
+        "INF-001"
+      ]
+    },
+    {
+      "id": "ANA-001",
+      "tipo": "analise",
+      "titulo": "Resultados e continuidade entre 2026 e 2027",
+      "estado": "aguardando_dados",
+      "responsavel": "Prof. André",
+      "proximo_marco": "Confirmar turmas, linha de base e aplicação; em 2027 cadastrar matrículas reais.",
+      "criterio_conclusao": "Relatório de contexto, denominadores, pares comparáveis, ausências e limites; sem significância automática.",
+      "depende_de": [
+        "PES-001",
+        "INF-001",
+        "INF-002"
+      ]
+    },
+    {
+      "id": "MES-001",
+      "tipo": "pesquisa",
+      "titulo": "Dossiê de pesquisa para o mestrado",
+      "estado": "planejamento_a_alinhar_com_orientacao",
+      "caminho": "pesquisa/MESTRADO.md",
+      "responsavel": "Prof. André e orientação acadêmica",
+      "proximo_marco": "Delimitar pergunta, desenho, instrumentos e procedimentos institucionais pertinentes.",
+      "criterio_conclusao": "Protocolo alinhado com orientação/programa e documentação de procedimentos, aplicação e análise com proveniência. Não implica aprovação ou resultados positivos.",
+      "depende_de": [
+        "PES-001",
+        "INF-001"
+      ]
+    }
+  ],
+  "projetos_anteriores_documentados": [
+    {
+      "caminho": "livros/arquitetura-das-associacoes/ESBOCO.md",
+      "fonte": "arquivo_existente_consultado"
+    },
+    {
+      "caminho": "livros/integracao-estetico-semantica/ESBOCO.md",
+      "fonte": "arquivo_existente_consultado"
+    }
+  ]
+}

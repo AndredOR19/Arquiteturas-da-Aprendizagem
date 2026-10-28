@@ -1,7 +1,7 @@
 # Biblioteca de Arquiteturas da Aprendizagem
-Versão documental: 1.2.0 — 28/10/2026  
+Versão documental: 1.3.0 — 28/10/2026  
 Responsável pedagógico: Prof. André de Oliveira Rodrigues.  
-Compatível com o [Prompt Mestre 2.9.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
+Compatível com o [Prompt Mestre 2.10.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
 
 Esta biblioteca transforma diretrizes em plantas consultáveis: o que cada arquitetura faz, suas entradas, operações, saídas, relações, exemplos e critérios de revisão. O prompt é a porta de entrada; a biblioteca detalha sua execução; os recursos técnicos produzem os formatos. Uma IA deve ler os documentos: links e siglas sozinhos não transferem contexto nem garantem execução idêntica.
 
@@ -48,3 +48,7 @@ Doze plantas transversais/de integração, duas plantas ou roteiros disciplinare
 
 ## Coleta online em preparação
 [Coletor Google Sheets/Apps Script](../coleta/README.md), com relatório integral, validação, convite, protocolo e reenvio idempotente. [Estado](../coleta/STATUS.json): planilha criada, código e testes locais preparados; implantação e teste real ainda pendentes. Nenhuma aula anterior foi migrada.
+
+
+## Propostas sobre alternância
+As plantas [Progressão coordenada](plantas/ritmo-progressao.md) e [Cadência textual](plantas/cadencia-textual.md) estão em desenvolvimento, fora do núcleo obrigatório. Origem e próximos passos no [diário de pesquisa](../pesquisa/README.md); não representam eficácia comprovada ou alteração retroativa de materiais.

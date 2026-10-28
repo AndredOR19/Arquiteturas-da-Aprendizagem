@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.10.0 — 28/10/2026
+**Pedido:** registrar a conversa sobre dança, alternâncias, progressão, cadência textual e dimensão semântica como metodologias em desenvolvimento; criar diário de produção intelectual e banco de insights; acompanhar as turmas entre 2026 e 2027, com listas nominais privadas e relatórios úteis à revisão.
+
+**Produzido:** pesquisa/ com memória de continuidade, sete registros de origem direta, diário datado, fila de quatro livros e tarefas técnicas, modelos de registro/relatório; duas plantas propostas; projetos editoriais iniciais. Estrutura SQLite e ferramenta local para identidade estável, matrículas históricas, coortes, protocolos, sessões e medidas; cadastro nominal separado. Extensão opcional do relatório textual/JSON validada no contrato, sem quebra do envelope anterior; finalidade de apoio ao mestrado e dossiê inicial. Prompt 2.10.0 com seções 13.2, 27 e 28; catálogo compatível e orientações atualizadas.
+
+**Verificação:** ver pesquisa/VERIFICACAO.md para ensaios efetivamente realizados. A verificação estrutural não comprova eficácia pedagógica.
+
+**Limites:** relato autoral não é resultado experimental; alternância hemisférica não demonstrada. Nenhuma lista, matrícula ou medida real foi recebida. A mudança de série em 2027 depende de confirmação. A adoção longitudinal nas aulas e a verificação do receptor implantado são pendentes; estado de implantação em coleta/STATUS.json preservado. Não houve monitoramento automático de outros chats nem publicação de informações individuais.
+
 ## 2.9.0 — 28/10/2026
 **Pedido:** iniciar a ponte de coleta automática em Google Sheets/Apps Script pela conta pessoal já conectada, após autorização “Bora!”.
 
@@ -150,5 +159,6 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 - Arquivos e aulas efetivamente alterados:
 - Verificação realizada:
 - Pendências:
+
 
 

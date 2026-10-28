@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.9.0**  
+Versão vigente: **2.10.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -16,6 +16,8 @@ Antes de criar ou revisar uma aula:
 6. Consulte biblioteca-arquiteturas/PROTOCOLO_IA.md e catalogo.json; leia o núcleo transversal, suas dependências e o ramo pertinente. Preencha o briefing de composição e confira compatibilidade com este prompt. A biblioteca operacionaliza as arquiteturas para uso por diferentes IAs, sem depender de histórico de conversa.
 
 **Interpretação padrão de “aula”:** quando o professor pedir uma aula, produzir a aula digital completa em HTML, seguindo este fluxo de produção, conferência, cadastro e publicação no GitHub Pages. Documento editável é complemento quando pertinente ou quando solicitado; sua entrega isolada não encerra o pedido de aula. Consultar memória e este repositório a cada pedido, sem exigir que o professor repita o padrão. Quando solicitado QR Code, gerar um por aula somente após conferir o endereço publicado.
+
+Para continuar a produção intelectual, consultar pesquisa/MEMORIA.md, registros.json, producoes.json e o diário pertinente. Esse procedimento se soma à consulta pedagógica, sem carregar automaticamente conversas ou bases privadas.
 
 Este repositório é a base documental de referência do projeto. Não presuma que seu conteúdo é carregado automaticamente em todas as conversas: consulte-o explicitamente quando houver acesso.
 
@@ -305,6 +307,13 @@ Revalidar a condição em todas as rotas e ações de resultado, não somente pe
 
 O corpo do e-mail continua contendo o relatório completo, com avaliação e dados de aprendizagem. Em caso de limite de tamanho, explicar e oferecer cópia/download para anexo manual; não truncar silenciosamente. O estudante confere e envia no aplicativo; abertura do e-mail não comprova entrega.
 
+### 13.2. Acompanhamento longitudinal e dados para aperfeiçoamento
+Aplicar pesquisa/modelos/RELATORIO_ACOMPANHAMENTO.md. No relatório privado, prever aluno_id estável, matricula_id, coorte, ano letivo, etapa, série, turma, escola e fonte da confirmação. Ano e série pertencem à matrícula, não à identidade permanente. Preservar 2026 quando cadastrar 2027; confirmar promoção, repetência e transferência, sem deduzi-las do calendário. Nome e vínculo nominal ficam apenas no cadastro restrito.
+
+Registrar protocolo/versão, artefato/versão, prompt, instrumento/rubrica, data real, contexto, exposição e apoios, linha de base, recuperação, retenção, transferência e percepção separadamente. Dado não coletado é ausente, não zero. Só registrar tempo quando efetivamente medido. Comparar pares com critérios explícitos; diferenças entre séries, tarefas e versões podem impedir comparação direta. Relatar perdas de acompanhamento e resultados nulos/negativos. Diferenciar relevância pedagógica, diferença observada e significância estatística, sem prometer causalidade.
+
+A estrutura local em pesquisa/longitudinal está implementada e testável com dados fictícios. A extensão opcional em coleta/longitudinal.mjs anexa os campos ao texto e ao JSON e o contrato valida a estrutura; a adoção nas aulas e o recebimento online exigem integração e teste real. Não reclassificar entregas antigas nem inventar série ou aluno a partir de um relatório incompleto. O envelope 1.0.0 permanece compatível; acompanhamento opcional tem versão própria 1.0.0 e persistência integral pelo receptor, sem novas colunas ou alteração nas abas.
+
 ## 14. Materiais do professor e segurança de acesso
 Guia docente, orientações “como explicar”, gabarito consolidado e planos exclusivos do professor devem ser separados do material discente.
 
@@ -460,3 +469,22 @@ Separar modo teste e produção. Evitar duplicação por ID e hash estáveis; n�
 As aulas atuais mantêm o fluxo de e-mail até integração e verificação explícitas. No modo online configurado, conferir recibo e conteúdo atual antes de declarar entrega online concluída. A alternativa de arquivo/e-mail pode ser oferecida após avaliação completa, com estado explícito de recebimento online não confirmado; o professor verifica entrega pelo canal usado. Não declarar e-mail recebido pelo clique.
 
 Estado inicial desta implementação: planilha criada e privada; código e testes locais preparados; publicação Apps Script, autorização, teste real de navegador e migração de aulas ainda pendentes. Nenhum serviço de análise por IA ou monitoramento automático desta conversa está instalado. Atualizar estado e listar aulas migradas somente com evidência.
+
+
+## 27. Progressão coordenada e cadência textual
+Decisão autoral de 28/10/2026: incorporar como metodologias propostas em desenvolvimento as plantas biblioteca-arquiteturas/plantas/ritmo-progressao.md e cadencia-textual.md. A documentação metodológica está registrada; eficácia e transferência não estão demonstradas. Não exigir esses recursos em toda aula.
+
+Na progressão coordenada, ensinar unidades, alternâncias e transições; recombinar e ampliar exigências conforme critérios de domínio, com adaptações e precisão antes de eventual velocidade. Investigar dança, Artes, Educação Física e noções espaciais na infância/Geografia. No Operador Cognitivo, investigar coordenação coletiva sem equiparar ritmo corporal a produtividade ou pensamento uniforme. A marcha militar é uma analogia relatada, não modelo de repetição exaustiva para alunos.
+
+Na cadência textual, articular significado, organização espacial e percurso temporal: alternar extensões, representações, pausas e retomadas com função explícita e acesso preservado. O giro de 180 graus exige consulta à formulação do livro para distinguir rotação, percurso e perspectiva. Não impor inversão literal nem ritmo compulsório. Preservar versão convencional equivalente, leitura ajustável e D/R/E/L. A referência inicial do professor à alternância hemisférica deve permanecer identificada como conjectura, sem afirmar que texto e imagem acionem lados exclusivos ou que a diagramação comprove um mecanismo neural.
+
+## 28. Diário de pesquisa e memória documental
+Usar pesquisa/README.md e MEMORIA.md como ponto de entrada; registros.json é o banco versionado dos insights e producoes.json reúne as próximas entregas. Ao receber insight pertinente em sessão autorizada: registrar formulação e origem, separar contribuição do assistente, relacionar registros/arquiteturas/livros, explicitar hipótese e evidência, decidir próxima ação e salvar versão verificável. Consultar fontes antes de resumir conversas anteriores; não alegar arquivamento integral ou memória automática.
+
+Preservar a autoria do professor e as revisões. Separar ideia, método documentado, implementação, aplicação confirmada e resultado observado. Registrar somente experiências pessoais intelectuais autorizadas para publicação; material reservado fica fora do Git público. O diário não é conteúdo obrigatório da aula discente.
+
+O acompanhamento longitudinal começa pela confirmação das listas e matrículas privadas. Em 2026 há relato de início do projeto em turmas ainda não identificadas aqui; continuidade em 2027 é intenção. Identificadores estáveis permitem seguir cada aluno entre séries, sem usar nome como chave, presumir aprovação ou substituir o histórico. Novos relatórios seguem seção 13.2, com migração funcional explicitamente registrada.
+
+Manter a fila dos livros sobre dança, corpo/espaço na infância, coordenação de equipes no Operador Cognitivo e cadência textual. Os títulos são provisórios; não produzir livros completos por inferência nem confundir esboço com obra finalizada. Protocolo e dados devem permitir rever hipóteses, inclusive diante de ausência de benefício. A conexão não instala monitoramento de conversas, sincronização automática, implantação online ou análise estatística.
+
+Finalidade acadêmica expressa: os registros poderão compor documentação e base empírica do mestrado. Consultar pesquisa/MESTRADO.md e alinhar procedimentos com orientação/programa. Não declarar autorização, validade ou resultado significativo sem evidência.
