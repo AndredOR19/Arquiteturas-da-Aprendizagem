@@ -1,0 +1,16 @@
+{
+  "execucao": "40790689080",
+  "tentativa": "1",
+  "cenario": "turmas",
+  "commit_fonte": "9d907e831dc220d3856bf60430933527d5afc032",
+  "pasta": "execucoes/40790689080-1-turmas",
+  "experimento": "d276adbc6e5e3a6b2b38edd17d14da8d3d42fb30cc184352f88f0d1ff1544c65",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md"
+    ]
+  }
+}
