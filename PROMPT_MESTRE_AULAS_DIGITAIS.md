@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.14.1**  
+Versão vigente: **2.14.2**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -527,3 +527,5 @@ O painel compartilhado em publicacao/leitura é incorporado pelo empacotamento a
 O painel não modifica apresentações externas Gamma. Distinguir publicação compartilhada de integração aos relatórios: Conectar e investigar usa adaptador de preferências; demais relatórios exigem integração própria antes de afirmar que esses campos são enviados.
 
 Esclarecimento do autor: o acesso visível deve dizer “Dislexia / TDAH”. Oferecer seleção direta “Dislexia · apoio à leitura” e “TDAH · foco e menos estímulos”, aplicando fonte e layout juntos em um clique, sem exigir conhecimento tipográfico. São atalhos opcionais e ajustáveis; não classificar alunos nem registrar diagnóstico. Manter alternativas por necessidade, controles manuais e restauração.
+
+Aplicar a diretriz a todos os suportes de produção: HTML, apresentações, documentos, pranchas e impressos. Em HTML, oferecer seleção interativa dos apoios e ajustes manuais; em slides/documentos/impressos, oferecer versões adaptadas e identificadas por finalidade de leitura, respeitando as possibilidades do formato. Links externos e materiais antigos exigem revisão própria: não afirmar migração sem verificar cada entrega. Os atalhos Dislexia/TDAH são opcionais, não exclusivos e não substituem adaptações individuais. Explicar o que cada configuração muda, permitir escolha por necessidade e preservar conteúdo, contraste, descrições e navegação. Não presumir que todos os diagnósticos tenham um mesmo perfil de fonte/layout; outros apoios devem ser definidos pela necessidade observável e orientação pertinente.
