@@ -1,7 +1,7 @@
 # Biblioteca de Arquiteturas da Aprendizagem
-Versão documental: 1.0.0 — 28/10/2026  
+Versão documental: 1.1.0 — 28/10/2026  
 Responsável pedagógico: Prof. André de Oliveira Rodrigues.  
-Compatível com o [Prompt Mestre 2.7.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
+Compatível com o [Prompt Mestre 2.8.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
 
 Esta biblioteca transforma diretrizes em plantas consultáveis: o que cada arquitetura faz, suas entradas, operações, saídas, relações, exemplos e critérios de revisão. O prompt é a porta de entrada; a biblioteca detalha sua execução; os recursos técnicos produzem os formatos. Uma IA deve ler os documentos: links e siglas sozinhos não transferem contexto nem garantem execução idêntica.
 
@@ -31,7 +31,7 @@ Esta biblioteca transforma diretrizes em plantas consultáveis: o que cada arqui
 
 [Planta transversal de acessibilidade de leitura](plantas/leitura-acessivel.md): fontes, tamanho, espaçamento, largura, foco e escolhas reversíveis; sem rótulos diagnósticos.
 
-[Avaliação da experiência](plantas/avaliacao-experiencia.md): impressão dos estudantes, recursos e preferências no relatório completo, sem efeito na nota.
+[Avaliação da experiência](plantas/avaliacao-experiencia.md): questionário obrigatório com todas as respostas confirmadas para liberar conclusão, nota e relatório/e-mail; opiniões não alteram o cálculo da nota.
 
 ## Ramificações por componente
 - [Matemática por Dentro](disciplinas/matematica.md): planta inicial da relação entre situação, representação, símbolos, procedimento e aplicação.

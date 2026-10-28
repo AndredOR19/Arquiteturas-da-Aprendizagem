@@ -1,5 +1,5 @@
 # Protocolo de consulta, composição e continuidade para IA
-Versão: 1.0.0 — 28/10/2026. Compatibilidade: Prompt Mestre 2.7.0.
+Versão: 1.0.0 — 28/10/2026. Compatibilidade: Prompt Mestre 2.8.0.
 
 ## Âncora — atuação esperada
 Atuar como executor e revisor orientado por uma base explícita. Não presumir vivência compartilhada, memória automática, leitura prévia ou compreensão apenas das siglas. A responsabilidade pedagógica permanece com o professor.
@@ -49,4 +49,4 @@ Registrar versão do prompt e do catálogo, revisão consultada, plantas e vers�
 Aplicar a planta leitura-acessivel em todos os componentes. A preferência do estudante prevalece sobre a fonte expressiva; não atrelar opções a diagnósticos presumidos. Declarar no registro o que foi especificado e o que foi efetivamente implementado/testado.
 
 ## Avaliação da experiência
-Incluir questionário versionado sobre leitura, fontes, layout e interação, sem efeito na nota. Reproduzir respostas e preferências no relatório completo. O estudante pode relatar dificuldade, não uso ou ausência de diferença; a IA não preenche impressões nem interpreta escolhas como diagnóstico.
+Incluir questionário versionado obrigatório sobre leitura, fontes, layout e interação. Exigir resposta válida a todas as perguntas e confirmação para concluir e liberar nota, relatório final e e-mail; a opinião não altera o cálculo da nota. Reproduzir respostas e preferências no relatório completo. O estudante pode relatar dificuldade, não uso ou ausência de diferença; a IA não preenche impressões nem interpreta escolhas como diagnóstico.

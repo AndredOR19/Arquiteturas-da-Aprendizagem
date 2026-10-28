@@ -2,6 +2,19 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.8.0 — 28/10/2026
+**Pedido:** impedir conclusão da aula sem resposta a todas as perguntas da avaliação do artefato; liberar nota e envio do relatório somente após avaliação completa. O professor utilizará o relatório recebido como evidência de entrega.
+
+**Alteração da regra anterior:** avaliação antes descrita como voluntária passa a ser obrigatória para conclusão. Cada pergunta exige escolha válida explícita, sem pré-seleção; aceitar não uso, não teste, não disponibilização e não saber quando pertinentes. Sugestão tem alternativa “não tenho sugestão agora”, sem escrita compulsória. Opiniões não alteram o cálculo da nota.
+
+**Contrato de fluxo:** atividades concluídas → avaliação pendente → validação de todas as respostas e confirmação → nota e relatório final liberados → conferir e abrir e-mail. Antes da validação, bloquear resultado, finalização e ações de relatório final, incluindo prévia/cópia/download com nota e e-mail. Preservar progresso e avaliação parcial, indicar pendências com foco acessível, revalidar em todas as rotas e após recarga/edição. E-mail aberto não comprova envio ou recebimento.
+
+**Arquivos:** prompt 2.8.0, orientações e documentação; catálogo 1.1.0 com contrato de conclusão, referências de compatibilidade e planta de avaliação 1.1.0. Histórico anterior preservado como registro da evolução.
+
+**Verificação:** revisão das regras ativas para eliminar voluntariedade/questões vazias na conclusão; validador estrutural do catálogo e conferência dos arquivos salvos. Plano de ensaios funcionais incluído na planta.
+
+**Limites:** atualização documental, sem alteração retroativa do código de aulas existentes. Bloqueio e-mail/nota ainda requer implementação e teste por artefato; bloqueio de interface não garante sigilo de cálculo no cliente. Recebimento depende de confirmação real do professor.
+
 ## 2.7.0 — 28/10/2026
 **Pedido:** construir biblioteca ligada diretamente ao prompt com plantas das arquiteturas, organização das próprias bibliotecas e ramificações por matéria, para execução por outras IAs sem depender do histórico. Durante a elaboração, incorporar insight do professor sobre fontes e acessibilidade de leitura.
 

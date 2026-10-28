@@ -61,4 +61,6 @@ Autoria pedagógica: Prof. André de Oliveira Rodrigues.
 - Não confunda o uso do conector nesta sessão com uma API instalada no Actions. Registre apenas o link final, sem credenciais.
 
 ## Devolutiva dos estudantes
-Aplicar seção 13.1 e planta avaliacao-experiencia: avaliar layout, leitura, fontes e interação sem efeito na nota; explicar finalidade de pesquisa e revisão; preservar respostas e preferências no relatório completo, inclusive e-mail. Distinguir não uso, indisponibilidade e ausência de resposta; não inferir diagnósticos ou efeito causal.
+Aplicar seção 13.1 e planta avaliacao-experiencia: exigir todas as respostas e confirmação da avaliação de layout, leitura, fontes e interação para concluir, liberar nota e relatório final/e-mail, sem a opinião afetar o cálculo da nota; explicar finalidade de pesquisa e revisão; preservar respostas e preferências no relatório completo, inclusive e-mail. Distinguir não uso, indisponibilidade e ausência de resposta; não inferir diagnósticos ou efeito causal.
+
+Bloqueio de conclusão: validar completude em todas as rotas de resultado e após recarregar; sem alternativas pré-marcadas. Aceitar não uso/não teste/não saber quando pertinentes. Sugestão escrita tem alternativa explícita “não tenho sugestão agora”. Preservar progresso e revalidar após edição. E-mail aberto não comprova entrega; o professor confere relatório recebido.

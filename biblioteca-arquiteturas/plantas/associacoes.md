@@ -5,7 +5,7 @@ Versão desta planta: 1.0.0 — 28/10/2026
 Status: diretriz documentada no projeto; eficácia empírica não declarada.  
 Camada: transversal  
 Autoria pedagógica: Prof. André de Oliveira Rodrigues.  
-Fonte normativa: [Prompt mestre 2.7.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 6.1, 23. Esta planta operacionaliza essas regras e não substitui a fonte.
+Fonte normativa: [Prompt mestre 2.8.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 6.1, 23. Esta planta operacionaliza essas regras e não substitui a fonte.
 Dependências de leitura: [aee](aee.md), [svs](svs.md).
 
 ## Âncora conceitual — finalidade e entrada

@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.7.0**  
+Versão vigente: **2.8.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -269,7 +269,7 @@ Acerto na primeira confirmação deve corresponder ao valor integral previsto pa
 
 Registrar separadamente acerto inicial, apoio antes da primeira confirmação, tentativas posteriores e conclusão. Indicadores de seleção não comprovam produção escrita nem compreensão plena; combinar com explicação oral e avaliação docente.
 
-Uma divisão como 20 treinos e 6 aplicações é uma implementação possível, não regra universal. O domínio final após revisão deve aparecer além do indicador inicial. Avaliação do material pelo estudante não compõe a nota.
+Uma divisão como 20 treinos e 6 aplicações é uma implementação possível, não regra universal. O domínio final após revisão deve aparecer além do indicador inicial. Avaliação do material pelo estudante não compõe o cálculo da nota. Responder integralmente à avaliação é requisito de conclusão e liberação da nota e do relatório final, conforme seção 13.1.
 
 ## 13. Relatório completo e entrega
 Ao final de cada artefato digital, incluir o botão **“Enviar relatório ao professor”**. Ao clicar, abrir o aplicativo de e-mail do estudante com destinatário, assunto e corpo preenchidos com o relatório completo. O estudante confere a mensagem e clica em Enviar no aplicativo. Esse é o comportamento solicitado pelo professor; não exige envio automático por servidor ou integração de e-mail.
@@ -289,11 +289,19 @@ Preservar progresso local e informar suas limitações. Não publicar dados iden
 ### 13.1. Experiência do estudante, acessibilidade e pesquisa de aperfeiçoamento
 Decisão de 28/10/2026: a avaliação do artefato deve recolher também a experiência com layout, leitura, fontes, tamanho/espaçamento, imagens, navegação, controles e dificuldades de interação. Incorporar os dados na seção **Experiência com o artefato e preferências de leitura**, dentro do relatório completo enviado ao professor, preservando a mesma informação na prévia, cópia e download.
 
-Seguir a [planta de avaliação da experiência](biblioteca-arquiteturas/plantas/avaliacao-experiencia.md), com questionário inicial versionado e estrutura dos dados. Manter respostas exatas, comentário opcional e distinção entre recurso não disponibilizado, não usado, não testado, ausência de diferença e pergunta não respondida. Registrar preferências e eventos somente quando implementados e realmente verificados. Não inventar fonte renderizada ou uso a partir da mera disponibilidade do controle.
+Seguir a [planta de avaliação da experiência](biblioteca-arquiteturas/plantas/avaliacao-experiencia.md), com questionário inicial versionado e estrutura dos dados. Exigir resposta explícita a todas as perguntas, sem alternativas pré-marcadas. Preservar opções honestas de não uso, não teste, não disponibilização, ausência de diferença e não saber avaliar; nenhuma pergunta pode ficar vazia na conclusão. Para sugestão aberta, exigir escolha entre comentar e “não tenho sugestão agora”, sem obrigar produção escrita. Durante o preenchimento, registrar pendências sem convertê-las em respostas. Registrar preferências e eventos somente quando implementados e realmente verificados. Não inventar fonte renderizada ou uso a partir da mera disponibilidade do controle.
 
-Explicar aos estudantes que respostas sinceras ajudarão a pesquisar e melhorar os materiais. Dizer que podem informar dificuldade, ausência de diferença ou preferência negativa; a avaliação do artefato não altera nota e perguntas podem ficar sem resposta. Não exigir condição clínica nem inferir diagnóstico de dislexia/TDAH pelas escolhas.
+Explicar aos estudantes que respostas sinceras ajudarão a pesquisar e melhorar os materiais. Dizer que podem informar dificuldade, ausência de diferença ou preferência negativa; a opinião sobre o artefato não altera o cálculo da nota, mas todas as perguntas precisam de uma resposta para concluir e liberar o resultado. Aceitar “não usei”, “não testei” e “não sei avaliar” quando pertinentes. Não exigir condição clínica nem inferir diagnóstico de dislexia/TDAH pelas escolhas.
 
 Separar aprendizagem demonstrada, eventos técnicos e percepção declarada. Impressão de conforto e satisfação não prova efeito cognitivo ou aprendizagem causal. Comparações entre versões precisam registrar contexto, apoios e mudanças; não chamar o instrumento inicial de escala validada.
+
+**Bloqueio obrigatório de conclusão — decisão de 28/10/2026:** concluir as atividades leva ao estado “Atividades concluídas — avaliação do artefato pendente”. A aula só pode ser finalizada após todas as perguntas da avaliação receberem resposta válida e o estudante confirmar a avaliação. Não exigir opinião positiva nem alterar o cálculo da nota conforme a opinião.
+
+Fluxo: atividades concluídas → avaliação obrigatória → validação de todas as respostas → confirmação → nota e relatório final liberados → estudante confere e envia no aplicativo de e-mail. O professor utiliza o relatório recebido para o registro solicitado; clique no botão não comprova recebimento.
+
+Antes da confirmação válida, bloquear finalização, exibição da nota e ações de relatório final que revelem resultado, inclusive prévia, cópia, download e e-mail. Permitir revisar a aula e salvar progresso e respostas parciais. Mostrar perguntas pendentes com aviso acessível e foco na primeira delas; nunca preencher respostas automaticamente para liberar o fluxo.
+
+Revalidar a condição em todas as rotas e ações de resultado, não somente pela aparência de um botão. Ao recarregar, restaurar os dados e conferir a completude antes de liberar. Se uma resposta obrigatória for apagada ou invalidada na edição, revogar a liberação e solicitar nova confirmação. Ajustes de aparência não apagam respostas. Esta é uma regra funcional a implementar e testar; não constitui garantia de sigilo de uma nota calculada no cliente.
 
 O corpo do e-mail continua contendo o relatório completo, com avaliação e dados de aprendizagem. Em caso de limite de tamanho, explicar e oferecer cópia/download para anexo manual; não truncar silenciosamente. O estudante confere e envia no aplicativo; abertura do e-mail não comprova entrega.
 
@@ -330,7 +338,7 @@ Verificar:
 - Registro copiável correto para cada turma.
 - Cálculo de indicadores e preservação das primeiras respostas.
 - Botão final “Enviar relatório ao professor”: destinatário confirmado do solicitante, assunto e corpo completo devidamente codificados; correspondência com a prévia/exportação, alternativas para limites de tamanho e ausência de confirmação falsa de envio.
-- Avaliação da experiência da seção 13.1: respostas sinceras e opcionais, sem efeito na nota; recursos, preferências e dificuldades preservados no relatório completo e no e-mail.
+- Avaliação da experiência da seção 13.1: todas as perguntas respondidas e confirmadas, sem opinião afetar o cálculo da nota; bloqueio de conclusão, resultado e relatório final/e-mail até validação; alternativas honestas de não uso e não saber; revalidação após edição e recarga.
 - Ausência de guias e segredos no pacote público.
 - Verificação adequada em navegador e publicação quando solicitada ou integrante da entrega.
 

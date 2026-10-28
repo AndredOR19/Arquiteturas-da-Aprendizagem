@@ -41,7 +41,9 @@ Modelo reutilizável, a preencher com dados confirmados. Sem informações ident
 - Novo exemplo:
 - Alternativas de acesso:
 - Critérios de avaliação e registro de tentativas:
-- Questionário de experiência, aviso de finalidade e campos no relatório completo/e-mail:
+- Questionário obrigatório de experiência, aviso de finalidade e campos no relatório completo/e-mail:
+- Validação de todas as perguntas e confirmação; bloqueio da conclusão/nota/relatório final/e-mail, inclusive rotas alternativas e recarga:
+- Preservação de progresso e revogação da liberação se houver resposta invalidada:
 - Testes pedagógicos e técnicos concluídos:
 - Recursos não testados ou pendentes:
 - Publicação e endereço conferido, quando integrante da entrega:
