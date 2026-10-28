@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "versao": "1.0.0",
+  "atualizado_em": "2026-10-28",
+  "autor": "Prof. André de Oliveira Rodrigues",
+  "prompt_compativel": "2.7.0",
+  "base_dos_caminhos": "raiz_do_repositorio",
+  "estados_permitidos": [
+    "diretriz_documentada",
+    "proposta_em_desenvolvimento",
+    "roteiro_inicial",
+    "aguardando_fonte"
+  ],
+  "nucleo_de_consulta": [
+    "aee",
+    "maci",
+    "arn",
+    "svs",
+    "epc",
+    "sss",
+    "asa",
+    "associacoes",
+    "aies",
+    "leitura-acessivel",
+    "avaliacao-experiencia"
+  ],
+  "politica_sons": "sss e leitura obrigatoria; uso de som opcional, desligado inicialmente",
+  "arquiteturas": [
+    {
+      "id": "aee",
+      "nome": "AEE — Arquitetura de Exposição Explicativa",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/aee.md",
+      "depende_de": [],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "4"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "maci",
+      "nome": "MACI — conexões, retomadas e complexificação",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/maci.md",
+      "depende_de": [
+        "aee"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "5"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "arn",
+      "nome": "ARN — percurso investigativo e retorno ao problema",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/arn.md",
+      "depende_de": [
+        "aee",
+        "maci"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "5"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "svs",
+      "nome": "SVS — Sintaxe Visual Semântica",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/svs.md",
+      "depende_de": [
+        "aee"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "6"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "epc",
+      "nome": "EPC — Experiência Perceptível de Compreensão",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/epc.md",
+      "depende_de": [
+        "aee",
+        "associacoes"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "5"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "sss",
+      "nome": "SSS — Sintaxe Sonora Semântica",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/sss.md",
+      "depende_de": [
+        "svs"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "5",
+            "11"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "asa",
+      "nome": "ASA — Arquiteturas Sensoriais da Aprendizagem",
+      "versao": "1.0.0",
+      "camada": "integracao",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/asa.md",
+      "depende_de": [
+        "aee",
+        "maci",
+        "arn",
+        "svs",
+        "epc",
+        "sss"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "associacoes",
+      "nome": "Arquitetura das Associações",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/associacoes.md",
+      "depende_de": [
+        "aee",
+        "svs"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "6.1",
+            "23"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "aies",
+      "nome": "AIES — Arquitetura de Integração Estético-Semântica",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/aies.md",
+      "depende_de": [
+        "svs",
+        "associacoes"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "6.2",
+            "24"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "autoaprendizagem",
+      "nome": "Organização do pensamento e autoaprendizagem",
+      "versao": "1.0.0",
+      "camada": "aplicacao_transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/autoaprendizagem.md",
+      "depende_de": [
+        "aee",
+        "maci",
+        "arn",
+        "associacoes"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "19"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "matematica",
+      "nome": "Matemática por Dentro",
+      "versao": "0.1.0",
+      "camada": "disciplinar",
+      "status": "proposta_em_desenvolvimento",
+      "caminho": "biblioteca-arquiteturas/disciplinas/matematica.md",
+      "depende_de": [
+        "asa",
+        "associacoes",
+        "aies"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "25"
+          ]
+        }
+      ],
+      "aplicacao": "matematica"
+    },
+    {
+      "id": "arte",
+      "nome": "Arte — linguagem, interpretação e produção",
+      "versao": "0.1.0",
+      "camada": "disciplinar",
+      "status": "roteiro_inicial",
+      "caminho": "biblioteca-arquiteturas/disciplinas/arte.md",
+      "depende_de": [
+        "asa",
+        "associacoes",
+        "aies"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "6.2",
+            "25"
+          ]
+        }
+      ],
+      "aplicacao": "arte"
+    },
+    {
+      "id": "convivencia-cientifica",
+      "nome": "Convivência científica",
+      "versao": "0.0.0",
+      "camada": "pendencia",
+      "status": "aguardando_fonte",
+      "caminho": "biblioteca-arquiteturas/PENDENCIAS.md",
+      "depende_de": [],
+      "fontes": [],
+      "aplicacao": "nao_ativar"
+    },
+    {
+      "id": "sintese-sistemica-semantica",
+      "nome": "Síntese Sistêmica Semântica",
+      "versao": "0.0.0",
+      "camada": "pendencia",
+      "status": "aguardando_fonte",
+      "caminho": "biblioteca-arquiteturas/PENDENCIAS.md",
+      "depende_de": [],
+      "fontes": [],
+      "aplicacao": "nao_ativar"
+    },
+    {
+      "id": "leitura-acessivel",
+      "nome": "Acessibilidade de leitura e preferências tipográficas",
+      "camada": "transversal",
+      "sec": [
+        "11",
+        "11.1",
+        "25"
+      ],
+      "deps": [
+        "svs",
+        "aies"
+      ],
+      "versao": "1.0.0",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/leitura-acessivel.md",
+      "depende_de": [
+        "svs",
+        "aies"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "11",
+            "11.1",
+            "25"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    },
+    {
+      "id": "avaliacao-experiencia",
+      "nome": "Avaliação da experiência e devolutiva no relatório",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/avaliacao-experiencia.md",
+      "depende_de": [
+        "leitura-acessivel",
+        "epc"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.7.0",
+          "secoes": [
+            "12",
+            "13",
+            "13.1",
+            "25"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": "matematica",
+      "planta": "matematica",
+      "caminho": "biblioteca-arquiteturas/disciplinas/matematica.md",
+      "status": "proposta_em_desenvolvimento"
+    },
+    {
+      "id": "arte",
+      "planta": "arte",
+      "caminho": "biblioteca-arquiteturas/disciplinas/arte.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "lingua-portuguesa",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "lingua-adicional",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "historia",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "geografia",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "ciencias",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "biologia",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "fisica",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "quimica",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "filosofia",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "sociologia",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "ensino-religioso",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "educacao-fisica",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    },
+    {
+      "id": "computacao",
+      "planta": null,
+      "caminho": "biblioteca-arquiteturas/disciplinas/MAPA.md",
+      "status": "roteiro_inicial"
+    }
+  ],
+  "recursos": [
+    {
+      "id": "prompt",
+      "tipo": "norma_pedagogica",
+      "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "versao": "2.7.0",
+      "disponibilidade": "documentado"
+    },
+    {
+      "id": "curriculo",
+      "tipo": "catalogo_curricular",
+      "caminho": "base-curricular/catalogo.json",
+      "disponibilidade": "consultar_status_por_documento"
+    },
+    {
+      "id": "tecnica",
+      "tipo": "ponte_para_motor",
+      "caminho": "ferramentas/README.md",
+      "disponibilidade": "documentado"
+    },
+    {
+      "id": "motor-lock",
+      "tipo": "revisao_tecnica_fixada",
+      "caminho": "ferramentas/biblioteca.lock.json",
+      "disponibilidade": "requer_acesso_ao_repositorio_privado"
+    },
+    {
+      "id": "livro-associacoes",
+      "tipo": "projeto_editorial",
+      "caminho": "livros/arquitetura-das-associacoes/ESBOCO.md",
+      "disponibilidade": "esboco"
+    },
+    {
+      "id": "livro-aies",
+      "tipo": "projeto_editorial",
+      "caminho": "livros/integracao-estetico-semantica/ESBOCO.md",
+      "disponibilidade": "esboco"
+    },
+    {
+      "id": "publicacao",
+      "tipo": "catalogo_de_entregas",
+      "caminho": "publicacao/catalogo.json",
+      "disponibilidade": "consultar_validacao_de_cada_entrega"
+    }
+  ]
+}

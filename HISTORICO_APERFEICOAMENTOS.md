@@ -2,6 +2,19 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.7.0 — 28/10/2026
+**Pedido:** construir biblioteca ligada diretamente ao prompt com plantas das arquiteturas, organização das próprias bibliotecas e ramificações por matéria, para execução por outras IAs sem depender do histórico. Durante a elaboração, incorporar insight do professor sobre fontes e acessibilidade de leitura.
+
+**Alterações:** seção 25 e consulta obrigatória à biblioteca; catálogo estruturado versionado, protocolo, arquitetura de organização, modelos de planta/composição, doze plantas transversais/de integração, planta matemática inicial, roteiro de Arte, matriz com 15 componentes, inventário de pendências e validador estrutural. Seção 13.1 acrescenta avaliação da experiência com finalidade explicada, sem efeito na nota, com respostas, preferências e dificuldades preservadas no relatório completo e e-mail. Seção 11.1 registra painel de preferências de leitura com fontes disponíveis, tamanho, espaçamento e apresentação reversíveis.
+
+**Regras preservadas:** AEE atual como Exposição Explicativa; AEE/MACI/ARN/SVS/EPC/SSS/ASA, Associações, AIES, D/R/E/L, exposição ampliada, mínimo de 26 percursos, pistas, acessibilidade, relatório, proteção docente e publicação. Variantes de nomes e sinais em registros antigos permanecem com filiação, sem substituição silenciosa.
+
+**Fontes e acessibilidade:** W3C/WAI consultado sobre apresentação ajustável e espaçamento; resumos/trechos de estudos originais sobre fontes especializadas consultados. Registrar limites: preferência tipográfica não é diagnóstico nem prova causal; não prometer fonte universal para dislexia/TDAH. Abertura direta dos artigos encontrou verificação de navegador; não afirmar leitura integral.
+
+**Verificação:** leitura das diretrizes e recursos pertinentes, revisão de compatibilidade e exemplos matemáticos; execução do validador de arquivos, versões, seções-fonte, IDs, dependências sem ciclos e ligações locais; conferência por leitura dos arquivos registrados no GitHub. O validador não certifica qualidade pedagógica nem acessibilidade integral.
+
+**Estado e limites:** biblioteca documental utilizável, sem novo motor ou serviço de IA. Matemática/Arte e demais roteiros não são arquiteturas disciplinares completas. Convivência científica e Síntese Sistêmica Semântica aguardam fontes. Catálogo curricular mantém suas pendências. Motor, aulas e slides existentes não modificados; painel de leitura e avaliação/relatório ampliados ainda requerem implementação e testes nos artefatos.
+
 ## 2.6.0 — 28/10/2026
 **Pedido:** adotar arquitetura visual pedagógica a partir da referência ilustrada da Teachy e explicitar que a linguagem do conteúdo participa da forma da aula; exemplo do professor: Basquiat. Iniciar outro projeto de livro.
 

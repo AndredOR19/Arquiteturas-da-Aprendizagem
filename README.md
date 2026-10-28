@@ -3,7 +3,8 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.6.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.7.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -21,6 +22,11 @@ A partir de 27/10/2026, novas produções e revisões devem seguir a seção 6.1
 A seção 6.2 do prompt institui a **Arquitetura de Integração Estético-Semântica (AIES)**: a linguagem do objeto orienta composição, imagens e ações de aprendizagem. Sketchnotes são uma possibilidade; cada tema exige decisões fundamentadas. Preservar a estrutura funcional aprovada, acessibilidade e códigos D/R/E/L. Exemplo de projeto: aula sobre Basquiat com relações entre palavras, figuras e símbolos integradas à explicação e à exploração.
 
 [Novo projeto editorial — Quando o conteúdo desenha a aula](livros/integracao-estetico-semantica/ESBOCO.md), de André de Oliveira Rodrigues: fundamentos, 14 capítulos propostos e abertura preliminar. Documento em desenvolvimento, distinto do livro Arquitetura das Associações. Atualização documental não redesenha aulas existentes.
+
+## Biblioteca de arquiteturas — atualização 2.7.0
+[Entrada da biblioteca](biblioteca-arquiteturas/README.md) e [arquitetura de organização](biblioteca-arquiteturas/ARQUITETURA_DA_BIBLIOTECA.md). Doze plantas transversais/de integração, Matemática e Arte em desenvolvimento, mapa de 15 componentes e pendências explícitas. O [protocolo para IA](biblioteca-arquiteturas/PROTOCOLO_IA.md) orienta consulta, composição e continuidade; o catálogo estruturado identifica versões e dependências.
+
+[Preferências de leitura](biblioteca-arquiteturas/plantas/leitura-acessivel.md): fontes, tamanho, espaçamento e apresentação ajustáveis para todos, sem exigir diagnóstico. Fontes especializadas são opções, sem promessa de superioridade universal ou identificação de dislexia/TDAH. [Avaliação da experiência](biblioteca-arquiteturas/plantas/avaliacao-experiencia.md): questionário sobre leitura e interação, sem efeito na nota, incluído integralmente no relatório/e-mail para orientar pesquisa e revisão. Diretrizes registradas; controles e relatórios das aulas existentes não foram alterados.
 
 ## Modelos existentes
 As capturas MHTML de 19/10 e 15–16/10 permanecem como referências de interface e evolução. Capturas podem não conter todas as interações do aplicativo; o prompt vigente define os requisitos atuais.

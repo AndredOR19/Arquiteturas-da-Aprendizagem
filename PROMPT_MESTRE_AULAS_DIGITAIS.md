@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.6.0**  
+Versão vigente: **2.7.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -13,6 +13,7 @@ Antes de criar ou revisar uma aula:
 3. Confira escola, turma, componente, data, horário vigente e sequência de conteúdos. Use o último horário confirmado; versões antigas não são referência automática.
 4. Localize o último material e distinga conteúdo planejado de conteúdo confirmado como aplicado. Não invente continuidade.
 5. Confira os modelos de interface indicados pelo professor. Em caso de divergência, a instrução atual do professor prevalece; registre a alteração pertinente neste prompt e no histórico.
+6. Consulte biblioteca-arquiteturas/PROTOCOLO_IA.md e catalogo.json; leia o núcleo transversal, suas dependências e o ramo pertinente. Preencha o briefing de composição e confira compatibilidade com este prompt. A biblioteca operacionaliza as arquiteturas para uso por diferentes IAs, sem depender de histórico de conversa.
 
 **Interpretação padrão de “aula”:** quando o professor pedir uma aula, produzir a aula digital completa em HTML, seguindo este fluxo de produção, conferência, cadastro e publicação no GitHub Pages. Documento editável é complemento quando pertinente ou quando solicitado; sua entrega isolada não encerra o pedido de aula. Consultar memória e este repositório a cada pedido, sem exigir que o professor repita o padrão. Quando solicitado QR Code, gerar um por aula somente após conferir o endereço publicado.
 
@@ -250,6 +251,17 @@ Dividir leitura longa em trechos estáveis; não cortar ou reiniciar indevidamen
 
 Não prometer funcionamento offline, instalação PWA, envio automático ou sincronização entre dispositivos sem implementação e teste.
 
+### 11.1. Preferências de leitura e tipografia ajustável
+Diretriz de 28/10/2026: disponibilizar nos novos artefatos e revisões um painel **Preferências de leitura**, acessível a todos sem exigir diagnóstico, com escolha de fontes efetivamente disponíveis, tamanho, espaçamento entre linhas/letras/palavras e largura do texto. Integrar modos de aparência, foco de leitura, redução de movimento e voz. Permitir experimentar, desfazer e restaurar padrão sem perder respostas ou progresso. Não modificar a exigência conceitual ao trocar apresentação.
+
+Oferecer fontes comuns e, quando incorporadas com licença e testadas, opções associadas à dislexia, como OpenDyslexic. Explicar seu propósito, sem rotular a pessoa pelo uso nem apresentar uma fonte como universalmente superior ou tratamento para dislexia/TDAH. Preferência de fonte e melhora percebida podem orientar adaptações; não identificam diagnóstico, nem comprovam mudança cognitiva. Resultados de uma releitura não demonstram causalidade.
+
+Mensagem sugerida: “Cada pessoa pode preferir uma forma de ler. Experimente fontes, tamanhos e espaçamentos e escolha o que fica mais confortável. Você pode mudar ou restaurar o padrão a qualquer momento.”
+
+Aplicar a [planta de leitura acessível](biblioteca-arquiteturas/plantas/leitura-acessivel.md), que registra controles, avisos, fontes consultadas e testes de tolerância a espaçamento. Não anunciar opção sem funcionar. Preservar fórmulas e símbolos, legendas e descrições. Preferências de acesso prevalecem sobre aparência expressiva. Lembrar preferências no navegador deve ser escolha explícita, especialmente em dispositivo compartilhado, sem inferir ou coletar condição clínica.
+
+Esta é uma exigência de produção; sua inclusão no prompt não implementa controles nas aulas existentes nem certifica conformidade integral com WCAG.
+
 ## 12. Avaliação e registro do processo
 Separar treino assistido e momentos de aplicação. Declarar os critérios e denominadores antes da atividade.
 
@@ -273,6 +285,17 @@ Implementar a abertura por link mailto: com destinatário, assunto identificando
 Registrar apenas eventos pertinentes da própria página, com informação clara: abertura, retorno, visibilidade e recarregamento quando implementado. Não monitorar outros sites. Mudança de visibilidade não comprova atenção ou desatenção. Diferenciar ausência de registro de zero; não inventar tempos ou eventos.
 
 Preservar progresso local e informar suas limitações. Não publicar dados identificáveis de alunos no GitHub.
+
+### 13.1. Experiência do estudante, acessibilidade e pesquisa de aperfeiçoamento
+Decisão de 28/10/2026: a avaliação do artefato deve recolher também a experiência com layout, leitura, fontes, tamanho/espaçamento, imagens, navegação, controles e dificuldades de interação. Incorporar os dados na seção **Experiência com o artefato e preferências de leitura**, dentro do relatório completo enviado ao professor, preservando a mesma informação na prévia, cópia e download.
+
+Seguir a [planta de avaliação da experiência](biblioteca-arquiteturas/plantas/avaliacao-experiencia.md), com questionário inicial versionado e estrutura dos dados. Manter respostas exatas, comentário opcional e distinção entre recurso não disponibilizado, não usado, não testado, ausência de diferença e pergunta não respondida. Registrar preferências e eventos somente quando implementados e realmente verificados. Não inventar fonte renderizada ou uso a partir da mera disponibilidade do controle.
+
+Explicar aos estudantes que respostas sinceras ajudarão a pesquisar e melhorar os materiais. Dizer que podem informar dificuldade, ausência de diferença ou preferência negativa; a avaliação do artefato não altera nota e perguntas podem ficar sem resposta. Não exigir condição clínica nem inferir diagnóstico de dislexia/TDAH pelas escolhas.
+
+Separar aprendizagem demonstrada, eventos técnicos e percepção declarada. Impressão de conforto e satisfação não prova efeito cognitivo ou aprendizagem causal. Comparações entre versões precisam registrar contexto, apoios e mudanças; não chamar o instrumento inicial de escala validada.
+
+O corpo do e-mail continua contendo o relatório completo, com avaliação e dados de aprendizagem. Em caso de limite de tamanho, explicar e oferecer cópia/download para anexo manual; não truncar silenciosamente. O estudante confere e envia no aplicativo; abertura do e-mail não comprova entrega.
 
 ## 14. Materiais do professor e segurança de acesso
 Guia docente, orientações “como explicar”, gabarito consolidado e planos exclusivos do professor devem ser separados do material discente.
@@ -303,9 +326,11 @@ Verificar:
 - No mínimo 26 percursos e pistas graduadas.
 - Bloqueio de avanço após erro e liberação após acerto.
 - Glossário, dicionário, voz, navegação e contraste.
+- Preferências de leitura da seção 11.1: fontes reais, ajustes reversíveis, tolerância a espaçamento e preservação de símbolos, respostas e progresso; avisos sem promessa clínica.
 - Registro copiável correto para cada turma.
 - Cálculo de indicadores e preservação das primeiras respostas.
 - Botão final “Enviar relatório ao professor”: destinatário confirmado do solicitante, assunto e corpo completo devidamente codificados; correspondência com a prévia/exportação, alternativas para limites de tamanho e ausência de confirmação falsa de envio.
+- Avaliação da experiência da seção 13.1: respostas sinceras e opcionais, sem efeito na nota; recursos, preferências e dificuldades preservados no relatório completo e no e-mail.
 - Ausência de guias e segredos no pacote público.
 - Verificação adequada em navegador e publicação quando solicitada ou integrante da entrega.
 
@@ -337,6 +362,7 @@ Relações a construir e elementos associados:
 Representação inicial, apoios e retirada gradual:
 Novo exemplo e evidência de compreensão:
 Habilidades e fonte curricular:
+Preferências de leitura, fontes disponíveis e testes de ajuste:
 Modelo visual de referência:
 Linguagem temática e fontes que a sustentam:
 Características formais escolhidas e função pedagógica de cada uma:
@@ -398,3 +424,18 @@ Esboço e roteiro de contribuição: [livros/arquitetura-das-associacoes/ESBOCO.
 Decisão do professor em 28/10/2026: iniciar outro livro para desenvolver a arquitetura registrada na seção 6.2. Título de trabalho: **Quando o conteúdo desenha a aula — Arquitetura de Integração Estético-Semântica nos materiais pedagógicos**, de André de Oliveira Rodrigues.
 
 [Fundamentos, sumário e abertura do livro](livros/integracao-estetico-semantica/ESBOCO.md). Este projeto focaliza a tradução da linguagem do objeto em composição e ações de aprendizagem; dialoga com o livro Arquitetura das Associações, dedicado à construção de relações. O documento inicial não constitui livro completo nem validação empírica.
+
+## 25. Biblioteca de arquiteturas e composição por componente
+Decisão do professor em 28/10/2026: manter plantas operacionais conectadas ao prompt, com arquitetura de organização das próprias bibliotecas, para que outra IA consulte definições e execute sem pressupor histórico compartilhado.
+
+Entrada: [Biblioteca de Arquiteturas](biblioteca-arquiteturas/README.md). Ler [protocolo de consulta](biblioteca-arquiteturas/PROTOCOLO_IA.md), [catálogo estruturado](biblioteca-arquiteturas/catalogo.json), núcleo transversal e ramo pertinente. As plantas detalham finalidade, entradas, operações, saídas, exemplo, ponto cego, revisão, acesso, dependências e fonte. A biblioteca deve crescer por relações explícitas e IDs estáveis.
+
+Usar [modelo de composição](biblioteca-arquiteturas/MODELO_DE_COMPOSICAO.md) para traduzir cada arquitetura em decisões concretas, antes de produzir. Consultar [arquitetura da biblioteca](biblioteca-arquiteturas/ARQUITETURA_DA_BIBLIOTECA.md) para conectar fontes curriculares, recursos técnicos, projetos editoriais e entregas sem duplicar autoridades.
+
+[Matemática por Dentro](biblioteca-arquiteturas/disciplinas/matematica.md) registra a proposta de conectar situação, representação concreta/visual, significado dos símbolos, procedimento e aplicação; 3D somente quando acrescentar compreensão. [Arte](biblioteca-arquiteturas/disciplinas/arte.md) registra roteiro ligado à AIES. [Mapa disciplinar](biblioteca-arquiteturas/disciplinas/MAPA.md) oferece ramificações iniciais para os demais componentes, a aprofundar conforme etapa, objeto e fontes. Não anunciar arquiteturas específicas de todas as matérias como completas.
+
+Distinguir diretriz documentada, proposta em desenvolvimento, roteiro inicial e fonte pendente; implementação técnica e aplicação em sala exigem evidências separadas. [Pendências](biblioteca-arquiteturas/PENDENCIAS.md) preservam variantes e formulações a recuperar. No projeto atual, AEE significa Arquitetura de Exposição Explicativa e SVS usa D/R/E/L; referências a outras convenções devem manter filiação por obra.
+
+Nova arquitetura: preencher [modelo de planta](biblioteca-arquiteturas/MODELO_DE_PLANTA.md), vincular dependências e fonte, desenvolver exemplo e revisão, cadastrar e validar. Mudança de regra exige atualizar este prompt, compatibilidade e histórico. O catálogo não deve ativar pendências como diretrizes. Executar o validador estrutural antes da entrega.
+
+Consulta explícita é necessária: a biblioteca não instala memória automática ou serviço autônomo de IA. Registrar versões, revisão, decisões, entregas e próxima ação para continuidade verificável. Não declarar que documentação implementa componentes ou garante resultados de aprendizagem.

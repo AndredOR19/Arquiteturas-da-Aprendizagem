@@ -20,7 +20,7 @@ Substitua `slides` por `documento`, `artefato` ou `html` para outras saídas. Um
 
 ## Uso pelo assistente
 
-1. Cumpra a consulta a AGENTS, prompt mestre, histórico e currículo pertinente.
+1. Cumpra a consulta a AGENTS, prompt mestre, histórico e currículo pertinente; leia o protocolo e as plantas selecionadas em biblioteca-arquiteturas, conferindo sua compatibilidade. Preencha o briefing antes de gerar.
 2. Confira o lock e leia somente o modelo e as instruções técnicas necessários na biblioteca.
 3. Prepare o conteúdo específico e as fontes. Não substitua a explicação extensa por slides resumidos.
 4. Valide, compile e confira cada formato. HTML e PPTX podem ter diferenças de aparência.
