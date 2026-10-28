@@ -21,6 +21,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 - Modelo visual aprovado: aula de 19/10 e captura de 15–16/10.
 - Texto explicativo ampliado, didático, com referências próximas das afirmações e âncoras visuais que ensinam.
 - Design de associações: cumprir seção 6.1 do prompt. Definir relação, aproximar imagem e frase, manter sinais redundantes e D/R/E/L, oferecer interação acessível, reduzir pistas gradualmente e conferir aplicação em novo exemplo. Layout flexível; não prometer aprendizagem automática ou perfil único de neurodivergência.
+- Integração estético-semântica: cumprir seção 6.2 do prompt. A linguagem do objeto participa da composição e das ações; sketchnote é uma possibilidade. Fundamentar escolhas, manter acesso e D/R/E/L, diferenciar produção didática e documento e conferir transferência além do estilo. Levar o briefing ao HTML, aos slides e aos demais suportes.
 - AEE + MACI + ARN + SVS + EPC + SSS, integradas em ASA.
 - No mínimo 26 percursos; pistas graduadas; glossário e dicionário.
 - Próximo percurso liberado somente após acerto; preservar tentativas e apoios.
