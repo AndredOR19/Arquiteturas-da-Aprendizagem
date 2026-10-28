@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "versao_laboratorio": "0.1.0",
+  "criado_em_utc": "2026-10-28T17:16:14.204548+00:00",
+  "identificador_experimento": "0c229870c88aad4cf4347045fffc27876905a2cc026751523c5a8cdec7eaa05e",
+  "dados_reais": false,
+  "chamadas_ia": 0,
+  "tokens_de_api_ia_no_motor": 0,
+  "codigo_sha256": {
+    "laboratorio.py": "f3d6b7a8f771e4d51747662052d8148b9d372d3135115dafc00b89efaf1333ee",
+    "modelos.py": "11765be9a9e89a1174ca8107705ddf9c796947b812df797663d6cedf29fa3ea5",
+    "relatorios.py": "17b3767fd2644a00341216d4fbff8fc73d19d77e634c37b05a5fdc72768185a1",
+    "inventario.py": "217a857cb1af517a213a1ca964c93f31f2cda1221a24c1fd19e25b9c29d2ad34",
+    "requirements.txt": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+  },
+  "arquivos_sha256": {
+    "configuracao.json": "b485bae48fbcfb90ea6b1f69e79e3b78c314560cd4ac56282e09c7170c5a4def",
+    "resultados.json": "30255f09734a320c7cd80ac00e361b96e8f6466863951c161a414f5ddfbccc39",
+    "resultados.csv": "7152f83e8d03a8982354fa5a2b122eb23eb8fc087b412387a6c131b55ef92759",
+    "RELATORIO.md": "c8203f754b4bd9cabb9d0a2d8265f1ec6b7a855c133fbd5a095120f1950364ab",
+    "RESUMO.md": "c27ec599d5c1ba4498981c1b0b294b8b943386fe5d3687b1e5a7eb45459d7625",
+    "grafico.png": "92bb62972fea3a8981bfcbb1d669e36cfd8cc80b7217b31d6b149bce1ca1663c",
+    "relatorio.html": "e63d02bd2e3a867223f96952bb4d45783f4eba23c80d00822bc840f69b1a528b",
+    "inventario_arquiteturas.json": "226bc943ce924a21b484584b1c72c15e9ee392d6eb69f836d2118b8c75179e6e",
+    "PROGRESSAO.md": "517446d765716298c74b365eb5777932a293565fe90756db368cd4212d62efac"
+  },
+  "ambiente": {
+    "python": "3.12.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "sistema": "Linux"
+  },
+  "github": {
+    "commit": "48f9253517193b66af482e07c6f5117913316562",
+    "execucao": "40734005859",
+    "tentativa": "1"
+  },
+  "inferencia": "Cenário ilustrativo, sem calibração ou validação empírica."
+}
