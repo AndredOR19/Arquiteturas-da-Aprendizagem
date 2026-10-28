@@ -167,6 +167,20 @@
           "pesquisa/registros.json"
         ]
       }
+    },
+    {
+      "execucao": "40760383260",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "4afe1ac9d48614854a2f8b991b35f03701d5a0f1",
+      "pasta": "execucoes/40760383260-1-turmas",
+      "experimento": "e819595ce46e1e3aae8e8db9ca7b80b79b23dac251ff8cd8c86beda5fcffd4ee",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": []
+      }
     }
   ],
   "ultimo_inventario": {
