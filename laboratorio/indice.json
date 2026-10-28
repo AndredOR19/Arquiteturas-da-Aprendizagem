@@ -230,6 +230,20 @@
           "PROMPT_MESTRE_AULAS_DIGITAIS.md"
         ]
       }
+    },
+    {
+      "execucao": "40790689080",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "9d907e831dc220d3856bf60430933527d5afc032",
+      "pasta": "execucoes/40790689080-1-individuos",
+      "experimento": "c3dfeb0d3d7b2f966ef5243d22361d4e100160e82ef3152a1ead006d9754149c",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": []
+      }
     }
   ],
   "ultimo_inventario": {
