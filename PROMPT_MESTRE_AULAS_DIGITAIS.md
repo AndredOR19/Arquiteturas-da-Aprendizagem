@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.5.0**  
-Atualização: **27/10/2026**  
+Versão vigente: **2.6.0**  
+Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -138,6 +138,55 @@ Antes de desenhar cada unidade conceitual, declarar no planejamento: quais eleme
 
 Não liberar a unidade com alguma resposta negativa sem corrigir ou registrar justificativa e adaptação pertinente. Conferir também em celular, preto e branco e teclado. Esta é uma diretriz de produção: o registro não altera automaticamente aulas anteriores nem implementa novos componentes no motor.
 
+### 6.2. Arquitetura de Integração Estético-Semântica — diretriz de 28/10/2026
+**Nome de trabalho: AIES.** Arquitetura autoral de desenho pedagógico em que a linguagem visual do objeto estudado participa da composição, da explicação e das ações de aprendizagem. O conteúdo orienta a forma do artefato; cada escolha formal deve ajudar a observar, relacionar, interpretar ou produzir. AIES articula as arquiteturas existentes e especifica sua aplicação visual; não substitui AEE, MACI, ARN, SVS, EPC, SSS/ASA nem o design de associações.
+
+**Adoção transversal:** aplicar às novas aulas e revisões, em HTML, slides, mapas, documentos e materiais impressos. Preservar a estrutura funcional aprovada de 19/10: identificação, navegação, controles, progressão, registro e relatório. A linguagem expressiva das áreas de conteúdo varia com o tema, mantendo essas referências de uso. Propagar o briefing visual para todas as entregas da mesma aula, adaptado ao suporte; não restringir a identidade temática à capa ou ao fundo.
+
+**Referência inicial:** o professor apresentou uma captura promocional da Teachy com mapa mental, desenhos simples de aparência manual, blocos arredondados e conectores curvos. Adotar esses recursos de sketchnote quando pertinentes, com composição própria e sem emojis decorativos. Sketchnote é uma possibilidade de representação, não o formato obrigatório de todos os conteúdos. A arquitetura vai além dessa referência: poderá exigir linguagem documental, cartográfica, diagramática, artística ou outra fundamentada no objeto.
+
+#### Âncora conceitual: do objetivo à linguagem
+Antes da produção, registrar no briefing:
+1. O que o estudante deve compreender e qual operação deverá realizar.
+2. Que fontes e exemplos permitem reconhecer a linguagem do objeto, artista, período ou processo.
+3. Quais características formais serão utilizadas, com sua função pedagógica.
+4. Onde elas aparecerão: exposição, âncoras, exploração, percursos, pistas, feedback e síntese.
+5. Como verificar compreensão em outro exemplo, inclusive com apresentação visual diferente.
+
+Não presumir que um período histórico ou uma cultura tenha um estilo único. Evitar estereótipos e anacronismos. Em temas sem linguagem artística própria, selecionar formas que representem sua estrutura: redes para interdependências, cortes e camadas para estruturas, mapas para relações espaciais, sem converter analogias em fatos.
+
+#### Mecânica: três camadas articuladas
+- **Estrutura de acesso:** navegação previsível, texto legível, teclado, foco, voz opcional, descrições, modos de aparência e redução de movimento. Controles essenciais mantêm localização e significado.
+- **Linguagem temática:** composição, paleta expressiva, textura, traços, símbolos e ritmo visual fundamentados no tema. Usar efeitos de superfície fora das áreas de leitura quando competirem com o texto.
+- **Representação conceitual e ação:** desenhos, comparações e interações tornam visível uma relação específica. Nomear conectores e aproximar explicação e detalhe. Pedir que o estudante indique evidência, compare possibilidades ou justifique uma decisão.
+
+As cores expressivas podem variar nas ilustrações; os marcadores D/R/E/L preservam seus significados, rótulos e sinais redundantes. Separar paleta artística e código informativo. Oferecer apresentação simplificada sem perder conteúdo e manter equivalência em preto e branco. Traços irregulares podem aparecer em ilustrações e títulos curtos; texto principal e comandos permanecem legíveis e selecionáveis. Não esconder informações essenciais em imagens achatadas.
+
+#### Exemplo de aplicação: aula de Arte sobre Jean-Michel Basquiat
+Proposta ilustrativa de desenho da aula, sem presumir série, habilidade curricular ou aplicação:
+- **Objetivo:** analisar como palavras, figuras e símbolos participam da construção de sentidos em obras selecionadas; apoiar interpretações em detalhes observáveis e contexto.
+- **Fontes:** selecionar obras e textos curatoriais identificados. O MoMA descreve em *Untitled* (1981) linhas expressivas, cores vivas, figuras e símbolos; o guia do PAMM articula figuras, linguagem e símbolos a questões de raça, poder, história e identidade. Essas características não são uma chave universal para toda a produção do artista.
+- **Ambiente e explicação:** composições originais com camadas, traços gestuais, palavras e figuras podem dialogar com os exemplos estudados. Manter painéis de leitura claros; títulos e espaços de exploração podem incorporar maior expressividade. Cada elemento reaparece na explicação com sua função discutida.
+- **Exploração e percursos:** observar uma obra identificada; selecionar detalhes; comparar relações entre palavra e imagem; experimentar camadas em composição própria e explicar o efeito da mudança. Oferecer botões e teclado como alternativa ao arraste.
+- **Pistas e feedback:** apontar um detalhe, aproximar palavra e figura, oferecer uma leitura possível e pedir evidência; distinguir observação, interpretação fundamentada e hipótese. Não reduzir interpretação artística a uma resposta única nem automatizar julgamento de valor estético. Nos percursos com avanço por acerto, utilizar tarefas de observação ou relações verificáveis; produções abertas recebem critérios e mediação docente.
+- **Síntese e transferência:** analisar outro exemplo e explicar uma escolha compositiva com apoio menor. Uma composição autoral inspirada deve ser identificada como produção didática contemporânea; não atribuí-la a Basquiat nem apresentá-la como documento original.
+
+Fontes do exemplo, consultadas em 28/10/2026: [MoMA — Jean-Michel Basquiat, Untitled, 1981](https://www.moma.org/collection/works/34633); [PAMM — Jean-Michel Basquiat: Figures, Signs, Symbols](https://www.pamm.org/en/guide/jean-michel-basquiat-figures-signs-symbols/). As propostas de interface e atividades acima são elaboração pedagógica do projeto, não recomendações atribuídas aos museus. Identificar fontes e condições de uso ao incorporar reproduções.
+
+#### Circuito de produção
+Objetivo e fontes → seleção de características formais → tradução em composição e ações → explicação mediada → aplicação em exemplo diferente → revisão do material. O desenho visual deve ser preparado junto com o conteúdo, antes de gerar slides ou construir HTML. Levar esse briefing ao Gamma e aos demais meios de produção.
+
+#### Dialética prática: critérios de revisão
+Perguntar em cada unidade:
+1. A linguagem escolhida está sustentada pelo objeto e pelas fontes?
+2. O recurso visual ajuda a explicar uma relação identificável?
+3. Há coerência entre explicação, desenho, interação, pistas e síntese?
+4. Navegação, leitura e acesso permanecem funcionais no celular, no teclado e nos modos alternativos?
+5. A atividade distingue reconhecimento do estilo de compreensão do conteúdo?
+6. O estudante consegue aplicar a relação em apresentação diferente?
+
+Se a ornamentação competir com a leitura, reduzir textura ou densidade e preservar o acesso. Se o estudante reconhecer apenas um símbolo familiar, solicitar evidência e variar a apresentação. Não afirmar eficácia comprovada ou originalidade científica desta arquitetura sem investigação; registrar como proposta autoral de produção e observação docente. Registro documental não redesenha automaticamente aulas publicadas.
+
 ## 7. Referências, documentos e honestidade intelectual
 Usar documentos oficiais para currículo e fontes primárias ou referências acadêmicas pertinentes para o conteúdo. Não inventar autores, títulos, páginas, citações ou códigos.
 
@@ -249,6 +298,7 @@ Verificar:
 - Texto realmente desenvolvido, com mecanismo, exemplos, referências e âncoras visuais.
 - AEE completa e integração ASA funcional.
 - Checklist da seção 6.1: associação visível, correspondência imagem–texto, sinais redundantes, retirada gradual de apoio e aplicação em novo exemplo; alternativas ao arraste e conferência em preto e branco.
+- Checklist da seção 6.2: linguagem temática fundamentada, função conceitual, coerência entre entregas, acesso preservado e transferência além do estilo.
 - Precisão factual e curricular; fontes correspondentes às afirmações.
 - No mínimo 26 percursos e pistas graduadas.
 - Bloqueio de avanço após erro e liberação após acerto.
@@ -288,6 +338,10 @@ Representação inicial, apoios e retirada gradual:
 Novo exemplo e evidência de compreensão:
 Habilidades e fonte curricular:
 Modelo visual de referência:
+Linguagem temática e fontes que a sustentam:
+Características formais escolhidas e função pedagógica de cada uma:
+Aplicação em explicação, imagens, interações, pistas e síntese:
+Adaptações de acesso e checagem além do estilo:
 Documentos/fontes do conteúdo:
 Entregáveis solicitados:
 E-mail confirmado do professor solicitante para entrega do relatório:
@@ -329,7 +383,7 @@ Uma entrega de aula HTML inclui o endereço público funcional, não apenas o c�
 ## 22. Gamma no processo de produção de slides
 O professor considerou os slides de demonstração pouco desenvolvidos e indicou o uso do Gamma. Incorporar o Gamma como etapa preferencial: conteúdo e fontes conferidos pelo assistente, briefing pedagógico, escrita e design pelo Gamma, conferência do resultado, correção quando necessária e registro do endereço final no portal. Consulte ferramentas/GAMMA.md.
 
-O briefing deve pedir explicações desenvolvidas, exemplos concretos, imagens que ensinem e mantenham unidade visual, comparação ou mecanismo visível, pausas de participação, recuperação e transferência. Distribuir a profundidade entre telas legíveis. Não entregar apenas títulos, listas genéricas ou uma apresentação visualmente bonita sem desenvolvimento conceitual. Integrar a AEE e os requisitos ASA pertinentes, sem sobrecarregar estudantes com siglas.
+O briefing deve incluir a AIES da seção 6.2: linguagem temática fundamentada e aplicada à composição, às imagens explicativas e às atividades, com acesso e códigos semânticos preservados. Deve pedir explicações desenvolvidas, exemplos concretos, imagens que ensinem e mantenham unidade visual, comparação ou mecanismo visível, pausas de participação, recuperação e transferência. Distribuir a profundidade entre telas legíveis. Não entregar apenas títulos, listas genéricas ou uma apresentação visualmente bonita sem desenvolvimento conceitual. Integrar a AEE e os requisitos ASA pertinentes, sem sobrecarregar estudantes com siglas.
 
 O conector Gamma pode ser usado nas sessões autorizadas em que estiver disponível. Não afirmar que o GitHub Actions chama a API Gamma automaticamente: essa integração independente não foi instalada. Não registrar chaves de API no código, prompt, README ou conteúdo discente.
 
@@ -339,3 +393,8 @@ Aulas HTML continuam no GitHub Pages. Uma apresentação nativa do Gamma pode se
 Decisão do professor em 27/10/2026: desenvolver novo livro a partir do design pedagógico de associações, integrado às arquiteturas existentes e com foco próprio na organização de relações entre imagens, linguagem, espaço, interação e transferência. Título de trabalho, sem alegação de ineditismo científico: **Arquitetura das Associações — Quando a organização do material participa da aprendizagem**. Autoria: André de Oliveira Rodrigues.
 
 Esboço e roteiro de contribuição: [livros/arquitetura-das-associacoes/ESBOCO.md](livros/arquitetura-das-associacoes/ESBOCO.md). Documento editorial em elaboração, distinto de plano de aula. Não gerar livro completo, bibliografia não verificada ou resultados empíricos inexistentes a partir deste registro. Diferenciar esta obra do projeto de autoaprendizagem da seção 19.
+
+## 24. Projeto editorial — Quando o conteúdo desenha a aula
+Decisão do professor em 28/10/2026: iniciar outro livro para desenvolver a arquitetura registrada na seção 6.2. Título de trabalho: **Quando o conteúdo desenha a aula — Arquitetura de Integração Estético-Semântica nos materiais pedagógicos**, de André de Oliveira Rodrigues.
+
+[Fundamentos, sumário e abertura do livro](livros/integracao-estetico-semantica/ESBOCO.md). Este projeto focaliza a tradução da linguagem do objeto em composição e ações de aprendizagem; dialoga com o livro Arquitetura das Associações, dedicado à construção de relações. O documento inicial não constitui livro completo nem validação empírica.
