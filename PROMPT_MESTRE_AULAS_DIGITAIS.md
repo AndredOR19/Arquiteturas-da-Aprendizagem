@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.13.0**  
+Versão vigente: **2.13.1**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -281,6 +281,8 @@ O destinatário deve ser o e-mail confirmado do professor solicitante do sistema
 O relatório deve conter escola, turma, componente, data, título, resumo, habilidades, identificação quando fornecida, progresso, critérios, primeira escolha, acertos iniciais, tentativas, respostas, pistas abertas, consultas, apoio antes da primeira confirmação, recuperação, organização/manipulações pertinentes e avaliação da experiência.
 
 A diretriz é preencher o corpo do e-mail com o **relatório completo**, não somente nota ou resumo. Oferecer prévia, cópia e download. Se houver limite de tamanho, avisar claramente e orientar cópia ou anexo manual; nunca truncar silenciosamente nem apresentar uma mensagem de instruções como se já contivesse o relatório completo.
+
+Oferecer escolha explícita entre Gmail no navegador e aplicativo de e-mail (mailto), com prévia integral selecionável e alternativa “Copiar relatório e abrir Gmail” para mensagens longas ou aparelhos sem aplicativo configurado. Abrir a nova aba diretamente no clique, antes de operações assíncronas. Validar destinatário, preservar o texto integral e manter download TXT para anexo manual. Preservar bloqueios de conclusão existentes; não contorná-los para abrir o e-mail.
 
 Implementar a abertura por link mailto: com destinatário, assunto identificando aula/turma e corpo devidamente codificados. Informar junto ao botão: “Abre seu aplicativo de e-mail com o relatório preenchido. Confira e clique em Enviar.” Abrir o aplicativo não comprova envio: não mostrar “Relatório enviado” nem registrar entrega confirmada apenas pelo clique. Não prometer anexo automático.
 

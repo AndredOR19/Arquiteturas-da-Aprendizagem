@@ -19,7 +19,7 @@ const m=D.percursos[index],r=S.records[index];$('counter').textContent=`${m.fase
 function answer(j){const m=D.percursos[index],r=S.records[index];if(r.correct)return;const ok=j===m.correta;r.attempts.push({option:j,at:new Date().toISOString(),correct:ok,hintsBefore:r.hints,consultsBefore:S.consults.length});r.correct=ok;log(ok?'acerto':'revisao',index+1);ear(ok?'confirmacao':'revisao');render();}
 function fullReport(){let first=S.records.filter(r=>r.attempts[0]?.correct).length,master=done();let lines=[record(),`RELATÓRIO DE APRENDIZAGEM — ${new Date().toISOString()}`,`Estudante/código: ${S.name||'Não informado'}`,`Início: ${S.opened}`,`Critério: cada primeiro acerto vale 10 pontos; pistas não descontam. Erros permanecem registrados. Domínio final é apresentado separadamente.`,`Indicador inicial: ${first*10}/${D.percursos.length*10} (${(first/D.percursos.length*10).toFixed(1)}/10). Primeiros acertos: ${first}/${D.percursos.length}.`,`Domínio final: ${master}/${D.percursos.length}. Não substitui explicação oral e avaliação docente.`,`Explorações abertas: ${S.scenes.map(i=>D.exploracao[i][0]).join(', ')||'Nenhuma'}`,`Avaliação do estudante: ${S.rating||'Não informada'}`,''];S.records.forEach((r,i)=>{const m=D.percursos[i];lines.push(`${i+1}. ${m.titulo}`,`Pergunta: ${m.pergunta}`,`Primeira escolha: ${r.attempts.length?m.alternativas[r.attempts[0].option]:'Não respondido'}`,`Primeiro acerto: ${r.attempts.length?(r.attempts[0].correct?'Sim':'Não'):'Não realizado'}; apoio antes da primeira confirmação: ${r.attempts.length?r.attempts[0].hintsBefore+' pistas; '+r.attempts[0].consultsBefore+' consultas acumuladas':'Não registrado'}`,`Tentativas: ${r.attempts.length}; pistas abertas: ${r.hints}; conclusão: ${r.correct?'Sim':'Não'}; recuperação após erro: ${r.correct&&r.attempts[0]&&!r.attempts[0].correct?'Sim':'Não'}`);r.attempts.forEach((a,j)=>lines.push(`  ${j+1}: ${m.alternativas[a.option]} | ${a.correct?'correta':'revisar'} | ${a.hintsBefore} pistas antes | ${a.at}`));lines.push('')});lines.push('CONSULTAS',...S.consults.map(x=>x.at+' | '+x.type+' | '+x.term),'EVENTOS DA PRÓPRIA PÁGINA',...S.events.map(e=>e.at+' | '+e.type+' | '+e.detail),'Mudança de visibilidade não comprova atenção. Não são monitorados outros sites. Os registros ficam neste navegador; não há sincronização ou confirmação de envio.');return lines.join('\n')}
 function download(){const txt=fullReport(),u=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=u;a.download='Relatorio_'+D.id+'.txt';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
-function email(){const t=fullReport(),link='mailto:'+D.email+'?subject='+encodeURIComponent(D.componente+' | '+D.turma+' | '+D.titulo)+'&body='+encodeURIComponent(t);$('reportText').value=t;$('reportPanel').open=true;log('abertura_aplicativo_email','Não confirma envio');$('emailFallback').hidden=false;$('emailFallback').textContent='O relatório foi preenchido por inteiro. Alguns aplicativos limitam mensagens longas. Se o corpo não aparecer completo, copie a prévia ou baixe o TXT e anexe manualmente. Não há confirmação de envio nesta página.';const a=document.createElement('a');a.href=link;a.click();}
+function email(){openReportEmail(D.email,D.componente+' | '+D.turma+' | '+D.titulo,fullReport());}
 function init(d){D=d;key='andre:aula:'+D.id+':v1';const fresh={version:1,name:'',opened:new Date().toISOString(),index:0,records:D.percursos.map(()=>({attempts:[],hints:0,correct:false})),events:[],consults:[],scenes:[],rating:''};try{S=JSON.parse(localStorage.getItem(key))||fresh}catch(e){S=fresh}if(S.version!==1||S.records?.length!==D.percursos.length)S=fresh;index=Math.max(0,Math.min(S.index,25));if(index>0&&!S.records[index-1].correct)index=0;
 $('title').textContent=D.titulo;$('lead').textContent=D.pergunta;$('meta').textContent=D.escola+' · '+D.componente+' · Turma '+D.turma+' · '+D.data;$('summaryText').textContent=D.resumo;$('skills').textContent=D.habilidades.join(' | ');$('continuity').textContent=D.continuidade;$('student').value=S.name;$('student').oninput=()=>{S.name=$('student').value.slice(0,100);save()};$('register').textContent=record();$('copyRegister').onclick=()=>copy(record());
 const labels=D.turma==='231'?['Poder concentrado','Contestação limitada','Direitos restringidos']:['Convicções diferentes','Direitos comuns','Participação protegida'];$('heroMap').append(map(labels));D.blocos.forEach((b,i)=>{const item=document.createElement('details');item.className='readblock';item.open=i===0;const su=document.createElement('summary');su.textContent=String(i+1).padStart(2,'0')+' · '+b.titulo;const div=document.createElement('div');div.className='reading';const text=document.createElement('p');text.textContent=b.texto;const an=document.createElement('p');an.className='semantic-map';an.textContent=b.ancora;const a=document.createElement('a');a.href=D.fontes[b.fonte][2];a.textContent='Fonte de apoio: '+D.fontes[b.fonte][0]+' — '+D.fontes[b.fonte][1];a.className='source';a.target='_blank';a.rel='noopener';const voice=document.createElement('button');voice.className='btn';voice.textContent='Ouvir este trecho';voice.onclick=()=>speak(b.titulo+'. '+b.texto);div.append(text,an,a,document.createElement('br'),voice);item.append(su,div);item.ontoggle=()=>{if(item.open)log('leitura_bloco',i+1)};$('readingBlocks').append(item)});
@@ -31,3 +31,59 @@ $('begin').onclick=()=>{log('inicio_percursos');$('mission').scrollIntoView();$(
 $('preview').onclick=()=>{$('reportText').value=fullReport();$('reportPanel').open=true};$('copyReport').onclick=()=>copy(fullReport());$('download').onclick=download;$('email').onclick=email;$('reset').onclick=()=>{if(confirm('Baixou seu relatório? Apagar todo o progresso desta aula neste navegador?')){stop();resetting=true;localStorage.removeItem(key);location.reload()}};document.querySelectorAll('[data-rating]').forEach(b=>b.onclick=()=>{S.rating=b.dataset.rating;log('avaliacao',S.rating);toast('Avaliação registrada. Não altera os indicadores.')});
 document.querySelectorAll('[data-theme-button]').forEach(b=>b.onclick=()=>theme(b.dataset.themeButton));$('projector').onclick=()=>{document.body.classList.toggle('projector');$('projector').setAttribute('aria-pressed',document.body.classList.contains('projector'))};$('sound').onclick=()=>{sound=!sound;$('sound').textContent=sound?'Desativar sons':'Ativar sons';$('sound').setAttribute('aria-pressed',sound)};$('mute').onclick=()=>{sound=false;stop();$('sound').textContent='Ativar sons';$('sound').setAttribute('aria-pressed','false')};$('font').onchange=()=>document.body.style.setProperty('--fs',$('font').value+'px');try{theme(localStorage.getItem(key+':theme')||'dark')}catch(e){theme('dark')}loadVoices();if('speechSynthesis'in window)speechSynthesis.onvoiceschanged=loadVoices;document.addEventListener('visibilitychange',()=>log(document.hidden?'pagina_oculta':'retorno_visivel'));window.addEventListener('pagehide',()=>{stop();log('saida_pagina')});log(performance.getEntriesByType('navigation')[0]?.type==='reload'?'recarregamento':'abertura');render();}
 fetch('assets/conteudo.json').then(r=>{if(!r.ok)throw Error('Conteúdo indisponível');return r.json()}).then(init).catch(e=>{$('title').textContent='Não foi possível carregar a aula';$('lead').textContent='Recarregue esta página com conexão à internet. '+e.message});
+
+
+function openReportEmail(to, subject, body) {
+  const mail = String(to || '').trim();
+  if (!/^[^\s@?&#]+@[^\s@?&#]+\.[^\s@?&#]+$/.test(mail)) {
+    alert('O endereço do professor não está configurado corretamente. Copie ou baixe o relatório e confirme o destinatário.');
+    return;
+  }
+  document.getElementById('report-email-options')?.remove();
+  const panel = document.createElement('dialog');
+  panel.id = 'report-email-options';
+  panel.style.cssText = 'width:min(90vw,720px);max-height:85vh;overflow:auto;padding:24px;border:2px solid #526779;border-radius:12px;background:#fff;color:#172535';
+  const title = document.createElement('h2'); title.textContent = 'Enviar relatório ao professor';
+  const info = document.createElement('p');
+  info.textContent = 'Destinatário: ' + mail + '. Escolha Gmail ou seu aplicativo de e-mail. Confira a mensagem e clique em Enviar lá. Abrir a mensagem não confirma entrega.';
+  const preview = document.createElement('textarea');
+  preview.value = body; preview.readOnly = true;
+  preview.setAttribute('aria-label','Relatório completo para copiar');
+  preview.style.cssText='width:100%;box-sizing:border-box;min-height:180px;color:#172535;background:white';
+  const status = document.createElement('p'); status.setAttribute('role','status');
+  const gmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(mail) + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  const mailto = 'mailto:' + mail + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  status.textContent = gmail.length > 7000
+    ? 'Este relatório é longo. Se o e-mail não abrir ou vier incompleto, use Copiar relatório e abrir Gmail, ou baixe o TXT e anexe manualmente. Nenhum trecho foi cortado.'
+    : 'Se o aplicativo não abrir, use Gmail. Se faltar texto, copie a prévia completa ou anexe o TXT.';
+  function button(label, fn) {
+    const b=document.createElement('button'); b.type='button'; b.textContent=label;
+    b.style.cssText='margin:5px;padding:10px;cursor:pointer'; b.onclick=fn;panel.append(b);return b;
+  }
+  function launch(url) {
+    const a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer';
+    document.body.append(a); a.click(); a.remove();
+    status.textContent='Abertura solicitada. Confira destinatário e relatório completo antes de enviar. Se nada abriu, permita a nova aba ou use outra opção abaixo. Não há confirmação de envio nesta página.';
+  }
+  panel.append(title,info,preview,status);
+  button('Abrir Gmail com relatório',()=>launch(gmail));
+  button('Abrir aplicativo de e-mail',()=>launch(mailto));
+  button('Copiar relatório e abrir Gmail',()=>{
+    // A nova aba é aberta no próprio clique, antes de aguardar a área de transferência.
+    launch('https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(mail)+'&su='+encodeURIComponent(subject));
+    preview.focus();preview.select();
+    try { document.execCommand('copy'); } catch (_) {}
+    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(body).then(()=>{
+      status.textContent='Relatório completo copiado. Cole no corpo da mensagem do Gmail, confira e envie.';
+    }).catch(()=>{status.textContent='O relatório está selecionado: use Copiar e cole na mensagem do Gmail.';});
+    else status.textContent='O relatório está selecionado. Use Copiar e cole na mensagem do Gmail.';
+  });
+  button('Baixar relatório TXT',()=>{
+    const url=URL.createObjectURL(new Blob([body],{type:'text/plain;charset=utf-8'}));
+    const a=document.createElement('a');a.href=url;a.download='relatorio-completo.txt';
+    document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    status.textContent='Download solicitado. Anexe o TXT manualmente à mensagem antes de enviar.';
+  });
+  button('Fechar',()=>{panel.close();panel.remove();});
+  document.body.append(panel);panel.showModal();
+}

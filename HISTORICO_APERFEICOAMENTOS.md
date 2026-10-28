@@ -1,3 +1,9 @@
+# Correção de entrega de relatórios — 2.13.1 — 28/10/2026
+
+Pedido: botões não estavam abrindo o relatório no e-mail. Encontrados artefatos sem botão e implementações apenas mailto com URLs longas. Corrigidos os cinco artefatos HTML cadastrados no catálogo: História 192 de 21/10, História 231 e Ensino Religioso 192 de 27/10, Aprender a aprender e Conectar e investigar. Acrescentadas opções Gmail e aplicativo, prévia integral, cópia com abertura direta da aba e TXT para anexo manual; destinatário validado, sem corte de texto e sem afirmar envio. Atualizadas referências de cache dos scripts. Bloqueio do questionário em Conectar e investigar preservado, sem migração dos questionários dos artefatos antigos.
+
+Verificação: sintaxe dos quatro JS e dos scripts HTML; teste de DOM simulado para texto longo com acentos, quebras e caracteres reservados, integridade dos corpos Gmail/mailto, alternativa sem URL longa e destinatário inválido. Nenhum e-mail real foi enviado pelo assistente. Limites: configuração do dispositivo, bloqueio de abas, login no Gmail e limites do serviço continuam exigindo teste no aparelho e conferência pelo estudante. Não foi ativada coleta online.
+
 # Histórico de aperfeiçoamentos
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.

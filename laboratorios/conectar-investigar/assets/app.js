@@ -43,8 +43,64 @@ function responseLabel(x,arr){return arr.map(v=>x.type==='match'?x.targets[v]:x.
 function reportText(){let first=S.records.filter(r=>r?.attempts.length&&r.attempts[0].correct).length;let lines=['CONECTAR E INVESTIGAR — RELATÓRIO COMPLETO','Prof. André de Oliveira Rodrigues','Componente: Práticas experimentais (uso transversal)','Criação: 27/10/2026; aplicação: '+(S.identity.date||'não informada'),'Escola: '+(S.identity.school||'não informada'),'Turma: '+(S.identity.group||'não informada'),'Identificação: '+(S.identity.name||'não informada'),'Resumo: observar, associar representações, comparar condições e justificar conclusões com limites.','Referência curricular: BNCC, competência geral 2 (síntese); códigos específicos e RCG dependem da turma.','Critério: treino sem nota; pistas e erros não geram desconto. Primeira confirmação preservada; conclusão após correção registrada separadamente.','Concluídos: '+done()+'/28','Acertos na primeira confirmação: '+first+'/28 (itens ainda não respondidos não são erros).','Este registro não mede inteligência nem comprova sozinho domínio ou diagnóstico.','Avaliação da experiência: '+(S.rating||'não informada'),''];for(let i=0;i<28;i++){let x=D.tasks[i],r=S.records[i];lines.push((i+1)+'. '+x.title+' ['+(r?.done?'concluído':'não concluído')+']','Comando: '+x.prompt);if(!r){lines.push('Sem interação registrada.');continue}lines.push('Pistas: '+r.hints.length+'; consultas: '+r.consults.length+'; tentativas: '+r.attempts.length);r.attempts.forEach((a,k)=>lines.push('Tentativa '+(k+1)+': '+responseLabel(x,a.response)+'; '+(a.correct?'correta':'rever')+'; pistas antes: '+a.hintsBefore+'; horário: '+a.at));r.hints.forEach((h,k)=>lines.push('Pista '+(k+1)+': '+x.hints[k]+'; aberta: '+h.at));r.consults.forEach(c=>lines.push('Consulta: '+c.type+(c.term?' — '+c.term:'')+'; '+c.at));r.tests.forEach(t=>lines.push('Simulação: '+t.format+'; resultado '+t.result+' peças; '+t.at));if(r.completedAt)lines.push('Conclusão: '+r.completedAt);lines.push('')};lines.push('Eventos registrados apenas nesta página:');S.events.forEach(e=>lines.push(JSON.stringify(e)));lines.push('Mudança de visibilidade não comprova atenção ou desatenção.','Dados permanecem neste navegador. Abrir e-mail não confirma envio.');return lines.join('\n')}
 async function copy(text){try{await navigator.clipboard.writeText(text);return true}catch{modal('Copie o texto',`<textarea readonly id="copyFallback">${esc(text)}</textarea>`);$('#copyFallback').select();return false}}
 function download(text,name){let u=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
-function report(){modal('Meu relatório completo',`<p>Identificação opcional. Estes dados ficam neste aparelho e no arquivo ou e-mail que você decidir compartilhar.</p><div class="formgrid">${[['name','Nome ou identificação'],['school','Escola'],['group','Turma'],['date','Data da aplicação']].map(([k,v])=>`<label>${v}<input id="identity-${k}" value="${esc(S.identity[k]||'')}" ${k==='date'?'type="date"':''}></label>`).join('')}</div><label>Avaliação da experiência<select id="rating"><option value="">Prefiro não informar</option>${['Precisei de mais imagens','Precisei de mais explicações','Consegui acompanhar','Quero novos desafios'].map(v=>`<option ${v===S.rating?'selected':''}>${v}</option>`).join('')}</select></label><p class="tiny">Prévia completa. Pistas e erros não geram desconto de nota.</p><textarea id="preview" readonly aria-label="Relatório completo">${esc(reportText())}</textarea><div class="actions"><button id="copyReport">Copiar relatório</button><button id="downloadReport">Baixar relatório</button><button id="mailReport" class="primary">Enviar relatório ao professor</button></div><p id="mailNotice" class="tiny" role="status">Abre seu aplicativo de e-mail com o relatório preenchido. Confira e clique em Enviar. Não confirma envio e não anexa arquivos automaticamente.</p>`);for(let k of ['name','school','group','date'])$('#identity-'+k).oninput=()=>{S.identity[k]=$('#identity-'+k).value;save();$('#preview').value=reportText()};$('#rating').onchange=()=>{S.rating=$('#rating').value;save();$('#preview').value=reportText()};$('#copyReport').onclick=()=>copy(reportText());$('#downloadReport').onclick=()=>download(reportText(),'relatorio-conectar-investigar.txt');$('#mailReport').onclick=()=>{let url='mailto:andre-orodrigues@educar.rs.gov.br?subject='+encodeURIComponent('Relatório — Conectar e investigar — '+(S.identity.group||'turma não informada'))+'&body='+encodeURIComponent(reportText());let a=document.createElement('a');a.href=url;a.click();$('#mailNotice').textContent='Tentativa de abrir o aplicativo com o relatório completo. O envio só ocorre quando você confirma no aplicativo. Se o texto não aparecer completo, baixe ou copie o relatório e cole ou anexe manualmente; o tamanho pode exceder o limite do aplicativo.'}}
+function report(){modal('Meu relatório completo',`<p>Identificação opcional. Estes dados ficam neste aparelho e no arquivo ou e-mail que você decidir compartilhar.</p><div class="formgrid">${[['name','Nome ou identificação'],['school','Escola'],['group','Turma'],['date','Data da aplicação']].map(([k,v])=>`<label>${v}<input id="identity-${k}" value="${esc(S.identity[k]||'')}" ${k==='date'?'type="date"':''}></label>`).join('')}</div><label>Avaliação da experiência<select id="rating"><option value="">Prefiro não informar</option>${['Precisei de mais imagens','Precisei de mais explicações','Consegui acompanhar','Quero novos desafios'].map(v=>`<option ${v===S.rating?'selected':''}>${v}</option>`).join('')}</select></label><p class="tiny">Prévia completa. Pistas e erros não geram desconto de nota.</p><textarea id="preview" readonly aria-label="Relatório completo">${esc(reportText())}</textarea><div class="actions"><button id="copyReport">Copiar relatório</button><button id="downloadReport">Baixar relatório</button><button id="mailReport" class="primary">Enviar relatório ao professor</button></div><p id="mailNotice" class="tiny" role="status">Abre seu aplicativo de e-mail com o relatório preenchido. Confira e clique em Enviar. Não confirma envio e não anexa arquivos automaticamente.</p>`);for(let k of ['name','school','group','date'])$('#identity-'+k).oninput=()=>{S.identity[k]=$('#identity-'+k).value;save();$('#preview').value=reportText()};$('#rating').onchange=()=>{S.rating=$('#rating').value;save();$('#preview').value=reportText()};$('#copyReport').onclick=()=>copy(reportText());$('#downloadReport').onclick=()=>download(reportText(),'relatorio-conectar-investigar.txt');$('#mailReport').onclick=()=>openReportEmail('andre-orodrigues@educar.rs.gov.br','Relatório — Conectar e investigar — '+(S.identity.group||'turma não informada'),reportText())}
 function finish(){stop();at=-1;$('#main').innerHTML=`<section class="hero"><div><p class="eyebrow">28 / 28 · LABORATÓRIO CONCLUÍDO</p><h1>Agora, mostre<br>a ligação.</h1><p class="lead">Escolha um caso da sua aula e explique: o que você observou, como relacionou as informações e o que ainda precisa investigar?</p><p>Pode falar, desenhar, apontar evidências ou escrever. Uma sequência de cliques não substitui essa demonstração.</p><div class="actions"><button id="finishReport" class="primary">Ver e enviar meu relatório</button><button id="finishPath">Rever meu caminho</button></div></div><div class="panel"><h2>Leve este laboratório</h2><img class="qr" src="assets/qrcode.svg" alt="QR Code para abrir este laboratório"><p><a href="https://andredor19.github.io/Arquiteturas-da-Aprendizagem/laboratorios/conectar-investigar/">Abrir o link da aula</a></p><p class="tiny">As respostas e os apoios ficam no relatório completo.</p></div></section>`;$('#finishReport').onclick=report;$('#finishPath').onclick=path}
 $('#home').onclick=()=>{if(D)home()};$('#path').onclick=()=>{if(D)path()};$('#words').onclick=()=>{if(D)words()};$('#report').onclick=()=>{if(D)report()};$('#settings').onclick=settings;document.addEventListener('visibilitychange',()=>event(document.hidden?'pagina_oculta':'retorno'));event('abertura',{navigation:performance.getEntriesByType('navigation')[0]?.type||'desconhecida'});
 fetch('assets/data.json').then(r=>{if(!r.ok)throw Error('conteúdo indisponível');return r.json()}).then(data=>{D=data;home();if(!storage)$('#main').insertAdjacentHTML('afterbegin','<p role="status">O navegador não permitiu salvar. Baixe o relatório antes de sair.</p>')}).catch(()=>{$('#main').innerHTML='<h1>Não foi possível carregar a bancada.</h1><p>Confira sua conexão e recarregue esta página.</p>'});
 
+
+
+function openReportEmail(to, subject, body) {
+  const mail = String(to || '').trim();
+  if (!/^[^\s@?&#]+@[^\s@?&#]+\.[^\s@?&#]+$/.test(mail)) {
+    alert('O endereço do professor não está configurado corretamente. Copie ou baixe o relatório e confirme o destinatário.');
+    return;
+  }
+  document.getElementById('report-email-options')?.remove();
+  const panel = document.createElement('dialog');
+  panel.id = 'report-email-options';
+  panel.style.cssText = 'width:min(90vw,720px);max-height:85vh;overflow:auto;padding:24px;border:2px solid #526779;border-radius:12px;background:#fff;color:#172535';
+  const title = document.createElement('h2'); title.textContent = 'Enviar relatório ao professor';
+  const info = document.createElement('p');
+  info.textContent = 'Destinatário: ' + mail + '. Escolha Gmail ou seu aplicativo de e-mail. Confira a mensagem e clique em Enviar lá. Abrir a mensagem não confirma entrega.';
+  const preview = document.createElement('textarea');
+  preview.value = body; preview.readOnly = true;
+  preview.setAttribute('aria-label','Relatório completo para copiar');
+  preview.style.cssText='width:100%;box-sizing:border-box;min-height:180px;color:#172535;background:white';
+  const status = document.createElement('p'); status.setAttribute('role','status');
+  const gmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(mail) + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  const mailto = 'mailto:' + mail + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  status.textContent = gmail.length > 7000
+    ? 'Este relatório é longo. Se o e-mail não abrir ou vier incompleto, use Copiar relatório e abrir Gmail, ou baixe o TXT e anexe manualmente. Nenhum trecho foi cortado.'
+    : 'Se o aplicativo não abrir, use Gmail. Se faltar texto, copie a prévia completa ou anexe o TXT.';
+  function button(label, fn) {
+    const b=document.createElement('button'); b.type='button'; b.textContent=label;
+    b.style.cssText='margin:5px;padding:10px;cursor:pointer'; b.onclick=fn;panel.append(b);return b;
+  }
+  function launch(url) {
+    const a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer';
+    document.body.append(a); a.click(); a.remove();
+    status.textContent='Abertura solicitada. Confira destinatário e relatório completo antes de enviar. Se nada abriu, permita a nova aba ou use outra opção abaixo. Não há confirmação de envio nesta página.';
+  }
+  panel.append(title,info,preview,status);
+  button('Abrir Gmail com relatório',()=>launch(gmail));
+  button('Abrir aplicativo de e-mail',()=>launch(mailto));
+  button('Copiar relatório e abrir Gmail',()=>{
+    // A nova aba é aberta no próprio clique, antes de aguardar a área de transferência.
+    launch('https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(mail)+'&su='+encodeURIComponent(subject));
+    preview.focus();preview.select();
+    try { document.execCommand('copy'); } catch (_) {}
+    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(body).then(()=>{
+      status.textContent='Relatório completo copiado. Cole no corpo da mensagem do Gmail, confira e envie.';
+    }).catch(()=>{status.textContent='O relatório está selecionado: use Copiar e cole na mensagem do Gmail.';});
+    else status.textContent='O relatório está selecionado. Use Copiar e cole na mensagem do Gmail.';
+  });
+  button('Baixar relatório TXT',()=>{
+    const url=URL.createObjectURL(new Blob([body],{type:'text/plain;charset=utf-8'}));
+    const a=document.createElement('a');a.href=url;a.download='relatorio-completo.txt';
+    document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    status.textContent='Download solicitado. Anexe o TXT manualmente à mensagem antes de enviar.';
+  });
+  button('Fechar',()=>{panel.close();panel.remove();});
+  document.body.append(panel);panel.showModal();
+}

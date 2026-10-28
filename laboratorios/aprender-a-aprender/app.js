@@ -46,9 +46,65 @@ function showMap(){if(current){record(current.l,current.s).consults.push({at:new
 function showSupport(){if(current){record(current.l,current.s).consults.push({at:new Date().toISOString(),type:'palavras'});save()}showModal('Palavras que ajudam',`<h3>Ideias do laboratório</h3>${WORDS.glossario.map(v=>`<details class="disclosure"><summary>${esc(v[0])}</summary><p>${esc(v[1])}</p></details>`).join('')}<h3>Palavras dos comandos</h3>${WORDS.dicionario.map(v=>`<details class="disclosure"><summary>${esc(v[0])}</summary><p>${esc(v[1])}</p></details>`).join('')}<p>Uma palavra ainda ficou difícil? Peça um exemplo ao professor ou a um colega.</p>`)}
 function reportText(){let initial=state.records.filter(r=>r.attempts[0]?.correct).length;return `MEU PERCURSO NO LABORATÓRIO APRENDER A APRENDER\nProf. André de Oliveira Rodrigues\nRegistro gerado: ${new Date().toLocaleString('pt-BR')}\nTreino sem nota e sem desconto por pistas.\nPassos concluídos: ${totalDone()}/28\nPrimeiras conferências corretas: ${initial}\nPassos com primeira conferência: ${state.records.filter(r=>r.attempts.length).length}\nPistas: ${state.records.reduce((n,r)=>n+r.hints.length,0)}\nAutoavaliação: ${state.rating||'não respondida'}\nSem nome, turma ou escola informados.\nOs registros de seleção não comprovam explicação oral ou compreensão plena.\n\n`+state.records.map(r=>`${r.lab} | passo ${r.step}\nPergunta: ${r.question}\nConcluído: ${r.done?'sim':'não'}\nTentativas: ${r.attempts.length}\n`+r.attempts.map((a,i)=>`  ${i+1}. ${a.text.join(' → ')} | ${a.correct?'correta':'rever'} | pistas antes: ${a.hintsBefore} | consultas antes: ${a.consultsBefore} | ${a.at}`).join('\n')+`\nPistas consultadas:\n${r.hints.map(h=>`  ${h.number}. ${h.text} | ${h.at}`).join('\n')||'  nenhuma'}\nConsultas: ${r.consults.map(c=>c.type+' em '+c.at).join('; ')||'nenhuma registrada'}\nCartões abertos: ${r.opened.join(', ')||'nenhum'}\nTestes abertos: ${r.tests.join(', ')||'nenhum'}\n`).join('\n')+'\nEVENTOS DESTA PÁGINA\n'+state.events.map(e=>JSON.stringify(e)).join('\n')+'\nMudanças de visibilidade não indicam atenção ou desatenção. O registro é local e não sincroniza entre dispositivos.'}
 function download(name,text,type){const u=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
-function showReport(){showModal('Seu percurso completo',`<p>As tentativas, pistas e revisões ficam separadas. Este é um treino, sem nota. Baixe ou copie para compartilhar com seu professor.</p><pre id="reportText" class="report-area" tabindex="0"></pre><div class="actions"><button id="copyReport">Copiar relatório</button><button id="downloadReport">Baixar relatório</button><button id="downloadJson">Baixar dados</button><button id="newTrain">Novo treino neste aparelho</button></div><p class="tiny" id="copyStatus" role="status">Não há envio automático de dados ou e-mail.</p>`);$('#reportText').textContent=reportText();$('#copyReport').onclick=async()=>{try{await navigator.clipboard.writeText(reportText());$('#copyStatus').textContent='Relatório copiado. Você pode colar e conferir antes de compartilhar.'}catch{$('#copyStatus').textContent='A cópia automática não funcionou. Selecione o texto acima ou baixe o relatório.'}};$('#downloadReport').onclick=()=>download('meu-percurso.txt',reportText(),'text/plain;charset=utf-8');$('#downloadJson').onclick=()=>download('meu-percurso.json',JSON.stringify(state,null,2),'application/json');$('#newTrain').onclick=()=>{$('#modalTitle').textContent='Começar outro treino?';$('#modalBody').innerHTML='<p>Baixe o percurso atual se quiser guardá-lo. O novo treino substituirá o progresso salvo neste navegador.</p><div class="actions"><button id="cancelNew">Manter meu percurso</button><button id="confirmNew" class="primary">Começar novo treino</button></div>';$('#cancelNew').onclick=showReport;$('#confirmNew').onclick=()=>{state={version:1,records:[],events:[],prefs:state.prefs,rating:null};save();event('novo_treino');$('#modal').close();home()}}}
+function showReport(){showModal('Seu percurso completo',`<p>As tentativas, pistas e revisões ficam separadas. Este é um treino, sem nota. Baixe ou copie para compartilhar com seu professor.</p><pre id="reportText" class="report-area" tabindex="0"></pre><div class="actions"><button id="copyReport">Copiar relatório</button><button id="downloadReport">Baixar relatório</button><button id="downloadJson">Baixar dados</button><button id="mailReport">Enviar relatório ao professor</button><button id="newTrain">Novo treino neste aparelho</button></div><p class="tiny" id="copyStatus" role="status">Não há envio automático de dados ou e-mail.</p>`);$('#reportText').textContent=reportText();$('#copyReport').onclick=async()=>{try{await navigator.clipboard.writeText(reportText());$('#copyStatus').textContent='Relatório copiado. Você pode colar e conferir antes de compartilhar.'}catch{$('#copyStatus').textContent='A cópia automática não funcionou. Selecione o texto acima ou baixe o relatório.'}};$('#mailReport').onclick=()=>openReportEmail('andre-orodrigues@educar.rs.gov.br','Relatório — Meu caminho para aprender',reportText());$('#downloadReport').onclick=()=>download('meu-percurso.txt',reportText(),'text/plain;charset=utf-8');$('#downloadJson').onclick=()=>download('meu-percurso.json',JSON.stringify(state,null,2),'application/json');$('#newTrain').onclick=()=>{$('#modalTitle').textContent='Começar outro treino?';$('#modalBody').innerHTML='<p>Baixe o percurso atual se quiser guardá-lo. O novo treino substituirá o progresso salvo neste navegador.</p><div class="actions"><button id="cancelNew">Manter meu percurso</button><button id="confirmNew" class="primary">Começar novo treino</button></div>';$('#cancelNew').onclick=showReport;$('#confirmNew').onclick=()=>{state={version:1,records:[],events:[],prefs:state.prefs,rating:null};save();event('novo_treino');$('#modal').close();home()}}}
 function voices(){return 'speechSynthesis'in window?speechSynthesis.getVoices().filter(v=>/^pt/i.test(v.lang)):[]}
 function settings(){const vs=voices();showModal('Ajuste do seu jeito',`<div class="settings"><label>Aparência<select id="themeSelect">${[['day','Dia'],['night','Noite'],['mono','Preto e branco'],['projector','Projetor com letras maiores']].map(v=>`<option value="${v[0]}" ${state.prefs.theme===v[0]?'selected':''}>${v[1]}</option>`).join('')}</select></label><label>Voz do navegador<select id="voiceSelect"><option value="">Escolha automática em português</option>${vs.map(v=>`<option value="${esc(v.voiceURI)}" ${state.prefs.voice===v.voiceURI?'selected':''}>${esc(v.name+' · '+v.lang)}</option>`).join('')}</select></label><label>Velocidade da leitura<select id="rateSelect">${[.8,1,1.2].map(v=>`<option value="${v}" ${state.prefs.rate===v?'selected':''}>${v===.8?'Mais devagar':v===1?'Normal':'Mais rápida'}</option>`).join('')}</select></label><button id="soundToggle">${state.prefs.sound?'Desligar sons curtos':'Ligar sons curtos'}</button><button id="stopAll">Parar a voz e silenciar</button><p class="tiny">As vozes dependem do aparelho. O texto continua disponível mesmo sem voz. Nada toca sozinho.</p></div>`);$('#themeSelect').onchange=e=>{state.prefs.theme=e.target.value;document.body.dataset.theme=e.target.value;save()};$('#voiceSelect').onchange=e=>{state.prefs.voice=e.target.value;save()};$('#rateSelect').onchange=e=>{state.prefs.rate=+e.target.value;save()};$('#soundToggle').onclick=e=>{state.prefs.sound=!state.prefs.sound;e.target.textContent=state.prefs.sound?'Desligar sons curtos':'Ligar sons curtos';save();beep('hint')};$('#stopAll').onclick=()=>{stopVoice();state.prefs.sound=false;save();$('#soundToggle').textContent='Ligar sons curtos'}}
 function read(){if(reading){stopVoice();return}if(!('speechSynthesis'in window)){status('Este navegador não oferece leitura por voz. O texto está disponível na tela.');return}const {l,s}=current,L=LABS[l],x=L.steps[s];stopVoice();reading=true;const token=speakToken;$('#readBtn').textContent='Parar leitura';let texts=[PATH[s],L.brief,x.title,x.teach,x.prompt];if(x.options)texts.push(...x.options);const vs=voices(),voice=vs.find(v=>v.voiceURI===state.prefs.voice)||vs.find(v=>v.lang==='pt-BR'&&/Google|Microsoft|Natural|Online/i.test(v.name))||vs.find(v=>v.lang==='pt-BR')||vs[0];function speak(i){if(token!==speakToken)return;if(i>=texts.length){reading=false;const b=$('#readBtn');if(b)b.textContent='Ouvir este passo';return}const u=new SpeechSynthesisUtterance(texts[i]);u.lang='pt-BR';if(voice)u.voice=voice;u.rate=state.prefs.rate;u.onend=()=>speak(i+1);u.onerror=()=>{reading=false;const b=$('#readBtn');if(b)b.textContent='Ouvir este passo';status('A leitura foi interrompida pelo navegador. Você pode continuar pelo texto.')};speechSynthesis.speak(u)}speak(0)}
 $('#home').onclick=e=>{e.preventDefault();home()};$('#mapBtn').onclick=showMap;$('#supportBtn').onclick=showSupport;$('#reportBtn').onclick=showReport;$('#settingsBtn').onclick=settings;$('#closeModal').onclick=()=>$('#modal').close();$('#modal').addEventListener('close',stopVoice);
 home();
+
+
+function openReportEmail(to, subject, body) {
+  const mail = String(to || '').trim();
+  if (!/^[^\s@?&#]+@[^\s@?&#]+\.[^\s@?&#]+$/.test(mail)) {
+    alert('O endereço do professor não está configurado corretamente. Copie ou baixe o relatório e confirme o destinatário.');
+    return;
+  }
+  document.getElementById('report-email-options')?.remove();
+  const panel = document.createElement('dialog');
+  panel.id = 'report-email-options';
+  panel.style.cssText = 'width:min(90vw,720px);max-height:85vh;overflow:auto;padding:24px;border:2px solid #526779;border-radius:12px;background:#fff;color:#172535';
+  const title = document.createElement('h2'); title.textContent = 'Enviar relatório ao professor';
+  const info = document.createElement('p');
+  info.textContent = 'Destinatário: ' + mail + '. Escolha Gmail ou seu aplicativo de e-mail. Confira a mensagem e clique em Enviar lá. Abrir a mensagem não confirma entrega.';
+  const preview = document.createElement('textarea');
+  preview.value = body; preview.readOnly = true;
+  preview.setAttribute('aria-label','Relatório completo para copiar');
+  preview.style.cssText='width:100%;box-sizing:border-box;min-height:180px;color:#172535;background:white';
+  const status = document.createElement('p'); status.setAttribute('role','status');
+  const gmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(mail) + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  const mailto = 'mailto:' + mail + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  status.textContent = gmail.length > 7000
+    ? 'Este relatório é longo. Se o e-mail não abrir ou vier incompleto, use Copiar relatório e abrir Gmail, ou baixe o TXT e anexe manualmente. Nenhum trecho foi cortado.'
+    : 'Se o aplicativo não abrir, use Gmail. Se faltar texto, copie a prévia completa ou anexe o TXT.';
+  function button(label, fn) {
+    const b=document.createElement('button'); b.type='button'; b.textContent=label;
+    b.style.cssText='margin:5px;padding:10px;cursor:pointer'; b.onclick=fn;panel.append(b);return b;
+  }
+  function launch(url) {
+    const a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer';
+    document.body.append(a); a.click(); a.remove();
+    status.textContent='Abertura solicitada. Confira destinatário e relatório completo antes de enviar. Se nada abriu, permita a nova aba ou use outra opção abaixo. Não há confirmação de envio nesta página.';
+  }
+  panel.append(title,info,preview,status);
+  button('Abrir Gmail com relatório',()=>launch(gmail));
+  button('Abrir aplicativo de e-mail',()=>launch(mailto));
+  button('Copiar relatório e abrir Gmail',()=>{
+    // A nova aba é aberta no próprio clique, antes de aguardar a área de transferência.
+    launch('https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(mail)+'&su='+encodeURIComponent(subject));
+    preview.focus();preview.select();
+    try { document.execCommand('copy'); } catch (_) {}
+    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(body).then(()=>{
+      status.textContent='Relatório completo copiado. Cole no corpo da mensagem do Gmail, confira e envie.';
+    }).catch(()=>{status.textContent='O relatório está selecionado: use Copiar e cole na mensagem do Gmail.';});
+    else status.textContent='O relatório está selecionado. Use Copiar e cole na mensagem do Gmail.';
+  });
+  button('Baixar relatório TXT',()=>{
+    const url=URL.createObjectURL(new Blob([body],{type:'text/plain;charset=utf-8'}));
+    const a=document.createElement('a');a.href=url;a.download='relatorio-completo.txt';
+    document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    status.textContent='Download solicitado. Anexe o TXT manualmente à mensagem antes de enviar.';
+  });
+  button('Fechar',()=>{panel.close();panel.remove();});
+  document.body.append(panel);panel.showModal();
+}
