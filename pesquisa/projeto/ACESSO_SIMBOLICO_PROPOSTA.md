@@ -35,3 +35,6 @@ As duas páginas PMC apresentaram verificação de navegador nesta consulta. Nã
 
 ## Próximo marco
 Conferir as fontes originais, recuperar o material freudiano mencionado e definir a contribuição operacional própria antes de decidir inclusão no catálogo ou no protocolo de mestrado. Preservar a distinção entre hipótese autoral, modelo interpretativo, implementação e evidência educacional.
+
+## Segunda devolutiva e reprodução do código
+Em 28/10/2026 foi recebido resumo de parecer de outra IA e script adicional. A auditoria e as duas execuções estão em [revisão documentada](../revisoes/segunda-ia-2026-10-28/README.md). A reprodução verifica cálculos condicionais; não demonstra mecanismos implícitos, hipnose ou efeito educacional. A matriz e a bibliografia integrais do parecer continuam aguardando recebimento.

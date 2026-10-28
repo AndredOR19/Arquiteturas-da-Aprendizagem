@@ -1,0 +1,29 @@
+{
+  "estado": "executado_e_pacote_local_verificado",
+  "id_experimento": "69a2a9f5a581fac20aaf39661c027b3c383e15c9555978268aea1becf3358773",
+  "cenarios": 24,
+  "replicas_por_cenario": 5000,
+  "replicas": 120000,
+  "semente": 20261028,
+  "chamadas_ia": 0,
+  "dados_reais": false,
+  "ambiente": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "sistema": "Linux"
+  },
+  "codigo_sha256": {
+    "laboratorio.py": "f3d6b7a8f771e4d51747662052d8148b9d372d3135115dafc00b89efaf1333ee",
+    "modelos.py": "11765be9a9e89a1174ca8107705ddf9c796947b812df797663d6cedf29fa3ea5",
+    "relatorios.py": "17b3767fd2644a00341216d4fbff8fc73d19d77e634c37b05a5fdc72768185a1",
+    "inventario.py": "217a857cb1af517a213a1ca964c93f31f2cda1221a24c1fd19e25b9c29d2ad34",
+    "requirements.txt": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+  },
+  "arquivos_extraidos_sha256": {
+    "resultados.json": "f5562749032f06ad7cda5a15ceb9583843c5ea6a40cd57529d7f5cd076b8a5b8",
+    "resultados.csv": "2a89547be60c2baff2cdf6e96a378ba2096da445653375332c94e3d536eaf859"
+  },
+  "escopo": "Extrato do pacote local: somente resultados JSON/CSV e este comprovante; não é cópia integral do pacote."
+}

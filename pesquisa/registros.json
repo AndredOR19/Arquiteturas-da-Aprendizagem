@@ -436,6 +436,38 @@
       "proxima_acao": "Conferir referências e contribuição operacional antes de adotar arquitetura ou protocolo.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
+    },
+    {
+      "id": "REF-20261028-002",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Autoria original não confirmada; texto fornecido pelo professor",
+      "titulo": "Devolutiva de outra IA e reprodução independente do código",
+      "formulacao": "O professor trouxe parecer resumido e código por turmas para ampliar a análise da hipótese simbólica e dos construtos hipnóticos.",
+      "natureza": "referencia_recebida",
+      "tipo_texto": "proposta_assistente",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/revisoes/segunda-ia-2026-10-28/README.md",
+        "transcricao_integral": false
+      },
+      "estado": "codigo_recebido_executado_e_auditado",
+      "evidencia": {
+        "tipo": "codigo_e_ensaios_sinteticos_sem_dados_reais",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [
+        "MES-001",
+        "SIM-001"
+      ],
+      "relacionados": [
+        "REF-20261028-001"
+      ],
+      "proxima_acao": "Receber parecer completo, conferir fontes e definir contraste e medidas antes de integrar novo modelo.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
     }
   ]
 }
