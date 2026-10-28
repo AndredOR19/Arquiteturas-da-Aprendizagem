@@ -36,6 +36,16 @@ jobs:
           mkdir -p exportacoes/projetos/demonstracao-slides/revealjs
           cp _site/slides/aprender-a-aprender/index.html exportacoes/projetos/demonstracao-slides/revealjs/index.html
           node ferramentas/conferir-slides.cjs
+      - name: Conferir laboratório Conectar e investigar
+        timeout-minutes: 5
+        run: node ferramentas/conferir-conectar.cjs
+      - name: Guardar imagens de conferência do laboratório
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: conferencia-conectar-investigar
+          path: lab-*.png
+          if-no-files-found: ignore
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -54,3 +64,4 @@ jobs:
       - name: Publicar
         id: deploy
         uses: actions/deploy-pages@v4
+

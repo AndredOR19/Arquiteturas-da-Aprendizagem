@@ -22,3 +22,15 @@ Projeto HTML livre validado e compilado pelo motor privado da Biblioteca de Diag
 
 ## Mediação
 O ponto cego é acertar por aparência. Pedir que o estudante indique uma evidência e use a relação num caso diferente. Desafio opcional não é corrigido automaticamente. Não há guia docente reservado ou senha embarcada no pacote público.
+
+
+## Revisão 2.0.0 — 28/10/2026
+Revisado conforme Prompt Mestre 2.13.0 e catálogo 1.4.2. Mantidos os IDs, respostas e 28 percursos; progresso anterior neste navegador preservado. A aparência foi recomposta como caderno de investigação: comparação de papéis na entrada, instrumentos por bancada, trilha de operações e painel visual ligado ao exercício.
+
+Leitura: famílias de sistema, tamanho, entrelinha, letras/palavras, largura, foco, modos visuais, voz e movimento reduzido. A família final depende do aparelho; não há fonte especializada incorporada. Lembrar esses ajustes exige escolha explícita; restaurar aparência preserva atividades e avaliação.
+
+Questionário 1.1.0 com nove perguntas, dificuldades múltiplas e sugestão opcional por escolha. As atividades precisam estar concluídas e todas as respostas válidas/confirmadas para liberar finalização e relatório. Revalidação em recarga e nas ações de relatório. Opiniões negativas e não uso são válidos. Sem nota numérica; primeiros acertos e apoios continuam separados.
+
+Relatório inclui versão, avaliação completa, preferências solicitadas e eventos reais da página. Não há integração Supabase/coleta online, diagnóstico ou calibração empírica. Mudança visual e ensaio técnico não demonstram efeito cognitivo.
+
+Conferência automatizada de navegador: ferramentas/conferir-conectar.cjs, executada no workflow de publicação antes do deploy, com imagens em artifact separado. Consultar VERIFICACAO.md para resultados reais.

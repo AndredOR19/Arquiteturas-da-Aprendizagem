@@ -17,3 +17,12 @@
 
 ## Limites
 Layout responsivo implementado, mas sem teste em Chromebook/celular físico nesta sessão. Voz depende das opções do aparelho; reprodução sonora e envio efetivo pelo cliente de e-mail não confirmados. Não há backend, sincronização ou medida de capacidade cognitiva. Códigos específicos BNCC e RCG não atribuídos sem turma/documento; referência transversal à competência geral 2. Dados simulados declarados.
+
+
+## Revisão 2.0.0 — 28/10/2026
+- Sintaxe JavaScript conferida com Node.
+- Ensaio DOM com dados fictícios passou pelos 28 percursos, erro bloqueando avanço, questionário vazio bloqueado, avaliação completa liberando relatório e invalidação posterior revogando liberação.
+- Corrigidos evento de expansão após remoção de elemento e unidade percentual da barra de progresso.
+- IDs/respostas e chave local mantidos.
+- Teste de navegador no workflow antes do deploy: ferramentas/conferir-conectar.cjs; resultado e imagens remotos ainda a conferir na execução correspondente.
+- Sem aplicação escolar, hipnose ou integração de coleta online.

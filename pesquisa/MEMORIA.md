@@ -40,3 +40,5 @@ Análise de viabilidade recebida e considerada em projeto/VIABILIDADE.md: priori
 
 ## Prioridade de implantação e README
 Decisão de 28/10/2026: README da proposta em projeto/README.md. Preparar Supabase e bancos vetoriais antes da implantação da Sofia; Vercel por último. Acesso será disponibilizado pelo autor; não está configurado nesta entrega. Distinguir embeddings, vetores autorais e vetores de revelação. Foram localizados conceito de revelação dimensional e protocolo autoral; inventário físico do banco pendente. DAIA aguarda identificação exata, sem expansão inventada.
+
+Texto recebido sobre acesso simbólico, processos implícitos e eventual hipnose: proposta em avaliação, não nova diretriz. Consultar projeto/ACESSO_SIMBOLICO_PROPOSTA.md antes de resumir ou implementar.

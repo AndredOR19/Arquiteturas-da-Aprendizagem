@@ -402,6 +402,40 @@
       "proxima_acao": "Recuperar definição de DAIA e inventariar Supabase e bancos existentes quando o acesso estiver disponível.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
+    },
+    {
+      "id": "REF-20261028-001",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Autoria original não confirmada; texto fornecido pelo professor",
+      "titulo": "Proposta recebida de acesso simbólico e organização cognitiva",
+      "formulacao": "Texto sugere investigar representações simbólicas, preparação atencional e transferência, distinguindo interpretações psicanalíticas de evidências educacionais.",
+      "natureza": "referencia_recebida",
+      "tipo_texto": "proposta_assistente",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/projeto/ACESSO_SIMBOLICO_PROPOSTA.md",
+        "transcricao_integral": false
+      },
+      "estado": "proposta_em_avaliacao",
+      "evidencia": {
+        "tipo": "formulacao_e_decisao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "associacoes",
+        "aee",
+        "arn",
+        "epc"
+      ],
+      "producoes": [
+        "MES-001"
+      ],
+      "relacionados": [],
+      "proxima_acao": "Conferir referências e contribuição operacional antes de adotar arquitetura ou protocolo.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
     }
   ]
 }
