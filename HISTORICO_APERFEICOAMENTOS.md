@@ -2,6 +2,13 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.13.0 — 28/10/2026
+**Pedido:** README da proposta de mestrado abrangendo metodologia, DAIA, bancos vetoriais e adaptação da Sofia; preparar Supabase antes da implantação e Vercel na última etapa.
+
+**Produzido:** apresentação integrada, estados reais, contrato de dados proposto, distinção entre tipos de vetor e roteiro de implantação. Formulação de vetores de revelação e protocolo autoral localizados; DAIA ainda sem definição canônica recuperada.
+
+**Limites:** documentação; não houve acesso, migração ou banco criado no Supabase, importação de vetores ou implantação Vercel.
+
 ## 2.12.0 — 28/10/2026
 **Pedido:** ampliar as Arquiteturas para projeto de pesquisa, candidatura/cooperação acadêmica, levantamento de contatos e financiamento e rede de escolas. O autor esclareceu que Sofia é a arquitetura de programação e dados da Sofia Cog OS e do Operador Cognitivo.
 

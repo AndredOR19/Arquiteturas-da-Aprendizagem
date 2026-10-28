@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.12.0**  
+Versão vigente: **2.13.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -513,3 +513,8 @@ Quando o professor mencionar Sofia/Sophia nesta frente, entender a arquitetura d
 Planejar ambiente educacional separado, fontes pedagógicas aprovadas, papéis e isolamento entre instituições, testes com dados fictícios, limites de custo e revisão docente. Não copiar material reservado para o Git público. Reuso de código não valida regras ou medidas cognitivas; documentar cada regra educacional. IA generativa/embeddings podem ter consumo de tokens e infraestrutura, mesmo que o laboratório de cálculo não chame modelos.
 
 Priorizar acompanhamento longitudinal e coleta íntegra conforme seções 13.2 e 26–30. Expansão depende de suporte, formação, recursos e pactuação com escolas/mantenedora. Admissão, bolsa pessoal, mensalidade e fomento ao laboratório são processos distintos; conferir fontes oficiais e datas antes de submeter. Preparar aproximações institucionais sem considerar mensagens enviadas por terem sido redigidas.
+
+## 32. Proposta de mestrado e implantação por etapas
+Consultar pesquisa/projeto/README.md para a apresentação integrada da metodologia e o estado técnico. Decisão do autor: Supabase e bancos vetoriais primeiro, adaptação/implantação da Sofia em seguida, Vercel somente na última etapa. Conferir o destino, schema, políticas, migrações e dados existentes antes de alterar o banco. O anúncio de futuro acesso não equivale a acesso configurado. Preservar operação atual e preparar mudanças revisáveis com dados fictícios.
+
+Distinguir embeddings documentais, vetores autorais por eixos e o conceito de vetores de revelação. Recuperar as definições e os bancos efetivamente existentes, sem equiparar conceitos nem importar corpus completo por padrão. DAIA permanece denominação a identificar na fonte; não expandir a sigla por inferência. A proposta de estudo não fixa a arquitetura principal sem decisão do autor/orientação.

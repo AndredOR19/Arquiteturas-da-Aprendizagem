@@ -1,6 +1,6 @@
 # Memória de continuidade da pesquisa
 
-Atualização: 28/10/2026. Prompt de referência: 2.12.0.
+Atualização: 28/10/2026. Prompt de referência: 2.13.0.
 
 ## O que o autor está correlacionando
 - A preferência pessoal pela cadência “tá-tá, tá-tá, tatatata” e pela alternância dos lados origina uma pergunta pedagógica, não uma leitura diagnóstica da personalidade.
@@ -37,3 +37,6 @@ O autor solicitou projeto de pesquisa e prospecção de instituições próximas
 Esclarecimento expresso: Sofia/Sophia significa a arquitetura de programação e dados da Sofia Cog OS e do Operador Cognitivo. A especificação técnica pertinente foi localizada e uma amostra de código consultada. Ver projeto/SOFIA_COGOS.md; adaptação educacional ainda por desenvolver e testar, sem auditar produção ou copiar conteúdo privado para este Git. Não repetir a confusão entre objeto técnico e outros materiais do acervo do autor.
 
 Análise de viabilidade recebida e considerada em projeto/VIABILIDADE.md: priorizar piloto e procurar orientação antes da coleta; não tratar o parecer como auditoria independente.
+
+## Prioridade de implantação e README
+Decisão de 28/10/2026: README da proposta em projeto/README.md. Preparar Supabase e bancos vetoriais antes da implantação da Sofia; Vercel por último. Acesso será disponibilizado pelo autor; não está configurado nesta entrega. Distinguir embeddings, vetores autorais e vetores de revelação. Foram localizados conceito de revelação dimensional e protocolo autoral; inventário físico do banco pendente. DAIA aguarda identificação exata, sem expansão inventada.
