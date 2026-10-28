@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Teste técnico da coleta</title>
+<style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;color:#17212b;background:#fafafa}label{display:block;margin-top:1rem}input{display:block;box-sizing:border-box;width:100%;padding:.7rem;font:inherit}button{font:inherit;padding:.7rem 1rem;margin-top:1.2rem}pre{white-space:pre-wrap;overflow-wrap:anywhere;padding:1rem;background:#eee}a{color:#164d9b}:focus-visible{outline:3px solid #b55b00;outline-offset:3px}</style>
+<h1>Teste técnico da coleta</h1><p>Este teste envia somente um relatório fictício com 26 percursos e avaliação preenchida. Não inserir dados de estudantes.</p>
+<form id="form"><label>Endereço publicado do receptor (/exec)<input id="endpoint" type="url" required autocomplete="off"></label><label>Convite de teste, na aba Acessos da planilha privada<input id="token" type="password" required autocomplete="off"></label><button id="enviar">Enviar teste fictício</button></form>
+<p id="status" role="status" aria-live="polite">Aguardando configuração. O receptor precisa estar publicado.</p><pre id="resultado" hidden></pre>
+<p>Em caso de falha, tente novamente: o mesmo ID é mantido para evitar duplicação. O convite não é armazenado por esta página.</p>
+<script type="module">
+import {criarColetor} from './cliente.mjs';import {criarExemploTeste} from './fixture.mjs';
+const $=s=>document.querySelector(s);let id;
+try{id=localStorage.getItem('coleta.teste.id');if(!id){id='teste_'+crypto.randomUUID().replaceAll('-','');localStorage.setItem('coleta.teste.id',id)}}catch(_){id='teste_'+crypto.randomUUID().replaceAll('-','')}
+$('#form').addEventListener('submit',async event=>{event.preventDefault();$('#enviar').disabled=true;$('#status').textContent='Enviando teste; aguardando confirmação de gravação.';$('#resultado').hidden=true;
+try{const coletor=criarColetor({endpoint:$('#endpoint').value.trim()});const recibo=await coletor.enviar(criarExemploTeste(id),$('#token').value.trim());$('#status').textContent='Teste recebido. Confira a linha de ambiente teste na planilha.';$('#resultado').textContent=JSON.stringify(recibo,null,2);$('#resultado').hidden=false;}catch(e){$('#status').textContent=e.message;}finally{$('#enviar').disabled=false;}});
+</script></html>

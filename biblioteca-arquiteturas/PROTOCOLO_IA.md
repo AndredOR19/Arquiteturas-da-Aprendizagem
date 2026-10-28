@@ -1,5 +1,5 @@
 # Protocolo de consulta, composição e continuidade para IA
-Versão: 1.0.0 — 28/10/2026. Compatibilidade: Prompt Mestre 2.8.0.
+Versão: 1.0.0 — 28/10/2026. Compatibilidade: Prompt Mestre 2.9.0.
 
 ## Âncora — atuação esperada
 Atuar como executor e revisor orientado por uma base explícita. Não presumir vivência compartilhada, memória automática, leitura prévia ou compreensão apenas das siglas. A responsabilidade pedagógica permanece com o professor.

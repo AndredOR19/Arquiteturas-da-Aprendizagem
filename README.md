@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.8.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.9.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -78,3 +78,6 @@ O conector está disponível para uso nas sessões em que houver acesso. Isso n�
 - Ensino Religioso 192 — Conviver com quem pensa diferente, 26 percursos.
 
 Incluídas no catálogo de publicação. “Aula” significa a entrega digital completa conforme o prompt mestre. Confira o registro de validação em aulas/VERIFICACAO_27-10-2026.md.
+
+## Coleta de relatórios — implementação em preparação
+[Receptor e orientações](coleta/README.md), [estado](coleta/STATUS.json) e [conferências](coleta/VERIFICACAO.md). Planilha privada criada na conta autorizada; contrato, cliente e receptor preparados com 18 ensaios locais. Implantação Apps Script, autorização, envio real pelo navegador e migração de aulas ainda pendentes. Relatórios de estudantes não entram no GitHub público. O fluxo atual de e-mail permanece até integração conferida.

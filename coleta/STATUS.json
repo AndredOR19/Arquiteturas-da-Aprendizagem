@@ -1,0 +1,15 @@
+{
+  "versao_coletor": "1.0.0",
+  "atualizado_em": "2026-10-28",
+  "estado": "preparado_nao_implantado",
+  "planilha_nativa_criada": true,
+  "privacidade_verificada": true,
+  "receptor_implantado": false,
+  "endpoint": null,
+  "teste_real_navegador": false,
+  "ensaios_locais_aprovados": 18,
+  "servicos_google_simulados_nos_testes": true,
+  "producao_ativada": false,
+  "registros_de_estudantes": false,
+  "aulas_migradas": []
+}

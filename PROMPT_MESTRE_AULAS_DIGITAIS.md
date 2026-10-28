@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.8.0**  
+Versão vigente: **2.9.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -447,3 +447,16 @@ Distinguir diretriz documentada, proposta em desenvolvimento, roteiro inicial e 
 Nova arquitetura: preencher [modelo de planta](biblioteca-arquiteturas/MODELO_DE_PLANTA.md), vincular dependências e fonte, desenvolver exemplo e revisão, cadastrar e validar. Mudança de regra exige atualizar este prompt, compatibilidade e histórico. O catálogo não deve ativar pendências como diretrizes. Executar o validador estrutural antes da entrega.
 
 Consulta explícita é necessária: a biblioteca não instala memória automática ou serviço autônomo de IA. Registrar versões, revisão, decisões, entregas e próxima ação para continuidade verificável. Não declarar que documentação implementa componentes ou garante resultados de aprendizagem.
+
+## 26. Coleta online de relatórios — implementação técnica em preparação
+Decisão de 28/10/2026: preparar coleta automática em base privada na conta pessoal Google autorizada pelo Prof. André, mantendo código e arquiteturas no GitHub. O coletor técnico está em [coleta/README.md](coleta/README.md); consultar [estado real](coleta/STATUS.json) e [conferências](coleta/VERIFICACAO.md) antes de afirmar disponibilidade.
+
+A infraestrutura deve receber relatório completo, validar atividades e avaliação obrigatória, conferir convite de aula/estudante/ambiente, persistir dados e devolver protocolo e confirmação correspondentes ao conteúdo. Preservar resposta inicial, tentativas, pistas, consultas, preferências e avaliação; dividir relatórios grandes sem truncamento e manter vínculo entre partes.
+
+A planilha individual fica restrita ao professor. Não gravar relatórios identificáveis, convites, credenciais ou dados clínicos no repositório público. Convite controla autorização de entrega, sem comprovar identidade civil; nota informada pelo cliente não é correção independente no servidor.
+
+Separar modo teste e produção. Evitar duplicação por ID e hash estáveis; não sobrescrever conteúdo diferente sob o mesmo ID. Em falha de rede ou perda de confirmação, preservar snapshot e permitir reenvio idêntico. Não considerar resposta opaca ou simples disparo de requisição como recebimento.
+
+As aulas atuais mantêm o fluxo de e-mail até integração e verificação explícitas. No modo online configurado, conferir recibo e conteúdo atual antes de declarar entrega online concluída. A alternativa de arquivo/e-mail pode ser oferecida após avaliação completa, com estado explícito de recebimento online não confirmado; o professor verifica entrega pelo canal usado. Não declarar e-mail recebido pelo clique.
+
+Estado inicial desta implementação: planilha criada e privada; código e testes locais preparados; publicação Apps Script, autorização, teste real de navegador e migração de aulas ainda pendentes. Nenhum serviço de análise por IA ou monitoramento automático desta conversa está instalado. Atualizar estado e listar aulas migradas somente com evidência.

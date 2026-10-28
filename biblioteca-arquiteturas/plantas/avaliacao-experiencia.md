@@ -3,7 +3,7 @@ ID: avaliacao-experiencia
 Versão documental: 1.1.0 — 28/10/2026  
 Estado: diretriz documentada; questionário e campos ainda requerem implementação nas aulas.  
 Origem: decisão do Prof. André de Oliveira Rodrigues em 28/10/2026.  
-Fonte: [Prompt mestre 2.8.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 12, 13, 13.1 e 25.  
+Fonte: [Prompt mestre 2.9.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 12, 13, 13.1 e 25.  
 Dependências: [Leitura acessível](leitura-acessivel.md), [EPC](epc.md).
 
 ## Âncora conceitual

@@ -3,7 +3,7 @@ ID: leitura-acessivel
 Versão documental: 1.0.0 — 28/10/2026  
 Estado: diretriz documentada para novas produções e revisões; controles ainda não implementados nas aulas existentes.  
 Origem: insight do Prof. André de Oliveira Rodrigues, em 28/10/2026.  
-Fonte normativa: [Prompt mestre 2.8.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 11, 11.1 e 25.  
+Fonte normativa: [Prompt mestre 2.9.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 11, 11.1 e 25.  
 Dependências: [SVS](svs.md), [AIES](aies.md).
 
 ## Âncora conceitual — autonomia de leitura

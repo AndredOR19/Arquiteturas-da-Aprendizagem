@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.9.0 — 28/10/2026
+**Pedido:** iniciar a ponte de coleta automática em Google Sheets/Apps Script pela conta pessoal já conectada, após autorização “Bora!”.
+
+**Produzido:** planilha nativa privada com Painel, Entregas, Relatorios e Acessos; verificação da propriedade pela conta indicada e fuso America/Sao_Paulo. Código do receptor, contrato compartilhado, cliente, fixture fictício, teste técnico HTML, build e documentação em coleta/. Seção 26 registra modo online condicional, preservação integral, recibo, idempotência e limites. Catálogo/plantas compatíveis com prompt 2.9.0.
+
+**Verificação:** fórmulas e estrutura lidas no serviço nativo; renderização do workbook e de sua exportação após conversão. Dezoito ensaios locais aprovados com serviços Google simulados, incluindo questionário completo, falha parcial, perda de confirmação, duplicação, convites inválidos e integridade do relatório em partes. Validação documental e leitura dos arquivos salvos.
+
+**Pendências:** criar/vincular projeto Apps Script, autorizar, implantar, emitir convite de teste e conferir POST real do navegador com readback. Produção e integração nas aulas ainda não ativadas. Não há endpoint ativo nem dados de estudantes recebidos. Conta privada e identificador da planilha não são publicados na configuração do repositório. O fluxo anterior de e-mail não foi removido.
+
 ## 2.8.0 — 28/10/2026
 **Pedido:** impedir conclusão da aula sem resposta a todas as perguntas da avaliação do artefato; liberar nota e envio do relatório somente após avaliação completa. O professor utilizará o relatório recebido como evidência de entrega.
 
