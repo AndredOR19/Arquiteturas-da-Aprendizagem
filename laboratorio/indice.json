@@ -181,15 +181,34 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40782926236",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "5669ee4710a5893a2dded2040e36e45ed57c1f7e",
+      "pasta": "execucoes/40782926236-1-turmas",
+      "experimento": "c3f9513f01b9b928e6847000adde7479f1df1abfd4d0063b4851a96bbfddd519",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [
+          "leitura-acessivel"
+        ],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "f0ff6c8fa7dc870431d6e1d429b1ff2998fb33151efb6ad12e81f0ec1e9c9e8c",
+      "biblioteca-arquiteturas/catalogo.json": "3933d8a8ad0846fc34550ccc0e680ea9e267815c823785cd717e1245bc39a012",
       "pesquisa/simulacoes/arquiteturas_externas.json": "a46655384f0f5c1d01ff7db55e656a1d338b47948a8cf0563f503c89606a3be3",
       "pesquisa/simulacoes/catalogo_modelos.json": "176c3edda89e9564db8192aaeba74ab45044b649885d926675ff058c50c8c69f",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "ccb4a379815af8a98653567eed7d1f82435ac978fcd466bb7f18b0aa0209b16b",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "a1e8c8313981421ca650025749028a8fcad4d41ffa7371c99b6e01b2ecebc276",
       "pesquisa/registros.json": "371b269cc7fc3ef990f2a562df41319f10aeade9f58d55d7fc2e9a85a9be8c52",
       "pesquisa/producoes.json": "0e1d0a1dc40d916a62325c78f7b8649dd272bc9df1f11fc046ef44894c018e38"
     },
@@ -467,7 +486,7 @@
         "versao_documental": "1.0.0",
         "estado_documental": "diretriz_documentada",
         "fontes_sha256": {
-          "biblioteca-arquiteturas/plantas/leitura-acessivel.md": "90ef6eb91a87a718ad37e113af0cb9fd4014a4ce26ac2f5f13262e28a6a47aed"
+          "biblioteca-arquiteturas/plantas/leitura-acessivel.md": "0b4d63c8a3eba2b837446a670e1a58cb238e228af8d35602dd179c5244ea43be"
         },
         "estado_modelagem": "aguardando_formalizacao",
         "modulos_mecanisticos": [],
@@ -477,7 +496,7 @@
         ],
         "calibracao_empirica": false,
         "validacao_empirica": false,
-        "revisao_sha256": "2656422ee5b7d2829eff62316d38b1cdb85a3a9f852c573008d74d2f444827f3"
+        "revisao_sha256": "5b9b10b4a02dea1623efe21de0290e3062b0c5345d052a3bdcc50053642026b7"
       },
       {
         "id": "avaliacao-experiencia",
