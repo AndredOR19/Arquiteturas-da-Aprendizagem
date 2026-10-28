@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.10.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.11.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -84,4 +84,7 @@ Incluídas no catálogo de publicação. “Aula” significa a entrega digital 
 
 
 ## Diário de pesquisa e continuidade
-O [diário e banco de insights](pesquisa/README.md) registram as correlações autorais, as metodologias em desenvolvimento e a fila dos livros. Começar por [MEMORIA.md](pesquisa/MEMORIA.md). O [acompanhamento longitudinal](pesquisa/longitudinal/README.md) separa aluno, matrícula histórica, coorte e observação; nomes e dados reais ficam fora do repositório público. Prompt vigente 2.10.0. O registro não ativa coleta online nem memória automática.
+O [diário e banco de insights](pesquisa/README.md) registram as correlações autorais, as metodologias em desenvolvimento e a fila dos livros. Começar por [MEMORIA.md](pesquisa/MEMORIA.md). O [acompanhamento longitudinal](pesquisa/longitudinal/README.md) separa aluno, matrícula histórica, coorte e observação; nomes e dados reais ficam fora do repositório público. Prompt vigente 2.11.0. O registro não ativa coleta online nem memória automática.
+
+## Laboratório de simulações
+[Usar o laboratório](pesquisa/simulacoes/LABORATORIO.md): execução no Actions, cenários individuais/por turmas, relatórios e arquivo de resultados. [Workflow](.github/workflows/laboratorio-simulacoes.yml). O inventário acompanha as arquiteturas cadastradas e sinaliza formalizações pendentes. Somente cenários sintéticos; sem chamadas a IA no cálculo ou comprovação de eficácia.

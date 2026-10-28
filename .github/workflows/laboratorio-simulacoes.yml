@@ -1,0 +1,80 @@
+name: Laboratorio de simulacoes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pesquisa/simulacoes/**'
+      - '.github/workflows/laboratorio-simulacoes.yml'
+      - 'biblioteca-arquiteturas/**'
+      - 'PROMPT_MESTRE_AULAS_DIGITAIS.md'
+      - 'pesquisa/registros.json'
+      - 'pesquisa/producoes.json'
+  workflow_dispatch:
+    inputs:
+      cenario:
+        description: 'Cenario sintetico de planejamento'
+        type: choice
+        options: [todos, individuos, turmas]
+        default: todos
+      repeticoes:
+        description: 'Repeticoes por cenario de 200 a 20000 sujeitas ao limite total'
+        type: number
+        default: 5000
+      semente:
+        description: 'Semente inteira para reproducao'
+        type: number
+        default: 20261028
+
+permissions:
+  contents: write
+
+concurrency:
+  group: laboratorio-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: false
+
+jobs:
+  executar:
+    strategy:
+      fail-fast: false
+      matrix:
+        cenario: ${{ fromJSON(inputs.cenario == 'individuos' && '["individuos"]' || inputs.cenario == 'turmas' && '["turmas"]' || '["individuos","turmas"]') }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      LAB_CENARIO: ${{ matrix.cenario }}
+      LAB_REPETICOES: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.repeticoes) || '1000' }}
+      LAB_SEMENTE: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.semente) || '20261028' }}
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pesquisa/simulacoes/requirements.txt
+      - name: Instalar dependencias fixadas
+        run: python -m pip install -r pesquisa/simulacoes/requirements.txt
+      - name: Testar modelos e relatorios
+        run: python pesquisa/simulacoes/testes_lab.py
+      - name: Executar laboratorio sem chamadas a IA
+        run: >-
+          python pesquisa/simulacoes/laboratorio.py
+          --cenario "$LAB_CENARIO"
+          --repeticoes "$LAB_REPETICOES"
+          --semente "$LAB_SEMENTE"
+          --saida exportacoes/simulacoes
+      - name: Guardar pacote de resultados
+        uses: actions/upload-artifact@v4
+        with:
+          name: laboratorio-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.cenario }}
+          path: exportacoes/simulacoes/
+          if-no-files-found: error
+          retention-days: 14
+          include-hidden-files: false
+      - name: Arquivar resultados sinteticos em branch separada
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python pesquisa/simulacoes/arquivar.py

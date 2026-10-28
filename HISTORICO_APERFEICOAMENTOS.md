@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.11.0 — 28/10/2026
+**Pedido:** criar laboratório de simulações no GitHub, transferindo cálculo e tarefas repetitivas para código sem chamadas a IA; preservar evolução e resultados e incorporar o registro de qualquer arquitetura, inclusive simbólica/filosófica.
+
+**Produzido:** motor 0.1.0 com modelos de planejamento por indivíduos e por turmas, cenários configuráveis, limite de cálculo, sementes, dependências fixadas, gráficos, relatórios e manifesto. Workflow manual/por alteração, arquivo em branch de resultados, índice e diferenças de inventário. Catálogo de módulos e entrada Cabala pendente de corpus/formalização; documentação de extensão, separação de domínios e evolução do ativo. Prompt 2.11.0, catálogo pedagógico 1.4.0 e diário integrados.
+
+**Verificação:** consultar pesquisa/simulacoes/VERIFICACAO_LAB.md para o estado local/remoto efetivamente conferido. O registro não certifica eficácia científica ou retorno comercial.
+
+**Limites:** módulos atuais são de planejamento; arquitetura nova aparece no inventário, mas exige regras, implementação e testes para ter modelo. Não há calibração automática com dados reais, simulador da Cabala ou monitoramento de conversas. Dados individuais ficam fora deste laboratório público.
+
 ## 2.10.0 — 28/10/2026
 **Pedido:** registrar a conversa sobre dança, alternâncias, progressão, cadência textual e dimensão semântica como metodologias em desenvolvimento; criar diário de produção intelectual e banco de insights; acompanhar as turmas entre 2026 e 2027, com listas nominais privadas e relatórios úteis à revisão.
 

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "arquiteturas": [
+    {
+      "id": "cabala",
+      "nome": "Arquiteturas da Cabala a formalizar pelo autor",
+      "dominio": "simbolico_filosofico",
+      "versao": "0.0.0",
+      "status": "aguardando_fonte_e_formalizacao",
+      "fontes": [],
+      "origem": "Solicitação direta do Prof. André em 28/10/2026; o corpus e as regras não foram definidos nesta solicitação."
+    }
+  ]
+}

@@ -272,6 +272,42 @@
       "proxima_acao": "Escolher mecanismo e hipóteses concorrentes; confrontar parâmetros e previsões com dados adequados.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Escolha do primeiro recorte, código Monte Carlo, execução e documentação; parâmetros fictícios declarados."
+    },
+    {
+      "id": "DEC-20261028-003",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Laboratório versionado e progressão de arquiteturas em diferentes domínios",
+      "formulacao": "Executar simulações no GitHub sem chamadas a IA para o cálculo; acompanhar novas arquiteturas, avanços e resultados, incluindo arquiteturas simbólicas como Cabala.",
+      "natureza": "decisao_de_infraestrutura_e_metodo",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "implementado_conferir_verificacao_local_e_remota",
+      "evidencia": {
+        "tipo": "software_e_documentacao",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "ritmo-progressao",
+        "cadencia-textual"
+      ],
+      "producoes": [
+        "LAB-001",
+        "SIM-001",
+        "MES-001"
+      ],
+      "relacionados": [
+        "SIM-20261028-001"
+      ],
+      "proxima_acao": "Formalizar uma hipótese mecanística; definir corpus/regras para domínio simbólico quando o autor escolher; calibrar com evidência apropriada.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
     }
   ]
 }

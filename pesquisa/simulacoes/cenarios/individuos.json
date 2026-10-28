@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "id": "individuos",
+  "titulo": "Planejamento com participantes independentes",
+  "modelo": "individuos",
+  "estado": "ilustrativo_nao_calibrado",
+  "origem_parametros": "Escolhas explícitas para explorar o desenho; não estimativas das Arquiteturas.",
+  "unidades_por_grupo": [30, 60, 120],
+  "efeitos_pp": [-5, 0, 5, 10],
+  "perdas": [0, 0.2],
+  "desvios_turma": [0],
+  "estudantes_por_turma": 1,
+  "itens": 20,
+  "beta_inicial": [6, 4],
+  "ganho_comum_pp": 5,
+  "alfa": 0.05,
+  "alvo_planejamento": 0.8
+}

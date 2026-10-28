@@ -27,3 +27,6 @@ Este repositório é público. O diário pessoal aqui contém apenas as experiê
 
 ## Estado atual
 Registros e propostas metodológicas documentados. Ferramenta longitudinal local implementada; os ensaios usam dados fictícios. Nenhum nome ou resultado real de aluno foi fornecido nesta conversa. O professor relata início do projeto em turmas de 2026, sem identificar quais; continuidade em 2027 é uma intenção. Não inventar turmas, listas, aplicação ou resultados. A coleta online existente continua no estado registrado em `coleta/STATUS.json`; este diretório não a ativa nem migra aulas antigas.
+
+## Laboratório computacional
+Consultar [laboratório](simulacoes/LABORATORIO.md), [contrato de novos modelos](simulacoes/CONTRATO_MODELO.md) e [evolução](simulacoes/ROADMAP.md). O workflow acompanha as versões cadastradas, calcula cenários e arquiva resultados; não lê chats nem inventa modelos para arquiteturas novas.

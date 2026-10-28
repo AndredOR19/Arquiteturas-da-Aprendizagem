@@ -129,6 +129,19 @@
       "depende_de": [
         "PES-001"
       ]
+    },
+    {
+      "id": "LAB-001",
+      "tipo": "infraestrutura",
+      "titulo": "Laboratório computacional multiarquitetura",
+      "estado": "primeira_versao_implementada_conferir_verificacao",
+      "caminho": "pesquisa/simulacoes/LABORATORIO.md",
+      "responsavel": "Prof. André com apoio técnico do assistente",
+      "proximo_marco": "Conferir execução remota e ampliar modelos com regras e evidência, mantendo domínios separados.",
+      "criterio_conclusao": "Motor e arquivo remotos conferidos, modelos com fontes e testes; não implica simular todos os mecanismos.",
+      "depende_de": [
+        "SIM-001"
+      ]
     }
   ],
   "projetos_anteriores_documentados": [

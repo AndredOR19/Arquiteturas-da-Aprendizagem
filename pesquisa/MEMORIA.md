@@ -1,6 +1,6 @@
 # Memória de continuidade da pesquisa
 
-Atualização: 28/10/2026. Prompt de referência: 2.10.0.
+Atualização: 28/10/2026. Prompt de referência: 2.11.0.
 
 ## O que o autor está correlacionando
 - A preferência pessoal pela cadência “tá-tá, tá-tá, tatatata” e pela alternância dos lados origina uma pergunta pedagógica, não uma leitura diagnóstica da personalidade.
@@ -27,3 +27,6 @@ O autor quer que estes registros contribuam para a sustentação do mestrado. Co
 
 ## Simulações
 O autor solicitou explorar cenários com base científica. Primeira execução em pesquisa/simulacoes: planejamento por Monte Carlo, 40.000 estudos sintéticos e oito cenários, sem calibração e sem simular mecanismos cognitivos. Consultar premissas antes de interpretar números. Próxima etapa é delimitar uma hipótese e seus modelos concorrentes; nunca usar dados sintéticos como resultados com alunos.
+
+## Laboratório e progressão de todas as arquiteturas
+O autor determinou que o simulador acompanhe novas arquiteturas, resultados e avanços, inclusive Cabala. Há catálogo/inventário multiarquitetura, snapshots, diferença de fontes e arquivo de execuções. O motor 0.1.0 implementa planejamento individual e por turmas; os mecanismos das arquiteturas continuam aguardando formalização. Cabala tem domínio simbólico/filosófico separado e aguarda corpus/regras. Não atualizar parâmetros com suposta evidência criada pelo próprio simulador. Detalhes e estado remoto em pesquisa/simulacoes.

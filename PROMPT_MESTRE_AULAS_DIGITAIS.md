@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.10.0**  
+Versão vigente: **2.11.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -488,3 +488,19 @@ O acompanhamento longitudinal começa pela confirmação das listas e matrícula
 Manter a fila dos livros sobre dança, corpo/espaço na infância, coordenação de equipes no Operador Cognitivo e cadência textual. Os títulos são provisórios; não produzir livros completos por inferência nem confundir esboço com obra finalizada. Protocolo e dados devem permitir rever hipóteses, inclusive diante de ausência de benefício. A conexão não instala monitoramento de conversas, sincronização automática, implantação online ou análise estatística.
 
 Finalidade acadêmica expressa: os registros poderão compor documentação e base empírica do mestrado. Consultar pesquisa/MESTRADO.md e alinhar procedimentos com orientação/programa. Não declarar autorização, validade ou resultado significativo sem evidência.
+
+## 29. Laboratório computacional versionado
+O laboratório em pesquisa/simulacoes/LABORATORIO.md executa cenários sintéticos no GitHub Actions e localmente, com parâmetros explícitos, testes, gráficos, relatórios e manifesto de código/configuração/ambiente. O cálculo e os relatórios por regras não chamam modelos de IA; o uso do assistente na conversa continua consumindo contexto/tokens. Não prometer percentual de economia nem custo total sempre zero.
+
+Executar pelo workflow Laboratorio de simulacoes. Mudanças no motor, cenários, catálogo, prompt e banco de registros/produções acionam testes e os dois modelos de planejamento na branch main. Resultados são arquivados na branch resultados-simulacoes, com índice de execuções e diferenças de documentação. Não sobrescrever resultados anteriores nem publicar dados de participantes; o laboratório público usa somente dados sintéticos.
+
+Os modelos implementados planejam comparação entre grupos de participantes ou turmas. No segundo, a unidade de análise é a turma. Não afirmam mecanismo cognitivo, eficácia das arquiteturas ou calibração empírica. Sempre identificar efeito assumido, perdas, variabilidade, método de análise, incerteza Monte Carlo e limites. Falha de execução ou de arquivo permanece falha, com estado explícito.
+
+## 30. Progressão de qualquer arquitetura e separação de domínios
+Cada arquitetura nova deve receber ID, domínio, versão e fontes. O catálogo pedagógico é incorporado ao inventário automaticamente após registro no GitHub; arquiteturas externas são cadastradas em pesquisa/simulacoes/arquiteturas_externas.json. Cada execução conserva os hashes das fontes e o estado da modelagem. Uma entrada nova sem modelo fica aguardando formalização; o registro não cria algoritmo, coeficientes ou resultados por inferência.
+
+Para ampliar o simulador, cumprir CONTRATO_MODELO.md: delimitar pergunta, regras, variáveis, parâmetros e proveniência; implementar módulo/roteamento e testes; registrar cobertura. Distinguir documentação, formalização, implementação testada, calibração e validação no recorte. Usar resultados anteriores para comparação e novas versões justificadas; resultados sintéticos não substituem observações nem calibram o modelo com evidência empírica. A integração de dados reais permanece pendente e exige preparação adequada em ambiente privado.
+
+A solicitação do autor inclui arquiteturas simbólicas e filosóficas, como a Cabala. Manter esse domínio separado do pedagógico/empírico. A entrada Cabala aguarda corpus e regras explícitas; não anunciar simulador cabalístico implementado. Análise formal pode examinar consistência e consequências de regras, sem converter isso em prova metafísica, diagnóstico, mecanismo cerebral ou evidência de aprendizagem. Essa inclusão é restrita à documentação de pesquisa, sem introduzir esses temas em aulas por padrão.
+
+O ativo em desenvolvimento reúne software reutilizável, modelos documentados, rastreabilidade, instrumentos e evidências verificáveis de uso. Não estimar valor comercial, exclusividade ou receita sem base. Manter autoria e contribuições, planejar validação e registrar limites. A automação só absorve o que foi cadastrado e salvo; não lê automaticamente todos os chats nem aprende novas regras sozinha.

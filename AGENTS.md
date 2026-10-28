@@ -71,3 +71,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Aplicar seções 27–28 do prompt: progressão coordenada e cadência textual são propostas em desenvolvimento. Não afirmar alternância neural, benefício universal ou transferência demonstrada.
 - Seguir seção 13.2 e pesquisa/longitudinal/README.md: aluno estável, matrículas por ano/série/turma, listas nominais privadas, ausências diferentes de zero e promoção somente confirmada. Nunca publicar dados individuais ou códigos vinculáveis.
 - Validar catálogo e banco documental; executar os ensaios longitudinais ao alterar esquema ou ferramenta. Registrar o estado real da integração com a coleta, sem ativação implícita.
+
+## Laboratório e absorção de novas arquiteturas
+- Cumprir seções 29–30 do prompt e pesquisa/simulacoes/CONTRATO_MODELO.md. Atualizar catálogo, fontes e domínio ao registrar arquitetura nova. Não deduzir parâmetros ou promover simulações a validação.
+- Workflow executa cálculo e relatórios sem IA, com arquivo na branch resultados-simulacoes. Conferir teste remoto e arquivo real antes de afirmar execução no GitHub.
+- Domínios simbólicos/filosóficos, incluindo Cabala, permanecem separados de alegações empíricas. Entrada pendente não é modelo implementado.

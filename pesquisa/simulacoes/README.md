@@ -1,3 +1,7 @@
+# Laboratório reutilizável
+
+Para executar pelo GitHub e acompanhar a evolução, começar por [LABORATORIO.md](LABORATORIO.md). Os arquivos abaixo preservam a primeira simulação como marco histórico; o motor reutilizável é laboratorio.py.
+
 # Simulações para desenvolver e examinar as Arquiteturas
 
 Primeira execução: 28/10/2026. Estado: experimento computacional ilustrativo, sem dados reais, sem calibração das arquiteturas e sem validação de eficácia. Código e análise preparados pelo assistente a pedido do Prof. André.

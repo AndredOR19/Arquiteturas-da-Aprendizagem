@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "versao": "0.1.0",
+  "modulos": [
+    {
+      "id": "planejamento-individual",
+      "cenario": "individuos",
+      "implementado": true,
+      "tipo": "planejamento_estatistico",
+      "calibracao_empirica": false,
+      "valida_mecanismo_da_arquitetura": false
+    },
+    {
+      "id": "planejamento-turmas",
+      "cenario": "turmas",
+      "implementado": true,
+      "tipo": "planejamento_estatistico",
+      "calibracao_empirica": false,
+      "valida_mecanismo_da_arquitetura": false
+    }
+  ],
+  "vinculos_mecanisticos": [],
+  "politica": "Novas arquiteturas entram no inventário automaticamente após cadastro. Regras, parâmetros e módulos novos exigem formalização, implementação e testes. Resultados sintéticos não tornam um modelo calibrado ou empiricamente validado."
+}
