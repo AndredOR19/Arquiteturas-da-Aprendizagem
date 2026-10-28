@@ -80,3 +80,6 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 ## Projeto institucional e Sofia Cog OS
 - Cumprir seção 31 do prompt e consultar pesquisa/projeto. Sofia nesta frente significa arquitetura de software e dados; recuperar fonte técnica e conferir o estado, sem presumir adaptação escolar ou implantação.
 - Diferenciar mestrado delimitado e expansão em rede; admissão, bolsa, custeio e fomento são processos distintos. Mensagem preparada não é enviada, afinidade não é vaga e código lido não é produção auditada.
+
+## Fontes e layout
+- Cumprir seção 33: botão visível e opções explicadas, perfis reversíveis, fonte real/licenciada e fallback informado. Não exigir diagnóstico nem prometer tratamento. Conferir empacotamento, teclado/celular e preservação das respostas.

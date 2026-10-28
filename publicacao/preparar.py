@@ -2,6 +2,7 @@
 """Empacota apenas materiais discentes cadastrados para GitHub Pages."""
 import html
 import json
+import os
 import shutil
 import subprocess
 import tempfile
@@ -23,6 +24,10 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
+    reading = OUT / "_recursos" / "leitura"
+    reading.mkdir(parents=True, exist_ok=True)
+    for name in ["painel.js", "OpenDyslexic-Regular.woff2", "OFL.txt"]:
+        shutil.copyfile(ROOT / "publicacao" / "leitura" / name, reading / name)
     links = []
     destinations = set()
     for item in items:
@@ -53,6 +58,17 @@ def main():
                     target = dest / relative
                     target.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copyfile(p, target)
+            for page in dest.rglob('*.html'):
+                text = page.read_text(encoding='utf-8')
+                relative = os.path.relpath(reading / 'painel.js', page.parent).replace(os.sep, '/')
+                tag = '<script defer src="' + relative + '?v=1.0.0" data-reading-panel></script>'
+                if 'data-reading-panel' not in text:
+                    if '</body>' in text.lower():
+                        index = text.lower().rfind('</body>')
+                        text = text[:index] + tag + text[index:]
+                    else:
+                        text += tag
+                    page.write_text(text, encoding='utf-8')
         elif item['tipo'] == 'slides':
             if source.parts[len(ROOT.parts)] != 'projetos':
                 raise ValueError('Slides devem vir de projetos/.')
@@ -74,4 +90,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 

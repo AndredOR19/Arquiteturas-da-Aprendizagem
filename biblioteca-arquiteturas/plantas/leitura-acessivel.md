@@ -59,3 +59,7 @@ Fontes consultadas em 28/10/2026:
 - Dyslexie font does not benefit reading in children with or without dyslexia. Resumo recuperado: https://pubmed.ncbi.nlm.nih.gov/29204931/ . Os experimentos não demonstraram vantagem de velocidade ou precisão frente às fontes comparadas. A abertura direta dos registros de pesquisa encontrou verificação do navegador; não declarar leitura integral desses artigos.
 
 Esses resultados justificam não prometer superioridade universal de fontes especializadas. A proposta pedagógica é permitir acesso e escolha, sem atribuir efeito clínico ou eficácia cognitiva garantida.
+
+
+## Aplicação compartilhada — 28/10/2026
+O botão “Fontes e layout” e os perfis explicados estão implementados em publicacao/leitura e incorporados pelo empacotamento dos HTMLs do catálogo. OpenDyslexic local acompanha licença e aviso de carregamento/fallback. Os perfis são ajustáveis para todos, com menção informativa a dislexia/TDAH, sem diagnóstico ou promessa universal. Fonte/tema/layout não substituem mediação pedagógica. Conferir a execução de publicação para o estado efetivamente testado.

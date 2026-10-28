@@ -1,6 +1,6 @@
 # Memória de continuidade da pesquisa
 
-Atualização: 28/10/2026. Prompt de referência: 2.13.0.
+Atualização: 28/10/2026. Prompt de referência: 2.14.0.
 
 ## O que o autor está correlacionando
 - A preferência pessoal pela cadência “tá-tá, tá-tá, tatatata” e pela alternância dos lados origina uma pergunta pedagógica, não uma leitura diagnóstica da personalidade.
@@ -45,3 +45,6 @@ Texto recebido sobre acesso simbólico, processos implícitos e eventual hipnose
 
 ## Devolutiva de outra IA e auditoria computacional
 Consultar revisoes/segunda-ia-2026-10-28/README.md. Foram efetivamente reproduzidos 14 testes e a grade de 24 cenários/120 mil réplicas do laboratório existente. O script adicional recebido executou 54 cenários/90 mil réplicas; não confundir essas contagens. Ele atribui efeitos iguais a B/C e contabiliza apenas o primeiro contraste contra controle, sem testar contribuição adicional da preparação atencional. Código e resultados preservados, sem substituir motor ou formalizar construtos por inferência. Parecer completo e bibliografia ainda não recebidos.
+
+## Fontes e layout explicados
+Decisão de 28/10/2026: incluir botão em HTMLs, com perfis experimentáveis para leitura/dislexia/atenção e explicações por controle, fonte real/licenciada, restauração e persistência por escolha. Painel compartilhado em publicacao/leitura; não afirmar modificação de Gamma ou integração de todos os relatórios.

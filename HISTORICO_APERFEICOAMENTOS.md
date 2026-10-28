@@ -1,12 +1,13 @@
-# Correção de entrega de relatórios — 2.13.1 — 28/10/2026
-
-Pedido: botões não estavam abrindo o relatório no e-mail. Encontrados artefatos sem botão e implementações apenas mailto com URLs longas. Corrigidos os cinco artefatos HTML cadastrados no catálogo: História 192 de 21/10, História 231 e Ensino Religioso 192 de 27/10, Aprender a aprender e Conectar e investigar. Acrescentadas opções Gmail e aplicativo, prévia integral, cópia com abertura direta da aba e TXT para anexo manual; destinatário validado, sem corte de texto e sem afirmar envio. Atualizadas referências de cache dos scripts. Bloqueio do questionário em Conectar e investigar preservado, sem migração dos questionários dos artefatos antigos.
-
-Verificação: sintaxe dos quatro JS e dos scripts HTML; teste de DOM simulado para texto longo com acentos, quebras e caracteres reservados, integridade dos corpos Gmail/mailto, alternativa sem URL longa e destinatário inválido. Nenhum e-mail real foi enviado pelo assistente. Limites: configuração do dispositivo, bloqueio de abas, login no Gmail e limites do serviço continuam exigindo teste no aparelho e conferência pelo estudante. Não foi ativada coleta online.
-
 # Histórico de aperfeiçoamentos
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
+
+## 2.14.0 — 28/10/2026
+**Pedido:** botão de fontes/layout para experimentar recursos relacionados a leitura, dislexia e TDAH, com explicação da função de cada um.
+
+**Produzido:** painel compartilhado para HTMLs do catálogo, perfis reversíveis, controles explicados, OpenDyslexic local com licença OFL, persistência por escolha e adaptador do laboratório. Testes no workflow antes do deploy. Slides e Gamma externos não alterados; não se presume integração dos novos campos a todos os relatórios.
+
+**Verificação:** consultar publicacao/leitura/README.md e execução remota correspondente. Não certifica conformidade integral ou eficácia clínica.
 
 ## 2.13.0 — 28/10/2026
 **Pedido:** README da proposta de mestrado abrangendo metodologia, DAIA, bancos vetoriais e adaptação da Sofia; preparar Supabase antes da implantação e Vercel na última etapa.

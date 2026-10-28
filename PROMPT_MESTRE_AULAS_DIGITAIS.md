@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.13.1**  
+Versão vigente: **2.14.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -282,8 +282,6 @@ O relatório deve conter escola, turma, componente, data, título, resumo, habil
 
 A diretriz é preencher o corpo do e-mail com o **relatório completo**, não somente nota ou resumo. Oferecer prévia, cópia e download. Se houver limite de tamanho, avisar claramente e orientar cópia ou anexo manual; nunca truncar silenciosamente nem apresentar uma mensagem de instruções como se já contivesse o relatório completo.
 
-Oferecer escolha explícita entre Gmail no navegador e aplicativo de e-mail (mailto), com prévia integral selecionável e alternativa “Copiar relatório e abrir Gmail” para mensagens longas ou aparelhos sem aplicativo configurado. Abrir a nova aba diretamente no clique, antes de operações assíncronas. Validar destinatário, preservar o texto integral e manter download TXT para anexo manual. Preservar bloqueios de conclusão existentes; não contorná-los para abrir o e-mail.
-
 Implementar a abertura por link mailto: com destinatário, assunto identificando aula/turma e corpo devidamente codificados. Informar junto ao botão: “Abre seu aplicativo de e-mail com o relatório preenchido. Confira e clique em Enviar.” Abrir o aplicativo não comprova envio: não mostrar “Relatório enviado” nem registrar entrega confirmada apenas pelo clique. Não prometer anexo automático.
 
 Registrar apenas eventos pertinentes da própria página, com informação clara: abertura, retorno, visibilidade e recarregamento quando implementado. Não monitorar outros sites. Mudança de visibilidade não comprova atenção ou desatenção. Diferenciar ausência de registro de zero; não inventar tempos ou eventos.
@@ -520,3 +518,10 @@ Priorizar acompanhamento longitudinal e coleta íntegra conforme seções 13.2 e
 Consultar pesquisa/projeto/README.md para a apresentação integrada da metodologia e o estado técnico. Decisão do autor: Supabase e bancos vetoriais primeiro, adaptação/implantação da Sofia em seguida, Vercel somente na última etapa. Conferir o destino, schema, políticas, migrações e dados existentes antes de alterar o banco. O anúncio de futuro acesso não equivale a acesso configurado. Preservar operação atual e preparar mudanças revisáveis com dados fictícios.
 
 Distinguir embeddings documentais, vetores autorais por eixos e o conceito de vetores de revelação. Recuperar as definições e os bancos efetivamente existentes, sem equiparar conceitos nem importar corpus completo por padrão. DAIA permanece denominação a identificar na fonte; não expandir a sigla por inferência. A proposta de estudo não fixa a arquitetura principal sem decisão do autor/orientação.
+
+## 33. Botão de fontes e layout com explicações
+Decisão do Prof. André em 28/10/2026: incluir botão visível “Fontes e layout” nos artefatos HTML, com opções para experimentar leitura e organização visual, inclusive por pessoas com dislexia/TDAH. Explicar em linguagem do estudante o que muda com cada opção: fonte, tamanho, entrelinha, letras/palavras, largura, foco e movimento. Oferecer perfis ajustáveis e restauração sem apagar respostas.
+
+O painel compartilhado em publicacao/leitura é incorporado pelo empacotamento aos materiais HTML cadastrados; conferir sua execução no deploy. OpenDyslexic deve acompanhar licença e fonte real, com aviso de carregamento/fallback. Não usar o nome de fonte sem carregá-la. Não exigir diagnóstico nem tratar seleção de perfil como evidência clínica, tratamento ou benefício universal. Imagens e explicações necessárias permanecem disponíveis no modo de foco. Lembrar preferências somente por escolha explícita; testar teclado, celular, ajustes e preservação dos registros.
+
+O painel não modifica apresentações externas Gamma. Distinguir publicação compartilhada de integração aos relatórios: Conectar e investigar usa adaptador de preferências; demais relatórios exigem integração própria antes de afirmar que esses campos são enviados.
