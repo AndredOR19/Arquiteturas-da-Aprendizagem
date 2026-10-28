@@ -3,7 +3,7 @@
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.5.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.6.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
 - [Base curricular: organização e incorporação](base-curricular/README.md)
@@ -16,6 +16,11 @@ Preservar o modelo visual aprovado de 19/10, com texto explicativo ampliado, ref
 A partir de 27/10/2026, novas produções e revisões devem seguir a seção 6.1 do prompt: relações perceptíveis entre imagem e linguagem, referências estáveis, sinais redundantes, interação acessível, retirada gradual de pistas e aplicação em novo contexto. Preservar D/R/E/L e adaptar a disposição ao conteúdo. Registro documental não altera automaticamente aulas anteriores.
 
 [Esboço do novo livro — Arquitetura das Associações](livros/arquitetura-das-associacoes/ESBOCO.md), título provisório, de André de Oliveira Rodrigues. Inclui proposta, 14 capítulos, instrumentos e roteiro para contribuições do autor.
+
+## Forma e conteúdo — atualização 2.6.0
+A seção 6.2 do prompt institui a **Arquitetura de Integração Estético-Semântica (AIES)**: a linguagem do objeto orienta composição, imagens e ações de aprendizagem. Sketchnotes são uma possibilidade; cada tema exige decisões fundamentadas. Preservar a estrutura funcional aprovada, acessibilidade e códigos D/R/E/L. Exemplo de projeto: aula sobre Basquiat com relações entre palavras, figuras e símbolos integradas à explicação e à exploração.
+
+[Novo projeto editorial — Quando o conteúdo desenha a aula](livros/integracao-estetico-semantica/ESBOCO.md), de André de Oliveira Rodrigues: fundamentos, 14 capítulos propostos e abertura preliminar. Documento em desenvolvimento, distinto do livro Arquitetura das Associações. Atualização documental não redesenha aulas existentes.
 
 ## Modelos existentes
 As capturas MHTML de 19/10 e 15–16/10 permanecem como referências de interface e evolução. Capturas podem não conter todas as interações do aplicativo; o prompt vigente define os requisitos atuais.
