@@ -1,0 +1,41 @@
+{
+  "execucao": "40701331247",
+  "tentativa": "1",
+  "cenario": "individuos",
+  "commit_fonte": "cb07d00c4e7c214675a7678899581c79a7571f71",
+  "pasta": "execucoes/40701331247-1-individuos",
+  "experimento": "fcfcc9638eaeb31a7999b7a0771b58a1a9183daa4c8bb661fef10459a7a31b1c",
+  "diferencas": {
+    "novas": [
+      "aee",
+      "aies",
+      "arn",
+      "arte",
+      "asa",
+      "associacoes",
+      "autoaprendizagem",
+      "avaliacao-experiencia",
+      "cabala",
+      "cadencia-textual",
+      "convivencia-cientifica",
+      "epc",
+      "leitura-acessivel",
+      "maci",
+      "matematica",
+      "ritmo-progressao",
+      "sintese-sistemica-semantica",
+      "sss",
+      "svs"
+    ],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "biblioteca-arquiteturas/catalogo.json",
+      "pesquisa/producoes.json",
+      "pesquisa/registros.json",
+      "pesquisa/simulacoes/arquiteturas_externas.json",
+      "pesquisa/simulacoes/catalogo_modelos.json"
+    ]
+  }
+}
