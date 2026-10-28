@@ -308,6 +308,68 @@
       "proxima_acao": "Formalizar uma hipótese mecanística; definir corpus/regras para domínio simbólico quando o autor escolher; calibrar com evidência apropriada.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
+    },
+    {
+      "id": "DEC-20261028-004",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Projeto institucional e rede de escolas",
+      "formulacao": "Transformar as Arquiteturas em projeto de pesquisa, prospectar universidades próximas e internacionais, bolsas e recursos, e ampliar futuramente a uma rede de escolas.",
+      "natureza": "decisao_de_projeto",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "formulacao_e_decisao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [
+        "RED-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-003"
+      ],
+      "proxima_acao": "Discutir recorte e cooperação com instituição, verificar seleção e dimensionar piloto.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
+    },
+    {
+      "id": "DEC-20261028-005",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Sofia Cog OS como arquitetura de software e dados",
+      "formulacao": "Ao mencionar Sofia, o autor se refere à programação e à estrutura de tratamento de dados da Sofia Cog OS e do Operador Cognitivo.",
+      "natureza": "decisao_de_projeto",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "documentado",
+      "evidencia": {
+        "tipo": "formulacao_e_decisao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [
+        "SOF-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-003"
+      ],
+      "proxima_acao": "Inventariar e avaliar módulos reutilizáveis para ambiente educacional separado.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
     }
   ]
 }

@@ -2,6 +2,13 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.12.0 — 28/10/2026
+**Pedido:** ampliar as Arquiteturas para projeto de pesquisa, candidatura/cooperação acadêmica, levantamento de contatos e financiamento e rede de escolas. O autor esclareceu que Sofia é a arquitetura de programação e dados da Sofia Cog OS e do Operador Cognitivo.
+
+**Produzido:** projeto inicial com pergunta e método propostos, plano de 24 meses, expansão, recursos a dimensionar, mapa regional/internacional, valores e condições consultados e apresentações PT/EN. Registro técnico da Sofia e roteiro de adaptação. Atualização de prompt, memória, diário, banco documental e catálogo de compatibilidade.
+
+**Limites:** levantamento e proposta, sem envio de mensagens ou candidatura, convênio, bolsa, auditoria completa, implantação educacional da Sofia ou dados reais. A leitura de código não certifica produção ou eficácia; os contatos e editais exigem reconferência antes da submissão.
+
 ## 2.11.0 — 28/10/2026
 **Pedido:** criar laboratório de simulações no GitHub, transferindo cálculo e tarefas repetitivas para código sem chamadas a IA; preservar evolução e resultados e incorporar o registro de qualquer arquitetura, inclusive simbólica/filosófica.
 

@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.11.0**  
+Versão vigente: **2.12.0**  
 Atualização: **28/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -504,3 +504,12 @@ Para ampliar o simulador, cumprir CONTRATO_MODELO.md: delimitar pergunta, regras
 A solicitação do autor inclui arquiteturas simbólicas e filosóficas, como a Cabala. Manter esse domínio separado do pedagógico/empírico. A entrada Cabala aguarda corpus e regras explícitas; não anunciar simulador cabalístico implementado. Análise formal pode examinar consistência e consequências de regras, sem converter isso em prova metafísica, diagnóstico, mecanismo cerebral ou evidência de aprendizagem. Essa inclusão é restrita à documentação de pesquisa, sem introduzir esses temas em aulas por padrão.
 
 O ativo em desenvolvimento reúne software reutilizável, modelos documentados, rastreabilidade, instrumentos e evidências verificáveis de uso. Não estimar valor comercial, exclusividade ou receita sem base. Manter autoria e contribuições, planejar validação e registrar limites. A automação só absorve o que foi cadastrado e salvo; não lê automaticamente todos os chats nem aprende novas regras sozinha.
+
+## 31. Projeto institucional, rede de escolas e Sofia Cog OS
+Decisão de 28/10/2026: desenvolver o programa de pesquisa e prospecção em pesquisa/projeto/PROJETO.md, com recorte inicial para mestrado e expansão futura em rede de escolas. Diferenciar instituição contatada, parceria pactuada, autorização de pesquisa, aplicação e resultado. Não declarar convênios, aprovação acadêmica, eficácia, bolsas ou maturidade TRL sem documentação.
+
+Quando o professor mencionar Sofia/Sophia nesta frente, entender a arquitetura de software e tratamento de dados da Sofia Cog OS e do Operador Cognitivo. Consultar pesquisa/projeto/SOFIA_COGOS.md; buscar a especificação técnica pertinente e conferir código, versões e implantação. A intenção de reutilização inclui módulos de interface, persistência, recuperação documental, processamento e governança. Não presumir que todos estão adaptados ou implantados para escolas.
+
+Planejar ambiente educacional separado, fontes pedagógicas aprovadas, papéis e isolamento entre instituições, testes com dados fictícios, limites de custo e revisão docente. Não copiar material reservado para o Git público. Reuso de código não valida regras ou medidas cognitivas; documentar cada regra educacional. IA generativa/embeddings podem ter consumo de tokens e infraestrutura, mesmo que o laboratório de cálculo não chame modelos.
+
+Priorizar acompanhamento longitudinal e coleta íntegra conforme seções 13.2 e 26–30. Expansão depende de suporte, formação, recursos e pactuação com escolas/mantenedora. Admissão, bolsa pessoal, mensalidade e fomento ao laboratório são processos distintos; conferir fontes oficiais e datas antes de submeter. Preparar aproximações institucionais sem considerar mensagens enviadas por terem sido redigidas.

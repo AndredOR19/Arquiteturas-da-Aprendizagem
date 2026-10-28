@@ -142,6 +142,33 @@
       "depende_de": [
         "SIM-001"
       ]
+    },
+    {
+      "id": "RED-001",
+      "tipo": "pesquisa",
+      "titulo": "Projeto institucional e rede de escolas",
+      "estado": "projeto_inicial_e_prospeccao_documentados",
+      "caminho": "pesquisa/projeto/PROJETO.md",
+      "responsavel": "Prof. André e futura instituição parceira",
+      "proximo_marco": "Conferir rota acadêmica, discutir protocolo e recursos.",
+      "criterio_conclusao": "Projeto institucional pactuado e piloto autorizado com resultados documentados; não implica eficácia positiva.",
+      "depende_de": [
+        "MES-001",
+        "LAB-001"
+      ]
+    },
+    {
+      "id": "SOF-001",
+      "tipo": "infraestrutura",
+      "titulo": "Adaptação educacional de componentes da Sofia Cog OS",
+      "estado": "especificacao_e_amostra_de_codigo_consultadas_adaptacao_pendente",
+      "caminho": "pesquisa/projeto/SOFIA_COGOS.md",
+      "responsavel": "Prof. André e equipe técnica a constituir",
+      "proximo_marco": "Inventário, licenças, schema, corpus, permissões e plano de testes.",
+      "criterio_conclusao": "Módulos adaptados e testados com isolamento e custo documentados antes de aplicação autorizada.",
+      "depende_de": [
+        "RED-001"
+      ]
     }
   ],
   "projetos_anteriores_documentados": [

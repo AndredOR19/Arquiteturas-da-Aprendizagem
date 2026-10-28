@@ -76,3 +76,7 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Cumprir seções 29–30 do prompt e pesquisa/simulacoes/CONTRATO_MODELO.md. Atualizar catálogo, fontes e domínio ao registrar arquitetura nova. Não deduzir parâmetros ou promover simulações a validação.
 - Workflow executa cálculo e relatórios sem IA, com arquivo na branch resultados-simulacoes. Conferir teste remoto e arquivo real antes de afirmar execução no GitHub.
 - Domínios simbólicos/filosóficos, incluindo Cabala, permanecem separados de alegações empíricas. Entrada pendente não é modelo implementado.
+
+## Projeto institucional e Sofia Cog OS
+- Cumprir seção 31 do prompt e consultar pesquisa/projeto. Sofia nesta frente significa arquitetura de software e dados; recuperar fonte técnica e conferir o estado, sem presumir adaptação escolar ou implantação.
+- Diferenciar mestrado delimitado e expansão em rede; admissão, bolsa, custeio e fomento são processos distintos. Mensagem preparada não é enviada, afinidade não é vaga e código lido não é produção auditada.

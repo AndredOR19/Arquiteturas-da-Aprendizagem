@@ -1,6 +1,6 @@
 # Memória de continuidade da pesquisa
 
-Atualização: 28/10/2026. Prompt de referência: 2.11.0.
+Atualização: 28/10/2026. Prompt de referência: 2.12.0.
 
 ## O que o autor está correlacionando
 - A preferência pessoal pela cadência “tá-tá, tá-tá, tatatata” e pela alternância dos lados origina uma pergunta pedagógica, não uma leitura diagnóstica da personalidade.
@@ -30,3 +30,10 @@ O autor solicitou explorar cenários com base científica. Primeira execução e
 
 ## Laboratório e progressão de todas as arquiteturas
 O autor determinou que o simulador acompanhe novas arquiteturas, resultados e avanços, inclusive Cabala. Há catálogo/inventário multiarquitetura, snapshots, diferença de fontes e arquivo de execuções. O motor 0.1.0 implementa planejamento individual e por turmas; os mecanismos das arquiteturas continuam aguardando formalização. Cabala tem domínio simbólico/filosófico separado e aguarda corpus/regras. Não atualizar parâmetros com suposta evidência criada pelo próprio simulador. Detalhes e estado remoto em pesquisa/simulacoes.
+
+## Projeto institucional e definição técnica da Sofia
+O autor solicitou projeto de pesquisa e prospecção de instituições próximas a Vacaria e internacionais, incluindo presença, bolsas e custos. A rede de escolas é expansão do programa; o mestrado começa delimitado. Ver projeto/PROJETO.md para proposta e contatos consultados em 28/10/2026. Mensagens preparadas não foram enviadas; não há parceria nem bolsa confirmada.
+
+Esclarecimento expresso: Sofia/Sophia significa a arquitetura de programação e dados da Sofia Cog OS e do Operador Cognitivo. A especificação técnica pertinente foi localizada e uma amostra de código consultada. Ver projeto/SOFIA_COGOS.md; adaptação educacional ainda por desenvolver e testar, sem auditar produção ou copiar conteúdo privado para este Git. Não repetir a confusão entre objeto técnico e outros materiais do acervo do autor.
+
+Análise de viabilidade recebida e considerada em projeto/VIABILIDADE.md: priorizar piloto e procurar orientação antes da coleta; não tratar o parecer como auditoria independente.
