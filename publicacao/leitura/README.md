@@ -10,3 +10,6 @@ OpenDyslexic Regular: https://github.com/antijingoist/opendyslexic — revisão 
 Conectar e investigar utiliza adaptador para seus ajustes nativos: mudanças aparecem nas preferências do relatório. Nos demais materiais, os controles são aplicados pela camada compartilhada; não se declara migração automática dos respectivos esquemas de relatório.
 
 Referências de orientação: W3C/WAI, Text Spacing (https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html) e Visual Presentation (https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation). A presença do painel não certifica conformidade integral com WCAG.
+
+## Correção 1.0.1
+Botão “Aa · Dislexia / TDAH”, com atalhos explícitos por nome. Cada um aplica fonte e organização juntas; não exige diagnóstico e não grava o rótulo escolhido, apenas preferências. Todos podem utilizar e ajustar.

@@ -61,7 +61,7 @@ def main():
             for page in dest.rglob('*.html'):
                 text = page.read_text(encoding='utf-8')
                 relative = os.path.relpath(reading / 'painel.js', page.parent).replace(os.sep, '/')
-                tag = '<script defer src="' + relative + '?v=1.0.0" data-reading-panel></script>'
+                tag = '<script defer src="' + relative + '?v=1.0.1" data-reading-panel></script>'
                 if 'data-reading-panel' not in text:
                     if '</body>' in text.lower():
                         index = text.lower().rfind('</body>')

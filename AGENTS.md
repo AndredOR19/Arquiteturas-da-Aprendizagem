@@ -13,7 +13,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 - Ler biblioteca-arquiteturas/PROTOCOLO_IA.md e catalogo.json; conferir compatibilidade com o prompt, núcleo transversal, dependências e ramo disciplinar.
 - Preencher registro de composição com decisões observáveis; outra IA deve conseguir executar sem presumir histórico de conversa.
 - Respeitar estado das plantas e pendências. AEE atual é Exposição Explicativa; manter filiação de variantes editoriais.
-- Aplicar preferências de leitura: fontes reais, tamanho e espaçamento ajustáveis, apresentação reversível e sem rótulos diagnósticos. Não inferir dislexia/TDAH ou prometer benefício universal de fontes.
+- Aplicar preferências de leitura: fontes reais, tamanho e espaçamento ajustáveis, apresentação reversível e sem classificar ou inferir diagnósticos; oferecer atalhos opcionais identificados “Dislexia” e “TDAH”, conforme pedido do professor. Não inferir dislexia/TDAH ou prometer benefício universal de fontes.
 - Atualizar catálogo e validar ligações/dependências ao alterar plantas. Distinguir documentação, implementação e aplicação.
 
 ## Ao incorporar um aperfeiçoamento

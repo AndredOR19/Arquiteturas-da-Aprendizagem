@@ -2,6 +2,9 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.14.1 — 28/10/2026
+**Correção solicitada:** permitir reconhecer o apoio por “Dislexia” e “TDAH”, sem conhecer fontes. Botão renomeado e perfis completos de fonte/layout aplicados em um clique, reversíveis. Seleção não identifica diagnóstico; armazenamento conserva apenas ajustes.
+
 ## 2.14.0 — 28/10/2026
 **Pedido:** botão de fontes/layout para experimentar recursos relacionados a leitura, dislexia e TDAH, com explicação da função de cada um.
 
