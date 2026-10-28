@@ -26,3 +26,11 @@ Layout responsivo implementado, mas sem teste em Chromebook/celular físico nest
 - IDs/respostas e chave local mantidos.
 - Teste de navegador no workflow antes do deploy: ferramentas/conferir-conectar.cjs; resultado e imagens remotos ainda a conferir na execução correspondente.
 - Sem aplicação escolar, hipnose ou integração de coleta online.
+
+## Publicação da revisão conferida
+- Workflow Publicar aulas no GitHub Pages: execução 40734507407 concluída com sucesso, commit 9905949fe6d2e633c59fdb3a3b9dc576bb028643.
+- Teste Playwright remoto: 28 percursos, erro bloqueando avanço, restauração de aparência preservando tentativa, avaliação integral, revalidação após recarga/invalidação e relatório completo passaram; sem erros JavaScript.
+- Celular a 390 px e ajustes ampliados de espaçamento sem transbordamento horizontal nos estados testados.
+- Imagens de entrada, atividade, relatório, celular e espaçamento foram inspecionadas. Não equivale a teste em aparelho físico ou certificação integral de acessibilidade.
+- Primeiro ensaio de navegador identificou botão de ajustes ligado ao painel antigo; ligação corrigida e nova execução aprovada. Referências dos recursos renovadas para evitar cache anterior.
+- Nenhum e-mail enviado nos ensaios.
