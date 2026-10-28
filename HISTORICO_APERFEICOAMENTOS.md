@@ -2,6 +2,19 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.6.0 — 28/10/2026
+**Pedido:** adotar arquitetura visual pedagógica a partir da referência ilustrada da Teachy e explicitar que a linguagem do conteúdo participa da forma da aula; exemplo do professor: Basquiat. Iniciar outro projeto de livro.
+
+**Regra anterior e nova regra:** âncoras, fundos temáticos e associações passam a contar com protocolo de integração estético-semântica (AIES), seção 6.2: objetivo e fontes → características formais → composição e ação → mediação → transferência → revisão. Aplicação transversal a HTML, slides e impressos, além da capa. Sketchnote é uma possibilidade, sem formato único obrigatório.
+
+**Compatibilidade:** preservados AEE, MACI, ARN, SVS, EPC, SSS/ASA, associações (6.1), estrutura funcional aprovada de 19/10, D/R/E/L, acessibilidade, mínimo de 26 percursos e relatório. Separada paleta expressiva dos códigos informativos. Tarefas artísticas abertas dependem de critérios e mediação; itens com progressão por acerto devem ter relações verificáveis.
+
+**Arquivos:** prompt (versão, 6.2, 16, 18, 22 e 24), AGENTS.md, README.md, este histórico e livros/integracao-estetico-semantica/ESBOCO.md. Novo projeto: Quando o conteúdo desenha a aula, com fundamentos, 14 capítulos e abertura preliminar para revisão autoral.
+
+**Verificação:** leitura do prompt e das orientações; revisão de compatibilidade e preservação das seções anteriores; leitura das fontes MoMA e PAMM para o exemplo Basquiat. Conferência do conteúdo salvo. Mudança documental, sem alteração de código executável.
+
+**Limites:** motor, aulas publicadas e apresentações anteriores não redesenhados. Livro em projeto, não manuscrito completo; bibliografia pedagógica a desenvolver. Arquitetura autoral sem alegação de validação empírica.
+
 ## 2.5.0 — 27/10/2026
 **Pedido:** incorporar ao Prompt Mestre o aperfeiçoamento sobre associações entre imagens, linguagem, disposição espacial e interação; iniciar esboço de novo livro.
 
