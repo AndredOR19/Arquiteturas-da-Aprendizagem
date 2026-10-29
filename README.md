@@ -7,7 +7,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.16.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.18.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -105,3 +105,8 @@ A [proposta de governança da rede](pesquisa/projeto/GOVERNANCA_COLABORACAO.md) 
 
 ## Lettering Digital escolar/pedagógico — 2.16.0
 Preferência visual registrada e aplicada inicialmente às aulas de História 192 de 21/10 e 29/10: caderno ilustrado, livro central, títulos manuscritos com fonte local licenciada, faixas e conexões. Botão Leitura simples reversível e prioridade dos apoios de leitura. [Recursos](publicacao/lettering/README.md) e [conferência](aulas/VERIFICACAO_LETTERING_192.md).
+
+## Estação coordenada de livros e aulas — 2.18.0
+
+[Produção com n8n e GitHub](automacoes/n8n/producao/README.md): fluxo preparado para pedir materiais cadastrados ao motor privado, acompanhar a execução e entregar provas com revisão técnica e manifestos. [Executar pelo GitHub](https://github.com/AndredOR19/Biblioteca-de-Diagramacao/actions/workflows/estacao-automatica.yml). Inicialmente, capítulo demonstrativo e aula existente. n8n real, revisão por IA e publicação após aprovação permanecem etapas distintas. [Estado verificável](automacoes/n8n/producao/STATUS.json).
+

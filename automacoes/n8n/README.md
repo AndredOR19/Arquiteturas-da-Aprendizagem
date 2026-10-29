@@ -69,3 +69,8 @@ Referências primárias consultadas em 28/10/2026:
 ## Eventos parciais automáticos — 29/10/2026
 
 Novo circuito implementado separadamente: [integração e limites](../../coleta/eventos/README.md), [workflow inativo](receber-eventos.json). Cliente envia interações instrumentadas em lotes, com convite e confirmação de persistência. Testes locais simulados; importação, implantação, integração nas aulas e teste real pendentes. Esta atualização substitui apenas a indicação anterior de que eventos parciais ainda não tinham código; insights e análise integrada continuam pendentes.
+
+## Produção editorial e pedagógica — 29/10/2026
+
+[Orquestração de livros e aulas](producao/README.md), independente da coleta de estudantes. Workflow de solicitação, acompanhamento e entrega para revisão; executor na biblioteca privada. JSON inativo, sem credenciais; produção via GitHub e teste real n8n têm estados separados.
+

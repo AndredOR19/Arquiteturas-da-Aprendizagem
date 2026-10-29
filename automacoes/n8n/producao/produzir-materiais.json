@@ -1,0 +1,546 @@
+{
+  "name": "Estação — produzir aulas e livros para revisão v1",
+  "active": false,
+  "nodes": [
+    {
+      "id": "Iniciar_produ__o",
+      "name": "Iniciar produção",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "Configurar_pedido",
+      "name": "Configurar pedido",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ],
+      "parameters": {
+        "jsCode": "// Edite o material; conserve o ID para verificar um pedido já enviado.\nreturn [{json:{material_id:'aula-historia-192',pedido_id:'pedido-'+Date.now()}}];"
+      }
+    },
+    {
+      "id": "Validar_pedido",
+      "name": "Validar pedido",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function prepararPedido(p){\n  if(!p||!['aula-historia-192','capitulo-demonstracao'].includes(p.material_id))throw Error('Material não cadastrado.');\n  if(!/^[A-Za-z0-9][A-Za-z0-9_-]{7,79}$/.test(p.pedido_id||''))throw Error('ID do pedido inválido.');\n  return {pedido_id:p.pedido_id,material_id:p.material_id,tentativas:0,\n    repositorio:'AndredOR19/Biblioteca-de-Diagramacao',workflow:'estacao-automatica.yml',\n    base:'https://api.github.com/repos/AndredOR19/Biblioteca-de-Diagramacao',\n    dispatch:{ref:'main',inputs:{material:p.material_id,pedido_id:p.pedido_id}}};\n})($json)}];"
+      }
+    },
+    {
+      "id": "Solicitar_produ__o_privada",
+      "name": "Solicitar produção privada",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.base + '/actions/workflows/' + $json.workflow + '/dispatches' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 20000,
+          "response": {
+            "response": {
+              "responseFormat": "json",
+              "fullResponse": true
+            }
+          }
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.dispatch }}"
+      }
+    },
+    {
+      "id": "Conferir_solicita__o",
+      "name": "Conferir solicitação",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        0
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function conferirDisparo(res,p){\n  if(res?.statusCode!==204)throw Error('Disparo sem confirmação. Confira execuções pelo ID antes de reenviar; não repetir cegamente.');\n  return {...p,estado:'solicitado'};\n})($json,$('Validar pedido').first().json)}];"
+      }
+    },
+    {
+      "id": "Aguardar_registro",
+      "name": "Aguardar registro",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        0
+      ],
+      "parameters": {
+        "amount": 10,
+        "unit": "seconds"
+      }
+    },
+    {
+      "id": "Localizar_pedido_no_GitHub",
+      "name": "Localizar pedido no GitHub",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        0
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $json.base + '/actions/workflows/' + $json.workflow + '/runs?event=workflow_dispatch&per_page=100' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 20000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Identificar_execu__o",
+      "name": "Identificar execução",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const p=(function localizarExecucao(res,p){\n  if(!Array.isArray(res?.workflow_runs))throw Error('Resposta de execuções inválida.');\n  const encontrados=res.workflow_runs.filter(r=>r.display_title==='estacao-'+p.pedido_id&&r.event==='workflow_dispatch');\n  if(encontrados.length>1)throw Error('Pedido repetido em mais de uma execução. Conferência necessária.');\n  const n=p.tentativas+1;\n  if(!encontrados.length){if(n>=120)throw Error('Prazo excedido sem localizar execução. Confira no GitHub antes de repetir.');return {...p,tentativas:n,finalizada:false};}\n  const r=encontrados[0];\n  if(!Number.isSafeInteger(r.id)||!/^https:\\/\\/github\\.com\\/AndredOR19\\/Biblioteca-de-Diagramacao\\/actions\\/runs\\/\\d+$/.test(r.html_url||''))throw Error('Execução não reconhecida.');\n  return {...p,tentativas:n,run_id:r.id,run_url:r.html_url,finalizada:r.status==='completed',conclusao:r.conclusion};\n})($json,$('Aguardar registro').item.json);return [{json:{...p,localizada:Number.isSafeInteger(p.run_id)}}];"
+      }
+    },
+    {
+      "id": "Execu__o_localizada",
+      "name": "Execução localizada",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1760,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "condicao",
+              "leftValue": "={{ $json.localizada }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "Aguardar_execu__o",
+      "name": "Aguardar execução",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1980,
+        0
+      ],
+      "parameters": {
+        "amount": 10,
+        "unit": "seconds"
+      }
+    },
+    {
+      "id": "Consultar_execu__o",
+      "name": "Consultar execução",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2200,
+        0
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $json.base + '/actions/runs/' + $json.run_id }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 20000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Atualizar_estado",
+      "name": "Atualizar estado",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2420,
+        0
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function conferirEstado(res,p){\n  if(res?.id!==p.run_id)throw Error('ID de execução divergente.');\n  if(p.tentativas>=120&&res.status!=='completed')throw Error('Tempo de acompanhamento excedido. A produção pode continuar no GitHub.');\n  return {...p,tentativas:p.tentativas+1,finalizada:res.status==='completed',conclusao:res.conclusion};\n})($json,$('Aguardar execução').item.json)}];"
+      }
+    },
+    {
+      "id": "Terminou",
+      "name": "Terminou",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2640,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "condicao",
+              "leftValue": "={{ $json.finalizada }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "Conferir_produ__o",
+      "name": "Conferir produção",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2860,
+        -120
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function conferirResultado(p){\n  if(p.finalizada!==true||p.conclusao!=='success')throw Error('Produção não concluída com sucesso. Consulte '+p.run_url);\n  return p;\n})($json)}];"
+      }
+    },
+    {
+      "id": "Obter_pacote_privado",
+      "name": "Obter pacote privado",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3080,
+        -120
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $json.base + '/actions/runs/' + $json.run_id + '/artifacts' }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 20000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Aguardando_sua_revis_o",
+      "name": "Aguardando sua revisão",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3300,
+        -120
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function pacoteParaRevisao(res,p){\n  const a=res?.artifacts?.find(a=>a.name==='estacao-'+p.pedido_id);\n  if(!a||a.expired||!Number.isSafeInteger(a.id))throw Error('Pacote ausente ou expirado. Não afirmar produção entregue.');\n  return {pedido_id:p.pedido_id,material_id:p.material_id,estado:'aguardando_revisao',aprovado:false,publicado:false,\n    execucao:p.run_url,artefato:{id:a.id,nome:a.name,bytes:a.size_in_bytes},\n    observacao:'Baixar pela execução privada. Sucesso técnico não equivale a revisão linguística, pedagógica, visual ou aprovação editorial.'};\n})($json,$('Conferir produção').item.json)}];"
+      }
+    }
+  ],
+  "connections": {
+    "Iniciar produção": {
+      "main": [
+        [
+          {
+            "node": "Configurar pedido",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Configurar pedido": {
+      "main": [
+        [
+          {
+            "node": "Validar pedido",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validar pedido": {
+      "main": [
+        [
+          {
+            "node": "Solicitar produção privada",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Solicitar produção privada": {
+      "main": [
+        [
+          {
+            "node": "Conferir solicitação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Conferir solicitação": {
+      "main": [
+        [
+          {
+            "node": "Aguardar registro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aguardar registro": {
+      "main": [
+        [
+          {
+            "node": "Localizar pedido no GitHub",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Localizar pedido no GitHub": {
+      "main": [
+        [
+          {
+            "node": "Identificar execução",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Identificar execução": {
+      "main": [
+        [
+          {
+            "node": "Execução localizada",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execução localizada": {
+      "main": [
+        [
+          {
+            "node": "Aguardar execução",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Aguardar registro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aguardar execução": {
+      "main": [
+        [
+          {
+            "node": "Consultar execução",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Consultar execução": {
+      "main": [
+        [
+          {
+            "node": "Atualizar estado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Atualizar estado": {
+      "main": [
+        [
+          {
+            "node": "Terminou",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Terminou": {
+      "main": [
+        [
+          {
+            "node": "Conferir produção",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Aguardar execução",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Conferir produção": {
+      "main": [
+        [
+          {
+            "node": "Obter pacote privado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Obter pacote privado": {
+      "main": [
+        [
+          {
+            "node": "Aguardando sua revisão",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "executionTimeout": 1500,
+    "timezone": "America/Sao_Paulo",
+    "saveDataErrorExecution": "none",
+    "saveDataSuccessExecution": "none",
+    "saveManualExecutions": false,
+    "saveExecutionProgress": false
+  },
+  "pinData": {},
+  "tags": []
+}

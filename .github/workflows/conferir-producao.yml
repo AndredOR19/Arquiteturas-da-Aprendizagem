@@ -1,0 +1,20 @@
+name: Conferir orquestração da produção
+on:
+  push:
+    paths: ['automacoes/n8n/producao/**', '.github/workflows/conferir-producao.yml']
+  pull_request:
+    paths: ['automacoes/n8n/producao/**', '.github/workflows/conferir-producao.yml']
+permissions:
+  contents: read
+jobs:
+  conferir:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node automacoes/n8n/producao/gerar.mjs
+          git diff --exit-code -- automacoes/n8n/producao/produzir-materiais.json
+          node automacoes/n8n/producao/testes.mjs

@@ -3,6 +3,10 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.18.0 — 29/10/2026 — Estação coordenada de produção
+
+Pedido do Prof. André Rodrigues: automatizar produção, diagramação e revisão de materiais editoriais e aulas, aproveitando as duas bibliotecas. Implementados executor privado de provas cadastradas, conferência técnica, preservação/versionamento, imagens e manifestos, e workflow n8n de solicitação/acompanhamento/pacote. Primeiro piloto: capítulo demonstrativo existente e aula História 192 de 29/10, sem reescrever originais ou publicar. Revisão linguística por IA e autoria a partir de tema, aprovação/publicação, Supabase e Vercel permanecem etapas distintas/pendentes de conexão. Doze ensaios locais da orquestração e nove testes do executor; registrar evidência de produção remota em automacoes/n8n/producao/STATUS.json após conferência. Seção 20.1; catálogo 1.4.7 reconciliado.
+
 ## 2.17.1 — 29/10/2026 — Abertura do relatório no e-mail
 
 Relato do professor: erro ao abrir a janela de e-mail nos artefatos do dia, sobretudo História 192. O código avisava sobre relatório longo mas ainda navegava com o corpo inteiro na URL. Agora usa limite preventivo de 1.800 caracteres para preenchimento por URL; acima disso oferece cópia integral e abertura curta do Gmail, com colagem manual explícita. Mantidas prévia, cópia e TXT completos, com cópia negada tratada sem confirmação falsa. Aplicado às oito implementações de envio cadastradas, inclusive História 192 (21/10 e 29/10), Missão Ponte 6/7 e laboratórios. IDs, chaves de progresso, atividades e critérios preservados. Testes de transporte e publicação no workflow; abrir rascunho não confirma envio/recebimento. Sem envio de mensagens pelo assistente.
@@ -230,6 +234,7 @@ Solicitação do Prof. André Rodrigues: receber interações da página automat
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 
 
 
