@@ -322,6 +322,20 @@
           "pesquisa/registros.json"
         ]
       }
+    },
+    {
+      "execucao": "40803803412",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "34f978d51f89326d6b9171cf9c808857eceab5b7",
+      "pasta": "execucoes/40803803412-1-individuos",
+      "experimento": "668a228f0c6f2face59d0d82120f737b5e3cd2dcaa0a6c777f49615c600ffb8f",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": []
+      }
     }
   ],
   "ultimo_inventario": {
