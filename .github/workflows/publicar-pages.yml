@@ -56,6 +56,15 @@ jobs:
           name: conferencia-conectar-investigar
           path: lab-*.png
           if-no-files-found: ignore
+      - name: Conferir História 192 de 29 de outubro
+        run: node ferramentas/conferir-historia-192.cjs
+      - name: Guardar imagens da História 192
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: conferencia-historia-192
+          path: historia-192-*.png
+          if-no-files-found: ignore
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -74,4 +83,5 @@ jobs:
       - name: Publicar
         id: deploy
         uses: actions/deploy-pages@v4
+
 
