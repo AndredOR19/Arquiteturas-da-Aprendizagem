@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.20.1**  
+Versão vigente: **2.21.0**  
 Atualização: **29/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -21,14 +21,20 @@ Para continuar a produção intelectual, consultar pesquisa/MEMORIA.md, registro
 
 Este repositório é a base documental de referência do projeto. Não presuma que seu conteúdo é carregado automaticamente em todas as conversas: consulte-o explicitamente quando houver acesso.
 
-## 2. Modelo visual aprovado
+## 2. Dois fluxos visuais aprovados
 
 **Fidelidade ao código enviado — 29/10/2026:** quando o professor fornecer HTML como referência e pedir “daquela forma”, preservar a composição, fonte efetivamente carregada, cores, fundo, bordas, sombras e microinterações do código; adaptar o conteúdo dentro dessa estrutura. Para a aula de metáfora/comparação de Daiane, vale o modelo neobrutalista Fredoka: fundo pontilhado, painel amarelo, três cartões rosa/azul/laranja, objetos flutuantes, botão que afunda e desafio em modal. Objetos podem produzir efeitos sonoros coerentes ao toque, com silenciamento e redução de movimento. Sons representativos não são gravações naturais. Acessibilidade e registros permanecem; não reinterpretar o desenho com o modelo de lettering anterior. Publicação no GitHub Pages integra a entrega, conforme seção 21.
-Referências existentes na raiz:
+
+**Decisão de 29/10/2026 — manter dois prompts de entrada:** [Fluxo 01 — Caderno ilustrado](prompts/FLUXO_01_CADERNO_ILUSTRADO.md) preserva a apresentação anterior com lettering, objeto central, faixas e ramificações. [Fluxo 02 — Missão interativa](prompts/FLUXO_02_MISSAO_INTERATIVA.md) preserva o código aprovado com Fredoka, fundo pontilhado, cartões coloridos, flutuação, botões que afundam, sons por toque e modal. Consulte [o índice dos fluxos](prompts/README.md) e o código do modelo escolhido. A base pedagógica e funcional deste arquivo é comum aos dois; os prompts de entrada não concorrem como autoridades independentes.
+
+**Escolha:** Fluxo 02 é o padrão atual para novas aulas. Fluxo 01 permanece disponível para variar a apresentação, por pedido do professor ou necessidade registrada. Ao revisar aula existente, preservar o fluxo dela salvo orientação de mudança. Registrar perfil, motivo e referência na composição. Não misturar os dois visuais por iniciativa automática, alterar critérios conforme aparência nem inferir necessidade por diagnóstico. Alternância não comprova eficácia; não redesenha aulas antigas nem cria botão de troca nas páginas existentes.
+
+Referências anteriores preservadas para o Fluxo 01:
 - Aulas da manhã de 19 de outubro.mhtml
 - Aulas de 15 e 16 de outubro — Arquitetura 2.0.mhtml
+- Implementação de caderno ilustrado em aulas/29-10-2026-historia-192.
 
-O professor aprovou especialmente a aula de 19/10. Preserve sua organização de entrada e dados da aula, identificação por turma, hierarquia, navegação e controles de aparência. A melhoria solicitada em 26/10 é ampliar o texto explicativo com referências e âncoras visuais.
+O Fluxo 01 preserva a organização anterior de entrada, dados, hierarquia e navegação; o Fluxo 02 segue sua própria composição aprovada. Ambos mantêm os controles essenciais e os requisitos de acesso, explicação e registro.
 
 MHTML é uma captura de referência, que pode não conter a lógica interativa completa. Analise a captura e, quando disponível, o código funcional correspondente; reconstrua e teste as interações necessárias.
 
@@ -105,7 +111,7 @@ Para cada bloco conceitual importante, escolher uma âncora pertinente. Não rep
 - Informar fonte, autoria e condições de uso das imagens de terceiros.
 - Não representar hipótese ou interpretação como comprovação documental.
 
-Manter fundo moderno relacionado ao tema, com legibilidade dos painéis. Fundos e imagens de ambientação não substituem as âncoras que ensinam. SVGs devem ser bem construídos, específicos e acessíveis. Evitar emojis decorativos, excesso de fontes, caixa alta indiscriminada e painéis densos.
+Manter fundo moderno relacionado ao tema, com legibilidade dos painéis. Fundos e imagens de ambientação não substituem as âncoras que ensinam. SVGs devem ser bem construídos, específicos e acessíveis. Evitar símbolos sem função, excesso de fontes, caixa alta indiscriminada e painéis densos. No Fluxo 02, preservar os ícones/objetos expressivos do modelo aprovado, com relação temática, descrição e opção de reduzir estímulos; não substituir as imagens explicativas por decoração.
 
 
 ### 6.1. Design de associações — diretriz vigente de 27/10/2026
@@ -192,10 +198,10 @@ Perguntar em cada unidade:
 
 Se a ornamentação competir com a leitura, reduzir textura ou densidade e preservar o acesso. Se o estudante reconhecer apenas um símbolo familiar, solicitar evidência e variar a apresentação. Não afirmar eficácia comprovada ou originalidade científica desta arquitetura sem investigação; registrar como proposta autoral de produção e observação docente. Registro documental não redesenha automaticamente aulas publicadas.
 
-### 6.3. Preferência visual — Lettering Digital escolar/pedagógico
-Decisão do professor em 29/10/2026: adotar a linguagem de Lettering Digital escolar/pedagógico, conforme referência visual enviada em https://share.google/yAjf8RZUadT9LXnu4, observada como mapa de Gêneros Textuais do Maps4Study. A referência aprofunda a linguagem de caderno ilustrado antes associada à Teachy: folha pautada, livro/objeto central, faixas de títulos e ramificações curvas com relação compreensível. Produzir composição própria adequada ao conteúdo, sem copiar a imagem ou textos de terceiros.
+### 6.3. Fluxo 01 — Lettering Digital escolar/pedagógico
+Decisão do professor em 29/10/2026, preservada como Fluxo 01: usar a linguagem de Lettering Digital escolar/pedagógico, conforme referência visual enviada em https://share.google/yAjf8RZUadT9LXnu4, observada como mapa de Gêneros Textuais do Maps4Study. A referência aprofunda a linguagem de caderno ilustrado antes associada à Teachy: folha pautada, livro/objeto central, faixas de títulos e ramificações curvas com relação compreensível. Produzir composição própria adequada ao conteúdo, sem copiar a imagem ou textos de terceiros.
 
-Aplicar lettering selecionável nos títulos e palavras-chave, com fonte efetivamente incorporada/licenciada; manter textos explicativos longos, comandos e respostas em fonte de leitura. A preferência expressiva não pode sobrepor fontes/apoios escolhidos pelo estudante. Preservar D/R/E/L, seus rótulos e acesso em preto e branco, temas, celular e teclado. Letras e conexões devem ajudar a localizar e compreender relações; cor ou ilustração não substituem explicação.
+Quando selecionado o Fluxo 01, aplicar lettering selecionável nos títulos e palavras-chave, com fonte efetivamente incorporada/licenciada; manter textos explicativos longos, comandos e respostas em fonte de leitura. A preferência expressiva não pode sobrepor fontes/apoios escolhidos pelo estudante. Preservar D/R/E/L, seus rótulos e acesso em preto e branco, temas, celular e teclado. Letras e conexões devem ajudar a localizar e compreender relações; cor ou ilustração não substituem explicação.
 
 Oferecer alternativa “Leitura simples”, reversível e sem apagar conteúdo, respostas, progresso ou critérios. Se estudantes relatarem desconforto, ajustar a apresentação ou sua aplicação local. Não exigir diagnóstico nem prometer conforto universal. Preservar a liberdade temática da AIES dentro dessa preferência; recursos expressivos precisam de função e leitura legível.
 
@@ -215,6 +221,8 @@ Ao final, apresentar lista organizada de referências utilizadas. Link genérico
 Conferir a atualidade de documentos que podem ter mudado. Uma referência encontrada, mas não consultada, não deve ser descrita como fonte integralmente verificada.
 
 ## 8. Base curricular: BNCC, RCG e documentos da rede
+
+**Planos das turmas:** aplicar [o protocolo de recebimento e uso](base-curricular/PLANOS_DE_TURMA.md). Os planos efetivamente enviados e lidos orientam conteúdos, objetivos e sequência por turma/componente/período, articulados às fontes curriculares conferidas. Não tratar documento anunciado como recebido, nem plano como prova de aplicação. Registrar fonte, recorte e adaptações; proteger originais privados e dados de estudantes. A escolha entre os dois fluxos muda a apresentação, sem alterar automaticamente objetivo ou avaliação.
 Usar base-curricular/catalogo.json para saber o que está disponível, pendente ou substituído. A estrutura está preparada para:
 - BNCC.
 - Referencial Curricular Gaúcho (RCG).
@@ -387,7 +395,7 @@ Cada novo aperfeiçoamento acordado com o professor deve resultar em:
 5. Atualização do catálogo e da documentação quando o aperfeiçoamento envolver documentos curriculares.
 6. Conferência por leitura do conteúdo efetivamente salvo.
 
-O histórico do Git preserva versões anteriores; o professor não deve precisar escolher entre prompts concorrentes. Este é o prompt vigente. Modelos antigos são referências de interface e de evolução, não prevalecem sobre requisitos atualizados.
+O histórico do Git preserva versões anteriores. Este é o núcleo comum vigente; os dois prompts de entrada aprovados na seção 2 especializam a apresentação e permanecem vinculados a esta base, sem duplicação de regras concorrentes. Modelos antigos são referências de interface e de evolução, não prevalecem sobre requisitos atualizados.
 
 O registro é um procedimento de cada sessão de trabalho autorizada; não é um monitoramento automático do repositório.
 
@@ -405,7 +413,9 @@ Representação inicial, apoios e retirada gradual:
 Novo exemplo e evidência de compreensão:
 Habilidades e fonte curricular:
 Preferências de leitura, fontes disponíveis e testes de ajuste:
+Fluxo visual escolhido (01 caderno-ilustrado / 02 missao-interativa) e motivo:
 Modelo visual de referência:
+Plano da turma: arquivo, versão/período, trecho utilizado e adaptações:
 Linguagem temática e fontes que a sustentam:
 Características formais escolhidas e função pedagógica de cada uma:
 Aplicação em explicação, imagens, interações, pistas e síntese:

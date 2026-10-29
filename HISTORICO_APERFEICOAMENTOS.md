@@ -3,6 +3,12 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.21.0 — 29/10/2026 — Dois fluxos de produção e planos de turma
+
+O professor pediu manter dois prompts para variar a apresentação: caderno ilustrado anterior e missão interativa Fredoka aprovada. Criados dois prompts operacionais e índice em prompts/, com núcleo comum no Prompt Mestre, seleção registrada, Fluxo 02 como padrão e Fluxo 01 preservado para alternância. Ajustadas seção 2, aplicação condicional de lettering e orientações do repositório, evitando que um estilo sobreponha o outro. Nenhuma aula existente foi redesenhada e não foi instalado seletor automático de temas nas páginas.
+
+O professor anunciou nova remessa de planos de algumas turmas: protocolo em base-curricular/PLANOS_DE_TURMA.md para leitura, identificação, fonte, recorte, adaptação e privacidade. Não foram presumidos arquivos, turmas ou aplicações recebidas. Catálogo compatível 1.4.11; verificar estrutura e links antes de salvar.
+
 ## 2.20.1 — 29/10/2026 — Fidelidade ao código visual e publicação da aula de Português
 
 O professor rejeitou a interface anterior e forneceu novamente o HTML de referência. Aula de metáfora/comparação preserva conteúdo e 26 percursos, mas agora reproduz a composição: Fredoka local, pontos, cores, bordas 3px, sombras duras, cartões em grade, flutuação, botões que afundam e modal com correção distinta por alternativa. Objetos com efeitos locais ao toque, explicação por voz, silenciamento e redução de movimento. Catálogo Pages inclui a aula; destinatário de Daiane continua preenchível, sem inventar e-mail. Seção 2 registra prioridade da referência explícita sem mudar automaticamente outras aulas. Testes e deploy devem ser conferidos na execução desta revisão antes de afirmar publicação.

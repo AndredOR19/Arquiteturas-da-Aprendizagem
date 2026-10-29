@@ -8,6 +8,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 3. Consulte base-curricular/catalogo.json e os documentos pertinentes efetivamente disponíveis.
 4. Confira horário, escola, turma, componente e continuidade no registro mais recente, sem tratar aula planejada como aplicada.
 5. Preserve arquivos existentes e modelos enviados pelo professor.
+6. Selecione um dos dois prompts em prompts/README.md. Use planos de turma efetivamente recebidos conforme base-curricular/PLANOS_DE_TURMA.md; documento anunciado não é documento consultado.
 
 ## Biblioteca de arquiteturas
 - Ler biblioteca-arquiteturas/PROTOCOLO_IA.md e catalogo.json; conferir compatibilidade com o prompt, núcleo transversal, dependências e ramo disciplinar.
@@ -19,13 +20,13 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 ## Ao incorporar um aperfeiçoamento
 - Atualize a seção correspondente do prompt vigente.
 - Incremente sua versão e registre a mudança no histórico na mesma entrega.
-- Não acumule instruções contraditórias ou prompts concorrentes.
+- Mantenha o Prompt Mestre como núcleo comum e os dois prompts de entrada em prompts/ como fluxos complementares, sem regras contraditórias.
 - Diferencie diretriz registrada de funcionalidade realmente implementada e testada.
 - Faça commit descritivo e confira o conteúdo salvo.
 - Não prometa atualização automática em sessões sem acesso ao GitHub.
 
 ## Requisitos atuais de destaque
-- Modelo visual aprovado: aula de 19/10 e captura de 15–16/10.
+- Dois fluxos aprovados: prompts/FLUXO_01_CADERNO_ILUSTRADO.md (apresentação anterior) e prompts/FLUXO_02_MISSAO_INTERATIVA.md (Fredoka e efeitos do código aprovado). Fluxo 02 é padrão para novas aulas; preserve o fluxo da aula existente salvo pedido de mudança. Registre a escolha na composição.
 - Texto explicativo ampliado, didático, com referências próximas das afirmações e âncoras visuais que ensinam.
 - Design de associações: cumprir seção 6.1 do prompt. Definir relação, aproximar imagem e frase, manter sinais redundantes e D/R/E/L, oferecer interação acessível, reduzir pistas gradualmente e conferir aplicação em novo exemplo. Layout flexível; não prometer aprendizagem automática ou perfil único de neurodivergência.
 - Integração estético-semântica: cumprir seção 6.2 do prompt. A linguagem do objeto participa da composição e das ações; sketchnote é uma possibilidade. Fundamentar escolhas, manter acesso e D/R/E/L, diferenciar produção didática e documento e conferir transferência além do estilo. Levar o briefing ao HTML, aos slides e aos demais suportes.
