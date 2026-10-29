@@ -86,7 +86,7 @@ function exercise(){
  const prompt=el('p',instruction,'il-command');prompt.id='il-command';stage.append(prompt);
  const listen=el('button','Ouvir a pergunta','btn');listen.type='button';listen.id='il-listen';listen.onclick=()=>speak(instruction,'pergunta-'+modo+'-'+target.id);stage.append(listen);
  if(!transfer)stage.append(el('p',target.palavra,'il-word il-target'));
- const hint=el('button','Ouvir e ver uma pista','btn');hint.type='button';hint.id='il-hint';hint.onclick=()=>{hintCount++;record('pistas',{etapa:modo,alvo:target.id,at:new Date().toISOString()});feedback.textContent=target.descricao+' '+target.frase;speak(target.descricao+' '+target.palavra+'. '+target.frase,'pista-'+target.id);};stage.append(hint);
+ const hint=el('button','Ouvir e ver uma pista','btn');hint.type='button';hint.id='il-hint';hint.onclick=()=>{hintCount++;record('pistas',{etapa:modo,alvo:target.id,at:new Date().toISOString()});const dica=transfer?target.frase:target.descricao+' '+target.frase;feedback.textContent=dica;speak(target.palavra+'. '+dica,'pista-'+target.id);};stage.append(hint);
  const choices=shuffle([target,...shuffle(cfg.conceitos.filter(c=>c.id!==target.id)).slice(0,2)]);
  const grid=el('div',null,'il-grid il-choices');
  const next=el('button',transfer?'Concluir este apoio':'Continuar','btn primary');next.type='button';next.id='il-next';next.disabled=true;
