@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.20.0**  
+Versão vigente: **2.20.1**  
 Atualização: **29/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -22,6 +22,8 @@ Para continuar a produção intelectual, consultar pesquisa/MEMORIA.md, registro
 Este repositório é a base documental de referência do projeto. Não presuma que seu conteúdo é carregado automaticamente em todas as conversas: consulte-o explicitamente quando houver acesso.
 
 ## 2. Modelo visual aprovado
+
+**Fidelidade ao código enviado — 29/10/2026:** quando o professor fornecer HTML como referência e pedir “daquela forma”, preservar a composição, fonte efetivamente carregada, cores, fundo, bordas, sombras e microinterações do código; adaptar o conteúdo dentro dessa estrutura. Para a aula de metáfora/comparação de Daiane, vale o modelo neobrutalista Fredoka: fundo pontilhado, painel amarelo, três cartões rosa/azul/laranja, objetos flutuantes, botão que afunda e desafio em modal. Objetos podem produzir efeitos sonoros coerentes ao toque, com silenciamento e redução de movimento. Sons representativos não são gravações naturais. Acessibilidade e registros permanecem; não reinterpretar o desenho com o modelo de lettering anterior. Publicação no GitHub Pages integra a entrega, conforme seção 21.
 Referências existentes na raiz:
 - Aulas da manhã de 19 de outubro.mhtml
 - Aulas de 15 e 16 de outubro — Arquitetura 2.0.mhtml

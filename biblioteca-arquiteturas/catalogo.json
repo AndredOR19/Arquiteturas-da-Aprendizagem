@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "versao": "1.4.9",
+  "versao": "1.4.10",
   "atualizado_em": "2026-10-29",
   "autor": "Prof. André de Oliveira Rodrigues",
-  "prompt_compativel": "2.20.0",
+  "prompt_compativel": "2.20.1",
   "base_dos_caminhos": "raiz_do_repositorio",
   "estados_permitidos": [
     "diretriz_documentada",
@@ -38,7 +38,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "4"
           ]
@@ -59,7 +59,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "5"
           ]
@@ -81,7 +81,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "5"
           ]
@@ -102,7 +102,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "6"
           ]
@@ -124,7 +124,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "5"
           ]
@@ -145,7 +145,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "5",
             "11"
@@ -172,7 +172,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "4",
             "5",
@@ -196,7 +196,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "6.1",
             "23"
@@ -219,7 +219,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "6.2",
             "24",
@@ -245,7 +245,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "19"
           ]
@@ -268,7 +268,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "25"
           ]
@@ -291,7 +291,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "6.2",
             "25"
@@ -345,7 +345,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "11",
             "11.1",
@@ -370,7 +370,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "12",
             "13",
@@ -396,7 +396,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "27",
             "28"
@@ -420,7 +420,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "27",
             "28"
@@ -445,7 +445,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.20.0",
+          "versao": "2.20.1",
           "secoes": [
             "11.2"
           ]
@@ -551,7 +551,7 @@
       "id": "prompt",
       "tipo": "norma_pedagogica",
       "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-      "versao": "2.19.0",
+      "versao": "2.20.1",
       "disponibilidade": "documentado"
     },
     {

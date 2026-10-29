@@ -3,6 +3,10 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.20.1 — 29/10/2026 — Fidelidade ao código visual e publicação da aula de Português
+
+O professor rejeitou a interface anterior e forneceu novamente o HTML de referência. Aula de metáfora/comparação preserva conteúdo e 26 percursos, mas agora reproduz a composição: Fredoka local, pontos, cores, bordas 3px, sombras duras, cartões em grade, flutuação, botões que afundam e modal com correção distinta por alternativa. Objetos com efeitos locais ao toque, explicação por voz, silenciamento e redução de movimento. Catálogo Pages inclui a aula; destinatário de Daiane continua preenchível, sem inventar e-mail. Seção 2 registra prioridade da referência explícita sem mudar automaticamente outras aulas. Testes e deploy devem ser conferidos na execução desta revisão antes de afirmar publicação.
+
 ## 2.20.0 — 29/10/2026 — Ensaios de interface e simulação quântica formal
 
 Solicitação do professor: pensar soluções de interface, usar o simulador e criar arquitetura de simulações quânticas. Extensão 0.1.0 com verificação de políticas de acesso, reutilização do motor de planejamento e circuitos ideais de 1–8 qubits em CPU, sem hardware ou API. Dez testes próprios e execução de referência com 384 combinações de políticas, cinco circuitos e 30.000 estudos sintéticos. Fontes IBM consultadas; catálogo de modelos 0.2.0 com cobertura formal explícita. Seção 29.1 registra soluções para protótipo e limites. Não constitui teste da interface publicada ou evidência de aprendizagem; novas mudanças visuais da Missão Ponte permanecem pendentes.
