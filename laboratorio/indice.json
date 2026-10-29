@@ -582,6 +582,20 @@
           "biblioteca-arquiteturas/catalogo.json"
         ]
       }
+    },
+    {
+      "execucao": "40969516468",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "0dbede7b793a22807b8625df2e35098f62783c4f",
+      "pasta": "execucoes/40969516468-1-individuos",
+      "experimento": "5743b39debf38273f4d8418a99907123663e850129167de34cdc6eb33aa7c582",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": []
+      }
     }
   ],
   "ultimo_inventario": {
