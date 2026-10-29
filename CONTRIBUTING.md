@@ -24,3 +24,6 @@ O arquivo [CITATION.cff](CITATION.cff) oferece metadados para referência ao pro
 A [proposta de governança](pesquisa/projeto/GOVERNANCA_COLABORACAO.md) descreve participação mediante protocolo de devolutiva de resultados e metadados acordados. Participação na rede e uso sob futura licença livre são relações distintas. Este guia não obriga todo fork a fornecer dados ou a integrar a rede.
 
 Consultar também o [plano de indicadores](pesquisa/projeto/PLANO_INDICADORES.md). Os documentos são preparação; não há inscrição, canal de envio de dados ou fluxo novo ativado por este guia.
+
+## Intenção de uso escolar esclarecida
+A proposta atual prevê uso e produção interna em escolas públicas e privadas, com comercialização externa do sistema e dos materiais autorais abrangidos sujeita a autorização específica. O escopo está em revisão; ver a [governança](pesquisa/projeto/GOVERNANCA_COLABORACAO.md). Este guia não concede a licença, não transfere direitos de contribuições automaticamente e não torna toda saída do programa propriedade do propositor.

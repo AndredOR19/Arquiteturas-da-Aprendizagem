@@ -1,18 +1,43 @@
 # Rede de colaboração — proposta de governança
 
-Propositor e autor das arquiteturas de origem: **Prof. André de Oliveira Rodrigues**. Versão: 0.1.0. Registro: 28/10/2026. Estado: proposta para revisão; não concede licença, altera visibilidade, cria contrato assinado ou ativa transmissão de dados.
+Propositor e autor das arquiteturas de origem: **Prof. André de Oliveira Rodrigues**. Versão: 0.2.0. Registro: 28/10/2026. Estado: proposta para revisão; não concede licença, altera visibilidade, cria contrato assinado ou ativa transmissão de dados.
 
 ## Finalidade
 
 Acelerar o desenvolvimento e o exame de soluções educacionais por meio de materiais ajustáveis, aplicações documentadas, dados de uso pertinentes e experiências dos professores. A rede deverá transformar aplicações em conhecimento compartilhável: o que funcionou, em quais condições, o que falhou e o que merece revisão.
 
-A direção é disponibilizar o núcleo publicável como software livre, sem cobrança de licença, para implantação em escolas que tenham condições de utilizá-lo. Infraestrutura, conectividade, hospedagem, manutenção e serviços externos podem ter custos. A disponibilidade técnica e a adequação serão conferidas em cada implantação.
+A direção esclarecida pelo autor é permitir implantação e uso educacional interno por qualquer escola, pública ou privada, sem cobrança de licença, reservando a negociação da comercialização externa do sistema e dos materiais autorais abrangidos. Essa proposta requer licença específica; a restrição de revenda não corresponde ao modelo de software livre/open source. Nenhuma licença foi aplicada nesta etapa. Infraestrutura, conectividade, hospedagem, manutenção e serviços externos podem ter custos. A disponibilidade técnica e a adequação serão conferidas em cada implantação.
 
-## Duas relações distintas
+## Esclarecimento atual do autor: uso escolar e venda externa
+
+Esta seção substitui, para a proposta de licenciamento em discussão, as possibilidades anteriores de limitar a gratuidade à rede pública ou a colaboradores. Qualquer escola poderá implantar e produzir para uso interno; contribuição prévia não é requisito dessa permissão pretendida.
+
+| Situação | Intenção declarada pelo autor |
+|---|---|
+| Escola pública ou privada implantar e usar em suas aulas | Permitir gratuitamente, conforme licença a definir |
+| Escola produzir/adaptar materiais para seus próprios estudantes | Permitir dentro do escopo da futura licença |
+| Escola privada cobrar sua mensalidade pelo ensino | A restrição pretendida não é uma proibição dessa atividade escolar |
+| Terceiro vender o sistema, licenças ou apresentá-lo como ativo comercial próprio | Não autorizar sem negociação específica com o titular dos direitos correspondentes |
+| Terceiro vender externamente materiais autorais do projeto ou adaptações abrangidas pela licença | Reservar à autorização comercial específica do titular |
+| Autor comercializar seus próprios materiais ou acesso aos seus produtos | Preservar essa possibilidade, observados os direitos de componentes/contribuições de terceiros |
+
+A intenção é ampliar acesso escolar preservando uma via própria de comercialização externa. A identidade de propositor deve ser conservada, com reconhecimento das contribuições posteriores; atribuição não substitui definição do escopo licenciado.
+
+### Escopo que a licença ainda precisa delimitar
+
+Identificar código, textos, modelos, imagens, conteúdos e adaptações abrangidos. A proteção de uma obra concreta não equivale a exclusividade sobre uma ideia ou método: a Lei 9.610/1998 distingue esses objetos, especialmente nos arts. 8 e 29. Referência: [texto atualizado da lei](https://www2.camara.leg.br/legin/fed/lei/1998/lei-9610-19-fevereiro-1998-365399-normaatualizada-pl.html).
+
+Todo conteúdo produzido com uma ferramenta não se torna automaticamente propriedade de seu desenvolvedor. Material inteiramente original de uma escola e produção que incorpora textos/modelos autorais do projeto exigem análise distinta. Se houver pretensão de restringir contratualmente a venda de determinadas saídas, definir isso expressamente e revisar sua validade/alcance antes da concessão da licença. Não tratar todo resultado como propriedade do propositor por inferência.
+
+Licenças e direitos de terceiros permanecem próprios. Acesso por fornecedores, suporte/implantação pagos, compartilhamento gratuito entre instituições, cópias físicas e usos que ultrapassem a comunidade escolar precisam de delimitação; esta proposta não inventa permissões ou proibições para esses casos.
+
+Antes de oferecer a licença, revisar juridicamente o instrumento completo e as condições de contribuição. Este documento registra a intenção e suas pendências; não é a licença final nem garante exclusividade sobre toda produção futura.
+
+## Uso e colaboração na rede
 
 | Relação | Alcance proposto |
 |---|---|
-| Uso e bifurcação do software livre | Direitos e obrigações da licença de software escolhida; não exige ingressar na rede oficial |
+| Uso e adaptação no âmbito autorizado | Condições da licença específica ainda por definir; uso escolar pretendido não depende de ingresso na rede |
 | Participação na rede de pesquisa/implantação | Adesão explícita a um protocolo de colaboração, atribuição, registro e devolutiva de resultados/metadados acordados |
 
 A solicitação do autor é obter devolutiva dos colaboradores e preservar seu papel de propositor. O caminho proposto é pactuar essa reciprocidade na rede, sem representá-la como obrigação automática de todo usuário ou fork de software livre.

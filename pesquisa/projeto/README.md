@@ -1,6 +1,6 @@
 # Proposta de mestrado — Arquiteturas da Aprendizagem
 
-**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.3.0 · **Data:** 28/10/2026
+**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.3.1 · **Data:** 28/10/2026
 
 > Laboratório de pesquisa e produção educacional apoiado por arquiteturas pedagógicas versionadas, simulação de cenários e avaliação futura em escolas, com adaptação progressiva da infraestrutura de software da Sofia Cog OS.
 
@@ -149,3 +149,6 @@ O autor propõe abrir o núcleo reutilizável como software livre sem cobrança 
 [Proposta de governança](GOVERNANCA_COLABORACAO.md): distingue licença livre de adesão à rede com devolutiva de resultados/metadados acordados. Uma obrigação geral de entregar dados de todo fork ou citar todo resultado não decorre da GPL; as licenças continuam pendentes. [Plano de indicadores e diagramas](PLANO_INDICADORES.md): medidas técnicas, aprendizagem, apoios, relatos docentes e reuso com fontes e denominadores. [Guia de contribuição](../../CONTRIBUTING.md).
 
 Esta etapa prepara regras e acompanhamento, sem abrir repositórios privados, conceder novas licenças, criar contratos ou ativar coleta/compartilhamento. Infraestrutura e serviços podem ter custos; software sem cobrança de licença não garante custo operacional zero.
+
+## Esclarecimento de licenciamento em discussão
+A intenção atual é permitir uso e produção interna em qualquer escola, pública ou privada, preservando a comercialização externa do sistema e dos materiais autorais abrangidos para autorização específica do titular. Contribuição prévia não é requisito do uso escolar pretendido. A restrição recai na venda externa, não na mensalidade ou no ensino da escola privada. A [governança atualizada](GOVERNANCA_COLABORACAO.md#esclarecimento-atual-do-autor-uso-escolar-e-venda-externa) registra o escopo a definir, direitos de terceiros e distinção entre materiais do projeto e conteúdos criados independentemente. Essa intenção substitui as alternativas anteriores para fins de planejamento; licença não aplicada e visibilidade inalterada.

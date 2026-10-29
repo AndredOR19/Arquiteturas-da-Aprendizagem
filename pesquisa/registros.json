@@ -573,6 +573,37 @@
       "proxima_acao": "Revisar escopo/licenças e protocolo da rede; preparar coleta privada e conferir piloto antes da ampliação.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Organização e conferência de limites de licença, propostas de governança/indicadores e metadados; não concedida licença ou criada obrigação universal de compartilhar dados."
+    },
+    {
+      "id": "DEC-20261028-010",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Uso escolar interno amplo e autorização para comercialização externa",
+      "formulacao": "Permitir implantação e produção interna para qualquer escola, pública ou privada, reservando a venda externa do sistema e dos materiais autorais abrangidos à autorização comercial do titular.",
+      "natureza": "esclarecimento_de_proposta_de_licenciamento",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "intencao_documentada_licenca_e_escopo_pendentes",
+      "evidencia": {
+        "tipo": "esclarecimento_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [
+        "RED-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-009"
+      ],
+      "proxima_acao": "Delimitar ativos abrangidos, direitos de contribuições/terceiros, usos autorizados e revisão jurídica antes da licença.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Registro da intenção e dos limites entre obras, métodos e saídas independentes; nenhuma licença concedida."
     }
   ]
 }
