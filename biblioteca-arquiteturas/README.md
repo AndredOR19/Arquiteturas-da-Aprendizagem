@@ -52,3 +52,8 @@ Doze plantas transversais/de integração, duas plantas ou roteiros disciplinare
 
 ## Propostas sobre alternância
 As plantas [Progressão coordenada](plantas/ritmo-progressao.md) e [Cadência textual](plantas/cadencia-textual.md) estão em desenvolvimento, fora do núcleo obrigatório. Origem e próximos passos no [diário de pesquisa](../pesquisa/README.md); não representam eficácia comprovada ou alteração retroativa de materiais.
+
+
+## Acesso ao conteúdo para quem ainda não lê/escreve
+
+[Arquitetura de Acesso por Imagens, Voz e Palavra](plantas/imagens-voz-palavra.md), proposta por André de Oliveira Rodrigues: diretriz permanente de produção. Cenas e orientação falada relacionam objeto, cor/forma, significado, palavra escrita e aproximação com letras; resposta por toque/teclado e aplicação em outra cena. [Módulo HTML](../publicacao/imagens/README.md) e [capítulo em desenvolvimento](../livros/integracao-estetico-semantica/CAPITULO_ACESSO_IMAGENS_VOZ.md). Não equivale a alfabetização completa, diagnóstico ou eficácia comprovada.

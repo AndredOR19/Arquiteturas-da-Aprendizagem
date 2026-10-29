@@ -98,3 +98,10 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Composição própria de caderno, objeto central e relações; manter alternativas de leitura e prioridade dos apoios.
 - Oferecer Leitura simples sem apagar respostas; rever apresentação se houver desconforto.
 - Conferir duas aulas de História 192 no workflow antes de entregar links; não confundir revisão visual com migração de conteúdo/estrutura do legado.
+
+
+## Acesso ao tema para estudantes que ainda não leem/escrevem
+- Cumprir seção 11.2 e publicacao/imagens/README.md: entrada visível Aprender com imagens e áudio, cenas específicas, orientação falada relacionando objeto/cor/forma/significado/palavra, repetição, letra inicial, resposta por toque/teclado e aplicação em outro exemplo.
+- Não substituir por fonte especial, decoração ou leitura do texto extenso. Cor nunca é o único sinal; não exigir escrita/diagnóstico e não infantilizar.
+- Registrar tentativas/pistas separadamente da nota; não liberar resultado/avaliação por concluir o apoio. Não afirmar alfabetização automática ou conversão integral da aula.
+- Cadastrar novas cenas e narrativas no módulo compartilhado e conferir navegador, falta de voz, celular, preservação das respostas e relatório.

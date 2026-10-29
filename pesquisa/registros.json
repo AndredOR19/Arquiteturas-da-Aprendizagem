@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "atualizado_em": "2026-10-28",
+  "atualizado_em": "2026-10-29",
   "registros": [
     {
       "id": "INS-20261028-001",
@@ -604,6 +604,43 @@
       "proxima_acao": "Delimitar ativos abrangidos, direitos de contribuições/terceiros, usos autorizados e revisão jurídica antes da licença.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Registro da intenção e dos limites entre obras, métodos e saídas independentes; nenhuma licença concedida."
+    },
+    {
+      "id": "DEC-20261029-001",
+      "data_formulacao": "2026-10-29",
+      "data_registro": "2026-10-29",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Arquitetura permanente de acesso por imagens, voz e palavra",
+      "formulacao": "Oferecer ao estudante que ainda não lê/escreve relações entre imagens, objetos, cores/formas e palavras com orientação falada, para acessar o significado da aula e se aproximar da escrita; incorporar como arquitetura permanente e capítulo dos livros em desenvolvimento.",
+      "natureza": "diretriz_pedagogica_autoral",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-29.md",
+        "transcricao_integral": false
+      },
+      "estado": "diretriz_documentada_implementacao_parcial",
+      "evidencia": {
+        "tipo": "formulacao_autoral_e_implementacao_tecnica",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "imagens-voz-palavra",
+        "associacoes",
+        "aies",
+        "sss",
+        "leitura-acessivel"
+      ],
+      "producoes": [
+        "LIV-005"
+      ],
+      "relacionados": [
+        "DEC-20261028-007"
+      ],
+      "proxima_acao": "Conferir módulo nas aulas, revisar capítulo com o autor, fundamentar e observar uso com mediação sem inferir alfabetização.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Síntese operacional, código, testes e redação inicial do capítulo com revisão autoral pendente."
     }
   ]
 }

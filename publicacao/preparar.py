@@ -32,6 +32,10 @@ def main():
     lettering.mkdir(parents=True, exist_ok=True)
     for name in ["estilo.css", "aplicar.js", "Kalam-Bold.woff", "OFL.txt"]:
         shutil.copyfile(ROOT / "publicacao" / "lettering" / name, lettering / name)
+    image_learning = OUT / "_recursos" / "imagens"
+    image_learning.mkdir(parents=True, exist_ok=True)
+    for name in ["conteudos.js", "cenas.js", "aplicar.js", "estilo.css"]:
+        shutil.copyfile(ROOT / "publicacao" / "imagens" / name, image_learning / name)
     links = []
     destinations = set()
     for item in items:
@@ -68,6 +72,14 @@ def main():
                     prefix = os.path.relpath(lettering, page.parent).replace(os.sep, '/') + '/'
                     text = text.replace('../../publicacao/lettering/', prefix)
                     page.write_text(text, encoding='utf-8')
+                if page == dest / 'index.html' and 'data-image-learning' not in text:
+                    prefix = os.path.relpath(image_learning, page.parent).replace(os.sep, '/') + '/'
+                    learning = '<link rel="stylesheet" href="' + prefix + 'estilo.css?v=1.0.0">'
+                    for name in ['conteudos.js', 'cenas.js', 'aplicar.js']:
+                        learning += '<script defer src="' + prefix + name + '?v=1.0.0" data-image-learning data-learning-key="' + html.escape(item['destino'], quote=True) + '"></script>'
+                    index = text.lower().rfind('</body>')
+                    text = text[:index] + learning + text[index:] if index >= 0 else text + learning
+                    page.write_text(text, encoding='utf-8')
                 relative = os.path.relpath(reading / 'painel.js', page.parent).replace(os.sep, '/')
                 tag = '<script defer src="' + relative + '?v=1.0.1" data-reading-panel></script>'
                 if 'data-reading-panel' not in text:
@@ -98,6 +110,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 

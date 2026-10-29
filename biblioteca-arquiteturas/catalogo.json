@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "versao": "1.4.7",
+  "versao": "1.4.8",
   "atualizado_em": "2026-10-29",
   "autor": "Prof. André de Oliveira Rodrigues",
-  "prompt_compativel": "2.18.0",
+  "prompt_compativel": "2.19.0",
   "base_dos_caminhos": "raiz_do_repositorio",
   "estados_permitidos": [
     "diretriz_documentada",
@@ -22,7 +22,8 @@
     "associacoes",
     "aies",
     "leitura-acessivel",
-    "avaliacao-experiencia"
+    "avaliacao-experiencia",
+    "imagens-voz-palavra"
   ],
   "politica_sons": "sss e leitura obrigatoria; uso de som opcional, desligado inicialmente",
   "arquiteturas": [
@@ -37,7 +38,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "4"
           ]
@@ -58,7 +59,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "5"
           ]
@@ -80,7 +81,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "5"
           ]
@@ -101,7 +102,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "6"
           ]
@@ -123,7 +124,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "5"
           ]
@@ -144,7 +145,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "5",
             "11"
@@ -171,7 +172,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "4",
             "5",
@@ -195,7 +196,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "6.1",
             "23"
@@ -218,7 +219,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "6.2",
             "24",
@@ -244,7 +245,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "19"
           ]
@@ -267,7 +268,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "25"
           ]
@@ -290,7 +291,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "6.2",
             "25"
@@ -334,7 +335,7 @@
         "svs",
         "aies"
       ],
-      "versao": "1.0.0",
+      "versao": "1.1.0",
       "status": "diretriz_documentada",
       "caminho": "biblioteca-arquiteturas/plantas/leitura-acessivel.md",
       "depende_de": [
@@ -344,11 +345,12 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "11",
             "11.1",
-            "25"
+            "25",
+            "11.2"
           ]
         }
       ],
@@ -368,7 +370,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "12",
             "13",
@@ -394,7 +396,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "27",
             "28"
@@ -418,7 +420,7 @@
       "fontes": [
         {
           "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-          "versao": "2.18.0",
+          "versao": "2.19.0",
           "secoes": [
             "27",
             "28"
@@ -426,6 +428,30 @@
         }
       ],
       "aplicacao": "conforme_objetivo_sem_obrigatoriedade"
+    },
+    {
+      "id": "imagens-voz-palavra",
+      "nome": "Arquitetura de Acesso por Imagens, Voz e Palavra",
+      "versao": "1.0.0",
+      "camada": "transversal",
+      "status": "diretriz_documentada",
+      "caminho": "biblioteca-arquiteturas/plantas/imagens-voz-palavra.md",
+      "depende_de": [
+        "aee",
+        "associacoes",
+        "leitura-acessivel",
+        "sss"
+      ],
+      "fontes": [
+        {
+          "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "versao": "2.19.0",
+          "secoes": [
+            "11.2"
+          ]
+        }
+      ],
+      "aplicacao": "transversal"
     }
   ],
   "disciplinas": [
@@ -525,7 +551,7 @@
       "id": "prompt",
       "tipo": "norma_pedagogica",
       "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-      "versao": "2.18.0",
+      "versao": "2.19.0",
       "disponibilidade": "documentado"
     },
     {
@@ -606,4 +632,3 @@
     "recebimento_email": "confirmacao_real_pelo_professor"
   }
 }
-

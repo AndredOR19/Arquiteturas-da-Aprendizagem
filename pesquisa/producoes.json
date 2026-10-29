@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "atualizado_em": "2026-10-28",
+  "atualizado_em": "2026-10-29",
   "titulos_provisorios": true,
   "producoes": [
     {
@@ -181,6 +181,19 @@
       "criterio_conclusao": "Dados privados recebidos com confirmação; eventos parciais, insights e revisões testados/versionados; não implica eficácia pedagógica.",
       "depende_de": [
         "INF-002"
+      ]
+    },
+    {
+      "id": "LIV-005",
+      "tipo": "capitulo",
+      "titulo": "Compreender a aula antes de dominar a escrita",
+      "estado": "capitulo_inicial_revisao_autoral_pendente",
+      "caminho": "livros/integracao-estetico-semantica/CAPITULO_ACESSO_IMAGENS_VOZ.md",
+      "responsavel": "Prof. André de Oliveira Rodrigues",
+      "proximo_marco": "Revisar texto e fundamentação e integrar ao manuscrito do livro Quando o conteúdo desenha a aula.",
+      "criterio_conclusao": "Capítulo revisto, exemplos e fontes conferidos; não significa conclusão do livro ou validação de eficácia.",
+      "depende_de": [
+        "PES-001"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 # Acessibilidade de leitura e preferências tipográficas
 ID: leitura-acessivel  
-Versão documental: 1.0.0 — 28/10/2026  
+Versão documental: 1.1.0 — 29/10/2026  
 Estado: diretriz documentada para novas produções e revisões; controles ainda não implementados nas aulas existentes.  
 Origem: insight do Prof. André de Oliveira Rodrigues, em 28/10/2026.  
 Fonte normativa: [Prompt mestre 2.9.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 11, 11.1 e 25.  
@@ -63,3 +63,8 @@ Esses resultados justificam não prometer superioridade universal de fontes espe
 
 ## Aplicação compartilhada — 28/10/2026
 O botão “Fontes e layout” e os perfis explicados estão implementados em publicacao/leitura e incorporados pelo empacotamento dos HTMLs do catálogo. OpenDyslexic local acompanha licença e aviso de carregamento/fallback. Os perfis são ajustáveis para todos, com menção informativa a dislexia/TDAH, sem diagnóstico ou promessa universal. Fonte/tema/layout não substituem mediação pedagógica. Conferir a execução de publicação para o estado efetivamente testado.
+
+
+## Acesso por imagens, significado e voz — 29/10/2026
+
+Aplicar seção 11.2 do Prompt Mestre 2.19.0 e publicacao/imagens/README.md. Para quem ainda não lê/escreve, oferecer cenas e orientação falada que articulem cor/forma/objeto, significado, palavra e letra inicial destacada. Explicar relações do tema em sequência visual narrada; reconhecer e aplicar em outra representação por toque/teclado, sem exigir escrita nem diagnóstico. Usar linguagem adequada à idade e mediação docente. Cor nunca é o único sinal. O apoio inicial foi implementado para os oito HTMLs do catálogo; não converte integralmente todos os percursos, não certifica alfabetização e não muda a nota. Cada publicação e cada voz no dispositivo exigem conferência.

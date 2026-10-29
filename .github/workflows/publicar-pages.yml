@@ -44,6 +44,16 @@ jobs:
       - name: Conferir fontes e layout nos materiais HTML
         timeout-minutes: 5
         run: node ferramentas/conferir-leitura.cjs
+      - name: Conferir acesso por imagens e voz
+        timeout-minutes: 5
+        run: node ferramentas/conferir-imagens.cjs
+      - name: Guardar imagens do apoio visual
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: conferencia-aprender-com-imagens
+          path: imagens-*.png
+          if-no-files-found: ignore
       - name: Guardar imagens do painel de leitura
         if: always()
         uses: actions/upload-artifact@v4
@@ -93,6 +103,7 @@ jobs:
       - name: Publicar
         id: deploy
         uses: actions/deploy-pages@v4
+
 
 
 

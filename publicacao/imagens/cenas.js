@@ -1,0 +1,30 @@
+(function(){
+'use strict';
+const pessoa=(x,y,cor='#c46f3a')=>`<g transform="translate(${x} ${y})"><circle cx="0" cy="0" r="13" fill="#c68f69"/><path d="M-22 54v-20q0-19 22-19t22 19v20" fill="${cor}"/><path d="M-9 0h2m12 0h2" stroke="#203e4b" stroke-width="2"/></g>`;
+const linha='<path d="M22 138h196" stroke="#819da1" stroke-width="3"/>';
+function desenho(tipo,variante){
+ if(variante&&tipo==='documento')return '<rect x="25" y="18" width="190" height="122" rx="6" fill="#9a7855"/><rect x="48" y="32" width="140" height="94" fill="#fffdf2"/><circle cx="60" cy="41" r="4" fill="#467980"/><circle cx="176" cy="41" r="4" fill="#467980"/><path d="M70 60h92m-92 18h77m-77 18h85" stroke="#3a5963" stroke-width="5"/>';
+ if(variante&&tipo==='registro')return '<rect x="27" y="21" width="186" height="119" rx="8" fill="#fffdf2"/><path d="M51 42v74h140" stroke="#3a5963" stroke-width="4" fill="none"/><rect x="72" y="82" width="22" height="33" fill="#8db9b0"/><rect x="114" y="57" width="22" height="58" fill="#d7b06f"/><rect x="156" y="69" width="22" height="46" fill="#8db9b0"/>';
+ if(variante&&tipo==='observar')return '<path d="M81 132V72m0 36l-24-13m24 3l21-14" stroke="#477953" stroke-width="7"/><path d="M74 61q-42-39-12-48 22-6 23 27 10-39 33-21 19 19-15 36 42-4 27 21-16 20-36-6-18 35-35 14-12-17 15-23" fill="#dca565"/><circle cx="86" cy="56" r="12" fill="#6c5140"/><circle cx="159" cy="71" r="35" fill="#e9f9f5" fill-opacity=".5" stroke="#345c69" stroke-width="7"/><path d="M183 97l30 34" stroke="#345c69" stroke-width="12"/>';
+ const shift=variante?12:0;
+ const documento=`<g transform="translate(${shift} 0)"><path d="M58 22h91l31 31v84H58z" fill="#fffdf2"/><path d="M149 22v31h31" fill="#d4dfda"/><path d="M77 65h73m-73 19h63m-63 19h48" stroke="#2d60a2" stroke-width="5"/><circle cx="150" cy="114" r="10" fill="#d69d3c"/></g>`;
+ const registro=`<rect x="52" y="20" width="128" height="121" rx="8" fill="#fffdf2"/><rect x="87" y="14" width="58" height="18" rx="5" fill="#537681"/><path d="M75 58h79m-79 27h79m-79 27h79M99 47v77" stroke="#2d60a2" stroke-width="3"/><path d="M112 63l6 6 13-15m-19 37l6 6 13-15m-19 37l6 6 13-15" fill="none" stroke="#267356" stroke-width="4"/>`;
+ const papel=variante?'<path d="M35 97l108-65 64 43-109 65z" fill="#fffdf2"/><path d="M58 94l85-51m-64 65l83-51" stroke="#a5b5b6" stroke-width="3"/>':'<path d="M34 51h136l37 62H70z" fill="#fffdf2"/><path d="M62 69h94m-83 16h94" stroke="#b4c2c3" stroke-width="3"/>';
+ const dobra=variante?'<path d="M27 100l30-50 30 50 30-50 30 50 30-50 30 50v30H27z" fill="#f0d48e"/><path d="M57 50v80m60-80v80m60-80v80" stroke="#8e702f" stroke-width="3"/>':'<path d="M26 99l36-36 36 36 36-36 36 36 36-36v35l-36 36-36-36-36 36-36-36-36 36z" fill="#f0d48e"/>';
+ const mensagem=variante?'<rect x="70" y="14" width="95" height="134" rx="12" fill="#395d6a"/><rect x="79" y="29" width="77" height="99" rx="4" fill="#f4f9f5"/><path d="M90 47h53v32h-26l-13 12v-12H90z" fill="#a4cec4"/><path d="M99 59h34m-34 10h22" stroke="#294b58" stroke-width="3"/>':'<path d="M37 27h168v80h-68l-33 28v-28H37z" fill="#e5f1e8"/><path d="M60 52h121m-121 22h97" stroke="#335864" stroke-width="6"/>';
+ const dialogo=`${pessoa(50+shift,80,'#337b84')}${pessoa(185-shift,80,'#bc743e')}<path d="M22 12h86v38H76L63 63V50H22z" fill="#f7e1ad"/><path d="M132 20h86v38h-30l-14 14V58h-42z" fill="#c2e0d7"/><path d="M35 28h57m55 8h56" stroke="#45636a" stroke-width="4"/>`;
+ const escuta=`${pessoa(48,82,'#4b8590')}${pessoa(180,82,'#b97b4d')}<path d="M25 14h85v37H76l-12 12V51H25z" fill="#fff3cf"/><path d="M39 31h58m28 25q24-24 48 0m-39 9q15-15 30 0" fill="none" stroke="#325a62" stroke-width="4"/>`;
+ const acordo=`${pessoa(42,82,'#4b8590')}${pessoa(198,82,'#b97b4d')}<rect x="80" y="37" width="80" height="94" rx="5" fill="#fffdf2"/><path d="M94 59h52m-52 15h52m-47 25l15 15 27-32" fill="none" stroke="#267356" stroke-width="5"/>`;
+ const voto=`<rect x="54" y="83" width="137" height="55" rx="5" fill="#698fc0"/><path d="M54 83l23-23h94l20 23" fill="#c7dedd"/><path d="M92 73h57" stroke="#233e49" stroke-width="5"/><g transform="rotate(${variante?12:-12} 121 42)"><rect x="95" y="12" width="55" height="53" fill="#fffdf2"/><path d="M108 38l9 10 20-24" fill="none" stroke="#276b4e" stroke-width="5"/></g>`;
+ const carga=`<rect x="20" y="100" width="35" height="40" fill="#a1afb3"/><rect x="185" y="100" width="35" height="40" fill="#a1afb3"/><path d="M38 97h164" stroke="#526d76" stroke-width="7"/><rect x="81" y="68" width="30" height="26" rx="3" fill="#d6b578"/><rect x="126" y="68" width="30" height="26" rx="3" fill="#d6b578"/><path d="M118 18v35m-10-10l10 10 10-10" stroke="#426675" stroke-width="4" fill="none"/>`;
+ const observar=`<path d="M87 115Q20 80 76 37q75-34 82 44-21 54-71 34" fill="#9dcba3"/><path d="M64 111l67-61m-48 43l-8-24m26 5l24 3" stroke="#467453" stroke-width="4"/><circle cx="153" cy="64" r="37" fill="#e9f9f5" fill-opacity=".48" stroke="#345c69" stroke-width="7"/><path d="M179 91l35 39" stroke="#345c69" stroke-width="12"/>`;
+ const comparar=`<path d="M22 84h80v29H22z" fill="#fffdf2"/><path d="M137 108l18-35 18 35 18-35 18 35" fill="none" stroke="#ac884b" stroke-width="9"/><path d="M108 43h28m-8-8l8 8-8 8m8 10h-28m8-8l-8 8 8 8" stroke="#345c69" stroke-width="3" fill="none"/>`;
+ const revisar=registro+'<path d="M185 49a34 34 0 1 0 10 45m-10-45l-2 24 22-10" fill="none" stroke="#ba7747" stroke-width="7"/>';
+ return ({documento,registro,papel,dobra,mensagem,dialogo,escuta,acordo,voto,carga,observar,comparar,revisar})[tipo]||documento;
+}
+window.ImageLearningScene=(tipo,descricao,variante=false)=>{
+ const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 240 160');svg.setAttribute('role','img');svg.setAttribute('aria-label',descricao);
+ svg.innerHTML='<rect x="3" y="3" width="234" height="154" rx="16" fill="#edf3ee"/>'+desenho(tipo,variante)+linha;
+ return svg;
+};
+})();

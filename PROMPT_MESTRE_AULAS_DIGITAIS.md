@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.18.0**  
+Versão vigente: **2.19.0**  
 Atualização: **29/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -272,6 +272,18 @@ Mensagem sugerida: “Cada pessoa pode preferir uma forma de ler. Experimente fo
 Aplicar a [planta de leitura acessível](biblioteca-arquiteturas/plantas/leitura-acessivel.md), que registra controles, avisos, fontes consultadas e testes de tolerância a espaçamento. Não anunciar opção sem funcionar. Preservar fórmulas e símbolos, legendas e descrições. Preferências de acesso prevalecem sobre aparência expressiva. Lembrar preferências no navegador deve ser escolha explícita, especialmente em dispositivo compartilhado, sem inferir ou coletar condição clínica.
 
 Esta é uma exigência de produção; sua inclusão no prompt não implementa controles nas aulas existentes nem certifica conformidade integral com WCAG.
+
+### 11.2. Aprender com imagens e voz — acesso para quem ainda não lê e escreve
+
+Diretriz permanente do Prof. André em 29/10/2026: registrar a Arquitetura de Acesso por Imagens, Voz e Palavra na planta biblioteca-arquiteturas/plantas/imagens-voz-palavra.md e oferecer uma entrada visível, na abertura da aula, para compreender relações do conteúdo por cenas, objetos, palavras escritas e orientação falada. O público inclui estudantes de diferentes séries que ainda não leem/escrevem; não reduzir esse acesso a troca de fontes, texto lido por voz ou decoração. Não exigir diagnóstico, escrita, leitura de comandos ou arraste para usar o apoio.
+
+Cada conceito precisa ter cena específica, palavra próxima e selecionável, frase contextual e descrição falada que relacione objeto, cor e significado. Exemplo: “Veja a folha clara com linhas azuis e um selo amarelo. Esse é um documento. Podemos conferir informações registradas, sua origem e sua data”. A cor localiza um detalhe junto de forma, objeto e posição; nunca é a única pista. Preservar significados dos códigos D/R/E/L, sem criar nova tabela de cores concorrente. Ilustrações autorais não são documentos históricos.
+
+Explicar também as relações da aula por uma sequência visual narrada, destacando a cena correspondente enquanto a voz a apresenta. Oferecer exploração por toque, repetição da palavra e aproximação com sua letra inicial destacada. Depois, reconhecer palavra/imagem com apoio, preservar primeira tentativa/pistas, reduzir ajuda e aplicar a relação em outra representação. Distinguir reconhecimento assistido, compreensão e aprendizagem da escrita; não prometer ancoragem automática, alfabetização completa ou mecanismo cerebral. Manter mediação docente e linguagem adequada à idade, sem infantilização.
+
+Voz começa somente após ação do usuário, pode ser repetida/parada e depende do dispositivo. Informar indisponibilidade/falha real e oferecer as cenas para mediação, sem fingir que houve reprodução. Não inferir escuta ou compreensão de um pedido de áudio. Imagem, palavra, explicação e controles permanecem visíveis; modos de leitura, teclado, contraste e celular continuam funcionando.
+
+Implementação compartilhada em publicacao/imagens: apoio inicial contextual em oito HTMLs cadastrados, por empacotamento. É complemento de acesso ao tema, não conversão integral de todos os 26 percursos ou substituição do processo de alfabetização. O treino tem registro separado da nota, não libera resultado, não contorna avaliação obrigatória e não altera respostas anteriores. Relatórios com adaptador fullReport recebem seus dados após a liberação normal; outros formatos exigem adaptador explícito. Não presumir migração de slides externos ou impressos. As IAs dos professores devem ler essa diretriz ao produzir novas aulas e cadastrar cenas/falas próprias do conteúdo.
 
 ## 12. Avaliação e registro do processo
 Separar treino assistido e momentos de aplicação. Declarar os critérios e denominadores antes da atividade.
@@ -565,6 +577,7 @@ O painel não modifica apresentações externas Gamma. Distinguir publicação c
 Esclarecimento do autor: o acesso visível deve dizer “Dislexia / TDAH”. Oferecer seleção direta “Dislexia · apoio à leitura” e “TDAH · foco e menos estímulos”, aplicando fonte e layout juntos em um clique, sem exigir conhecimento tipográfico. São atalhos opcionais e ajustáveis; não classificar alunos nem registrar diagnóstico. Manter alternativas por necessidade, controles manuais e restauração.
 
 Aplicar a diretriz a todos os suportes de produção: HTML, apresentações, documentos, pranchas e impressos. Em HTML, oferecer seleção interativa dos apoios e ajustes manuais; em slides/documentos/impressos, oferecer versões adaptadas e identificadas por finalidade de leitura, respeitando as possibilidades do formato. Links externos e materiais antigos exigem revisão própria: não afirmar migração sem verificar cada entrega. Os atalhos Dislexia/TDAH são opcionais, não exclusivos e não substituem adaptações individuais. Explicar o que cada configuração muda, permitir escolha por necessidade e preservar conteúdo, contraste, descrições e navegação. Não presumir que todos os diagnósticos tenham um mesmo perfil de fonte/layout; outros apoios devem ser definidos pela necessidade observável e orientação pertinente.
+
 
 
 

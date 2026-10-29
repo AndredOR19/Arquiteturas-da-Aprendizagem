@@ -68,3 +68,8 @@ O autor propõe acelerar soluções educacionais abrindo futuramente o núcleo c
 
 ## Esclarecimento sobre uso interno e venda externa
 O autor esclarece que qualquer escola, pública ou privada, poderá implantar e produzir materiais para uso interno; não quer restringir a mensalidade/ensino privado. Pretende reservar autorização para venda externa do sistema e de materiais autorais abrangidos. Substitui para planejamento as alternativas de uso gratuito apenas público ou por colaboradores. Escopo/licença ainda pendentes: distinguir código/obras concretas de ideias/métodos e criações independentes dos usuários. Nenhuma licença aplicada ou cobrança/visibilidade alterada. Registro DEC-20261028-010.
+
+
+## Decisão permanente — 29/10/2026
+
+DEC-20261029-001: o professor solicita arquitetura de acesso ao conteúdo para estudantes que ainda não leem/escrevem. Relações entre cenas, objeto/cor/forma, palavra escrita e voz explicam o tema e aproximam da escrita sem exigir digitação/leitura inicial. Planta imagens-voz-palavra no núcleo; capítulo LIV-005 no livro de Integração Estético-Semântica. Registro permanente não certifica eficácia/alfabetização nem conclui os demais livros. Implementação inicial em oito HTMLs, com estado de testes/publicação próprio.

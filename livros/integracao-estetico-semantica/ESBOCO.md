@@ -112,3 +112,8 @@ A fundamentação pedagógica ainda requer levantamento e leitura de fontes sobr
 
 ## Desdobramento de 28 de outubro de 2026
 O autor propôs uma camada de cadência textual articulada à dimensão espacial e semântica, incluindo um giro de 180 graus a precisar. O desenvolvimento está em livros/leitura-cadencia-textual/PROJETO.md e pesquisa/diario/2026-10-28.md. Esse registro não redefine silenciosamente as camadas anteriores nem presume equivalência entre giro gráfico e lateralização cerebral.
+
+
+## Capítulo complementar — 29/10/2026
+
+[Compreender a aula antes de dominar a escrita](CAPITULO_ACESSO_IMAGENS_VOZ.md): capítulo inicial sobre a Arquitetura de Acesso por Imagens, Voz e Palavra, de André de Oliveira Rodrigues. Proposta de integração ao eixo Acesso dentro da arquitetura (capítulo 10); numeração final a revisar com o manuscrito completo. Inclui exemplo contextual, circuito de composição, critérios e limites. Texto em desenvolvimento, com revisão do autor e fundamentação bibliográfica pendentes; não representa novo volume completo ou conclusão dos demais livros.

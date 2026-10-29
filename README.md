@@ -7,7 +7,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.18.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.19.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -110,3 +110,8 @@ Preferência visual registrada e aplicada inicialmente às aulas de História 19
 
 [Produção com n8n e GitHub](automacoes/n8n/producao/README.md): fluxo preparado para pedir materiais cadastrados ao motor privado, acompanhar a execução e entregar provas com revisão técnica e manifestos. [Executar pelo GitHub](https://github.com/AndredOR19/Biblioteca-de-Diagramacao/actions/workflows/estacao-automatica.yml). Inicialmente, capítulo demonstrativo e aula existente. n8n real, revisão por IA e publicação após aprovação permanecem etapas distintas. [Estado verificável](automacoes/n8n/producao/STATUS.json).
 
+
+
+## Aprender com imagens e voz — 2.19.0
+
+[Arquitetura permanente de acesso](biblioteca-arquiteturas/plantas/imagens-voz-palavra.md): cenas, orientação falada, objeto/cor/forma, significado, palavra e letra inicial para quem ainda não lê/escreve. [Apoio HTML](publicacao/imagens/README.md) com conteúdo inicial para os oito materiais cadastrados e registro separado da nota. [Capítulo em desenvolvimento](livros/integracao-estetico-semantica/CAPITULO_ACESSO_IMAGENS_VOZ.md). Conferir testes/publicação; sem promessa de alfabetização automática ou conversão integral de todos os percursos.

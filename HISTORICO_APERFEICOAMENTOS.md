@@ -3,6 +3,10 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.19.0 — 29/10/2026 — Acesso ao conteúdo por cenas e orientação falada
+
+Relato do professor: não encontrou nas aulas o apoio para estudantes que ainda não leem e escrevem. Conferência constatou painel de fontes/voz e diretrizes gerais de associação, sem percurso específico publicado. Implementado módulo compartilhado em publicacao/imagens, com entrada visível, cenas por tema, narração da relação entre objeto/cor/forma/palavra, destaque de cena, palavra/letra inicial, exploração por toque, reconhecimento, pista e aplicação em outra representação. Configurações para oito HTMLs cadastrados; treino separado da nota, relatório fullReport adaptado e bloqueios originais preservados. Diretriz permanente do autor registrada na nova planta imagens-voz-palavra 1.0.0, incorporada ao núcleo de consulta, e capítulo em desenvolvimento no livro Quando o conteúdo desenha a aula. Seção 11.2; planta leitura-acessivel 1.1.0 e catálogo 1.4.8. Estado de testes/publicação em publicacao/imagens/VERIFICACAO.md; não afirmar reprodução de áudio no Chromebook, alfabetização ou adaptação integral de todos os percursos a partir de teste técnico.
+
 ## 2.18.0 — 29/10/2026 — Estação coordenada de produção
 
 Pedido do Prof. André Rodrigues: automatizar produção, diagramação e revisão de materiais editoriais e aulas, aproveitando as duas bibliotecas. Implementados executor privado de provas cadastradas, conferência técnica, preservação/versionamento, imagens e manifestos, e workflow n8n de solicitação/acompanhamento/pacote. Primeiro piloto: capítulo demonstrativo existente e aula História 192 de 29/10, sem reescrever originais ou publicar. Revisão linguística por IA e autoria a partir de tema, aprovação/publicação, Supabase e Vercel permanecem etapas distintas/pendentes de conexão. Doze ensaios locais da orquestração e nove testes do executor; registrar evidência de produção remota em automacoes/n8n/producao/STATUS.json após conferência. Seção 20.1; catálogo 1.4.7 reconciliado.
@@ -234,6 +238,7 @@ Solicitação do Prof. André Rodrigues: receber interações da página automat
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 
 
 
