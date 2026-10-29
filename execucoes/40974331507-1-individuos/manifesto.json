@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "versao_laboratorio": "0.1.0",
+  "criado_em_utc": "2026-10-29T23:37:18.215425+00:00",
+  "identificador_experimento": "f269fd95998b5d2ae1a509742de9e0358abd5ac7c2d5c5c77d992c78acbfb636",
+  "dados_reais": false,
+  "chamadas_ia": 0,
+  "tokens_de_api_ia_no_motor": 0,
+  "codigo_sha256": {
+    "laboratorio.py": "f3d6b7a8f771e4d51747662052d8148b9d372d3135115dafc00b89efaf1333ee",
+    "modelos.py": "11765be9a9e89a1174ca8107705ddf9c796947b812df797663d6cedf29fa3ea5",
+    "relatorios.py": "17b3767fd2644a00341216d4fbff8fc73d19d77e634c37b05a5fdc72768185a1",
+    "inventario.py": "8bcae57f1435429d8b606608c24cfe3b741cfc11b212742e1d909ee5a239c02c",
+    "requirements.txt": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+  },
+  "arquivos_sha256": {
+    "configuracao.json": "ad697411b9ca1380bef97ae2412e3bdae281a24a3f0b3ee187c9ced1386f2d0b",
+    "resultados.json": "07bf659c2b0d222234f2f9a4a2d4bf9335ceb18696ebbb5b50d566655709605e",
+    "resultados.csv": "5868282be9ed93955a3b75ea632d96fa16c388543fbf580ee09a46a243cc81f8",
+    "RELATORIO.md": "25c9baed218d73f231e25c57e65675c1d40e33105f8700d8f3f41072e0e2cc19",
+    "RESUMO.md": "90ac3b17f2bba196671e7cfc57d1245433aedf182a364dc1e5d7b236fdb17e58",
+    "grafico.png": "9e586a05e3693726635d75d28602e53c08b61e52bc34d4dea4e2875428f48c5b",
+    "relatorio.html": "fe5b11629beb05c0db37234f3c33be24984b8a35390328fd341cd4169a8ddb79",
+    "inventario_arquiteturas.json": "c7d4784cf856e6e6eecf2000802e1d74013f09a43a6b2a969b4907ad4e9f704f",
+    "PROGRESSAO.md": "6831ac2294752c5d7cb837525536b236e657f3c02c88a98f59e6382a84e29808"
+  },
+  "ambiente": {
+    "python": "3.12.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "sistema": "Linux"
+  },
+  "github": {
+    "commit": "4c99b596141c61214ea67e943b19926c514b0b91",
+    "execucao": "40974331507",
+    "tentativa": "1"
+  },
+  "inferencia": "Cenário ilustrativo, sem calibração ou validação empírica."
+}
