@@ -81,6 +81,15 @@
       "destino": "aulas/demonstracao-matematica-medidas-6",
       "titulo": "Matemática 6º ano — Medir para organizar · aula demonstrativa",
       "versao": "1.0.0"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/figuras-de-linguagem-metafora-comparacao",
+      "destino": "aulas/figuras-de-linguagem-metafora-comparacao",
+      "titulo": "Língua Portuguesa — A Magia das Palavras · Metáfora e comparação",
+      "versao": "1.1.0",
+      "estilo_visual": "codigo-de-referencia-neobrutalista-fredoka",
+      "atualizado_em": "2026-10-29"
     }
   ]
 }

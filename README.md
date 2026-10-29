@@ -7,7 +7,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.19.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.20.1](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
