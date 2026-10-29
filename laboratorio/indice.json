@@ -492,17 +492,40 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40902278115",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "d75e01afaa29b056e2f9dbca27f01130a0db445b",
+      "pasta": "execucoes/40902278115-1-turmas",
+      "experimento": "f32133ff6b5c354a405e9bf0e6e85b224cde3a44b3632d1486920c0646d699a9",
+      "diferencas": {
+        "novas": [
+          "imagens-voz-palavra"
+        ],
+        "removidas": [],
+        "alteradas": [
+          "leitura-acessivel"
+        ],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json",
+          "pesquisa/producoes.json",
+          "pesquisa/registros.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "d6c7415846acaad19a916e62175727d2cc5447bad2cffecc27e9b1af491feefb",
+      "biblioteca-arquiteturas/catalogo.json": "54a1d2029d99feed51d858c8a6467d4977e87a79992c1e29f433b25a2e9af172",
       "pesquisa/simulacoes/arquiteturas_externas.json": "a46655384f0f5c1d01ff7db55e656a1d338b47948a8cf0563f503c89606a3be3",
       "pesquisa/simulacoes/catalogo_modelos.json": "176c3edda89e9564db8192aaeba74ab45044b649885d926675ff058c50c8c69f",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "fefd98a8c6137114a22787ea1b2779b59caf39cefb416e0a501f638612fdbde1",
-      "pesquisa/registros.json": "18b55833e06aef5031791276b42cef6c2960b983a5d11d63a879b855159cfa7e",
-      "pesquisa/producoes.json": "44074a7d71d2a4501f0dad1fd70c405f9d9760b54c10eb9dda4a26e4f368ef9a"
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "d0825e8fb0f835bba9894e40d0d051b6b5b1b295e1c88bc1fabd6d851c4c01e9",
+      "pesquisa/registros.json": "24f47d102167da759c6fde6ad2eba7916b5789ab741fee7485aeae88737a59bf",
+      "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
     },
     "arquiteturas": [
       {
@@ -775,10 +798,10 @@
         "id": "leitura-acessivel",
         "nome": "Acessibilidade de leitura e preferências tipográficas",
         "dominio": "pedagogico",
-        "versao_documental": "1.0.0",
+        "versao_documental": "1.1.0",
         "estado_documental": "diretriz_documentada",
         "fontes_sha256": {
-          "biblioteca-arquiteturas/plantas/leitura-acessivel.md": "0b4d63c8a3eba2b837446a670e1a58cb238e228af8d35602dd179c5244ea43be"
+          "biblioteca-arquiteturas/plantas/leitura-acessivel.md": "116c1a9e6e85e160a830ae2321b5dcff97cffc1345ff37bda79e2fa048f6b489"
         },
         "estado_modelagem": "aguardando_formalizacao",
         "modulos_mecanisticos": [],
@@ -788,7 +811,7 @@
         ],
         "calibracao_empirica": false,
         "validacao_empirica": false,
-        "revisao_sha256": "5b9b10b4a02dea1623efe21de0290e3062b0c5345d052a3bdcc50053642026b7"
+        "revisao_sha256": "7528bcba2e42efb89ee0d9c3eaa9f52017900a1828c2eab592eb6c237b92514c"
       },
       {
         "id": "avaliacao-experiencia",
@@ -846,6 +869,25 @@
         "calibracao_empirica": false,
         "validacao_empirica": false,
         "revisao_sha256": "e4ba6e8bf4ed359706f5019117a8474e23b9ff3e91cd7ac49ba557ff3809853c"
+      },
+      {
+        "id": "imagens-voz-palavra",
+        "nome": "Arquitetura de Acesso por Imagens, Voz e Palavra",
+        "dominio": "pedagogico",
+        "versao_documental": "1.0.0",
+        "estado_documental": "diretriz_documentada",
+        "fontes_sha256": {
+          "biblioteca-arquiteturas/plantas/imagens-voz-palavra.md": "3bc7209a4ab699b1128cd7a378ce2e83848dabbe54bf8095c9960184527df72b"
+        },
+        "estado_modelagem": "aguardando_formalizacao",
+        "modulos_mecanisticos": [],
+        "modulos_de_apoio": [
+          "planejamento-individual",
+          "planejamento-turmas"
+        ],
+        "calibracao_empirica": false,
+        "validacao_empirica": false,
+        "revisao_sha256": "3118bd192de1f664d764160b4b3b0e1f909d31dfb8a76726ce0619306683721b"
       },
       {
         "id": "cabala",

@@ -1,0 +1,23 @@
+{
+  "execucao": "40902278115",
+  "tentativa": "1",
+  "cenario": "turmas",
+  "commit_fonte": "d75e01afaa29b056e2f9dbca27f01130a0db445b",
+  "pasta": "execucoes/40902278115-1-turmas",
+  "experimento": "f32133ff6b5c354a405e9bf0e6e85b224cde3a44b3632d1486920c0646d699a9",
+  "diferencas": {
+    "novas": [
+      "imagens-voz-palavra"
+    ],
+    "removidas": [],
+    "alteradas": [
+      "leitura-acessivel"
+    ],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "biblioteca-arquiteturas/catalogo.json",
+      "pesquisa/producoes.json",
+      "pesquisa/registros.json"
+    ]
+  }
+}
