@@ -169,6 +169,19 @@
       "depende_de": [
         "RED-001"
       ]
+    },
+    {
+      "id": "INF-003",
+      "tipo": "infraestrutura",
+      "titulo": "n8n: coleta, insights e adaptação situada",
+      "estado": "primeiro_workflow_preparado_nao_implantado",
+      "caminho": "automacoes/n8n/README.md",
+      "responsavel": "Prof. André com apoio técnico do assistente",
+      "proximo_marco": "Identificar instância e concluir teste real fictício do recebimento final.",
+      "criterio_conclusao": "Dados privados recebidos com confirmação; eventos parciais, insights e revisões testados/versionados; não implica eficácia pedagógica.",
+      "depende_de": [
+        "INF-002"
+      ]
     }
   ],
   "projetos_anteriores_documentados": [

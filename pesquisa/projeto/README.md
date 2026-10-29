@@ -1,10 +1,24 @@
 # Proposta de mestrado — Arquiteturas da Aprendizagem
 
-**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.1.0 · **Data:** 28/10/2026
+**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.2.0 · **Data:** 28/10/2026
 
 > Laboratório de pesquisa e produção educacional apoiado por arquiteturas pedagógicas versionadas, simulação de cenários e avaliação futura em escolas, com adaptação progressiva da infraestrutura de software da Sofia Cog OS.
 
 Este README apresenta a metodologia, o que foi construído e a sequência de implantação proposta para discussão com programas de mestrado. O programa maior admite várias frentes; a dissertação deverá delimitar uma pergunta, uma intervenção curricular e instrumentos viáveis com a orientação.
+
+## Delimitação central: personalização do material didático
+
+O objetivo definido pelo autor é ampliar as opções de **material didático personalizado**, complementar à aula do professor. A aula mantém exposição, proximidade, interação e mediação humana. A personalização incide sobre linguagem, representações, organização, leitura/áudio, comandos, apoios e formas de interação do material disponibilizado ao estudante. Não implica substituir a aula expositiva nem automatizar a relação pedagógica.
+
+O material deve admitir uma configuração individual que possa ser revista com a interação e a observação docente. Necessidades são contextuais e podem mudar; um diagnóstico, quando legitimamente conhecido, não define sozinho a configuração. O sistema deve oferecer opções, registrar o que foi aplicado e permitir desfazer ajustes, preservando objetivo curricular e respostas anteriores, com adaptações explícitas quando necessárias. “Ajuste fino universal” designa a abrangência pretendida de opções e a possibilidade de ajuste individual, cuja adequação será verificada; não uma solução única ou benefício já comprovado para todos.
+
+## Circuito de personalização incorporado em 28/10/2026
+
+Interação com o material + observação docente → necessidade identificada → ajuste local do material → nova interação e verificação → revisão documentada. Formulação do autor: “Eu interajo com o mundo e devolvo pra ele soluções”. O estudante dispõe de opções enquanto o professor conserva sua aula e sua proximidade com a turma.
+
+O projeto passa a incluir como frente explícita a falta de opções de materiais para necessidades individuais, incluindo estudantes neurodivergentes e estudantes com barreiras de leitura, escrita ou acesso. Pretende reduzir barreiras, ampliar participação, apoiar compreensão/autonomia e tornar a revisão dos materiais contínua e rastreável. Os benefícios serão investigados, não presumidos a partir da instalação de software.
+
+[Objetivos, benefícios, método e estado da personalização](ADAPTACAO_CONTINUA.md). [Workflow n8n e testes](../../automacoes/n8n/README.md). Primeiro fluxo de recebimento final preparado; coleta contínua de progresso, canal de insights, adaptação individual ao vivo e análise integrada permanecem por implementar e testar. O n8n orquestra integrações e preserva a prioridade já decidida de preparar os bancos/Supabase antes da Sofia, com Vercel ao final.
 
 ## 1. Problema e contribuição pretendida
 
@@ -49,6 +63,7 @@ O recorte AEE foi proposto pelo assistente para discussão; a arquitetura princi
 | Acompanhamento longitudinal | Esquema e ferramentas preparados; não há base empírica de pesquisa confirmada |
 | Simulações | Modelos de planejamento por indivíduos/turmas executados no GitHub Actions com dados sintéticos e sem chamadas a IA |
 | Coleta online | Implantação e integração em campo ainda pendentes; conferir [estado](../../coleta/STATUS.json) |
+| n8n e material personalizado | Primeiro workflow preparado, 13 testes locais novos e 23 testes existentes preservados; personalização contínua ainda por implementar e investigar |
 | Sofia Cog OS | Especificação e amostra de código consultadas; adaptação educacional e auditoria de produção pendentes |
 | Supabase educacional | Preparação autorizada como próxima frente; acesso, projeto de destino e banco ainda não conferidos nesta etapa |
 | Bancos de vetores de revelação | Inclusão solicitada; fontes conceituais localizadas, estrutura concreta do banco ainda a inventariar |
@@ -109,6 +124,7 @@ Um inventário do Supabase de destino e uma proposta revisável de schema/migra�
 
 ## 10. Documentação de apoio
 
+- [Material didático personalizado: objetivos, benefícios e método](ADAPTACAO_CONTINUA.md)
 - [Projeto, cronograma e prospecção acadêmica](PROJETO.md)
 - [Definição técnica da Sofia Cog OS](SOFIA_COGOS.md)
 - [Viabilidade e marcos](VIABILIDADE.md)
@@ -119,3 +135,4 @@ Um inventário do Supabase de destino e uma proposta revisável de schema/migra�
 - [Prompt mestre](../../PROMPT_MESTRE_AULAS_DIGITAIS.md)
 
 **Proveniência:** decisão direta do autor em 28/10/2026; documentos do projeto e consulta ao acervo técnico/conceitual autorizado. As fontes reservadas permanecem no acervo de origem. Apoio do assistente na organização e redação; nenhuma nova conexão, migração Supabase, importação vetorial ou implantação Vercel foi executada nesta entrega.
+

@@ -1,0 +1,272 @@
+{
+  "name": "Arquiteturas — receber relatórios v1",
+  "active": false,
+  "nodes": [
+    {
+      "id": "Receber_relat_rio",
+      "name": "Receber relatório",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "arquiteturas-relatorios-v1",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "https://andredor19.github.io"
+        }
+      },
+      "webhookId": "664ac5b8-4a02-493f-a112-56fb487c81c8"
+    },
+    {
+      "id": "Configurar_receptor",
+      "name": "Configurar receptor",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "// Preencher somente na instância privada do n8n. Não incluir convites.\nreturn [{json:{...$json,config:{receptor:'https://script.google.com/macros/s/PREENCHER/exec',ambiente:'teste'}}}];"
+      }
+    },
+    {
+      "id": "Validar_relat_rio",
+      "name": "Validar relatório",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "jsCode": "/* Contrato compartilhado entre navegador, receptor e testes. */\n(function (root) {\n  'use strict';\n  const indisponivel = 'Recurso não disponibilizado';\n  const opcoes = Object.freeze({\n    legibilidade: ['Fácil','Em parte fácil','Difícil','Não sei avaliar'],\n    organizacao: ['Sim','Em parte','Não','Não usei essas partes'],\n    navegacao: ['Sim','Em parte','Não','Não testei'],\n    controles: ['Sim','Em parte','Não','Não usei',indisponivel],\n    fonte_percepcao: ['Mais confortável','Sem diferença percebida','Menos confortável','Não troquei','Não sei avaliar',indisponivel],\n    espacamento_percepcao: ['Mais confortável','Sem diferença percebida','Menos confortável','Não ajustei','Não sei avaliar',indisponivel],\n    representacoes_percepcao: ['Ajudaram','Ajudaram em parte','Atrapalharam','Não percebi diferença','Não usei',indisponivel],\n    dificuldades: ['Texto','Organização','Botões','Fontes ou ajustes','Imagens ou fórmulas','Áudio','Celular ou tela','Outra','Não percebi dificuldade'],\n    sugestao: ['Quero comentar','Não tenho sugestão agora']\n  });\n  function falha(codigo, mensagem) {\n    const e = new Error(mensagem); e.codigo = codigo; throw e;\n  }\n  function texto(v, nome, max, opcional) {\n    if (opcional && (v === undefined || v === null || v === '')) return '';\n    if (typeof v !== 'string' || !v.trim() || v.length > max) falha('DADOS_INVALIDOS', nome + ' ausente ou inválido.');\n    return v;\n  }\n  function inteiro(v, nome, min, max) {\n    if (!Number.isInteger(v) || v < min || v > max) falha('DADOS_INVALIDOS', nome + ' inválido.');\n    return v;\n  }\n  function serializar(v) {\n    if (v === null || typeof v !== 'object') return JSON.stringify(v);\n    if (Array.isArray(v)) return '[' + v.map(serializar).join(',') + ']';\n    return '{' + Object.keys(v).sort().map(k => JSON.stringify(k) + ':' + serializar(v[k])).join(',') + '}';\n  }\n  function validarAvaliacao(e) {\n    const pendencias = [];\n    if (!e || e.versao !== '1.1.0') return ['versao_questionario'];\n    const r = e.respostas || {};\n    Object.keys(opcoes).forEach(k => {\n      if (k === 'dificuldades') {\n        if (!Array.isArray(r[k]) || !r[k].length || new Set(r[k]).size !== r[k].length || r[k].some(v => !opcoes[k].includes(v)) || (r[k].includes('Não percebi dificuldade') && r[k].length !== 1)) pendencias.push(k);\n      } else if (!opcoes[k].includes(r[k])) pendencias.push(k);\n    });\n    if (r.sugestao === 'Quero comentar' && (typeof e.comentario !== 'string' || !e.comentario.trim())) pendencias.push('comentario');\n    if (e.comentario !== undefined && (typeof e.comentario !== 'string' || e.comentario.length > 5000)) pendencias.push('comentario');\n    if (e.confirmada !== true) pendencias.push('confirmacao');\n    return [...new Set(pendencias)];\n  }\n  function validar(p) {\n    if (!p || p.schema_version !== '1.0.0') falha('VERSAO_INVALIDA','Formato de relatório não reconhecido.');\n    if (!/^[a-zA-Z0-9_-]{16,100}$/.test(p.submission_id || '')) falha('DADOS_INVALIDOS','ID da entrega inválido.');\n    if (!['teste','producao'].includes(p.ambiente)) falha('DADOS_INVALIDOS','Ambiente inválido.');\n    const a = p.aula || {}, s = p.estudante || {}, l = p.aprendizagem || {};\n    ['id','titulo','versao','prompt'].forEach(k => texto(a[k],'Aula: '+k,k==='titulo'?300:100));\n    ['escola','turma','componente'].forEach(k => texto(a[k],'Aula: '+k,200,true));\n    texto(s.codigo,'Código do estudante',100); texto(s.nome,'Nome informado',200,true);\n    const total = inteiro(l.percursos_total,'Percursos previstos',26,1000);\n    if (l.percursos_concluidos !== total || !Array.isArray(l.percursos) || l.percursos.length !== total) falha('ATIVIDADES_PENDENTES','Conclua todos os percursos antes de enviar.');\n    const ids = new Set(); let acertos = 0, tentativas = 0;\n    l.percursos.forEach((r, i) => {\n      texto(String(r.id === undefined ? '' : r.id),'ID do percurso',100);\n      if (ids.has(String(r.id))) falha('DADOS_INVALIDOS','Percurso repetido.');\n      ids.add(String(r.id));\n      if (r.concluido !== true || !Array.isArray(r.tentativas) || !r.tentativas.length || !Array.isArray(r.pistas)) falha('ATIVIDADES_PENDENTES','Percurso incompleto: '+(i+1));\n      r.tentativas.forEach(t => { if (!t || typeof t.correta !== 'boolean' || !Object.prototype.hasOwnProperty.call(t,'resposta')) falha('DADOS_INVALIDOS','Tentativa incompleta.'); });\n      if (r.tentativas[r.tentativas.length-1].correta !== true) falha('ATIVIDADES_PENDENTES','O percurso precisa ser concluído após correção.');\n      if (r.acerto_inicial !== r.tentativas[0].correta || serializar(r.primeira_resposta) !== serializar(r.tentativas[0].resposta)) falha('DADOS_INVALIDOS','Primeira resposta não corresponde ao histórico.');\n      if (r.acerto_inicial) acertos++;\n      tentativas += r.tentativas.length;\n    });\n    if (l.acertos_iniciais !== acertos || l.tentativas !== tentativas) falha('DADOS_INVALIDOS','Totais não correspondem ao histórico.');\n    if (typeof l.nota !== 'number' || !Number.isFinite(l.nota) || typeof l.nota_maxima !== 'number' || !Number.isFinite(l.nota_maxima) || l.nota_maxima <= 0 || l.nota < 0 || l.nota > l.nota_maxima) falha('DADOS_INVALIDOS','Nota informada fora da escala.');\n    const pendencias = validarAvaliacao(p.experiencia);\n    if (pendencias.length) falha('AVALIACAO_PENDENTE','Responda e confirme a avaliação: '+pendencias.join(', '));\n    const pref=p.experiencia.preferencias;\n    if(pref!==undefined && (!pref || typeof pref!=='object' || Array.isArray(pref))) falha('DADOS_INVALIDOS','Preferências inválidas.');\n    ['fonte_solicitada','tamanho','entrelinha','largura'].forEach(k=>{const v=pref&&pref[k];if(v!==undefined && v!==null && !['string','number','boolean'].includes(typeof v))falha('DADOS_INVALIDOS','Preferência inválida: '+k);if(typeof v==='string'&&v.length>200)falha('DADOS_INVALIDOS','Preferência maior que o limite: '+k);if(typeof v==='number'&&!Number.isFinite(v))falha('DADOS_INVALIDOS','Preferência numérica inválida.');});\n    texto(p.relatorio_texto,'Relatório completo',700000);\n    if (p.acompanhamento !== undefined) validarAcompanhamento(p.acompanhamento);\n    const raw = serializar(p);\n    if (raw.length > 1000000) falha('RELATORIO_GRANDE','Relatório maior que o limite; preserve o arquivo integral e solicite orientação.');\n    return {raw:raw, acertos:acertos, tentativas:tentativas};\n  }\n  function validarAcompanhamento(a) {\n    if (!a || a.versao !== '1.0.0') falha('DADOS_INVALIDOS','Acompanhamento: versão inválida.');\n    const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;\n    if (!uuid.test(a.aluno_id || '') || !uuid.test(a.matricula_id || '')) falha('DADOS_INVALIDOS','Acompanhamento: IDs estáveis inválidos.');\n    inteiro(a.ano_letivo,'Ano letivo',2000,2200);\n    ['etapa','serie','fonte_confirmacao','protocolo_id','versao_protocolo','metodo'].forEach(k=>texto(a[k],'Acompanhamento: '+k,500));\n    texto(a.coorte_id,'Coorte',100,true);\n    if (typeof a.data_aplicacao !== 'string' || !/^\\d{4}-\\d{2}-\\d{2}$/.test(a.data_aplicacao) || !Number.isFinite(Date.parse(a.data_aplicacao)) || new Date(a.data_aplicacao).toISOString().slice(0,10)!==a.data_aplicacao) falha('DADOS_INVALIDOS','Data de aplicação inválida.');\n    if (!Array.isArray(a.medidas) || a.medidas.length>1000) falha('DADOS_INVALIDOS','Medidas de acompanhamento inválidas.');\n    a.medidas.forEach(m=>{\n      if(!m || !['inicial','treino','pos','retencao','transferencia'].includes(m.momento)) falha('DADOS_INVALIDOS','Momento da medida inválido.');\n      ['indicador','instrumento_id','versao_instrumento','rubrica','unidade','fonte'].forEach(k=>texto(m[k],'Medida: '+k,500));\n      if(m.valor===null) texto(m.motivo_ausencia,'Motivo da ausência',500);\n      else if(typeof m.valor!=='number' || !Number.isFinite(m.valor) || (m.motivo_ausencia!==null && m.motivo_ausencia!==undefined)) falha('DADOS_INVALIDOS','Valor ou ausência da medida inválido.');\n      if(m.denominador!==null && (typeof m.denominador!=='number' || !Number.isFinite(m.denominador) || m.denominador<=0)) falha('DADOS_INVALIDOS','Denominador da medida inválido.');\n    });\n    return a;\n  }\n  function celula(v) {\n    if (v === undefined || v === null) return '';\n    if (typeof v === 'string' && /^[\\s]*[=+\\-@]/.test(v)) return \"'\"+v;\n    return v;\n  }\n  const api=Object.freeze({opcoes:opcoes,validar:validar,validarAvaliacao:validarAvaliacao,validarAcompanhamento:validarAcompanhamento,serializar:serializar,celula:celula,falha:falha});\n  root.ColetaContrato=api;\n  if (typeof module !== 'undefined' && module.exports) module.exports=api;\n})(typeof globalThis !== 'undefined' ? globalThis : this);\n\n\n\nreturn [{json:(function prepararEntrada(body, config, contrato) {\n  const recusar=(codigo,mensagem,status=400)=>({encaminhar:false,status,recibo:{ok:false,codigo,mensagem}});\n  if(!config||!/^https:\\/\\/script\\.google\\.com\\/macros\\/s\\/[A-Za-z0-9_-]+\\/exec$/.test(config.receptor||'')||config.receptor.includes('PREENCHER')) return recusar('NAO_CONFIGURADO','Coleta ainda não configurada.',503);\n  if(!['teste','producao'].includes(config.ambiente))return recusar('NAO_CONFIGURADO','Ambiente de coleta não configurado.',503);\n  let e;\n  try {\n    const raw=typeof body==='string'?body:JSON.stringify(body);\n    if(typeof raw!=='string'||raw.length>1100000)return recusar('DADOS_INVALIDOS','Relatório ausente ou maior que o limite.');\n    e=JSON.parse(raw);\n    if(!e||typeof e.token!=='string'||!/^[a-f0-9]{64}$/.test(e.token))return recusar('CONVITE_INVALIDO','Informe um convite individual válido.');\n    contrato.validar(e.payload);\n    if(config.ambiente==='teste'&&e.payload.ambiente!=='teste')return recusar('SOMENTE_TESTE','Coleta ainda em modo de teste.');\n  }catch(_){return recusar('DADOS_INVALIDOS','Relatório incompleto ou inválido. Preserve o arquivo e revise as atividades e a avaliação.');}\n  return {encaminhar:true,receptor:config.receptor,submission_id:e.payload.submission_id,envelope:{token:e.token,payload:e.payload}};\n})($json.body,$json.config,globalThis.ColetaContrato)}];"
+      }
+    },
+    {
+      "id": "Pode_encaminhar",
+      "name": "Pode encaminhar",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        720,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "validado",
+              "leftValue": "={{ $json.encaminhar }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "Persistir_na_coleta_existente",
+      "name": "Persistir na coleta existente",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        -100
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.receptor }}",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "text/plain;charset=UTF-8",
+        "body": "={{ JSON.stringify($json.envelope) }}",
+        "options": {
+          "timeout": 20000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "onError": "continueRegularOutput",
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000
+    },
+    {
+      "id": "Conferir_confirma__o",
+      "name": "Conferir confirmação",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        -100
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function normalizarRecibo(value, submissionId) {\n  const falha=(codigo,mensagem,status=502)=>({status,recibo:{ok:false,codigo,mensagem}});\n  let r=value;\n  try{if(typeof r==='string')r=JSON.parse(r);}catch(_){return falha('RECEPTOR_INDISPONIVEL','Não foi possível confirmar o armazenamento. Reenvie com o mesmo ID.');}\n  if(r&&r.ok===false){\n    const mensagens={CONVITE_INVALIDO:'Convite inválido ou expirado.',SOMENTE_TESTE:'Coleta ainda em modo de teste.',DESATIVADO:'Recebimento pausado.',CONFLITO:'Este ID já corresponde a outro conteúdo. Solicite revisão ao professor.',ENTREGA_EXISTENTE:'Já existe uma entrega para este convite. Solicite revisão ao professor.',OCUPADO:'Serviço ocupado. Reenvie com o mesmo ID.',AVALIACAO_PENDENTE:'Responda e confirme a avaliação.',ATIVIDADES_PENDENTES:'Conclua todas as atividades.',DADOS_INVALIDOS:'Relatório inválido. Preserve o arquivo e solicite orientação.'};\n    return falha(Object.hasOwn(mensagens,r.codigo)?r.codigo:'ERRO_ARMAZENAMENTO',mensagens[r.codigo]||'Não foi possível confirmar o armazenamento. Reenvie com o mesmo ID.',200);\n  }\n  if(!r||r.ok!==true||r.estado!=='recebido'||r.submission_id!==submissionId||!/^[a-f0-9]{64}$/.test(r.sha256||'')||!/^ARQ-[A-F0-9]{16}$/.test(r.protocolo||'')||typeof r.recebido_em!=='string'||!Number.isFinite(Date.parse(r.recebido_em))||typeof r.duplicada!=='boolean')return falha('RECIBO_INVALIDO','O armazenamento não forneceu confirmação válida. Reenvie com o mesmo ID.');\n  return {status:200,recibo:{ok:true,estado:'recebido',submission_id:r.submission_id,protocolo:r.protocolo,recebido_em:r.recebido_em,sha256:r.sha256,duplicada:r.duplicada,versao_coletor:'1.0.0'}};\n})($json,$('Validar relatório').first().json.submission_id)}];"
+      }
+    },
+    {
+      "id": "Responder_recibo",
+      "name": "Responder recibo",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        1440,
+        -100
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json.recibo }}",
+        "options": {
+          "responseCode": "={{ $json.status }}",
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "https://andredor19.github.io"
+              },
+              {
+                "name": "Cache-Control",
+                "value": "no-store"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "Responder_pend_ncia",
+      "name": "Responder pendência",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        960,
+        140
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json.recibo }}",
+        "options": {
+          "responseCode": "={{ $json.status }}",
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "https://andredor19.github.io"
+              },
+              {
+                "name": "Cache-Control",
+                "value": "no-store"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Receber relatório": {
+      "main": [
+        [
+          {
+            "node": "Configurar receptor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Configurar receptor": {
+      "main": [
+        [
+          {
+            "node": "Validar relatório",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validar relatório": {
+      "main": [
+        [
+          {
+            "node": "Pode encaminhar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pode encaminhar": {
+      "main": [
+        [
+          {
+            "node": "Persistir na coleta existente",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Responder pendência",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Persistir na coleta existente": {
+      "main": [
+        [
+          {
+            "node": "Conferir confirmação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Conferir confirmação": {
+      "main": [
+        [
+          {
+            "node": "Responder recibo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "executionTimeout": 60,
+    "saveDataErrorExecution": "none",
+    "saveDataSuccessExecution": "none",
+    "saveManualExecutions": false,
+    "saveExecutionProgress": false
+  },
+  "pinData": {},
+  "tags": []
+}

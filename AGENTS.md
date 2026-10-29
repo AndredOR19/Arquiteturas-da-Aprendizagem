@@ -83,3 +83,11 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 
 ## Fontes e layout
 - Cumprir seção 33: botão visível e opções explicadas, perfis reversíveis, fonte real/licenciada e fallback informado. Não exigir diagnóstico nem prometer tratamento. Conferir empacotamento, teclado/celular e preservação das respostas.
+
+
+## n8n, insights e adaptação situada
+- Consultar seção 26.1 do prompt e automacoes/n8n/README.md e STATUS.json.
+- Reutilizar a coleta e os convites existentes; relatório final completo não é evento parcial.
+- Separar necessidade percebida pelo professor, adaptação local e mudança geral; preservar autoria, contexto, versões e histórico das respostas.
+- Conferir código, importação, implantação e teste real separadamente; workflow preparado não é coleta ativa.
+- Regenerar JSON após mudar contrato/logica e executar os testes n8n e coleta. Não publicar envelopes, convites, observações identificáveis ou credenciais.

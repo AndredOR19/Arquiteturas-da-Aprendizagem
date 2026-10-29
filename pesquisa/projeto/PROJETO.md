@@ -2,6 +2,13 @@
 ## Projeto de pesquisa, rede de escolas e prospecção acadêmica
 Prof. André de Oliveira Rodrigues • Vacaria, Rio Grande do Sul • 28 de outubro de 2026
 
+### Personalização dos materiais: ampliação definida pelo autor
+O projeto incorpora o desenvolvimento e a investigação de materiais didáticos ajustáveis às necessidades de cada estudante, incluindo estudantes neurodivergentes. A aula do professor mantém seu caráter expositivo, sua proximidade e sua mediação; a personalização se concentra no material disponibilizado e em seus recursos de acesso, explicação e interação.
+
+O circuito reúne registros da interação, dificuldades declaradas e insights docentes; produz ajustes locais e documenta seu uso e resultados. O autor denomina o horizonte de opções de “ajuste fino universal”. Essa expressão não significa uniformidade de percurso ou eficácia universal comprovada. Objetivos, benefícios pretendidos, método, relação com os livros e estado técnico constam em [ADAPTACAO_CONTINUA.md](ADAPTACAO_CONTINUA.md).
+
+O primeiro workflow n8n de recebimento final está preparado e testado localmente com simulações; implantação e coleta real pendentes. A extensão a eventos parciais, configurações individuais durante o uso e revisões automáticas será desenvolvida separadamente. Essa ampliação do programa não substitui o recorte acadêmico delimitado abaixo.
+
 ### Proposta central
 Investigar como materiais digitais que explicitam relações entre conceitos, exemplos e representações podem apoiar a compreensão, a retenção e a aplicação do conhecimento na educação básica. O projeto articula autoria docente, desenvolvimento de software, simulação de cenários e avaliação em contexto escolar.
 
@@ -312,3 +319,4 @@ https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-se
 https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf/view
 
 Autoria das arquiteturas e das propostas: Prof. André de Oliveira Rodrigues. Apoio de IA: organização, pesquisa de fontes, redação e análise técnica preliminar, sujeitos à revisão do proponente e da instituição.
+

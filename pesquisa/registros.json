@@ -468,6 +468,45 @@
       "proxima_acao": "Receber parecer completo, conferir fontes e definir contraste e medidas antes de integrar novo modelo.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Motor, workflow, inventário, testes e documentação técnica; sem autoria das formulações do professor."
+    },
+    {
+      "id": "DEC-20261028-007",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Material didático personalizado, insights e retorno à realidade",
+      "formulacao": "Eu interajo com o mundo e devolvo pra ele soluções",
+      "natureza": "decisao_de_infraestrutura_e_metodo",
+      "tipo_texto": "citacao_direta_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "primeiro_workflow_preparado_demais_etapas_especificadas",
+      "evidencia": {
+        "tipo": "formulacao_autoral_e_testes_tecnicos_simulados",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [
+        "aee",
+        "epc",
+        "asa"
+      ],
+      "producoes": [
+        "INF-003",
+        "MES-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-001",
+        "DEC-20261028-002"
+      ],
+      "proxima_acao": "Identificar instância n8n e implantar/testar circuito final; depois implementar eventos parciais, entrada de insights e adaptação local versionada.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Tradução operacional, código e testes; a percepção, a formulação e a direção são do autor.",
+      "delimitacao_autoral": "Personalizar o material didático disponibilizado; a aula mantém exposição, proximidade e mediação do professor.",
+      "beneficio_pretendido": "Ampliar opções de acesso e interação, com ajustes individuais revistos pela experiência e pelos registros."
     }
   ]
 }

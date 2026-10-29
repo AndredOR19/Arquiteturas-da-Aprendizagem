@@ -1,8 +1,13 @@
 import './contrato.js';
 const C=globalThis.ColetaContrato;
 
-export function criarColetor({endpoint, storage, fetchImpl=globalThis.fetch, timeoutMs=20000, prefixo='arquiteturas.coleta.v1'}) {
-  if(!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint||'')) throw new Error('Informe o endereço publicado /exec do receptor.');
+export function criarColetor({endpoint, transporte='apps-script', storage, fetchImpl=globalThis.fetch, timeoutMs=20000, prefixo='arquiteturas.coleta.v1'}) {
+  if(transporte==='apps-script') {
+    if(!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint||'')) throw new Error('Informe o endereço publicado /exec do receptor.');
+  } else if(transporte==='n8n') {
+    let url;try{url=new URL(endpoint);}catch(_){throw new Error('Informe o webhook HTTPS do n8n.');}
+    if(url.protocol!=='https:'||url.username||url.password||url.search||url.hash||!/^\/(?:[^/]+\/)*webhook(?:-test)?\/[A-Za-z0-9_/-]+$/.test(url.pathname)) throw new Error('Informe o webhook HTTPS do n8n, sem credenciais ou parâmetros.');
+  } else throw new Error('Transporte de coleta desconhecido.');
   const memoria=new Map();
   if(storage===undefined){try{storage=globalThis.localStorage;}catch(_){storage=null;}}
   function key(id){return prefixo+'.'+id;}
@@ -41,3 +46,4 @@ export function criarColetor({endpoint, storage, fetchImpl=globalThis.fetch, tim
   function pendente(id){const s=ler(id);return s&&s.estado==='pendente'?s.payload:null;}
   return Object.freeze({enviar,podeFinalizar,pendente});
 }
+

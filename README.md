@@ -7,7 +7,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.14.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.15.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -92,3 +92,7 @@ O [diário e banco de insights](pesquisa/README.md) registram as correlações a
 
 ## Laboratório de simulações
 [Usar o laboratório](pesquisa/simulacoes/LABORATORIO.md): execução no Actions, cenários individuais/por turmas, relatórios e arquivo de resultados. [Workflow](.github/workflows/laboratorio-simulacoes.yml). O inventário acompanha as arquiteturas cadastradas e sinaliza formalizações pendentes. Somente cenários sintéticos; sem chamadas a IA no cálculo ou comprovação de eficácia.
+
+
+## n8n e aperfeiçoamento a partir da sala — 2.15.0
+[Integração n8n](automacoes/n8n/README.md): primeiro workflow preparado para importação, com 13 testes locais e 23 ensaios existentes preservados; ainda não implantado. [Ciclo de aperfeiçoamento](automacoes/n8n/CICLO_DE_APERFEICOAMENTO.md): dados dos artefatos, insights docentes, adaptações situadas e revisão versionada. Progresso ao vivo e coleta permanente ainda não ativados.

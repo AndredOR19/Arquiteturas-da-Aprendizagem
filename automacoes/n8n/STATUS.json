@@ -1,0 +1,19 @@
+{
+  "versao": "0.1.0",
+  "atualizado_em": "2026-10-28",
+  "estado": "workflow_preparado_nao_importado",
+  "workflow_gerado": true,
+  "workflow_ativo": false,
+  "ensaios_n8n_locais": 13,
+  "ensaios_coleta_existentes": 23,
+  "servicos_simulados": true,
+  "instancia_n8n_identificada": false,
+  "receptor_apps_script_implantado": false,
+  "teste_real": false,
+  "aulas_migradas": [],
+  "eventos_parciais_implementados": false,
+  "canal_continuo_insights_implementado": false,
+  "analise_integrada_implementada": false,
+  "revisao_automatica_prompt_implementada": false,
+  "coleta_permanente_ativa": false
+}

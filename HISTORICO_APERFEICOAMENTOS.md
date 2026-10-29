@@ -2,6 +2,17 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.15.0 — 28/10/2026
+**Pedido:** incorporar n8n ao trabalho e ligar coleta contínua, insights docentes, metadados e adaptação do prompt em contato com a sala. O autor esclarece que ele percebe a necessidade e orienta a resposta situada: “Eu interajo com o mundo e devolvo pra ele soluções”.
+
+**Delimitação e projeto:** personalização do material didático, mantendo a aula expositiva e a mediação humana. README e documento do projeto atualizados; novo eixo com objetivos, benefícios pretendidos, método, vínculos autorais e estado real.
+
+**Produzido:** workflow JSON inativo para recebimento final, gerador com contrato compartilhado, validação de entrada/recibo, cliente com transporte n8n explícito, testes e protocolo de evolução. Reutiliza receptor/planilha existentes; não duplica armazenamento nem remove convites e bloqueios. Seção 26.1 distingue adaptação local, núcleo comum e revisão geral. Registro autoral no diário e banco de insights.
+
+**Verificação:** 13 ensaios n8n locais, com código dos nós executado em sandbox, e os 23 ensaios anteriores da coleta passaram com serviços simulados. Conferência do JSON gerado e das ligações do fluxo. Importação e execução reais na plataforma n8n não realizadas.
+
+**Pendências:** identificar instância n8n, implantar receptor, testar navegador/armazenamento reais e migrar aula. Eventos parciais, painel ao vivo, canal permanente de insights, aplicação de adaptações em páginas abertas e análise/revisão automática continuam especificados, não implementados. Nenhuma coleta real ou envio automático de e-mail foi ativado.
+
 ## 2.14.2 — 28/10/2026
 **Ampliação solicitada:** aplicar os apoios de leitura e atenção a todos os suportes, com seleção em HTML e versões adaptadas nos formatos estáticos. Diretriz atualizada; apresentações e impressos existentes não são automaticamente convertidos pelo painel HTML.
 
@@ -201,3 +212,4 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+

@@ -76,3 +76,7 @@ A seção 13.2 do prompt e pesquisa/longitudinal definem identidade estável e m
 A extensão exige aluno_id e matricula_id UUID, ano letivo confirmado, etapa, série, fonte, data de aplicação, protocolo e versão, método e lista de medidas. Cada medida identifica indicador, momento, instrumento/versão, rubrica, unidade, fonte, valor e denominador; valor null exige motivo de ausência. Lista vazia significa que não há medidas extras. Coorte é opcional; escola e turma continuam nos campos da aula.
 
 Identificadores fornecidos pelo cliente são declarados, não prova da identidade ou matrícula. O professor precisa conferir os vínculos no cadastro privado antes da análise. Não publicar listas nominais. O módulo não consulta a lista, não atribui série e não importa entregas para SQLite. O serviço continua não implantado e nenhuma aula foi migrada. Conferir por teste real o armazenamento integral, texto e vínculo depois da implantação.
+
+
+## Transporte n8n opcional
+O cliente também aceita transporte: 'n8n' com URL HTTPS explícita de webhook. Consultar [integração e estado](../automacoes/n8n/README.md). A configuração padrão Apps Script foi preservada. O workflow é uma ponte para este mesmo receptor e não substitui sua implantação, convites ou validações. Treze ensaios adicionais locais não equivalem a execução real no n8n.
