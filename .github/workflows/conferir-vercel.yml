@@ -1,0 +1,32 @@
+name: Conferir construção Vercel
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'vercel.json'
+      - 'publicacao/**'
+      - 'biblioteca-arquiteturas/**'
+      - 'projetos/**'
+      - '.github/workflows/conferir-vercel.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  construir:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Construir com o mesmo script do Vercel
+        run: bash publicacao/vercel-build.sh
+      - name: Conferir saída pública
+        run: |
+          test -s _site/index.html
+          test -s _site/aulas/29-10-2026-historia-192/index.html
+          test -s _site/slides/aprender-a-aprender/index.html
+          test ! -e _site/coleta
+          test ! -e _site/pesquisa
+          test ! -e _site/AGENTS.md
