@@ -1,0 +1,12 @@
+# Composição — Matemática demonstrativa
+Consulta: Prompt Mestre 2.19.0; catálogo 1.4.8; protocolo 1.2.0, cuja menção antiga a 2.11.0 é documental e foi reconciliada pelo catálogo e regras vigentes. Núcleo transversal e ramo Matemática por Dentro 0.1.0 consultados. Biblioteca técnica fixa d10a9a45ab2b06ef1d9b51383947f6dcc13502b8, sem atualização ou cópia do motor privado. Reuso do HTML/app público de Missão Ponte, com conteúdo e exploração próprios. Nenhum código de turma ou data de aplicação inventado.
+
+AEE: âncora na feira, explicação grandeza/instrumento/unidade, circuito e limite nas dez partes. MACI/ARN: retorna à necessidade inicial e transfere para caminhada/receita. SVS/associações: D/R/E/L preservados, escala e unidades próximas às representações. EPC: modificar temperatura/malha e explicar mudança. SSS/ASA: voz e efeitos opcionais, sem tocar simultaneamente; som começa desligado. AIES: instrumentos, malha e camadas representam medidas. Acesso: painel compartilhado, fonte real licenciada e leitura simples; cenas e narração específicas com quatro conceitos, reconhecimento e nova representação. São recursos de acesso, sem promessa de alfabetização.
+
+26 percursos: associar (1–6), comparar/resolver (7–20), recuperar/transferir/elaborar/conferir (21–26). Três posições de resposta correta distribuídas. Pistas em duas etapas; exposição antecede cobrança. Correção determinística e gabarito narrado por item para prática formativa; não há guia docente privado embutido. Produção aberta avaliada pela professora, não pelo navegador.
+
+Relatório: tentativas, primeira escolha, pistas, consultas, experiências de leitura, exploração e problema opcional; apoio visual incorporado pelo módulo compartilhado sem alterar nota. Todas as nove respostas da experiência e confirmação necessárias. E-mail não presumido: campo local para confirmação com a professora, prévia/cópia/TXT integrais e transporte curto para texto longo. Dados permanecem no navegador, sem coleta online ativada.
+
+Fontes: RCG oficial SEDUC-RS e currículo no portal MEC, links no material. EF06MA25 corrigida para ângulos; temperatura vinculada a EF06MA24. Currículo específico da escola não fornecido.
+
+Verificação: sintaxe JS local; testes funcionais de progressão, revisão, termômetro, malha, questionário, relatório e recarga adicionados ao workflow. Consultar execução de publicação para resultado remoto. Áudio real em Chromebook e aplicação com estudantes não conferidos.

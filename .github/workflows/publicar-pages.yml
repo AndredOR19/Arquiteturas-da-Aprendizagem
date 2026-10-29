@@ -85,6 +85,8 @@ jobs:
         run: |
           node ferramentas/testar-email.cjs
           node ferramentas/conferir-email.cjs
+      - name: Conferir Matemática demonstrativa
+        run: node ferramentas/conferir-medidas.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

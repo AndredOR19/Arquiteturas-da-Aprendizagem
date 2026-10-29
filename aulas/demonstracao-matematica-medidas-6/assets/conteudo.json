@@ -1,0 +1,637 @@
+{
+  "id": "demonstracao-medidas-6-v1",
+  "titulo": "Medir para organizar · A feira da turma",
+  "pergunta": "Como organizar uma feira sem confundir o tamanho, o que cabe e a temperatura?",
+  "escola": "Aula demonstrativa · escola a confirmar",
+  "turma": "6º ano · código a confirmar",
+  "componente": "Matemática",
+  "data": "Aplicação a combinar · produção 29/10/2026",
+  "versao": "1.0.0",
+  "prompt": "2.19.0",
+  "email": "",
+  "status": "Planejada",
+  "habilidades": [
+    "EF06MA24 — resolver e elaborar problemas com grandezas e medidas em situações reais, sem uso de fórmulas.",
+    "EF06MA24RS-1 — conversões de unidades usuais em problemas cotidianos (síntese).",
+    "EF06MA24RS-2 — resolução, criação e socialização de problemas com estimativas e aproximações (síntese)."
+  ],
+  "resumo": "Investigação de grandezas e unidades na organização de uma feira, com estimativas, medição, comparação de temperaturas em °C, composição de áreas e contagem de cubos; resolução e elaboração de problemas.",
+  "continuidade": "Demonstração independente para a professora de Matemática. Escola, turma específica, data de aplicação e conhecimentos já trabalhados não informados. Os números dos problemas e do termômetro são dados fictícios de treino; não são medições reais.",
+  "fontes": [
+    [
+      "SEDUC-RS",
+      "Referencial Curricular Gaúcho, Matemática: EF06MA24, RS-1 e RS-2",
+      "https://educacao.rs.gov.br/upload/arquivos/202102/17175700-rcg-ef-completo.pdf"
+    ],
+    [
+      "MEC / currículo disponibilizado no portal BNCC",
+      "Grandezas e medidas do 6º ano; distinção entre EF06MA24 e EF06MA25",
+      "https://basenacionalcomum.mec.gov.br/images/implementacao/curriculos_estados/documento_curricular_pr.pdf"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora: uma feira precisa de medidas",
+      "texto": "Uma turma vai organizar uma pequena feira na escola. Será preciso escolher uma mesa, separar materiais, preparar água para os visitantes e planejar a montagem. Dizer “a mesa é grande” ajuda pouco: grande em relação a quê? Uma medida permite comunicar uma quantidade com uma referência comum. Grandeza é aquilo que podemos medir, como comprimento, massa, tempo ou temperatura. Unidade é a referência escolhida para expressar essa medida, como metro, quilograma, minuto ou grau Celsius. O número precisa vir acompanhado da unidade: “2” sozinho não informa se estamos falando de metros, litros ou minutos. Na feira, a primeira decisão não será fazer uma conta. Será entender o que precisamos descobrir.",
+      "ancora": "Objeto → grandeza → unidade → medida com significado",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica: escolher antes de calcular",
+      "texto": "Imagine que uma colega quer saber se a mesa passa pela porta. Precisamos comparar comprimentos, usando uma régua ou fita métrica. Uma balança não responde a essa pergunta: ela serve para medir massa. Para saber quanto líquido pode ser colocado numa jarra, observamos sua capacidade e usamos litros ou mililitros. Para verificar uma temperatura, usamos termômetro e registramos graus Celsius. Essa escolha é importante porque números iguais podem representar coisas diferentes: 20 cm não são 20 °C. Até dentro da mesma grandeza, unidades diferentes exigem cuidado. Antes de somar ou comparar, precisamos expressar as medidas em unidades compatíveis. Assim, a conta passa a responder a uma pergunta concreta, em vez de apenas movimentar números.",
+      "ancora": "Pergunta determina grandeza; grandeza orienta instrumento e unidade",
+      "fonte": 0
+    },
+    {
+      "titulo": "Comprimento: uma régua precisa de um começo",
+      "texto": "Vamos medir uma faixa de papel para decorar a mesa. Alinhamos uma extremidade com a marca zero da régua e lemos a marca que coincide com a outra extremidade. O início plástico da régua nem sempre coincide com o zero. Se a faixa começa na marca 2 cm e termina na marca 12 cm, ela ocupa o intervalo entre essas marcas: 10 cm. Um metro corresponde a 100 centímetros. Uma fita de 1 m e outra de 50 cm, colocadas uma depois da outra sem sobreposição, somam 150 cm. Podemos justificar desenhando o metro dividido em cem partes e acrescentando cinquenta. Mudar a unidade muda o número da medida, mas não estica nem encolhe o objeto.",
+      "ancora": "1 m = 100 cm; 100 cm + 50 cm = 150 cm",
+      "fonte": 0
+    },
+    {
+      "titulo": "Massa e tempo: juntar e acompanhar",
+      "texto": "Para separar materiais, podemos usar uma balança. A massa de um pacote pode ser registrada em gramas ou quilogramas: 1 kg equivale a 1.000 g. Dois pacotes de 500 g juntos têm 1.000 g, ou 1 kg. No cotidiano é comum falar em peso; nesta aula registramos a massa indicada pela balança. Já o tempo ajuda a organizar a montagem. Se começamos às 14h10 e terminamos às 14h35, podemos contar os minutos de dez em dez e depois completar o intervalo: decorreram 25 minutos. Uma hora tem 60 minutos, e não cem. Por isso, não podemos usar automaticamente a mesma conversão do metro para o relógio. Cada unidade tem suas relações próprias.",
+      "ancora": "Massa: juntar parcelas compatíveis | Tempo: contar o intervalo",
+      "fonte": 0
+    },
+    {
+      "titulo": "Capacidade: recipientes diferentes, mesma quantidade",
+      "texto": "Capacidade indica quanto cabe no interior de um recipiente. Na feira, uma jarra de 1 L pode fornecer quatro porções de 250 mL, se considerarmos porções completas e sem perdas. Podemos acompanhar: 250 mL, 500 mL, 750 mL e 1.000 mL. Um litro equivale a 1.000 mililitros. Um copo alto e estreito pode conter a mesma quantidade de líquido que um copo baixo e largo. A altura do líquido, sozinha, não resolve a comparação: o formato do recipiente também muda. Para comparar de maneira mais confiável, usamos uma referência comum, como um recipiente graduado ou porções iguais. Observe também a diferença entre a capacidade total da jarra e o volume de líquido que está nela: uma jarra de 1 L pode estar contendo apenas 500 mL.",
+      "ancora": "4 porções de 250 mL completam 1.000 mL = 1 L",
+      "fonte": 0
+    },
+    {
+      "titulo": "Temperatura: ler uma escala, não adivinhar",
+      "texto": "Temperatura é uma grandeza que podemos medir com um termômetro. Aqui usamos graus Celsius, escritos °C. No desenho de treino, cada intervalo da escala tem o mesmo valor. Para descobrir uma leitura, localize duas marcas numeradas e conte quantos intervalos iguais existem entre elas. Se entre 20 °C e 30 °C há cinco intervalos, cada intervalo representa 2 °C. A terceira marca depois de 20 °C indica 26 °C. A aparência e o toque não substituem a medição. Na exploração digital você pode mover o indicador e acompanhar a medida; isso simula uma escala e não mede a temperatura do Chromebook nem da sala. Se houver um termômetro real disponível, a professora poderá orientar uma observação do ambiente e comparar os registros.",
+      "ancora": "Escala uniforme: diferença entre valores ÷ número de intervalos",
+      "fonte": 0
+    },
+    {
+      "titulo": "Comparar temperaturas e variações",
+      "texto": "Uma tabela fictícia da feira registra 18 °C pela manhã e 26 °C à tarde. A segunda temperatura é maior. Para descobrir a variação, procuramos quanto falta de 18 até 26: de 18 até 20 faltam 2; de 20 até 26 faltam 6; juntos, 8. Houve aumento de 8 °C. A temperatura final é 26 °C; o aumento é 8 °C. São informações diferentes. Se uma bebida passa de 20 °C para 12 °C, houve diminuição de 8 °C. Não dizemos que ela ficou com temperatura de 8 °C. Também não faz sentido afirmar que 20 °C é “o dobro de calor” de 10 °C: nesta aula comparamos leituras e diferenças na escala Celsius, sem transformar a leitura em quantidade de calor.",
+      "ancora": "18 °C → aumento de 8 °C → 26 °C",
+      "fonte": 0
+    },
+    {
+      "titulo": "Área: cobrir uma superfície",
+      "texto": "Para planejar um cartaz retangular, imaginamos sua superfície coberta por quadradinhos iguais, sem buracos nem sobreposições. Se há quatro quadradinhos em cada fileira e três fileiras, contamos 4 + 4 + 4: doze quadradinhos. Se cada quadradinho mede 1 cm de lado, sua área é 1 cm² e a área do cartaz é 12 cm². A área mede a superfície coberta; o comprimento mede uma extensão. Agora corte esse retângulo pela diagonal, ligando dois vértices opostos. Os dois triângulos resultantes têm a mesma área e juntos recompõem o retângulo. Cada um ocupa metade da superfície: 6 cm². Podemos justificar por recorte e recomposição, sem começar por uma fórmula. Na malha digital, observe o retângulo e a diagonal antes de contar.",
+      "ancora": "12 quadrados unitários → duas metades iguais → 6 cm² em cada triângulo",
+      "fonte": 0
+    },
+    {
+      "titulo": "Volume: preencher o espaço por camadas",
+      "texto": "Uma caixa pode ser representada como um bloco retangular preenchido por cubinhos iguais. Imagine uma primeira camada com três cubinhos em uma direção e dois na outra. Podemos contar seis cubinhos nessa camada. Se empilhamos mais uma camada igual, contamos mais seis: são doze cubinhos ao todo. Quando cada cubinho tem aresta de 1 cm, cada um ocupa 1 cm³ e o volume preenchido é 12 cm³. A contagem deve incluir os cubos escondidos, não apenas aqueles visíveis numa perspectiva. Por isso, a representação em camadas é útil: podemos conferir cada nível separadamente. Área e volume não são a mesma grandeza. A área do fundo considera uma superfície; o volume considera o espaço ocupado nas três dimensões. Capacidade também se relaciona ao espaço interno, mas a comparação exige unidades e condições claras.",
+      "ancora": "6 cubos na primeira camada + 6 na segunda = 12 cm³",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito e aplicação: conferir uma decisão",
+      "texto": "Voltamos à feira. Para saber se uma faixa alcança a mesa, comparamos comprimentos. Para repartir água, relacionamos capacidade e porções. Para acompanhar uma mudança de temperatura, comparamos a leitura inicial e a final. O caminho é sempre identificar a pergunta, selecionar os dados e a grandeza, representar a relação, calcular quando necessário e conferir a unidade. Uma resposta pode ter uma conta correta e ainda não responder ao problema: “quatro” não explica se são quatro copos ou quatro litros. Ao criar seu próprio problema, informe os dados necessários e formule uma pergunta que alguém consiga resolver. Depois troque com um colega e observe se a interpretação foi a esperada. Isso ajuda a perceber informações ausentes e a melhorar a comunicação matemática.",
+      "ancora": "Perguntar → escolher → representar → resolver → conferir → elaborar",
+      "fonte": 0
+    }
+  ],
+  "percursos": [
+    {
+      "titulo": "O que vamos medir?",
+      "fase": "Associar com apoio",
+      "explicacao": "Uma mesa precisa passar pela porta. Precisamos comparar a largura da mesa com a abertura disponível.",
+      "pergunta": "Qual grandeza responde à pergunta?",
+      "alternativas": [
+        "Massa",
+        "Comprimento",
+        "Temperatura"
+      ],
+      "correta": 1,
+      "justificativa": "Larguras são comprimentos e devem ser comparadas em unidades compatíveis.",
+      "pistas": [
+        "Imagine uma fita métrica atravessando a abertura.",
+        "Larguras são comprimentos e devem ser comparadas em unidades compatíveis."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Instrumento adequado",
+      "fase": "Associar com apoio",
+      "explicacao": "Precisamos verificar a temperatura de um recipiente de água, com a orientação da professora.",
+      "pergunta": "Qual instrumento escolhemos?",
+      "alternativas": [
+        "Termômetro",
+        "Balança",
+        "Régua"
+      ],
+      "correta": 0,
+      "justificativa": "O termômetro permite ler temperatura; régua e balança medem outras grandezas.",
+      "pistas": [
+        "Procure o instrumento que tem uma escala de temperatura.",
+        "O termômetro permite ler temperatura; régua e balança medem outras grandezas."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Unidade e significado",
+      "fase": "Associar com apoio",
+      "explicacao": "O termômetro indica vinte e quatro graus Celsius.",
+      "pergunta": "Qual registro comunica essa leitura?",
+      "alternativas": [
+        "24 kg",
+        "24 mL",
+        "24 °C"
+      ],
+      "correta": 2,
+      "justificativa": "°C é o símbolo usado para graus Celsius.",
+      "pistas": [
+        "A unidade precisa indicar temperatura.",
+        "°C é o símbolo usado para graus Celsius."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Capacidade da jarra",
+      "fase": "Associar com apoio",
+      "explicacao": "A etiqueta de uma jarra vazia informa quanto líquido cabe nela.",
+      "pergunta": "Qual registro é uma capacidade plausível para essa jarra?",
+      "alternativas": [
+        "2 kg",
+        "2 L",
+        "2 min"
+      ],
+      "correta": 1,
+      "justificativa": "Litro é unidade de capacidade; massa e tempo não respondem quanto líquido cabe.",
+      "pistas": [
+        "Leia o significado dos símbolos no glossário.",
+        "Litro é unidade de capacidade; massa e tempo não respondem quanto líquido cabe."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Medida de massa",
+      "fase": "Associar com apoio",
+      "explicacao": "Uma balança indica a massa de um pacote de material.",
+      "pergunta": "Qual unidade pode aparecer?",
+      "alternativas": [
+        "g",
+        "°C",
+        "cm²"
+      ],
+      "correta": 0,
+      "justificativa": "Grama é unidade de massa.",
+      "pistas": [
+        "Compare as funções da balança e do termômetro.",
+        "Grama é unidade de massa."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Tempo de montagem",
+      "fase": "Associar com apoio",
+      "explicacao": "O grupo quer informar quanto tempo gastou montando a banca.",
+      "pergunta": "Qual unidade atende à tarefa?",
+      "alternativas": [
+        "Litro",
+        "Centímetro",
+        "Minuto"
+      ],
+      "correta": 2,
+      "justificativa": "Minuto é unidade de tempo.",
+      "pistas": [
+        "Que unidade aparece num relógio?",
+        "Minuto é unidade de tempo."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Régua fora do zero",
+      "fase": "Comparar e resolver",
+      "explicacao": "A faixa começa na marca 2 cm e termina na marca 12 cm.",
+      "pergunta": "Quanto mede a faixa?",
+      "alternativas": [
+        "12 cm",
+        "10 cm",
+        "14 cm"
+      ],
+      "correta": 1,
+      "justificativa": "O comprimento é o intervalo entre 2 e 12: 12 − 2 = 10 cm.",
+      "pistas": [
+        "O início da faixa não está na marca zero.",
+        "O comprimento é o intervalo entre 2 e 12: 12 − 2 = 10 cm."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Uma fita e meia",
+      "fase": "Comparar e resolver",
+      "explicacao": "Uma fita tem 1 m. Acrescentamos outra de 50 cm, sem sobrepor.",
+      "pergunta": "Qual é o comprimento total?",
+      "alternativas": [
+        "150 cm",
+        "51 cm",
+        "1.050 cm"
+      ],
+      "correta": 0,
+      "justificativa": "Um metro equivale a 100 cm; 100 + 50 = 150 cm.",
+      "pistas": [
+        "Expresse as duas partes em centímetros antes de juntar.",
+        "Um metro equivale a 100 cm; 100 + 50 = 150 cm."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Dois pacotes",
+      "fase": "Comparar e resolver",
+      "explicacao": "Há dois pacotes, cada um com massa de 500 g.",
+      "pergunta": "Qual é a massa total?",
+      "alternativas": [
+        "100 g",
+        "500 g",
+        "1 kg"
+      ],
+      "correta": 2,
+      "justificativa": "500 g + 500 g = 1.000 g, equivalentes a 1 kg.",
+      "pistas": [
+        "Junte as massas dos dois pacotes.",
+        "500 g + 500 g = 1.000 g, equivalentes a 1 kg."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "O relógio da feira",
+      "fase": "Comparar e resolver",
+      "explicacao": "A montagem começou às 14h10 e terminou às 14h35.",
+      "pergunta": "Quanto tempo decorreu?",
+      "alternativas": [
+        "45 min",
+        "25 min",
+        "1 h e 25 min"
+      ],
+      "correta": 1,
+      "justificativa": "De 14h10 a 14h30 passam 20 minutos; até 14h35 passam mais 5: 25 minutos.",
+      "pistas": [
+        "Conte o intervalo, não some os horários.",
+        "De 14h10 a 14h30 passam 20 minutos; até 14h35 passam mais 5: 25 minutos."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Porções iguais",
+      "fase": "Comparar e resolver",
+      "explicacao": "Uma jarra tem 1 L de água. Cada copo recebe 250 mL, sem perdas.",
+      "pergunta": "Quantos copos completos podemos servir?",
+      "alternativas": [
+        "4",
+        "2",
+        "8"
+      ],
+      "correta": 0,
+      "justificativa": "Quatro porções de 250 mL completam 1.000 mL, que equivalem a 1 L.",
+      "pistas": [
+        "Conte 250, 500, 750 e 1.000 mL.",
+        "Quatro porções de 250 mL completam 1.000 mL, que equivalem a 1 L."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "O copo parece maior",
+      "fase": "Comparar e resolver",
+      "explicacao": "Um copo alto e estreito e outro baixo e largo têm a mesma capacidade indicada: 300 mL.",
+      "pergunta": "Qual conclusão os dados permitem?",
+      "alternativas": [
+        "O alto sempre comporta mais",
+        "O largo sempre comporta mais",
+        "Ambos comportam 300 mL"
+      ],
+      "correta": 2,
+      "justificativa": "A capacidade informada é igual; a forma diferente não altera esse dado.",
+      "pistas": [
+        "Não use somente a altura para decidir.",
+        "A capacidade informada é igual; a forma diferente não altera esse dado."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Intervalos do termômetro",
+      "fase": "Comparar e resolver",
+      "explicacao": "Entre 20 °C e 30 °C há cinco intervalos iguais.",
+      "pergunta": "Quanto vale cada intervalo?",
+      "alternativas": [
+        "5 °C",
+        "2 °C",
+        "10 °C"
+      ],
+      "correta": 1,
+      "justificativa": "A diferença de 10 °C foi dividida em cinco intervalos: cada um vale 2 °C.",
+      "pistas": [
+        "Conte intervalos, e não apenas os traços.",
+        "A diferença de 10 °C foi dividida em cinco intervalos: cada um vale 2 °C."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Uma leitura na escala",
+      "fase": "Comparar e resolver",
+      "explicacao": "As marcas da escala são 20, 22, 24, 26, 28 e 30 °C. O indicador chega à terceira marca depois de 20 °C.",
+      "pergunta": "Qual é a temperatura?",
+      "alternativas": [
+        "26 °C",
+        "23 °C",
+        "30 °C"
+      ],
+      "correta": 0,
+      "justificativa": "Depois de 20 vêm 22, 24 e 26 °C.",
+      "pistas": [
+        "Avance três intervalos de 2 °C.",
+        "Depois de 20 vêm 22, 24 e 26 °C."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Aquecimento no registro",
+      "fase": "Comparar e resolver",
+      "explicacao": "Uma tabela fictícia mostra 18 °C pela manhã e 26 °C à tarde.",
+      "pergunta": "Qual foi o aumento?",
+      "alternativas": [
+        "44 °C",
+        "26 °C",
+        "8 °C"
+      ],
+      "correta": 2,
+      "justificativa": "De 18 a 26 há uma diferença de 8 °C.",
+      "pistas": [
+        "Separe a leitura final do quanto mudou.",
+        "De 18 a 26 há uma diferença de 8 °C."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "A bebida esfriou",
+      "fase": "Comparar e resolver",
+      "explicacao": "Uma bebida passou de 20 °C para 12 °C.",
+      "pergunta": "Como descrever a mudança?",
+      "alternativas": [
+        "Aumentou 8 °C",
+        "Diminuiu 8 °C",
+        "Terminou a 8 °C"
+      ],
+      "correta": 1,
+      "justificativa": "A leitura final é menor: diminuiu 8 °C e terminou a 12 °C.",
+      "pistas": [
+        "Qual das duas leituras é a final?",
+        "A leitura final é menor: diminuiu 8 °C e terminou a 12 °C."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Um cartaz quadriculado",
+      "fase": "Comparar e resolver",
+      "explicacao": "O cartaz tem três fileiras com quatro quadradinhos em cada uma. Cada quadradinho tem área de 1 cm².",
+      "pergunta": "Qual é a área?",
+      "alternativas": [
+        "12 cm²",
+        "7 cm",
+        "12 cm³"
+      ],
+      "correta": 0,
+      "justificativa": "São 4 + 4 + 4 = 12 quadradinhos de 1 cm², totalizando 12 cm².",
+      "pistas": [
+        "Conte unidades de superfície.",
+        "São 4 + 4 + 4 = 12 quadradinhos de 1 cm², totalizando 12 cm²."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Metade do cartaz",
+      "fase": "Comparar e resolver",
+      "explicacao": "Um retângulo de área 12 cm² foi cortado pela diagonal em dois triângulos de mesma área.",
+      "pergunta": "Qual é a área de cada triângulo?",
+      "alternativas": [
+        "12 cm²",
+        "24 cm²",
+        "6 cm²"
+      ],
+      "correta": 2,
+      "justificativa": "Os dois triângulos recompõem 12 cm² e têm a mesma área; cada um ocupa 6 cm².",
+      "pistas": [
+        "Reparta a superfície em duas partes iguais.",
+        "Os dois triângulos recompõem 12 cm² e têm a mesma área; cada um ocupa 6 cm²."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Preencher a caixa",
+      "fase": "Comparar e resolver",
+      "explicacao": "A primeira camada tem seis cubinhos de 1 cm³. Há duas camadas iguais, completas.",
+      "pergunta": "Qual é o volume ocupado?",
+      "alternativas": [
+        "6 cm²",
+        "12 cm³",
+        "8 cm³"
+      ],
+      "correta": 1,
+      "justificativa": "Contamos seis cubos em cada camada: 6 + 6 = 12 cm³.",
+      "pistas": [
+        "Inclua a camada que pode estar escondida.",
+        "Contamos seis cubos em cada camada: 6 + 6 = 12 cm³."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Área ou volume?",
+      "fase": "Comparar e resolver",
+      "explicacao": "Uma equipe quer cobrir o fundo da caixa com uma folha, sem subir pelas paredes.",
+      "pergunta": "Qual grandeza corresponde à superfície a cobrir?",
+      "alternativas": [
+        "Área",
+        "Temperatura",
+        "Volume"
+      ],
+      "correta": 0,
+      "justificativa": "A folha cobre uma superfície: estamos tratando de área.",
+      "pistas": [
+        "Pergunte se queremos cobrir uma superfície ou preencher espaço.",
+        "A folha cobre uma superfície: estamos tratando de área."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Novo contexto: caminhada",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Um percurso tem 2 m e outro tem 80 cm. Serão percorridos em sequência.",
+      "pergunta": "Qual é a distância total?",
+      "alternativas": [
+        "82 cm",
+        "280 m",
+        "280 cm"
+      ],
+      "correta": 2,
+      "justificativa": "2 m equivalem a 200 cm; somando 80 cm, obtemos 280 cm.",
+      "pistas": [
+        "Converta metros para centímetros antes de somar.",
+        "2 m equivalem a 200 cm; somando 80 cm, obtemos 280 cm."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Novo contexto: uma receita",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Uma receita usa 500 mL de água. Há 2 L disponíveis, sem perdas.",
+      "pergunta": "Quantas receitas completas podem ser feitas?",
+      "alternativas": [
+        "2",
+        "4",
+        "5"
+      ],
+      "correta": 1,
+      "justificativa": "2 L equivalem a 2.000 mL; quatro porções de 500 mL completam esse total.",
+      "pistas": [
+        "Conte porções iguais até 2.000 mL.",
+        "2 L equivalem a 2.000 mL; quatro porções de 500 mL completam esse total."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Uma previsão e uma leitura",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Um colega estimou que a sala estaria a 30 °C. O termômetro usado corretamente indicou 24 °C.",
+      "pergunta": "Qual registro corresponde à medição?",
+      "alternativas": [
+        "24 °C; 30 °C era estimativa",
+        "30 °C, porque foi previsto antes",
+        "54 °C, somando os valores"
+      ],
+      "correta": 0,
+      "justificativa": "Estimativa e medição têm funções diferentes; a leitura obtida foi 24 °C.",
+      "pistas": [
+        "Uma previsão pode ser revista depois de medir.",
+        "Estimativa e medição têm funções diferentes; a leitura obtida foi 24 °C."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "A pergunta precisa de dados",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Vamos elaborar um problema sobre repartir água em copos iguais.",
+      "pergunta": "Qual conjunto tem os dados necessários?",
+      "alternativas": [
+        "A cor da jarra e o nome do colega",
+        "A altura da mesa e a hora da feira",
+        "1 L de água e porções de 200 mL, sem perdas"
+      ],
+      "correta": 2,
+      "justificativa": "Quantidade disponível e tamanho de cada porção permitem determinar quantas porções completas cabem.",
+      "pistas": [
+        "A pergunta depende de quanto temos e de quanto vai em cada copo.",
+        "Quantidade disponível e tamanho de cada porção permitem determinar quantas porções completas cabem."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Elaborar com sentido",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Escolhemos os dados: 1 L de água e copos com porções de 200 mL, sem perdas.",
+      "pergunta": "Qual pergunta é coerente com esses dados?",
+      "alternativas": [
+        "Qual é a temperatura da água?",
+        "Quantos copos completos podemos servir?",
+        "Qual é a massa da mesa?"
+      ],
+      "correta": 1,
+      "justificativa": "Os dados permitem repartir a água em porções; não informam temperatura nem massa da mesa.",
+      "pistas": [
+        "A pergunta deve poder ser respondida usando os dados fornecidos.",
+        "Os dados permitem repartir a água em porções; não informam temperatura nem massa da mesa."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    },
+    {
+      "titulo": "Conferir e comunicar",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Você encontrou cinco porções de 200 mL em 1 L, sem perdas.",
+      "pergunta": "Qual resposta explica e confere a solução?",
+      "alternativas": [
+        "5 copos, pois 200 + 200 + 200 + 200 + 200 = 1.000 mL = 1 L",
+        "5 litros, porque contei cinco copos",
+        "5 °C, porque há cinco porções"
+      ],
+      "correta": 0,
+      "justificativa": "A resposta indica a quantidade de copos e confere que as cinco porções completam o litro.",
+      "pistas": [
+        "A unidade da resposta depende da pergunta: estamos contando copos.",
+        "A resposta indica a quantidade de copos e confere que as cinco porções completam o litro."
+      ],
+      "ponto": "Escolher pela aparência ou pelo número sem conferir a grandeza.",
+      "acao": "Nomeie o que está sendo medido e indique a unidade antes de confirmar."
+    }
+  ],
+  "exploracao": [
+    [
+      "Mesa",
+      "comprimento",
+      "Uma fita métrica compara a largura da mesa com a passagem. Use cm com cm ou m com m."
+    ],
+    [
+      "Água",
+      "capacidade",
+      "Quatro porções de 250 mL completam 1 L. A altura do recipiente não informa sozinha quanto cabe."
+    ],
+    [
+      "Termômetro",
+      "temperatura",
+      "Compare leituras e intervalos na escala Celsius. O simulador não mede a sala."
+    ],
+    [
+      "Cartaz",
+      "área",
+      "Conte quadrados unitários e compare as duas metades de um retângulo cortado pela diagonal."
+    ],
+    [
+      "Caixa",
+      "volume",
+      "Conte cubinhos por camadas, incluindo os que estariam escondidos."
+    ]
+  ],
+  "glossario": {
+    "Grandeza": "Aquilo que podemos medir: comprimento, massa, tempo, temperatura, área, capacidade e volume.",
+    "Unidade": "Referência comum para expressar uma medida.",
+    "Comprimento": "Extensão, expressa em unidades como metro e centímetro.",
+    "Massa": "Grandeza medida pela balança, expressa aqui em gramas e quilogramas.",
+    "Capacidade": "Quanto cabe dentro de um recipiente, em litros ou mililitros.",
+    "Temperatura": "Grandeza medida pelo termômetro; nesta aula, em graus Celsius.",
+    "Área": "Medida de uma superfície, aqui por contagem de quadrados unitários.",
+    "Volume": "Medida do espaço ocupado, aqui por contagem de cubos unitários.",
+    "Variação": "Mudança entre um valor inicial e um final."
+  },
+  "dicionario": {
+    "Estimar": "Indicar um valor aproximado antes de medir ou calcular com precisão.",
+    "Comparar": "Observar semelhanças e diferenças usando uma referência comum.",
+    "Intervalo": "Espaço entre duas marcas ou diferença entre dois instantes/valores.",
+    "Graduado": "Que apresenta marcas de uma escala de medida.",
+    "Diagonal": "Segmento que liga vértices não consecutivos de uma figura.",
+    "Camada": "Um nível de cubos; outras camadas podem ficar em cima dele.",
+    "Elaborar": "Criar e organizar um problema com dados e pergunta coerentes."
+  }
+}

@@ -28,6 +28,10 @@ const ponteCfg=config('Investigar uma ponte de papel',ponte,{pergunta:'Vamos gua
 const investigarCfg=config('Observar, comparar e aprender',investigar,{pergunta:'Uma pessoa olha os detalhes de uma nova folha. Qual cena mostra essa ação?',correto:'observar',explicacao:'Ela observa detalhes da folha. Depois pode comparar, registrar e revisar.'});
 const convivenciaCfg=config('Conviver com respeito',convivencia,{pergunta:'Duas pessoas têm ideias diferentes e procuram se compreender. Qual cena mostra essa ação?',correto:'dialogo',explicacao:'No diálogo, há espaço para falar e escutar. Uma diferença não precisa se transformar em agressão.'});
 const descricoes={
+ regua:'Veja a régua amarela, com números e marcas. Ela mede comprimentos.',
+ balanca:'Veja a balança verde com um visor. Ela indica a massa.',
+ jarra:'Veja a jarra com alça e água azul. Sua capacidade indica quanto cabe.',
+ termometro:'Veja o tubo estreito com coluna vermelha e marcas. Ele indica temperatura.',
  documento:'Veja a folha clara com linhas azuis e um selo amarelo. Esse é um documento.',
  mensagem:'Veja o balão verde de conversa. Ele representa uma mensagem.',
  voto:'Veja a caixa azul e o papel entrando nela. É uma urna recebendo um voto.',
@@ -67,7 +71,21 @@ convivenciaCfg.sequencia=[
  {id:'dialogo',fala:'Veja as duas pessoas e os balões. A palavra é DIÁLOGO. Elas falam e escutam para compreender a diferença.'},
  {id:'acordo',fala:'Veja a marca verde no papel entre as pessoas. A palavra é ACORDO. Elas combinam como conviver com respeito. Um acordo não precisa fazer todas as pessoas terem a mesma crença.'}
 ];
+const medidasCfg=config('Grandezas e medidas na feira',[
+ conceito('regua','COMPRIMENTO','A régua mede o comprimento de uma faixa. Comparamos a distância entre duas marcas.','regua'),
+ conceito('balanca','MASSA','A balança indica a massa de um pacote. Podemos registrar gramas ou quilogramas.','balanca'),
+ conceito('jarra','CAPACIDADE','A jarra recebe água. Sua capacidade indica quanto cabe dentro dela.','jarra'),
+ conceito('termometro','TEMPERATURA','O termômetro indica a temperatura. A unidade desta aula é o grau Celsius.','termometro')
+],{pergunta:'Em outro desenho da feira, queremos saber a temperatura da água. Qual instrumento escolhemos?',correto:'termometro',explicacao:'O termômetro permite medir a temperatura; a unidade apresentada é °C.'});
+medidasCfg.conceitos.forEach(c=>c.descricao=descricoes[c.id]);
+medidasCfg.sequencia=[
+ {id:'regua',fala:'Veja a faixa amarela com traços e números. É uma régua. A palavra é COMPRIMENTO. Os traços ajudam a comparar a distância entre as extremidades.'},
+ {id:'balanca',fala:'Veja a base verde e o visor com quinhentos gramas. É uma balança. A palavra é MASSA. A balança indica a massa do pacote.'},
+ {id:'jarra',fala:'Veja o recipiente claro com alça e água azul. É uma jarra. A palavra é CAPACIDADE. Um litro indica quanto cabe nessa jarra.'},
+ {id:'termometro',fala:'Veja o tubo estreito e a coluna vermelha ao lado das marcas. É um termômetro. A palavra é TEMPERATURA. As marcas permitem ler graus Celsius. A cor vermelha ajuda a localizar a coluna, mas são as marcas que dão o valor.'}
+];
 window.ImageLearningContents={
+ 'aulas/demonstracao-matematica-medidas-6':medidasCfg,
  'aulas/21-10-2026-historia-192':historiaCfg,
  'aulas/29-10-2026-historia-192':historiaCfg,
  'aulas/27-10-2026-historia-231':{...historiaCfg,tema:'Registros e participação na História',aplicacao:{...historiaCfg.aplicacao,explicacao:'O registro é uma fonte a examinar. Ele não conta sozinho toda a história: precisamos de contexto e de outras fontes.'}},

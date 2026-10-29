@@ -74,6 +74,13 @@
       "versao": "1.0.0",
       "data_aula": "2026-10-29",
       "estilo_visual": "lettering-escolar"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/demonstracao-matematica-medidas-6",
+      "destino": "aulas/demonstracao-matematica-medidas-6",
+      "titulo": "Matemática 6º ano — Medir para organizar · aula demonstrativa",
+      "versao": "1.0.0"
     }
   ]
 }
