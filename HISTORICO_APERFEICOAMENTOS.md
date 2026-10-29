@@ -9,7 +9,7 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 
 **Registros:** seção 6.3 do prompt, planta AIES, catálogo compatível, composição, recursos compartilhados e conferência visual/funcional no workflow de publicação. Legado de 21/10 conserva 13 percursos; aula de 29/10 conserva 26. Alteração visual, sem migração geral do legado ou ativação de coleta.
 
-**Verificação:** sintaxe e preservação locais; execução de navegador no GitHub Actions antes do deploy. Estado final em aulas/VERIFICACAO_LETTERING_192.md. Conforto e aplicação com estudantes não avaliados nesta entrega.
+**Verificação:** sintaxe e preservação locais; workflow 40851356339 concluído com sucesso, com catálogo, conferências anteriores, HISTORIA_192_OK e LETTERING_OK, seguido de deploy. Aula de 29/10 aberta e observada no navegador. Estado final em aulas/VERIFICACAO_LETTERING_192.md. Conforto e aplicação com estudantes não avaliados nesta entrega.
 
 ## 2.15.0 — 28/10/2026
 **Pedido:** incorporar n8n ao trabalho e ligar coleta contínua, insights docentes, metadados e adaptação do prompt em contato com a sala. O autor esclarece que ele percebe a necessidade e orienta a resposta situada: “Eu interajo com o mundo e devolvo pra ele soluções”.
