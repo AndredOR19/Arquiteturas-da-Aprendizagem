@@ -34,7 +34,7 @@ if(dynamicRoot){
  entry.classList.add('il-outside-root');box.classList.add('il-outside-root');dynamicRoot.before(entry,box);
 }else{
  if(title)title.before(entry);else(document.querySelector('main')||document.body).prepend(entry);
- const anchor=document.getElementById('text')||document.getElementById('explore')||document.getElementById('mission');
+ const anchor=document.getElementById('text-fold')||document.getElementById('text')||document.getElementById('explore')||document.getElementById('mission');
  if(anchor)anchor.before(box);else entry.after(box);
 }
 function save(){try{sessionStorage.setItem(key,JSON.stringify(state));}catch{voiceStatus.textContent='Registro apenas na memória desta página. As imagens continuam disponíveis.';}progress.textContent=`Cenas exploradas: ${state.vistos.length}/${cfg.conceitos.length}. Tentativas neste apoio: ${state.tentativas.length}. Este treino não altera a nota da aula.`;}
