@@ -551,6 +551,20 @@
           "pesquisa/simulacoes/catalogo_modelos.json"
         ]
       }
+    },
+    {
+      "execucao": "40924560452",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "4bf66613ce28265035147c40e479a5340be91c9d",
+      "pasta": "execucoes/40924560452-1-individuos",
+      "experimento": "52b20f63013c68818fa49850a2c4628e5fc46c282fa3e7ebc4ad606f9d9e94ff",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": []
+      }
     }
   ],
   "ultimo_inventario": {
