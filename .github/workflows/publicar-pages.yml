@@ -69,6 +69,8 @@ jobs:
           name: conferencia-historia-192
           path: historia-192-*.png
           if-no-files-found: ignore
+      - name: Conferir Missão Ponte do sexto e sétimo ano
+        run: node ferramentas/conferir-ponte.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

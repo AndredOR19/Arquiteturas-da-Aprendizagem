@@ -1,0 +1,673 @@
+{
+  "id": "missao-ponte-7-20261029",
+  "titulo": "Missão Ponte · 7º ano",
+  "pergunta": "Como uma folha de papel pode sustentar mais peso — e o que isso ensina sobre aprender?",
+  "escola": "Escola Técnica Bernardina Rodrigues Padilha",
+  "turma": "7º ano · código da turma não informado",
+  "componente": "Práticas Experimentais + Estudos Orientados",
+  "data": "29/10/2026",
+  "status": "Planejada",
+  "habilidades": [
+    "BNCC — Competência geral 2: investigar, formular hipóteses e buscar soluções (síntese).",
+    "BNCC — Competências gerais 4 e 7: comunicar e justificar com informações e evidências (sínteses).",
+    "BNCC — Competências gerais 9 e 10: cooperar e agir com responsabilidade (sínteses).",
+    "RCG — Ciências da Natureza (2018), seção 4, pp. 49–50: observação, experimentação, investigação e resolução de problemas nos anos finais (síntese)."
+  ],
+  "resumo": "Investigação da resistência de pontes de papel no 7º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
+  "continuidade": "Aula nova, planejada para os anos informados pelo professor. Código de turma e sequência anterior não confirmados. Os componentes são articulados no mesmo percurso; não se presume experimento já aplicado. A matriz específica da escola para estes componentes não foi fornecida; a referência curricular é transversal, sem atribuir habilidade anual inadequada ao tema.",
+  "contexto": "Uma ponte liga dois lugares separados por um espaço. Em nosso modelo, dois livros serão os apoios e uma folha formará o caminho entre eles. A pergunta é: como a forma dessa folha interfere na quantidade de objetos que ela consegue sustentar? Não precisamos começar sabendo a resposta. Precisamos entender a pergunta, propor uma explicação e organizar uma comparação. O resultado não é uma disputa entre colegas: é uma oportunidade de descobrir o que ajuda uma estrutura a resistir. Uma ponte que cai também oferece informação. Neste trabalho, Práticas Experimentais cuida da investigação da estrutura; Estudos Orientados ajuda a planejar, registrar e revisar o caminho de aprendizagem. Ao final, vamos explicar o que ocorreu e quais dados sustentam nossa explicação.",
+  "blocos": [
+    {
+      "titulo": "1 · Âncora: uma folha, um desafio",
+      "texto": "Uma ponte liga dois lugares separados por um espaço. Em nosso modelo, dois livros serão os apoios e uma folha formará o caminho entre eles. A pergunta é: como a forma dessa folha interfere na quantidade de objetos que ela consegue sustentar? Não precisamos começar sabendo a resposta. Precisamos entender a pergunta, propor uma explicação e organizar uma comparação. O resultado não é uma disputa entre colegas: é uma oportunidade de descobrir o que ajuda uma estrutura a resistir. Uma ponte que cai também oferece informação. Neste trabalho, Práticas Experimentais cuida da investigação da estrutura; Estudos Orientados ajuda a planejar, registrar e revisar o caminho de aprendizagem. Ao final, vamos explicar o que ocorreu e quais dados sustentam nossa explicação.",
+      "ancora": "D · folha e apoios | R · comparar formatos | E · investigar resistência | L · modelo de papel",
+      "fonte": 0
+    },
+    {
+      "titulo": "2 · Mecânica: por que dobrar pode mudar o resultado?",
+      "texto": "Uma folha plana tem pouca altura em sua seção e pode se curvar facilmente quando recebe carga no meio do vão. Ao dobrar o papel, podemos formar bordas ou nervuras que aumentam a altura da estrutura e dificultam a flexão. Flexão é a curvatura causada pela carga. O papel não vira outro material: a organização de sua forma é que muda. Isso não significa que toda dobra melhora qualquer ponte. A orientação, o tamanho das dobras, o estado da folha, a distância dos apoios e o lugar onde colocamos os objetos também importam. Por isso, vamos testar com cuidado. Pense em uma régua: a mesma peça pode oferecer resistências diferentes quando apoiada deitada ou de lado. Essa comparação ajuda a imaginar o papel da forma, mas não substitui o teste da nossa folha.",
+      "ancora": "D · mesmo material | R · mudar geometria pode dificultar flexão | L · não garante um resultado fixo",
+      "fonte": 0
+    },
+    {
+      "titulo": "3 · Preparar materiais e combinar uma regra de parada",
+      "texto": "Separe folhas de mesmo tamanho e tipo, dois livros estáveis de altura semelhante, régua e pequenos objetos iguais, como borrachas do mesmo modelo. Use material leve sobre uma mesa, sem vidro e sem objetos cortantes. Escolha um vão de 10 centímetros entre as bordas internas dos livros. Essa distância deve permanecer igual na comparação dos formatos. Coloque uma folha por ponte, sem cola nem fita. Acrescente os objetos devagar, um por vez, no centro da ponte. Combinem antes o critério: parar quando a ponte tocar a mesa ou deixar de sustentar os objetos. Registre a última quantidade que ficou apoiada por três segundos. Se ela ceder ao primeiro objeto, o registro é zero. Se acabar o material antes de a ponte ceder, escreva que o limite não foi atingido; não invente a carga máxima.",
+      "ancora": "Materiais → vão de 10 cm → carga leve central → regra de parada comum",
+      "fonte": 0
+    },
+    {
+      "titulo": "4 · Construir sem perder a comparação",
+      "texto": "Comece com a folha plana atravessando os dois apoios. Depois compare com uma sanfona: dobre uma folha equivalente alternando uma faixa para cima e outra para baixo, como um leque. As nervuras devem seguir o comprimento da ponte, ligando um apoio ao outro. Não dobre atravessado sem registrar essa mudança, porque a orientação também altera a estrutura. As duas extremidades devem descansar de modo semelhante nos livros. Olhe de lado para verificar se a ponte está solta entre os apoios, sem receber ajuda de mãos ou objetos. O desenho da aula é um esquema para compreender a montagem, e não uma fotografia de um resultado garantido. Antes de carregar a ponte, indique qual formato você imagina que sustentará mais objetos. Essa previsão será comparada ao resultado, sem ser apagada. Inclua um terceiro formato: o canal. Dobre duas bordas laterais para cima, como uma calha, mantendo-as no sentido entre os apoios. Construa três montagens equivalentes de cada formato, com folhas novas de mesmo tipo, para observar também a variação entre ensaios.",
+      "ancora": "Forma plana ↔ forma sanfonada | manter papel, vão, apoio e carga",
+      "fonte": 0
+    },
+    {
+      "titulo": "5 · Hipótese é uma ideia que pode ser examinada",
+      "texto": "Dizer “a sanfona sustentará mais objetos porque suas dobras dificultam a curvatura” é formular uma hipótese: há uma previsão e uma razão que podemos examinar. Dizer apenas “vai dar certo” não informa o que esperar nem como comparar. Uma hipótese pode não combinar com o resultado observado. Isso não é uma falha pessoal. É um motivo para revisar a explicação, conferir a montagem e planejar outro teste. Na aula digital, você pode escolher sua previsão por um botão, sem precisar escrever. Depois, a previsão e os registros aparecem juntos no relatório. Evite mudar a previsão depois de ver o resultado. Se sua ideia mudou, registre uma nova explicação. Assim o caminho de aprendizagem fica visível, inclusive quando você precisou de ajuda.",
+      "ancora": "Previsão + razão → teste → confronto com o observado → revisão",
+      "fonte": 2
+    },
+    {
+      "titulo": "6 · O que mudar e o que manter igual",
+      "texto": "Para investigar a forma, mudamos o formato e mantemos as outras condições tão semelhantes quanto possível. O que mudamos de propósito é chamado de variável investigada. O que observamos neste teste é a quantidade de objetos sustentada antes de ceder, conforme o critério combinado. Se um grupo aproxima os livros e outro usa papel mais grosso, fica difícil atribuir a diferença apenas às dobras. As outras mudanças também podem ter contribuído. Essa organização não elimina toda diferença entre montagens, mas torna a comparação mais informativa. Se um objeto cair de lado ou alguém segurar a ponte, registre a ocorrência e refaça o ensaio com outra folha equivalente. Não apague um resultado só porque ele contrariou sua previsão. Registre o motivo de uma repetição.",
+      "ancora": "Mudar: formato | Manter: papel, vão e carga | Observar: quantidade sustentada",
+      "fonte": 2
+    },
+    {
+      "titulo": "7 · Registrar: o dado precisa de um endereço",
+      "texto": "Imagine estes números de treino, inventados para a aula: plana, dois objetos; sanfonada, seis objetos. Escrever apenas “2 e 6” deixa dúvidas: dois de quê? Em qual formato? Em qual tentativa? Uma tabela liga cada número ao seu significado. Use as colunas formato, tentativa e quantidade, acrescentando uma observação quando algo interferir. Objetos iguais funcionam como uma unidade de comparação local. Se trocar borrachas por peças diferentes, contar objetos deixa de representar cargas equivalentes. No diário desta página, registre apenas o que seu grupo observou. Os números dos exercícios são fictícios e não devem ser copiados para esse diário como se fossem dados da turma. Se não houver materiais, use a opção de análise de dados de treino; o relatório vai identificar que o experimento físico não foi realizado. Conserve os três valores de cada formato. Informe a faixa do menor ao maior resultado; não selecione apenas o ensaio mais favorável. Uma diferença pequena pode exigir mais repetições antes de uma conclusão firme.",
+      "ancora": "D · formato + tentativa + quantidade | L · treino fictício não é dado da turma",
+      "fonte": 2
+    },
+    {
+      "titulo": "8 · Exemplo resolvido: do dado à conclusão",
+      "texto": "Em um exemplo fictício, duas pontes feitas com folhas equivalentes atravessaram o mesmo vão. A plana sustentou dois objetos iguais e a sanfonada sustentou seis. Primeiro localizamos o dado: seis é maior que dois. Depois examinamos a relação: neste ensaio, com aquelas condições, a sanfonada sustentou mais objetos. A explicação possível é que a geometria das dobras dificultou a flexão. Por fim, indicamos o limite: um teste não demonstra que a sanfona será sempre superior em qualquer tamanho de ponte ou material. Uma conclusão cuidadosa reúne resultado, condição e limite. Ela é mais útil que dizer apenas “ganhei”. Nos percursos, vamos praticar essa leitura com outras quantidades e situações. Depois precisaremos reconhecer o mesmo cuidado fora do experimento, ao organizar uma tarefa de estudo.",
+      "ancora": "D · 2 e 6 | R · mesmas condições | E · vantagem neste ensaio | L · não vale para toda ponte",
+      "fonte": 0
+    },
+    {
+      "titulo": "9 · Circuito: estudar também precisa de organização",
+      "texto": "Em Estudos Orientados, vamos usar o experimento para aprender a organizar uma tarefa. Comece definindo o que quer compreender: comparar formatos de ponte. Separe os materiais e escolha uma ação pequena: montar o primeiro formato. Depois do teste, registre o dado antes de trocar a montagem. Consulte a explicação quando houver dúvida e tente recuperá-la com suas palavras depois de fechar o texto. Pergunte: consigo explicar por que mantivemos a distância igual? Se ainda não conseguir, retome o trecho e peça uma pista. Esse retorno faz parte do estudo. Uma lista de passos ajuda a localizar onde houve dificuldade, mas preencher uma lista não prova compreensão. A demonstração aparece quando você usa a relação em outra situação e explica a decisão tomada.",
+      "ancora": "Objetivo → preparar → agir → registrar → explicar → revisar → usar em novo caso",
+      "fonte": 1
+    },
+    {
+      "titulo": "10 · Dialética: melhorar sem esconder o que aconteceu",
+      "texto": "O ponto cego mais comum é mudar várias coisas e anunciar que encontrou a causa. Se você trocou papel, formato e distância ao mesmo tempo, o resultado pertence a esse conjunto de condições. A ação de superação é escolher uma mudança para o próximo teste e dizer o que ficará igual. Outro ponto cego é tratar erro como incapacidade. Uma ponte que caiu pode mostrar um limite da estrutura, um problema de montagem ou uma hipótese que precisa de revisão. Cabe investigar qual explicação é sustentada pelos registros. Ao comunicar sua descoberta, use a frase: “No nosso teste, observamos..., mantendo..., por isso pensamos..., mas ainda precisamos verificar...”. Ou selecione as partes e explique oralmente. O objetivo é construir uma explicação verificável e uma maneira mais organizada de aprender, sem precisar acertar todas as previsões.",
+      "ancora": "Ponto cego: mudar tudo | Ação: isolar a próxima mudança e justificar com registros",
+      "fonte": 2
+    }
+  ],
+  "percursos": [
+    {
+      "titulo": "Pergunta investigável",
+      "fase": "Compreender e organizar",
+      "explicacao": "Você tem folhas iguais e dois apoios. Quer investigar a estrutura.",
+      "pergunta": "Qual pergunta permite comparar resultados?",
+      "alternativas": [
+        "Qual ponte tem o nome mais criativo?",
+        "Qual equipe termina de montar primeiro?",
+        "Como o formato altera a quantidade sustentada?"
+      ],
+      "correta": 2,
+      "pistas": [
+        "Procure uma pergunta que ligue formato a um resultado mensurável.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A quantidade sustentada é um resultado observável ligado à mudança de formato."
+      ],
+      "justificativa": "A quantidade sustentada é um resultado observável ligado à mudança de formato.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Hipótese com razão",
+      "fase": "Compreender e organizar",
+      "explicacao": "A previsão será feita antes de testar.",
+      "pergunta": "Qual fala é uma hipótese para este desafio?",
+      "alternativas": [
+        "A ponte ficou boa porque foi feita pelo nosso grupo.",
+        "A sanfona pode sustentar mais porque suas nervuras dificultam a flexão.",
+        "A sanfona já venceu porque eu prefiro seu desenho."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Uma hipótese liga uma previsão a uma explicação examinável.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A hipótese apresenta uma previsão e um mecanismo que pode ser confrontado com o teste."
+      ],
+      "justificativa": "A hipótese apresenta uma previsão e um mecanismo que pode ser confrontado com o teste.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Forma e material",
+      "fase": "Compreender e organizar",
+      "explicacao": "As folhas têm o mesmo tipo e tamanho; uma recebe dobras.",
+      "pergunta": "O que foi alterado de propósito?",
+      "alternativas": [
+        "A forma da estrutura de papel.",
+        "O material de que o papel é feito.",
+        "A unidade usada para contar objetos."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Separe aquilo que compõe a folha da maneira como ela foi organizada.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Dobrar muda a geometria; não transforma papel em outro material."
+      ],
+      "justificativa": "Dobrar muda a geometria; não transforma papel em outro material.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Vão da ponte",
+      "fase": "Compreender e organizar",
+      "explicacao": "O vão é o espaço entre as bordas internas dos livros.",
+      "pergunta": "Para comparar formatos, o que fazer com esse espaço?",
+      "alternativas": [
+        "Diminuí-lo somente para a ponte preferida.",
+        "Aumentá-lo a cada novo objeto colocado.",
+        "Mantê-lo em 10 cm em todos os ensaios comparados."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Procure manter estável uma condição que interfere na resistência.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Se o vão também mudar, a diferença pode decorrer da forma e da distância."
+      ],
+      "justificativa": "Se o vão também mudar, a diferença pode decorrer da forma e da distância.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Orientação das nervuras",
+      "fase": "Compreender e organizar",
+      "explicacao": "O esquema mostra as dobras formando caminhos elevados entre os livros.",
+      "pergunta": "Como orientar a sanfona neste protocolo?",
+      "alternativas": [
+        "Com uma extremidade presa na mão durante o ensaio.",
+        "Com nervuras que ligam um apoio ao outro.",
+        "Com nervuras atravessadas ao vão, sem registrar a mudança."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Siga o caminho entre os dois apoios no desenho.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A orientação faz parte da geometria e precisa corresponder ao protocolo comparado."
+      ],
+      "justificativa": "A orientação faz parte da geometria e precisa corresponder ao protocolo comparado.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Unidade de carga",
+      "fase": "Compreender e organizar",
+      "explicacao": "Um grupo conta borrachas de tamanhos diferentes como se fossem iguais.",
+      "pergunta": "Que ajuste melhora a comparação?",
+      "alternativas": [
+        "Usar objetos iguais e colocá-los na mesma região.",
+        "Usar qualquer objeto e comparar só a contagem.",
+        "Trocar a unidade de carga depois que a ponte começar a ceder."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Dois objetos podem pesar mais que quatro objetos de outro tipo.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Contagens de objetos diferentes não representam necessariamente cargas equivalentes."
+      ],
+      "justificativa": "Contagens de objetos diferentes não representam necessariamente cargas equivalentes.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Regra de parada",
+      "fase": "Compreender e organizar",
+      "explicacao": "A ponte sustenta 4 objetos por três segundos; com o quinto, toca a mesa.",
+      "pergunta": "Qual quantidade registrar como sustentada?",
+      "alternativas": [
+        "5 objetos, porque o último chegou a ser colocado.",
+        "0 objetos, porque a ponte terminou caída.",
+        "4 objetos, conforme o critério combinado."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Volte à última etapa em que a ponte ainda cumpria a regra.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Registra-se a última carga que cumpriu o critério, não a carga que fez a estrutura ceder."
+      ],
+      "justificativa": "Registra-se a última carga que cumpriu o critério, não a carga que fez a estrutura ceder.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Primeiro objeto",
+      "fase": "Compreender e organizar",
+      "explicacao": "Ao colocar o primeiro objeto, a ponte toca a mesa.",
+      "pergunta": "Como registrar este ensaio?",
+      "alternativas": [
+        "Usar o número de outro grupo para preencher a tabela.",
+        "Zero objetos sustentados pelo critério e uma observação do ocorrido.",
+        "Deixar o campo vazio como se não tivesse havido teste."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Houve teste: a quantidade aprovada antes de ceder foi nenhuma.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Zero observado difere de ausência de teste. Os dois estados não podem ser misturados."
+      ],
+      "justificativa": "Zero observado difere de ausência de teste. Os dois estados não podem ser misturados.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Dado com significado",
+      "fase": "Comparar e interpretar",
+      "explicacao": "Você encontra a anotação “plana, tentativa 1, 3 borrachas iguais”.",
+      "pergunta": "Que vantagem esse registro oferece?",
+      "alternativas": [
+        "Liga a quantidade ao formato, à tentativa e à unidade.",
+        "Prova que toda folha plana sustenta três objetos.",
+        "Dispensa registrar como os apoios foram montados."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Pergunte o que o número descreve e onde foi obtido.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A identificação torna o dado interpretável, mas não elimina condições e limites."
+      ],
+      "justificativa": "A identificação torna o dado interpretável, mas não elimina condições e limites.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Comparar dados",
+      "fase": "Comparar e interpretar",
+      "explicacao": "Dados fictícios: plana = 3; sanfonada = 7, nas mesmas condições.",
+      "pergunta": "Qual leitura respeita os registros?",
+      "alternativas": [
+        "A plana sustentou mais porque o número apareceu primeiro.",
+        "Toda ponte sanfonada sustentará exatamente sete objetos.",
+        "A sanfonada sustentou mais neste ensaio."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Compare as quantidades e conserve a expressão “neste ensaio”.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Sete supera três no exemplo; isso não fixa uma capacidade universal."
+      ],
+      "justificativa": "Sete supera três no exemplo; isso não fixa uma capacidade universal.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Dado ou explicação",
+      "fase": "Comparar e interpretar",
+      "explicacao": "O registro diz: “a ponte sustentou 5 peças”. Outra frase diz: “a forma pode ter dificultado a flexão”.",
+      "pergunta": "Qual é o dado observado?",
+      "alternativas": [
+        "A ideia de que qualquer dobra sempre aumenta a resistência.",
+        "A quantidade de cinco peças sustentadas.",
+        "A hipótese de que a forma dificultou a flexão."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Dado é o que foi registrado; explicação busca dizer por que ocorreu.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A contagem é observação; o mecanismo é uma interpretação que precisa de apoio."
+      ],
+      "justificativa": "A contagem é observação; o mecanismo é uma interpretação que precisa de apoio.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Comparação confusa",
+      "fase": "Comparar e interpretar",
+      "explicacao": "Uma ponte usa papel fino e vão de 10 cm; a outra, papel grosso e vão de 5 cm.",
+      "pergunta": "Podemos atribuir a diferença só ao formato?",
+      "alternativas": [
+        "Não; outras condições também foram alteradas.",
+        "Sim; o nome do formato explica qualquer diferença.",
+        "Sim; basta escolher a que sustentou mais objetos."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Conte quantas condições diferem entre as montagens.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Material e vão também podem contribuir; é preciso organizar uma nova comparação."
+      ],
+      "justificativa": "Material e vão também podem contribuir; é preciso organizar uma nova comparação.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Ocorrência no teste",
+      "fase": "Comparar e interpretar",
+      "explicacao": "Um colega segurou a ponte sem perceber durante uma carga.",
+      "pergunta": "Como proceder?",
+      "alternativas": [
+        "Omitir a interferência e anunciar que a carga foi sustentada sozinha.",
+        "Descartar todos os resultados dos colegas sem examiná-los.",
+        "Registrar a interferência e repetir com montagem independente."
+      ],
+      "correta": 2,
+      "pistas": [
+        "A mão se tornou um apoio que não estava no protocolo.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A ajuda mudou o sistema de apoio e deve ficar explícita no registro."
+      ],
+      "justificativa": "A ajuda mudou o sistema de apoio e deve ficar explícita no registro.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Limite não alcançado",
+      "fase": "Comparar e interpretar",
+      "explicacao": "A ponte sustentou todos os 12 objetos disponíveis e o material acabou.",
+      "pergunta": "Qual registro é mais preciso?",
+      "alternativas": [
+        "Não sustentou nada porque não chegou a cair.",
+        "Sustentou pelo menos 12; o limite não foi atingido.",
+        "Seu limite máximo é exatamente 12, mesmo sem ceder."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Diferencie carga testada de carga máxima demonstrada.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Sem atingir o critério de parada, só sabemos que sustentou a carga disponível."
+      ],
+      "justificativa": "Sem atingir o critério de parada, só sabemos que sustentou a carga disponível.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Rever a hipótese",
+      "fase": "Comparar e interpretar",
+      "explicacao": "Sua previsão favorecia a sanfona; o ensaio mostrou outro resultado.",
+      "pergunta": "Qual atitude permite aprender?",
+      "alternativas": [
+        "Conservar os dados, verificar condições e revisar a hipótese.",
+        "Apagar o resultado e copiar o que havia previsto.",
+        "Declarar incapacidade do grupo sem conferir a montagem."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Compare previsão e observação sem apagar nenhuma das duas.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A revisão precisa partir do observado, não de uma preferência pela previsão."
+      ],
+      "justificativa": "A revisão precisa partir do observado, não de uma preferência pela previsão.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Objetivo de estudo",
+      "fase": "Comparar e interpretar",
+      "explicacao": "Você vai iniciar Estudos Orientados a partir desta experiência.",
+      "pergunta": "Qual objetivo é específico e verificável?",
+      "alternativas": [
+        "Ficar ocupado com vários materiais ao mesmo tempo.",
+        "Abrir todas as abas antes de escolher o que estudar.",
+        "Explicar por que mantivemos o vão igual na comparação."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Escolha algo que você possa demonstrar, não apenas uma intenção vaga.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Um objetivo específico permite verificar uma explicação ou uma ação ao final."
+      ],
+      "justificativa": "Um objetivo específico permite verificar uma explicação ou uma ação ao final.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Plano de ação",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Você precisa testar, registrar e comparar dois formatos.",
+      "pergunta": "Qual sequência evita perder informações?",
+      "alternativas": [
+        "Escolher uma conclusão e depois procurar números que combinem.",
+        "Preparar, testar um formato, registrar e então comparar com o outro.",
+        "Testar tudo e confiar que lembrará de cada número depois."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Não deixe o registro para depois que as montagens já foram trocadas.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Registrar junto ao teste reduz a dependência da memória e preserva contexto."
+      ],
+      "justificativa": "Registrar junto ao teste reduz a dependência da memória e preserva contexto.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Recuperar a explicação",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Você acabou de ler como organizar uma comparação.",
+      "pergunta": "O que permite verificar se consegue recuperar a ideia?",
+      "alternativas": [
+        "Fechar o trecho e explicar o que muda e o que permanece igual.",
+        "Manter a resposta aberta e copiar sem tentar explicar.",
+        "Contar quantas linhas o texto tem antes de continuar."
+      ],
+      "correta": 0,
+      "pistas": [
+        "A ação deve exigir reconstruir a relação, não só olhar para ela.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Explicar sem consulta oferece uma oportunidade de verificar o que foi recuperado e o que precisa de retomada."
+      ],
+      "justificativa": "Explicar sem consulta oferece uma oportunidade de verificar o que foi recuperado e o que precisa de retomada.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Três repetições",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Dados fictícios: canal = 5, 6 e 5 objetos em três montagens equivalentes.",
+      "pergunta": "O que a repetição permite examinar?",
+      "alternativas": [
+        "A garantia de que qualquer canal sustenta exatamente seis objetos.",
+        "A dispensa de registrar condições depois do primeiro ensaio.",
+        "Se o resultado varia entre montagens feitas sob o mesmo protocolo."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Compare as três quantidades sem escolher apenas a maior.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Repetir ajuda a observar consistência e variação; não elimina a necessidade de controle."
+      ],
+      "justificativa": "Repetir ajuda a observar consistência e variação; não elimina a necessidade de controle.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Representar variação",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Dados fictícios: sanfona = 7, 8 e 6 objetos.",
+      "pergunta": "Qual síntese preserva os três registros?",
+      "alternativas": [
+        "Os três ensaios foram iguais e não houve variação.",
+        "Os resultados ficaram entre seis e oito objetos nesses ensaios.",
+        "A sanfona sempre sustenta oito objetos, pois foi o maior valor."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Localize o menor e o maior resultado, mantendo os dois.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Uma faixa situa os dados sem apagar sua variação."
+      ],
+      "justificativa": "Uma faixa situa os dados sem apagar sua variação.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Resultado inesperado",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Em um ensaio, o canal suporta menos; a folha tinha uma dobra amassada antes de carregar.",
+      "pergunta": "Como tratar esse caso?",
+      "alternativas": [
+        "Preservar o registro, anotar a condição e fazer nova montagem equivalente.",
+        "Apagar automaticamente qualquer valor baixo sem explicar.",
+        "Declarar que o formato nunca funciona com base nesse caso."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Diferencie ocorrência de montagem e escolha arbitrária de resultados.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Uma condição diferente exige anotação e nova investigação, não exclusão conveniente."
+      ],
+      "justificativa": "Uma condição diferente exige anotação e nova investigação, não exclusão conveniente.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Mesmo formato, novo vão",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Você quer passar de vão de 10 cm para 15 cm, conservando o formato.",
+      "pergunta": "Qual variável será investigada?",
+      "alternativas": [
+        "O tipo de objeto usado como carga, que ficou igual.",
+        "O formato, embora ele não tenha sido alterado.",
+        "A distância entre os apoios."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Nomeie a única mudança proposta nesse novo ensaio.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A variável investigada corresponde à mudança planejada."
+      ],
+      "justificativa": "A variável investigada corresponde à mudança planejada.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Justificativa mecânica",
+      "fase": "Recuperar e transferir",
+      "explicacao": "A sanfona sustentou mais objetos em várias montagens comparáveis.",
+      "pergunta": "Qual explicação é compatível, sem exagero?",
+      "alternativas": [
+        "O resultado prova que massa e orientação não importam em estruturas.",
+        "As nervuras podem ter dificultado a flexão nessas condições.",
+        "As dobras transformaram quimicamente o papel em metal."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Explique com forma e deformação, sem inventar mudança de substância.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "A geometria pode aumentar rigidez à flexão; o ensaio não demonstra transformação de material."
+      ],
+      "justificativa": "A geometria pode aumentar rigidez à flexão; o ensaio não demonstra transformação de material.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Estudo comparável",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Você quer examinar duas maneiras de estudar um tema.",
+      "pergunta": "Qual cuidado evita uma comparação muito confusa?",
+      "alternativas": [
+        "Registrar tarefa, dificuldade, apoios e condições, reconhecendo limites da comparação.",
+        "Comparar temas distintos e atribuir toda diferença só à fonte escolhida.",
+        "Usar apenas a impressão de conforto como prova definitiva de aprendizagem."
+      ],
+      "correta": 0,
+      "pistas": [
+        "Separe percepção de conforto, desempenho e condições de realização.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Diferenças entre tarefas e apoios interferem; uma observação de estudo não prova uma causa isolada."
+      ],
+      "justificativa": "Diferenças entre tarefas e apoios interferem; uma observação de estudo não prova uma causa isolada.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Comunicar com limites",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Três testes favoreceram um formato no mesmo vão.",
+      "pergunta": "Qual conclusão é mais cuidadosa?",
+      "alternativas": [
+        "Três testes demonstram superioridade para toda ponte real.",
+        "A conclusão dispensa mostrar os números de cada tentativa.",
+        "Nesse protocolo, ele sustentou mais; outros vãos e materiais ainda precisam de testes."
+      ],
+      "correta": 2,
+      "pistas": [
+        "Diga em quais condições houve vantagem e quais ainda não foram examinadas.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "Repetição fortalece a descrição do recorte, não uma generalização ilimitada."
+      ],
+      "justificativa": "Repetição fortalece a descrição do recorte, não uma generalização ilimitada.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    },
+    {
+      "titulo": "Novo problema, mesma organização",
+      "fase": "Recuperar e transferir",
+      "explicacao": "Você precisa investigar por que uma prateleira se curva.",
+      "pergunta": "Qual uso da aula é adequado?",
+      "alternativas": [
+        "Aumentar a carga sem limite até provocar uma queda no ambiente.",
+        "Formular hipótese e organizar investigação segura de forma, material, apoio e carga.",
+        "Concluir que o papel da aula demonstra a capacidade da prateleira real."
+      ],
+      "correta": 1,
+      "pistas": [
+        "Transfira a organização da investigação, não uma capacidade medida em outro sistema.",
+        "Compare as alternativas com as condições descritas no contexto. Qual delas respeita o dado e seu limite?",
+        "O modelo orienta perguntas; uma estrutura real exige condições, materiais e avaliação próprios."
+      ],
+      "justificativa": "O modelo orienta perguntas; uma estrutura real exige condições, materiais e avaliação próprios.",
+      "ponto": "Trocar uma observação delimitada por uma conclusão que os dados não sustentam.",
+      "acao": "Indique o dado ou a condição que sustenta sua escolha e explique oralmente a relação."
+    }
+  ],
+  "fontes": [
+    [
+      "Australian National University",
+      "Paper Bridge Challenge — montagem e relação entre forma e resistência à flexão",
+      "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/paper-bridge-challenge-science-strong-shapes"
+    ],
+    [
+      "MEC",
+      "BNCC (2018) — competências gerais 2, 4, 7, 9 e 10",
+      "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf"
+    ],
+    [
+      "SEDUC-RS / UNDIME-RS",
+      "Referencial Curricular Gaúcho: Ciências da Natureza (2018), seção 4, páginas impressas 49–50",
+      "https://portal.educacao.rs.gov.br/Portals/1/Files/1530.pdf"
+    ]
+  ],
+  "glossario": {
+    "Ponte": "Estrutura que permite atravessar um espaço entre apoios.",
+    "Vão": "Distância livre entre as bordas internas dos apoios.",
+    "Carga": "O que exerce força sobre a ponte; aqui, os objetos colocados.",
+    "Flexão": "Curvatura da estrutura sob uma carga.",
+    "Nervura": "Parte elevada formada pela dobra; pode ajudar a dificultar a flexão.",
+    "Hipótese": "Explicação provisória com uma previsão que pode ser examinada.",
+    "Variável": "Característica que pode mudar; neste teste, investigamos o formato.",
+    "Evidência": "Dado examinado em relação à pergunta para sustentar uma conclusão.",
+    "Repetição": "Novo ensaio sob um protocolo equivalente para examinar consistência e variação.",
+    "Limite": "Alcance da conclusão ou condição além da qual o teste não informa."
+  },
+  "dicionario": {
+    "Comparar": "Observar semelhanças e diferenças segundo um critério.",
+    "Manter": "Conservar uma condição sem alteração planejada.",
+    "Registrar": "Guardar uma informação com identificação suficiente para interpretá-la.",
+    "Justificar": "Apresentar razões e indicar as informações que sustentam uma escolha.",
+    "Revisar": "Examinar novamente e ajustar quando necessário.",
+    "Critério": "Regra combinada para decidir ou comparar.",
+    "Prever": "Dizer o que se espera antes de observar o resultado.",
+    "Faixa": "Intervalo entre o menor e o maior resultado observado."
+  },
+  "exploracao": [
+    [
+      "Plana",
+      "Uma folha sem nervuras",
+      "Observe de lado: a folha plana pode se curvar sob carga central. Compare usando o mesmo papel e o mesmo vão."
+    ],
+    [
+      "Sanfonada",
+      "Dobras ao longo do vão",
+      "As nervuras seguem entre os apoios e podem aumentar a resistência à flexão. O resultado precisa ser testado."
+    ],
+    [
+      "Canal",
+      "Bordas elevadas",
+      "Duas bordas para cima formam uma calha. Compare três repetições de cada formato, preservando os valores."
+    ],
+    [
+      "Comparação justa",
+      "Uma mudança de propósito",
+      "Mude a forma e mantenha papel, vão, posição da carga e critério de parada."
+    ],
+    [
+      "Aprender a aprender",
+      "Registro orienta a revisão",
+      "Previsão não é resultado. Registre o teste e explique o que precisa retomar."
+    ]
+  ],
+  "email": "andre-orodrigues@educar.rs.gov.br",
+  "prompt": "2.16.0",
+  "versao": "1.0.0",
+  "ano": 7
+}

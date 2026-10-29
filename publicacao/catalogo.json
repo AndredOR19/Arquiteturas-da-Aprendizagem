@@ -56,6 +56,24 @@
       "estilo_visual": "lettering-escolar",
       "versao_visual": "1.0.0",
       "atualizado_em": "2026-10-29"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/29-10-2026-missao-ponte-6",
+      "destino": "aulas/29-10-2026-missao-ponte-6",
+      "titulo": "Missão Ponte — 6º ano · Práticas Experimentais e Estudos Orientados",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-29",
+      "estilo_visual": "lettering-escolar"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/29-10-2026-missao-ponte-7",
+      "destino": "aulas/29-10-2026-missao-ponte-7",
+      "titulo": "Missão Ponte — 7º ano · Práticas Experimentais e Estudos Orientados",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-29",
+      "estilo_visual": "lettering-escolar"
     }
   ]
 }
