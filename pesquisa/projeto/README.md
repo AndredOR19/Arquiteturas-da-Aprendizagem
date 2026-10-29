@@ -1,6 +1,6 @@
 # Proposta de mestrado — Arquiteturas da Aprendizagem
 
-**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.2.1 · **Data:** 28/10/2026
+**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.3.0 · **Data:** 28/10/2026
 
 > Laboratório de pesquisa e produção educacional apoiado por arquiteturas pedagógicas versionadas, simulação de cenários e avaliação futura em escolas, com adaptação progressiva da infraestrutura de software da Sofia Cog OS.
 
@@ -142,3 +142,10 @@ Por decisão do autor, as experiências e propostas serão documentadas também 
 
 ### Colaboração, inovação e exame crítico
 Os objetos de estudo também podem aproximar colaboradores interessados em pesquisar, desenvolver ou implantar recortes das Arquiteturas. Seus dados poderão apoiar, delimitar, revisar ou contestar o método e sua aplicação, preservando resultados nulos, negativos e inconclusivos. Registrar contexto, protocolos, versões e contribuições; conferir comparabilidade antes de reunir achados. A abertura documentada não representa colaboradores, coleta ou validação já confirmados. Ver [formas de participação e registro](OBJETOS_DE_ESTUDO.md#colaboração-aplicação-e-contestação).
+
+## Rede para acelerar o desenvolvimento e o exame das soluções
+O autor propõe abrir o núcleo reutilizável como software livre sem cobrança de licença, após funcionamento conferido, e reunir aplicações, relatos docentes e resultados que apoiem, limitem ou contestem as Arquiteturas. A autoria de proposição pertence a André de Oliveira Rodrigues; contribuições posteriores devem ser reconhecidas. [Referência ao projeto](../../CITATION.cff).
+
+[Proposta de governança](GOVERNANCA_COLABORACAO.md): distingue licença livre de adesão à rede com devolutiva de resultados/metadados acordados. Uma obrigação geral de entregar dados de todo fork ou citar todo resultado não decorre da GPL; as licenças continuam pendentes. [Plano de indicadores e diagramas](PLANO_INDICADORES.md): medidas técnicas, aprendizagem, apoios, relatos docentes e reuso com fontes e denominadores. [Guia de contribuição](../../CONTRIBUTING.md).
+
+Esta etapa prepara regras e acompanhamento, sem abrir repositórios privados, conceder novas licenças, criar contratos ou ativar coleta/compartilhamento. Infraestrutura e serviços podem ter custos; software sem cobrança de licença não garante custo operacional zero.

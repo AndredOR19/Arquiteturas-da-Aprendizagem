@@ -539,6 +539,40 @@
       "proxima_acao": "Continuar documentando objetos e formas de participação; delimitar estudos e preservar resultados favoráveis, nulos, negativos e inconclusivos.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Organização inicial de perguntas e forma de registro; preservada a direção do autor, sem novo protocolo obrigatório."
+    },
+    {
+      "id": "DEC-20261028-009",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Rede para acelerar soluções, autoria e devolutivas de estudos",
+      "formulacao": "Preparar abertura futura do núcleo como software livre sem cobrança de licença, colaboração em aplicações/pesquisa, reconhecimento da proposição e retorno de dados/resultados com indicadores e acompanhamento.",
+      "natureza": "decisao_de_projeto_e_governanca",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "proposta_documentada_licenciamento_e_adesao_pendentes",
+      "evidencia": {
+        "tipo": "direcao_autoral_e_preparacao_documental",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [
+        "RED-001",
+        "MES-001",
+        "INF-003"
+      ],
+      "relacionados": [
+        "DEC-20261028-008",
+        "DEC-20261028-007"
+      ],
+      "proxima_acao": "Revisar escopo/licenças e protocolo da rede; preparar coleta privada e conferir piloto antes da ampliação.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização e conferência de limites de licença, propostas de governança/indicadores e metadados; não concedida licença ou criada obrigação universal de compartilhar dados."
     }
   ]
 }

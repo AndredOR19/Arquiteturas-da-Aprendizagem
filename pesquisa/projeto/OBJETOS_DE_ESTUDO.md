@@ -72,3 +72,6 @@ Registrar protocolo, versão do material, critérios, contexto e contribuições
 Conservar autoria das formulações de origem e reconhecer as contribuições dos colaboradores. Críticas e revisões integram a documentação. O acervo pode reunir relatos e resultados revisados para que outra pessoa examine o percurso, incluindo achados desfavoráveis e limitações.
 
 A abertura à colaboração não significa acesso público aos registros individuais dos estudantes. Cada estudo precisa de um procedimento adequado para seu campo e sua finalidade; disponibilizar métodos e resultados apropriados preservando os dados restritos.
+
+## Governança e acompanhamento em preparação
+Consultar a [proposta de colaboração](GOVERNANCA_COLABORACAO.md) e o [plano de indicadores](PLANO_INDICADORES.md) para autoria, participação, devolutivas e comparação de resultados. O arquivo [CITATION.cff](../../CITATION.cff) facilita a referência. Licença livre e adesão a uma rede com protocolo de estudo são relações distintas; não há obrigação geral de envio de dados de todo fork aplicada por estes documentos.

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Ao fazer referência ao projeto, utilize estes metadados e identifique a versão ou commit e os materiais efetivamente usados. Esta recomendação não adiciona condições a uma licença de software."
+title: "Arquiteturas da Aprendizagem"
+type: software
+authors:
+  - family-names: "Rodrigues"
+    given-names: "André de Oliveira"
+repository-code: "https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem"
+url: "https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem"
+abstract: "Projeto autoral de arquiteturas pedagógicas e materiais didáticos ajustáveis, com documentação, ferramentas e frentes de investigação em desenvolvimento. André de Oliveira Rodrigues é o propositor; contribuições posteriores devem ser identificadas em seus próprios registros."
+keywords:
+  - "materiais didáticos"
+  - "personalização"
+  - "educação"
+  - "arquiteturas da aprendizagem"

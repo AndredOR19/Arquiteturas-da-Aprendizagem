@@ -96,3 +96,8 @@ O [diário e banco de insights](pesquisa/README.md) registram as correlações a
 
 ## n8n e aperfeiçoamento a partir da sala — 2.15.0
 [Integração n8n](automacoes/n8n/README.md): primeiro workflow preparado para importação, com 13 testes locais e 23 ensaios existentes preservados; ainda não implantado. [Ciclo de aperfeiçoamento](automacoes/n8n/CICLO_DE_APERFEICOAMENTO.md): dados dos artefatos, insights docentes, adaptações situadas e revisão versionada. Progresso ao vivo e coleta permanente ainda não ativados.
+
+## Colaboração e referência
+Propositor das Arquiteturas da Aprendizagem: **André de Oliveira Rodrigues**. [Metadados para referência](CITATION.cff) · [Como contribuir](CONTRIBUTING.md) · [Objetos de estudo](pesquisa/projeto/OBJETOS_DE_ESTUDO.md).
+
+A [proposta de governança da rede](pesquisa/projeto/GOVERNANCA_COLABORACAO.md) e o [plano de indicadores](pesquisa/projeto/PLANO_INDICADORES.md) preparam colaboração, devolutivas de estudos e acompanhamento. Licenciamento e abertura do núcleo ainda em discussão; esses documentos não aplicam uma licença ou exigem entrega de dados por todo fork. Dados individuais permanecem privados.

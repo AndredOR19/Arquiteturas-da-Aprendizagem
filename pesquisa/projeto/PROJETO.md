@@ -320,3 +320,10 @@ https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2
 
 Autoria das arquiteturas e das propostas: Prof. André de Oliveira Rodrigues. Apoio de IA: organização, pesquisa de fontes, redação e análise técnica preliminar, sujeitos à revisão do proponente e da instituição.
 
+
+# 10. Rede, autoria e acompanhamento — ampliação de 28/10/2026
+A proposta do autor é acelerar a produção e o exame de soluções para necessidades educacionais, articulando software livre sem cobrança de licença, materiais ajustáveis, dados pertinentes das aplicações e relatos dos professores. O núcleo reutilizável poderá ser aberto após seleção de escopo, licenciamento e funcionamento conferido; infraestrutura, manutenção e serviços têm custos a dimensionar.
+
+Preparados [governança de colaboração](GOVERNANCA_COLABORACAO.md), [indicadores e diagramas](PLANO_INDICADORES.md), guia de contribuição e metadados de referência. A autoria de proposição de André de Oliveira Rodrigues é preservada; contribuições de outros participantes devem ser identificadas. A devolutiva de estudos será objeto de adesão/protocolo da rede e não será representada como obrigação automática de todo fork de software livre. Coleta, acesso e circulação de resultados devem ter finalidade e escopo próprios, preservando participantes.
+
+O exame deve aceitar confirmação, limitação e contestação do método ou da aplicação. A preparação documental não confirma novos participantes, resultados, licença adotada ou compartilhamento ativo de dados.
