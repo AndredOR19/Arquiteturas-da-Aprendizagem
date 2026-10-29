@@ -276,6 +276,22 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40802855079",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "dfdcf0a2c53af2e13d10e03e464de129e8c0e7f6",
+      "pasta": "execucoes/40802855079-1-individuos",
+      "experimento": "f3b530a18cf6a05a0ac5ce441b6a1f57173b82a2d99529aea023a3ee1bac4516",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": [
+          "pesquisa/registros.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
@@ -285,7 +301,7 @@
       "pesquisa/simulacoes/arquiteturas_externas.json": "a46655384f0f5c1d01ff7db55e656a1d338b47948a8cf0563f503c89606a3be3",
       "pesquisa/simulacoes/catalogo_modelos.json": "176c3edda89e9564db8192aaeba74ab45044b649885d926675ff058c50c8c69f",
       "PROMPT_MESTRE_AULAS_DIGITAIS.md": "50224676f80fd299e309f8d2d55d0750126f577ea27b49bf539921096ce31edf",
-      "pesquisa/registros.json": "a1429439f27043aa2c09fb692c3133ed5ce1d4ff1f4d456d1734a85813bf888b",
+      "pesquisa/registros.json": "6c532d53c8bed5e785ec84bfda322760ea21c7b37b593f46defe1b7001f11480",
       "pesquisa/producoes.json": "44074a7d71d2a4501f0dad1fd70c405f9d9760b54c10eb9dda4a26e4f368ef9a"
     },
     "arquiteturas": [
