@@ -29,9 +29,14 @@ body.append(heading,topic,intro,controls,voiceStatus,stage,feedback,progress,ret
 const entry=el('button',null,'btn il-entry');entry.id='image-learning-open';entry.type='button';entry.setAttribute('aria-controls',box.id);entry.setAttribute('aria-expanded','false');
 const mini=window.ImageLearningScene('observar','Ver uma imagem e ouvir sua explicação');mini.setAttribute('aria-hidden','true');entry.append(mini,el('span','Aprender com imagens e áudio'));
 const title=document.getElementById('title')||document.querySelector('main h1')||document.querySelector('h1');
-if(title)title.before(entry);else(document.querySelector('main')||document.body).prepend(entry);
-const anchor=document.getElementById('text')||document.getElementById('explore')||document.getElementById('mission');
-if(anchor)anchor.before(box);else entry.after(box);
+const dynamicRoot=document.querySelector('main#main');
+if(dynamicRoot){
+ entry.classList.add('il-outside-root');box.classList.add('il-outside-root');dynamicRoot.before(entry,box);
+}else{
+ if(title)title.before(entry);else(document.querySelector('main')||document.body).prepend(entry);
+ const anchor=document.getElementById('text')||document.getElementById('explore')||document.getElementById('mission');
+ if(anchor)anchor.before(box);else entry.after(box);
+}
 function save(){try{sessionStorage.setItem(key,JSON.stringify(state));}catch{voiceStatus.textContent='Registro apenas na memória desta página. As imagens continuam disponíveis.';}progress.textContent=`Cenas exploradas: ${state.vistos.length}/${cfg.conceitos.length}. Tentativas neste apoio: ${state.tentativas.length}. Este treino não altera a nota da aula.`;}
 function record(field,value){if(state[field].length<200)state[field].push(value);else{state.limite=true;voiceStatus.textContent='Limite de registros deste apoio atingido. Você pode continuar usando as imagens.';}save();}
 function speak(text,id,after){

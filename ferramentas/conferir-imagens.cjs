@@ -9,6 +9,7 @@ process.on('exit',()=>srv.kill());
  try{
   const cat=JSON.parse(fs.readFileSync('publicacao/catalogo.json','utf8')).materiais.filter(m=>m.tipo==='html');
   for(const item of cat){
+   console.log('CONFERINDO_IMAGENS',item.destino);
    const p=await browser.newPage({viewport:{width:390,height:844}});const errors=[];p.on('pageerror',e=>errors.push(e.message));
    await p.addInitScript(()=>{
     window.__imageSpeech=[];
@@ -16,7 +17,7 @@ process.on('exit',()=>srv.kill());
     window.SpeechSynthesisUtterance=class{constructor(text){this.text=text}};
    });
    await p.goto('http://127.0.0.1:8788/'+item.destino+'/');
-   await p.waitForSelector('#image-learning-open');
+   await p.waitForSelector('#image-learning-open').catch(e=>{throw Error(item.destino+' | '+errors.join(';')+' | '+e.message)});
    if(await p.locator('#image-learning-open').count()!==1)throw Error('Entrada duplicada');
    await p.locator('#image-learning-open').focus();await p.keyboard.press('Enter');
    if(!await p.locator('#image-learning').getAttribute('open').then(v=>v!==null))throw Error('Não abriu por teclado');
