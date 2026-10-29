@@ -507,6 +507,38 @@
       "contribuicao_assistente": "Tradução operacional, código e testes; a percepção, a formulação e a direção são do autor.",
       "delimitacao_autoral": "Personalizar o material didático disponibilizado; a aula mantém exposição, proximidade e mediação do professor.",
       "beneficio_pretendido": "Ampliar opções de acesso e interação, com ajustes individuais revistos pela experiência e pelos registros."
+    },
+    {
+      "id": "DEC-20261028-008",
+      "data_formulacao": "2026-10-28",
+      "data_registro": "2026-10-28",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Documentação de objetos de estudo para outras pesquisas",
+      "formulacao": "Documentar as construções e depois apresentar no README possíveis objetos de estudo para outras pessoas desenvolverem pesquisas, dissertações ou linhas de investigação. Abrir possibilidades de colaboração em pesquisa, inovação e implantação, incluindo dados que apoiem, limitem ou contestem o método e sua aplicação.",
+      "natureza": "decisao_de_documentacao",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-28.md",
+        "transcricao_integral": false
+      },
+      "estado": "registro_inicial_de_possibilidades",
+      "evidencia": {
+        "tipo": "decisao_autoral",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [
+        "MES-001",
+        "RED-001"
+      ],
+      "relacionados": [
+        "DEC-20261028-007"
+      ],
+      "proxima_acao": "Continuar documentando objetos e formas de participação; delimitar estudos e preservar resultados favoráveis, nulos, negativos e inconclusivos.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Organização inicial de perguntas e forma de registro; preservada a direção do autor, sem novo protocolo obrigatório."
     }
   ]
 }

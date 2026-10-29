@@ -1,6 +1,6 @@
 # Proposta de mestrado — Arquiteturas da Aprendizagem
 
-**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.2.0 · **Data:** 28/10/2026
+**Autor:** Prof. André de Oliveira Rodrigues · **Local:** Vacaria/RS · **Versão:** 0.2.1 · **Data:** 28/10/2026
 
 > Laboratório de pesquisa e produção educacional apoiado por arquiteturas pedagógicas versionadas, simulação de cenários e avaliação futura em escolas, com adaptação progressiva da infraestrutura de software da Sofia Cog OS.
 
@@ -136,3 +136,9 @@ Um inventário do Supabase de destino e uma proposta revisável de schema/migra�
 
 **Proveniência:** decisão direta do autor em 28/10/2026; documentos do projeto e consulta ao acervo técnico/conceitual autorizado. As fontes reservadas permanecem no acervo de origem. Apoio do assistente na organização e redação; nenhuma nova conexão, migração Supabase, importação vetorial ou implantação Vercel foi executada nesta entrega.
 
+
+## Objetos de estudo em elaboração
+Por decisão do autor, as experiências e propostas serão documentadas também como possíveis objetos de estudo para outras pessoas desenvolverem pesquisas, dissertações ou linhas de investigação. O README poderá apresentar esses objetos conforme sua delimitação. [Registro inicial das possibilidades](OBJETOS_DE_ESTUDO.md): perguntas propostas, estados, evidências a desenvolver e forma de documentação. Esta frente não impõe um novo protocolo operacional ao sistema nem representa resultados ou teses já concluídos.
+
+### Colaboração, inovação e exame crítico
+Os objetos de estudo também podem aproximar colaboradores interessados em pesquisar, desenvolver ou implantar recortes das Arquiteturas. Seus dados poderão apoiar, delimitar, revisar ou contestar o método e sua aplicação, preservando resultados nulos, negativos e inconclusivos. Registrar contexto, protocolos, versões e contribuições; conferir comparabilidade antes de reunir achados. A abertura documentada não representa colaboradores, coleta ou validação já confirmados. Ver [formas de participação e registro](OBJETOS_DE_ESTUDO.md#colaboração-aplicação-e-contestação).
