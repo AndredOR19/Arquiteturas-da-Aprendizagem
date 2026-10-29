@@ -336,6 +336,22 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40805300054",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "65b3592890ae2191a4a6c73b246fa7ae41e63ec3",
+      "pasta": "execucoes/40805300054-1-turmas",
+      "experimento": "d76e9abea5be030f18ba04a86ed41293d4819f51418110b23bdc6480196b886d",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": [
+          "pesquisa/registros.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
@@ -345,7 +361,7 @@
       "pesquisa/simulacoes/arquiteturas_externas.json": "a46655384f0f5c1d01ff7db55e656a1d338b47948a8cf0563f503c89606a3be3",
       "pesquisa/simulacoes/catalogo_modelos.json": "176c3edda89e9564db8192aaeba74ab45044b649885d926675ff058c50c8c69f",
       "PROMPT_MESTRE_AULAS_DIGITAIS.md": "50224676f80fd299e309f8d2d55d0750126f577ea27b49bf539921096ce31edf",
-      "pesquisa/registros.json": "4db55b7498d2857ee62b4396fdb3fb51e47a3dd2251d67bd798e2760bc127fea",
+      "pesquisa/registros.json": "18b55833e06aef5031791276b42cef6c2960b983a5d11d63a879b855159cfa7e",
       "pesquisa/producoes.json": "44074a7d71d2a4501f0dad1fd70c405f9d9760b54c10eb9dda4a26e4f368ef9a"
     },
     "arquiteturas": [
