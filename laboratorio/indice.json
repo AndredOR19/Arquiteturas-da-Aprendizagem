@@ -366,15 +366,34 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40851356498",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "8bfc1d646d89880f07fc8141b196da3c05e56a10",
+      "pasta": "execucoes/40851356498-1-turmas",
+      "experimento": "259ff052f9422dbef432f682a21972bfc48b9dbc40230089102d58400b799c8c",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [
+          "aies"
+        ],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "3933d8a8ad0846fc34550ccc0e680ea9e267815c823785cd717e1245bc39a012",
+      "biblioteca-arquiteturas/catalogo.json": "d7db5e5d79263b9decdc855fa5e127793c058addbdba832f8ae84fc86d3d522d",
       "pesquisa/simulacoes/arquiteturas_externas.json": "a46655384f0f5c1d01ff7db55e656a1d338b47948a8cf0563f503c89606a3be3",
       "pesquisa/simulacoes/catalogo_modelos.json": "176c3edda89e9564db8192aaeba74ab45044b649885d926675ff058c50c8c69f",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "50224676f80fd299e309f8d2d55d0750126f577ea27b49bf539921096ce31edf",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "30a9257dd4524f9f83d0068881c7375efdd439e597e04c376b571d813d269017",
       "pesquisa/registros.json": "18b55833e06aef5031791276b42cef6c2960b983a5d11d63a879b855159cfa7e",
       "pesquisa/producoes.json": "44074a7d71d2a4501f0dad1fd70c405f9d9760b54c10eb9dda4a26e4f368ef9a"
     },
@@ -535,10 +554,10 @@
         "id": "aies",
         "nome": "AIES — Arquitetura de Integração Estético-Semântica",
         "dominio": "pedagogico",
-        "versao_documental": "1.0.0",
+        "versao_documental": "1.0.1",
         "estado_documental": "diretriz_documentada",
         "fontes_sha256": {
-          "biblioteca-arquiteturas/plantas/aies.md": "9e67e7a6e1d7a246fca7bbe1f76c3f510a42a2971c19f2dbc1b99be71b1ccca5"
+          "biblioteca-arquiteturas/plantas/aies.md": "0c6e4aaa9278c5524f41080f92af0149725caa03548c3de8a43a3c3c10c5ed72"
         },
         "estado_modelagem": "aguardando_formalizacao",
         "modulos_mecanisticos": [],
@@ -548,7 +567,7 @@
         ],
         "calibracao_empirica": false,
         "validacao_empirica": false,
-        "revisao_sha256": "936f5bfd68c01f1e18a30475efce247ef1c56bb306639e0d3550e4a66d473cb3"
+        "revisao_sha256": "a2a18c481d5250bdba763041fd4af689aaaed643c218bc9a5e02ca2ad278c75a"
       },
       {
         "id": "autoaprendizagem",
