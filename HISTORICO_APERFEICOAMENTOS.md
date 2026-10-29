@@ -3,6 +3,10 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.17.1 — 29/10/2026 — Abertura do relatório no e-mail
+
+Relato do professor: erro ao abrir a janela de e-mail nos artefatos do dia, sobretudo História 192. O código avisava sobre relatório longo mas ainda navegava com o corpo inteiro na URL. Agora usa limite preventivo de 1.800 caracteres para preenchimento por URL; acima disso oferece cópia integral e abertura curta do Gmail, com colagem manual explícita. Mantidas prévia, cópia e TXT completos, com cópia negada tratada sem confirmação falsa. Aplicado às oito implementações de envio cadastradas, inclusive História 192 (21/10 e 29/10), Missão Ponte 6/7 e laboratórios. IDs, chaves de progresso, atividades e critérios preservados. Testes de transporte e publicação no workflow; abrir rascunho não confirma envio/recebimento. Sem envio de mensagens pelo assistente.
+
 ## 2.17.0 — 29/10/2026 — Coleta automática de eventos parciais
 
 Solicitação do Prof. André Rodrigues: receber interações da página automaticamente, sem depender do botão de envio final. Implementados cliente modular, contrato mínimo, fila temporária/reenvio, receptor privado com convites e idempotência e workflow n8n inativo. Acrescentada seção 26.2; catálogo 1.4.5 reconciliado. Treze verificações novas locais com serviços simulados passaram. Nenhuma aula instrumentada; instância, implantação, CORS e teste real pendentes. Não há coleta ativa nem adaptação automática do prompt. Ver coleta/eventos/README.md.

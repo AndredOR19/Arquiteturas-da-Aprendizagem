@@ -53,26 +53,34 @@ fetch('assets/data.json').then(r=>{if(!r.ok)throw Error('conteúdo indisponível
 function openReportEmail(to, subject, body) {
   const mail = String(to || '').trim();
   if (!/^[^\s@?&#]+@[^\s@?&#]+\.[^\s@?&#]+$/.test(mail)) {
-    alert('O endereço do professor não está configurado corretamente. Copie ou baixe o relatório e confirme o destinatário.');
+    alert('Confirme o endereço do professor. Você pode copiar ou baixar o relatório completo.');
     return;
   }
+  body = String(body ?? '');
+  subject = String(subject ?? 'Relatório de aula');
   document.getElementById('report-email-options')?.remove();
   const panel = document.createElement('dialog');
   panel.id = 'report-email-options';
+  panel.dataset.emailVersion = '2.0.0';
   panel.style.cssText = 'width:min(90vw,720px);max-height:85vh;overflow:auto;padding:24px;border:2px solid #526779;border-radius:12px;background:#fff;color:#172535';
   const title = document.createElement('h2'); title.textContent = 'Enviar relatório ao professor';
   const info = document.createElement('p');
-  info.textContent = 'Destinatário: ' + mail + '. Escolha Gmail ou seu aplicativo de e-mail. Confira a mensagem e clique em Enviar lá. Abrir a mensagem não confirma entrega.';
+  info.textContent = 'Destinatário: ' + mail + '. Confira o relatório e envie pelo seu e-mail. Esta página não confirma envio nem recebimento.';
   const preview = document.createElement('textarea');
   preview.value = body; preview.readOnly = true;
   preview.setAttribute('aria-label','Relatório completo para copiar');
   preview.style.cssText='width:100%;box-sizing:border-box;min-height:180px;color:#172535;background:white';
   const status = document.createElement('p'); status.setAttribute('role','status');
-  const gmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(mail) + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  const mailto = 'mailto:' + mail + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  status.textContent = gmail.length > 7000
-    ? 'Este relatório é longo. Se o e-mail não abrir ou vier incompleto, use Copiar relatório e abrir Gmail, ou baixe o TXT e anexe manualmente. Nenhum trecho foi cortado.'
-    : 'Se o aplicativo não abrir, use Gmail. Se faltar texto, copie a prévia completa ou anexe o TXT.';
+  const shortGmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(mail) + '&su=' + encodeURIComponent(subject);
+  const gmail = shortGmail + '&body=' + encodeURIComponent(body);
+  const shortMailto = 'mailto:' + mail + '?subject=' + encodeURIComponent(subject);
+  const mailto = shortMailto + '&body=' + encodeURIComponent(body);
+  // Limite conservador de transporte, não limite do texto preservado na prévia/TXT.
+  const maxUrl = 1800;
+  const longReport = gmail.length > maxUrl || mailto.length > maxUrl;
+  status.textContent = longReport
+    ? 'O relatório é longo demais para uma abertura confiável pelo endereço do e-mail. Use Copiar relatório e abrir Gmail; depois cole no corpo da mensagem (Ctrl+V). Ou baixe o TXT e anexe manualmente. O relatório permanece completo.'
+    : 'Você pode abrir a mensagem preenchida. Se preferir, copie o texto ou baixe o TXT. Confira tudo antes de enviar.';
   function button(label, fn) {
     const b=document.createElement('button'); b.type='button'; b.textContent=label;
     b.style.cssText='margin:5px;padding:10px;cursor:pointer'; b.onclick=fn;panel.append(b);return b;
@@ -80,26 +88,36 @@ function openReportEmail(to, subject, body) {
   function launch(url) {
     const a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer';
     document.body.append(a); a.click(); a.remove();
-    status.textContent='Abertura solicitada. Confira destinatário e relatório completo antes de enviar. Se nada abriu, permita a nova aba ou use outra opção abaixo. Não há confirmação de envio nesta página.';
+  }
+  function selectReport() { preview.focus(); preview.select(); preview.setSelectionRange(0,preview.value.length); }
+  function copyReportText(afterCopy) {
+    selectReport();
+    let copied=false;
+    try { copied=document.execCommand('copy')===true; } catch (_) {}
+    const success=()=>{status.textContent=afterCopy;};
+    const failure=()=>{status.textContent=copied?afterCopy:'A cópia automática não foi confirmada. Volte a esta janela, selecione o relatório e use Ctrl+C (ou Copiar). Depois cole no corpo do e-mail. Você também pode baixar o TXT.';};
+    if(navigator.clipboard?.writeText) navigator.clipboard.writeText(body).then(success).catch(failure);
+    else if(copied)success();else failure();
   }
   panel.append(title,info,preview,status);
-  button('Abrir Gmail com relatório',()=>launch(gmail));
-  button('Abrir aplicativo de e-mail',()=>launch(mailto));
+  // Nunca navegar com um corpo grande: um aviso sozinho não impede o erro de URL.
+  if (!longReport) {
+    button('Abrir Gmail com relatório',()=>{launch(gmail);status.textContent='Abertura solicitada. Confira a mensagem antes de enviar; se nada abriu, use a opção de copiar abaixo.';});
+    button('Abrir aplicativo de e-mail',()=>{launch(mailto);status.textContent='Abertura solicitada. Se não houver aplicativo configurado, use Gmail ou baixe o TXT.';});
+  }
   button('Copiar relatório e abrir Gmail',()=>{
-    // A nova aba é aberta no próprio clique, antes de aguardar a área de transferência.
-    launch('https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(mail)+'&su='+encodeURIComponent(subject));
-    preview.focus();preview.select();
-    try { document.execCommand('copy'); } catch (_) {}
-    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(body).then(()=>{
-      status.textContent='Relatório completo copiado. Cole no corpo da mensagem do Gmail, confira e envie.';
-    }).catch(()=>{status.textContent='O relatório está selecionado: use Copiar e cole na mensagem do Gmail.';});
-    else status.textContent='O relatório está selecionado. Use Copiar e cole na mensagem do Gmail.';
+    // Abrir endereço curto no próprio clique evita depender de pop-up após await.
+    copyReportText('Relatório completo copiado. Na mensagem do Gmail, clique no corpo e use Ctrl+V (ou Colar). Confira e envie. Se a aba não abriu, use Abrir Gmail para colar.');
+    launch(shortGmail);
   });
+  button('Copiar relatório completo',()=>copyReportText('Relatório completo copiado. Abra o e-mail, cole no corpo da mensagem, confira e envie.'));
+  button('Abrir Gmail para colar',()=>{launch(shortGmail);status.textContent='Gmail solicitado com destinatário e assunto. Cole o relatório completo no corpo da mensagem (Ctrl+V). Se a aba foi bloqueada, use o link abaixo.';});
+  const link=document.createElement('a');link.href=shortGmail;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Abrir Gmail pelo link direto (colar o relatório)';link.style.cssText='display:block;margin:12px 5px;color:#154c92;text-decoration:underline';panel.append(link);
   button('Baixar relatório TXT',()=>{
     const url=URL.createObjectURL(new Blob([body],{type:'text/plain;charset=utf-8'}));
     const a=document.createElement('a');a.href=url;a.download='relatorio-completo.txt';
     document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
-    status.textContent='Download solicitado. Anexe o TXT manualmente à mensagem antes de enviar.';
+    status.textContent='Download solicitado. No Gmail, anexe o TXT manualmente antes de enviar. O arquivo contém o relatório completo.';
   });
   button('Fechar',()=>{panel.close();panel.remove();});
   document.body.append(panel);panel.showModal();

@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.17.0**  
+Versão vigente: **2.17.1**  
 Atualização: **29/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -292,6 +292,8 @@ O relatório deve conter escola, turma, componente, data, título, resumo, habil
 A diretriz é preencher o corpo do e-mail com o **relatório completo**, não somente nota ou resumo. Oferecer prévia, cópia e download. Se houver limite de tamanho, avisar claramente e orientar cópia ou anexo manual; nunca truncar silenciosamente nem apresentar uma mensagem de instruções como se já contivesse o relatório completo.
 
 Implementar a abertura por link mailto: com destinatário, assunto identificando aula/turma e corpo devidamente codificados. Informar junto ao botão: “Abre seu aplicativo de e-mail com o relatório preenchido. Confira e clique em Enviar.” Abrir o aplicativo não comprova envio: não mostrar “Relatório enviado” nem registrar entrega confirmada apenas pelo clique. Não prometer anexo automático.
+
+**Correção de 29/10/2026 — abertura de e-mail:** medir o comprimento dos endereços codificados antes de abrir. Usar limite conservador de 1.800 caracteres para a abertura preenchida; esse é um limite preventivo do projeto, não uma especificação universal do Gmail. Acima dele, não criar botão que navegue com o corpo longo: oferecer como ação principal “Copiar relatório e abrir Gmail”, abrindo endereço curto com destinatário/assunto, e orientar explicitamente a colagem manual. Preservar prévia, cópia e TXT integrais. Oferecer cópia separada, link direto curto e orientação de anexo manual. Só afirmar cópia quando uma API confirmar; em falha, selecionar o texto e instruir Ctrl+C/Ctrl+V. Não apresentar rascunho sem corpo como preenchimento automático completo. Testar relatório longo real, cópia negada, rotas curtas e relatório curto, sem enviar mensagens.
 
 Registrar apenas eventos pertinentes da própria página, com informação clara: abertura, retorno, visibilidade e recarregamento quando implementado. Não monitorar outros sites. Mudança de visibilidade não comprova atenção ou desatenção. Diferenciar ausência de registro de zero; não inventar tempos ou eventos.
 

@@ -71,6 +71,10 @@ jobs:
           if-no-files-found: ignore
       - name: Conferir Missão Ponte do sexto e sétimo ano
         run: node ferramentas/conferir-ponte.cjs
+      - name: Conferir transporte integral e abertura segura dos relatórios
+        run: |
+          node ferramentas/testar-email.cjs
+          node ferramentas/conferir-email.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
