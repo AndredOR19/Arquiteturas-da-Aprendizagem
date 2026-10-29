@@ -1,0 +1,17 @@
+{
+  "execucao": "40969516468",
+  "tentativa": "1",
+  "cenario": "turmas",
+  "commit_fonte": "0dbede7b793a22807b8625df2e35098f62783c4f",
+  "pasta": "execucoes/40969516468-1-turmas",
+  "experimento": "8de4867a9c7f7e5df8eb099114298f1577119d646e763b9c253101f7a22e3f15",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "biblioteca-arquiteturas/catalogo.json"
+    ]
+  }
+}
