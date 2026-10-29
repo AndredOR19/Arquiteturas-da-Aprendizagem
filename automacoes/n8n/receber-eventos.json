@@ -1,0 +1,272 @@
+{
+  "name": "Arquiteturas — eventos parciais v1",
+  "active": false,
+  "nodes": [
+    {
+      "id": "Receber_relat_rio",
+      "name": "Receber relatório",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "arquiteturas-eventos-v1",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "https://andredor19.github.io"
+        }
+      },
+      "webhookId": "2aa3d217-28fc-48fd-b09d-844a558bb854"
+    },
+    {
+      "id": "Configurar_receptor",
+      "name": "Configurar receptor",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "// Preencher somente na instância privada do n8n. Não incluir convites.\nreturn [{json:{...$json,config:{receptor:'https://script.google.com/macros/s/PREENCHER/exec',ambiente:'teste'}}}];"
+      }
+    },
+    {
+      "id": "Validar_relat_rio",
+      "name": "Validar relatório",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "jsCode": "/* Eventos parciais: não substituem o contrato de conclusão. */\n(function(root){\n  'use strict';\n  function validar(p){\n    const fail=()=>{throw new Error('DADOS_INVALIDOS');};\n    const id=v=>typeof v==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(v);\n    if(!p||p.schema_version!=='eventos-1.0.0'||!id(p.batch_id)||!id(p.sessao_id)||!['teste','producao'].includes(p.ambiente))fail();\n    if(!p.aula||!id(p.aula.id)||!(typeof p.aula.versao==='string'&&/^[a-zA-Z0-9_.-]{1,100}$/.test(p.aula.versao))||!p.estudante||!id(p.estudante.codigo))fail();\n    if(!Array.isArray(p.eventos)||!p.eventos.length||p.eventos.length>20)fail();\n    const seen=new Set();\n    const eventos=p.eventos.map(e=>{\n      if(!e||!id(e.id)||seen.has(e.id)||!Number.isInteger(e.sequencia)||e.sequencia<1||typeof e.ocorrido_em!=='string'||!Number.isFinite(Date.parse(e.ocorrido_em)))fail();\n      seen.add(e.id);\n      if(!['inicio','tentativa','pista','etapa_concluida','recurso'].includes(e.tipo))fail();\n      const d=e.dados||{};if(Array.isArray(d)||typeof d!=='object'||d===null)fail();\n      if(Object.keys(d).some(k=>!['item_id','correta','nivel','recurso_id','ativo'].includes(k)))fail();\n      if(['tentativa','pista','etapa_concluida'].includes(e.tipo)&&!id(d.item_id))fail();\n      if(e.tipo==='tentativa'&&typeof d.correta!=='boolean')fail();\n      if(e.tipo==='pista'&&(!Number.isInteger(d.nivel)||d.nivel<1||d.nivel>100))fail();\n      if(e.tipo==='recurso'&&(!id(d.recurso_id)||typeof d.ativo!=='boolean'))fail();\n      if(d.item_id!==undefined&&!id(d.item_id))fail();\n      if(d.recurso_id!==undefined&&!id(d.recurso_id))fail();\n      if(d.correta!==undefined&&typeof d.correta!=='boolean')fail();\n      if(d.ativo!==undefined&&typeof d.ativo!=='boolean')fail();\n      if(d.nivel!==undefined&&(!Number.isInteger(d.nivel)||d.nivel<1||d.nivel>100))fail();\n      return {id:e.id,sequencia:e.sequencia,ocorrido_em:e.ocorrido_em,tipo:e.tipo,dados:d};\n    });\n    const limpo={schema_version:p.schema_version,batch_id:p.batch_id,sessao_id:p.sessao_id,ambiente:p.ambiente,aula:{id:p.aula.id,versao:p.aula.versao},estudante:{codigo:p.estudante.codigo},eventos};\n    if(JSON.stringify(limpo).length>30000)fail();return limpo;\n  }\n  root.EventosContrato={validar};\n})(globalThis);\n\nreturn [{json:(function prepararEventos(body,config,contrato){\n  const erro=(codigo,status=400)=>({encaminhar:false,status,recibo:{ok:false,codigo}});\n  if(!/^https:\\/\\/script\\.google\\.com\\/macros\\/s\\/[A-Za-z0-9_-]+\\/exec$/.test(config?.receptor||'')||config.receptor.includes('PREENCHER')||!['teste','producao'].includes(config.ambiente))return erro('NAO_CONFIGURADO',503);\n  try{\n    const raw=typeof body==='string'?body:JSON.stringify(body);if(raw.length>40000)return erro('DADOS_INVALIDOS');\n    const e=JSON.parse(raw);if(!/^[a-f0-9]{64}$/.test(e.token||''))return erro('CONVITE_INVALIDO');\n    const p=contrato.validar(e.payload);if(config.ambiente==='teste'&&p.ambiente!=='teste')return erro('SOMENTE_TESTE');\n    return {encaminhar:true,receptor:config.receptor,envelope:{token:e.token,payload:p},batch_id:p.batch_id,ids:p.eventos.map(e=>e.id)};\n  }catch{return erro('DADOS_INVALIDOS');}\n})($json.body,$json.config,globalThis.EventosContrato)}];"
+      }
+    },
+    {
+      "id": "Pode_encaminhar",
+      "name": "Pode encaminhar",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        720,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "validado",
+              "leftValue": "={{ $json.encaminhar }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "Persistir_na_coleta_existente",
+      "name": "Persistir na coleta existente",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        -100
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.receptor }}",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "text/plain;charset=UTF-8",
+        "body": "={{ JSON.stringify($json.envelope) }}",
+        "options": {
+          "timeout": 20000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "onError": "continueRegularOutput",
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000
+    },
+    {
+      "id": "Conferir_confirma__o",
+      "name": "Conferir confirmação",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        -100
+      ],
+      "parameters": {
+        "jsCode": "return [{json:(function conferirEventos(value,entrada){\n  try{\n    const r=typeof value==='string'?JSON.parse(value):value;\n    if(r?.ok===false)return {status:200,recibo:{ok:false,codigo:'RECEBIMENTO_RECUSADO'}};\n    if(r?.ok!==true||r.estado!=='recebido'||r.batch_id!==entrada.batch_id||typeof r.duplicada!=='boolean'||JSON.stringify(r.ids)!==JSON.stringify(entrada.ids))throw Error();\n    return {status:200,recibo:{ok:true,estado:'recebido',batch_id:r.batch_id,ids:r.ids,duplicada:r.duplicada}};\n  }catch{return {status:502,recibo:{ok:false,codigo:'SEM_CONFIRMACAO'}};}\n})($json,$('Validar relatório').first().json)}];"
+      }
+    },
+    {
+      "id": "Responder_recibo",
+      "name": "Responder recibo",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        1440,
+        -100
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json.recibo }}",
+        "options": {
+          "responseCode": "={{ $json.status }}",
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "https://andredor19.github.io"
+              },
+              {
+                "name": "Cache-Control",
+                "value": "no-store"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "Responder_pend_ncia",
+      "name": "Responder pendência",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        960,
+        140
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json.recibo }}",
+        "options": {
+          "responseCode": "={{ $json.status }}",
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "https://andredor19.github.io"
+              },
+              {
+                "name": "Cache-Control",
+                "value": "no-store"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Receber relatório": {
+      "main": [
+        [
+          {
+            "node": "Configurar receptor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Configurar receptor": {
+      "main": [
+        [
+          {
+            "node": "Validar relatório",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validar relatório": {
+      "main": [
+        [
+          {
+            "node": "Pode encaminhar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pode encaminhar": {
+      "main": [
+        [
+          {
+            "node": "Persistir na coleta existente",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Responder pendência",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Persistir na coleta existente": {
+      "main": [
+        [
+          {
+            "node": "Conferir confirmação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Conferir confirmação": {
+      "main": [
+        [
+          {
+            "node": "Responder recibo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "executionTimeout": 60,
+    "saveDataErrorExecution": "none",
+    "saveDataSuccessExecution": "none",
+    "saveManualExecutions": false,
+    "saveExecutionProgress": false
+  },
+  "pinData": {},
+  "tags": []
+}

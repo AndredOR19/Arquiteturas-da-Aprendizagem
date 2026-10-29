@@ -1,0 +1,32 @@
+name: Conferir coleta de eventos
+on:
+  push:
+    paths:
+      - 'coleta/**'
+      - 'automacoes/n8n/**'
+      - '.github/workflows/conferir-eventos.yml'
+  pull_request:
+    paths:
+      - 'coleta/**'
+      - 'automacoes/n8n/**'
+      - '.github/workflows/conferir-eventos.yml'
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Gerar workflow e receptor
+        run: |
+          node automacoes/n8n/gerar-eventos.mjs
+          node coleta/build-server.mjs
+          git diff --exit-code -- automacoes/n8n/receber-eventos.json coleta/apps-script/Code.gs
+      - name: Conferir eventos e regressões
+        run: |
+          node coleta/eventos/testes.mjs
+          node automacoes/n8n/testes.mjs
+          node coleta/testes.mjs

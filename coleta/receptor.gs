@@ -57,6 +57,7 @@ function doPost(e) {
     var raw=e&&e.postData&&e.postData.contents;
     if(typeof raw!=='string'||raw.length>1100000)ColetaContrato.falha('DADOS_INVALIDOS','Solicitação ausente ou maior que o limite.');
     var envelope;try{envelope=JSON.parse(raw);}catch(_){ColetaContrato.falha('DADOS_INVALIDOS','Solicitação inválida.');}
+    if(envelope.payload&&envelope.payload.schema_version==='eventos-1.0.0')return receberEventos_(envelope);
     var p=envelope.payload,parsed=ColetaContrato.validar(p),hash=sha256_(parsed.raw);
     if(propriedades_().getProperty('MODO_RECEBIMENTO')!=='producao'&&p.ambiente!=='teste')ColetaContrato.falha('SOMENTE_TESTE','O serviço ainda está em modo de teste.');
     lock=LockService.getScriptLock();if(!lock.tryLock(10000))ColetaContrato.falha('OCUPADO','Recebimento ocupado. Tente novamente com a mesma entrega.');
@@ -130,3 +131,4 @@ function criarConvitesDaTurma(){
   if(!codigos.length||aula==='PREENCHER_ID_DA_AULA')throw new Error('Preencha ID da aula e códigos dos estudantes antes de executar.');
   emitirConvites_(aula,codigos,'producao',new Date(Date.now()+14*86400000).toISOString());
 }
+

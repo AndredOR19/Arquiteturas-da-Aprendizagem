@@ -2,6 +2,11 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+
+## 2.17.0 — 29/10/2026 — Coleta automática de eventos parciais
+
+Solicitação do Prof. André Rodrigues: receber interações da página automaticamente, sem depender do botão de envio final. Implementados cliente modular, contrato mínimo, fila temporária/reenvio, receptor privado com convites e idempotência e workflow n8n inativo. Acrescentada seção 26.2; catálogo 1.4.5 reconciliado. Treze verificações novas locais com serviços simulados passaram. Nenhuma aula instrumentada; instância, implantação, CORS e teste real pendentes. Não há coleta ativa nem adaptação automática do prompt. Ver coleta/eventos/README.md.
+
 ## 2.16.0 — 29/10/2026
 **Pedido:** ajustar aulas de História 192 já produzidas ao Lettering Digital escolar/pedagógico; referência de caderno ilustrado enviada pelo professor, com possibilidade de mudar diante de desconforto.
 
@@ -221,5 +226,6 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 
 

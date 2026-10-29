@@ -22,7 +22,7 @@ Manter três origens distinguíveis: declaração do aluno, observação/interpr
 | Entrada | Conteúdo necessário | Situação desta entrega |
 |---|---|---|
 | Entrega final | Relatório integral, versão, convite, ID/hash e recibo | Workflow preparado; implantação pendente |
-| Progresso durante a aula | Evento único, sessão, sequência, versão, horário do dispositivo e recebimento, percurso, ação e contexto mínimo | Especificação; cliente e persistência ainda pendentes |
+| Progresso durante a aula | Evento único, sessão, sequência, versão, horário do dispositivo e recebimento, percurso, ação e contexto mínimo | Cliente, contrato, persistência e workflow implementados; testes locais simulados; integração nas aulas/implantação pendentes |
 | Insight docente | Registro original, autor, data, observação, interpretação, hipótese, intervenção e vínculo com aula/versão | Registro desta decisão no diário; canal permanente ainda pendente |
 | Proposta de revisão | Evidências de origem, limites, alteração sugerida, versão anterior, teste e reversão | Protocolo documentado; automação ainda pendente |
 
@@ -69,8 +69,11 @@ Ação de maestria: registrar uma pergunta de revisão e a evidência necessári
 ## Próximos marcos
 
 1. Instância n8n acessível e receptor existente implantado, com teste real fictício do circuito final.
-2. Contrato de eventos parciais, fila de reenvio, armazenamento privado e painel com latência explícita.
+2. Instrumentar aulas e testar em ambiente real o contrato de eventos parciais, a fila e o armazenamento implementados em 29/10; painel com latência explícita ainda pendente.
 3. Canal privado para insights docentes e confirmação de proveniência.
 4. Análise integrada e propostas de revisão com evidências, testes e versões.
 
 Não há coleta real, painel ao vivo, escuta contínua de conversas ou atualização autônoma de prompt ativados nesta entrega.
+
+
+Implementação de eventos atualizada em 29/10/2026: coleta/eventos/README.md. O protocolo atual conserva a versão do artefato; a versão de prompt deve ser obtida do registro de composição dessa versão, sem usar a versão mais recente como substituta. Lotes são idempotentes; análises devem contar IDs distintos de eventos, nunca somar reenvios.

@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {prepararEventos,conferirEventos} from './eventos-logica.mjs';
+const base=new URL('./',import.meta.url);
+const w=JSON.parse(await fs.readFile(new URL('receber-relatorios.json',base),'utf8'));
+const contrato=await fs.readFile(new URL('../../coleta/eventos/contrato.js',base),'utf8');
+w.name='Arquiteturas — eventos parciais v1';w.active=false;
+w.nodes.find(n=>n.type.endsWith('.webhook')).parameters.path='arquiteturas-eventos-v1';
+w.nodes.find(n=>n.type.endsWith('.webhook')).webhookId='2aa3d217-28fc-48fd-b09d-844a558bb854';
+w.nodes.find(n=>n.name==='Validar relatório').parameters.jsCode=contrato+'\nreturn [{json:('+prepararEventos.toString()+')($json.body,$json.config,globalThis.EventosContrato)}];';
+w.nodes.find(n=>n.name==='Conferir confirmação').parameters.jsCode='return [{json:('+conferirEventos.toString()+")($json,$('Validar relatório').first().json)}];";
+await fs.writeFile(new URL('receber-eventos.json',base),JSON.stringify(w,null,2)+'\n');
+console.log('Workflow de eventos gerado: inativo, ambiente teste.');

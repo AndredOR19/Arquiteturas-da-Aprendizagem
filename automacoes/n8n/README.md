@@ -64,3 +64,8 @@ Referências primárias consultadas em 28/10/2026:
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook/
 - https://docs.n8n.io/workflows/settings/
+
+
+## Eventos parciais automáticos — 29/10/2026
+
+Novo circuito implementado separadamente: [integração e limites](../../coleta/eventos/README.md), [workflow inativo](receber-eventos.json). Cliente envia interações instrumentadas em lotes, com convite e confirmação de persistência. Testes locais simulados; importação, implantação, integração nas aulas e teste real pendentes. Esta atualização substitui apenas a indicação anterior de que eventos parciais ainda não tinham código; insights e análise integrada continuam pendentes.
