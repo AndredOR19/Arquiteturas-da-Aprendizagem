@@ -1,5 +1,7 @@
 # Laboratório reutilizável
 
+Extensão de 29/10/2026: [Arquitetura de simulações de interface, planejamento e circuitos quânticos](ARQUITETURA_SIMULACOES.md), com implementação e execução de referência em [execucoes/20261029-ux-quantico/RELATORIO.md](execucoes/20261029-ux-quantico/RELATORIO.md). O módulo quântico é simulação clássica de circuitos ideais; a avaliação da interface examina políticas propostas, sem prever aprendizagem.
+
 Para executar pelo GitHub e acompanhar a evolução, começar por [LABORATORIO.md](LABORATORIO.md). Os arquivos abaixo preservam a primeira simulação como marco histórico; o motor reutilizável é laboratorio.py.
 
 # Simulações para desenvolver e examinar as Arquiteturas
@@ -38,3 +40,4 @@ O resultado completo fica em `resultados.json`, com hipóteses, sementes, estima
 - PsychoPy Builder. https://psychopy.org/builder/. Ferramenta de construção de experimentos, útil à coleta de respostas; não é simulador autônomo da mente nem evidência para a teoria.
 
 Próximo passo: escolher um mecanismo delimitado e comparar modelos concorrentes, incluindo efeito ausente e prejuízo; usar dados reais adequados para calibrar e testar previsões fora dos dados de ajuste. A calibração pode aproximar o modelo das observações, sem transformar suas premissas em realidade comprovada.
+

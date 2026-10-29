@@ -18,7 +18,8 @@ def main():
         f=(ROOT/p).resolve()
         assert f.is_relative_to(ROOT) and f.is_file(), 'Caminho ausente ou externo: '+p
     for r in registros:
-        assert r['tipo_texto'] in ['parafrase_da_fala_do_autor','fala_literal_conferida','proposta_assistente']
+        assert r['tipo_texto'] in ['parafrase_da_fala_do_autor','fala_literal_conferida',
+                                  'citacao_direta_do_autor','proposta_assistente']
         assert set(r['relacionados']) <= rids
         assert set(r['producoes']) <= pids
         assert set(r['arquiteturas']) <= aids
@@ -33,3 +34,4 @@ def main():
 
 
 if __name__=='__main__': main()
+

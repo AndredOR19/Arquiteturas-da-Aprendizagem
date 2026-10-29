@@ -15,5 +15,10 @@ Adicionar módulo de código e testes, explicitar dependências e configurar o d
 ## Evolução com resultados
 Conservar resultados, código, fonte, configuração, semente e ambiente de cada execução. Registrar qual evidência motivou cada mudança. Atualizar parâmetros em nova versão, sem sobrescrever a experiência anterior ou promover resultados sintéticos a observações. Separar estados: documentado, formalizado, implementado/testado, calibrado e validado no recorte declarado. Esses estados não são intercambiáveis.
 
+## Extensão formal de 29/10/2026
+
+`experimentos.py` é uma entrada separada para `ux-regras` e `quantico-ideal`, registrada no catálogo com escopo explícito. `laboratorio.py` continua despachando os dois modelos estatísticos anteriores. Vínculos formais identificam módulos matemáticos com teste próprio, sem criar vínculos mecanísticos ou calibração educacional. Ver ARQUITETURA_SIMULACOES.md.
+
 ## Estados desta primeira entrega
 Modelos de planejamento implementados. Inventário multiarquitetura implementado. Integração automática com dados reais, modelos mecanísticos da dança/cadência e formalização da Cabala permanecem pendentes. O catálogo extensível organiza o trabalho a fazer, sem declarar essas etapas concluídas.
+

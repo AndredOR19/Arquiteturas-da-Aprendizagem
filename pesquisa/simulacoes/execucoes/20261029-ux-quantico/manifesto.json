@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "dados_reais": false,
+  "semente": 20261029,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "commit": null,
+  "arquivos_sha256": {
+    "quantico.json": "17a7abe043ee5421e5f2cd847543cae1e5edce4e38946aa5912cd8e248ecf776",
+    "ux.json": "46e2b05b7bc376156d712a528068bb87b03ceeb0ab5f65efa2d2d9ef318d5af3",
+    "planejamento.json": "75bfdddc67dc2cb42e5e06fd688b7347a13136d60f37f7eeca8c239c0704159b",
+    "RELATORIO.md": "974986d060f2e2616c3b26f63c0b8548fc2239aa3755343188b61cf9a39a0bcc"
+  },
+  "codigo_sha256": {
+    "quantico.py": "7538ad8713b6a2aa8b69f4527353ce67c1aa5ff7d6c2cefeb0a6b7f3e9036135",
+    "ux.py": "54121ba0be8a402667def01525ec14ca2ab391e950ca9e3fb2204e8fc0618b77",
+    "experimentos.py": "d9cf24c8de348ca02329b822889baf640061c69d39f9925a258b24c5d844c087",
+    "modelos.py": "166a7d834226a6e1761e19e5f029dc1df09ee5861a9bb046dbaed5ad7cc1f1fe",
+    "cenarios/individuos.json": "76d45b6ab4ff5732768f380b9364a8369deceeb2548755024fdc2f5d752b6f3c"
+  },
+  "chamadas_ia": 0,
+  "modulos": [
+    "ux-regras",
+    "quantico-ideal",
+    "planejamento-individual"
+  ]
+}

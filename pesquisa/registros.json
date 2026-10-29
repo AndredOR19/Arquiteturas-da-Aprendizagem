@@ -641,6 +641,35 @@
       "proxima_acao": "Conferir módulo nas aulas, revisar capítulo com o autor, fundamentar e observar uso com mediação sem inferir alfabetização.",
       "visibilidade": "publico_autorizado",
       "contribuicao_assistente": "Síntese operacional, código, testes e redação inicial do capítulo com revisão autoral pendente."
+    },
+    {
+      "id": "DEC-20261029-002",
+      "data_formulacao": "2026-10-29",
+      "data_registro": "2026-10-29",
+      "autor": "Prof. André de Oliveira Rodrigues",
+      "titulo": "Simulações de interface e circuitos quânticos em domínio formal",
+      "formulacao": "Examinar soluções de interface pelo simulador e criar uma arquitetura de simulações quânticas.",
+      "natureza": "diretriz_de_desenvolvimento",
+      "tipo_texto": "parafrase_da_fala_do_autor",
+      "origem": {
+        "tipo": "conversa_direta",
+        "registro": "pesquisa/diario/2026-10-29.md",
+        "transcricao_integral": false
+      },
+      "estado": "implementacao_formal_com_testes",
+      "evidencia": {
+        "tipo": "execucao_computacional_sintetica_e_formal",
+        "resultados_empiricos": null,
+        "eficacia_demonstrada": false
+      },
+      "arquiteturas": [],
+      "producoes": [],
+      "relacionados": [
+        "DEC-20261029-001"
+      ],
+      "proxima_acao": "Aplicar protótipo de interface com testes de navegador e observar uso; ampliar circuitos somente com novas verificações.",
+      "visibilidade": "publico_autorizado",
+      "contribuicao_assistente": "Formalização, código, ensaios e documentação; sem atribuição de resultados empíricos."
     }
   ]
 }

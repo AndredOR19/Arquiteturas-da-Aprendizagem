@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "versao": "0.1.0",
+  "versao": "0.2.0",
   "modulos": [
     {
       "id": "planejamento-individual",
@@ -20,5 +20,27 @@
     }
   ],
   "vinculos_mecanisticos": [],
-  "politica": "Novas arquiteturas entram no inventário automaticamente após cadastro. Regras, parâmetros e módulos novos exigem formalização, implementação e testes. Resultados sintéticos não tornam um modelo calibrado ou empiricamente validado."
+  "politica": "Novas arquiteturas entram no inventário automaticamente após cadastro. Regras, parâmetros e módulos novos exigem formalização, implementação e testes. Resultados sintéticos não tornam um modelo calibrado ou empiricamente validado.",
+  "modulos_formais": [
+    {
+      "id": "ux-regras",
+      "arquivo": "ux.py",
+      "implementado": true,
+      "tipo": "verificacao_politicas_propostas",
+      "executor": "experimentos.py"
+    },
+    {
+      "id": "quantico-ideal",
+      "arquivo": "quantico.py",
+      "implementado": true,
+      "tipo": "circuitos_quanticos_ideais_em_cpu",
+      "executor": "experimentos.py"
+    }
+  ],
+  "vinculos_formais": [
+    {
+      "arquitetura_id": "simulacoes-quanticas",
+      "modulo_id": "quantico-ideal"
+    }
+  ]
 }

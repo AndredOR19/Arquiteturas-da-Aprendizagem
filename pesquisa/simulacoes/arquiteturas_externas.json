@@ -9,6 +9,18 @@
       "status": "aguardando_fonte_e_formalizacao",
       "fontes": [],
       "origem": "Solicitação direta do Prof. André em 28/10/2026; o corpus e as regras não foram definidos nesta solicitação."
+    },
+    {
+      "id": "simulacoes-quanticas",
+      "nome": "Arquitetura de simulação de circuitos quânticos ideais",
+      "dominio": "formal",
+      "versao": "0.1.0",
+      "status": "implementado_com_testes_formais",
+      "fontes": [
+        "pesquisa/simulacoes/ARQUITETURA_SIMULACOES.md",
+        "pesquisa/simulacoes/quantico.py"
+      ],
+      "origem": "Solicitação direta do Prof. André em 29/10/2026; formalização computacional assistida."
     }
   ]
 }

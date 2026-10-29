@@ -73,3 +73,7 @@ O autor esclarece que qualquer escola, pública ou privada, poderá implantar e 
 ## Decisão permanente — 29/10/2026
 
 DEC-20261029-001: o professor solicita arquitetura de acesso ao conteúdo para estudantes que ainda não leem/escrevem. Relações entre cenas, objeto/cor/forma, palavra escrita e voz explicam o tema e aproximam da escrita sem exigir digitação/leitura inicial. Planta imagens-voz-palavra no núcleo; capítulo LIV-005 no livro de Integração Estético-Semântica. Registro permanente não certifica eficácia/alfabetização nem conclui os demais livros. Implementação inicial em oito HTMLs, com estado de testes/publicação próprio.
+
+
+## Ensaios de interface e circuitos quânticos — 29/10/2026
+DEC-20261029-002: extensão formal implementada, com regras de acesso propostas, planejamento sintético e circuitos ideais em CPU. Consultar pesquisa/simulacoes/ARQUITETURA_SIMULACOES.md e execução de referência. Circuitos não representam pessoas ou mecanismos de aprendizagem. Soluções de UX documentadas para protótipo, sem novas alterações no HTML nesta entrega. Prompt 2.20.0.

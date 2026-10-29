@@ -1,0 +1,6078 @@
+{
+  "versao": "0.1.0",
+  "tipo": "verificacao_de_regras_propostas",
+  "dados_reais": false,
+  "executa_interface": false,
+  "prediz_aprendizagem": false,
+  "variantes": {
+    "proposta-inicial": {
+      "politica": {
+        "alternativa_gesto": false,
+        "alternativa_voz": false,
+        "reduz_movimento": false,
+        "dupla_opcional": false,
+        "conquista_revisao": false
+      },
+      "total_casos": 192,
+      "casos_com_conflito": 186,
+      "casos": [
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [
+            "gesto_obrigatorio",
+            "orientacao_so_em_audio",
+            "animacao_obrigatoria",
+            "colega_obrigatorio",
+            "recuperacao_sem_reconhecimento"
+          ],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        }
+      ]
+    },
+    "proposta-acessivel": {
+      "politica": {
+        "alternativa_gesto": true,
+        "alternativa_voz": true,
+        "reduz_movimento": true,
+        "dupla_opcional": true,
+        "conquista_revisao": true
+      },
+      "total_casos": 192,
+      "casos_com_conflito": 0,
+      "casos": [
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": false,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": false,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": false,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": false,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": false,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 0,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 25,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": false
+          },
+          "falhas": [],
+          "final_liberado": false,
+          "conclusao_esperada": false
+        },
+        {
+          "entrada": {
+            "somente_teclado": true,
+            "sem_voz": true,
+            "movimento_reduzido": true,
+            "sem_colega": true,
+            "revisou_apos_erro": true,
+            "percursos": 26,
+            "devolutiva_confirmada": true
+          },
+          "falhas": [],
+          "final_liberado": true,
+          "conclusao_esperada": true
+        }
+      ]
+    }
+  },
+  "limite": "Contagens decorrem da grade e das regras escolhidas; não são taxas esperadas em alunos."
+}

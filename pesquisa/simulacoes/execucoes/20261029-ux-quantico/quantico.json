@@ -1,0 +1,225 @@
+{
+  "superposicao": {
+    "versao": "0.1.0",
+    "qubits": 1,
+    "portas": [
+      {
+        "porta": "H",
+        "alvo": 0
+      }
+    ],
+    "disparos": 4096,
+    "semente": 20261029,
+    "ordem_bits": "q(n-1)...q0; q0 é o bit à direita",
+    "probabilidades": {
+      "0": 0.4999999999999999,
+      "1": 0.4999999999999999
+    },
+    "contagens": {
+      "0": 1988,
+      "1": 2108
+    },
+    "amplitudes": {
+      "0": [
+        0.7071067811865475,
+        0.0
+      ],
+      "1": [
+        0.7071067811865475,
+        0.0
+      ]
+    },
+    "normas_por_etapa": [
+      1.0,
+      0.9999999999999998
+    ],
+    "hardware_quantico": false,
+    "ruido": false
+  },
+  "interferencia-retorno": {
+    "versao": "0.1.0",
+    "qubits": 1,
+    "portas": [
+      {
+        "porta": "H",
+        "alvo": 0
+      },
+      {
+        "porta": "H",
+        "alvo": 0
+      }
+    ],
+    "disparos": 4096,
+    "semente": 20261029,
+    "ordem_bits": "q(n-1)...q0; q0 é o bit à direita",
+    "probabilidades": {
+      "0": 0.9999999999999996,
+      "1": 0.0
+    },
+    "contagens": {
+      "0": 4096,
+      "1": 0
+    },
+    "amplitudes": {
+      "0": [
+        0.9999999999999998,
+        0.0
+      ],
+      "1": [
+        0.0,
+        0.0
+      ]
+    },
+    "normas_por_etapa": [
+      1.0,
+      0.9999999999999998,
+      0.9999999999999996
+    ],
+    "hardware_quantico": false,
+    "ruido": false
+  },
+  "interferencia-fase": {
+    "versao": "0.1.0",
+    "qubits": 1,
+    "portas": [
+      {
+        "porta": "H",
+        "alvo": 0
+      },
+      {
+        "porta": "Z",
+        "alvo": 0
+      },
+      {
+        "porta": "H",
+        "alvo": 0
+      }
+    ],
+    "disparos": 4096,
+    "semente": 20261029,
+    "ordem_bits": "q(n-1)...q0; q0 é o bit à direita",
+    "probabilidades": {
+      "0": 0.0,
+      "1": 0.9999999999999996
+    },
+    "contagens": {
+      "0": 0,
+      "1": 4096
+    },
+    "amplitudes": {
+      "0": [
+        0.0,
+        0.0
+      ],
+      "1": [
+        0.9999999999999998,
+        0.0
+      ]
+    },
+    "normas_por_etapa": [
+      1.0,
+      0.9999999999999998,
+      0.9999999999999998,
+      0.9999999999999996
+    ],
+    "hardware_quantico": false,
+    "ruido": false
+  },
+  "fase-complexa": {
+    "versao": "0.1.0",
+    "qubits": 1,
+    "portas": [
+      {
+        "porta": "H",
+        "alvo": 0
+      },
+      {
+        "porta": "S",
+        "alvo": 0
+      }
+    ],
+    "disparos": 4096,
+    "semente": 20261029,
+    "ordem_bits": "q(n-1)...q0; q0 é o bit à direita",
+    "probabilidades": {
+      "0": 0.4999999999999999,
+      "1": 0.4999999999999999
+    },
+    "contagens": {
+      "0": 1988,
+      "1": 2108
+    },
+    "amplitudes": {
+      "0": [
+        0.7071067811865475,
+        0.0
+      ],
+      "1": [
+        0.0,
+        0.7071067811865475
+      ]
+    },
+    "normas_por_etapa": [
+      1.0,
+      0.9999999999999998,
+      0.9999999999999998
+    ],
+    "hardware_quantico": false,
+    "ruido": false
+  },
+  "bell": {
+    "versao": "0.1.0",
+    "qubits": 2,
+    "portas": [
+      {
+        "porta": "H",
+        "alvo": 0
+      },
+      {
+        "porta": "CX",
+        "controle": 0,
+        "alvo": 1
+      }
+    ],
+    "disparos": 4096,
+    "semente": 20261029,
+    "ordem_bits": "q(n-1)...q0; q0 é o bit à direita",
+    "probabilidades": {
+      "00": 0.4999999999999999,
+      "01": 0.0,
+      "10": 0.0,
+      "11": 0.4999999999999999
+    },
+    "contagens": {
+      "00": 1988,
+      "01": 0,
+      "10": 0,
+      "11": 2108
+    },
+    "amplitudes": {
+      "00": [
+        0.7071067811865475,
+        0.0
+      ],
+      "01": [
+        0.0,
+        0.0
+      ],
+      "10": [
+        0.0,
+        0.0
+      ],
+      "11": [
+        0.7071067811865475,
+        0.0
+      ]
+    },
+    "normas_por_etapa": [
+      1.0,
+      0.9999999999999998,
+      0.9999999999999998
+    ],
+    "hardware_quantico": false,
+    "ruido": false
+  }
+}

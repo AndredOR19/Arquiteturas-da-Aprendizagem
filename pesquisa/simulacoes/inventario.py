@@ -25,6 +25,12 @@ def construir(root=ROOT):
     extras=json_local(base/'arquiteturas_externas.json')
     models=json_local(base/'catalogo_modelos.json')
     ids=[];rows=[]
+    formais={m['id']:m for m in models.get('modulos_formais',[])}
+    permitidos={'quantico-ideal':'quantico.py','ux-regras':'ux.py'}
+    for ident,modulo in formais.items():
+        if ident not in permitidos or modulo['arquivo']!=permitidos[ident] or not modulo['implementado']:
+            raise ValueError('Módulo formal não reconhecido.')
+        fontes_hash(['pesquisa/simulacoes/'+modulo['arquivo']],root)
     for a in cat['arquiteturas']:
         rows.append(dict(id=a['id'],nome=a['nome'],dominio='pedagogico',versao_documental=a['versao'],
             estado_documental=a['status'],fontes_sha256=fontes_hash([a['caminho']],root)))
@@ -41,12 +47,20 @@ def construir(root=ROOT):
         a.update(estado_modelagem='aguardando_formalizacao',modulos_mecanisticos=[],
             modulos_de_apoio=[m['id'] for m in models['modulos']] if a['dominio']=='pedagogico' else [],
             calibracao_empirica=False,validacao_empirica=False)
+        cobertura=[v['modulo_id'] for v in models.get('vinculos_formais',[]) if v['arquitetura_id']==a['id']]
+        if cobertura:
+            if a['dominio']!='formal' or any(m not in formais for m in cobertura):
+                raise ValueError('Vínculo formal inválido.')
+            a.update(estado_modelagem='modelo_formal_implementado_testes_proprios',
+                modulos_formais=cobertura,modulos_de_apoio=[])
         signature=json.dumps(a,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
         a['revisao_sha256']=hashlib.sha256(signature).hexdigest()
     if len(ids)!=len(set(ids)):raise ValueError('Arquiteturas com IDs duplicados.')
     sources=['biblioteca-arquiteturas/catalogo.json','pesquisa/simulacoes/arquiteturas_externas.json',
              'pesquisa/simulacoes/catalogo_modelos.json','PROMPT_MESTRE_AULAS_DIGITAIS.md',
              'pesquisa/registros.json','pesquisa/producoes.json']
+    if any(v['arquitetura_id'] not in ids for v in models.get('vinculos_formais',[])):
+        raise ValueError('Vínculo formal com arquitetura ausente.')
     return dict(schema_version='1.0.0',fontes_gerais_sha256=fontes_hash(sources,root),
         arquiteturas=rows,modulos=models['modulos'],
         nota='Inventário e cobertura; documentação, execução computacional e validação são estados distintos.')
@@ -69,7 +83,8 @@ def salvar(inventario,pasta):
         '| Arquitetura | Domínio | Versão documental | Modelagem |','| --- | --- | --- | --- |']
     for a in inventario['arquiteturas']:
         lines.append('| '+' | '.join(str(a[k]).replace('|','/') for k in ['nome','dominio','versao_documental','estado_modelagem'])+' |')
-    lines+=['','Os módulos atuais planejam pesquisas; não simulam os mecanismos dessas arquiteturas. Cada nova entrada é registrada e sinalizada, mas não ganha um efeito numérico por suposição.',
+    lines+=['','Os módulos estatísticos planejam pesquisas; não simulam mecanismos cognitivos. Modelos formais indicados na tabela têm escopo matemático próprio, sem validar aprendizagem. Cada nova entrada é registrada e sinalizada, mas não ganha um efeito numérico por suposição.',
         'Arquiteturas simbólicas e filosóficas, incluindo a entrada Cabala, precisam de corpus e regras explícitas para análise formal. Uma análise de coerência interna não comprova afirmações empíricas ou metafísicas.',
         'Resultados reais só podem orientar parâmetros após verificação de fonte, adequação e versão; dados de alunos não entram neste laboratório público. Resultados sintéticos não contam como calibração empírica.']
     (pasta/'PROGRESSAO.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+
