@@ -106,9 +106,6 @@
   root.ColetaContrato=api;
   if (typeof module !== 'undefined' && module.exports) module.exports=api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
-
-
-
 /* Eventos parciais: não substituem o contrato de conclusão. */
 (function(root){
   'use strict';
