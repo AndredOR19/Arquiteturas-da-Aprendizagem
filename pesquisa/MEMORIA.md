@@ -48,3 +48,6 @@ Consultar revisoes/segunda-ia-2026-10-28/README.md. Foram efetivamente reproduzi
 
 ## Fontes e layout explicados
 Decisão de 28/10/2026: incluir botão em HTMLs, com perfis experimentáveis para leitura/dislexia/atenção e explicações por controle, fonte real/licenciada, restauração e persistência por escolha. Painel compartilhado em publicacao/leitura; não afirmar modificação de Gamma ou integração de todos os relatórios.
+
+## Situação docente e aula solicitada — 28/10/2026, noite
+O Prof. André informa que não leciona mais no Dom Frei Vital: sua atuação atual é somente no Bernardina. Não usar os antigos horários do Dom Frei para planejar novas aulas. Confirmou História, turma 192 (9º ano), manhã de 29/10/2026; o contexto recuperado do horário indica quinta, 8h–9h30. Plano anterior do titular não recebido. A sequência proposta usa o material de História 192 disponível de 21/10, sem presumir aplicação. Aula em aulas/29-10-2026-historia-192, com QR Code solicitado para acesso pelas câmeras dos Chromebooks; professor ainda sem acesso à sala virtual da turma. Conferir o estado do workflow e da publicação antes de afirmar entrega concluída.
