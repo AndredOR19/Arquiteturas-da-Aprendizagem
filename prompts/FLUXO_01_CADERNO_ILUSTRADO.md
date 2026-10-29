@@ -7,7 +7,7 @@ Base comum obrigatória: [Prompt Mestre vigente](../PROMPT_MESTRE_AULAS_DIGITAIS
 
 ## 1. Âncora conceitual — conteúdo e referência
 
-Produza a aula digital completa a partir do plano efetivamente recebido para a turma, componente e período, conforme [protocolo de planos](../base-curricular/PLANOS_DE_TURMA.md). Declare objetivo imediato, relação conceitual e habilidade sustentada pela fonte. Não invente continuidade ou plano ainda não recebido.
+Produza a aula digital completa a partir do plano efetivamente recebido para a turma, componente e período, conforme [protocolo de planos](../base-curricular/PLANOS_DE_TURMA.md). Consulte primeiro [o banco pedagógico](../banco-pedagogico/catalogo.json), abra o original e seus alertas e registre `documentos_base`, recorte e adaptações na composição. Declare objetivo imediato, relação conceitual e habilidade sustentada pela fonte. Não invente continuidade ou plano ainda não recebido.
 
 Utilize a apresentação anterior de caderno ilustrado/Lettering Digital escolar: objeto central, faixas de títulos, palavras-chave, ramificações curvas e desenhos específicos que expliquem relações. Referência de código: [História 192 de 29/10](../aulas/29-10-2026-historia-192/index.html); recursos em [publicacao/lettering](../publicacao/lettering/README.md). Leia os arquivos, não use apenas a descrição.
 

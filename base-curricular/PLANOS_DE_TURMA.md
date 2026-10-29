@@ -1,6 +1,6 @@
 # Planos de turma como fonte das aulas digitais
 
-Diretriz de 29/10/2026. O professor informou que enviará documentos de planos de algumas turmas. **Estado deste registro: aguardando os documentos desta nova remessa.** Não há lista presumida de turmas, componentes ou conteúdos recebidos.
+Diretriz de 29/10/2026. O professor informou que enviará documentos de planos de algumas turmas. **Estado atualizado: cinco documentos distintos recebidos e consultados em 29/10/2026.** Consulte [o catálogo do banco pedagógico](../banco-pedagogico/catalogo.json): História 192/211/221, Eletiva 192 e ementa de Cultura Digital. A cópia duplicada da ementa é idêntica em bytes. Novos arquivos anunciados permanecem pendentes até recebimento/leitura.
 
 ## Recebimento e identificação
 

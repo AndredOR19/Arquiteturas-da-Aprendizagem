@@ -1,0 +1,41 @@
+{
+  "id": "ementa-cultura-digital-recebida-2026-10-29",
+  "tipo": "ementa",
+  "titulo": "Cultura Digital — ementa recebida",
+  "responsavel_acervo": "andre-rodrigues",
+  "escola": null,
+  "ano_letivo": null,
+  "periodo": null,
+  "turma": null,
+  "serie": null,
+  "etapa": "menção a Anos Iniciais no perfil docente; vinculação a confirmar",
+  "componente": "Cultura Digital",
+  "carga_horaria_declarada": "2 períodos semanais",
+  "referencia_declarada": "Matriz de Referência 2026, sem arquivo normativo anexado à ementa",
+  "recebido_em": "2026-10-29",
+  "arquivo_recebido": "Ementa Cultura Digital.docx",
+  "duplicatas_identicas": [
+    "Ementa Cultura Digital(1).docx"
+  ],
+  "arquivo": "banco-pedagogico/ementas/cultura-digital/2026/original.docx",
+  "texto_consulta": "banco-pedagogico/ementas/cultura-digital/2026/conteudo.md",
+  "sha256": "9f4020c3be48ac78e26cab3a642024631b3d42a95c50755ac0aa4023e9365e7a",
+  "temas": [
+    "Letramento digital",
+    "Cidadania digital",
+    "Uso seguro e ético",
+    "Pensamento computacional",
+    "Fontes e desinformação",
+    "Problemas socioambientais"
+  ],
+  "habilidades_citadas_no_original": [],
+  "status_leitura": "consultado",
+  "status_aplicacao": "vinculacao_a_turma_pendente",
+  "classificacao": "publico",
+  "revisao_privacidade": "texto conferido; sem dados individuais de estudantes identificados",
+  "validacao_curricular": "ementa_recebida_nao_equivale_a_matriz_oficial_carregada",
+  "alertas": [
+    "Turma e escola não identificadas.",
+    "Texto menciona faixa etária dos Anos Iniciais; confirmar adequação antes de usar em outras etapas."
+  ]
+}

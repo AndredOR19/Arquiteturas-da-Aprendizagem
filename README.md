@@ -7,7 +7,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.21.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.22.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -18,7 +18,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 
 Dois prompts de produção mantidos em paralelo: [Fluxo 01 — Caderno ilustrado](prompts/FLUXO_01_CADERNO_ILUSTRADO.md), com lettering e relações em torno do objeto central; e [Fluxo 02 — Missão interativa](prompts/FLUXO_02_MISSAO_INTERATIVA.md), padrão atual com Fredoka, fundo pontilhado, cores, objetos flutuantes, sons ao toque e botões que afundam. [Como escolher e alternar](prompts/README.md). Ambos seguem o núcleo pedagógico, os 26 percursos, apoios, avaliação obrigatória, relatório e publicação no GitHub Pages.
 
-[Planos de turma como fonte](base-curricular/PLANOS_DE_TURMA.md): usar os documentos após recebimento e leitura, por turma/componente/período, articulados à BNCC e ao RCG conferidos. A nova remessa anunciada está aguardando envio.
+[Planos de turma como fonte](base-curricular/PLANOS_DE_TURMA.md): usar os documentos após recebimento e leitura, por turma/componente/período, articulados à BNCC e ao RCG conferidos. O [banco pedagógico](banco-pedagogico/README.md) já reúne cinco documentos distintos recebidos: História 192/211/221, Eletiva 192 e Cultura Digital. Novas remessas serão incorporadas após leitura e classificação.
 
 ## Design de associações — atualização 2.5.0
 A partir de 27/10/2026, novas produções e revisões devem seguir a seção 6.1 do prompt: relações perceptíveis entre imagem e linguagem, referências estáveis, sinais redundantes, interação acessível, retirada gradual de pistas e aplicação em novo contexto. Preservar D/R/E/L e adaptar a disposição ao conteúdo. Registro documental não altera automaticamente aulas anteriores.
@@ -40,6 +40,10 @@ As capturas MHTML de 19/10 e 15–16/10 permanecem como referências de interfac
 
 ## Atualizações
 Cada aperfeiçoamento acordado com o professor deve atualizar o prompt e o histórico, com versão e commit descritivo. O repositório deve ser consultado antes de criar ou revisar materiais; não há carregamento automático garantido em todas as conversas.
+
+## Banco documental compartilhado
+
+[Consultar a pasta do banco pedagógico](banco-pedagogico/README.md) e [o catálogo](banco-pedagogico/catalogo.json): planejamentos, ementas, guias, referências curriculares e modelos vazios de PEI. Originais e textos pesquisáveis por turma, com fonte, autoria, hash e pendências. [Orientações para outros professores](banco-pedagogico/COMO_CADASTRAR.md). Documentos individuais preenchidos exigem armazenamento restrito; não estão neste repositório público.
 
 ## Documentos curriculares
 Estrutura preparada para BNCC, Referencial Curricular Gaúcho, matrizes SEDUC-RS e EJA/EJATEC. Nesta atualização, o cadastro está pendente de incorporação e verificação dos arquivos; não estão sendo anunciados documentos já carregados.

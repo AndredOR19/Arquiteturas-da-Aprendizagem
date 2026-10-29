@@ -3,6 +3,14 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.22.0 — 29/10/2026 — Banco pedagógico compartilhado
+
+Pedido: reunir planos enviados hoje e preparar cadastro de outros professores, currículos, guias e PEI. Banco documental em banco-pedagogico com catálogo JSON, originais intactos, textos de consulta, metadados e hashes. Cinco documentos distintos: História 192/211/221 (DOCX), Eletiva 192 (PDF) e Cultura Digital (DOCX); cópia idêntica da ementa deduplicada. Arquivos inspecionados quanto a texto/mídia incorporada; dados individuais de alunos não identificados neste lote.
+
+Orientações de cadastro, autoria/custódia, contribuição revisada, consulta por turma e vínculos com currículo/fluxos/aulas. PEIs preenchidos e dados individuais exigem armazenamento restrito real; apenas modelo vazio público, sem criação/configuração de repositório privado. BNCC/RCG completos seguem pendentes, apesar das citações nos planos. Alertas: faixa dos Anos Iniciais na ementa sem turma e divergências de trimestre/etapa/código na Eletiva. Não implica cadastro automático, base vetorial, validação curricular ou aplicação em sala.
+
+Prompt, AGENTS, dois fluxos e catálogos conectados; validador de IDs/caminhos/hashes e instrução no workflow Pages. Publicação de arquivos no repositório não inclui o banco no pacote de aulas públicas.
+
 ## 2.21.0 — 29/10/2026 — Dois fluxos de produção e planos de turma
 
 O professor pediu manter dois prompts para variar a apresentação: caderno ilustrado anterior e missão interativa Fredoka aprovada. Criados dois prompts operacionais e índice em prompts/, com núcleo comum no Prompt Mestre, seleção registrada, Fluxo 02 como padrão e Fluxo 01 preservado para alternância. Ajustadas seção 2, aplicação condicional de lettering e orientações do repositório, evitando que um estilo sobreponha o outro. Nenhuma aula existente foi redesenhada e não foi instalado seletor automático de temas nas páginas.

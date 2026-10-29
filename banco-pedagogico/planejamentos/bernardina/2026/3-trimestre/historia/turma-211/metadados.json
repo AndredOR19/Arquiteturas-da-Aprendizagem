@@ -1,0 +1,44 @@
+{
+  "responsavel_acervo": "andre-rodrigues",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "ano_letivo": 2026,
+  "periodo": "3º trimestre",
+  "vigencia_texto_original": "07/09/26 a 18/12/26",
+  "recebido_em": "2026-10-29",
+  "status_leitura": "consultado",
+  "status_aplicacao": "planejado_nao_comprova_aplicacao",
+  "classificacao": "publico",
+  "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+  "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+  "professor_regente_no_original": "Maria Joaquina",
+  "id": "bernardina-2026-3tri-historia-211",
+  "tipo": "planejamento",
+  "titulo": "História 211 — 1ª série — 3º trimestre",
+  "turma": "211",
+  "serie": "1ª série",
+  "etapa": "Ensino Médio",
+  "componente": "História",
+  "arquivo_recebido": "_3º_ 211 - planejamento História.docx",
+  "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-211/original.docx",
+  "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-211/conteudo.md",
+  "sha256": "7a51a1d1c953548ffbd2416c27371ad59f05ca930a20b9dbd565f7535ee0b093",
+  "temas": [
+    "Renascimento",
+    "Grandes Navegações",
+    "Colonização da América",
+    "Sociedades coloniais",
+    "Povos indígenas",
+    "Povos africanos e afro-brasileiros"
+  ],
+  "habilidades_citadas_no_original": [
+    "EM13CHS204",
+    "EM13CHS306",
+    "EM13CHS401",
+    "EM13CHS403",
+    "EM13CHS404"
+  ],
+  "alertas": [
+    "Conferir correspondência entre códigos e descrições das habilidades na fonte curricular oficial antes de produzir cada aula.",
+    "Há rótulos de blocos com aula 11 a 16 e sequência semanal até 15; preservar original e conferir recorte, sem criar semana ausente."
+  ]
+}

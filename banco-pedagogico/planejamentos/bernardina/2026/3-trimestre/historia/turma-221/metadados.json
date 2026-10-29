@@ -1,0 +1,44 @@
+{
+  "responsavel_acervo": "andre-rodrigues",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "ano_letivo": 2026,
+  "periodo": "3º trimestre",
+  "vigencia_texto_original": "07/09/26 a 18/12/26",
+  "recebido_em": "2026-10-29",
+  "status_leitura": "consultado",
+  "status_aplicacao": "planejado_nao_comprova_aplicacao",
+  "classificacao": "publico",
+  "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+  "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+  "professor_regente_no_original": "Maria Joaquina",
+  "id": "bernardina-2026-3tri-historia-221",
+  "tipo": "planejamento",
+  "titulo": "História 221 — 2ª série — 3º trimestre",
+  "turma": "221",
+  "serie": "2ª série",
+  "etapa": "Ensino Médio",
+  "componente": "História",
+  "arquivo_recebido": "3º_ 221 - planejamento História.docx",
+  "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-221/original.docx",
+  "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-221/conteudo.md",
+  "sha256": "5b69e1bde7cdae2265780a0c16b826bb86aefea3f38fd1e529bde8a5999842d4",
+  "temas": [
+    "Transformações do mundo contemporâneo",
+    "República",
+    "Movimentos sociais",
+    "Democracia e cidadania",
+    "Direitos humanos",
+    "Cultura e identidade"
+  ],
+  "habilidades_citadas_no_original": [
+    "EM13CHS204",
+    "EM13CHS401",
+    "EM13CHS502",
+    "EM13CHS602",
+    "EM13CHS603"
+  ],
+  "alertas": [
+    "Conferir correspondência entre códigos e descrições das habilidades na fonte curricular oficial antes de produzir cada aula.",
+    "Há rótulos de blocos com aula 11 a 16 e sequência semanal até 15; preservar original e conferir recorte, sem criar semana ausente."
+  ]
+}

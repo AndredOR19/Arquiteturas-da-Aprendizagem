@@ -7,7 +7,7 @@ Base comum obrigatória: [Prompt Mestre vigente](../PROMPT_MESTRE_AULAS_DIGITAIS
 
 ## 1. Âncora conceitual — conteúdo e modelo aprovado
 
-Produza a aula digital completa a partir do plano efetivamente recebido para a turma, componente e período, conforme [protocolo de planos](../base-curricular/PLANOS_DE_TURMA.md). Defina objetivo, conceito e relação antes de escolher desenhos e sons.
+Produza a aula digital completa a partir do plano efetivamente recebido para a turma, componente e período, conforme [protocolo de planos](../base-curricular/PLANOS_DE_TURMA.md). Consulte primeiro [o banco pedagógico](../banco-pedagogico/catalogo.json), abra o original e seus alertas e registre `documentos_base`, recorte e adaptações na composição. Defina objetivo, conceito e relação antes de escolher desenhos e sons.
 
 Use diretamente o código de referência aprovado: [A Magia das Palavras](../aulas/figuras-de-linguagem-metafora-comparacao/index.html), [CSS](../aulas/figuras-de-linguagem-metafora-comparacao/style.css) e [efeitos](../aulas/figuras-de-linguagem-metafora-comparacao/effects.js). Preserve sua composição e microinterações; adapte o conteúdo no interior dessa estrutura. Não reutilize as questões de Português em outra disciplina.
 

@@ -16,3 +16,6 @@ node_modules/
 *.db-journal
 *.sqlite3-wal
 *.sqlite3-shm
+
+# Documentos individuais devem existir somente em ambiente realmente restrito
+/banco-pedagogico/restrito/

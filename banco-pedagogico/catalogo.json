@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "versao": "1.0.0",
+  "atualizado_em": "2026-10-29",
+  "natureza": "banco_documental_versionado",
+  "escopo_publico": "planos gerais sem dados de estudantes, ementas, normas públicas, guias compartilháveis e modelos vazios",
+  "documentos": [
+    {
+      "responsavel_acervo": "andre-rodrigues",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "ano_letivo": 2026,
+      "periodo": "3º trimestre",
+      "vigencia_texto_original": "07/09/26 a 18/12/26",
+      "recebido_em": "2026-10-29",
+      "status_leitura": "consultado",
+      "status_aplicacao": "planejado_nao_comprova_aplicacao",
+      "classificacao": "publico",
+      "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+      "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+      "professor_regente_no_original": "Maria Joaquina",
+      "id": "bernardina-2026-3tri-historia-192",
+      "tipo": "planejamento",
+      "titulo": "História 192 — 9º ano — 3º trimestre",
+      "turma": "192",
+      "serie": "9º ano",
+      "etapa": "Ensino Fundamental",
+      "componente": "História",
+      "arquivo_recebido": "3º trimestre História 192.docx",
+      "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-192/original.docx",
+      "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-192/conteudo.md",
+      "sha256": "5cc83812fceef66174d8115e36d3694e5245beda7239ac878529b8e0198b3f49",
+      "temas": [
+        "Brasil após 1945",
+        "Governo JK",
+        "Ditadura Civil-Militar",
+        "Guerra Fria",
+        "Descolonização",
+        "Redemocratização",
+        "Brasil contemporâneo"
+      ],
+      "habilidades_citadas_no_original": [
+        "EF09HI17",
+        "EF09HI20",
+        "EF09HI28",
+        "EF09HI29",
+        "EF09HI31",
+        "EF09HI32",
+        "EF09HI36"
+      ],
+      "alertas": [
+        "Conferir correspondência entre códigos e descrições das habilidades na fonte curricular oficial antes de produzir cada aula.",
+        "Há rótulos de blocos com aula 11 a 16 e sequência semanal até 15; preservar original e conferir recorte, sem criar semana ausente."
+      ]
+    },
+    {
+      "responsavel_acervo": "andre-rodrigues",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "ano_letivo": 2026,
+      "periodo": "3º trimestre",
+      "vigencia_texto_original": "07/09/26 a 18/12/26",
+      "recebido_em": "2026-10-29",
+      "status_leitura": "consultado",
+      "status_aplicacao": "planejado_nao_comprova_aplicacao",
+      "classificacao": "publico",
+      "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+      "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+      "professor_regente_no_original": "Maria Joaquina",
+      "id": "bernardina-2026-3tri-historia-211",
+      "tipo": "planejamento",
+      "titulo": "História 211 — 1ª série — 3º trimestre",
+      "turma": "211",
+      "serie": "1ª série",
+      "etapa": "Ensino Médio",
+      "componente": "História",
+      "arquivo_recebido": "_3º_ 211 - planejamento História.docx",
+      "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-211/original.docx",
+      "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-211/conteudo.md",
+      "sha256": "7a51a1d1c953548ffbd2416c27371ad59f05ca930a20b9dbd565f7535ee0b093",
+      "temas": [
+        "Renascimento",
+        "Grandes Navegações",
+        "Colonização da América",
+        "Sociedades coloniais",
+        "Povos indígenas",
+        "Povos africanos e afro-brasileiros"
+      ],
+      "habilidades_citadas_no_original": [
+        "EM13CHS204",
+        "EM13CHS306",
+        "EM13CHS401",
+        "EM13CHS403",
+        "EM13CHS404"
+      ],
+      "alertas": [
+        "Conferir correspondência entre códigos e descrições das habilidades na fonte curricular oficial antes de produzir cada aula.",
+        "Há rótulos de blocos com aula 11 a 16 e sequência semanal até 15; preservar original e conferir recorte, sem criar semana ausente."
+      ]
+    },
+    {
+      "responsavel_acervo": "andre-rodrigues",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "ano_letivo": 2026,
+      "periodo": "3º trimestre",
+      "vigencia_texto_original": "07/09/26 a 18/12/26",
+      "recebido_em": "2026-10-29",
+      "status_leitura": "consultado",
+      "status_aplicacao": "planejado_nao_comprova_aplicacao",
+      "classificacao": "publico",
+      "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+      "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+      "professor_regente_no_original": "Maria Joaquina",
+      "id": "bernardina-2026-3tri-historia-221",
+      "tipo": "planejamento",
+      "titulo": "História 221 — 2ª série — 3º trimestre",
+      "turma": "221",
+      "serie": "2ª série",
+      "etapa": "Ensino Médio",
+      "componente": "História",
+      "arquivo_recebido": "3º_ 221 - planejamento História.docx",
+      "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-221/original.docx",
+      "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-221/conteudo.md",
+      "sha256": "5b69e1bde7cdae2265780a0c16b826bb86aefea3f38fd1e529bde8a5999842d4",
+      "temas": [
+        "Transformações do mundo contemporâneo",
+        "República",
+        "Movimentos sociais",
+        "Democracia e cidadania",
+        "Direitos humanos",
+        "Cultura e identidade"
+      ],
+      "habilidades_citadas_no_original": [
+        "EM13CHS204",
+        "EM13CHS401",
+        "EM13CHS502",
+        "EM13CHS602",
+        "EM13CHS603"
+      ],
+      "alertas": [
+        "Conferir correspondência entre códigos e descrições das habilidades na fonte curricular oficial antes de produzir cada aula.",
+        "Há rótulos de blocos com aula 11 a 16 e sequência semanal até 15; preservar original e conferir recorte, sem criar semana ausente."
+      ]
+    },
+    {
+      "responsavel_acervo": "andre-rodrigues",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "ano_letivo": 2026,
+      "periodo": "3º trimestre",
+      "vigencia_texto_original": "14/09 - 14/12",
+      "recebido_em": "2026-10-29",
+      "status_leitura": "consultado",
+      "status_aplicacao": "planejado_nao_comprova_aplicacao",
+      "classificacao": "publico",
+      "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+      "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+      "professor_regente_no_original": "Rodrigo de Souza Batista e Francine de Sousa Costa",
+      "id": "bernardina-2026-3tri-eletiva-192",
+      "tipo": "planejamento",
+      "titulo": "Eletiva 192 — Cores, sensações, sabores e transformações",
+      "turma": "192",
+      "serie": "9º ano",
+      "etapa": "Ensino Fundamental",
+      "componente": "Eletiva de Base",
+      "ano_letivo_fonte": "vinculação do lote de 29/10/2026; ano não explicitado na vigência do PDF",
+      "arquivo_recebido": "Plano de aula - eletiva de base - 192 - 3º tri - Cores, sensações, sabores e transformações.docx (2) (1).pdf",
+      "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/original.pdf",
+      "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md",
+      "sha256": "b5a18c9feb0c5e72bee8167246745905c1195476b3792139f22a844b0754a4d8",
+      "temas": [
+        "Cultura gaúcha e culinária",
+        "O tempo e o vento",
+        "Cores e sabores do RS",
+        "Halloween e transformações culturais",
+        "Cultura africana no cotidiano",
+        "EAC"
+      ],
+      "habilidades_citadas_no_original": [
+        "EM13CNT102RS"
+      ],
+      "alertas": [
+        "Nome do arquivo menciona 3º trimestre; corpo contém rótulos de 1º trimestre.",
+        "Plano identifica 9º ano e cita código EM13CNT102RS: etapa e correspondência curricular devem ser conferidas antes da aplicação.",
+        "Vigência 14/09–14/12 sem ano no campo original; datas semanais incluindo 14/12 preservadas."
+      ]
+    },
+    {
+      "id": "ementa-cultura-digital-recebida-2026-10-29",
+      "tipo": "ementa",
+      "titulo": "Cultura Digital — ementa recebida",
+      "responsavel_acervo": "andre-rodrigues",
+      "escola": null,
+      "ano_letivo": null,
+      "periodo": null,
+      "turma": null,
+      "serie": null,
+      "etapa": "menção a Anos Iniciais no perfil docente; vinculação a confirmar",
+      "componente": "Cultura Digital",
+      "carga_horaria_declarada": "2 períodos semanais",
+      "referencia_declarada": "Matriz de Referência 2026, sem arquivo normativo anexado à ementa",
+      "recebido_em": "2026-10-29",
+      "arquivo_recebido": "Ementa Cultura Digital.docx",
+      "duplicatas_identicas": [
+        "Ementa Cultura Digital(1).docx"
+      ],
+      "arquivo": "banco-pedagogico/ementas/cultura-digital/2026/original.docx",
+      "texto_consulta": "banco-pedagogico/ementas/cultura-digital/2026/conteudo.md",
+      "sha256": "9f4020c3be48ac78e26cab3a642024631b3d42a95c50755ac0aa4023e9365e7a",
+      "temas": [
+        "Letramento digital",
+        "Cidadania digital",
+        "Uso seguro e ético",
+        "Pensamento computacional",
+        "Fontes e desinformação",
+        "Problemas socioambientais"
+      ],
+      "habilidades_citadas_no_original": [],
+      "status_leitura": "consultado",
+      "status_aplicacao": "vinculacao_a_turma_pendente",
+      "classificacao": "publico",
+      "revisao_privacidade": "texto conferido; sem dados individuais de estudantes identificados",
+      "validacao_curricular": "ementa_recebida_nao_equivale_a_matriz_oficial_carregada",
+      "alertas": [
+        "Turma e escola não identificadas.",
+        "Texto menciona faixa etária dos Anos Iniciais; confirmar adequação antes de usar em outras etapas."
+      ]
+    }
+  ],
+  "fontes_conectadas": {
+    "curriculos_oficiais": "base-curricular/catalogo.json",
+    "aulas_publicadas": "publicacao/catalogo.json",
+    "arquiteturas": "biblioteca-arquiteturas/catalogo.json",
+    "fluxos_de_producao": "prompts/README.md"
+  },
+  "pendencias": [
+    "BNCC e RCG oficiais continuam aguardando incorporação conforme catálogo curricular; citações nos planos não alteram esse estado.",
+    "PEIs preenchidos não recebidos neste lote; armazenamento restrito ainda não configurado.",
+    "Capturas anteriores de orientação não foram recuperadas como arquivos originais neste lote; não contabilizadas como arquivadas."
+  ]
+}

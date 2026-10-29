@@ -5,7 +5,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 ## Antes de produzir ou revisar aulas
 1. Leia PROMPT_MESTRE_AULAS_DIGITAIS.md integralmente.
 2. Leia as últimas entradas de HISTORICO_APERFEICOAMENTOS.md.
-3. Consulte base-curricular/catalogo.json e os documentos pertinentes efetivamente disponíveis.
+3. Consulte banco-pedagogico/catalogo.json por turma/componente/período, originais e alertas; depois base-curricular/catalogo.json e as fontes curriculares disponíveis.
 4. Confira horário, escola, turma, componente e continuidade no registro mais recente, sem tratar aula planejada como aplicada.
 5. Preserve arquivos existentes e modelos enviados pelo professor.
 6. Selecione um dos dois prompts em prompts/README.md. Use planos de turma efetivamente recebidos conforme base-curricular/PLANOS_DE_TURMA.md; documento anunciado não é documento consultado.
@@ -37,7 +37,12 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 - Guias e gabaritos docentes separados do material público; não usar senha no JavaScript como proteção.
 - Nunca registrar alunos identificáveis, senhas, tokens ou segredos neste repositório.
 
-## Base curricular
+## Banco documental e base curricular
+
+- Leia banco-pedagogico/README.md e COMO_CADASTRAR.md. Arquive planos gerais autorizados com original, extração, metadados e SHA-256; deduplique por hash e preserve autoria/regente e responsável distintos.
+- Outros professores contribuem por revisão; nenhuma permissão é concedida por cadastro. Registre fonte/recorte/adaptações em cada composição. Não transformar plano escolar em norma BNCC verificada.
+- Não arquive PEI preenchido ou dados individuais no repositório público, mesmo em pasta chamada privada. Somente modelos vazios e orientações gerais; armazenamento restrito exige permissões reais e ainda não foi configurado.
+- Execute python3 banco-pedagogico/validar.py ao alterar documentos ou catálogo, além do validador de arquiteturas.
 O diretório base-curricular organiza documentos oficiais e seus metadados. Espaço reservado não significa documento recebido. Use status explícito e proveniência verificável.
 
 Autoria pedagógica: Prof. André de Oliveira Rodrigues.

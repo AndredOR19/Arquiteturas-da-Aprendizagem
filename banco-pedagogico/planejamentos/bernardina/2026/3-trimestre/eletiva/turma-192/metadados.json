@@ -1,0 +1,42 @@
+{
+  "responsavel_acervo": "andre-rodrigues",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "ano_letivo": 2026,
+  "periodo": "3º trimestre",
+  "vigencia_texto_original": "14/09 - 14/12",
+  "recebido_em": "2026-10-29",
+  "status_leitura": "consultado",
+  "status_aplicacao": "planejado_nao_comprova_aplicacao",
+  "classificacao": "publico",
+  "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+  "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+  "professor_regente_no_original": "Rodrigo de Souza Batista e Francine de Sousa Costa",
+  "id": "bernardina-2026-3tri-eletiva-192",
+  "tipo": "planejamento",
+  "titulo": "Eletiva 192 — Cores, sensações, sabores e transformações",
+  "turma": "192",
+  "serie": "9º ano",
+  "etapa": "Ensino Fundamental",
+  "componente": "Eletiva de Base",
+  "ano_letivo_fonte": "vinculação do lote de 29/10/2026; ano não explicitado na vigência do PDF",
+  "arquivo_recebido": "Plano de aula - eletiva de base - 192 - 3º tri - Cores, sensações, sabores e transformações.docx (2) (1).pdf",
+  "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/original.pdf",
+  "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md",
+  "sha256": "b5a18c9feb0c5e72bee8167246745905c1195476b3792139f22a844b0754a4d8",
+  "temas": [
+    "Cultura gaúcha e culinária",
+    "O tempo e o vento",
+    "Cores e sabores do RS",
+    "Halloween e transformações culturais",
+    "Cultura africana no cotidiano",
+    "EAC"
+  ],
+  "habilidades_citadas_no_original": [
+    "EM13CNT102RS"
+  ],
+  "alertas": [
+    "Nome do arquivo menciona 3º trimestre; corpo contém rótulos de 1º trimestre.",
+    "Plano identifica 9º ano e cita código EM13CNT102RS: etapa e correspondência curricular devem ser conferidas antes da aplicação.",
+    "Vigência 14/09–14/12 sem ano no campo original; datas semanais incluindo 14/12 preservadas."
+  ]
+}

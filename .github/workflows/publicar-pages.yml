@@ -27,7 +27,9 @@ jobs:
         with:
           version: '1.10.19'
       - name: Conferir catálogo e diretrizes
-        run: python biblioteca-arquiteturas/validar_catalogo.py
+        run: |
+          python biblioteca-arquiteturas/validar_catalogo.py
+          python banco-pedagogico/validar.py
       - name: Preparar somente os materiais públicos
         run: python publicacao/preparar.py
       - name: Conferir os slides no navegador

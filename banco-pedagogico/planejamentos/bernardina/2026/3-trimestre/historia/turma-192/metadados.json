@@ -1,0 +1,47 @@
+{
+  "responsavel_acervo": "andre-rodrigues",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "ano_letivo": 2026,
+  "periodo": "3º trimestre",
+  "vigencia_texto_original": "07/09/26 a 18/12/26",
+  "recebido_em": "2026-10-29",
+  "status_leitura": "consultado",
+  "status_aplicacao": "planejado_nao_comprova_aplicacao",
+  "classificacao": "publico",
+  "revisao_privacidade": "texto e mídia incorporada conferidos; sem dados individuais de estudantes identificados",
+  "validacao_curricular": "codigos_transcritos_do_plano_nao_auditados_contra_documento_oficial",
+  "professor_regente_no_original": "Maria Joaquina",
+  "id": "bernardina-2026-3tri-historia-192",
+  "tipo": "planejamento",
+  "titulo": "História 192 — 9º ano — 3º trimestre",
+  "turma": "192",
+  "serie": "9º ano",
+  "etapa": "Ensino Fundamental",
+  "componente": "História",
+  "arquivo_recebido": "3º trimestre História 192.docx",
+  "arquivo": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-192/original.docx",
+  "texto_consulta": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-192/conteudo.md",
+  "sha256": "5cc83812fceef66174d8115e36d3694e5245beda7239ac878529b8e0198b3f49",
+  "temas": [
+    "Brasil após 1945",
+    "Governo JK",
+    "Ditadura Civil-Militar",
+    "Guerra Fria",
+    "Descolonização",
+    "Redemocratização",
+    "Brasil contemporâneo"
+  ],
+  "habilidades_citadas_no_original": [
+    "EF09HI17",
+    "EF09HI20",
+    "EF09HI28",
+    "EF09HI29",
+    "EF09HI31",
+    "EF09HI32",
+    "EF09HI36"
+  ],
+  "alertas": [
+    "Conferir correspondência entre códigos e descrições das habilidades na fonte curricular oficial antes de produzir cada aula.",
+    "Há rótulos de blocos com aula 11 a 16 e sequência semanal até 15; preservar original e conferir recorte, sem criar semana ausente."
+  ]
+}
