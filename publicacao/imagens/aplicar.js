@@ -115,11 +115,11 @@ function exercise(){
 }
 const report=()=>['APRENDER COM IMAGENS E ÁUDIO','Versão do apoio: 1.0.0 | Tema: '+cfg.tema,'Cenas exploradas: '+state.vistos.join(', '),'Áudios solicitados (não comprova escuta): '+state.audios_solicitados.length,'Treino separado da nota. Não é diagnóstico ou certificação de leitura.',JSON.stringify({tentativas:state.tentativas,pistas:state.pistas,completos:state.completos,limite:state.limite})].join('\n');
 window.ImageLearning={version:'1.0.0',aula,snapshot:()=>JSON.parse(JSON.stringify(state)),report};
-let tries=0;const timer=setInterval(()=>{
- if(typeof window.fullReport==='function'){
-  const base=window.fullReport;window.fullReport=function(...args){const text=base.apply(this,args);if(typeof text!=='string'||text.startsWith('Resultado ainda não liberado.'))return text;return text+'\n\n'+report();};clearInterval(timer);
- }else if(++tries>100)clearInterval(timer);
-},100);
+function attachReport(){
+ if(typeof window.fullReport!=='function')return false;
+ const base=window.fullReport;window.fullReport=function(...args){const text=base.apply(this,args);if(typeof text!=='string'||text.startsWith('Resultado ainda não liberado.'))return text;return text+'\n\n'+report();};return true;
+}
+if(!attachReport()){let tries=0;const timer=setInterval(()=>{if(attachReport()||++tries>100)clearInterval(timer);},100);}
 document.addEventListener('click',e=>{if(['mute','stopVoice'].includes(e.target.id))vozPedido++;});
 window.addEventListener('pagehide',()=>{vozPedido++;window.speechSynthesis?.cancel();});
 observe();
