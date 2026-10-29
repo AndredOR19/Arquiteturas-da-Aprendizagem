@@ -23,3 +23,6 @@ html[data-theme="mono"]{--bg:#fff;--card:#fff;--soft:#f1f1f1;--text:#111;--muted
 
 /* Caderno de cidadania: documentos, datas e evidências em destaque. */
 html[data-theme=light]{--bg:#f5f1e7;--card:#fffdf7;--accent:#175849}body{background-image:none}.hero figure{margin:0}.hero figure svg{width:100%;height:auto}.hero figcaption{font-size:.85rem}fieldset{border:1px solid var(--line);border-radius:10px;margin:18px 0;padding:16px}fieldset label{display:block;margin:10px 0;min-height:32px}fieldset input{width:20px;height:20px;vertical-align:middle}#exp-comment{width:100%;min-height:100px;font:inherit}h1,h2,h3,legend{overflow-wrap:anywhere}fieldset{min-width:0}body[data-rp-dyslexic=true] .hero h1{font-size:clamp(1.8rem,7vw,3rem)!important}@media(max-width:650px){.hero{display:block}.hero figure{margin-top:24px}.brand{max-width:100%;overflow-wrap:anywhere}.metadata{grid-template-columns:1fr}}
+
+/* A legenda fora dos cartões acompanha o contraste do tema. */
+#heroMap svg>g>text:last-child{fill:var(--text)}
