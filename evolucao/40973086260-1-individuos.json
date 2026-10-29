@@ -1,0 +1,17 @@
+{
+  "execucao": "40973086260",
+  "tentativa": "1",
+  "cenario": "individuos",
+  "commit_fonte": "8945b5752f7250496c946aaab17f8b0beaa48c44",
+  "pasta": "execucoes/40973086260-1-individuos",
+  "experimento": "b50367ec9870587d7599f5423dfe1c76c9e5e73e86218f216a0277d4170eb04f",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "biblioteca-arquiteturas/catalogo.json"
+    ]
+  }
+}
