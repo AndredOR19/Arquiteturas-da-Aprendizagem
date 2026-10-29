@@ -613,6 +613,20 @@
           "biblioteca-arquiteturas/catalogo.json"
         ]
       }
+    },
+    {
+      "execucao": "40973086260",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "8945b5752f7250496c946aaab17f8b0beaa48c44",
+      "pasta": "execucoes/40973086260-1-turmas",
+      "experimento": "b15efdbd6885de096b3cad162291541a1e91a1d345350fed5f6b2ff46c5beab1",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": []
+      }
     }
   ],
   "ultimo_inventario": {
