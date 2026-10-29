@@ -91,3 +91,10 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Separar necessidade percebida pelo professor, adaptação local e mudança geral; preservar autoria, contexto, versões e histórico das respostas.
 - Conferir código, importação, implantação e teste real separadamente; workflow preparado não é coleta ativa.
 - Regenerar JSON após mudar contrato/logica e executar os testes n8n e coleta. Não publicar envelopes, convites, observações identificáveis ou credenciais.
+
+
+## Lettering Digital escolar/pedagógico
+- Aplicar seção 6.3 e publicacao/lettering/README.md. Títulos e palavras-chave com fonte local licenciada; texto e comandos em fonte de leitura.
+- Composição própria de caderno, objeto central e relações; manter alternativas de leitura e prioridade dos apoios.
+- Oferecer Leitura simples sem apagar respostas; rever apresentação se houver desconforto.
+- Conferir duas aulas de História 192 no workflow antes de entregar links; não confundir revisão visual com migração de conteúdo/estrutura do legado.

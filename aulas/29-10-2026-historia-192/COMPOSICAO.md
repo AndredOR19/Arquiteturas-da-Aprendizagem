@@ -6,3 +6,7 @@ AEE: problema, mecanismo, representações e limites. MACI: retorno aos direitos
 26 tarefas de seleção incluem localizar, classificar, comparar, delimitar inferência, ordenar próximo passo, recuperar e transferir; sem arraste obrigatório. Correção formativa está no cliente. Não equivale a proteção contra inspeção nem demonstra aprendizagem por si só. Conteúdo explicativo: 1.228 palavras em dez blocos, além das tarefas e glossário. Exemplos locais fictícios explicitados. RCG consultado em fonte oficial; matriz escolar específica e cronograma anterior completo não localizados. Sequência é proposta a partir do último material disponível, não aplicação presumida.
 
 Plano diário neste diretório. Apenas arquivos de extensão autorizada entram no pacote público; não há guia reservado ou dados de estudantes. Testes funcionais próprios no workflow verificam a nova aula antes do deploy.
+
+
+## Revisão visual — 29/10/2026
+Prompt 2.16.0; catálogo 1.4.4 reconciliado com as diretrizes existentes. Lettering Digital escolar/pedagógico aplicado por recursos compartilhados: fonte Kalam local nos títulos, mapa de cidadania em caderno com livro central/faixas/ramos curvos e alternativa Leitura simples. Conteúdo, critérios e chaves preservados. Referência Maps4Study fornecida pelo professor, observada no navegador; não incorporada como imagem. Prioridade das preferências de leitura mantida. Conferência em ../VERIFICACAO_LETTERING_192.md.

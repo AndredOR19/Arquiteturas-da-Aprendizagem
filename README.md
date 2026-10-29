@@ -7,7 +7,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.
 
 ## Comece aqui
-- [Prompt mestre completo — versão 2.15.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
+- [Prompt mestre completo — versão 2.16.0](PROMPT_MESTRE_AULAS_DIGITAIS.md)
 - [Biblioteca de Arquiteturas — plantas e protocolo para IA](biblioteca-arquiteturas/README.md)
 - [Histórico de aperfeiçoamentos](HISTORICO_APERFEICOAMENTOS.md)
 - [Orientações para o trabalho no repositório](AGENTS.md)
@@ -101,3 +101,7 @@ O [diário e banco de insights](pesquisa/README.md) registram as correlações a
 Propositor das Arquiteturas da Aprendizagem: **André de Oliveira Rodrigues**. [Metadados para referência](CITATION.cff) · [Como contribuir](CONTRIBUTING.md) · [Objetos de estudo](pesquisa/projeto/OBJETOS_DE_ESTUDO.md).
 
 A [proposta de governança da rede](pesquisa/projeto/GOVERNANCA_COLABORACAO.md) e o [plano de indicadores](pesquisa/projeto/PLANO_INDICADORES.md) preparam colaboração, devolutivas de estudos e acompanhamento. Licenciamento e abertura do núcleo ainda em discussão; esses documentos não aplicam uma licença ou exigem entrega de dados por todo fork. Dados individuais permanecem privados.
+
+
+## Lettering Digital escolar/pedagógico — 2.16.0
+Preferência visual registrada e aplicada inicialmente às aulas de História 192 de 21/10 e 29/10: caderno ilustrado, livro central, títulos manuscritos com fonte local licenciada, faixas e conexões. Botão Leitura simples reversível e prioridade dos apoios de leitura. [Recursos](publicacao/lettering/README.md) e [conferência](aulas/VERIFICACAO_LETTERING_192.md).

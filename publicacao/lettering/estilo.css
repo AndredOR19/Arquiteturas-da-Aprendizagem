@@ -1,0 +1,62 @@
+/* Lettering Digital escolar/pedagógico 1.0.0. Fonte local, títulos selecionáveis. */
+@font-face{font-family:KalamEscolar;src:url('Kalam-Bold.woff') format('woff');font-style:normal;font-weight:700;font-display:swap}
+html[data-school-lettering]{--paper:#fffdf5;--ink:#253b47;--rule:#c4d7df;--ribbon:#275d7d}
+html[data-school-lettering][data-theme=light]{--bg:#edf1e9;--card:#fffdf5;--soft:#f4f0df;--text:#253b47;--muted:#465b65;--line:#8caaa9;--accent:#1b6552;--gold:#86520f;color-scheme:light}
+html[data-school-lettering] body{background:var(--bg);background-image:repeating-linear-gradient(0deg,transparent,transparent 31px,color-mix(in srgb,var(--line),transparent 85%) 32px);background-attachment:scroll}
+html[data-school-lettering] .atmosphere{display:none}
+html[data-school-lettering] header{gap:16px;align-items:center;padding-block:22px 12px}
+html[data-school-lettering] .brand{letter-spacing:.05em}
+html[data-school-lettering] .panel{position:relative;border:1.5px solid var(--line);border-radius:20px 15px 23px 17px;background:var(--card);box-shadow:4px 5px 0 color-mix(in srgb,var(--line),transparent 70%);backdrop-filter:none;-webkit-backdrop-filter:none;margin-bottom:25px;min-width:0}
+html[data-school-lettering] body:not([data-lettering-simple=true]):not([data-rp-enabled=true]) :is(h1,h2,.readblock>summary,.lettering-book-title,.lettering-ribbon){font-family:KalamEscolar,system-ui,sans-serif;font-weight:700;letter-spacing:0}
+html[data-school-lettering] h1{font-size:clamp(2rem,4.2vw,3.8rem);line-height:1.22;max-width:21ch;margin-top:14px}
+html[data-school-lettering] h2{line-height:1.35}
+html[data-school-lettering] .eyebrow{display:inline-block;max-width:100%;font-size:.8rem;padding:5px 12px;border:1px solid currentColor;border-radius:3px 10px 4px 8px;line-height:1.5;letter-spacing:.03em}
+html[data-school-lettering] .metadata>div{border:1px solid var(--line);border-radius:7px 15px 8px 11px;padding:16px}
+html[data-school-lettering] .metadata strong{display:inline-block;border-bottom:3px solid var(--accent);padding-bottom:3px}
+html[data-school-lettering] .btn{border-radius:8px 13px 8px 12px;min-height:44px;white-space:normal}
+html[data-school-lettering] .btn:focus-visible,html[data-school-lettering] summary:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+html[data-school-lettering] .readblock{margin-top:17px;border:1px solid var(--line);border-radius:9px 15px 8px 12px;padding:0;overflow:hidden}
+html[data-school-lettering] .readblock>summary{padding:13px 18px;background:var(--soft);border-bottom:2px solid var(--accent);font-size:1.14em;line-height:1.45}
+html[data-school-lettering] .reading{padding:4px 20px 20px}
+html[data-school-lettering] .semantic-map{border:1.5px dashed var(--accent);border-radius:12px;background:var(--soft)}
+html[data-school-lettering] .map{border:1px solid var(--line);border-radius:12px 20px 10px 17px}
+html[data-school-lettering] .map .box{stroke-linecap:round;stroke-linejoin:round}
+html[data-school-lettering] .choice{border-radius:9px 15px 10px 13px}
+html[data-school-lettering] .hero{gap:26px}
+.lettering-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0 20px}
+.lettering-tools small{color:var(--muted);font: .82rem/1.5 system-ui,sans-serif;max-width:58ch}
+.lettering-sheet{position:relative;isolation:isolate;margin:26px 0 30px;padding:28px 24px 28px 40px;border:1px solid var(--line);border-radius:10px 17px 12px 7px;overflow:hidden;background:repeating-linear-gradient(0deg,transparent,transparent 30px,color-mix(in srgb,var(--rule),transparent 42%) 31px),var(--paper);color:var(--ink);box-shadow:3px 4px 0 color-mix(in srgb,var(--line),transparent 68%)}
+.lettering-sheet:before{content:'';position:absolute;left:15px;top:18px;bottom:18px;width:10px;background:radial-gradient(circle,#829698 0 3px,transparent 4px) 0 0/10px 29px;opacity:.55}
+.lettering-sheet:after{content:'';position:absolute;z-index:-1;left:32px;top:0;bottom:0;border-left:1px solid #c49c9c80}
+.lettering-sheet-label{font:700 .78rem/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:0 0 22px;color:#345d70}
+.lettering-network{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,.95fr) minmax(0,1fr);gap:24px 34px;align-items:center;padding:12px 0}
+.lettering-links{position:absolute;inset:0;width:100%;height:100%;z-index:-1;overflow:visible}
+.lettering-links path{fill:none;stroke-width:5;stroke-linecap:round;opacity:.7}
+.lettering-note{min-width:0;background:#fffbeb;border:1.5px solid #6f7470;border-radius:5px 11px 7px 9px;padding:0 15px 12px;box-shadow:2px 3px 0 #2939431c;align-self:stretch}
+.lettering-note p{font: .9rem/1.65 system-ui,sans-serif!important;color:#253b47;max-width:100%;margin:10px 0 0}
+.lettering-ribbon{display:block;position:relative;background:var(--ribbon);color:#fff;padding:5px 12px;margin:-6px -8px 9px;border:1px solid #273b46;border-radius:3px 9px 3px 6px;font-size:1.15rem;line-height:1.45;text-align:center}
+.lettering-note[data-branch=rights]{--ribbon:#275d7d}.lettering-note[data-branch=participation]{--ribbon:#37683a}.lettering-note[data-branch=information]{--ribbon:#75457e}.lettering-note[data-branch=action]{--ribbon:#8a4a25}
+.lettering-book{grid-column:2;grid-row:1 / span 2;position:relative;border:3px solid #324d5c;border-radius:8px 13px 12px 7px;padding:28px 17px;background:linear-gradient(90deg,#faf0d5 0 48%,#c4b58b 49%,#fff6df 52%);box-shadow:4px 5px 0 #ca9e58,7px 8px 0 #324d5c;min-width:0;text-align:center}
+.lettering-book:before{content:'';position:absolute;inset:8px;border:1px solid #ab9b76;border-radius:3px 9px 6px 3px;pointer-events:none}
+.lettering-book-title{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.35;display:block;color:#254c67}
+.lettering-book p{font: .85rem/1.5 system-ui,sans-serif!important;color:#4a5147;margin:15px 0 0;max-width:none}
+.lettering-note[data-branch=rights]{grid-column:1;grid-row:1}.lettering-note[data-branch=participation]{grid-column:3;grid-row:1}.lettering-note[data-branch=information]{grid-column:1;grid-row:2}.lettering-note[data-branch=action]{grid-column:3;grid-row:2}
+.lettering-caption{font:.85rem/1.6 system-ui,sans-serif!important;color:#344e5b;max-width:none;margin:24px 0 0;border-top:1px dashed #819a9e;padding-top:12px}
+html[data-school-lettering][data-theme=dark]{--paper:#243745;--ink:#f4f2e6;--rule:#66808f}
+html[data-school-lettering][data-theme=dark] .lettering-sheet-label,html[data-school-lettering][data-theme=dark] .lettering-caption{color:#d3e1e6}
+html[data-school-lettering][data-theme=mono] .lettering-ribbon,html[data-school-lettering][data-theme=contrast] .lettering-ribbon{background:#111;color:#fff}
+html[data-school-lettering][data-theme=contrast]{--paper:#000;--ink:#fff;--rule:#fff}
+html[data-school-lettering][data-theme=contrast] .lettering-sheet-label,html[data-school-lettering][data-theme=contrast] .lettering-caption{color:#fff}
+html[data-school-lettering] body[data-lettering-simple=true],html[data-school-lettering] body[data-rp-focus=true]{background-image:none}
+html[data-school-lettering] body[data-lettering-simple=true] :is(h1,h2,h3,summary,.lettering-book-title,.lettering-ribbon){font-family:var(--reading-font,system-ui,sans-serif)!important}
+html[data-school-lettering] body[data-lettering-simple=true] .panel{border-radius:10px;box-shadow:none}
+html[data-school-lettering] body[data-lettering-simple=true] .lettering-sheet,html[data-school-lettering] body[data-rp-focus=true] .lettering-sheet{background:var(--card);color:var(--text);box-shadow:none;padding:20px}
+body[data-lettering-simple=true] .lettering-sheet:before,body[data-lettering-simple=true] .lettering-sheet:after,body[data-lettering-simple=true] .lettering-links,body[data-rp-focus=true] .lettering-sheet:before,body[data-rp-focus=true] .lettering-sheet:after,body[data-rp-focus=true] .lettering-links{display:none}
+body[data-lettering-simple=true] .lettering-book{box-shadow:none;background:#fffdf5}
+body[data-lettering-simple=true] .lettering-ribbon{background:#253b47}
+body[data-lettering-simple=true] .lettering-caption,body[data-lettering-simple=true] .lettering-sheet-label,body[data-rp-focus=true] .lettering-caption,body[data-rp-focus=true] .lettering-sheet-label{color:var(--text)}
+body[data-rp-enabled=true] .lettering-network :is(p,.lettering-book-title,.lettering-ribbon){font-family:var(--reading-font)!important}
+body[data-rp-enabled=true] .lettering-note p,body[data-rp-enabled=true] .lettering-book p,body[data-rp-enabled=true] .lettering-caption{font-size:var(--reading-size)!important;line-height:var(--reading-line)!important;letter-spacing:var(--reading-letters)!important;word-spacing:var(--reading-words)!important;max-width:100%!important}
+@media(max-width:750px){.lettering-sheet{padding:22px 18px 22px 32px}.lettering-network{grid-template-columns:1fr 1fr;gap:20px 16px}.lettering-book{grid-column:1 / -1;grid-row:1;max-width:290px;width:100%;justify-self:center;min-height:160px}.lettering-note[data-branch=rights]{grid-column:1;grid-row:2}.lettering-note[data-branch=participation]{grid-column:2;grid-row:2}.lettering-note[data-branch=information]{grid-column:1;grid-row:3}.lettering-note[data-branch=action]{grid-column:2;grid-row:3}.lettering-links{display:none}.lettering-book-title{font-size:1.8rem}html[data-school-lettering] .hero h1{font-size:2.15rem}}
+@media(max-width:470px){.lettering-network{display:flex;flex-direction:column;gap:22px}.lettering-note{width:100%}.lettering-book{order:-1}.lettering-ribbon{font-size:1.15rem}.lettering-sheet{margin-inline:0}html[data-school-lettering] h1{font-size:2rem;line-height:1.28}html[data-school-lettering] .reading{padding:2px 14px 16px}}
+@media print{.lettering-tools{display:none!important}.lettering-sheet{break-inside:avoid;background:#fff;color:#000;box-shadow:none}.lettering-sheet:before{display:none}.lettering-links{display:none}html[data-school-lettering] .panel{box-shadow:none}.lettering-network{display:grid;grid-template-columns:1fr 1fr}.lettering-book{grid-column:1/-1;grid-row:auto}.lettering-note[data-branch]{grid-column:auto;grid-row:auto}}

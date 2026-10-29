@@ -4,7 +4,10 @@
       "tipo": "html",
       "origem": "aulas/21-10-2026-historia-192",
       "destino": "aulas/21-10-2026-historia-192",
-      "titulo": "História — turma 192"
+      "titulo": "História — turma 192",
+      "estilo_visual": "lettering-escolar",
+      "versao_visual": "1.0.0",
+      "atualizado_em": "2026-10-29"
     },
     {
       "tipo": "html",
@@ -43,6 +46,16 @@
       "versao": "2.0.0",
       "atualizado_em": "2026-10-28"
     },
-    {"tipo":"html","origem":"aulas/29-10-2026-historia-192","destino":"aulas/29-10-2026-historia-192","titulo":"História 192 — Da informação à participação","versao":"1.0.0","data_aula":"2026-10-29"}
+    {
+      "tipo": "html",
+      "origem": "aulas/29-10-2026-historia-192",
+      "destino": "aulas/29-10-2026-historia-192",
+      "titulo": "História 192 — Da informação à participação",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-29",
+      "estilo_visual": "lettering-escolar",
+      "versao_visual": "1.0.0",
+      "atualizado_em": "2026-10-29"
+    }
   ]
 }

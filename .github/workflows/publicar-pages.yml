@@ -26,6 +26,8 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: '1.10.19'
+      - name: Conferir catálogo e diretrizes
+        run: python biblioteca-arquiteturas/validar_catalogo.py
       - name: Preparar somente os materiais públicos
         run: python publicacao/preparar.py
       - name: Conferir os slides no navegador
@@ -58,6 +60,8 @@ jobs:
           if-no-files-found: ignore
       - name: Conferir História 192 de 29 de outubro
         run: node ferramentas/conferir-historia-192.cjs
+      - name: Conferir Lettering Digital escolar nas duas aulas de História 192
+        run: node ferramentas/conferir-lettering.cjs
       - name: Guardar imagens da História 192
         if: always()
         uses: actions/upload-artifact@v4
@@ -83,5 +87,6 @@ jobs:
       - name: Publicar
         id: deploy
         uses: actions/deploy-pages@v4
+
 
 

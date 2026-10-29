@@ -2,6 +2,15 @@
 
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
+## 2.16.0 — 29/10/2026
+**Pedido:** ajustar aulas de História 192 já produzidas ao Lettering Digital escolar/pedagógico; referência de caderno ilustrado enviada pelo professor, com possibilidade de mudar diante de desconforto.
+
+**Aplicado:** duas aulas (21/10 e 29/10), títulos manuscritos com fonte local licenciada, mapa de relações com livro central, folha pautada, faixas e ramos curvos; botão Leitura simples reversível. Fonte alternativa do painel tem prioridade. Conteúdo, correção, IDs e progresso preservados; tema Dia padrão somente em novas sessões. Nenhuma imagem de terceiros incorporada.
+
+**Registros:** seção 6.3 do prompt, planta AIES, catálogo compatível, composição, recursos compartilhados e conferência visual/funcional no workflow de publicação. Legado de 21/10 conserva 13 percursos; aula de 29/10 conserva 26. Alteração visual, sem migração geral do legado ou ativação de coleta.
+
+**Verificação:** sintaxe e preservação locais; execução de navegador no GitHub Actions antes do deploy. Estado final em aulas/VERIFICACAO_LETTERING_192.md. Conforto e aplicação com estudantes não avaliados nesta entrega.
+
 ## 2.15.0 — 28/10/2026
 **Pedido:** incorporar n8n ao trabalho e ligar coleta contínua, insights docentes, metadados e adaptação do prompt em contato com a sala. O autor esclarece que ele percebe a necessidade e orienta a resposta situada: “Eu interajo com o mundo e devolvo pra ele soluções”.
 
@@ -212,4 +221,5 @@ O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITA
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 

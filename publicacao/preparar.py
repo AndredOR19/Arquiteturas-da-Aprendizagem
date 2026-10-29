@@ -28,6 +28,10 @@ def main():
     reading.mkdir(parents=True, exist_ok=True)
     for name in ["painel.js", "OpenDyslexic-Regular.woff2", "OFL.txt"]:
         shutil.copyfile(ROOT / "publicacao" / "leitura" / name, reading / name)
+    lettering = OUT / "_recursos" / "lettering"
+    lettering.mkdir(parents=True, exist_ok=True)
+    for name in ["estilo.css", "aplicar.js", "Kalam-Bold.woff", "OFL.txt"]:
+        shutil.copyfile(ROOT / "publicacao" / "lettering" / name, lettering / name)
     links = []
     destinations = set()
     for item in items:
@@ -60,6 +64,10 @@ def main():
                     shutil.copyfile(p, target)
             for page in dest.rglob('*.html'):
                 text = page.read_text(encoding='utf-8')
+                if 'data-school-lettering' in text:
+                    prefix = os.path.relpath(lettering, page.parent).replace(os.sep, '/') + '/'
+                    text = text.replace('../../publicacao/lettering/', prefix)
+                    page.write_text(text, encoding='utf-8')
                 relative = os.path.relpath(reading / 'painel.js', page.parent).replace(os.sep, '/')
                 tag = '<script defer src="' + relative + '?v=1.0.1" data-reading-panel></script>'
                 if 'data-reading-panel' not in text:
@@ -90,5 +98,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 

@@ -1,11 +1,11 @@
 # AIES — Arquitetura de Integração Estético-Semântica
 
 ID: `aies`  
-Versão desta planta: 1.0.0 — 28/10/2026  
+Versão desta planta: 1.0.1 — 29/10/2026  
 Status: diretriz documentada no projeto; eficácia empírica não declarada.  
 Camada: transversal  
 Autoria pedagógica: Prof. André de Oliveira Rodrigues.  
-Fonte normativa: [Prompt mestre 2.9.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 6.2, 24. Esta planta operacionaliza essas regras e não substitui a fonte.
+Fonte normativa: [Prompt mestre 2.16.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 6.2, 24. Esta planta operacionaliza essas regras e não substitui a fonte.
 Dependências de leitura: [svs](svs.md), [associacoes](associacoes.md).
 
 ## Âncora conceitual — finalidade e entrada
@@ -44,3 +44,7 @@ Sketchnote é uma possibilidade. Não atribuir composições didáticas ao artis
 
 Fonte primária documental deste registro: seções 6.2, 24 do prompt do projeto e histórico de 28/10/2026. Não converter a especificação autoral em comprovação científica. Fontes disciplinares e curriculares precisam ser consultadas para cada produção.
 Projeto editorial relacionado: ../../livros/integracao-estetico-semantica/ESBOCO.md.
+
+
+## Preferência visual atual — 29/10/2026
+Aplicar seção 6.3: Lettering Digital escolar/pedagógico nos títulos/palavras-chave, composição de caderno/objeto central/conexões, fonte real e licenciada. Corpo textual e comandos permanecem em fonte de leitura; preferências de acesso prevalecem. Oferecer Leitura simples reversível, preservar progresso e ajustar se houver desconforto relatado. A referência visual orienta composição original; não copiar imagens de terceiros.

@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.15.0**  
-Atualização: **28/10/2026**  
+Versão vigente: **2.16.0**  
+Atualização: **29/10/2026**  
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -189,6 +189,15 @@ Perguntar em cada unidade:
 6. O estudante consegue aplicar a relação em apresentação diferente?
 
 Se a ornamentação competir com a leitura, reduzir textura ou densidade e preservar o acesso. Se o estudante reconhecer apenas um símbolo familiar, solicitar evidência e variar a apresentação. Não afirmar eficácia comprovada ou originalidade científica desta arquitetura sem investigação; registrar como proposta autoral de produção e observação docente. Registro documental não redesenha automaticamente aulas publicadas.
+
+### 6.3. Preferência visual — Lettering Digital escolar/pedagógico
+Decisão do professor em 29/10/2026: adotar a linguagem de Lettering Digital escolar/pedagógico, conforme referência visual enviada em https://share.google/yAjf8RZUadT9LXnu4, observada como mapa de Gêneros Textuais do Maps4Study. A referência aprofunda a linguagem de caderno ilustrado antes associada à Teachy: folha pautada, livro/objeto central, faixas de títulos e ramificações curvas com relação compreensível. Produzir composição própria adequada ao conteúdo, sem copiar a imagem ou textos de terceiros.
+
+Aplicar lettering selecionável nos títulos e palavras-chave, com fonte efetivamente incorporada/licenciada; manter textos explicativos longos, comandos e respostas em fonte de leitura. A preferência expressiva não pode sobrepor fontes/apoios escolhidos pelo estudante. Preservar D/R/E/L, seus rótulos e acesso em preto e branco, temas, celular e teclado. Letras e conexões devem ajudar a localizar e compreender relações; cor ou ilustração não substituem explicação.
+
+Oferecer alternativa “Leitura simples”, reversível e sem apagar conteúdo, respostas, progresso ou critérios. Se estudantes relatarem desconforto, ajustar a apresentação ou sua aplicação local. Não exigir diagnóstico nem prometer conforto universal. Preservar a liberdade temática da AIES dentro dessa preferência; recursos expressivos precisam de função e leitura legível.
+
+Aplicação inicial: revisão visual das aulas de História 192 de 21/10 e 29/10/2026. Recursos em publicacao/lettering; ver conferência em aulas/VERIFICACAO_LETTERING_192.md. Essa alteração não amplia os percursos do legado de 21/10 nem implementa retroativamente funcionalidades de coleta/avaliação ausentes.
 
 ## 7. Referências, documentos e honestidade intelectual
 Usar documentos oficiais para currículo e fontes primárias ou referências acadêmicas pertinentes para o conteúdo. Não inventar autores, títulos, páginas, citações ou códigos.
@@ -542,4 +551,5 @@ O painel não modifica apresentações externas Gamma. Distinguir publicação c
 Esclarecimento do autor: o acesso visível deve dizer “Dislexia / TDAH”. Oferecer seleção direta “Dislexia · apoio à leitura” e “TDAH · foco e menos estímulos”, aplicando fonte e layout juntos em um clique, sem exigir conhecimento tipográfico. São atalhos opcionais e ajustáveis; não classificar alunos nem registrar diagnóstico. Manter alternativas por necessidade, controles manuais e restauração.
 
 Aplicar a diretriz a todos os suportes de produção: HTML, apresentações, documentos, pranchas e impressos. Em HTML, oferecer seleção interativa dos apoios e ajustes manuais; em slides/documentos/impressos, oferecer versões adaptadas e identificadas por finalidade de leitura, respeitando as possibilidades do formato. Links externos e materiais antigos exigem revisão própria: não afirmar migração sem verificar cada entrega. Os atalhos Dislexia/TDAH são opcionais, não exclusivos e não substituem adaptações individuais. Explicar o que cada configuração muda, permitir escolha por necessidade e preservar conteúdo, contraste, descrições e navegação. Não presumir que todos os diagnósticos tenham um mesmo perfil de fonte/layout; outros apoios devem ser definidos pela necessidade observável e orientação pertinente.
+
 
