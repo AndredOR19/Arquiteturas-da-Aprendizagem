@@ -1,0 +1,22 @@
+{
+  "execucao": "40924560452",
+  "tentativa": "1",
+  "cenario": "turmas",
+  "commit_fonte": "4bf66613ce28265035147c40e479a5340be91c9d",
+  "pasta": "execucoes/40924560452-1-turmas",
+  "experimento": "ff466bda269a99e7888985ce3160c6df07655f3b470666743e29cd33ea372384",
+  "diferencas": {
+    "novas": [
+      "simulacoes-quanticas"
+    ],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "biblioteca-arquiteturas/catalogo.json",
+      "pesquisa/registros.json",
+      "pesquisa/simulacoes/arquiteturas_externas.json",
+      "pesquisa/simulacoes/catalogo_modelos.json"
+    ]
+  }
+}

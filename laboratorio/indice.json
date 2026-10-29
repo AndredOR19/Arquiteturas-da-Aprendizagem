@@ -529,16 +529,38 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40924560452",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "4bf66613ce28265035147c40e479a5340be91c9d",
+      "pasta": "execucoes/40924560452-1-turmas",
+      "experimento": "ff466bda269a99e7888985ce3160c6df07655f3b470666743e29cd33ea372384",
+      "diferencas": {
+        "novas": [
+          "simulacoes-quanticas"
+        ],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json",
+          "pesquisa/registros.json",
+          "pesquisa/simulacoes/arquiteturas_externas.json",
+          "pesquisa/simulacoes/catalogo_modelos.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "54a1d2029d99feed51d858c8a6467d4977e87a79992c1e29f433b25a2e9af172",
-      "pesquisa/simulacoes/arquiteturas_externas.json": "a46655384f0f5c1d01ff7db55e656a1d338b47948a8cf0563f503c89606a3be3",
-      "pesquisa/simulacoes/catalogo_modelos.json": "176c3edda89e9564db8192aaeba74ab45044b649885d926675ff058c50c8c69f",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "d0825e8fb0f835bba9894e40d0d051b6b5b1b295e1c88bc1fabd6d851c4c01e9",
-      "pesquisa/registros.json": "24f47d102167da759c6fde6ad2eba7916b5789ab741fee7485aeae88737a59bf",
+      "biblioteca-arquiteturas/catalogo.json": "5a11c046f287843656409d72ee8b7af15d5a2b3bd8c1da66dd4d4eff762d64f4",
+      "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
+      "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "38c7686f269267b0c00df1de6cfbe3d057bbd2f7a1745fb0c9367e81f8146590",
+      "pesquisa/registros.json": "b4bee320cc3537192fd2db8a04e5b89427c0ee608199275ec6a3c55e6df757ab",
       "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
     },
     "arquiteturas": [
@@ -916,6 +938,26 @@
         "calibracao_empirica": false,
         "validacao_empirica": false,
         "revisao_sha256": "a9a8c7cfd09673e65f40a3f6092bc4da18495b97769ce9ea4734dbc4842502d3"
+      },
+      {
+        "id": "simulacoes-quanticas",
+        "nome": "Arquitetura de simulação de circuitos quânticos ideais",
+        "dominio": "formal",
+        "versao_documental": "0.1.0",
+        "estado_documental": "implementado_com_testes_formais",
+        "fontes_sha256": {
+          "pesquisa/simulacoes/ARQUITETURA_SIMULACOES.md": "0d1adad83ac101d088739edac075d4e9b735ef9fef676db0587d588c978e1961",
+          "pesquisa/simulacoes/quantico.py": "7538ad8713b6a2aa8b69f4527353ce67c1aa5ff7d6c2cefeb0a6b7f3e9036135"
+        },
+        "estado_modelagem": "modelo_formal_implementado_testes_proprios",
+        "modulos_mecanisticos": [],
+        "modulos_de_apoio": [],
+        "calibracao_empirica": false,
+        "validacao_empirica": false,
+        "modulos_formais": [
+          "quantico-ideal"
+        ],
+        "revisao_sha256": "988b834113b1bbcfa190138a3badb7f8d6a309f664d94307f641aeed5f9475a3"
       }
     ],
     "modulos": [
