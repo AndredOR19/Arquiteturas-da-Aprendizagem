@@ -65,7 +65,7 @@ O recorte AEE foi proposto pelo assistente para discussão; a arquitetura princi
 | Coleta online | Implantação e integração em campo ainda pendentes; conferir [estado](../../coleta/STATUS.json) |
 | n8n e material personalizado | Primeiro workflow preparado, 13 testes locais novos e 23 testes existentes preservados; personalização contínua ainda por implementar e investigar |
 | Sofia Cog OS | Especificação e amostra de código consultadas; adaptação educacional e auditoria de produção pendentes |
-| Supabase educacional | Preparação autorizada como próxima frente; acesso, projeto de destino e banco ainda não conferidos nesta etapa |
+| Supabase educacional | Base privada criada e testada em 30/10/2026 no projeto existente; receptor, integração e coleta ativa pendentes. Ver coleta/supabase/STATUS.json |
 | Bancos de vetores de revelação | Inclusão solicitada; fontes conceituais localizadas, estrutura concreta do banco ainda a inventariar |
 | Vercel | Última etapa prevista; nenhuma implantação ou conexão realizada nesta entrega |
 
@@ -152,3 +152,5 @@ Esta etapa prepara regras e acompanhamento, sem abrir repositórios privados, co
 
 ## Esclarecimento de licenciamento em discussão
 A intenção atual é permitir uso e produção interna em qualquer escola, pública ou privada, preservando a comercialização externa do sistema e dos materiais autorais abrangidos para autorização específica do titular. Contribuição prévia não é requisito do uso escolar pretendido. A restrição recai na venda externa, não na mensalidade ou no ensino da escola privada. A [governança atualizada](GOVERNANCA_COLABORACAO.md#esclarecimento-atual-do-autor-uso-escolar-e-venda-externa) registra o escopo a definir, direitos de terceiros e distinção entre materiais do projeto e conteúdos criados independentemente. Essa intenção substitui as alternativas anteriores para fins de planejamento; licença não aplicada e visibilidade inalterada.
+
+Atualização de estado em 30/10/2026: [base privada Supabase criada](../../coleta/supabase/README.md). O inventário inicial e o teste SQL foram realizados; isso não implanta a Sofia, vetores, receptor, painel ou coleta nas aulas.

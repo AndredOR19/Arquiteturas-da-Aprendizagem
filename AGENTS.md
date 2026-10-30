@@ -121,3 +121,7 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Aplicar seção 3.1 do Prompt Mestre: uma explicação essencial curta por vez; oferecer reformulação direta, cotidiana/popular ou informal adolescente, exemplo e áudio opcionais, sem empilhar versões ou exigir sua leitura. Preservar significado, termos do componente, precisão e adequação à idade; gírias somente quando naturais e pertinentes.
 - Aprofundamento permanece acessível; não cumprir metas de palavras por volume. Manter alternativas curtas, retorno explicativo e aplicação em novo exemplo com apoio menor. Não impor cinco alternativas nem tratar versões equivalentes como distratores.
 - Registrar apoio realmente usado sem penalizar consulta ou inferir compreensão. Troca de linguagem preserva respostas/progresso; registro documental não migra aulas nem implementa controles.
+
+## Coleta Supabase e identificação
+- Consultar coleta/supabase/STATUS.json e README antes de afirmar coleta ativa. Base privada criada não é receptor, painel ou integração de aulas. Seguir seção 13.3 do prompt; identidade estável/matrícula e escola desde o início, vínculo servidor e identificação confirmada nas aulas migradas, com apoio docente.
+- Não confiar em nome livre para autenticar ou em campos de escola/professor enviados pelo cliente para autorizar. Preservar dados privados, fila/recibo, registros parciais separados da conclusão, nota vigente e dispositivos compartilhados. Não expor credencial privilegiada, lista nominal ou relatório individual.

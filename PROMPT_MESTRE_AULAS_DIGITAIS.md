@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.25.0**
+Versão vigente: **2.26.0**
 Atualização: **30/10/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -46,7 +46,7 @@ A entrada deve exibir:
 - Botão “Copiar registro de aula”, com texto selecionável como alternativa.
 - Acesso claro ao texto, à exploração, aos percursos e ao relatório.
 - Aparência Dia/Noite; opções de preto e branco, projetor, voz e som.
-- Identificação opcional do estudante para o relatório, sem obrigar digitação nas atividades.
+- Nas aulas integradas à coleta identificada, identificação confirmada do estudante e turma antes da atividade registrada; escola/professor/aula vinculados ao acesso, com confirmação visível e apoio docente para quem não digita. Nome livre não autentica. Legados mantêm entrada atual até migração testada, conforme seção 13.3.
 
 Não confunda o resumo do card com o texto explicativo do aluno.
 
@@ -393,6 +393,17 @@ Aplicar pesquisa/modelos/RELATORIO_ACOMPANHAMENTO.md. No relatório privado, pre
 Registrar protocolo/versão, artefato/versão, prompt, instrumento/rubrica, data real, contexto, exposição e apoios, linha de base, recuperação, retenção, transferência e percepção separadamente. Dado não coletado é ausente, não zero. Só registrar tempo quando efetivamente medido. Comparar pares com critérios explícitos; diferenças entre séries, tarefas e versões podem impedir comparação direta. Relatar perdas de acompanhamento e resultados nulos/negativos. Diferenciar relevância pedagógica, diferença observada e significância estatística, sem prometer causalidade.
 
 A estrutura local em pesquisa/longitudinal está implementada e testável com dados fictícios. A extensão opcional em coleta/longitudinal.mjs anexa os campos ao texto e ao JSON e o contrato valida a estrutura; a adoção nas aulas e o recebimento online exigem integração e teste real. Não reclassificar entregas antigas nem inventar série ou aluno a partir de um relatório incompleto. O envelope 1.0.0 permanece compatível; acompanhamento opcional tem versão própria 1.0.0 e persistência integral pelo receptor, sem novas colunas ou alteração nas abas.
+
+### 13.3. Identificação de entrada e coleta no Supabase
+Decisão do Prof. André de Oliveira Rodrigues em 30/10/2026: organizar registros e indicadores por escola, professor, turma, ano letivo, estudante/matrícula e aula, sem depender de envio por e-mail. Escola entra no modelo desde o início. Consultar [base Supabase](coleta/supabase/README.md) e [estado real](coleta/supabase/STATUS.json) antes de afirmar automação.
+
+Nas aulas integradas, exigir identificação confirmada antes da atividade registrada. Nome é atributo, não chave nem autenticação. Usar identidade estável e matrícula anual autorizada; escola, professor e aula vêm vinculados ao acesso e são conferidos no servidor. Não exigir redigitação desses dados em cada percurso nem publicar listas nominais. Oferecer identificação assistida pelo docente, sem exigir digitação autônoma. Sessões em dispositivo compartilhado não podem herdar dados de outro aluno.
+
+Enviar interações parciais em lotes, com IDs estáveis, fila e reenvio idempotente, confirmação de persistência e estado explícito de pendência. Separar progresso parcial do relatório final, ainda bloqueado até completar atividades e confirmar todas as respostas da experiência. E-mail permanece alternativa, sem ser requisito para salvar eventos quando a coleta estiver efetivamente integrada. O painel docente planejado deve filtrar escola/turma/componente/aula/período, exportar indicadores e distinguir planejamento de aplicação confirmada. Não transformar indicador do cliente em nota oficial verificada.
+
+Medir duração total, tempo de página visível e intervalos por percurso separadamente, somente após implementar e testar relógio, pausas, recargas e prevenção de sobreposição. Ausência de cliques pode ser leitura/escuta; visibilidade não é atenção. Analisar tempo com tentativas, apoios e aplicação em exemplo diferente antes de aumentar a extensão de futuras aulas. Extensões opcionais têm registro separado; não mudar denominador ou quantidade obrigatória durante uma realização.
+
+Estado em 30/10/2026: projeto existente ativo; base privada educacional com onze tabelas, RLS e negação de acesso cliente criada e testada com dados fictícios revertidos. Receptor, autorização/entrada, sincronização das aulas, medidor de tempo e painel docente ainda não implantados. Nenhum aluno real ou aula foi cadastrado. Não há coleta automática ativa nem recuperação retrospectiva garantida de dados locais. Próxima implantação exige teste real navegador → receptor → banco → recibo, além de isolamento entre escolas e conferência do relatório completo. Nunca expor credencial privilegiada no HTML nem dados individuais no repositório público.
 
 ## 14. Materiais do professor e segurança de acesso
 Guia docente, orientações “como explicar”, gabarito consolidado e planos exclusivos do professor devem ser separados do material discente.
