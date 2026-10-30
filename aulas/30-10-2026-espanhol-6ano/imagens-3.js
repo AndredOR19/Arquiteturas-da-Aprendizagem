@@ -40,6 +40,7 @@ if(dynamicRoot){
 function save(){try{sessionStorage.setItem(key,JSON.stringify(state));}catch{voiceStatus.textContent='Registro apenas na memória desta página. As imagens continuam disponíveis.';}progress.textContent=`Cenas exploradas: ${state.vistos.length}/${cfg.conceitos.length}. Tentativas neste apoio: ${state.tentativas.length}. Este treino não altera a nota da aula.`;}
 function record(field,value){if(state[field].length<200)state[field].push(value);else{state.limite=true;voiceStatus.textContent='Limite de registros deste apoio atingido. Você pode continuar usando as imagens.';}save();}
 function speak(text,id,after){
+ window.stopSpanishAudio?.();
  if(!somDisponivel){voiceStatus.textContent='Voz indisponível. Use as cenas com a mediação do professor.';return false;}
  try{
   const pedido=++vozPedido;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='pt-BR';
