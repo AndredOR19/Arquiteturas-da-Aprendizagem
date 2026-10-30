@@ -39,3 +39,6 @@ Utilize a apresentação anterior de caderno ilustrado/Lettering Digital escolar
 **Ação:** conferir a composição com a referência e reorganizar a relação ao redor do objeto central, mantendo leitura e controles previsíveis. Para mudar deliberadamente a apresentação, selecione o [Fluxo 02](FLUXO_02_MISSAO_INTERATIVA.md); registre a escolha. Não misture os dois desenhos sem orientação do professor.
 
 Mudar o fluxo em uma nova aula não prova melhora de aprendizagem. Revisar uma aula existente exige preservar IDs, progresso e respostas quando compatíveis; mudança incompatível precisa de versão/migração explícita.
+
+## Metodologia independente do visual
+Aplicar a seção 5.1 do Prompt Mestre e consultar [repertórios por componente](../biblioteca-arquiteturas/estilos/README.md). Este fluxo admite exposição por associações, comparação relacional, demonstração/procedimento, investigação e produção. Definir roteiro e espiral MACI antes das interações; personalizar circuitos. Integrar [monitoramento metodológico](../coleta/MONITORAMENTO_METODOLOGICO.md) ao relatório nas novas aulas. Não converter toda prática em pergunta investigativa.

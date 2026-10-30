@@ -48,3 +48,6 @@ Use diretamente o código de referência aprovado: [A Magia das Palavras](../aul
 **Ação:** associar cada efeito a um objeto/ação compreensível, manter sua descrição, testar silenciamento e redução de movimento e conferir compreensão em um novo exemplo. Use efeitos somente após interação e feedback sem punição sonora.
 
 Este fluxo não altera automaticamente aulas já publicadas. Alterne com o Fluxo 01 quando o professor pedir ou houver necessidade registrada de mudar a apresentação; não atribua a escolha a diagnóstico presumido nem prometa benefício universal.
+
+## Metodologia independente do visual
+Aplicar a seção 5.1 do Prompt Mestre e consultar [repertórios por componente](../biblioteca-arquiteturas/estilos/README.md). Este fluxo admite exposição por associações, comparação relacional, demonstração/procedimento, investigação e produção. Definir roteiro e espiral MACI antes das interações; personalizar circuitos. Integrar [monitoramento metodológico](../coleta/MONITORAMENTO_METODOLOGICO.md) ao relatório nas novas aulas. Não converter toda prática em pergunta investigativa.

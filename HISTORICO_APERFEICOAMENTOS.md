@@ -3,6 +3,12 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.23.0 — 29/10/2026 — Roteiros adaptativos e espiral MACI
+
+Pedido do professor: variar metodologias e circuitos por disciplina, com exposição por associações, relações, procedimentos e investigação conforme objetivo; conectar áreas em espiral e monitorar relatórios. Retirada a obrigação universal de investigar da ARN. Seção 5.1, plantas MACI/ARN, briefing, AGENTS e dois prompts reconciliados. Biblioteca com vinte repertórios iniciais próprios, sem afirmar templates implementados ou eficácia.
+
+Extensão opcional de monitoramento metodológico em coleta, com identificação de estilo/método/circuitos, espiral e devolutiva confirmada; texto e JSON preservados juntos. Sinais de aprendizagem calculados do histórico; percepção e resultado separados, ausência explícita e revisão docente. Sem alteração da nota, sem inferir tédio/diagnóstico/causa. Coletor legado compatível; novas aulas devem integrar e testar a extensão. Nenhuma aula publicada foi migrada nem o endpoint ativado nesta revisão. Verificação local documentada no commit; aplicação real pendente.
+
 ## 2.22.0 — 29/10/2026 — Banco pedagógico compartilhado
 
 Pedido: reunir planos enviados hoje e preparar cadastro de outros professores, currículos, guias e PEI. Banco documental em banco-pedagogico com catálogo JSON, originais intactos, textos de consulta, metadados e hashes. Cinco documentos distintos: História 192/211/221 (DOCX), Eletiva 192 (PDF) e Cultura Digital (DOCX); cópia idêntica da ementa deduplicada. Arquivos inspecionados quanto a texto/mídia incorporada; dados individuais de alunos não identificados neste lote.

@@ -1,10 +1,10 @@
-# ARN — percurso investigativo e retorno ao problema
+# ARN — percursos com sentido e retorno ao conceito
 
-ID: `arn`  
-Versão desta planta: 1.0.0 — 28/10/2026  
-Status: diretriz documentada no projeto; eficácia empírica não declarada.  
-Camada: transversal  
-Autoria pedagógica: Prof. André de Oliveira Rodrigues.  
+ID: `arn`
+Versão desta planta: 1.1.0 — 28/10/2026
+Status: diretriz documentada no projeto; eficácia empírica não declarada.
+Camada: transversal
+Autoria pedagógica: Prof. André de Oliveira Rodrigues.
 Fonte normativa: [Prompt mestre 2.9.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 5. Esta planta operacionaliza essas regras e não substitui a fonte.
 Dependências de leitura: [aee](aee.md), [maci](maci.md).
 
@@ -46,3 +46,6 @@ Narrativa não exige ficção nem transforma evidência histórica em enredo inv
 
 Fonte primária documental deste registro: seções 5 do prompt do projeto e histórico de 28/10/2026. Não converter a especificação autoral em comprovação científica. Fontes disciplinares e curriculares precisam ser consultadas para cada produção.
 
+
+## Modalidades além da investigação
+Conforme seção 5.1 do Prompt Mestre 2.23.0, o roteiro investigativo acima é condicional. Em aula expositiva/associativa: apresentar → explicar e associar → praticar → retornar → recuperar → transferir. Em aula procedimental: demonstrar e justificar → executar com apoio → reduzir apoio → aplicar e revisar. Não fabricar suspense ou pesquisa independente. Registrar a modalidade no briefing e no relatório.

@@ -12,7 +12,7 @@ Modelo reutilizável, a preencher com dados confirmados. Sem informações ident
 
 ## Âncora
 - Objetivo imediato:
-- Situação e pergunta geradora:
+- Situação, objetivo e pergunta geradora quando pertinente:
 - Conceitos e pré-requisitos:
 - Relação central e elementos associados:
 
@@ -20,7 +20,7 @@ Modelo reutilizável, a preencher com dados confirmados. Sem informações ident
 | Decisão | Como será aplicada | Onde aparecerá | Como conferir |
 | --- | --- | --- | --- |
 | AEE: conceito, mecanismo, circuito e limite | Preencher | Preencher | Preencher |
-| MACI e ARN: conexões, investigação e retornos | Preencher | Preencher | Preencher |
+| MACI e ARN: conexões, modalidade escolhida e retornos | Preencher | Preencher | Preencher |
 | SVS e Associações: representação e correspondências | Preencher | Preencher | Preencher |
 | EPC: revisão perceptível da compreensão | Preencher | Preencher | Preencher |
 | SSS/ASA: integração e controles opcionais | Preencher | Preencher | Preencher |
@@ -50,3 +50,14 @@ Modelo reutilizável, a preencher com dados confirmados. Sem informações ident
 - Próxima ação e atualização necessária:
 
 A existência desta ficha não prova implementação. Conferir o material produzido e preservar os requisitos do prompt, inclusive 26 percursos quando for aula digital, relatório, privacidade e publicação.
+
+## Roteiro adaptativo e espiral
+- Método principal/secundários, estilo/versão e fluxo visual:
+- Justificativa pelo objetivo, pré-requisitos e relatórios efetivamente consultados:
+- Sequência das ações e critérios dos circuitos personalizados:
+- Conceito retomado, evidência anterior disponível e nova representação:
+- Ponte interdisciplinar: áreas, objeto comum e relação explicada:
+- Aumento da exigência, redução de pistas e checagem em novo contexto:
+- Próxima retomada planejada (não aplicada):
+- Instrumento metodológico: respostas, confirmação, circuitos e ausências:
+- Integração ao texto/JSON/cópia/TXT/e-mail: implementada/testada/pendente:

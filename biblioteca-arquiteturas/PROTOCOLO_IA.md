@@ -1,5 +1,5 @@
 # Protocolo de consulta, composição e continuidade para IA
-Versão: 1.2.0 — 28/10/2026. Compatibilidade: Prompt Mestre 2.11.0.
+Versão: 1.3.0 — 29/10/2026. Compatibilidade: Prompt Mestre 2.23.0.
 
 ## Âncora — atuação esperada
 Atuar como executor e revisor orientado por uma base explícita. Não presumir vivência compartilhada, memória automática, leitura prévia ou compreensão apenas das siglas. A responsabilidade pedagógica permanece com o professor.
@@ -57,3 +57,6 @@ Consultar pesquisa/MEMORIA.md e os registros pertinentes para continuar a produ�
 
 ## Laboratório de simulações
 Consultar pesquisa/simulacoes/LABORATORIO.md e o contrato de novos modelos. O inventário registra novas arquiteturas sem convertê-las automaticamente em mecanismos; conferir domínios, fontes, módulos, testes e estados reais.
+
+## Roteiros adaptativos
+Consultar estilos/README.md e o repertório do componente. Escolher modalidade, fluxo visual e linguagem separadamente. Registrar espiral MACI e monitoramento conforme seção 5.1 do prompt. Investigação é condicional; exposição por associações, relações e procedimentos pode orientar a aula inteira.

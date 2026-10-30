@@ -111,3 +111,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Não substituir por fonte especial, decoração ou leitura do texto extenso. Cor nunca é o único sinal; não exigir escrita/diagnóstico e não infantilizar.
 - Registrar tentativas/pistas separadamente da nota; não liberar resultado/avaliação por concluir o apoio. Não afirmar alfabetização automática ou conversão integral da aula.
 - Cadastrar novas cenas e narrativas no módulo compartilhado e conferir navegador, falta de voz, celular, preservação das respostas e relatório.
+
+## Roteiros e monitoramento metodológico
+- Cumprir seção 5.1 do prompt e consultar biblioteca-arquiteturas/estilos/README.md e o repertório do componente. Investigação é uma modalidade, não uma exigência de toda aula. Separar metodologia e fluxo visual.
+- Registrar espiral MACI, ponte interdisciplinar justificada, circuito personalizado e motivo da variação; 26 percursos não significam 26 perguntas investigativas.
+- Novas aulas devem integrar e testar coleta/metodologia.mjs conforme coleta/MONITORAMENTO_METODOLOGICO.md. Legados continuam válidos; registrar migração efetiva. Não inferir tédio ou eficácia de erros/cliques; revisão docente e dados privados.

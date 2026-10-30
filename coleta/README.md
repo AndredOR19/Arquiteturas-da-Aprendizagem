@@ -80,3 +80,6 @@ Identificadores fornecidos pelo cliente são declarados, não prova da identidad
 
 ## Transporte n8n opcional
 O cliente também aceita transporte: 'n8n' com URL HTTPS explícita de webhook. Consultar [integração e estado](../automacoes/n8n/README.md). A configuração padrão Apps Script foi preservada. O workflow é uma ponte para este mesmo receptor e não substitui sua implantação, convites ou validações. Treze ensaios adicionais locais não equivalem a execução real no n8n.
+
+## Monitoramento metodológico opcional
+Consultar [protocolo e estado](MONITORAMENTO_METODOLOGICO.md). O módulo metodologia.mjs anexa texto e JSON, valida estilo/método/espiral/circuitos e devolutiva confirmada, com resumo descritivo por circuito. Legados sem extensão permanecem válidos. Novas aulas devem integrar e testar UI e todas as saídas; nenhuma página foi migrada nesta atualização. Testes: `node coleta/testes-metodologia.mjs`.

@@ -1,10 +1,10 @@
 # MACI — conexões, retomadas e complexificação
 
-ID: `maci`  
-Versão desta planta: 1.0.0 — 28/10/2026  
-Status: diretriz documentada no projeto; eficácia empírica não declarada.  
-Camada: transversal  
-Autoria pedagógica: Prof. André de Oliveira Rodrigues.  
+ID: `maci`
+Versão desta planta: 1.1.0 — 28/10/2026
+Status: diretriz documentada no projeto; eficácia empírica não declarada.
+Camada: transversal
+Autoria pedagógica: Prof. André de Oliveira Rodrigues.
 Fonte normativa: [Prompt mestre 2.9.0](../../PROMPT_MESTRE_AULAS_DIGITAIS.md), seções 5. Esta planta operacionaliza essas regras e não substitui a fonte.
 Dependências de leitura: [aee](aee.md).
 
@@ -43,3 +43,6 @@ Não classificar estudantes em estilos fixos de aprendizagem nem inventar aulas 
 
 Fonte primária documental deste registro: seções 5 do prompt do projeto e histórico de 28/10/2026. Não converter a especificação autoral em comprovação científica. Fontes disciplinares e curriculares precisam ser consultadas para cada produção.
 
+
+## Espiral e variação metodológica
+Aplicar seção 5.1 do Prompt Mestre 2.23.0. Retomar um conceito em nova representação, estabelecer ponte interdisciplinar justificada, aumentar exigência e verificar aplicação com menos pistas. Registrar evidência anterior disponível, novidade, relação entre áreas e próxima retomada. Mudar modalidade conforme objetivo e devolutivas; não exigir investigação em toda volta nem declarar progressão a partir de mudança visual.

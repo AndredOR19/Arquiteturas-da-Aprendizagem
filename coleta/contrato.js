@@ -75,6 +75,7 @@
     ['fonte_solicitada','tamanho','entrelinha','largura'].forEach(k=>{const v=pref&&pref[k];if(v!==undefined && v!==null && !['string','number','boolean'].includes(typeof v))falha('DADOS_INVALIDOS','Preferência inválida: '+k);if(typeof v==='string'&&v.length>200)falha('DADOS_INVALIDOS','Preferência maior que o limite: '+k);if(typeof v==='number'&&!Number.isFinite(v))falha('DADOS_INVALIDOS','Preferência numérica inválida.');});
     texto(p.relatorio_texto,'Relatório completo',700000);
     if (p.acompanhamento !== undefined) validarAcompanhamento(p.acompanhamento);
+    if (p.metodologia !== undefined) validarMetodologia(p.metodologia,p.aprendizagem);
     const raw = serializar(p);
     if (raw.length > 1000000) falha('RELATORIO_GRANDE','Relatório maior que o limite; preserve o arquivo integral e solicite orientação.');
     return {raw:raw, acertos:acertos, tentativas:tentativas};
@@ -97,12 +98,45 @@
     });
     return a;
   }
+  function validarMetodologia(m, aprendizagem) {
+    if (!m || m.versao !== '1.0.0') falha('DADOS_INVALIDOS','Metodologia: versão inválida.');
+    ['estilo_id','estilo_versao','metodo_principal','fluxo_visual','justificativa'].forEach(k=>texto(m[k],'Metodologia: '+k,2000));
+    if (!/^\d+\.\d+\.\d+$/.test(m.estilo_versao)) falha('DADOS_INVALIDOS','Versão do estilo inválida.');
+    if (!Array.isArray(m.metodos_secundarios) || m.metodos_secundarios.length>20) falha('DADOS_INVALIDOS','Métodos secundários inválidos.');
+    m.metodos_secundarios.forEach(v=>texto(v,'Método secundário',100));
+    const e=m.espiral;
+    if(!e) falha('DADOS_INVALIDOS','Espiral ausente.');
+    ['conceito','evidencia_anterior','novidade','ponte_interdisciplinar','criterio','proxima_retomada'].forEach(k=>texto(e[k],'Espiral: '+k,2000));
+    if (!Array.isArray(m.circuitos) || !m.circuitos.length || m.circuitos.length>1000) falha('DADOS_INVALIDOS','Circuitos inválidos.');
+    const ids=new Set(), vistos=new Set();
+    const conhecidos=new Set((aprendizagem && aprendizagem.percursos || []).map(p=>String(p.id)));
+    m.circuitos.forEach(c=>{
+      if(!c) falha('DADOS_INVALIDOS','Circuito ausente.');
+      ['id','metodo','operacao','criterio'].forEach(k=>texto(c[k],'Circuito: '+k,500));
+      if(ids.has(c.id)) falha('DADOS_INVALIDOS','Circuito repetido.');
+      ids.add(c.id);
+      if(!Array.isArray(c.percursos_ids)||!c.percursos_ids.length) falha('DADOS_INVALIDOS','Vínculo de percursos ausente.');
+      c.percursos_ids.forEach(id=>{
+        if(typeof id!=='string'||!conhecidos.has(id)||vistos.has(id)) falha('DADOS_INVALIDOS','Percurso inexistente ou duplicado entre circuitos.');
+        vistos.add(id);
+      });
+    });
+    if(vistos.size!==conhecidos.size) falha('DADOS_INVALIDOS','Mapeamento de circuitos incompleto.');
+    const op={interesse:['Manteve meu interesse','Em parte','Perdi o interesse','Não sei avaliar'],
+      repeticao:['Ajudou a consolidar','Repetiu mais do que precisei','Precisei de mais prática','Não sei avaliar'],
+      ritmo:['Adequado','Rápido demais','Lento demais','Variou entre partes','Não sei avaliar']};
+    Object.keys(op).forEach(k=>{if(!m.percepcao||!op[k].includes(m.percepcao[k]))falha('AVALIACAO_PENDENTE','Percepção metodológica ausente: '+k);});
+    if(m.confirmada!==true) falha('AVALIACAO_PENDENTE','Confirme a devolutiva metodológica.');
+    if(m.circuito_comentado!==null&&!ids.has(m.circuito_comentado))falha('DADOS_INVALIDOS','Circuito comentado inválido.');
+    texto(m.comentario,'Comentário metodológico',5000,true);
+    return m;
+  }
   function celula(v) {
     if (v === undefined || v === null) return '';
     if (typeof v === 'string' && /^[\s]*[=+\-@]/.test(v)) return "'"+v;
     return v;
   }
-  const api=Object.freeze({opcoes:opcoes,validar:validar,validarAvaliacao:validarAvaliacao,validarAcompanhamento:validarAcompanhamento,serializar:serializar,celula:celula,falha:falha});
+  const api=Object.freeze({opcoes:opcoes,validar:validar,validarAvaliacao:validarAvaliacao,validarAcompanhamento:validarAcompanhamento,validarMetodologia:validarMetodologia,serializar:serializar,celula:celula,falha:falha});
   root.ColetaContrato=api;
   if (typeof module !== 'undefined' && module.exports) module.exports=api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

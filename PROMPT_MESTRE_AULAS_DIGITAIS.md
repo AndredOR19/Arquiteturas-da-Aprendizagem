@@ -1,7 +1,7 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.22.0**  
-Atualização: **29/10/2026**  
-Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**  
+Versão vigente: **2.23.0**
+Atualização: **29/10/2026**
+Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
 ## 1. Missão e ordem de consulta
@@ -40,7 +40,7 @@ MHTML é uma captura de referência, que pode não conter a lógica interativa c
 
 A entrada deve exibir:
 - Escola, turma, componente e data.
-- Título e pergunta geradora.
+- Título e objetivo; pergunta geradora quando pertinente à modalidade.
 - Resumo de uma ou duas frases para registro administrativo.
 - Códigos e descrições breves das habilidades.
 - Botão “Copiar registro de aula”, com texto selecionável como alternativa.
@@ -83,11 +83,22 @@ Apresentar as justificativas e evidências que sustentam a interpretação antes
 
 **MACI:** ancorar no conhecimento anterior; articular áreas somente quando isso esclarece o objeto; retomar em espiral; distribuir recuperação; elevar gradualmente a complexidade. Não classificar estudantes em estilos fixos de aprendizagem.
 
-**ARN:** PLANTAR → TENSIONAR → INVESTIGAR → EXPLICAR → RETORNAR → RECUPERAR → TRANSFERIR. Apresentar uma pergunta com sentido; construir uma dificuldade interpretável; permitir investigação apoiada; explicitar a relação; retornar ao caso; recuperar sem consulta; aplicar em contexto novo. A exposição inicial não dispensa investigação, e a investigação não dispensa explicação.
+**ARN:** PLANTAR → TENSIONAR → INVESTIGAR → EXPLICAR → RETORNAR → RECUPERAR → TRANSFERIR. Apresentar uma pergunta com sentido; construir uma dificuldade interpretável; permitir investigação apoiada; explicitar a relação; retornar ao caso; recuperar sem consulta; aplicar em contexto novo. Esse é o roteiro da modalidade investigativa; nas demais, adaptar a ARN para apresentar, explicar/demonstrar, praticar, retornar, recuperar e transferir, sem fabricar um problema investigativo. Consulte a seção 5.1.
 
 **EPC:** encontro contextual → estranhamento → exploração/manipulação com pistas → reorganização visual → reconhecimento explícito → transferência. O estudante deve perceber o que passou a compreender. Pedir que indique a evidência e explique a ligação, em vez de apenas comemorar um clique correto.
 
 **SSS:** sons curtos opcionais para descoberta, conexão, confirmação, revisão e conclusão. Sempre com equivalente visual/textual. Começar com som desligado, oferecer mute imediato e evitar sons punitivos. Voz e efeitos não devem competir.
+
+### 5.1. Roteiros adaptativos, repertórios disciplinares e espiral MACI
+Decisão do Prof. André em 29/10/2026: nem toda aula precisa ser investigativa. Escolher a metodologia pelo objetivo, pré-requisitos, conteúdo, contexto e devolutivas disponíveis. Pode ser expositiva por associações, relacional/comparativa, demonstrativa/procedimental, investigativa, oficina de produção ou combinação explícita. “Metodológica” significa aqui ensinar e praticar um procedimento com critérios, sem presumir outra definição autoral.
+
+Consultar [biblioteca de estilos de aula](biblioteca-arquiteturas/estilos/README.md) e o repertório do componente antes de produzir. Estilo de aula é uma escolha de roteiro e linguagem, não um perfil fixo do estudante. Cada disciplina possui repertório inicial próprio, versionado e ampliável; preservar as operações características do componente e usar conexões interdisciplinares que esclareçam o conceito. Os dois fluxos visuais são escolhas de apresentação compatíveis com diferentes metodologias; o nome Missão interativa não obriga investigação.
+
+Registrar método principal/secundários, estilo e versão, fluxo visual, justificativa, sequência de ações, circuito personalizado e critérios. Variar o roteiro de fato, não só cores/títulos: explicar e associar; comparar relações; observar demonstração e praticar; examinar fontes; produzir e revisar. Manter AEE, acessibilidade, exposição suficiente, recuperação e transferência. Os 26 percursos vigentes são oportunidades variadas de prática e checagem, não 26 perguntas investigativas nem 26 telas idênticas. Uma demonstração não avaliativa não conta automaticamente como acerto; manter critério explícito para cada percurso avaliativo, preservando cálculo de nota e bloqueios.
+
+Espiral MACI: recuperar conceito anterior confirmado → retomá-lo em nova representação → estabelecer ponte justificada com outra área → aumentar a exigência da relação → aplicar com menos pistas → registrar evidência → planejar retorno. Não repetir o mesmo exercício com outra decoração; não afirmar que uma retomada planejada já foi aplicada. Registrar conceito, evidência anterior disponível, áreas/objeto da ponte, novidade, autonomia exigida, critério de checagem e próxima retomada. Nenhuma aula precisa reunir todas as disciplinas.
+
+Monitorar conforme [protocolo de metodologia](coleta/MONITORAMENTO_METODOLOGICO.md): vincular percepção declarada de repetição, interesse e ritmo aos circuitos, tentativas, pistas, recuperação e transferência, preservando contexto e ausências. Não inferir tédio, diagnóstico ou causalidade de erros, tempo ou abandono. Respostas sinceras e “não sei avaliar” são válidas e não afetam a nota. Ajustes são propostas para revisão docente; não alterar método durante a avaliação nem sobrescrever histórico. A extensão técnica é optativa para envelopes antigos; nas novas aulas produzidas sob esta diretriz, integrar e testar relatório textual/JSON, cópia, TXT e e-mail. Migração das aulas publicadas e coleta online ativa exigem verificação própria.
 
 ## 6. SVS e âncoras visuais
 Manter a seguinte tabela semântica estável na aula:
