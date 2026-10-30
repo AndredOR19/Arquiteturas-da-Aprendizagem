@@ -1,0 +1,3 @@
+# Áudios incluídos na aula de Espanhol
+Versão 2 — 30/10/2026. Frases didáticas fixas, sintetizadas localmente com eSpeak NG, voz es, ritmo reduzido; não são gravações humanas. MP3 mono 64 kbps. Sem serviço externo durante o uso e sem envio de dados ou gravação de microfone. Os arquivos são modelos básicos de pronúncia; a seleção de vozes espanholas do aparelho continua como alternativa.
+A lista inicial de vozes não é tratada como prova de reprodução. Controle de reprodução com eventos reais, interrupção e mensagens de falha. Conteúdo e progresso preservados; pedidos/reprodução/falhas são eventos técnicos, não prova de escuta ou aprendizagem.
