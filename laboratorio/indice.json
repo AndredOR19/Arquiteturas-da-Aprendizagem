@@ -658,15 +658,35 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "40980338755",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "3e4dd01173b9563828296c03385bf2e1f5e45796",
+      "pasta": "execucoes/40980338755-1-individuos",
+      "experimento": "be37351eab1b89071f7daf001aa015ef5cf45fca52b7e2701c2473549500216d",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [
+          "arn",
+          "maci"
+        ],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "0746ed39bfe0d33107ed78e98ef6682295ced57a18d2de3eab6b891bd9058b32",
+      "biblioteca-arquiteturas/catalogo.json": "b7eac359f45fa587117458cce5379dfbfee26677a171d89888b1b642c6b2471d",
       "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
       "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "d63bffa3bc64a37c9241080e9d1d5a87a9c4674f654d560f6e2b4f271999e2f2",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "58673c65b50dd79555ff0b9d3352a321829bd44357390426e89013ce791ffce9",
       "pesquisa/registros.json": "b4bee320cc3537192fd2db8a04e5b89427c0ee608199275ec6a3c55e6df757ab",
       "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
     },
@@ -694,10 +714,10 @@
         "id": "maci",
         "nome": "MACI — conexões, retomadas e complexificação",
         "dominio": "pedagogico",
-        "versao_documental": "1.0.0",
+        "versao_documental": "1.1.0",
         "estado_documental": "diretriz_documentada",
         "fontes_sha256": {
-          "biblioteca-arquiteturas/plantas/maci.md": "1145ebd065f4070feaf8a9dbc8326a39dcf45e7590858d2889ad9bb2f0a54e44"
+          "biblioteca-arquiteturas/plantas/maci.md": "bfbe09df86d39c411623af9ebd904f8b5d834830e759b274192f911621ad0bed"
         },
         "estado_modelagem": "aguardando_formalizacao",
         "modulos_mecanisticos": [],
@@ -707,16 +727,16 @@
         ],
         "calibracao_empirica": false,
         "validacao_empirica": false,
-        "revisao_sha256": "56787d6055f2ad459b7ca4e827a5cc375218f8b77eb84c81b0d43f9152f83f08"
+        "revisao_sha256": "6b9150c0c0bb6e8b16cbf5060af5c28f76a34b6c68a837f7b027b6d32878f925"
       },
       {
         "id": "arn",
-        "nome": "ARN — percurso investigativo e retorno ao problema",
+        "nome": "ARN — percursos com sentido e retorno ao conceito",
         "dominio": "pedagogico",
-        "versao_documental": "1.0.0",
+        "versao_documental": "1.1.0",
         "estado_documental": "diretriz_documentada",
         "fontes_sha256": {
-          "biblioteca-arquiteturas/plantas/arn.md": "57174ad43cffd3e5fff642613f142669133c8c98069fbe08c0c55be9cd5e1b66"
+          "biblioteca-arquiteturas/plantas/arn.md": "e5bd112551413a05343818758cd617a966c08bf0a1c968b6fe45534743ec3dbb"
         },
         "estado_modelagem": "aguardando_formalizacao",
         "modulos_mecanisticos": [],
@@ -726,7 +746,7 @@
         ],
         "calibracao_empirica": false,
         "validacao_empirica": false,
-        "revisao_sha256": "75ec575df66714823828c0512f95a65290c58ca7efae1aa8a6a9f8990fab6e11"
+        "revisao_sha256": "abc6d480dc645ccb2113755c39bdf047aa99331cc007af225ece34c4396f331b"
       },
       {
         "id": "svs",
