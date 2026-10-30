@@ -1,0 +1,668 @@
+{
+  "id": "30-10-2026-historia-1em",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "1º EM · turma a confirmar",
+  "componente": "História",
+  "data": "30/10/2026",
+  "titulo": "Quem trabalha e quem controla?",
+  "pergunta": "Como o trabalho escravizado sustentou riquezas e hierarquias na América portuguesa?",
+  "resumo": "Trabalho, escravidão, hierarquias e resistência na sociedade colonial, com leitura crítica de fontes.",
+  "habilidades": [
+    "EM13CHS404 — discutir aspectos do trabalho em contextos históricos (síntese)."
+  ],
+  "continuidade": "Recorte do plano História 211, semana 26–30/10. Conteúdo comum de referência para 1º EM; código da turma de aplicação não informado. Planejada; sequência aplicada anteriormente não confirmada.",
+  "fontes": [
+    [
+      "UFF · Impressões Rebeldes",
+      "Isabel Macedo — Rebelião de indígenas escravizados nos engenhos de açúcar, 2023",
+      "https://www.historia.uff.br/impressoesrebeldes/revolta/rebeliao-de-indigenas-escravizados-nos-engenhos-de-acucar/"
+    ],
+    [
+      "Arquivo Nacional",
+      "Penalidades aos Escravizados 1808–1821: contexto e resistência",
+      "https://historialuso.arquivonacional.gov.br/index.php/historia-luso-brasileira/assuntos/brasil/penalidades-aos-escravizados"
+    ],
+    [
+      "SEDUC-RS",
+      "Referencial Curricular Gaúcho Ensino Médio, 2022",
+      "https://educacao.rs.gov.br/upload/arquivos/202207/14142026-rcgem-jul-22.pdf"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · Riqueza produzida por pessoas",
+      "texto": "Uma caixa de açúcar parece apenas um produto. Para chegar ao comércio, porém, depende de terra, cultivo da cana, corte, transporte e transformação. Na América portuguesa, parte importante dessa produção foi sustentada por trabalho escravizado. Nosso recorte é a sociedade colonial, antes da independência de 1822, sobretudo os engenhos do Nordeste. Produzir riqueza não significava distribuí-la igualmente: havia pessoas que controlavam terras e recursos e outras submetidas ao trabalho e à coerção. A pergunta inicial exige relacionar produção e poder. Quem fazia cada atividade? Quem decidia o destino do produto? Quem podia se apropriar da renda? O esquema é didático; não representa todos os lugares e séculos da mesma maneira.",
+      "ancora": "D · trabalho e produção → R · controle desigual → E · riqueza e hierarquia → L · variações no tempo e no espaço.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · O que significa escravizar",
+      "texto": "Escravizar significa impor a pessoas uma condição de sujeição em que outros reivindicam propriedade e controle sobre elas. Não se trata apenas de um trabalho cansativo ou de um salário baixo. A perda forçada da liberdade, a violência e a possibilidade de compra e venda ajudam a distinguir essa relação. Chamamos essas pessoas de escravizadas para lembrar que a condição foi imposta historicamente: ninguém nasce destinado ao cativeiro. A palavra não apaga sua humanidade, conhecimentos ou capacidade de ação. Ao analisar uma situação, procure as condições concretas de controle. Uma pessoa podia escolher deixar o trabalho? Controlava seu tempo e seu deslocamento? Recebia o produto de seu esforço? Essas perguntas tornam visível a relação de dominação.",
+      "ancora": "Pessoa → imposição do cativeiro → controle sobre liberdade e trabalho. Condição imposta não define a identidade inteira.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Mecânica · A produção não ocorre sozinha",
+      "texto": "O engenho pode designar a unidade produtiva ligada ao açúcar e também sua instalação de processamento. O modelo do nosso mapa reúne canavial, moenda, área de preparo e transporte. A passagem por etapas conecta tarefas distintas. Se uma etapa depende da anterior, quem controla trabalhadores e recursos pode coordenar a produção e apropriar-se de resultados. Essa explicação econômica não torna a violência inevitável nem a justifica. Descreve uma organização histórica que precisa ser examinada junto das formas de coerção. Para estudar o circuito, mantenha duas linhas de observação: o caminho do produto e as relações entre pessoas. Desenhar somente máquinas e mercadorias esconderia os sujeitos que tornaram a produção possível.",
+      "ancora": "Cana → corte → processamento → transporte → comércio | Em cada etapa: quem faz e quem controla?",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · Indígenas e africanos",
+      "texto": "A colonização envolveu a escravização de indígenas e a de africanos, em processos que variaram segundo lugar e época. Não devemos tratar os povos indígenas como um único povo nem a África como um país. Havia sociedades, línguas, conhecimentos e interesses diversos. A transferência forçada de africanos pelo Atlântico participou da construção de redes comerciais e da violência colonial. Pessoas submetidas ao cativeiro também reconstruíram vínculos e práticas em condições adversas. Para nossa análise, interessa evitar uma narrativa que fale apenas da ação dos colonizadores. Quando procuramos as experiências de quem foi escravizado, percebemos escolhas limitadas pela violência, mas também iniciativas, estratégias e conflitos. Nenhum desses processos pode ser explicado por uma suposta inferioridade de povos.",
+      "ancora": "Diversidade de povos + coerção colonial → trajetórias diferentes | Não reduzir pessoas a mercadorias ou a um grupo homogêneo.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · Hierarquia não é apenas renda",
+      "texto": "Uma hierarquia organiza posições desiguais e atribui possibilidades diferentes de mando, reconhecimento e acesso a recursos. Na sociedade colonial, a condição jurídica de livre ou escravizado, a posse de bens e as relações de poder afetavam as experiências sociais. Não podemos resumir todos os habitantes a senhores e pessoas escravizadas: havia outros trabalhadores e condições de vida. Isso não diminui a centralidade do cativeiro; ajuda a estudar diferenças sem apagar a estrutura de dominação. Em um caso didático, compare duas pessoas que participam da mesma produção: uma controla terras e a venda; outra é impedida de deixar o trabalho. A diferença decisiva aparece no poder de decisão e na liberdade, além da distribuição dos resultados.",
+      "ancora": "Mesmo circuito produtivo ≠ mesma posição social | Compare liberdade, mando, recursos e apropriação.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Circuito · Resistência e liberdade",
+      "texto": "Dominação nunca significa ausência completa de ação dos dominados. Revoltas, fugas, formação de quilombos e outras estratégias expressaram enfrentamentos ao cativeiro. As formas de resistência dependiam das condições disponíveis e podiam envolver riscos muito grandes. Não apresentar uma revolta em toda página de um arquivo também não prova aceitação: registros são desiguais e muitas ações deixam poucos vestígios. Por outro lado, não devemos chamar qualquer gesto de resistência sem examinar seu contexto. Nossa pergunta deve ser: a ação confronta o controle, procura liberdade ou amplia possibilidades de vida? A resposta precisa de evidência. Reconhecer resistência não torna a violência menos grave; mostra que pessoas escravizadas também foram sujeitos da história.",
+      "ancora": "Coerção → conflitos e estratégias → busca de liberdade | Resistir não significa agir sem riscos nem obter vitória imediata.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Investigação · Um caso na Bahia",
+      "texto": "O projeto Impressões Rebeldes, da UFF, apresenta uma pesquisa sobre rebeliões de indígenas escravizados em engenhos da Bahia em 1568. O caso permite observar que a expansão dos engenhos encontrou oposição. Na aula, trabalhamos uma síntese da pesquisa, não um depoimento direto dos envolvidos. Pergunte quais sujeitos aparecem, que relação de trabalho estava em disputa e qual limite a documentação impõe. A informação de que houve oposição contradiz a ideia de passividade absoluta, mas não autoriza concluir que todos os povos agiram da mesma forma. Observe ainda as datas: uma ilustração produzida muito depois de um acontecimento não vira, por acompanhar um texto, um registro visual daquele momento.",
+      "ancora": "Bahia · 1568 → oposição ao cativeiro | Pesquisa posterior interpreta vestígios; imagem posterior não é fotografia do episódio.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · Como ler um registro",
+      "texto": "Imagine um registro fictício feito por um administrador que lamenta a saída de trabalhadores escravizados porque a produção foi interrompida. Ele informa algo sobre as preocupações de quem administra, mas não explica sozinho a experiência de quem saiu. Precisamos perguntar quem produziu o documento, para quem, com qual objetivo e em quais circunstâncias. Uma fonte não precisa ser neutra para ter valor: sua posição também pode ser analisada. O erro é confundir a voz registrada com todas as vozes do passado. Para avançar, confronte registros de naturezas diferentes e formule perguntas sobre os silêncios. O exemplo é inventado para praticar leitura de fontes; não deve ser citado como documento histórico real.",
+      "ancora": "Autoria + finalidade + contexto → informação e silêncios → confronto com outras fontes → interpretação limitada.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Aplicação · Compare sem igualar épocas",
+      "texto": "Podemos investigar relações de trabalho atuais usando perguntas semelhantes sobre liberdade, controle e direitos. Isso não transforma toda atividade atual na mesma relação colonial. Comparar exige critérios explícitos e diferenças reconhecidas. Um contrato de trabalho remunerado e uma situação de escravização não se distinguem apenas pelo valor pago; é preciso examinar coerção, possibilidades de saída e condições concretas. Nossa aula não faz diagnóstico jurídico de casos reais. Ela oferece um procedimento histórico: identificar a relação, situar o contexto e evitar analogias fáceis. Na oficina, explique como produção e poder se articulam no exemplo colonial. Depois indique o que precisaria ser investigado antes de comparar esse caso a outra época.",
+      "ancora": "Comparar: critério comum + diferenças de contexto | Não equiparar automaticamente relações históricas distintas.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Retomada · Uma explicação com evidência",
+      "texto": "Volte à caixa de açúcar. Agora a explicação pode incluir pessoas, etapas e relações de poder. O trabalho escravizado sustentava atividades produtivas, enquanto o controle da terra, dos recursos e da liberdade permitia apropriação desigual dos resultados. Essa organização encontrou conflitos e resistência. Uma boa síntese indica o contexto colonial, explica o vínculo entre trabalho e hierarquia e apresenta uma evidência, reconhecendo o que ela não mostra. Na oficina, você pode responder oralmente, apontar partes do esquema ou fazer um registro opcional. Os percursos treinam relações específicas, mas sua explicação ao professor amplia a avaliação. Não é necessário decorar uma frase: é preciso conseguir reconstruir o circuito e aplicá-lo à análise de outro exemplo.",
+      "ancora": "Trabalho → produção → apropriação desigual → hierarquias | Sujeitos também resistem. Explicar com contexto, evidência e limite.",
+      "fonte": 1
+    }
+  ],
+  "exploracao": [
+    [
+      "Trabalho",
+      "Quem produz?",
+      "Observe as tarefas e identifique as pessoas que realizam a produção."
+    ],
+    [
+      "Poder",
+      "Quem controla?",
+      "Examine quem controla terra, deslocamento, venda e resultados."
+    ],
+    [
+      "Resistência",
+      "Quem enfrenta?",
+      "Procure ações que confrontam o cativeiro e seus riscos."
+    ]
+  ],
+  "percursos": [
+    {
+      "titulo": "Situar o recorte",
+      "fase": "Compreender e associar",
+      "explicacao": "Estudamos engenhos na América portuguesa antes de 1822.",
+      "pergunta": "Qual contexto deve orientar a análise?",
+      "alternativas": [
+        "Sociedade colonial",
+        "Indústria automobilística atual",
+        "República brasileira após 1988"
+      ],
+      "correta": 0,
+      "justificativa": "Situar tempo e espaço evita misturar processos.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Retome lugar e período.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Produto e sujeitos",
+      "fase": "Compreender e associar",
+      "explicacao": "Uma caixa de açúcar dependeu de plantio, corte, processamento e transporte.",
+      "pergunta": "O que o produto sozinho pode esconder?",
+      "alternativas": [
+        "A existência de qualquer transformação",
+        "As pessoas e relações de trabalho",
+        "O nome de todos os compradores"
+      ],
+      "correta": 1,
+      "justificativa": "O produto precisa ser relacionado às atividades e aos sujeitos.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Pense em quem realizou as etapas.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Condição imposta",
+      "fase": "Compreender e associar",
+      "explicacao": "Uma pessoa é submetida ao cativeiro e impedida de deixar o trabalho.",
+      "pergunta": "Por que usamos escravizada?",
+      "alternativas": [
+        "Para indicar uma profissão livre",
+        "Para dizer que não tinha conhecimentos",
+        "Para marcar uma condição imposta"
+      ],
+      "correta": 2,
+      "justificativa": "A palavra enfatiza o processo de violência e sujeição.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Condição histórica não é destino natural.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Reconhecer coerção",
+      "fase": "Compreender e associar",
+      "explicacao": "No caso fictício, ameaças impedem a saída do trabalho.",
+      "pergunta": "Qual relação aparece?",
+      "alternativas": [
+        "Coerção sobre a liberdade",
+        "Acordo livre entre partes iguais",
+        "Escolha sem restrições"
+      ],
+      "correta": 0,
+      "justificativa": "A ameaça limita a possibilidade de decisão.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Pergunte se a saída era realmente possível.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Conectar etapas",
+      "fase": "Compreender e associar",
+      "explicacao": "O processamento depende da chegada da cana cortada.",
+      "pergunta": "Qual relação o esquema mostra?",
+      "alternativas": [
+        "Identidade entre todas as profissões",
+        "Dependência entre tarefas",
+        "Ausência de trabalho humano"
+      ],
+      "correta": 1,
+      "justificativa": "Etapas distintas se articulam na produção.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Uma atividade fornece condições para outra.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Controle do resultado",
+      "fase": "Compreender e associar",
+      "explicacao": "Uma pessoa controla terras e a venda; outras produzem sob cativeiro.",
+      "pergunta": "Qual diferença importa?",
+      "alternativas": [
+        "Somente a cor das ferramentas",
+        "Quantidade de palavras no registro",
+        "Poder de decisão e apropriação"
+      ],
+      "correta": 2,
+      "justificativa": "Produzir e controlar resultados não são a mesma posição.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Compare liberdade e mando.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Diversidade indígena",
+      "fase": "Compreender e associar",
+      "explicacao": "O texto aborda indígenas de sociedades diferentes.",
+      "pergunta": "Qual cuidado é necessário?",
+      "alternativas": [
+        "Evitar tratar todos como um único povo",
+        "Atribuir uma língua única a todos",
+        "Apagar diferenças entre trajetórias"
+      ],
+      "correta": 0,
+      "justificativa": "A diversidade precisa fazer parte da explicação.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Pluralidade não é detalhe decorativo.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "África e trajetórias",
+      "fase": "Compreender e associar",
+      "explicacao": "Pessoas foram trazidas à força de diferentes sociedades africanas.",
+      "pergunta": "Qual afirmação respeita essa diversidade?",
+      "alternativas": [
+        "A África era um único país",
+        "Havia povos e conhecimentos diversos",
+        "Todos viveram experiências idênticas"
+      ],
+      "correta": 1,
+      "justificativa": "Não há uma trajetória africana única.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Continente não equivale a país.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Hierarquia social",
+      "fase": "Analisar e comparar",
+      "explicacao": "Dois sujeitos participam da produção, mas só um pode decidir sobre a venda e o deslocamento do outro.",
+      "pergunta": "O que analisar?",
+      "alternativas": [
+        "A igualdade de posições",
+        "Só o caminho das mercadorias",
+        "A distribuição desigual do poder"
+      ],
+      "correta": 2,
+      "justificativa": "A hierarquia envolve mando e liberdade.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Mesma produção não significa mesma condição.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Economia e violência",
+      "fase": "Analisar e comparar",
+      "explicacao": "O controle do trabalho favorece a apropriação da produção.",
+      "pergunta": "Qual conclusão é adequada?",
+      "alternativas": [
+        "A relação econômica precisa ser analisada junto da coerção",
+        "O lucro torna a violência justificável",
+        "Toda organização produtiva exige cativeiro"
+      ],
+      "correta": 0,
+      "justificativa": "Explicar um mecanismo não o legitima.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Distingua explicação e justificativa moral.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Outros trabalhadores",
+      "fase": "Analisar e comparar",
+      "explicacao": "Nem todos os habitantes coloniais tinham a mesma condição.",
+      "pergunta": "Qual interpretação evita simplificação?",
+      "alternativas": [
+        "Todos eram senhores",
+        "Havia diferentes posições sem desaparecer a estrutura escravista",
+        "Todos tinham liberdade igual"
+      ],
+      "correta": 1,
+      "justificativa": "Diferenças internas e dominação podem coexistir.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "A sociedade não cabe em duas identidades únicas.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Ação e resistência",
+      "fase": "Analisar e comparar",
+      "explicacao": "Um grupo enfrenta o cativeiro por uma fuga organizada.",
+      "pergunta": "Qual relação está em jogo?",
+      "alternativas": [
+        "Aceitação automática do cativeiro",
+        "Ausência de riscos",
+        "Busca de liberdade contra o controle"
+      ],
+      "correta": 2,
+      "justificativa": "A ação confronta a imposição de permanência.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Observe o objetivo da ação.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Bahia em 1568",
+      "fase": "Analisar e comparar",
+      "explicacao": "A pesquisa da UFF apresenta rebeliões de indígenas escravizados em engenhos.",
+      "pergunta": "Que interpretação o caso sustenta?",
+      "alternativas": [
+        "Houve oposição ao cativeiro",
+        "Todos aceitaram passivamente",
+        "Todas as rebeliões tiveram o mesmo resultado"
+      ],
+      "correta": 0,
+      "justificativa": "O caso oferece evidência de conflito, sem universalizar trajetórias.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Uma evidência localizada tem alcance limitado.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Limite da generalização",
+      "fase": "Analisar e comparar",
+      "explicacao": "Um episódio ocorreu em engenhos baianos.",
+      "pergunta": "O que não podemos concluir só com ele?",
+      "alternativas": [
+        "Que houve conflito no episódio estudado",
+        "Que todos os povos agiram da mesma maneira",
+        "Que o cativeiro foi contestado nesse caso"
+      ],
+      "correta": 1,
+      "justificativa": "Um caso não descreve todas as experiências.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Não troque parte por totalidade.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Pesquisa e documento",
+      "fase": "Analisar e comparar",
+      "explicacao": "A página da UFF é uma pesquisa contemporânea sobre 1568.",
+      "pergunta": "Como apresentá-la?",
+      "alternativas": [
+        "Como fala gravada em 1568",
+        "Como fotografia colonial",
+        "Como síntese historiográfica posterior"
+      ],
+      "correta": 2,
+      "justificativa": "A pesquisa interpreta registros e não é o próprio acontecimento.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Diferencie acontecimento, vestígio e pesquisa.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Imagem e data",
+      "fase": "Analisar e comparar",
+      "explicacao": "Uma gravura de 1835 ilustra uma página sobre 1568.",
+      "pergunta": "Qual cuidado é correto?",
+      "alternativas": [
+        "Não tratá-la como registro visual direto do episódio de 1568",
+        "Afirmar que foi desenhada no episódio",
+        "Ignorar as datas por estar na mesma página"
+      ],
+      "correta": 0,
+      "justificativa": "A justaposição não elimina a distância temporal.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Compare data do evento e data da imagem.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Voz do administrador",
+      "fase": "Analisar e comparar",
+      "explicacao": "No registro fictício, um administrador lamenta a interrupção da produção.",
+      "pergunta": "O que sua voz ajuda a conhecer?",
+      "alternativas": [
+        "Toda a experiência de quem saiu",
+        "Preocupações de quem administra",
+        "A opinião de todos os habitantes"
+      ],
+      "correta": 1,
+      "justificativa": "A autoria define uma posição a examinar.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Quem fala não fala por todos.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Fontes e silêncios",
+      "fase": "Analisar e comparar",
+      "explicacao": "O registro fictício não traz a fala das pessoas escravizadas.",
+      "pergunta": "Qual procedimento é melhor?",
+      "alternativas": [
+        "Inventar depoimentos como se fossem reais",
+        "Concluir que ninguém tinha opinião",
+        "Buscar outras fontes e perguntar pelos silêncios"
+      ],
+      "correta": 2,
+      "justificativa": "Ausência de voz registrada não é ausência de experiência.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Lacuna pede investigação, não invenção.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Registro e aceitação",
+      "fase": "Analisar e comparar",
+      "explicacao": "Um arquivo não registra revolta em certo lugar.",
+      "pergunta": "Qual conclusão respeita o limite?",
+      "alternativas": [
+        "A ausência de registro não prova aceitação",
+        "Todos aceitavam o cativeiro",
+        "Nenhum conflito poderia ter ocorrido"
+      ],
+      "correta": 0,
+      "justificativa": "Os vestígios disponíveis são incompletos.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Falta de evidência não fornece uma narrativa completa.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Humanidade e agência",
+      "fase": "Analisar e comparar",
+      "explicacao": "Pessoas escravizadas eram submetidas à violência e também construíam estratégias.",
+      "pergunta": "Qual síntese é adequada?",
+      "alternativas": [
+        "Apagar a violência ao falar de resistência",
+        "Reconhecer violência e capacidade de ação",
+        "Reduzir pessoas a objetos sem história"
+      ],
+      "correta": 1,
+      "justificativa": "Dominação e ação histórica não se excluem.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Evite os dois extremos.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Recuperar o circuito",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Sem copiar a frase do texto, retome a produção açucareira.",
+      "pergunta": "Qual sequência explica a desigualdade?",
+      "alternativas": [
+        "Produto aparece sem sujeitos",
+        "Comércio elimina relações de poder",
+        "Trabalho e recursos controlados favorecem apropriação desigual"
+      ],
+      "correta": 2,
+      "justificativa": "A articulação entre trabalho e controle sustenta o circuito.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Ligue produção a quem decide.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Novo registro",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Um inventário fictício lista bens e pessoas como propriedade.",
+      "pergunta": "Qual pergunta ajuda a analisá-lo?",
+      "alternativas": [
+        "Quem produziu a lista e que relação de poder ela expressa?",
+        "Como confirmar que todas as pessoas concordaram?",
+        "Qual parte prova liberdade igual?"
+      ],
+      "correta": 0,
+      "justificativa": "O registro pode expressar a visão de quem reivindica propriedade.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Interrogue a finalidade e o vocabulário.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Comparar tempos",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Você compara trabalho colonial e remunerado atual.",
+      "pergunta": "O que deve permanecer explícito?",
+      "alternativas": [
+        "Que toda relação é idêntica",
+        "Critérios comuns e diferenças históricas",
+        "Que basta comparar salários"
+      ],
+      "correta": 1,
+      "justificativa": "Comparação exige critérios sem apagar os contextos.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Examine liberdade e coerção, além de pagamento.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Descrever sem legitimar",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "A turma explica que a coerção favorecia o controle da produção.",
+      "pergunta": "O que essa explicação não faz?",
+      "alternativas": [
+        "Relacionar poder e produção",
+        "Examinar uma organização histórica",
+        "Justificar a escravização"
+      ],
+      "correta": 2,
+      "justificativa": "Entender o funcionamento não significa aprovar.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Causa histórica e aprovação são coisas diferentes.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Aplicar com evidência",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Em outra fonte, um grupo busca escapar ao controle imposto.",
+      "pergunta": "Qual dado sustenta uma hipótese de resistência?",
+      "alternativas": [
+        "A ação dirigida a ampliar liberdade",
+        "A mera quantidade de linhas",
+        "A cor do papel"
+      ],
+      "correta": 0,
+      "justificativa": "O objetivo situado da ação sustenta a interpretação.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Procure relação entre ação e dominação.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Síntese final",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Você explicará a aula a um colega.",
+      "pergunta": "Qual síntese é mais completa?",
+      "alternativas": [
+        "Somente o nome de um produto",
+        "Contexto colonial, trabalho, poder, resistência e limite das fontes",
+        "Uma lista sem relações ou sujeitos"
+      ],
+      "correta": 1,
+      "justificativa": "A explicação conecta dados e relações com alcance definido.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Reconstrua o circuito e indique evidência.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    }
+  ],
+  "glossario": {
+    "Escravização": "Imposição histórica de cativeiro e controle sobre pessoas.",
+    "Engenho": "No contexto açucareiro, instalação de processamento ou unidade de produção mais ampla.",
+    "Hierarquia": "Organização de posições desiguais de poder, recursos e reconhecimento.",
+    "Coerção": "Imposição por força, ameaça ou constrangimento.",
+    "Resistência": "Ações historicamente situadas que enfrentam a dominação e buscam possibilidades de liberdade.",
+    "Fonte histórica": "Vestígio interrogado para conhecer aspectos do passado; exige contexto."
+  },
+  "dicionario": {
+    "Analisar": "Separar elementos e explicar como se relacionam.",
+    "Evidência": "Informação que sustenta uma interpretação.",
+    "Contexto": "Tempo, lugar e circunstâncias de uma situação.",
+    "Comparar": "Examinar semelhanças e diferenças segundo um critério.",
+    "Justificar": "Apresentar uma razão ligada à questão.",
+    "Hipótese": "Explicação a examinar; não é uma conclusão já demonstrada."
+  },
+  "workshop": [
+    [
+      "Produção",
+      "Um engenho depende de tarefas articuladas.",
+      "Identifique as etapas e explique quem controla o resultado.",
+      "engenho"
+    ],
+    [
+      "Dominação",
+      "Uma pessoa é impedida de deixar o trabalho.",
+      "A possibilidade de saída ajuda a examinar liberdade e coerção.",
+      "controle"
+    ],
+    [
+      "Fonte e resistência",
+      "Um registro fictício relata busca de liberdade.",
+      "Identifique autoria, objetivo e evidência; não invente as vozes ausentes.",
+      "resistencia"
+    ]
+  ]
+}

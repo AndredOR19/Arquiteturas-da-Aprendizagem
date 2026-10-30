@@ -1,0 +1,663 @@
+{
+  "id": "30-10-2026-cultura-digital-8ano",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "8º ano · turma a confirmar",
+  "componente": "Cultura Digital",
+  "data": "30/10/2026",
+  "titulo": "Antes de compartilhar",
+  "pergunta": "Como conferir uma mensagem sem espalhar boatos nem expor dados?",
+  "resumo": "Investigação de informações digitais, contexto e fontes; decisões seguras e éticas antes de compartilhar.",
+  "habilidades": [
+    "EF08CO11 — avaliar qualidade, adequação e vieses de fontes eletrônicas (síntese do complemento à BNCC)."
+  ],
+  "continuidade": "Adaptação para 8º ano solicitada pelo professor. Ementa recebida sem turma e com menção a Anos Iniciais; usada como referência temática, não como sequência específica do 8º. Aula planejada, sem sequência aplicada confirmada.",
+  "fontes": [
+    [
+      "NIC.br · CERT.br",
+      "Cartilha e orientações para identificar boatos na Internet",
+      "https://www.nic.br/noticia/na-midia/cartilha-orienta-como-identificar-boatos-na-internet/"
+    ],
+    [
+      "MEC",
+      "Computação complemento à BNCC: EF08CO11",
+      "https://www.gov.br/mecd/pt-br/escolas-conectadas/BNCCComputaoCompletodiagramado.pdf"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · Uma mensagem pede pressa",
+      "texto": "Imagine uma mensagem fictícia em um grupo: “A escola suspendeu as aulas amanhã! Compartilhe já!”. Ela não mostra data, autoria nem link para um comunicado. A urgência chama atenção, mas não confirma o conteúdo. Antes de repassar, precisamos separar a afirmação das provas oferecidas. O tema desta aula é a qualidade da informação e a responsabilidade na circulação. A mensagem é inventada: não anuncia mudança real na escola. Nosso objetivo é aprender um procedimento de verificação que também funcione em outras situações. Uma pessoa pode compartilhar algo incorreto por engano; isso não elimina os efeitos da circulação. Pausar permite procurar evidências, reconhecer dúvidas e evitar que a pressa vire o único critério de decisão.",
+      "ancora": "D · afirmação → R · fonte e contexto → E · decisão de compartilhar → L · urgência não é prova.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · Primeiro descubra quem publicou",
+      "texto": "Uma captura de tela pode circular separada de quem produziu a informação. A primeira tarefa é procurar sua origem: há autor, instituição, endereço e publicação original? Um nome conhecido no topo não garante autenticidade. No caso fictício, o caminho mais adequado é consultar o canal que a escola utiliza ou pedir confirmação à equipe responsável. Não estamos ensinando a clicar em qualquer link enviado: o endereço deve ser procurado por um caminho já conhecido e confiável. Se não encontrar a origem, registre a lacuna. “Não consegui confirmar” é diferente de “demonstrei que é falso”. Essa diferença ajuda a responder com precisão, sem inventar certeza para encerrar a dúvida.",
+      "ancora": "Captura → publicação original → autoria → confirmação por canal conhecido | Origem ausente é uma lacuna.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · Data e lugar mudam o sentido",
+      "texto": "Uma informação verdadeira pode ser reutilizada fora de contexto. Um comunicado antigo de suspensão de aulas, por exemplo, pode voltar a circular como se fosse de amanhã. Também pode se referir a outra escola ou cidade. Para verificar, confira quando foi publicado, a qual período se refere e onde o fato ocorreu. Não basta encontrar uma data em algum canto: ela precisa corresponder ao evento e à pergunta que estamos fazendo. Na oficina, você verá documentos didáticos com informações diferentes e poderá comparar o alcance de cada um. O exercício não acessa dados reais da escola. Ele treina a relação entre uma afirmação e os elementos que a sustentam, inclusive quando parte da mensagem está correta e outra parte induz a erro.",
+      "ancora": "Quem? Quando? Onde? Sobre qual evento? | Verdade fora de contexto pode levar a uma conclusão errada.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · Popularidade não verifica",
+      "texto": "Muitas curtidas, comentários ou compartilhamentos mostram circulação, não comprovam veracidade. Contas diferentes podem apenas repetir a mesma mensagem. Para comparar fontes, procure se elas apresentam apuração ou documentos próprios, ou se todas copiam uma origem não conferida. Cinco cópias de um boato não equivalem a cinco confirmações independentes. Isso não significa que toda notícia popular seja falsa. Significa que popularidade e qualidade da evidência são critérios diferentes. Um procedimento útil é formular a pergunta exata e procurar a publicação original ou uma confirmação pertinente. Se a mensagem afirma uma decisão escolar, uma opinião genérica sobre educação não responde à questão. A fonte precisa ser adequada ao tipo de afirmação que queremos avaliar.",
+      "ancora": "Circulação ≠ confirmação | Fontes independentes acrescentam evidências; cópias podem repetir o mesmo erro.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · Fato, opinião e hipótese",
+      "texto": "“O comunicado foi publicado na terça-feira” é uma afirmação verificável. “Prefiro receber avisos pelo aplicativo” expressa uma preferência. “Talvez o aviso tenha sido reenviado de outro ano” apresenta uma hipótese que exige exame. Essas formas podem aparecer juntas em uma conversa e não possuem a mesma função. Uma opinião pode ser discutida por razões, mas não substitui a prova de que um acontecimento ocorreu. Uma hipótese pode orientar a investigação, mas não deve ser divulgada como conclusão. Para organizar a análise, separe o que foi afirmado, que evidência aparece e qual dúvida permanece. Isso permite comunicar um resultado mais honesto e evitar que a forma confiante de uma frase faça parecer comprovado o que ainda precisa de verificação.",
+      "ancora": "Afirmação verificável → conferir evidência | Opinião → examinar razões | Hipótese → investigar antes de concluir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · Uma imagem também tem contexto",
+      "texto": "Uma fotografia pode mostrar um acontecimento real e ainda ser usada para sugerir algo que não mostra. Observe legenda, origem, data e relação com a mensagem. Não é necessário detectar toda edição técnica para reconhecer um problema de contexto. No exemplo didático, uma imagem de uma rua alagada não informa sozinha qual rua é, quando foi registrada ou se uma escola está fechada. A conclusão depende de outras informações. Recursos de inteligência artificial também podem produzir conteúdo convincente; aparência realista não substitui verificação. Em vez de propor um teste infalível baseado em detalhes visuais, procure a origem e a evidência pertinente. Reconhecer o limite de uma imagem é parte do letramento digital, não um sinal de incapacidade.",
+      "ancora": "Imagem + legenda + origem + data → interpretação | Realismo visual não prova o fato afirmado.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · Segurança durante a verificação",
+      "texto": "Uma mensagem pode usar promessa, urgência ou medo para pedir que você abra um endereço e forneça dados. Não insira senha, código de acesso ou informações pessoais em um formulário só porque o aviso parece importante. Procure a instituição por um caminho conhecido e peça apoio ao professor ou responsável quando necessário. A aula não pede senhas reais nem envia formulários externos. Os casos são simulações didáticas. O objetivo é observar que verificar não deve criar outra exposição: não precisamos testar um link suspeito com credenciais verdadeiras para decidir que falta confirmação. Se você já clicou em algo duvidoso, interrompa o fornecimento de dados e procure orientação apropriada, sem constrangimento. A decisão responsável também inclui pedir ajuda.",
+      "ancora": "Mensagem urgente + pedido de dados → pausa → canal conhecido → orientação | Nunca testar com senha real.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · Compartilhar também afeta pessoas",
+      "texto": "Uma mensagem pode conter nomes, imagens ou informações que exponham alguém. Mesmo quando parte do conteúdo é verdadeira, a circulação pode ser desnecessária ou prejudicial. Antes de compartilhar, pergunte qual é a finalidade, quem precisa receber e quais dados são realmente necessários. Um relato sobre um problema coletivo não exige publicar intimidades de colegas. Também não é adequado encaminhar uma acusação sem base para “deixar cada um decidir”. Quem compartilha amplia o alcance e pode transformar uma dúvida em dano. Se um erro já circulou, uma correção clara no mesmo espaço ajuda a interromper a reprodução. Corrigir não precisa humilhar a pessoa que enviou; pode apresentar a evidência, explicar o contexto e indicar o canal confiável.",
+      "ancora": "Verificar + considerar finalidade e exposição → decisão ética | Verdade não autoriza qualquer uso de dados.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Aplicação · Um roteiro de checagem",
+      "texto": "Na oficina, escolha entre três registros fictícios sobre o mesmo aviso. Observe autoria, data, contexto e evidência; depois decida o que cada registro permite afirmar. Você pode marcar uma hipótese de trabalho e explicar por que ela precisa de confirmação. Um roteiro útil é pausar, localizar a origem, conferir contexto, comparar evidências e decidir se a circulação é necessária e segura. A sequência pode exigir retorno: uma nova data pode mudar a pergunta, ou uma fonte pode remeter a outra. Ela não é um detector automático de verdade. É um modo de organizar uma investigação responsável. Se a informação continuar incerta, comunique a incerteza e não a apresente como notícia confirmada.",
+      "ancora": "Pausar → localizar origem → conferir contexto → comparar evidência → decidir → corrigir quando necessário.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Retomada · Investigar outro assunto",
+      "texto": "Volte ao aviso fictício da escola. Agora você pode explicar por que urgência, curtidas e aparência não bastam. A decisão depende de origem, data, contexto, evidência e cuidado com pessoas e dados. Para verificar transferência, use outro caso inventado: uma campanha de doação pede documentos pessoais por um link desconhecido. A pergunta muda, mas o procedimento continua útil. Não copie automaticamente a conclusão do caso anterior; examine o que foi afirmado e o que pode ser confirmado de modo seguro. Nos percursos, preserve sua primeira tentativa e use pistas quando precisar. Na conversa com o professor, apresente uma evidência e um limite. O objetivo é justificar decisões, e não apenas decorar a palavra “boato”.",
+      "ancora": "Novo caso → mesmas perguntas de investigação → conclusão proporcional à evidência | Incerteza pode exigir não compartilhar.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Origem",
+      "Quem publicou?",
+      "Captura sem endereço não confirma autoria."
+    ],
+    [
+      "Contexto",
+      "Quando e onde?",
+      "Aviso antigo de outra escola não confirma a situação atual."
+    ],
+    [
+      "Decisão",
+      "É seguro compartilhar?",
+      "Considere evidência, finalidade e dados pessoais."
+    ]
+  ],
+  "percursos": [
+    {
+      "titulo": "Reconhecer a afirmação",
+      "fase": "Compreender e associar",
+      "explicacao": "Mensagem fictícia: “A escola suspendeu as aulas amanhã! Compartilhe já!”.",
+      "pergunta": "O que precisa ser verificado?",
+      "alternativas": [
+        "Se houve esse comunicado para essa escola e data",
+        "Se a frase tem exclamação",
+        "Se o remetente escreve rápido"
+      ],
+      "correta": 0,
+      "justificativa": "A pergunta deve delimitar escola, decisão e data.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Separe o que foi afirmado da forma chamativa.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Urgência",
+      "fase": "Compreender e associar",
+      "explicacao": "A mensagem exige repasse imediato.",
+      "pergunta": "O pedido de pressa comprova o fato?",
+      "alternativas": [
+        "Sim, avisos urgentes são sempre verdadeiros",
+        "Não, é preciso buscar evidência",
+        "Sim, se vier em letras grandes"
+      ],
+      "correta": 1,
+      "justificativa": "Urgência não substitui confirmação.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "A forma da mensagem não prova a decisão.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Origem",
+      "fase": "Compreender e associar",
+      "explicacao": "A captura não mostra endereço da publicação.",
+      "pergunta": "Qual é a primeira lacuna?",
+      "alternativas": [
+        "Quantidade de emojis",
+        "Modelo do celular",
+        "Origem verificável"
+      ],
+      "correta": 2,
+      "justificativa": "Sem origem, não sabemos onde conferir o registro.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Procure autor e publicação original.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Canal adequado",
+      "fase": "Compreender e associar",
+      "explicacao": "O aviso trata da rotina escolar.",
+      "pergunta": "Onde buscar confirmação com menor exposição?",
+      "alternativas": [
+        "No canal conhecido da escola ou com a equipe responsável",
+        "Em qualquer link reenviado",
+        "Em comentários sem relação com a escola"
+      ],
+      "correta": 0,
+      "justificativa": "O canal deve ser pertinente ao fato afirmado.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Não teste credenciais em endereços desconhecidos.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Não confirmado",
+      "fase": "Compreender e associar",
+      "explicacao": "Você não encontrou o aviso em uma busca inicial.",
+      "pergunta": "Como comunicar o resultado?",
+      "alternativas": [
+        "Provei que jamais aconteceu",
+        "Ainda não consegui confirmar",
+        "Com certeza acontecerá"
+      ],
+      "correta": 1,
+      "justificativa": "Ausência de confirmação não autoriza certeza oposta.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Diferencie dúvida e demonstração de falsidade.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Data",
+      "fase": "Compreender e associar",
+      "explicacao": "O registro original se refere ao ano anterior.",
+      "pergunta": "Por que isso importa?",
+      "alternativas": [
+        "Datas nunca mudam a interpretação",
+        "Um aviso antigo vale sempre",
+        "Ele não confirma uma suspensão para amanhã"
+      ],
+      "correta": 2,
+      "justificativa": "O período de referência limita o alcance.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Compare a data do aviso com a pergunta atual.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Lugar",
+      "fase": "Compreender e associar",
+      "explicacao": "O aviso é de outra escola em outra cidade.",
+      "pergunta": "Qual conclusão é adequada?",
+      "alternativas": [
+        "Não confirma a rotina da nossa escola",
+        "Toda escola terá a mesma decisão",
+        "O nome da escola é detalhe irrelevante"
+      ],
+      "correta": 0,
+      "justificativa": "A abrangência geográfica e institucional importa.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Onde ocorreu não é uma informação dispensável.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Popularidade",
+      "fase": "Compreender e associar",
+      "explicacao": "Uma captura recebeu muitos compartilhamentos.",
+      "pergunta": "O que esse número mostra diretamente?",
+      "alternativas": [
+        "Veracidade comprovada",
+        "Circulação da mensagem",
+        "Autoria confirmada"
+      ],
+      "correta": 1,
+      "justificativa": "Compartilhamentos medem alcance, não prova do fato.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Separe popularidade e evidência.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Cópias",
+      "fase": "Analisar e comparar",
+      "explicacao": "Cinco contas repetem a mesma captura sem apuração própria.",
+      "pergunta": "São cinco confirmações independentes?",
+      "alternativas": [
+        "Sim, toda repetição vira prova",
+        "Sim, desde que as fotos de perfil sejam diferentes",
+        "Não, podem repetir uma única origem"
+      ],
+      "correta": 2,
+      "justificativa": "Repetição não acrescenta necessariamente evidência.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Pergunte se há informação própria.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Adequação da fonte",
+      "fase": "Analisar e comparar",
+      "explicacao": "A dúvida é se houve comunicado escolar específico.",
+      "pergunta": "Qual fonte responde melhor à pergunta?",
+      "alternativas": [
+        "O comunicado pertinente com autoria e data conferidas",
+        "Uma opinião genérica sobre educação",
+        "Uma propaganda de material escolar"
+      ],
+      "correta": 0,
+      "justificativa": "Relevância depende da correspondência com a afirmação.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "A fonte deve tratar da decisão em questão.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Fato e opinião",
+      "fase": "Analisar e comparar",
+      "explicacao": "“Prefiro avisos pelo aplicativo” aparece na conversa.",
+      "pergunta": "Qual função essa frase tem?",
+      "alternativas": [
+        "Comprovar suspensão das aulas",
+        "Expressar uma preferência",
+        "Identificar a data do comunicado"
+      ],
+      "correta": 1,
+      "justificativa": "Preferência é diferente de notícia sobre um evento.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "O que poderia ser verdadeiro ou falso sobre o evento?",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Hipótese",
+      "fase": "Analisar e comparar",
+      "explicacao": "Uma pessoa diz “talvez a imagem seja de outro ano”.",
+      "pergunta": "Como tratar a frase?",
+      "alternativas": [
+        "Como conclusão já comprovada",
+        "Como senha de acesso",
+        "Como hipótese a verificar"
+      ],
+      "correta": 2,
+      "justificativa": "Uma possibilidade pode orientar a busca sem encerrar a investigação.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Talvez não equivale a evidência.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Imagem",
+      "fase": "Analisar e comparar",
+      "explicacao": "Uma foto mostra uma rua alagada sem legenda.",
+      "pergunta": "O que ela não informa sozinha?",
+      "alternativas": [
+        "Data, lugar e situação da escola",
+        "Que existe uma imagem na mensagem",
+        "Que a imagem pode ser examinada"
+      ],
+      "correta": 0,
+      "justificativa": "A imagem isolada não sustenta todas as conclusões.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Não acrescente contexto ausente.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Legenda",
+      "fase": "Analisar e comparar",
+      "explicacao": "Uma foto antiga recebe legenda atual sem fonte.",
+      "pergunta": "Qual problema deve ser investigado?",
+      "alternativas": [
+        "Garantia de atualidade",
+        "Uso fora de contexto",
+        "Confirmação automática da legenda"
+      ],
+      "correta": 1,
+      "justificativa": "A legenda pode atribuir um contexto que a foto não demonstra.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Imagem e legenda são elementos a conferir.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Realismo",
+      "fase": "Analisar e comparar",
+      "explicacao": "Um conteúdo parece muito realista.",
+      "pergunta": "O que esse aspecto permite concluir?",
+      "alternativas": [
+        "Que tudo ocorreu exatamente assim",
+        "Que nenhum conteúdo pode ser artificial",
+        "Que a aparência precisa ser confrontada com origem e evidências"
+      ],
+      "correta": 2,
+      "justificativa": "Aparência convincente não garante autenticidade factual.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Evite testes visuais infalíveis.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Dados no formulário",
+      "fase": "Analisar e comparar",
+      "explicacao": "Um aviso urgente pede senha em um link desconhecido.",
+      "pergunta": "Qual ação é adequada?",
+      "alternativas": [
+        "Não fornecer a senha e procurar canal conhecido",
+        "Testar com a senha real para descobrir",
+        "Encaminhar o link a todos sem aviso"
+      ],
+      "correta": 0,
+      "justificativa": "A verificação não deve exigir exposição de credenciais.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Nunca use dados reais como experimento.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Pedir apoio",
+      "fase": "Analisar e comparar",
+      "explicacao": "Você não sabe avaliar um endereço.",
+      "pergunta": "Qual decisão pode ser responsável?",
+      "alternativas": [
+        "Fingir certeza para evitar pergunta",
+        "Pedir apoio ao professor ou responsável",
+        "Enviar documentos para testar"
+      ],
+      "correta": 1,
+      "justificativa": "Pedir ajuda é parte do procedimento seguro.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Não é necessário resolver sozinho toda incerteza.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Exposição",
+      "fase": "Analisar e comparar",
+      "explicacao": "Um relato inclui nome e dificuldade íntima de um colega.",
+      "pergunta": "Antes de repassar, o que examinar?",
+      "alternativas": [
+        "Se a fofoca é interessante",
+        "Se o nome tem poucas letras",
+        "Finalidade e necessidade desses dados"
+      ],
+      "correta": 2,
+      "justificativa": "Circulação pode causar dano mesmo com informação verdadeira.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Verdade e necessidade de exposição são critérios distintos.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Acusação",
+      "fase": "Analisar e comparar",
+      "explicacao": "Uma mensagem acusa alguém sem apresentar base.",
+      "pergunta": "Encaminhar “para cada um decidir” resolve o problema?",
+      "alternativas": [
+        "Não, amplia uma acusação sem evidência",
+        "Sim, elimina toda responsabilidade",
+        "Sim, se apagar a autoria"
+      ],
+      "correta": 0,
+      "justificativa": "O repasse aumenta alcance e efeitos.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Compartilhar também é uma ação.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Corrigir",
+      "fase": "Analisar e comparar",
+      "explicacao": "Você compartilhou um aviso e depois confirmou que era antigo.",
+      "pergunta": "Qual ação ajuda?",
+      "alternativas": [
+        "Apagar só a própria dúvida",
+        "Corrigir no mesmo espaço com contexto e evidência",
+        "Insultar quem enviou primeiro"
+      ],
+      "correta": 1,
+      "justificativa": "A correção precisa alcançar quem recebeu o erro.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Corrija o conteúdo sem humilhar pessoas.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Recuperar o roteiro",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Você precisa analisar outra mensagem.",
+      "pergunta": "Qual sequência organiza a checagem?",
+      "alternativas": [
+        "Compartilhar antes de ler",
+        "Decidir apenas por curtidas",
+        "Pausar, buscar origem, conferir contexto, comparar e decidir"
+      ],
+      "correta": 2,
+      "justificativa": "O roteiro organiza a investigação sem prometer certeza automática.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Conecte pergunta e evidência.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Novo contexto",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Uma campanha fictícia de doação pede documentos por link desconhecido.",
+      "pergunta": "O que transferir do primeiro caso?",
+      "alternativas": [
+        "O procedimento de verificação e cuidado com dados",
+        "A conclusão automática de que toda campanha é falsa",
+        "A obrigação de enviar documentos"
+      ],
+      "correta": 0,
+      "justificativa": "O procedimento permanece; a conclusão depende do novo caso.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Não copie a resposta sem examinar a situação.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Viés",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Uma postagem mostra somente informações favoráveis a uma proposta.",
+      "pergunta": "Qual pergunta ajuda a avaliar abrangência?",
+      "alternativas": [
+        "Como ignorar todas as informações?",
+        "O que foi omitido e que outras evidências são pertinentes?",
+        "Qual cor prova neutralidade?"
+      ],
+      "correta": 1,
+      "justificativa": "Perspectiva e seleção precisam ser examinadas.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Uma parte pode não representar o conjunto.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Evidência que muda",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Você encontra um comunicado novo, autêntico e pertinente.",
+      "pergunta": "Como proceder?",
+      "alternativas": [
+        "Manter a primeira resposta a qualquer custo",
+        "Dizer que toda fonte tem o mesmo valor",
+        "Reavaliar a conclusão com a nova evidência"
+      ],
+      "correta": 2,
+      "justificativa": "Investigar inclui revisar conclusões.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Mudança sustentada por dado é parte da análise.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Informação incerta",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "A origem continua desconhecida e não há confirmação.",
+      "pergunta": "Qual decisão evita apresentar dúvida como notícia?",
+      "alternativas": [
+        "Não compartilhar como fato confirmado",
+        "Inventar a data que falta",
+        "Usar a quantidade de mensagens como prova"
+      ],
+      "correta": 0,
+      "justificativa": "O limite da informação deve orientar a circulação.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Incerteza precisa permanecer explícita.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    },
+    {
+      "titulo": "Síntese digital",
+      "fase": "Recuperar e aplicar",
+      "explicacao": "Você explica a um colega por que decidiu não repassar.",
+      "pergunta": "Qual justificativa é mais consistente?",
+      "alternativas": [
+        "Não gostei da cor da mensagem",
+        "Faltam origem e contexto; o link pede dados sem confirmação",
+        "Não sei, mas afirmo que é falso"
+      ],
+      "correta": 1,
+      "justificativa": "A decisão se apoia em elementos verificáveis e limites claros.",
+      "pistas": [
+        "Retome o contexto e localize quem age, qual informação aparece e o que está sendo pedido.",
+        "Mostre a relação entre dados e decisão.",
+        "Compare a explicação de cada alternativa com os dados do caso; elimine a que acrescenta uma conclusão sem evidência."
+      ],
+      "ponto": "Concluir antes de conferir o contexto e a evidência.",
+      "acao": "Indique o dado, explique a relação e reconheça o limite da conclusão."
+    }
+  ],
+  "glossario": {
+    "Fonte": "Origem da informação e registros usados para sustentá-la.",
+    "Boato": "Informação que circula sem confirmação suficiente, podendo causar engano.",
+    "Verificação": "Exame de origem, contexto e evidências de uma afirmação.",
+    "Viés": "Seleção ou perspectiva que pode influenciar o que é mostrado e omitido.",
+    "Dado pessoal": "Informação relacionada a uma pessoa identificada ou identificável.",
+    "Fonte independente": "Fonte que acrescenta apuração ou evidência própria em vez de apenas copiar outra."
+  },
+  "dicionario": {
+    "Analisar": "Separar elementos e explicar como se relacionam.",
+    "Evidência": "Informação que sustenta uma interpretação.",
+    "Contexto": "Tempo, lugar e circunstâncias de uma situação.",
+    "Comparar": "Examinar semelhanças e diferenças segundo um critério.",
+    "Justificar": "Apresentar uma razão ligada à questão.",
+    "Hipótese": "Explicação a examinar; não é uma conclusão já demonstrada."
+  },
+  "workshop": [
+    [
+      "Captura sem origem",
+      "“Amanhã não haverá aula! Compartilhe já!” Sem autoria nem data.",
+      "Falta confirmação; procure um canal conhecido da escola sem abrir links suspeitos.",
+      "mensagem"
+    ],
+    [
+      "Aviso antigo",
+      "Comunicado fictício de outra escola, publicado no ano anterior.",
+      "Mesmo que autêntico, não confirma o caso atual. Data e lugar limitam o alcance.",
+      "contexto"
+    ],
+    [
+      "Pedido suspeito",
+      "“Confirme o aviso inserindo sua senha neste formulário desconhecido”.",
+      "Não forneça credenciais; peça apoio e use um canal conhecido.",
+      "protecao"
+    ]
+  ]
+}
