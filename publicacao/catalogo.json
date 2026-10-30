@@ -90,6 +90,33 @@
       "versao": "1.1.0",
       "estilo_visual": "codigo-de-referencia-neobrutalista-fredoka",
       "atualizado_em": "2026-10-29"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/30-10-2026-historia-1em",
+      "destino": "aulas/30-10-2026-historia-1em",
+      "titulo": "História 1º EM — Quem trabalha e quem controla?",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-30",
+      "fluxo_visual": "missao-interativa"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/30-10-2026-historia-2em",
+      "destino": "aulas/30-10-2026-historia-2em",
+      "titulo": "História 2º EM — Democracia além da escolha",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-30",
+      "fluxo_visual": "missao-interativa"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/30-10-2026-cultura-digital-8ano",
+      "destino": "aulas/30-10-2026-cultura-digital-8ano",
+      "titulo": "Cultura Digital 8º ano — Antes de compartilhar",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-30",
+      "fluxo_visual": "missao-interativa"
     }
   ]
 }
