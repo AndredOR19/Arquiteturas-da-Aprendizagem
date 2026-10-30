@@ -1,0 +1,670 @@
+{
+  "id": "30-10-2026-ensino-religioso-6ano",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "6º ano · turma a confirmar",
+  "componente": "Ensino Religioso",
+  "data": "30/10/2026",
+  "titulo": "Memórias, histórias e respeito",
+  "pergunta": "Observe como falas e textos preservam ensinamentos e modos de viver.",
+  "resumo": "Memórias e ensinamentos em tradições orais e escritas; diversidade religiosa e respeito às pessoas com ou sem religião.",
+  "habilidades": [
+    "EF06ER01 — tradição escrita e preservação de memórias e ensinamentos religiosos, em síntese.",
+    "EF06ER02 — reconhecer e valorizar a diversidade de textos religiosos escritos, em síntese."
+  ],
+  "continuidade": "Aula adicional solicitada para o 6º ano. Plano específico desta turma não fornecido; proposta introdutória, sem presumir aplicação anterior. Data prevista 30/10/2026; situação planejada.",
+  "fontes": [
+    [
+      "SEDUC-RS",
+      "Referencial Curricular Gaúcho: Ensino Religioso, 6º ano",
+      "https://educacao.rs.gov.br/upload/arquivos/202102/17175700-rcg-ef-completo.pdf"
+    ],
+    [
+      "SEDUC-RS",
+      "Quadro curricular: EF06ER01 e EF06ER02",
+      "https://portal.educacao.rs.gov.br/Portals/1/Files/1528.pdf"
+    ],
+    [
+      "Museu Nacional dos Povos Indígenas",
+      "Acervo e registros sobre tradição oral",
+      "https://pesquisa.museudoindio.gov.br/index.php/tradicao-oral?listLimit=100&sf_culture=pt&sort=lastUpdated&sortDir=asc"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "1 · Aprender sobre diferentes modos de viver",
+      "texto": "Na aula de Ensino Religioso, estudamos crenças, tradições e filosofias de vida com respeito. Não é necessário seguir uma religião para aprender sobre ela. Também não precisamos dizer em qual religião acreditamos ou participar de uma prática de fé. Hoje vamos observar como pessoas preservam memórias e ensinamentos por falas, histórias e textos. Os exemplos da aula ajudam a reconhecer formas de transmitir conhecimentos. Uma tradição não representa automaticamente todas as pessoas de uma comunidade. O ponto de partida é compreender diferenças sem transformar a atividade em competição entre crenças.",
+      "ancora": "ESTUDAR → CONHECER → RESPEITAR | Conhecer não exige aderir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "2 · Memória é algo que compartilhamos",
+      "texto": "Uma pessoa pode guardar a lembrança de uma experiência e contá-la a alguém. Uma comunidade também pode conservar acontecimentos e ensinamentos importantes. Na nossa cena didática, uma pessoa conta uma história e outra escuta. A história não vira menos importante por ter sido ouvida em vez de lida. Compare os papéis: alguém transmite e alguém recebe, podendo depois transmitir novamente. O desenho não mostra uma cerimônia real nem uma comunidade específica. Ele ajuda a observar uma relação de memória e compartilhamento. Para conhecer uma tradição concreta, precisamos identificar a comunidade e o contexto.",
+      "ancora": "QUEM CONTA → HISTÓRIA OU ENSINAMENTO → QUEM ESCUTA.",
+      "fonte": 0
+    },
+    {
+      "titulo": "3 · A tradição oral",
+      "texto": "Chamamos de tradição oral a transmissão de conhecimentos por falas e outras expressões orais, ao longo do tempo. Ela pode envolver narrativas, cantos e modos de ensinar em diferentes comunidades. Tradição oral não é sinônimo de falta de conhecimento. Também não significa que as comunidades que a valorizam não usem escrita ou tecnologia. O acervo do Museu Nacional dos Povos Indígenas reúne registros que permitem estudar essa diversidade. Nesta aula, não vamos imitar cantos, rituais ou falas sagradas. Vamos reconhecer a função de transmitir memórias e a necessidade de conhecer quem preserva e compartilha cada ensinamento.",
+      "ancora": "FALA E ESCUTA → TRANSMISSÃO DE MEMÓRIAS | Oralidade e escrita podem coexistir.",
+      "fonte": 2
+    },
+    {
+      "titulo": "4 · A tradição escrita",
+      "texto": "A escrita permite registrar narrativas, acontecimentos e ensinamentos em suportes diferentes. Um texto pode ser relido e utilizado por pessoas de gerações distintas. Isso não significa que todo texto tenha a mesma função ou que a escrita elimine a interpretação. Observe o livro e as linhas no cartão: representam um registro, não a reprodução de uma escritura específica. Para conhecer um texto, precisamos saber seu título, sua tradição e como é utilizado por pessoas daquela comunidade. A atividade pede associação entre registro escrito e preservação de memória. Não pede que você aceite como sua uma crença apresentada.",
+      "ancora": "ENSINAMENTO → REGISTRO ESCRITO → LEITURA E TRANSMISSÃO.",
+      "fonte": 0
+    },
+    {
+      "titulo": "5 · Existem textos religiosos diversos",
+      "texto": "Diferentes tradições reconhecem textos com importância religiosa. A Torá tem lugar central no judaísmo; a Bíblia é uma referência do cristianismo; o Alcorão é um texto sagrado do islamismo. Esses três exemplos não formam uma lista completa de religiões ou de escritos. Também não significam que todas as comunidades de uma mesma tradição leiam e interpretem do mesmo modo. Observe os nomes próximos aos exemplos, sem escolher qual seria superior. A diversidade de textos é um objeto de conhecimento. Reconhecer a associação entre nome e tradição não exige repetir uma oração nem realizar uma prática religiosa.",
+      "ancora": "Torá → judaísmo | Bíblia → cristianismo | Alcorão → islamismo | Exemplos, não lista completa.",
+      "fonte": 1
+    },
+    {
+      "titulo": "6 · Oral e escrito podem caminhar juntos",
+      "texto": "Uma comunidade pode ler um texto e conversar sobre seu significado. Também pode registrar por escrito uma narrativa antes transmitida oralmente. Por isso, oralidade e escrita não são caixas que separam povos em melhores e piores. São formas de preservar e compartilhar conhecimentos, que podem se combinar. Na cena didática, o livro aparece ao lado de pessoas conversando: o registro não elimina a fala. Compare as funções de ler, escutar e transmitir. Nem todas as comunidades utilizam os mesmos suportes, e nenhuma forma autoriza concluir que outra comunidade não possui memória ou ensinamentos.",
+      "ancora": "LIVRO + CONVERSA → formas que podem se combinar | Diferença não estabelece superioridade.",
+      "fonte": 0
+    },
+    {
+      "titulo": "7 · Reconhecer um ensinamento",
+      "texto": "Um ensinamento pode orientar um modo de agir, conviver ou compreender a vida. Nossa frase didática “Escute antes de responder” é uma orientação de convivência criada para a aula; não é apresentada como citação de uma escritura ou como regra de todas as religiões. Ela ajuda a associar uma frase a uma ação concreta: dar espaço à outra pessoa. Para estudar um ensinamento de uma tradição real, precisaríamos identificar sua fonte e seu contexto. Uma frase parecida em dois lugares não torna todas as crenças iguais. Podemos reconhecer aproximações e preservar as diferenças.",
+      "ancora": "ORIENTAÇÃO → AÇÃO DE CONVIVÊNCIA | Frase criada para a aula não é escritura sagrada.",
+      "fonte": 0
+    },
+    {
+      "titulo": "8 · Pessoas com ou sem religião",
+      "texto": "Na mesma turma pode haver pessoas de religiões diferentes e pessoas sem religião. Ninguém precisa revelar sua crença para responder às atividades. Respeitar não significa concordar com todas as ideias; significa não humilhar, excluir ou pressionar pessoas por suas convicções. Nos cartões, podemos praticar atitudes como escutar, perguntar com cuidado e evitar apelidos ofensivos. Também podemos dizer que não queremos falar de uma experiência pessoal. A aula trabalha conhecimentos e convivência, sem avaliar a fé. Nas associações, procure a relação entre uma atitude e seu efeito sobre a participação das pessoas.",
+      "ancora": "DIFERENÇAS → RESPEITO E LIBERDADE | Não exigir relato pessoal ou adesão religiosa.",
+      "fonte": 0
+    },
+    {
+      "titulo": "9 · Comparar sem misturar tudo",
+      "texto": "Compare uma pessoa contando uma história e uma pessoa lendo um registro. Em ambos os casos há transmissão de algo que pode ser lembrado e compartilhado. A forma de transmissão pode ser diferente. Agora compare os nomes de textos e tradições: reconhecer que são referências religiosas não significa trocar seus nomes como se fossem o mesmo livro. O objetivo é organizar as associações sem apagar particularidades. A imagem é um apoio; o texto ao lado identifica o que representa. Se o desenho parecer ambíguo, retome a legenda com o professor. Nenhuma cor ou formato identifica sozinho toda uma tradição.",
+      "ancora": "SEMELHANÇA: transmitir | DIFERENÇA: forma e contexto | Respeitar nomes e particularidades.",
+      "fonte": 0
+    },
+    {
+      "titulo": "10 · Retomar e aplicar na convivência",
+      "texto": "Você já pode reconhecer memória, oralidade, escrita e respeito. Nos 26 passos, essas relações reaparecem em situações diferentes. Algumas atividades pedem nomear uma forma de transmissão; outras pedem escolher uma atitude que permita conviver sem pressionar pessoas. Não precisamos memorizar a história de todas as tradições em uma aula. O professor pode retomar os cartões e ouvir sua associação, com resposta por fala, toque ou apontamento. No encerramento, monte uma pequena sequência: alguém transmite um ensinamento, outra pessoa recebe e ambas podem preservá-lo com respeito às diferenças. A avaliação trata do que você reconhece e utiliza, não de sua crença.",
+      "ancora": "MEMÓRIA → TRANSMISSÃO → RECONHECIMENTO → CONVIVÊNCIA RESPEITOSA.",
+      "fonte": 0
+    }
+  ],
+  "percursos": [
+    {
+      "titulo": "Conhecer",
+      "fase": "Observar e associar",
+      "explicacao": "A aula apresenta tradições diferentes.",
+      "pergunta": "Associe o estudo à atitude adequada.",
+      "alternativas": [
+        "Conhecer sem exigir adesão",
+        "Obrigar todos a seguir uma religião",
+        "Escolher qual crença merece humilhação"
+      ],
+      "correta": 0,
+      "justificativa": "Conhecer uma tradição não exige segui-la.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome a diferença entre aprender e aderir.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Guardar lembranças",
+      "fase": "Observar e associar",
+      "explicacao": "Uma comunidade conserva acontecimentos e ensinamentos.",
+      "pergunta": "Associe à palavra do cartão.",
+      "alternativas": [
+        "Competição",
+        "Memória",
+        "Previsão do tempo"
+      ],
+      "correta": 1,
+      "justificativa": "Memória envolve o que pode ser lembrado e transmitido.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe a função de preservar.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Quem conta",
+      "fase": "Observar e associar",
+      "explicacao": "Uma pessoa compartilha uma narrativa pela fala.",
+      "pergunta": "Associe à forma de transmissão.",
+      "alternativas": [
+        "Registro apenas escrito",
+        "Ausência de conhecimento",
+        "Tradição oral"
+      ],
+      "correta": 2,
+      "justificativa": "A fala pode transmitir memórias e ensinamentos.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe a voz e a escuta.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Quem escuta",
+      "fase": "Observar e associar",
+      "explicacao": "Uma pessoa ouve uma história e depois a conta.",
+      "pergunta": "Associe à ação representada.",
+      "alternativas": [
+        "Receber e transmitir memória",
+        "Eliminar toda lembrança",
+        "Trocar toda tradição por outra"
+      ],
+      "correta": 0,
+      "justificativa": "A memória pode ser compartilhada entre pessoas.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome a sequência contar e escutar.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Texto registrado",
+      "fase": "Observar e associar",
+      "explicacao": "Um ensinamento foi registrado para poder ser relido.",
+      "pergunta": "Associe ao suporte descrito.",
+      "alternativas": [
+        "Somente gesto sem registro",
+        "Escrita",
+        "Crença obrigatória de toda a turma"
+      ],
+      "correta": 1,
+      "justificativa": "O registro escrito permite reler o ensinamento.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe as linhas do registro.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Livro da cena",
+      "fase": "Observar e associar",
+      "explicacao": "O desenho mostra um livro sem reproduzir escritura real.",
+      "pergunta": "Escolha o que ele representa nesta aula.",
+      "alternativas": [
+        "Todas as religiões em um único texto",
+        "Prova de que só a escrita tem valor",
+        "Registro escrito"
+      ],
+      "correta": 2,
+      "justificativa": "O livro é um esquema de registro.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "A legenda define o alcance da imagem.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Sem hierarquia",
+      "fase": "Observar e associar",
+      "explicacao": "Duas comunidades usam formas diferentes de preservar conhecimentos.",
+      "pergunta": "Associe a comparação ao cuidado adequado.",
+      "alternativas": [
+        "Reconhecer diferenças sem declarar superioridade",
+        "Dizer que uma não tem memória",
+        "Transformar diferença em ofensa"
+      ],
+      "correta": 0,
+      "justificativa": "Formas diferentes não estabelecem superioridade entre pessoas.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Compare funções sem classificar o valor das comunidades.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Oral e escrito",
+      "fase": "Observar e associar",
+      "explicacao": "Uma pessoa lê um texto e conversa sobre ele.",
+      "pergunta": "Associe à relação mostrada.",
+      "alternativas": [
+        "A escrita impede toda conversa",
+        "Escrita e fala podem se combinar",
+        "A fala exige apagar os livros"
+      ],
+      "correta": 1,
+      "justificativa": "As formas podem participar da mesma transmissão.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe o livro junto das pessoas.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Nome e tradição",
+      "fase": "Observar e associar",
+      "explicacao": "Um cartão apresenta a Torá.",
+      "pergunta": "Associe à tradição do exemplo.",
+      "alternativas": [
+        "Islamismo",
+        "Cristianismo",
+        "Judaísmo"
+      ],
+      "correta": 2,
+      "justificativa": "A Torá tem lugar central no judaísmo.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome o quadro de nomes e tradições.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Outro texto",
+      "fase": "Observar e associar",
+      "explicacao": "Um cartão apresenta a Bíblia.",
+      "pergunta": "Associe à tradição do exemplo.",
+      "alternativas": [
+        "Cristianismo",
+        "Judaísmo",
+        "Islamismo"
+      ],
+      "correta": 0,
+      "justificativa": "A Bíblia é uma referência do cristianismo.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe o nome do cartão.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Mais um texto",
+      "fase": "Repetir com apoio",
+      "explicacao": "Um cartão apresenta o Alcorão.",
+      "pergunta": "Associe à tradição do exemplo.",
+      "alternativas": [
+        "Cristianismo",
+        "Islamismo",
+        "Judaísmo"
+      ],
+      "correta": 1,
+      "justificativa": "O Alcorão é um texto sagrado do islamismo.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome a associação apresentada no texto.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Exemplos e diversidade",
+      "fase": "Repetir com apoio",
+      "explicacao": "A aula apresenta três exemplos de textos.",
+      "pergunta": "Associe ao limite dessa lista.",
+      "alternativas": [
+        "Contém todas as religiões do mundo",
+        "Prova que só três tradições possuem conhecimentos",
+        "Não reúne todas as tradições e todos os textos"
+      ],
+      "correta": 2,
+      "justificativa": "Exemplos ajudam a começar sem esgotar a diversidade.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Parte de uma lista não é o conjunto inteiro.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Interpretar em comunidade",
+      "fase": "Repetir com apoio",
+      "explicacao": "Pessoas de uma tradição leem e conversam sobre um texto.",
+      "pergunta": "Escolha a associação adequada.",
+      "alternativas": [
+        "O texto pode participar de práticas de transmissão e interpretação",
+        "Todos interpretam sempre do mesmo modo",
+        "Estudar exige realizar a prática religiosa"
+      ],
+      "correta": 0,
+      "justificativa": "É possível estudar usos sem aderir a eles.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Não transforme tradição em um grupo sem diferenças.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Narrativa e registro",
+      "fase": "Repetir com apoio",
+      "explicacao": "Uma história antes contada é registrada por escrito.",
+      "pergunta": "Associe ao processo representado.",
+      "alternativas": [
+        "Desaparecimento obrigatório da fala",
+        "Combinação de oralidade e escrita",
+        "Fim de toda memória"
+      ],
+      "correta": 1,
+      "justificativa": "Um registro pode se somar à transmissão oral.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "As formas não precisam se excluir.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Frase da aula",
+      "fase": "Repetir com apoio",
+      "explicacao": "“Escute antes de responder” é uma frase didática criada aqui.",
+      "pergunta": "Associe à sua identificação correta.",
+      "alternativas": [
+        "Citação de todas as escrituras",
+        "Oração obrigatória da turma",
+        "Orientação de convivência da aula"
+      ],
+      "correta": 2,
+      "justificativa": "A autoria didática foi explicitada.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Não atribua uma frase sem fonte a uma tradição.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Frase e ação",
+      "fase": "Repetir com apoio",
+      "explicacao": "A orientação é escutar antes de responder.",
+      "pergunta": "Associe à atitude correspondente.",
+      "alternativas": [
+        "Dar espaço para ouvir a outra pessoa",
+        "Interromper para impedir a fala",
+        "Exigir que a pessoa pense igual"
+      ],
+      "correta": 0,
+      "justificativa": "A ação corresponde ao sentido da orientação.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Ligue a frase ao comportamento.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Crença pessoal",
+      "fase": "Repetir com apoio",
+      "explicacao": "Uma atividade pergunta sobre conhecimentos, não sobre sua fé.",
+      "pergunta": "Associe ao direito de participação na aula.",
+      "alternativas": [
+        "Ser obrigado a declarar religião",
+        "Responder sem revelar sua crença",
+        "Ser impedido de participar por não ter religião"
+      ],
+      "correta": 1,
+      "justificativa": "A atividade não exige exposição pessoal.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Conhecimento e confissão pessoal são distintos.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Pessoas sem religião",
+      "fase": "Repetir com apoio",
+      "explicacao": "Uma pessoa da turma não segue religião.",
+      "pergunta": "Escolha uma atitude de convivência.",
+      "alternativas": [
+        "Obrigá-la a aderir a uma crença",
+        "Tratar sua presença como erro",
+        "Respeitar e permitir sua participação"
+      ],
+      "correta": 2,
+      "justificativa": "Pessoas sem religião também devem ser respeitadas.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "O respeito não depende de filiação religiosa.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Discordar",
+      "fase": "Repetir com apoio",
+      "explicacao": "Duas pessoas possuem ideias diferentes.",
+      "pergunta": "Associe a discordância ao cuidado adequado.",
+      "alternativas": [
+        "Não humilhar nem pressionar a outra pessoa",
+        "Usar apelidos ofensivos",
+        "Excluir quem não concorda"
+      ],
+      "correta": 0,
+      "justificativa": "É possível discordar preservando o respeito.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Convivência não exige ideias idênticas.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Relato pessoal",
+      "fase": "Repetir com apoio",
+      "explicacao": "Uma pessoa não quer contar uma experiência de fé.",
+      "pergunta": "Escolha a resposta adequada.",
+      "alternativas": [
+        "Insistir até que ela revele",
+        "Respeitar sua decisão e usar exemplos da aula",
+        "Inventar uma experiência em seu nome"
+      ],
+      "correta": 1,
+      "justificativa": "A exposição pessoal não é condição da atividade.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Volte aos cartões e exemplos didáticos.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Outra cena oral",
+      "fase": "Recordar e usar",
+      "explicacao": "Um áudio conta uma narrativa identificada de uma comunidade.",
+      "pergunta": "Associe ao aspecto que pode preservar.",
+      "alternativas": [
+        "Somente o formato da capa",
+        "Uma obrigação de aderir à crença",
+        "Memórias e ensinamentos pela expressão oral"
+      ],
+      "correta": 2,
+      "justificativa": "A expressão oral pode ser registrada e estudada.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome a função de transmitir.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Outra cena escrita",
+      "fase": "Recordar e usar",
+      "explicacao": "Um registro antigo é lido por uma nova geração.",
+      "pergunta": "Associe à função representada.",
+      "alternativas": [
+        "Preservar e transmitir memória",
+        "Impedir toda interpretação",
+        "Provar que a fala não tem valor"
+      ],
+      "correta": 0,
+      "justificativa": "O registro pode ligar diferentes gerações.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe a continuidade da leitura.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Outro exemplo de respeito",
+      "fase": "Recordar e usar",
+      "explicacao": "Alguém usa um apelido ofensivo ligado à crença de outra pessoa.",
+      "pergunta": "Selecione a ação de convivência.",
+      "alternativas": [
+        "Repetir o apelido para a turma",
+        "Interromper a ofensa e retomar o respeito",
+        "Dizer que humilhação é necessária para aprender"
+      ],
+      "correta": 1,
+      "justificativa": "A ofensa prejudica a convivência.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Nenhuma crença autoriza humilhar pessoas.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Diferenças permanecem",
+      "fase": "Recordar e usar",
+      "explicacao": "Duas tradições valorizam a transmissão, mas usam textos distintos.",
+      "pergunta": "Associe à síntese adequada.",
+      "alternativas": [
+        "Trocar os nomes dos textos",
+        "Dizer que são uma única tradição",
+        "Reconhecer aproximações e preservar diferenças"
+      ],
+      "correta": 2,
+      "justificativa": "Uma semelhança não elimina particularidades.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe ao mesmo tempo função e identificação.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Imagem com legenda",
+      "fase": "Recordar e usar",
+      "explicacao": "Um livro genérico aparece no cartão.",
+      "pergunta": "Associe ao modo de leitura adequado.",
+      "alternativas": [
+        "Usar a legenda para saber o que o esquema representa",
+        "Afirmar que a cor identifica toda uma religião",
+        "Tratar o desenho como documento original"
+      ],
+      "correta": 0,
+      "justificativa": "A legenda ajuda a evitar associações falsas.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "A imagem é um apoio autoral, não uma escritura reproduzida.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    },
+    {
+      "titulo": "Montar a sequência",
+      "fase": "Recordar e usar",
+      "explicacao": "Você retoma os cartões de memória, fala, escrita e respeito.",
+      "pergunta": "Selecione a síntese da aula.",
+      "alternativas": [
+        "Classificar qual crença deve vencer",
+        "Transmitir e preservar ensinamentos respeitando diferenças",
+        "Exigir que todos tenham a mesma experiência"
+      ],
+      "correta": 1,
+      "justificativa": "O objetivo reúne conhecimento e convivência.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome as funções e o cuidado com pessoas.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa."
+    }
+  ],
+  "exploracao": [
+    [
+      "Memória",
+      "Guardar e compartilhar",
+      "Pessoas e comunidades preservam lembranças e ensinamentos."
+    ],
+    [
+      "Oralidade e escrita",
+      "Formas de transmissão",
+      "Fala e registro escrito podem se combinar."
+    ],
+    [
+      "Respeito",
+      "Conviver com diferenças",
+      "Ninguém precisa declarar uma crença ou aderir a uma religião para aprender."
+    ]
+  ],
+  "glossario": {
+    "Memória": "Lembranças e conhecimentos que pessoas e comunidades podem preservar.",
+    "Tradição oral": "Transmissão por falas, narrativas e outras expressões orais.",
+    "Tradição escrita": "Registro e transmissão por textos escritos.",
+    "Ensinamento": "Orientação ou conhecimento transmitido em determinado contexto.",
+    "Texto sagrado": "Texto reconhecido como sagrado em uma tradição, sem exigir adesão de quem o estuda.",
+    "Diversidade": "Existência de diferentes crenças, tradições e modos de viver.",
+    "Filosofia de vida": "Conjunto de ideias e valores que pode orientar maneiras de viver, com ou sem religião."
+  },
+  "dicionario": {
+    "Associar": "Ligar uma imagem, palavra ou situação ao que ela representa.",
+    "Repetir": "Escutar ou observar um modelo e praticá-lo novamente.",
+    "Recordar": "Lembrar algo que já foi apresentado.",
+    "Comparar": "Perceber semelhanças e diferenças sem apagar nenhuma delas."
+  },
+  "practice": [
+    [
+      "Memória",
+      "Preservar e compartilhar lembranças e ensinamentos.",
+      "memoria"
+    ],
+    [
+      "Tradição oral",
+      "Transmitir por falas e outras expressões orais.",
+      "fala"
+    ],
+    [
+      "Tradição escrita",
+      "Registrar, ler e transmitir por textos.",
+      "escrita"
+    ],
+    [
+      "Respeito",
+      "Conviver sem humilhar ou pressionar por crença.",
+      "respeito"
+    ]
+  ]
+}

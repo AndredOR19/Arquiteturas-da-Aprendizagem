@@ -1,0 +1,734 @@
+{
+  "id": "30-10-2026-espanhol-6ano",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "6º ano · turma a confirmar",
+  "componente": "Espanhol",
+  "data": "30/10/2026",
+  "titulo": "¡Hola! Vamos falar espanhol",
+  "pergunta": "Escute, observe, associe e pratique uma conversa curta.",
+  "resumo": "Primeiros contatos com o espanhol: saudações, nome, cortesia e objetos da sala, com modelagem e associações.",
+  "habilidades": [
+    "Objetivos de língua adicional: cumprimentar, apresentar-se, agradecer e despedir-se.",
+    "Competência geral 4 da BNCC — comunicação em diferentes linguagens, em síntese."
+  ],
+  "continuidade": "Aula adicional solicitada para o 6º ano. Plano específico desta turma não fornecido; proposta introdutória, sem presumir aplicação anterior. Data prevista 30/10/2026; situação planejada.",
+  "fontes": [
+    [
+      "Instituto Cervantes",
+      "Plan Curricular A1–A2: saudar, apresentar-se e interagir",
+      "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/05_funciones_inventario_a1-a2.htm"
+    ],
+    [
+      "Instituto Cervantes",
+      "Descriptores iniciais: apoio de imagens, gestos e repetição",
+      "https://cvc.cervantes.es/ensenanza/biblioteca_ele/marco_descriptores/volumen_1/tabla_a1.htm"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "1 · Uma língua para conversar",
+      "texto": "Hoje vamos aprender pequenas expressões que ajudam a conversar em espanhol. Primeiro você observa a cena e escuta o modelo. Depois liga a expressão à situação e pratica outra vez. Não precisa descobrir uma regra escondida nem explicar uma teoria. Nosso objetivo é conseguir cumprimentar, dizer um nome, agradecer e despedir-se. Você pode falar, tocar nos cartões ou acompanhar com o professor. Não há gravação do microfone. Se preferir, use o nome de uma personagem. Uma aula inicial não ensina toda a língua: ela oferece um primeiro conjunto de expressões que você poderá reutilizar.",
+      "ancora": "OBSERVO → ESCUTO → ASSOCIO → REPITO → USO.",
+      "fonte": 0
+    },
+    {
+      "titulo": "2 · ¡Hola! É um começo",
+      "texto": "Quando encontramos alguém, podemos dizer ¡Hola! para cumprimentar. A expressão é usada em diferentes momentos do dia. Observe a personagem acenando e associe o gesto à palavra. O h de hola não tem som. Escute uma voz em espanhol, quando estiver disponível, e repita com calma: ¡Hola! O importante é usar a expressão para abrir o contato. Você não precisa imitar uma única variedade de pronúncia: o espanhol tem formas de falar diferentes. Neste início, vamos reconhecer e praticar um modelo compreensível, sem transformar uma diferença de sotaque em erro.",
+      "ancora": "ACENO + ¡HOLA! → cumprimento ao encontrar alguém.",
+      "fonte": 0
+    },
+    {
+      "titulo": "3 · Cumprimentos ao longo do dia",
+      "texto": "Pela manhã, podemos cumprimentar com Buenos días. À tarde, usamos Buenas tardes. À noite, Buenas noches pode funcionar como cumprimento e, em situações apropriadas, como despedida. Nos cartões desta aula, vamos ligá-la ao encontro à noite. Observe a cena com manhã, tarde ou noite antes de escolher. Não é uma previsão do clima: os desenhos ajudam a reconhecer o momento do encontro. Leia as expressões como blocos inteiros. Depois escute e repita. Retomar a mesma expressão em outra cena ajuda a praticar seu uso, além de reconhecer um desenho conhecido.",
+      "ancora": "MANHÃ → Buenos días | TARDE → Buenas tardes | NOITE → Buenas noches.",
+      "fonte": 0
+    },
+    {
+      "titulo": "4 · Para se despedir",
+      "texto": "Ao encerrar uma conversa, podemos dizer Adiós. Para indicar que esperamos ver a pessoa depois, usamos Hasta luego. Se o próximo encontro será amanhã, Hasta mañana combina com essa situação. Não é necessário descobrir qual frase é mais bonita: observe a intenção de quem fala. Nesta aula, a personagem vai embora e acena; o cartão mostra uma despedida. Compare com a cena de chegada e ¡Hola! Depois pratique duas falas curtas: ¡Hola! para começar e ¡Adiós! para terminar. A escrita tem sinais que você pode acompanhar sem precisar explicar todos eles nesta primeira aula.",
+      "ancora": "CHEGADA → ¡Hola! | SAÍDA → Adiós | ATÉ AMANHÃ → Hasta mañana.",
+      "fonte": 0
+    },
+    {
+      "titulo": "5 · Dizer um nome",
+      "texto": "Para apresentar um nome, usamos Me llamo… e completamos: Me llamo Ana. A expressão corresponde a “eu me chamo”. Aprenda o conjunto antes de tentar traduzir palavra por palavra. Você pode usar uma personagem: Me llamo Luis. Não precisamos de sobrenome, endereço, telefone ou outros dados pessoais. Escute o modelo e escolha o cartão que apresenta o nome correto. Depois troque Ana por outro nome, se quiser. A pronúncia de ll varia entre regiões; o professor pode apresentar um modelo sem dizer que todas as outras formas são inadequadas. O objetivo é tornar a apresentação compreensível.",
+      "ancora": "PERSONAGEM ANA + Me llamo Ana. → apresentação do nome.",
+      "fonte": 0
+    },
+    {
+      "titulo": "6 · Perguntar o nome de alguém",
+      "texto": "Para perguntar o nome da pessoa com quem conversamos, podemos usar ¿Cómo te llamas? A resposta pode ser Me llamo Ana. Observe a troca: uma pessoa pergunta e a outra responde. Os sinais ¿ e ? marcam a pergunta escrita em espanhol; não são pronunciados como palavras. Você pode acompanhar a cena e tocar primeiro na pergunta e depois na resposta. Não é obrigatório falar diante de toda a turma. O professor pode organizar pares, acompanhar individualmente ou permitir resposta por seleção. Comece pela compreensão dessa troca curta, sem exigir que você explique conjugações verbais.",
+      "ancora": "¿Cómo te llamas? → Me llamo Ana. | PERGUNTA → RESPOSTA.",
+      "fonte": 0
+    },
+    {
+      "titulo": "7 · Palavras de cortesia",
+      "texto": "Por favor pode acompanhar um pedido educado: Un lápiz, por favor. Para agradecer, usamos Gracias. Uma resposta comum ao agradecimento é De nada. Observe as ações: alguém pede, recebe ajuda, agradece e escuta uma resposta. As palavras não são intercambiáveis nessa pequena conversa. A imagem e a posição da fala ajudam a associar cada expressão à sua função. Escute os três modelos e pratique com um colega ou com o professor. Não é preciso oferecer ou pedir um objeto de verdade para realizar a atividade: os cartões também permitem representar a situação.",
+      "ancora": "PEDIDO → Por favor | AGRADECIMENTO → Gracias | RESPOSTA → De nada.",
+      "fonte": 0
+    },
+    {
+      "titulo": "8 · Três objetos da sala",
+      "texto": "Vamos nomear três objetos próximos: libro é livro, cuaderno é caderno e lápiz é lápis. Os desenhos autorais mostram um livro com páginas, um caderno com espiral e um lápis de escrever. Essas diferenças servem para localizar os objetos do nosso modelo, sem afirmar que todo livro ou caderno tenha sempre essa aparência. Toque na figura e escute a palavra em espanhol. Depois associe a palavra a outra representação do objeto. A semelhança com o português pode ajudar a lembrar, mas não dispensa ouvir a expressão e aprender seu uso.",
+      "ancora": "LIVRO → libro | CADERNO → cuaderno | LÁPIS → lápiz.",
+      "fonte": 0
+    },
+    {
+      "titulo": "9 · Uma conversa pronta para praticar",
+      "texto": "Observe esta conversa didática: Ana diz “¡Hola! Me llamo Ana”. Luis responde “¡Hola! Me llamo Luis”. Depois, Ana pede “Un lápiz, por favor”. Luis representa a entrega do objeto; Ana diz “Gracias” e Luis responde “De nada”. Ao encerrar, os dois podem dizer “Hasta luego”. Pratique uma fala por vez. Primeiro acompanhe o modelo; depois tente recordar uma expressão sem olhar. Você pode voltar ao cartão quantas vezes precisar. Não se exige uma conversa longa nem a reprodução perfeita de todas as falas para começar a aprender.",
+      "ancora": "CUMPRIMENTAR → APRESENTAR-SE → PEDIR → AGRADECER → DESPEDIR-SE.",
+      "fonte": 0
+    },
+    {
+      "titulo": "10 · Use de novo em outra cena",
+      "texto": "Agora outra personagem chega à sala pela manhã. Você já conhece expressões para essa situação. Pode cumprimentar, apresentar um nome e encerrar a troca. Nos 26 passos, algumas expressões voltam com desenhos e situações diferentes. Isso faz parte da prática: não são 26 assuntos novos. As pistas e os modelos continuam disponíveis. O indicador do artefato registra as primeiras associações e as retomadas; ele não mede sozinho sua capacidade de conversar nem avalia automaticamente sua pronúncia. O professor acompanha o uso das expressões. Seu primeiro objetivo é reconhecer e combinar pequenas falas com sentido.",
+      "ancora": "MENOS APOIO, MESMO SENTIDO → usar as expressões em outra pequena conversa.",
+      "fonte": 0
+    }
+  ],
+  "percursos": [
+    {
+      "titulo": "Chegou uma colega",
+      "fase": "Observar e associar",
+      "explicacao": "Uma personagem chega e acena. O modelo é ¡Hola!",
+      "pergunta": "Toque no cumprimento.",
+      "alternativas": [
+        "¡Hola!",
+        "Adiós.",
+        "Gracias."
+      ],
+      "correta": 0,
+      "justificativa": "¡Hola! é usado para cumprimentar.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Associe a chegada à palavra do cartão.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Hola"
+    },
+    {
+      "titulo": "Encontro de manhã",
+      "fase": "Observar e associar",
+      "explicacao": "A cena mostra o começo da manhã. O modelo é Buenos días.",
+      "pergunta": "Toque no cumprimento da manhã.",
+      "alternativas": [
+        "Buenas tardes.",
+        "Buenos días.",
+        "Buenas noches."
+      ],
+      "correta": 1,
+      "justificativa": "Buenos días combina com o encontro pela manhã.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe o cartão da manhã.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Buenos días"
+    },
+    {
+      "titulo": "Encontro à tarde",
+      "fase": "Observar e associar",
+      "explicacao": "A personagem chega depois do almoço. O modelo é Buenas tardes.",
+      "pergunta": "Toque no cumprimento da tarde.",
+      "alternativas": [
+        "Buenos días.",
+        "Hasta mañana.",
+        "Buenas tardes."
+      ],
+      "correta": 2,
+      "justificativa": "Buenas tardes é o cumprimento praticado para a tarde.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Associe tarde à expressão apresentada.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Buenas tardes"
+    },
+    {
+      "titulo": "Encontro à noite",
+      "fase": "Observar e associar",
+      "explicacao": "O cartão mostra um encontro à noite. O modelo é Buenas noches.",
+      "pergunta": "Toque na expressão do cartão.",
+      "alternativas": [
+        "Buenas noches.",
+        "Buenos días.",
+        "Por favor."
+      ],
+      "correta": 0,
+      "justificativa": "Neste cartão, Buenas noches cumprimenta à noite.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe a lua e o contexto de chegada.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Buenas noches"
+    },
+    {
+      "titulo": "Fim da conversa",
+      "fase": "Observar e associar",
+      "explicacao": "A personagem vai embora. O modelo de despedida é Adiós.",
+      "pergunta": "Toque na despedida.",
+      "alternativas": [
+        "¡Hola!",
+        "Adiós.",
+        "Me llamo Ana."
+      ],
+      "correta": 1,
+      "justificativa": "Adiós encerra a conversa.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Compare a chegada e a saída.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Adiós"
+    },
+    {
+      "titulo": "Até logo",
+      "fase": "Observar e associar",
+      "explicacao": "As personagens se despedem para se ver depois. O modelo é Hasta luego.",
+      "pergunta": "Associe à expressão “até logo”.",
+      "alternativas": [
+        "Gracias.",
+        "Buenos días.",
+        "Hasta luego."
+      ],
+      "correta": 2,
+      "justificativa": "Hasta luego corresponde a até logo.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "A conversa está sendo encerrada.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Hasta luego"
+    },
+    {
+      "titulo": "Até amanhã",
+      "fase": "Observar e associar",
+      "explicacao": "O próximo encontro será amanhã. O modelo é Hasta mañana.",
+      "pergunta": "Toque em “até amanhã”.",
+      "alternativas": [
+        "Hasta mañana.",
+        "De nada.",
+        "Buenas tardes."
+      ],
+      "correta": 0,
+      "justificativa": "Hasta mañana indica uma despedida com referência ao próximo dia.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe o próximo dia no calendário.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Hasta mañana"
+    },
+    {
+      "titulo": "A personagem Ana",
+      "fase": "Observar e associar",
+      "explicacao": "O cartão traz o nome Ana e o modelo Me llamo Ana.",
+      "pergunta": "Toque na apresentação de Ana.",
+      "alternativas": [
+        "Me llamo Luis.",
+        "Me llamo Ana.",
+        "Gracias."
+      ],
+      "correta": 1,
+      "justificativa": "Me llamo Ana apresenta o nome da personagem.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Combine o nome escrito com a frase.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Me llamo Ana"
+    },
+    {
+      "titulo": "Perguntar o nome",
+      "fase": "Observar e associar",
+      "explicacao": "A fala-modelo para perguntar o nome é ¿Cómo te llamas?",
+      "pergunta": "Toque na pergunta do nome.",
+      "alternativas": [
+        "Me llamo Ana.",
+        "Hasta luego.",
+        "¿Cómo te llamas?"
+      ],
+      "correta": 2,
+      "justificativa": "¿Cómo te llamas? pergunta como a pessoa se chama.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe os sinais de pergunta e o modelo completo.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Cómo te llamas"
+    },
+    {
+      "titulo": "Agradecer ajuda",
+      "fase": "Observar e associar",
+      "explicacao": "Uma personagem recebeu ajuda. O modelo é Gracias.",
+      "pergunta": "Toque no agradecimento.",
+      "alternativas": [
+        "Gracias.",
+        "Adiós.",
+        "Cuaderno."
+      ],
+      "correta": 0,
+      "justificativa": "Gracias expressa agradecimento.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Associe a ajuda recebida à cortesia.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Gracias"
+    },
+    {
+      "titulo": "Pedir com cortesia",
+      "fase": "Repetir com apoio",
+      "explicacao": "A personagem pede um lápis. O modelo é Un lápiz, por favor.",
+      "pergunta": "Toque na expressão de cortesia do pedido.",
+      "alternativas": [
+        "De nada.",
+        "Por favor.",
+        "Hasta mañana."
+      ],
+      "correta": 1,
+      "justificativa": "Por favor acompanha o pedido educado.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "O pedido acontece antes de receber o objeto.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Por favor"
+    },
+    {
+      "titulo": "Responder ao agradecimento",
+      "fase": "Repetir com apoio",
+      "explicacao": "Uma pessoa diz Gracias. A resposta praticada é De nada.",
+      "pergunta": "Toque na resposta.",
+      "alternativas": [
+        "Buenos días.",
+        "Me llamo Ana.",
+        "De nada."
+      ],
+      "correta": 2,
+      "justificativa": "De nada responde ao agradecimento neste diálogo.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Volte à dupla Gracias e De nada.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "De nada"
+    },
+    {
+      "titulo": "Livro",
+      "fase": "Repetir com apoio",
+      "explicacao": "O desenho mostra um livro. Em espanhol, a palavra é libro.",
+      "pergunta": "Associe a figura à palavra.",
+      "alternativas": [
+        "libro",
+        "lápiz",
+        "cuaderno"
+      ],
+      "correta": 0,
+      "justificativa": "Libro nomeia o livro.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe páginas e capa na figura.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Libro"
+    },
+    {
+      "titulo": "Caderno",
+      "fase": "Repetir com apoio",
+      "explicacao": "O desenho mostra um caderno. O modelo em espanhol é cuaderno.",
+      "pergunta": "Toque no nome do objeto.",
+      "alternativas": [
+        "libro",
+        "cuaderno",
+        "gracias"
+      ],
+      "correta": 1,
+      "justificativa": "Cuaderno nomeia o caderno.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe o espiral do modelo da aula.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Cuaderno"
+    },
+    {
+      "titulo": "Lápis",
+      "fase": "Repetir com apoio",
+      "explicacao": "O desenho mostra um lápis. O modelo em espanhol é lápiz.",
+      "pergunta": "Toque na palavra do objeto.",
+      "alternativas": [
+        "cuaderno",
+        "hola",
+        "lápiz"
+      ],
+      "correta": 2,
+      "justificativa": "Lápiz nomeia o lápis.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe a ponta do objeto.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Lápiz"
+    },
+    {
+      "titulo": "Outra chegada",
+      "fase": "Repetir com apoio",
+      "explicacao": "Um novo personagem acena ao encontrar a turma.",
+      "pergunta": "Use novamente o cumprimento.",
+      "alternativas": [
+        "¡Hola!",
+        "De nada.",
+        "Hasta mañana."
+      ],
+      "correta": 0,
+      "justificativa": "A expressão continua útil em outra chegada.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome a função de iniciar contato.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Hola"
+    },
+    {
+      "titulo": "Agora é Luis",
+      "fase": "Repetir com apoio",
+      "explicacao": "A personagem do cartão se chama Luis.",
+      "pergunta": "Complete sua apresentação.",
+      "alternativas": [
+        "Me llamo Ana.",
+        "Me llamo Luis.",
+        "Hasta luego."
+      ],
+      "correta": 1,
+      "justificativa": "Trocamos o nome e preservamos Me llamo.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe o nome do personagem.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Me llamo Luis"
+    },
+    {
+      "titulo": "Ajuda em outra cena",
+      "fase": "Repetir com apoio",
+      "explicacao": "Um colega entrega o caderno emprestado. Você agradece.",
+      "pergunta": "Toque na fala adequada à ação.",
+      "alternativas": [
+        "Buenas noches.",
+        "Cuaderno.",
+        "Gracias."
+      ],
+      "correta": 2,
+      "justificativa": "Gracias continua sendo agradecimento, mesmo com outro objeto.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Associe a função, não apenas o desenho.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Gracias"
+    },
+    {
+      "titulo": "Outro pedido",
+      "fase": "Repetir com apoio",
+      "explicacao": "Você pede um livro com cortesia.",
+      "pergunta": "Escolha a expressão que completa “Un libro, …”.",
+      "alternativas": [
+        "por favor.",
+        "de nada.",
+        "adiós."
+      ],
+      "correta": 0,
+      "justificativa": "Por favor acompanha também esse pedido.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Mude o objeto e mantenha a cortesia.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Un libro, por favor"
+    },
+    {
+      "titulo": "Outra resposta",
+      "fase": "Repetir com apoio",
+      "explicacao": "Alguém diz Gracias depois de receber ajuda.",
+      "pergunta": "Responda como no modelo.",
+      "alternativas": [
+        "Por favor.",
+        "De nada.",
+        "Buenos días."
+      ],
+      "correta": 1,
+      "justificativa": "A dupla Gracias e De nada foi retomada.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Lembre a sequência do diálogo.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "De nada"
+    },
+    {
+      "titulo": "Amanhã tem novo encontro",
+      "fase": "Recordar e usar",
+      "explicacao": "As personagens se despedem e se verão no dia seguinte.",
+      "pergunta": "Recorde a despedida do próximo dia.",
+      "alternativas": [
+        "Me llamo Ana.",
+        "Gracias.",
+        "Hasta mañana."
+      ],
+      "correta": 2,
+      "justificativa": "Hasta mañana combina com a referência a amanhã.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Observe a passagem para o próximo dia.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Hasta mañana"
+    },
+    {
+      "titulo": "Bom dia novamente",
+      "fase": "Recordar e usar",
+      "explicacao": "É manhã e você começa uma pequena conversa.",
+      "pergunta": "Use o cumprimento da manhã.",
+      "alternativas": [
+        "Buenos días.",
+        "Buenas tardes.",
+        "Buenas noches."
+      ],
+      "correta": 0,
+      "justificativa": "O momento do encontro orienta essa escolha.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome o cartão da manhã.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Buenos días"
+    },
+    {
+      "titulo": "Sua vez de perguntar",
+      "fase": "Recordar e usar",
+      "explicacao": "Você quer saber o nome de uma personagem.",
+      "pergunta": "Use a pergunta-modelo.",
+      "alternativas": [
+        "Me llamo Luis.",
+        "¿Cómo te llamas?",
+        "De nada."
+      ],
+      "correta": 1,
+      "justificativa": "A pergunta abre espaço para dizer o nome.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Pergunta e resposta têm funções diferentes.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Cómo te llamas"
+    },
+    {
+      "titulo": "Sua vez de responder",
+      "fase": "Recordar e usar",
+      "explicacao": "A personagem Ana ouviu ¿Cómo te llamas?",
+      "pergunta": "Selecione sua resposta.",
+      "alternativas": [
+        "¿Cómo te llamas?",
+        "Hasta mañana.",
+        "Me llamo Ana."
+      ],
+      "correta": 2,
+      "justificativa": "Ana responde dizendo seu nome.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Procure Me llamo e o nome correto.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Me llamo Ana"
+    },
+    {
+      "titulo": "Livro em outro desenho",
+      "fase": "Recordar e usar",
+      "explicacao": "O professor mostra outra capa de um livro.",
+      "pergunta": "Use a mesma palavra para o objeto.",
+      "alternativas": [
+        "libro",
+        "lápiz",
+        "cuaderno"
+      ],
+      "correta": 0,
+      "justificativa": "A palavra libro não depende de uma capa específica.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Compare o tipo de objeto, não sua cor.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Libro"
+    },
+    {
+      "titulo": "Encerrar a conversa",
+      "fase": "Recordar e usar",
+      "explicacao": "Você já cumprimentou, apresentou o nome e agradeceu. Agora vai embora.",
+      "pergunta": "Finalize com uma despedida.",
+      "alternativas": [
+        "¡Hola!",
+        "Adiós.",
+        "Por favor."
+      ],
+      "correta": 1,
+      "justificativa": "Adiós encerra a conversa praticada.",
+      "pistas": [
+        "Volte ao cartão e observe a cena ou o modelo.",
+        "Retome a função de despedir-se.",
+        "Abra a explicação da expressão e repita o modelo antes de tentar outra vez."
+      ],
+      "ponto": "Trocar uma expressão sem observar a situação.",
+      "acao": "Retome o modelo, associe à cena e pratique sem pressa.",
+      "audio": "Adiós"
+    }
+  ],
+  "exploracao": [
+    [
+      "Cumprimentar",
+      "¡Hola!",
+      "A personagem chega e acena. ¡Hola! inicia o contato."
+    ],
+    [
+      "Apresentar-se",
+      "Me llamo Ana.",
+      "O nome da personagem é Ana. Me llamo Ana."
+    ],
+    [
+      "Agradecer",
+      "Gracias.",
+      "A personagem agradece por uma ajuda recebida. Gracias."
+    ]
+  ],
+  "glossario": {
+    "¡Hola!": "Olá: cumprimento para iniciar contato.",
+    "Buenos días": "Bom dia: cumprimento pela manhã.",
+    "Buenas tardes": "Boa tarde: cumprimento à tarde.",
+    "Buenas noches": "Boa noite: pode aparecer ao chegar ou ao se despedir à noite.",
+    "Me llamo…": "Eu me chamo…: expressão para dizer o nome.",
+    "¿Cómo te llamas?": "Como você se chama?",
+    "Gracias": "Obrigado ou obrigada.",
+    "Por favor": "Por favor: acompanha pedidos educados.",
+    "De nada": "De nada: resposta comum a um agradecimento.",
+    "Adiós": "Adeus ou tchau: despedida.",
+    "Hasta luego": "Até logo.",
+    "Hasta mañana": "Até amanhã.",
+    "libro": "livro.",
+    "cuaderno": "caderno.",
+    "lápiz": "lápis."
+  },
+  "dicionario": {
+    "Associar": "Ligar uma imagem, palavra ou situação ao que ela representa.",
+    "Repetir": "Escutar ou observar um modelo e praticá-lo novamente.",
+    "Recordar": "Lembrar algo que já foi apresentado.",
+    "Comparar": "Perceber semelhanças e diferenças sem apagar nenhuma delas."
+  },
+  "practice": [
+    [
+      "¡Hola!",
+      "Olá",
+      "chegada"
+    ],
+    [
+      "Buenos días.",
+      "Bom dia",
+      "chegada"
+    ],
+    [
+      "Me llamo Ana.",
+      "Eu me chamo Ana",
+      "nome"
+    ],
+    [
+      "¿Cómo te llamas?",
+      "Como você se chama?",
+      "nome"
+    ],
+    [
+      "Gracias.",
+      "Obrigado ou obrigada",
+      "cortesia"
+    ],
+    [
+      "Por favor.",
+      "Por favor",
+      "cortesia"
+    ],
+    [
+      "De nada.",
+      "De nada",
+      "cortesia"
+    ],
+    [
+      "Adiós.",
+      "Tchau ou adeus",
+      "chegada"
+    ],
+    [
+      "libro",
+      "livro",
+      "livro"
+    ],
+    [
+      "cuaderno",
+      "caderno",
+      "caderno"
+    ],
+    [
+      "lápiz",
+      "lápis",
+      "lapis"
+    ]
+  ]
+}

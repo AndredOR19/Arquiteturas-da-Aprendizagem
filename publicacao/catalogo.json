@@ -117,6 +117,24 @@
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
       "fluxo_visual": "missao-interativa"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/30-10-2026-espanhol-6ano",
+      "destino": "aulas/30-10-2026-espanhol-6ano",
+      "titulo": "Espanhol 6º ano — ¡Hola! Vamos falar espanhol",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-30",
+      "fluxo_visual": "missao-interativa"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/30-10-2026-ensino-religioso-6ano",
+      "destino": "aulas/30-10-2026-ensino-religioso-6ano",
+      "titulo": "Ensino Religioso 6º ano — Memórias, histórias e respeito",
+      "versao": "1.0.0",
+      "data_aula": "2026-10-30",
+      "fluxo_visual": "missao-interativa"
     }
   ]
 }
