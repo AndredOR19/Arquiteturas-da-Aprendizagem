@@ -692,15 +692,34 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "41076338444",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "56cf3d26673cc5e60bd44adfc51d3ef1e282d3ba",
+      "pasta": "execucoes/41076338444-1-individuos",
+      "experimento": "a4f4788cac1a6669b8416131f18dc88ef7eff43520ef61f093fcbf4b67bd934c",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [
+          "sss"
+        ],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "b7eac359f45fa587117458cce5379dfbfee26677a171d89888b1b642c6b2471d",
+      "biblioteca-arquiteturas/catalogo.json": "75853cb100078684b8af52e40acea2be6655a762b3c867514b7c29e0841fdf4e",
       "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
       "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "58673c65b50dd79555ff0b9d3352a321829bd44357390426e89013ce791ffce9",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "3b1bb6e3d4c06807daee609126640c60b62daa6d0f3540248be1be47600a481a",
       "pesquisa/registros.json": "b4bee320cc3537192fd2db8a04e5b89427c0ee608199275ec6a3c55e6df757ab",
       "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
     },
@@ -804,10 +823,10 @@
         "id": "sss",
         "nome": "SSS — Sintaxe Sonora Semântica",
         "dominio": "pedagogico",
-        "versao_documental": "1.0.0",
+        "versao_documental": "1.1.0",
         "estado_documental": "diretriz_documentada",
         "fontes_sha256": {
-          "biblioteca-arquiteturas/plantas/sss.md": "40e6637ff40d4a9b07a7b0cb3124610265841c8085ea648347e3285bc8c36951"
+          "biblioteca-arquiteturas/plantas/sss.md": "cd66777cce68fe048e24a818661fff7b241052bfd62357c131bbae6eeee4b260"
         },
         "estado_modelagem": "aguardando_formalizacao",
         "modulos_mecanisticos": [],
@@ -817,7 +836,7 @@
         ],
         "calibracao_empirica": false,
         "validacao_empirica": false,
-        "revisao_sha256": "a2143bc6f842d575e2a49917d994e1ecbd6df688c6d789907a5cf3bbe185078e"
+        "revisao_sha256": "e9c473dd285803ec437f22abb3e4e3cfa694527a528844b210e3fd8b11483942"
       },
       {
         "id": "asa",
