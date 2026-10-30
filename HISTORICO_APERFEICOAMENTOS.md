@@ -3,6 +3,14 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.25.0 — 30/10/2026 — Menos leitura e linguagens alternativas
+
+Origem/autoria: Prof. André de Oliveira Rodrigues relatou que os alunos estão achando muita coisa para ler e propôs explicar as mesmas ideias em linguagem popular, adolescente e com gírias. Síntese operacional do assistente, autorizada para registro: explicação essencial curta, reformulações opcionais, exemplo/áudio e aprofundamento acessível, sem apresentar todas as versões simultaneamente. Preservar significado, relações e ponte com termos curriculares, sem linguagem forçada ou infantilização.
+
+Seção 3 revisada: referência anterior de 1.200–2.000 palavras deixa de orientar volume obrigatório. Nova seção 3.1 detalha acesso, circuito, alternativas curtas e explicações de retorno, redução de apoio, preservação dos critérios e registro somente de eventos implementados. AGENTS e dois fluxos remetem à mesma diretriz; catálogo 1.5.2 reconciliado com o prompt 2.25.0. Não impor cinco alternativas nem confundir versões equivalentes com respostas concorrentes.
+
+Estado: diretriz documental registrada; nenhuma aula publicada ou componente de interface alterado. Botões, migração e monitoramento específico dependem de implementação e teste por entrega. Não há resultado observado de aprendizagem nem simulação quântica validando a proposta. Verificação desta revisão: diff textual, ligações locais e validadores estruturais do repositório; não constitui teste de nova interface.
+
 ## 2.24.0 — 30/10/2026 — Ruídos de fundo com seleção explicada e volume
 
 Pedido do professor: ruídos branco, rosa e outros devem ter controle de volume e seleção explicando cada opção. Criado painel comum com branco/rosa/marrom, características sonoras em texto/voz, volume independente 0–100%, início desligado, prioridade à voz/áudio, botão parar, silenciamento global e parada ao ocultar a aba. Percentual não é medida em dB e não comprova nível seguro. Sem indicação por diagnóstico ou promessa de concentração/terapia.

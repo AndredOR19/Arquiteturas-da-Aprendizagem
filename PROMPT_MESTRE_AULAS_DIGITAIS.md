@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.24.0**
+Versão vigente: **2.25.0**
 Atualização: **30/10/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -53,7 +53,7 @@ Não confunda o resumo do card com o texto explicativo do aluno.
 ## 3. Texto explicativo ampliado — requisito central
 A aula começa por uma exposição suficiente para compreender o tema. Não começar com um quiz nem usar perguntas para compensar uma explicação ausente.
 
-O texto deve ser maior e mais desenvolvido que a exposição breve do modelo de 19/10, mantendo organização e respiro visual. Como referência editorial, uma aula digital com 26 percursos pode ter aproximadamente 1.200–2.000 palavras de explicação principal, distribuídas em 8–12 blocos. Esse intervalo orienta a profundidade; não é obrigação de preencher volume, nem substitui adequação à turma, ao tempo e ao objeto estudado.
+A explicação deve desenvolver as relações necessárias à compreensão, com organização e respiro visual. A diretriz de 30/10/2026 substitui a referência anterior de 1.200–2.000 palavras: não usar uma meta de extensão como requisito de qualidade. Priorizar uma ideia por tela, texto essencial curto e aprofundamento opcional, conforme seção 3.1. Preservar uma versão desenvolvida acessível, sem exigir sua leitura integral para realizar todas as atividades. Reduzir leitura obrigatória sem retirar conceitos, causalidade, exemplos ou fontes necessários ao objetivo.
 
 Cada bloco relevante deve apresentar:
 1. Conceito e contexto em linguagem do estudante.
@@ -68,6 +68,21 @@ Em História, quando pertinente: situe tempo e espaço; identifique sujeitos e i
 Aprofundar significa desenvolver relações, exemplos e evidências. Evitar repetição de frases para aumentar o tamanho. Usar parágrafos conectados e subtítulos informativos. Permitir leitura por partes e acesso ao texto integral. Glossários e pistas complementam o texto; não substituem sua explicação.
 
 O limite de páginas de um documento editável não deve empobrecer a exposição HTML. Quando for necessário produzir materiais impressos, adapte a extensão ao formato solicitado e preserve o conteúdo completo na aula digital.
+
+### 3.1. Menos leitura obrigatória e diferentes formas de explicar
+Decisão do Prof. André de Oliveira Rodrigues em 30/10/2026, a partir do relato de que os alunos estão achando muita coisa para ler: oferecer o mesmo conceito em linguagem direta, cotidiana/popular e informal adolescente, com gírias quando pertinentes. A proposta é diversificar o acesso ao significado, não somar versões obrigatórias nem classificar estudantes em perfis fixos. Relato docente e hipótese de adaptação não constituem eficácia demonstrada.
+
+**Âncora:** manter objetivo, significado, relações e termos essenciais em todas as versões. A linguagem familiar abre o acesso e é ligada explicitamente ao vocabulário do componente. Não substituir precisão por caricatura, estereótipo regional/social, gíria forçada ou infantilização. Em línguas adicionais, identificar idioma, situação de uso e registro; uma paráfrase em português não substitui o modelo na língua ensinada.
+
+**Mecânica:** mostrar uma explicação curta por vez, próxima da cena/relação. Oferecer ações opcionais como “Explique de outro jeito”, “Mostre um exemplo”, “Quero ouvir” e acesso à explicação desenvolvida. Ao reformular, substituir a versão em foco, sem empilhar automaticamente textos. As versões devem mudar a forma de explicar, não apenas repetir palavras ou trocar termos por gírias. Não esconder informação indispensável exclusivamente no aprofundamento, na voz ou numa imagem. Áudio depende de ação explícita e mantém parada e alternativa textual/visual.
+
+**Circuito:** cena/situação → explicação essencial → reformulação, exemplo ou áudio por escolha → associação/prática → nova situação com apoio menor → retomada quando necessária. Não exigir abertura de todas as versões, leitura integral ou reprodução de áudio como condição de avanço. Permanecem acerto para avançar, tentativas preservadas e avaliação final confirmada.
+
+**Alternativas e retorno:** manter respostas curtas e plausíveis. Explicações de alternativas podem ser oferecidas brevemente na prática assistida ou após a escolha, com possibilidade de reformulação/áudio, sem transformar cinco opções em cinco parágrafos obrigatórios. Explicar o uso correto de cada expressão/conceito e por que se aplica ou não à situação; não apresentar informação falsa como ensinamento. Não impor cinco alternativas a todos os itens nem converter versões equivalentes de uma explicação em distratores concorrentes. Verificar compreensão em exemplo diferente, evitando que a resposta seja denunciada por tamanho ou repetição literal.
+
+**Ponto cego e ação:** se a adaptação aumentar a leitura ou permitir apenas localizar palavras iguais, reduzir a densidade e mudar o exemplo de aplicação. Registrar, quando implementado, versão/reformulação consultada, apoio anterior à primeira resposta, tentativas e aplicação com apoio menor, sem descontar pontos por consulta nem mudar o cálculo vigente. Clique, áudio acionado ou linguagem escolhida não comprovam leitura, escuta, diagnóstico ou domínio. Ausência de registro não equivale a ausência de uso.
+
+**Conferência:** revisar equivalência semântica entre versões; texto curto inicial; não empilhamento; termos curriculares conectados; controle por teclado/toque; áudio com parada/falha informada; preservação de respostas ao trocar versão; relatório correspondente aos eventos realmente implementados. Nos suportes estáticos, selecionar a linguagem principal e separar aprofundamento/versões alternativas em material de consulta. Diretriz válida para os dois fluxos visuais. Este registro não implementa botões, migra aulas publicadas ou ativa coleta; implementação e teste devem ser declarados por entrega.
 
 ## 4. AEE — quatro etapas da exposição
 Organizar as explicações e a proposta pedagógica nesta sequência:
@@ -401,6 +416,7 @@ Manter prática pedagógica, didática e currículo como foco. Não misturar pes
 Verificar:
 - Continuidade e horário com fonte identificada.
 - Texto realmente desenvolvido, com mecanismo, exemplos, referências e âncoras visuais.
+- Seção 3.1: leitura obrigatória curta, reformulações opcionais semanticamente equivalentes, sem empilhamento, com termos do componente e aplicação em novo exemplo.
 - AEE completa e integração ASA funcional.
 - Checklist da seção 6.1: associação visível, correspondência imagem–texto, sinais redundantes, retirada gradual de apoio e aplicação em novo exemplo; alternativas ao arraste e conferência em preto e branco.
 - Checklist da seção 6.2: linguagem temática fundamentada, função conceitual, coerência entre entregas, acesso preservado e transferência além do estilo.

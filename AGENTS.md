@@ -116,3 +116,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Cumprir seção 5.1 do prompt e consultar biblioteca-arquiteturas/estilos/README.md e o repertório do componente. Investigação é uma modalidade, não uma exigência de toda aula. Separar metodologia e fluxo visual.
 - Registrar espiral MACI, ponte interdisciplinar justificada, circuito personalizado e motivo da variação; 26 percursos não significam 26 perguntas investigativas.
 - Novas aulas devem integrar e testar coleta/metodologia.mjs conforme coleta/MONITORAMENTO_METODOLOGICO.md. Legados continuam válidos; registrar migração efetiva. Não inferir tédio ou eficácia de erros/cliques; revisão docente e dados privados.
+
+## Leitura breve e linguagens alternativas
+- Aplicar seção 3.1 do Prompt Mestre: uma explicação essencial curta por vez; oferecer reformulação direta, cotidiana/popular ou informal adolescente, exemplo e áudio opcionais, sem empilhar versões ou exigir sua leitura. Preservar significado, termos do componente, precisão e adequação à idade; gírias somente quando naturais e pertinentes.
+- Aprofundamento permanece acessível; não cumprir metas de palavras por volume. Manter alternativas curtas, retorno explicativo e aplicação em novo exemplo com apoio menor. Não impor cinco alternativas nem tratar versões equivalentes como distratores.
+- Registrar apoio realmente usado sem penalizar consulta ou inferir compreensão. Troca de linguagem preserva respostas/progresso; registro documental não migra aulas nem implementa controles.
