@@ -3,6 +3,12 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.24.0 — 30/10/2026 — Ruídos de fundo com seleção explicada e volume
+
+Pedido do professor: ruídos branco, rosa e outros devem ter controle de volume e seleção explicando cada opção. Criado painel comum com branco/rosa/marrom, características sonoras em texto/voz, volume independente 0–100%, início desligado, prioridade à voz/áudio, botão parar, silenciamento global e parada ao ocultar a aba. Percentual não é medida em dB e não comprova nível seguro. Sem indicação por diagnóstico ou promessa de concentração/terapia.
+
+Empacotamento incorpora o painel aos HTMLs cadastrados, em posição preservada nas páginas com conteúdo dinâmico. Registro de escolhas/eventos no relatório fullReport compatível, sem efeito na nota. Fontes técnicas e limites em publicacao/sons/README.md. Prompt, SSS, dois fluxos e catálogo reconciliados. Testes de navegador incluídos no workflow de publicação; o resultado remoto deve ser conferido antes de anunciar funcionamento publicado. Não verifica escuta/conforto reais nos dispositivos dos alunos.
+
 ## 2.23.0 — 29/10/2026 — Roteiros adaptativos e espiral MACI
 
 Pedido do professor: variar metodologias e circuitos por disciplina, com exposição por associações, relações, procedimentos e investigação conforme objetivo; conectar áreas em espiral e monitorar relatórios. Retirada a obrigação universal de investigar da ARN. Seção 5.1, plantas MACI/ARN, briefing, AGENTS e dois prompts reconciliados. Biblioteca com vinte repertórios iniciais próprios, sem afirmar templates implementados ou eficácia.

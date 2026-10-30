@@ -36,6 +36,9 @@ def main():
     image_learning.mkdir(parents=True, exist_ok=True)
     for name in ["conteudos.js", "cenas.js", "aplicar.js", "estilo.css"]:
         shutil.copyfile(ROOT / "publicacao" / "imagens" / name, image_learning / name)
+    sounds = OUT / "_recursos" / "sons"
+    sounds.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(ROOT / "publicacao/sons/painel.js", sounds / "painel.js")
     links = []
     destinations = set()
     for item in items:
@@ -79,6 +82,12 @@ def main():
                         learning += '<script defer src="' + prefix + name + '?v=1.0.0" data-image-learning data-learning-key="' + html.escape(item['destino'], quote=True) + '"></script>'
                     index = text.lower().rfind('</body>')
                     text = text[:index] + learning + text[index:] if index >= 0 else text + learning
+                    page.write_text(text, encoding='utf-8')
+                if page == dest / 'index.html' and 'data-background-noise' not in text:
+                    relative_sound = os.path.relpath(sounds / 'painel.js', page.parent).replace(os.sep, '/')
+                    tag_sound = '<script defer src="' + relative_sound + '?v=1.0.0" data-background-noise></script>'
+                    index = text.lower().rfind('</body>')
+                    text = text[:index] + tag_sound + text[index:] if index >= 0 else text + tag_sound
                     page.write_text(text, encoding='utf-8')
                 relative = os.path.relpath(reading / 'painel.js', page.parent).replace(os.sep, '/')
                 tag = '<script defer src="' + relative + '?v=1.0.1" data-reading-panel></script>'

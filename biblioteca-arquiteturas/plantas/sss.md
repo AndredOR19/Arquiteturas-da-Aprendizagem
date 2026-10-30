@@ -1,7 +1,7 @@
 # SSS — Sintaxe Sonora Semântica
 
 ID: `sss`  
-Versão desta planta: 1.0.0 — 28/10/2026  
+Versão desta planta: 1.1.0 — 30/10/2026  
 Status: diretriz documentada no projeto; eficácia empírica não declarada.  
 Camada: transversal  
 Autoria pedagógica: Prof. André de Oliveira Rodrigues.  
@@ -44,3 +44,7 @@ SSS significa Sintaxe Sonora Semântica neste projeto. Não usar a mesma sigla p
 
 Fonte primária documental deste registro: seções 5, 11 do prompt do projeto e histórico de 28/10/2026. Não converter a especificação autoral em comprovação científica. Fontes disciplinares e curriculares precisam ser consultadas para cada produção.
 
+
+## Sons de fundo opcionais — 30/10/2026
+
+Separar efeitos semânticos, narração e ruído contínuo. A seção 5.2 do Prompt Mestre 2.24.0 exige seleção explicada de branco/rosa/marrom, volume próprio e parada. Começar desligado, privilegiar voz/áudio, parar ao sair da aba, não retomar automaticamente. A descrição é sonora, sem prescrição por diagnóstico ou promessa de benefício. Percentual não é dB; orientar volume baixo. Implementação em publicacao/sons, testes no workflow; áudio real e conforto no Chromebook dependem de observação. Escolhas no relatório são ações declaradas pelo sistema, não prova de escuta/atenção.

@@ -91,6 +91,8 @@ jobs:
         run: node ferramentas/conferir-medidas.cjs
       - name: Conferir Português no layout de referência
         run: node ferramentas/conferir-portugues.cjs
+      - name: Conferir seleção, volume e parada dos ruídos de fundo
+        run: node ferramentas/conferir-sons.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

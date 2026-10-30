@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.23.0**
-Atualização: **29/10/2026**
+Versão vigente: **2.24.0**
+Atualização: **30/10/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -99,6 +99,15 @@ Registrar método principal/secundários, estilo e versão, fluxo visual, justif
 Espiral MACI: recuperar conceito anterior confirmado → retomá-lo em nova representação → estabelecer ponte justificada com outra área → aumentar a exigência da relação → aplicar com menos pistas → registrar evidência → planejar retorno. Não repetir o mesmo exercício com outra decoração; não afirmar que uma retomada planejada já foi aplicada. Registrar conceito, evidência anterior disponível, áreas/objeto da ponte, novidade, autonomia exigida, critério de checagem e próxima retomada. Nenhuma aula precisa reunir todas as disciplinas.
 
 Monitorar conforme [protocolo de metodologia](coleta/MONITORAMENTO_METODOLOGICO.md): vincular percepção declarada de repetição, interesse e ritmo aos circuitos, tentativas, pistas, recuperação e transferência, preservando contexto e ausências. Não inferir tédio, diagnóstico ou causalidade de erros, tempo ou abandono. Respostas sinceras e “não sei avaliar” são válidas e não afetam a nota. Ajustes são propostas para revisão docente; não alterar método durante a avaliação nem sobrescrever histórico. A extensão técnica é optativa para envelopes antigos; nas novas aulas produzidas sob esta diretriz, integrar e testar relatório textual/JSON, cópia, TXT e e-mail. Migração das aulas publicadas e coleta online ativa exigem verificação própria.
+
+### 5.2. Sons de fundo: seleção explicada e volume independente
+Decisão do Prof. André em 30/10/2026: oferecer ruídos branco, rosa e marrom com seletor, explicação visível e narrável, volume ajustável e botão de parar. Diferenciar ruído contínuo, voz da aula e efeitos de confirmação. O recurso é opcional, começa desligado e não exige diagnóstico.
+
+Explicações ao estudante: branco — chiado mais brilhante, com mais presença de agudos; rosa — menos agudos e maior presença relativa dos graves que o branco; marrom — ainda mais grave e profundo. Podem encobrir alguns sons do ambiente; preferência e efeito sobre concentração variam. Não atribuir a cada cor uma função clínica, benefício cognitivo garantido ou perfil diagnóstico. Silêncio é uma alternativa válida. Nomes indicam características sonoras; não são gravações naturais.
+
+Mostrar volume percentual independente, valor atualizado e orientação para começar baixo. Percentual do navegador não mede decibéis nem garante nível seguro nos fones. Não aumentar automaticamente. Só começar após ação explícita, manter pausa/parada acessível por teclado e toque; Silenciar tudo também interrompe o fundo. Silenciar o fundo durante narração e áudio da aula, inclusive arquivos de espanhol. Parar ao sair da aba e exigir novo acionamento para retomar; recarga não inicia áudio.
+
+Implementação compartilhada em publicacao/sons/painel.js, injetada no empacotamento dos HTMLs cadastrados. Não altera slides Gamma, arquivos baixados anteriormente ou páginas já abertas sem recarga. Gerar localmente sem arquivos externos ou coleta implícita. Registrar escolhas e ações locais no relatório quando houver função fullReport compatível, sem mudar nota/bloqueios; ausência de uso deve permanecer diferente de uso presumido. Cliques e valores configurados não comprovam escuta, conforto, atenção ou aprendizagem. Conferir geração de áudio, volume zero, troca de tipo, prioridade da voz, parada, teclado, celular, falta de suporte e preservação das respostas antes de declarar publicação.
 
 ## 6. SVS e âncoras visuais
 Manter a seguinte tabela semântica estável na aula:

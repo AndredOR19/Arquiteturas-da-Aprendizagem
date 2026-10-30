@@ -42,3 +42,5 @@ Mudar o fluxo em uma nova aula não prova melhora de aprendizagem. Revisar uma a
 
 ## Metodologia independente do visual
 Aplicar a seção 5.1 do Prompt Mestre e consultar [repertórios por componente](../biblioteca-arquiteturas/estilos/README.md). Este fluxo admite exposição por associações, comparação relacional, demonstração/procedimento, investigação e produção. Definir roteiro e espiral MACI antes das interações; personalizar circuitos. Integrar [monitoramento metodológico](../coleta/MONITORAMENTO_METODOLOGICO.md) ao relatório nas novas aulas. Não converter toda prática em pergunta investigativa.
+
+Sons de fundo: aplicar seção 5.2 do núcleo comum; seletor branco/rosa/marrom explicado, volume independente, parada e prioridade à voz. O som começa desligado e a preferência não define diagnóstico. Preservar apresentação deste fluxo.
