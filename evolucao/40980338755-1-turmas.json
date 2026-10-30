@@ -1,0 +1,14 @@
+{
+  "execucao": "40980338755",
+  "tentativa": "1",
+  "cenario": "turmas",
+  "commit_fonte": "3e4dd01173b9563828296c03385bf2e1f5e45796",
+  "pasta": "execucoes/40980338755-1-turmas",
+  "experimento": "b0a07947d3bf3f377e2ff5c0f6dc383843e4ec017ca6cdc1f2233a9b18d15058",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": []
+  }
+}
