@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0.0",
+  "fontes_gerais_sha256": {
+    "biblioteca-arquiteturas/catalogo.json": "cb828f5802c708184849482a4d9d2d72de8f0d7823fc4ea6f36fe9874af572ff",
+    "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
+    "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
+    "PROMPT_MESTRE_AULAS_DIGITAIS.md": "c2a869fdcd1aa91756d24b8fcbb94044aecd0d89c681d51b52d562b31f9300ea",
+    "pesquisa/registros.json": "b4bee320cc3537192fd2db8a04e5b89427c0ee608199275ec6a3c55e6df757ab",
+    "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
+  },
+  "arquiteturas": [
+    {
+      "id": "aee",
+      "nome": "AEE — Arquitetura de Exposição Explicativa",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/aee.md": "37211214c9c10a907e1c1fef8ef35031e6f410d88ae06f77302a482dc9c52791"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "d43a67379be5063f4e83e9b75d17807f10d62092babcd43a112181a980991089"
+    },
+    {
+      "id": "maci",
+      "nome": "MACI — conexões, retomadas e complexificação",
+      "dominio": "pedagogico",
+      "versao_documental": "1.1.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/maci.md": "bfbe09df86d39c411623af9ebd904f8b5d834830e759b274192f911621ad0bed"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "6b9150c0c0bb6e8b16cbf5060af5c28f76a34b6c68a837f7b027b6d32878f925"
+    },
+    {
+      "id": "arn",
+      "nome": "ARN — percursos com sentido e retorno ao conceito",
+      "dominio": "pedagogico",
+      "versao_documental": "1.1.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/arn.md": "e5bd112551413a05343818758cd617a966c08bf0a1c968b6fe45534743ec3dbb"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "abc6d480dc645ccb2113755c39bdf047aa99331cc007af225ece34c4396f331b"
+    },
+    {
+      "id": "svs",
+      "nome": "SVS — Sintaxe Visual Semântica",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/svs.md": "5388dbbc7af102d8378390245b26b1872e14a9bb18308d58cbc21902c71e3e0c"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "e045bd4f94d9354b2f80ada57d6ed0b9ef0ba4bc724f84f5c67a2381882a3dec"
+    },
+    {
+      "id": "epc",
+      "nome": "EPC — Experiência Perceptível de Compreensão",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/epc.md": "738114ed7a8e66d86be691b763bec46e0b5313b6f46f3ba00e17b94530d20b08"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "17e5c502ed3d88d1f81e8a368383359fac544f130162708b01ce3834c0bf46bd"
+    },
+    {
+      "id": "sss",
+      "nome": "SSS — Sintaxe Sonora Semântica",
+      "dominio": "pedagogico",
+      "versao_documental": "1.1.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/sss.md": "cd66777cce68fe048e24a818661fff7b241052bfd62357c131bbae6eeee4b260"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "e9c473dd285803ec437f22abb3e4e3cfa694527a528844b210e3fd8b11483942"
+    },
+    {
+      "id": "asa",
+      "nome": "ASA — Arquiteturas Sensoriais da Aprendizagem",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/asa.md": "dd41a4683a68c1aeeabfadad65e430f256b25f1a5c31893d15891f498d32c500"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "7c006054980c8ea3dc59f8c482e4f71b1aae9bbe27893940bf0a2575d2b7b91f"
+    },
+    {
+      "id": "associacoes",
+      "nome": "Arquitetura das Associações",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/associacoes.md": "bd15aaff4918ae81cc20b306268da29e093131178b3ead0a8bfb394df1526078"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "841b8a4d31df58f29f77fb43940cb39cd7f2b83780d4908027726b7cf862f30e"
+    },
+    {
+      "id": "aies",
+      "nome": "AIES — Arquitetura de Integração Estético-Semântica",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.1",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/aies.md": "0c6e4aaa9278c5524f41080f92af0149725caa03548c3de8a43a3c3c10c5ed72"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "a2a18c481d5250bdba763041fd4af689aaaed643c218bc9a5e02ca2ad278c75a"
+    },
+    {
+      "id": "autoaprendizagem",
+      "nome": "Organização do pensamento e autoaprendizagem",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/autoaprendizagem.md": "e1ecf4c310cc08190828c09dfaa38fbc73218acbfe54b01805a88b4e0c391d76"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "8911652091a046647db278b006325a68ba0f079dee8ccea8aaa33aa5a3130c14"
+    },
+    {
+      "id": "matematica",
+      "nome": "Matemática por Dentro",
+      "dominio": "pedagogico",
+      "versao_documental": "0.1.0",
+      "estado_documental": "proposta_em_desenvolvimento",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/disciplinas/matematica.md": "99a41131784aa8cefd6b545164098a021ad0a5602fa95c32c7b0f1011d1e031c"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "27f76db7169dc29d6e10d2a566517bdd77e4dc5a8527cbe63be0731f9910ccb3"
+    },
+    {
+      "id": "arte",
+      "nome": "Arte — linguagem, interpretação e produção",
+      "dominio": "pedagogico",
+      "versao_documental": "0.1.0",
+      "estado_documental": "roteiro_inicial",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/disciplinas/arte.md": "10a31627d9f3aded397e1d7c96e362525d364ae10200c1306600b2e4b2b6a03c"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "3616111cbc26b76c3593fa735a952f655e00aa1ed24916ce1d92654c18a0a010"
+    },
+    {
+      "id": "convivencia-cientifica",
+      "nome": "Convivência científica",
+      "dominio": "pedagogico",
+      "versao_documental": "0.0.0",
+      "estado_documental": "aguardando_fonte",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/PENDENCIAS.md": "900ad88db9db98919a708ac3190030b92452f56cab3ee03305482ae507e73ad1"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "db7ddcd75bc62b186c4970ba4e1725c507511a8f27f25a727a375afca6995153"
+    },
+    {
+      "id": "sintese-sistemica-semantica",
+      "nome": "Síntese Sistêmica Semântica",
+      "dominio": "pedagogico",
+      "versao_documental": "0.0.0",
+      "estado_documental": "aguardando_fonte",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/PENDENCIAS.md": "900ad88db9db98919a708ac3190030b92452f56cab3ee03305482ae507e73ad1"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "03b90f17d73989b1ee7f82f0b0b9981ab326cf97a7008d76473f412f8ec3e62f"
+    },
+    {
+      "id": "leitura-acessivel",
+      "nome": "Acessibilidade de leitura e preferências tipográficas",
+      "dominio": "pedagogico",
+      "versao_documental": "1.1.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/leitura-acessivel.md": "116c1a9e6e85e160a830ae2321b5dcff97cffc1345ff37bda79e2fa048f6b489"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "7528bcba2e42efb89ee0d9c3eaa9f52017900a1828c2eab592eb6c237b92514c"
+    },
+    {
+      "id": "avaliacao-experiencia",
+      "nome": "Avaliação da experiência e devolutiva no relatório",
+      "dominio": "pedagogico",
+      "versao_documental": "1.1.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/avaliacao-experiencia.md": "74e56c9411bb1cb7518cadd574afe5c5c4475b668e1310cd1dc0d34c72db89e4"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "4f2cd7ead0c9485c6474be752e9b692efbacaabc153fa0b8202ed01ab9e6faa3"
+    },
+    {
+      "id": "ritmo-progressao",
+      "nome": "Progressão coordenada por alternâncias",
+      "dominio": "pedagogico",
+      "versao_documental": "0.1.0",
+      "estado_documental": "proposta_em_desenvolvimento",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/ritmo-progressao.md": "4574aaf3f9c4875ecfc560b70a3dd9d4645f7d55aa94bf3922f13fc1b0afbd9e"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "3ce15a320a548effc4276b499db9ac53610f291ef0c4faa82853c1729fd6cf3c"
+    },
+    {
+      "id": "cadencia-textual",
+      "nome": "Cadência textual e alternância semântica",
+      "dominio": "pedagogico",
+      "versao_documental": "0.1.0",
+      "estado_documental": "proposta_em_desenvolvimento",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/cadencia-textual.md": "fdbf5f88c86c66aad2a466ee4a7f8ee3359b99e5d195272bf0223c7bd4e524aa"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "e4ba6e8bf4ed359706f5019117a8474e23b9ff3e91cd7ac49ba557ff3809853c"
+    },
+    {
+      "id": "imagens-voz-palavra",
+      "nome": "Arquitetura de Acesso por Imagens, Voz e Palavra",
+      "dominio": "pedagogico",
+      "versao_documental": "1.0.0",
+      "estado_documental": "diretriz_documentada",
+      "fontes_sha256": {
+        "biblioteca-arquiteturas/plantas/imagens-voz-palavra.md": "3bc7209a4ab699b1128cd7a378ce2e83848dabbe54bf8095c9960184527df72b"
+      },
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [
+        "planejamento-individual",
+        "planejamento-turmas"
+      ],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "3118bd192de1f664d764160b4b3b0e1f909d31dfb8a76726ce0619306683721b"
+    },
+    {
+      "id": "cabala",
+      "nome": "Arquiteturas da Cabala a formalizar pelo autor",
+      "dominio": "simbolico_filosofico",
+      "versao_documental": "0.0.0",
+      "estado_documental": "aguardando_fonte_e_formalizacao",
+      "fontes_sha256": {},
+      "estado_modelagem": "aguardando_formalizacao",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "revisao_sha256": "a9a8c7cfd09673e65f40a3f6092bc4da18495b97769ce9ea4734dbc4842502d3"
+    },
+    {
+      "id": "simulacoes-quanticas",
+      "nome": "Arquitetura de simulação de circuitos quânticos ideais",
+      "dominio": "formal",
+      "versao_documental": "0.1.0",
+      "estado_documental": "implementado_com_testes_formais",
+      "fontes_sha256": {
+        "pesquisa/simulacoes/ARQUITETURA_SIMULACOES.md": "0d1adad83ac101d088739edac075d4e9b735ef9fef676db0587d588c978e1961",
+        "pesquisa/simulacoes/quantico.py": "7538ad8713b6a2aa8b69f4527353ce67c1aa5ff7d6c2cefeb0a6b7f3e9036135"
+      },
+      "estado_modelagem": "modelo_formal_implementado_testes_proprios",
+      "modulos_mecanisticos": [],
+      "modulos_de_apoio": [],
+      "calibracao_empirica": false,
+      "validacao_empirica": false,
+      "modulos_formais": [
+        "quantico-ideal"
+      ],
+      "revisao_sha256": "988b834113b1bbcfa190138a3badb7f8d6a309f664d94307f641aeed5f9475a3"
+    }
+  ],
+  "modulos": [
+    {
+      "id": "planejamento-individual",
+      "cenario": "individuos",
+      "implementado": true,
+      "tipo": "planejamento_estatistico",
+      "calibracao_empirica": false,
+      "valida_mecanismo_da_arquitetura": false
+    },
+    {
+      "id": "planejamento-turmas",
+      "cenario": "turmas",
+      "implementado": true,
+      "tipo": "planejamento_estatistico",
+      "calibracao_empirica": false,
+      "valida_mecanismo_da_arquitetura": false
+    }
+  ],
+  "nota": "Inventário e cobertura; documentação, execução computacional e validação são estados distintos."
+}
