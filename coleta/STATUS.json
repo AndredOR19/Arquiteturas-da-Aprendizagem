@@ -19,5 +19,6 @@
     "aulas_migradas": [],
     "teste_real_navegador": false,
     "importacao_sqlite_implementada": false
-  }
+  },
+  "supabase_status": "coleta/supabase/STATUS.json"
 }

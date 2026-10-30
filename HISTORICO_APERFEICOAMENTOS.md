@@ -3,6 +3,14 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.26.0 — 30/10/2026 — Base privada Supabase e identificação de entrada
+
+Pedido do Prof. André: conferir monitoramento real e automatizar organização/coleta por aluno, turma, professor e escola. Confirmado: aulas consultadas salvam localmente; Apps Script/n8n não implantados, nenhum endpoint ativo. Projeto Supabase existente Arquiteturas da Aprendizagem encontrado ativo, sem tabelas de aplicação ou Edge Functions. Criada base privada educacional 0.1.0 com onze tabelas, identidade/matrícula anual, vínculos institucionais, aulas, sessões, eventos, relatórios e hashes de convites. Migração remota 20261030173315; nenhum dado real inserido.
+
+Seção 13.3 e entrada identificada na seção 2 orientam migrações futuras, sem afirmar controle implementado no legado. Duração/visibilidade não comprovam atenção; quantidade obrigatória/denominador não mudam durante a aula. Fonte SQL, teste transacional e estado em coleta/supabase. Catálogo 1.5.3 reconciliado. STATUS Google permanece preparado, com referência separada ao novo banco.
+
+Verificação real: BASE_PRIVADA_OK em transação revertida; escola incompatível, duplicação, relatório incompleto/sem confirmação e acesso anon/authenticated recusados; nota calculada. RLS nas onze tabelas; zero alunos/escolas/eventos/relatórios após teste. Advisors com INFO de negação por ausência de policies e índices novos sem uso, documentados. Ainda faltam receptor, autorização/entrada, integração de aulas/fila/recibo, tempo e painel docente. Coleta automática permanece inativa; nenhuma aula publicada foi alterada.
+
 ## 2.25.0 — 30/10/2026 — Menos leitura e linguagens alternativas
 
 Origem/autoria: Prof. André de Oliveira Rodrigues relatou que os alunos estão achando muita coisa para ler e propôs explicar as mesmas ideias em linguagem popular, adolescente e com gírias. Síntese operacional do assistente, autorizada para registro: explicação essencial curta, reformulações opcionais, exemplo/áudio e aprofundamento acessível, sem apresentar todas as versões simultaneamente. Preservar significado, relações e ponte com termos curriculares, sem linguagem forçada ou infantilização.

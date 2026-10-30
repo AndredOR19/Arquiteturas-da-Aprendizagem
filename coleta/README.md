@@ -2,6 +2,10 @@
 
 Versão do coletor: 1.0.0. Data: 28/10/2026. Responsável pedagógico: Prof. André de Oliveira Rodrigues.
 
+## Supabase — frente separada de 30/10/2026
+
+A [base privada Supabase](supabase/README.md) foi criada e testada; receptor e integração de aulas ainda pendentes. Consulte [STATUS Supabase](supabase/STATUS.json). Isso não implanta o coletor Google descrito abaixo nem ativa coleta automática.
+
 ## Estado
 A planilha nativa foi criada na conta pessoal escolhida pelo professor e sua permissão privada foi conferida. O receptor, o contrato de dados, o cliente e os testes estão preparados. **O serviço ainda não está publicado; não existe endpoint de coleta ativo nesta entrega.** Nenhuma aula existente foi alterada para transmitir dados. Consulte [VERIFICACAO.md](VERIFICACAO.md) e [STATUS.json](STATUS.json).
 

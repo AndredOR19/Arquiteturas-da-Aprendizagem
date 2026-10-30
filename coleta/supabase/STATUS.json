@@ -1,0 +1,34 @@
+{
+  "versao": "0.1.0",
+  "verificado_em": "2026-10-30",
+  "projeto": "Arquiteturas da Aprendizagem",
+  "project_id": "ifyiarwygywoexsflfsx",
+  "schema": "educacional",
+  "migration_version": "20261030173315",
+  "migration_name": "base_privada_coleta_educacional_v010",
+  "base_criada": true,
+  "tabelas": 11,
+  "rls_em_todas": true,
+  "acesso_cliente": "negado_por_padrao",
+  "teste_sql_real": "BASE_PRIVADA_OK; transacao ficticia revertida",
+  "dados_reais_inseridos": false,
+  "receptor_implantado": false,
+  "entrada_identificada_implementada": false,
+  "aulas_migradas": [],
+  "painel_professor_implementado": false,
+  "coleta_automatica_ativa": false,
+  "teste_ponta_a_ponta_navegador": false,
+  "advisors": {
+    "security": "11 avisos INFO RLS sem policies: negacao intencional nesta base sem acesso cliente",
+    "performance": "8 avisos INFO de indices sem uso: base nova sem dados"
+  },
+  "pendencias": [
+    "Autenticacao/autorizacao docente e emissao de acessos individuais",
+    "Receptor autenticado com validacao, idempotencia e recibo",
+    "Entrada identificada, fila local e envio automatico nas aulas",
+    "Medidor de duracao e visibilidade com limites explicitos",
+    "Relatorio final condicionado a completude e confirmacao",
+    "Painel docente com filtros e exportacao",
+    "Teste real navegador-servidor-banco e isolamento entre escolas"
+  ]
+}
