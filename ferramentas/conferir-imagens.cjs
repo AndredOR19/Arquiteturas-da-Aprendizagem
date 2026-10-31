@@ -17,6 +17,11 @@ process.on('exit',()=>srv.kill());
     window.SpeechSynthesisUtterance=class{constructor(text){this.text=text}};
    });
    await p.goto('http://127.0.0.1:8788/'+item.destino+'/');
+   if(item.coleta==='supabase-identificada'){
+    if(!await p.locator('#entrada-coleta').isVisible()||await p.locator('#aula-conteudo').isVisible())throw Error('Entrada identificada não bloqueia conteúdo');
+    if(await p.locator('#image-learning-open').isVisible())throw Error('Apoio acessível antes da identificação');
+    await p.close();continue; // Apoio após identificação: ensaio específico do piloto.
+   }
    await p.waitForSelector('#image-learning-open').catch(e=>{throw Error(item.destino+' | '+errors.join(';')+' | '+e.message)});
    if(await p.locator('#image-learning-open').count()!==1)throw Error('Entrada duplicada');
    await p.locator('#image-learning-open').focus();await p.keyboard.press('Enter');

@@ -166,7 +166,7 @@ function instalarColeta(){
   await sincronizar();if(ocupado){status('Aguarde o envio em andamento antes de encerrar.');return;}
   if(fila.length||pendenteFinal||(resultReady()&&fingerprint()!==ultimoFingerprint)){status('Ainda há dados pendentes. Sincronize ou baixe o relatório antes de sair.');if(!confirm('Há dados sem confirmação. Encerrar apagará as pendências desta aba. Deseja encerrar mesmo assim?'))return;}
   else if(!confirm('Encerrar seu acesso e apagar os dados temporários desta aba? Os dados recebidos permanecem com o professor.'))return;
-  parado=true;clearInterval(intervalo);stop();resetting=true;sessionStorage.removeItem(key);sessionStorage.removeItem(k);fila=[];pendenteFinal=null;location.reload();
+  parado=true;clearInterval(intervalo);stop();resetting=true;sessionStorage.removeItem(key);sessionStorage.removeItem(k);sessionStorage.removeItem('aa:imagens:1:aulas/29-10-2026-historia-192:'+sessao.sessao_id);fila=[];pendenteFinal=null;location.reload();
  });
  void sincronizar();
 }

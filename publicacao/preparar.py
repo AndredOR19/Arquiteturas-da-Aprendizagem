@@ -79,7 +79,7 @@ def main():
                     prefix = os.path.relpath(image_learning, page.parent).replace(os.sep, '/') + '/'
                     learning = '<link rel="stylesheet" href="' + prefix + 'estilo.css?v=1.0.0">'
                     for name in ['conteudos.js', 'cenas.js', 'aplicar.js']:
-                        learning += '<script defer src="' + prefix + name + '?v=1.0.0" data-image-learning data-learning-key="' + html.escape(item['destino'], quote=True) + '"></script>'
+                        learning += '<script defer src="' + prefix + name + '?v=1.0.1" data-image-learning data-learning-key="' + html.escape(item.get('apoio_imagens', item['destino']), quote=True) + '"></script>'
                     index = text.lower().rfind('</body>')
                     text = text[:index] + learning + text[index:] if index >= 0 else text + learning
                     page.write_text(text, encoding='utf-8')

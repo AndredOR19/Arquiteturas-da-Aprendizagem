@@ -142,7 +142,8 @@
       "destino": "aulas/piloto-coleta-historia-192",
       "titulo": "Piloto de coleta identificada — História 192",
       "versao": "0.2.0",
-      "coleta": "supabase-identificada"
+      "coleta": "supabase-identificada",
+      "apoio_imagens": "aulas/29-10-2026-historia-192"
     }
   ]
 }

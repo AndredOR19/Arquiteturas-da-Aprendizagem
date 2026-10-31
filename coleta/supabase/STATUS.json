@@ -19,19 +19,30 @@
   ],
   "painel_professor_implementado": false,
   "coleta_automatica_ativa": false,
-  "teste_ponta_a_ponta_navegador": false,
+  "teste_ponta_a_ponta_navegador": true,
   "advisors": {
     "security": "12 INFO RLS sem policies: negação intencional do acesso direto",
     "performance": "8 avisos INFO de indices sem uso: base nova sem dados"
   },
   "pendencias": [
-    "Conferência de navegador e publicação do piloto",
     "Lista nominal real conferida e acessos individuais",
     "Teste no Chromebook físico da escola",
     "Painel docente autenticado com filtros e exportação",
     "Medidor detalhado de duração e tratamento de abas sobrepostas"
   ],
   "endpoint": "https://ifyiarwygywoexsflfsx.supabase.co/functions/v1/coleta-educacional",
-  "coleta_automatica_estado": "receptor_ativo_piloto_aguardando_cadastro_real",
-  "teste_http_real": "entrada_evento_relatorio_reenvio_confirmados_com_dados_ficticios"
+  "coleta_automatica_estado": "piloto_validado_aguardando_cadastro_nominal_real",
+  "teste_http_real": "entrada_evento_relatorio_reenvio_confirmados_com_dados_ficticios",
+  "migration_receptor_version": "20261031103339",
+  "migration_receptor_name": "receptor_identificado_v020",
+  "teste_browser_real": {
+    "ambiente": "teste",
+    "eventos": 56,
+    "percursos": 26,
+    "primeiros_acertos": 25,
+    "nota_indicador": "9.6",
+    "questionario_confirmado": true,
+    "relatorio_integral_confirmado": true,
+    "fixtures_removidos": true
+  }
 }

@@ -1,10 +1,11 @@
 (function(){
 'use strict';
 const script=document.currentScript;
+function iniciar(){
 const aula=script?.dataset.learningKey;
 const cfg=window.ImageLearningContents?.[aula];
 if(!cfg||document.getElementById('image-learning'))return;
-const key='aa:imagens:1:'+aula;
+const key='aa:imagens:1:'+aula+(window.ColetaEntrada?.sessao?':'+window.ColetaEntrada.sessao.sessao_id:'');
 const fresh=()=>({versao:'1.0.0',vistos:[],tentativas:[],pistas:[],audios_solicitados:[],completos:[],limite:false});
 let vozPedido=0;
 let state=fresh(),somDisponivel=typeof window.speechSynthesis?.speak==='function'&&typeof window.SpeechSynthesisUtterance==='function';
@@ -123,4 +124,6 @@ if(!attachReport()){let tries=0;const timer=setInterval(()=>{if(attachReport()||
 document.addEventListener('click',e=>{if(['mute','stopVoice'].includes(e.target.id))vozPedido++;});
 window.addEventListener('pagehide',()=>{vozPedido++;window.speechSynthesis?.cancel();});
 observe();
+}
+if(window.ColetaEntrada)window.ColetaEntrada.ready.then(iniciar);else iniciar();
 })();

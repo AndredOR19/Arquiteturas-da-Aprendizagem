@@ -8,7 +8,7 @@ Receptor `coleta-educacional` implantado no projeto existente, cuja organizaçã
 
 Piloto separado [História 192](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/piloto-coleta-historia-192/): escola, aluno, matéria e turma obrigatórios antes da abertura, com convite individual conferido no servidor. A entrada depende de rede; após entrar, falha no envio mantém pendências nesta aba e nunca confirma recebimento fictício. As aulas antigas continuam locais/e-mail; não foram migradas. Consulta e exportação docente pelo painel ainda não implementadas.
 
-Teste HTTP real recebeu sessão/evento/relatório fictícios, sem duplicação no reenvio; ver [VERIFICACAO](VERIFICACAO.md) e [STATUS](STATUS.json) para navegador e publicação. Cadastro dos alunos reais continua pendente. Não há recuperação retrospectiva automática.
+Teste HTTP e teste de navegador → receptor → banco receberam dados fictícios com recibo. Readback confirmou 56 eventos, 26 percursos e relatório integral; fixtures foram removidos. Ver [VERIFICACAO](VERIFICACAO.md) e [STATUS](STATUS.json) para navegador e publicação. Cadastro dos alunos reais continua pendente. Não há recuperação retrospectiva automática.
 
 ## Cadastro e uso do piloto
 
