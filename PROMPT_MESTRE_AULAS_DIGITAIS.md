@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.28.0**
+Versão vigente: **2.29.0**
 Atualização: **31/10/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -414,11 +414,20 @@ Decisões de 31/10/2026: portal público organizado por ano letivo, série, turm
 
 Área docente planejada em docentes/README.md e PROTOCOLO_IA.md. Aluno mantém identidade; matrícula registra escola/ano/série/turma. Professor mantém identidade; atribuição registra escola/ano/turma/componente. A mudança para 2027 cria vínculos novos e preserva 2026, sem promoção, regência ou permissão automática. Cadastro deve solicitar vínculo, cuja liberação é conferida por responsável autorizado; nome de escola e metadados editáveis do cliente não concedem acesso.
 
-IA do professor poderá mediar importação privada de chamada, ementa, planos e calendário escolar: extrair → validar duplicações/identidade/ano → apresentar prévia → professor confirmar → persistir com hash e versão. Homônimos e vínculos ambíguos ficam pendentes; não usar nome como chave. Acesso ao GitHub fornece normas/modelos, não autorização para dados pessoais. Integração docente autenticada ainda precisa ser implementada. Nunca publicar chamada, notas, preferências nominais, observações ou planos reservados no Git público.
+IA do professor poderá mediar importação privada de chamada, ementa, planos e calendário escolar: extrair → validar duplicações/identidade/ano → apresentar prévia → professor confirmar → persistir com hash e versão. Homônimos e vínculos ambíguos ficam pendentes; não usar nome como chave. Acesso ao GitHub fornece normas/modelos, não autorização para dados pessoais. O painel inicial autenticado está implementado; integração direta de IA com escopo delegado ainda precisa ser implementada. Nunca publicar chamada, notas, preferências nominais, observações ou planos reservados no Git público.
 
 Comparar cronograma ao calendário e à aplicação confirmados. Ausência de registro é “aplicação não confirmada”, não falta nem aula não dada. IA pode propor deslocamento, junção compatível ou mudança de ritmo; explicar objetivos, pré-requisitos e avaliação preservados, aguardar confirmação docente e guardar revisão anterior. Não mudar critérios de uma realização em andamento. Avisos exigem implementação, agendamento e canal autorizados; nenhum foi ativado nesta etapa.
 
-Gráficos futuros devem separar participação, primeira resposta/recuperação, apoios e percepção; apresentar denominador, versão e origem. Fonte selecionada, renderizada e conforto declarado são dados distintos. Padrões descritivos podem apoiar mediação; não inferir diagnóstico, atenção ou eficácia causal. O piloto atual guarda preferências finais e avaliação; histórico de cada alteração de fonte e análises de tendências exigem instrumentação adicional, não presumida. Consultar STATUS da extensão docente: base privada criada/testada não significa login, painel ou importação disponíveis.
+Gráficos futuros devem separar participação, primeira resposta/recuperação, apoios e percepção; apresentar denominador, versão e origem. Fonte selecionada, renderizada e conforto declarado são dados distintos. Padrões descritivos podem apoiar mediação; não inferir diagnóstico, atenção ou eficácia causal. O piloto atual guarda preferências finais e avaliação; histórico de cada alteração de fonte e análises de tendências exigem instrumentação adicional, não presumida. Consultar STATUS da extensão docente: cada recurso deve ser conferido no STATUS; base criada, interface, importação e integração direta de IA são etapas distintas.
+
+### 13.5. Execução registrada, painel docente e revisão humana
+Decisão de 31/10/2026: a primeira tentativa válida de produção recebida, ou relatório final válido, registra a aula como dada por execução de estudante, com origem e horário de recebimento no servidor. Abertura/entrada sozinha não marca; teste não marca; registro anterior não é sobrescrito. Isso não declara que todos concluíram nem comprova aula presencial no horário previsto. Estados por aluno e participantes esperados permanecem separados; ausência de recibo não vira nota zero/falta.
+
+Área docente inicial em docentes/area: acesso autenticado no Supabase Auth por e-mail autorizado e convite administrativo, com escopo privado aprovado por escola/ano/turma/componente. Gestor monitora escola/ano; edição exige atribuição docente ativa. Colaboração GitHub dá acesso ao código, não a registros de alunos; e-mail educar ou da conta de IA não autoriza por domínio. Aprovação de e-mail/escopo fica privada; nenhuma autorização real foi emitida automaticamente.
+
+Permitir importar chamada CSV com prévia e confirmação; manter identidade estável, matrícula anual, conflitos/homônimos para revisão e transação sem duplicação. A IA pode preparar o CSV em ambiente autorizado; integração direta de IA com o banco continua pendente e não usa chaves administrativas compartilhadas.
+
+Tabela de impressão separa indicador do cliente, nota docente revisada e ausência de dado. Parecer é rascunho por regras e registros disponíveis, editável, versionado e confirmado pelo professor antes da emissão. Não diagnosticar, inventar participação ou enviar automaticamente para terceiros. Gráfico inicial mostra contagens por aluno/aula no recorte; calendário/ementa por upload, avisos e tendências longitudinais seguem em preparação. Conferir STATUS antes de anunciar recurso ativo.
 
 ## 14. Materiais do professor e segurança de acesso
 Guia docente, orientações “como explicar”, gabarito consolidado e planos exclusivos do professor devem ser separados do material discente.
@@ -674,3 +683,7 @@ Aplicar a diretriz a todos os suportes de produção: HTML, apresentações, doc
 
 
 
+
+
+### Ativação docente por convite administrativo
+O SMTP padrão do Supabase é voltado a testes. A rota gratuita de ativação usa e-mail/escopo aprovados e segredo individual entregue por canal privado confirmado pelo responsável. Guardar somente hash/uso/validade; criar a conta Auth confirmada no servidor, com senha própria definida pelo professor. Essa confirmação decorre do convite administrativo, não comprova verificação independente da caixa postal. Não desabilitar confirmação global, reutilizar senha do educar/IA/GitHub, publicar convites ou trocar senha existente por ativação. Gestão escolar e docentes continuam limitados aos vínculos anuais autorizados.

@@ -29,6 +29,7 @@ for(const a of data.alunos){
   IF (SELECT nome FROM educacional.alunos WHERE id=aluno)<>${q(a.nome.trim())} THEN RAISE EXCEPTION 'Identidade existente divergente'; END IF;
   INSERT INTO educacional.matriculas(aluno_id,escola_id,turma_id,ano_letivo,codigo_interno,confirmada_em,fonte_confirmacao) VALUES(aluno,aula.escola_id,aula.turma_id,aula.ano_letivo,${q(a.codigo)},now(),'Lista conferida pelo professor') RETURNING * INTO mat;
  END IF;
+ INSERT INTO educacional.participantes_aula(escola_id,turma_id,ano_letivo,aula_id,matricula_id,confirmado_por) VALUES(aula.escola_id,aula.turma_id,aula.ano_letivo,aula.id,mat.id,aula.professor_id) ON CONFLICT(aula_id,matricula_id) DO NOTHING;
  INSERT INTO educacional.convites(escola_id,turma_id,ano_letivo,aula_id,matricula_id,segredo_sha256,expira_em,ambiente) VALUES(aula.escola_id,aula.turma_id,aula.ano_letivo,aula.id,mat.id,${q(hash)},${q(data.expira_em)},'producao');
  END ${delim};\n`;
  access.push({nome:a.nome.trim(),codigo:a.codigo,acesso:token});

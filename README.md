@@ -4,7 +4,7 @@ Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: promp
 
 ## Escola de caminhos — portal e continuidade anual
 
-[Portal público](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/) com busca e filtros por ano letivo, série, turma, matéria e escola, mantendo os links das aulas. A coleção de treinamento reúne os laboratórios disponíveis, sem inventar novos materiais. [Docentes e IAs](docentes/README.md): modelo anual de matrícula/atribuição, chamada e calendário privados, planejamento versionado e mediação pelo professor. Base docente implantada e testada; login, painel, importação pela IA e avisos ainda pendentes.
+[Portal público](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/) com busca e filtros por ano letivo, série, turma, matéria e escola, mantendo os links das aulas. A coleção de treinamento reúne os laboratórios disponíveis, sem inventar novos materiais. [Docentes e IAs](docentes/README.md): modelo anual de matrícula/atribuição, chamada e calendário privados, planejamento versionado e mediação pelo professor. Base docente e painel inicial implementados: login por e-mail verificado, autorização anual, chamada CSV com prévia, monitoramento por escola/professor, impressão, parecer e nota revisáveis. Integração direta com IA, calendário/ementa por upload e avisos ainda pendentes.
 
 ## Coleta identificada — piloto Supabase
 

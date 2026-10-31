@@ -113,6 +113,10 @@ def main():
         if not (dest / 'index.html').is_file():
             raise ValueError('HTML final ausente.')
         links.append('<li><a href="' + html.escape(item['destino'], quote=True) + '/">' + html.escape(item['titulo']) + '</a></li>')
+    teacher_area = OUT / "docentes/area"
+    teacher_area.mkdir(parents=True, exist_ok=True)
+    for name in ["index.html", "area.css", "area.js", "config.js"]:
+        shutil.copyfile(ROOT / "docentes/area" / name, teacher_area / name)
     preparar_portal(ROOT, OUT, items)
     (OUT / '.nojekyll').touch()
     print('Materiais públicos preparados:', len(items))

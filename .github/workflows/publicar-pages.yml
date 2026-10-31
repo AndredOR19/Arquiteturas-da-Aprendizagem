@@ -42,6 +42,8 @@ jobs:
           node ferramentas/conferir-slides.cjs
       - name: Conferir portal e organização do acervo
         run: node ferramentas/conferir-portal.cjs
+      - name: Conferir área docente com serviço simulado
+        run: node ferramentas/conferir-area-docente.cjs
       - name: Conferir laboratório Conectar e investigar
         timeout-minutes: 5
         run: node ferramentas/conferir-conectar.cjs

@@ -7,7 +7,7 @@
   "migration_version": "20261030173315",
   "migration_name": "base_privada_coleta_educacional_v010",
   "base_criada": true,
-  "tabelas": 21,
+  "tabelas": 23,
   "rls_em_todas": true,
   "acesso_cliente": "negado_por_padrao",
   "teste_sql_real": "BASE_PRIVADA_OK; transacao ficticia revertida",
@@ -17,18 +17,19 @@
   "aulas_migradas": [
     "aulas/piloto-coleta-historia-192"
   ],
-  "painel_professor_implementado": false,
+  "painel_professor_implementado": true,
   "coleta_automatica_ativa": false,
   "teste_ponta_a_ponta_navegador": true,
   "advisors": {
-    "security": "21 INFO de RLS sem policies: negação intencional do acesso direto; conferir estado da extensão docente",
+    "security": "23 tabelas com RLS; INFO de ausência de policies intencional; WARN Auth sobre proteção contra senhas vazadas, ver extensão docente",
     "performance": "Somente INFO de índices sem uso; índices de cobertura da extensão docente conferidos em 31/10/2026"
   },
   "pendencias": [
     "Lista nominal real conferida e acessos individuais",
+    "Autorizar e-mails docentes e gestão por escopo anual",
     "Teste no Chromebook físico da escola",
-    "Painel docente autenticado com filtros e exportação",
-    "Medidor detalhado de duração e tratamento de abas sobrepostas"
+    "Integração IA, calendário/ementa e avisos",
+    "Medidor detalhado de duração e preferências longitudinais"
   ],
   "endpoint": "https://ifyiarwygywoexsflfsx.supabase.co/functions/v1/coleta-educacional",
   "coleta_automatica_estado": "piloto_validado_aguardando_cadastro_nominal_real",

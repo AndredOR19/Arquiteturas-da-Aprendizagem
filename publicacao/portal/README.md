@@ -8,4 +8,4 @@ Página inicial gerada de `publicacao/catalogo.json`: menu, busca, ordenação, 
 
 `python publicacao/portal/gerar.py` atualiza `index.html` da raiz e `acervo.json` de fonte. `publicacao/preparar.py` gera a mesma página final em `_site`, com recursos em `_recursos/portal`. Conferir com `node ferramentas/conferir-portal.cjs`. O teste abrange todos os materiais, links, filtros, vazio, busca, URL, menu e celular. A publicação oficial usa o workflow Pages existente.
 
-O botão docente explica o projeto e aponta o protocolo público. Não simula login, gráficos, importação de listas ou agenda restrita; essa aplicação ainda precisa de autenticação e autorização. Notas, listas de chamada e observações individuais nunca entram nesta página.
+O botão docente abre a área restrita em docentes/area, com e-mail autorizado e autorização anual. O portal também aponta o protocolo público para professores/IA. Notas, listas e observações individuais nunca entram no índice público; o painel consulta o receptor autenticado.

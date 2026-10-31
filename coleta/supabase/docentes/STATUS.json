@@ -1,5 +1,5 @@
 {
-  "versao": "0.1.1",
+  "versao": "0.2.0",
   "verificado_em": "2026-10-31",
   "base_implantada": true,
   "migration_base": "20261031110854",
@@ -17,23 +17,41 @@
   "escopo_anual": true,
   "teste_sql_real": "DOCENTES_ANUAL_OK; transação fictícia revertida",
   "acesso_direto_cliente": "negado",
-  "login_docente_implementado": false,
-  "cadastro_self_service_implementado": false,
-  "painel_docente_implementado": false,
+  "login_docente_implementado": true,
+  "cadastro_self_service_implementado": "Ativação por convite individual administrativo; contas confirmadas podem solicitar vínculo. Aprovação escolar continua administrativa.",
+  "painel_docente_implementado": true,
   "importacao_ia_implementada": false,
   "avisos_automaticos_ativos": false,
   "dados_reais_importados": false,
   "pendencias": [
-    "Login e revisão de vínculo docente",
-    "API com autorização por escola/ano/turma/componente",
-    "Importação privada com prévia, idempotência e confirmação",
-    "Painel com gráficos descritivos, agenda e histórico",
-    "Confirmação de aplicação e proposta de replanejamento",
-    "Rotina e canal autorizado para avisos"
+    "Autorizar e-mails reais por escola/ano/turma/componente e gestor",
+    "Integração direta de IA com autorização do professor",
+    "Importação de calendário e ementa na interface",
+    "Avisos com canal/agendamento autorizados",
+    "Instrumentação e gráficos longitudinais de preferências"
   ],
   "migration_indices": "20261031111246",
   "advisors": {
-    "security": "Somente INFO: 21 tabelas com RLS sem policies; acesso direto negado intencionalmente",
-    "performance": "Somente INFO: 22 índices ainda sem uso; nenhuma FK sem cobertura após a correção"
-  }
+    "security": "23 INFO de RLS sem policies (negação intencional); 1 WARN de proteção contra senhas vazadas no Auth, recurso do plano pago",
+    "performance": "25 INFO de índices ainda sem uso; sem FK sem cobertura"
+  },
+  "importacao_csv_implementada": true,
+  "parecer_revisavel_implementado": true,
+  "impressao_implementada": true,
+  "marcacao_aula_por_execucao_implementada": true,
+  "endpoint": "https://ifyiarwygywoexsflfsx.supabase.co/functions/v1/painel-docente",
+  "autorizacoes_reais_emitidas": false,
+  "teste_http_painel_real": true,
+  "teste_browser_auth_api_real": true,
+  "teste_browser_descricao": "Interface servida no teste sob origem permitida, Supabase Auth/API/banco reais; conta fictícia",
+  "teste_marcacao_aula": "Entrada não marca; primeira tentativa válida de produção marca; reenvio não duplica; aluno permanece em andamento",
+  "fixtures_escolares_removidos": false,
+  "fixtures_desativados_e_isolados": true,
+  "conta_qa_bloqueada": true,
+  "limpeza_definitiva": "Confirmação da ferramenta expirou; alternativa reversível aplicada: escolas e acessos fictícios inativos, conta bloqueada, sessões reclassificadas como teste",
+  "migration_painel": "20261031111929",
+  "migration_escolas_ativas": "20261031114556",
+  "ativacao_sem_smtp_implementada": true,
+  "teste_ativacao_sem_smtp_real": true,
+  "teste_convite_uso_unico_real": true
 }

@@ -42,6 +42,7 @@ Deno.serve(async(req:Request)=>{
      if(old){const [same]=await tx`select id from educacional.eventos where id=${e.id} and sessao_id=${s.id} and sequencia=${e.sequencia} and tipo=${e.tipo} and ocorrido_em_cliente=${e.ocorrido_em}::timestamptz and dados=${tx.json(e.dados)}`;exigir(same,'ID de evento com conteúdo diferente.');}
      else await tx`insert into educacional.eventos(id,escola_id,sessao_id,sequencia,tipo,ocorrido_em_cliente,dados) values(${e.id},${s.escola_id},${s.id},${e.sequencia},${e.tipo},${e.ocorrido_em},${tx.json(e.dados)})`;
     }
+    if(v.ambiente==='producao'&&b.eventos.some((e:any)=>e.tipo==='tentativa'&&Number.isInteger(e.dados.item)&&e.dados.item>=1&&e.dados.item<=v.percursos_total&&typeof e.dados.correta==='boolean'))await tx`update educacional.aulas set aplicada_em=now(),origem_aplicacao='execucao_estudante' where id=${v.aula_id} and aplicada_em is null`;
     await tx`update educacional.sessoes set ultimo_recebimento_em=now() where id=${s.id}`;
     return {ok:true,estado:'recebido',sessao_id:s.id,ids:b.eventos.map((e:any)=>e.id)};
    }
@@ -50,6 +51,7 @@ Deno.serve(async(req:Request)=>{
    if(old){exigir(old.sessao_id===s.id&&old.sha256===sha,'Relatório com ID ou conteúdo incompatível.');return {ok:true,estado:'recebido',id:old.id,sha256:sha,revisao:old.revisao};}
    const [n]=await tx`select count(*)::int as n,coalesce(max(revisao),0)+1 as revisao from educacional.relatorios where sessao_id=${s.id}`;exigir(n.n<20,'Limite de revisões. Peça revisão ao professor.');
    await tx`insert into educacional.relatorios(id,escola_id,sessao_id,revisao,sha256,percursos_total,percursos_concluidos,acertos_iniciais,experiencia_confirmada,experiencia_preenchida,conteudo,texto) values(${p.id},${s.escola_id},${s.id},${n.revisao},${sha},${total},${total},${primeiros},true,true,${tx.json(p)},${p.texto})`;
+   if(v.ambiente==='producao')await tx`update educacional.aulas set aplicada_em=now(),origem_aplicacao='execucao_estudante' where id=${v.aula_id} and aplicada_em is null`;
    await tx`update educacional.sessoes set estado='concluida',ultimo_recebimento_em=now() where id=${s.id}`;
    return {ok:true,estado:'recebido',id:p.id,sha256:sha,revisao:n.revisao};
   });

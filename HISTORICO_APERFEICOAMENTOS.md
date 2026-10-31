@@ -3,6 +3,12 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.29.0 — 31/10/2026 — Aula dada por execução e painel docente
+
+Pedido do Prof. André: marcar automaticamente execução da aula, acompanhar quem fez/falta, imprimir notas, editar parecer, monitoramento escolar e acesso por e-mail/colaboração. Implementados: receptor de estudantes marca após primeira tentativa válida de produção, com origem; painel e API docentes validam e-mail/sessão e autorização anual privada, com escopo de professor ou gestor. Colaboração GitHub não foi convertida automaticamente em acesso escolar.
+
+Painel inicial: importação CSV privada com prévia/confirmação, participantes esperados sem duplicação, gráfico descritivo, notas para impressão, parecer/nota docente editáveis em revisões, plano diário e calendário já cadastrado em leitura. Testes reais com cadastro fictício conferiram Auth, segregação de escola, importação repetida, nota ausente, plano/parecer e aplicação por execução. Credenciais e registros fictícios não são publicados e devem ser removidos após QA. Sem envio a docentes reais. Integração direta de IA, upload de calendário/ementa, avisos e preferências longitudinais continuam pendentes conforme STATUS.
+
 ## 2.28.0 — 31/10/2026 — Escola digital, base docente e ano letivo
 
 Pedidos do Prof. André: organização pública das aulas com menu/filtros por ano, série, turma e matéria; crescimento de treinamento cognitivo; acompanhamento docente por escola/componente; importação pela IA de chamada, ementa e calendário; histórico entre anos e mudanças de professor; propostas de ajuste de cronograma e ritmo.

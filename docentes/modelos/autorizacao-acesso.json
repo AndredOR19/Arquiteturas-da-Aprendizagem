@@ -1,0 +1,19 @@
+{
+  "natureza": "modelo_vazio_nao_concede_acesso",
+  "email_verificado": null,
+  "professor_id": null,
+  "escola_id": null,
+  "ano_letivo": null,
+  "papel": "professor",
+  "turma_id": null,
+  "componente": null,
+  "atribuicao_id": null,
+  "expira_em": null,
+  "aprovada_por": null,
+  "regras": [
+    "Preencher em canal privado e conferir identidade/vínculo antes de autorizar.",
+    "Gestor monitora somente a escola e o ano aprovados.",
+    "Professor acessa somente as atribuições anuais aprovadas.",
+    "Não publicar e-mails preenchidos nem converter convite GitHub em permissão escolar automática."
+  ]
+}
