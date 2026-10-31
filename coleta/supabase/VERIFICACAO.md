@@ -15,5 +15,7 @@
 - Cadastro e registros fictícios removidos após conferência. Readback final: zero alunos, sessões, eventos e relatórios; cadastro institucional do piloto permanece, sem acessos de alunos reais.
 - Regressão de empacotamento: apoios de imagens aguardam a identificação no piloto e usam chave por sessão; os testes gerais verificam o bloqueio e o ensaio específico verifica os apoios após entrada. Legados mantêm a inicialização anterior. Testes locais do piloto usam saída HTML real do empacotador; apenas a demonstração de slides foi substituída por fixture nesse ensaio local, pois Quarto não está instalado. Slides e fluxo completo são conferidos remotamente.
 
+Regressões locais adicionais: transporte de e-mail integral em 16 HTMLs e seleção/volume/parada dos sons de fundo passaram. Os testes gerais verificam a entrada bloqueada do piloto; o teste específico verifica a aula após identificação.
+
 ## Pendências operacionais
 Lista nominal conferida e acessos individuais dos alunos reais; teste no Chromebook físico da escola; painel docente e duração detalhada. Links legados não foram migrados. Nenhum dado real de estudante foi inserido nesta implantação.

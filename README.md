@@ -2,6 +2,12 @@
 
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
+## Coleta identificada — piloto Supabase
+
+Em 31/10/2026, receptor implantado no plano gratuito e piloto de História 192 validado pelo navegador até o banco e o recibo. Entrada obrigatória com escola, aluno, matéria e turma, mais acesso individual. Interações e relatório final são enviados automaticamente nas páginas integradas. O teste usou somente dados fictícios, já removidos. Os links antigos mantêm o funcionamento anterior; alunos reais aguardam cadastro e distribuição privada dos acessos. Painel docente ainda pendente.
+
+[Abrir piloto](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/piloto-coleta-historia-192/) · [Operação e limites](coleta/supabase/README.md) · [Estado verificado](coleta/supabase/STATUS.json) · [Testes](coleta/supabase/VERIFICACAO.md).
+
 ## Proposta de mestrado
 
 [Leia o README da proposta](pesquisa/projeto/README.md): metodologia, arquiteturas, estado da pesquisa, bancos vetoriais e roteiro Supabase → adaptação da Sofia → Vercel na etapa final.

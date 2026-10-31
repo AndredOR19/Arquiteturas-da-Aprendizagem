@@ -22,7 +22,7 @@
   "teste_ponta_a_ponta_navegador": true,
   "advisors": {
     "security": "12 INFO RLS sem policies: negação intencional do acesso direto",
-    "performance": "8 avisos INFO de indices sem uso: base nova sem dados"
+    "performance": "7 avisos INFO de índices sem uso na revisão de 31/10/2026; nenhum alerta de performance acima de INFO"
   },
   "pendencias": [
     "Lista nominal real conferida e acessos individuais",
