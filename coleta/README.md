@@ -4,7 +4,7 @@ Versão do coletor: 1.0.0. Data: 28/10/2026. Responsável pedagógico: Prof. And
 
 ## Supabase — receptor e piloto verificados em 31/10/2026
 
-O [receptor Supabase e piloto identificado](supabase/README.md) foram implantados e testados pelo navegador até o banco e o recibo, com dados fictícios removidos depois. A entrada do piloto exige escola, aluno, matéria, turma e acesso individual. Cadastro dos alunos reais e painel docente continuam pendentes; consulte [STATUS Supabase](supabase/STATUS.json). Essa rota não depende nem ativa o coletor Google descrito abaixo.
+O [receptor Supabase e piloto identificado](supabase/README.md) foram implantados e testados pelo navegador até o banco e o recibo, com dados fictícios removidos depois. A entrada do piloto exige escola, aluno, matéria, turma e acesso individual. O painel docente inicial já foi implantado, com convite administrativo, chamada, notas e parecer revisável. O cadastro dos alunos reais e a migração das demais aulas para a coleta continuam pendentes; consulte [STATUS Supabase](supabase/STATUS.json). Essa rota não depende nem ativa o coletor Google descrito abaixo.
 
 ## Estado da alternativa Google/Apps Script
 A planilha nativa foi criada na conta pessoal escolhida pelo professor e sua permissão privada foi conferida. O receptor, o contrato de dados, o cliente e os testes estão preparados. **O serviço ainda não está publicado; não existe endpoint de coleta ativo nesta entrega.** Nenhuma aula existente foi alterada para transmitir dados. Consulte [VERIFICACAO.md](VERIFICACAO.md) e [STATUS.json](STATUS.json).
