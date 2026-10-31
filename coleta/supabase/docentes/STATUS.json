@@ -1,0 +1,39 @@
+{
+  "versao": "0.1.1",
+  "verificado_em": "2026-10-31",
+  "base_implantada": true,
+  "migration_base": "20261031110854",
+  "novas_tabelas": [
+    "solicitacoes_vinculo_docente",
+    "atribuicoes_docentes",
+    "planejamentos_docentes",
+    "participantes_aula",
+    "observacoes_pedagogicas",
+    "calendarios_letivos",
+    "dias_calendario",
+    "importacoes_docentes",
+    "propostas_replanejamento"
+  ],
+  "escopo_anual": true,
+  "teste_sql_real": "DOCENTES_ANUAL_OK; transação fictícia revertida",
+  "acesso_direto_cliente": "negado",
+  "login_docente_implementado": false,
+  "cadastro_self_service_implementado": false,
+  "painel_docente_implementado": false,
+  "importacao_ia_implementada": false,
+  "avisos_automaticos_ativos": false,
+  "dados_reais_importados": false,
+  "pendencias": [
+    "Login e revisão de vínculo docente",
+    "API com autorização por escola/ano/turma/componente",
+    "Importação privada com prévia, idempotência e confirmação",
+    "Painel com gráficos descritivos, agenda e histórico",
+    "Confirmação de aplicação e proposta de replanejamento",
+    "Rotina e canal autorizado para avisos"
+  ],
+  "migration_indices": "20261031111246",
+  "advisors": {
+    "security": "Somente INFO: 21 tabelas com RLS sem policies; acesso direto negado intencionalmente",
+    "performance": "Somente INFO: 22 índices ainda sem uso; nenhuma FK sem cobertura após a correção"
+  }
+}

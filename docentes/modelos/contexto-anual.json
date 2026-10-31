@@ -1,0 +1,25 @@
+{
+  "versao": "1.0.0",
+  "natureza": "modelo_vazio_sem_dados_pessoais",
+  "escola_id": null,
+  "professor_id": null,
+  "ano_letivo": null,
+  "etapa": null,
+  "serie": null,
+  "turma_id": null,
+  "codigo_turma": null,
+  "componente": null,
+  "atribuicao_confirmada": false,
+  "fontes": {
+    "chamada_privada": null,
+    "ementa": null,
+    "calendario_escolar": null,
+    "planejamento": null
+  },
+  "regras": [
+    "Confirmar todos os campos antes de importar ou planejar.",
+    "Criar matrícula e atribuição anuais; não sobrescrever o ano anterior.",
+    "A chamada preenchida fica no canal privado; nunca neste repositório público.",
+    "Não identificar pessoas apenas por nome nem presumir promoção."
+  ]
+}

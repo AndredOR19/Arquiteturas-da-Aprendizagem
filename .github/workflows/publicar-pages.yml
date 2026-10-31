@@ -40,6 +40,8 @@ jobs:
           mkdir -p exportacoes/projetos/demonstracao-slides/revealjs
           cp _site/slides/aprender-a-aprender/index.html exportacoes/projetos/demonstracao-slides/revealjs/index.html
           node ferramentas/conferir-slides.cjs
+      - name: Conferir portal e organização do acervo
+        run: node ferramentas/conferir-portal.cjs
       - name: Conferir laboratório Conectar e investigar
         timeout-minutes: 5
         run: node ferramentas/conferir-conectar.cjs

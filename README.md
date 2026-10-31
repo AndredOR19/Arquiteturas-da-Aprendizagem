@@ -2,6 +2,10 @@
 
 Base de referência pedagógica do **Prof. André de Oliveira Rodrigues**: prompt mestre, modelos de aulas digitais, aperfeiçoamentos e documentos curriculares.
 
+## Escola de caminhos — portal e continuidade anual
+
+[Portal público](https://andredor19.github.io/Arquiteturas-da-Aprendizagem/) com busca e filtros por ano letivo, série, turma, matéria e escola, mantendo os links das aulas. A coleção de treinamento reúne os laboratórios disponíveis, sem inventar novos materiais. [Docentes e IAs](docentes/README.md): modelo anual de matrícula/atribuição, chamada e calendário privados, planejamento versionado e mediação pelo professor. Base docente implantada e testada; login, painel, importação pela IA e avisos ainda pendentes.
+
 ## Coleta identificada — piloto Supabase
 
 Em 31/10/2026, receptor implantado no plano gratuito e piloto de História 192 validado pelo navegador até o banco e o recibo. Entrada obrigatória com escola, aluno, matéria e turma, mais acesso individual. Interações e relatório final são enviados automaticamente nas páginas integradas. O teste usou somente dados fictícios, já removidos. Os links antigos mantêm o funcionamento anterior; alunos reais aguardam cadastro e distribuição privada dos acessos. Painel docente ainda pendente.

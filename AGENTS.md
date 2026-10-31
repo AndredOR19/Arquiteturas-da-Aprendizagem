@@ -125,3 +125,9 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 ## Coleta Supabase e identificação
 - Consultar coleta/supabase/STATUS.json e README antes de afirmar coleta ativa. Base privada criada não é receptor, painel ou integração de aulas. Seguir seção 13.3 do prompt; identidade estável/matrícula e escola desde o início, vínculo servidor e identificação confirmada nas aulas migradas, com apoio docente.
 - Não confiar em nome livre para autenticar ou em campos de escola/professor enviados pelo cliente para autorizar. Preservar dados privados, fila/recibo, registros parciais separados da conclusão, nota vigente e dispositivos compartilhados. Não expor credencial privilegiada, lista nominal ou relatório individual.
+
+
+## Portal e área docente anual
+- Consultar docentes/README.md e PROTOCOLO_IA.md. Ano letivo pertence às matrículas e atribuições; preservar 2026 ao cadastrar 2027. Lista, calendário, fonte e correspondência de identidades requerem confirmação. Não presumir promoção nem transferência de permissão entre professores.
+- Preencher metadados públicos `portal` de cada novo material em publicacao/catalogo.json; atualizar índice por `python publicacao/portal/gerar.py` e testar ferramentas/conferir-portal.cjs. Preservar URLs, distinguir série de turma e uso livre de vínculo anual. GitHub guarda arquitetura/modelos; dados individuais ficam restritos.
+- Base docente privada não é painel ou login implementado. Conferir coleta/supabase/docentes/STATUS.json. Planejado, extraído, confirmado e aplicado são estados distintos; replanejamento por IA preserva histórico e exige confirmação docente. Não inferir aula não realizada de ausência de recibo nem diagnóstico de escolha de fonte. Avisos só existem após implementação e agendamento autorizados.

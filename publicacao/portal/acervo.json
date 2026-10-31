@@ -1,0 +1,458 @@
+{
+  "versao": "1.0.0",
+  "materiais": [
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [
+        "192"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "democracia",
+        "cidadania",
+        "História"
+      ],
+      "id": "aulas/21-10-2026-historia-192",
+      "titulo": "Democracia não termina no voto",
+      "descricao": "Investigue como direitos escritos se tornam direitos vividos, relacionando Constituição, informação e participação da sociedade.",
+      "url": "aulas/21-10-2026-historia-192/",
+      "data_catalogo": "2026-10-21",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "treinamento",
+      "componentes": [],
+      "series": [
+        "Uso livre · multisséries"
+      ],
+      "turmas": [],
+      "escola": "Uso livre",
+      "escola_curta": "Laboratório",
+      "palavras_chave": [
+        "organização",
+        "associação",
+        "recuperação",
+        "transferência",
+        "cognitivo"
+      ],
+      "id": "laboratorios/aprender-a-aprender",
+      "titulo": "Aprender a aprender",
+      "descricao": "Observe o todo, encontre as partes e faça conexões. Quatro experiências para organizar ideias e explorar caminhos de aprendizagem.",
+      "url": "laboratorios/aprender-a-aprender/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "apresentacao",
+      "componentes": [],
+      "series": [
+        "Uso livre · formação"
+      ],
+      "turmas": [],
+      "escola": "Uso livre",
+      "escola_curta": "Apresentação",
+      "palavras_chave": [],
+      "id": "apresentacao-2",
+      "titulo": "Meu caminho para aprender",
+      "descricao": "Uma apresentação ilustrada para pensar sobre como organizar, compreender e comunicar ideias.",
+      "url": "https://gamma.app/docs/Meu-caminho-para-aprender-Laboratorio-de-ideias-7u1ljgpnc3dywz5",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "GAMMA"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "apresentacao",
+      "componentes": [],
+      "series": [
+        "Uso livre · formação"
+      ],
+      "turmas": [],
+      "escola": "Uso livre",
+      "escola_curta": "Apresentação",
+      "palavras_chave": [],
+      "id": "slides/aprender-a-aprender",
+      "titulo": "Caminhos para apresentar ideias",
+      "descricao": "Demonstração de slides para explorar as possibilidades de apresentação das arquiteturas.",
+      "url": "slides/aprender-a-aprender/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "SLIDES"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "3ª série · EM"
+      ],
+      "turmas": [
+        "231"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "democracia",
+        "cidadania",
+        "História"
+      ],
+      "id": "aulas/27-10-2026-historia-231",
+      "titulo": "Ditadura e redemocratização no Brasil",
+      "descricao": "Análise dos mecanismos de concentração do poder, das resistências e da transição democrática, distinguindo 1984, 1985, 1988 e 1989.",
+      "url": "aulas/27-10-2026-historia-231/",
+      "data_catalogo": "2026-10-27",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Ensino Religioso"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [
+        "192"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "respeito",
+        "convivência",
+        "memória"
+      ],
+      "id": "aulas/27-10-2026-ensino-religioso-192",
+      "titulo": "Conviver com quem pensa diferente",
+      "descricao": "Estudo da coexistência ética, distinguindo discordância e discriminação, com análise de situações fictícias e intervenções para garantir dignidade e participação.",
+      "url": "aulas/27-10-2026-ensino-religioso-192/",
+      "data_catalogo": "2026-10-27",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "treinamento",
+      "componentes": [],
+      "series": [
+        "Uso livre · multisséries"
+      ],
+      "turmas": [],
+      "escola": "Uso livre",
+      "escola_curta": "Laboratório",
+      "palavras_chave": [
+        "associações",
+        "investigação",
+        "conexões",
+        "cognitivo"
+      ],
+      "id": "laboratorios/conectar-investigar",
+      "titulo": "Conectar e investigar",
+      "descricao": "Uma bancada de ideias para observar, comparar e investigar. Explore 28 percursos com exemplos, imagens e pistas graduais.",
+      "url": "laboratorios/conectar-investigar/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [
+        "192"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "democracia",
+        "cidadania",
+        "História"
+      ],
+      "id": "aulas/29-10-2026-historia-192",
+      "titulo": "Da informação à participação",
+      "descricao": "Brasil após 1989: participação da sociedade civil, orçamento participativo no Rio Grande do Sul e análise de fontes para acompanhar direitos e decisões públicas.",
+      "url": "aulas/29-10-2026-historia-192/",
+      "data_catalogo": "2026-10-29",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais",
+        "Estudos Orientados"
+      ],
+      "series": [
+        "6º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "ponte",
+        "papel",
+        "investigação",
+        "organização do estudo"
+      ],
+      "id": "aulas/29-10-2026-missao-ponte-6",
+      "titulo": "Missão Ponte · 6º ano",
+      "descricao": "Investigação da resistência de pontes de papel no 6º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
+      "url": "aulas/29-10-2026-missao-ponte-6/",
+      "data_catalogo": "2026-10-29",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais",
+        "Estudos Orientados"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "ponte",
+        "papel",
+        "investigação",
+        "organização do estudo"
+      ],
+      "id": "aulas/29-10-2026-missao-ponte-7",
+      "titulo": "Missão Ponte · 7º ano",
+      "descricao": "Investigação da resistência de pontes de papel no 7º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
+      "url": "aulas/29-10-2026-missao-ponte-7/",
+      "data_catalogo": "2026-10-29",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "demonstracao",
+      "componentes": [
+        "Matemática"
+      ],
+      "series": [
+        "6º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Uso livre",
+      "escola_curta": "Demonstração",
+      "palavras_chave": [
+        "medidas",
+        "grandezas",
+        "temperatura",
+        "volume"
+      ],
+      "id": "aulas/demonstracao-matematica-medidas-6",
+      "titulo": "Medir para organizar · A feira da turma",
+      "descricao": "Investigação de grandezas e unidades na organização de uma feira, com estimativas, medição, comparação de temperaturas em °C, composição de áreas e contagem de cubos; resolução e elaboração de problemas.",
+      "url": "aulas/demonstracao-matematica-medidas-6/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Língua Portuguesa"
+      ],
+      "series": [
+        "Série a confirmar"
+      ],
+      "turmas": [],
+      "escola": "Uso livre",
+      "escola_curta": "Uso livre",
+      "palavras_chave": [
+        "metáfora",
+        "comparação",
+        "figuras de linguagem"
+      ],
+      "id": "aulas/figuras-de-linguagem-metafora-comparacao",
+      "titulo": "A magia das palavras",
+      "descricao": "Explore metáforas e comparações: observe as cenas, perceba os sentidos e experimente outras formas de dizer.",
+      "url": "aulas/figuras-de-linguagem-metafora-comparacao/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "1ª série · EM"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "democracia",
+        "cidadania",
+        "História"
+      ],
+      "id": "aulas/30-10-2026-historia-1em",
+      "titulo": "Quem trabalha e quem controla?",
+      "descricao": "Trabalho, escravidão, hierarquias e resistência na sociedade colonial, com leitura crítica de fontes.",
+      "url": "aulas/30-10-2026-historia-1em/",
+      "data_catalogo": "2026-10-30",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "2ª série · EM"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "democracia",
+        "cidadania",
+        "História"
+      ],
+      "id": "aulas/30-10-2026-historia-2em",
+      "titulo": "Democracia além da escolha",
+      "descricao": "Democracia, cidadania, direitos e participação social em perspectiva histórica e em situações-problema.",
+      "url": "aulas/30-10-2026-historia-2em/",
+      "data_catalogo": "2026-10-30",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Cultura Digital"
+      ],
+      "series": [
+        "8º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "fontes",
+        "informação",
+        "compartilhar",
+        "internet"
+      ],
+      "id": "aulas/30-10-2026-cultura-digital-8ano",
+      "titulo": "Antes de compartilhar",
+      "descricao": "Investigação de informações digitais, contexto e fontes; decisões seguras e éticas antes de compartilhar.",
+      "url": "aulas/30-10-2026-cultura-digital-8ano/",
+      "data_catalogo": "2026-10-30",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Espanhol"
+      ],
+      "series": [
+        "6º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "hola",
+        "saudações",
+        "língua espanhola"
+      ],
+      "id": "aulas/30-10-2026-espanhol-6ano",
+      "titulo": "¡Hola! Vamos falar espanhol",
+      "descricao": "Primeiros contatos com o espanhol: saudações, nome, cortesia e objetos da sala, com modelagem e associações.",
+      "url": "aulas/30-10-2026-espanhol-6ano/",
+      "data_catalogo": "2026-10-30",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Ensino Religioso"
+      ],
+      "series": [
+        "6º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "respeito",
+        "convivência",
+        "memória"
+      ],
+      "id": "aulas/30-10-2026-ensino-religioso-6ano",
+      "titulo": "Memórias, histórias e respeito",
+      "descricao": "Memórias e ensinamentos em tradições orais e escritas; diversidade religiosa e respeito às pessoas com ou sem religião.",
+      "url": "aulas/30-10-2026-ensino-religioso-6ano/",
+      "data_catalogo": "2026-10-30",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "piloto",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [
+        "192"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "democracia",
+        "cidadania",
+        "História"
+      ],
+      "id": "aulas/piloto-coleta-historia-192",
+      "titulo": "Da informação à participação · piloto",
+      "descricao": "Brasil após 1989: participação da sociedade civil, orçamento participativo no Rio Grande do Sul e análise de fontes para acompanhar direitos e decisões públicas.",
+      "url": "aulas/piloto-coleta-historia-192/",
+      "data_catalogo": "",
+      "acesso": "individual",
+      "formato": "AULA DIGITAL"
+    }
+  ]
+}

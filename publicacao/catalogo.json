@@ -7,36 +7,156 @@
       "titulo": "História — turma 192",
       "estilo_visual": "lettering-escolar",
       "versao_visual": "1.0.0",
-      "atualizado_em": "2026-10-29"
+      "atualizado_em": "2026-10-29",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "democracia",
+          "cidadania",
+          "História"
+        ],
+        "descricao": "Investigue como direitos escritos se tornam direitos vividos, relacionando Constituição, informação e participação da sociedade.",
+        "titulo_exibicao": "Democracia não termina no voto",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
       "origem": "laboratorios/aprender-a-aprender",
       "destino": "laboratorios/aprender-a-aprender",
-      "titulo": "Laboratório de aprender a aprender"
+      "titulo": "Laboratório de aprender a aprender",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "treinamento",
+        "componentes": [],
+        "series": [
+          "Uso livre · multisséries"
+        ],
+        "turmas": [],
+        "escola": "Uso livre",
+        "escola_curta": "Laboratório",
+        "palavras_chave": [
+          "organização",
+          "associação",
+          "recuperação",
+          "transferência",
+          "cognitivo"
+        ],
+        "descricao": "Observe o todo, encontre as partes e faça conexões. Quatro experiências para organizar ideias e explorar caminhos de aprendizagem.",
+        "titulo_exibicao": "Aprender a aprender",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "link",
       "titulo": "Apresentação ilustrada no Gamma — Meu caminho para aprender",
-      "url": "https://gamma.app/docs/Meu-caminho-para-aprender-Laboratorio-de-ideias-7u1ljgpnc3dywz5"
+      "url": "https://gamma.app/docs/Meu-caminho-para-aprender-Laboratorio-de-ideias-7u1ljgpnc3dywz5",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [],
+        "series": [
+          "Uso livre · formação"
+        ],
+        "turmas": [],
+        "escola": "Uso livre",
+        "escola_curta": "Apresentação",
+        "palavras_chave": [],
+        "descricao": "Uma apresentação ilustrada para pensar sobre como organizar, compreender e comunicar ideias.",
+        "titulo_exibicao": "Meu caminho para aprender",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "slides",
       "origem": "projetos/demonstracao-slides",
       "destino": "slides/aprender-a-aprender",
-      "titulo": "Demonstração técnica — slides HTML/PowerPoint"
+      "titulo": "Demonstração técnica — slides HTML/PowerPoint",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [],
+        "series": [
+          "Uso livre · formação"
+        ],
+        "turmas": [],
+        "escola": "Uso livre",
+        "escola_curta": "Apresentação",
+        "palavras_chave": [],
+        "descricao": "Demonstração de slides para explorar as possibilidades de apresentação das arquiteturas.",
+        "titulo_exibicao": "Caminhos para apresentar ideias",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
       "origem": "aulas/27-10-2026-historia-231",
       "destino": "aulas/27-10-2026-historia-231",
-      "titulo": "História 231 — Ditadura e redemocratização"
+      "titulo": "História 231 — Ditadura e redemocratização",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "3ª série · EM"
+        ],
+        "turmas": [
+          "231"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "democracia",
+          "cidadania",
+          "História"
+        ],
+        "descricao": "Análise dos mecanismos de concentração do poder, das resistências e da transição democrática, distinguindo 1984, 1985, 1988 e 1989.",
+        "titulo_exibicao": "Ditadura e redemocratização no Brasil",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
       "origem": "aulas/27-10-2026-ensino-religioso-192",
       "destino": "aulas/27-10-2026-ensino-religioso-192",
-      "titulo": "Ensino Religioso 192 — Conviver com quem pensa diferente"
+      "titulo": "Ensino Religioso 192 — Conviver com quem pensa diferente",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Ensino Religioso"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "respeito",
+          "convivência",
+          "memória"
+        ],
+        "descricao": "Estudo da coexistência ética, distinguindo discordância e discriminação, com análise de situações fictícias e intervenções para garantir dignidade e participação.",
+        "titulo_exibicao": "Conviver com quem pensa diferente",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -44,7 +164,27 @@
       "destino": "laboratorios/conectar-investigar",
       "titulo": "Conectar e investigar — laboratório de práticas experimentais",
       "versao": "2.0.0",
-      "atualizado_em": "2026-10-28"
+      "atualizado_em": "2026-10-28",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "treinamento",
+        "componentes": [],
+        "series": [
+          "Uso livre · multisséries"
+        ],
+        "turmas": [],
+        "escola": "Uso livre",
+        "escola_curta": "Laboratório",
+        "palavras_chave": [
+          "associações",
+          "investigação",
+          "conexões",
+          "cognitivo"
+        ],
+        "descricao": "Uma bancada de ideias para observar, comparar e investigar. Explore 28 percursos com exemplos, imagens e pistas graduais.",
+        "titulo_exibicao": "Conectar e investigar",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -55,7 +195,30 @@
       "data_aula": "2026-10-29",
       "estilo_visual": "lettering-escolar",
       "versao_visual": "1.0.0",
-      "atualizado_em": "2026-10-29"
+      "atualizado_em": "2026-10-29",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "democracia",
+          "cidadania",
+          "História"
+        ],
+        "descricao": "Brasil após 1989: participação da sociedade civil, orçamento participativo no Rio Grande do Sul e análise de fontes para acompanhar direitos e decisões públicas.",
+        "titulo_exibicao": "Da informação à participação",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -64,7 +227,30 @@
       "titulo": "Missão Ponte — 6º ano · Práticas Experimentais e Estudos Orientados",
       "versao": "1.0.0",
       "data_aula": "2026-10-29",
-      "estilo_visual": "lettering-escolar"
+      "estilo_visual": "lettering-escolar",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais",
+          "Estudos Orientados"
+        ],
+        "series": [
+          "6º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "ponte",
+          "papel",
+          "investigação",
+          "organização do estudo"
+        ],
+        "descricao": "Investigação da resistência de pontes de papel no 6º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
+        "titulo_exibicao": "Missão Ponte · 6º ano",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -73,14 +259,59 @@
       "titulo": "Missão Ponte — 7º ano · Práticas Experimentais e Estudos Orientados",
       "versao": "1.0.0",
       "data_aula": "2026-10-29",
-      "estilo_visual": "lettering-escolar"
+      "estilo_visual": "lettering-escolar",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais",
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "ponte",
+          "papel",
+          "investigação",
+          "organização do estudo"
+        ],
+        "descricao": "Investigação da resistência de pontes de papel no 7º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
+        "titulo_exibicao": "Missão Ponte · 7º ano",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
       "origem": "aulas/demonstracao-matematica-medidas-6",
       "destino": "aulas/demonstracao-matematica-medidas-6",
       "titulo": "Matemática 6º ano — Medir para organizar · aula demonstrativa",
-      "versao": "1.0.0"
+      "versao": "1.0.0",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "demonstracao",
+        "componentes": [
+          "Matemática"
+        ],
+        "series": [
+          "6º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Uso livre",
+        "escola_curta": "Demonstração",
+        "palavras_chave": [
+          "medidas",
+          "grandezas",
+          "temperatura",
+          "volume"
+        ],
+        "descricao": "Investigação de grandezas e unidades na organização de uma feira, com estimativas, medição, comparação de temperaturas em °C, composição de áreas e contagem de cubos; resolução e elaboração de problemas.",
+        "titulo_exibicao": "Medir para organizar · A feira da turma",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -89,7 +320,28 @@
       "titulo": "Língua Portuguesa — A Magia das Palavras · Metáfora e comparação",
       "versao": "1.1.0",
       "estilo_visual": "codigo-de-referencia-neobrutalista-fredoka",
-      "atualizado_em": "2026-10-29"
+      "atualizado_em": "2026-10-29",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Língua Portuguesa"
+        ],
+        "series": [
+          "Série a confirmar"
+        ],
+        "turmas": [],
+        "escola": "Uso livre",
+        "escola_curta": "Uso livre",
+        "palavras_chave": [
+          "metáfora",
+          "comparação",
+          "figuras de linguagem"
+        ],
+        "descricao": "Explore metáforas e comparações: observe as cenas, perceba os sentidos e experimente outras formas de dizer.",
+        "titulo_exibicao": "A magia das palavras",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -98,7 +350,28 @@
       "titulo": "História 1º EM — Quem trabalha e quem controla?",
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
-      "fluxo_visual": "missao-interativa"
+      "fluxo_visual": "missao-interativa",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "1ª série · EM"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "democracia",
+          "cidadania",
+          "História"
+        ],
+        "descricao": "Trabalho, escravidão, hierarquias e resistência na sociedade colonial, com leitura crítica de fontes.",
+        "titulo_exibicao": "Quem trabalha e quem controla?",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -107,7 +380,28 @@
       "titulo": "História 2º EM — Democracia além da escolha",
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
-      "fluxo_visual": "missao-interativa"
+      "fluxo_visual": "missao-interativa",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "2ª série · EM"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "democracia",
+          "cidadania",
+          "História"
+        ],
+        "descricao": "Democracia, cidadania, direitos e participação social em perspectiva histórica e em situações-problema.",
+        "titulo_exibicao": "Democracia além da escolha",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -116,7 +410,29 @@
       "titulo": "Cultura Digital 8º ano — Antes de compartilhar",
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
-      "fluxo_visual": "missao-interativa"
+      "fluxo_visual": "missao-interativa",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Cultura Digital"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "fontes",
+          "informação",
+          "compartilhar",
+          "internet"
+        ],
+        "descricao": "Investigação de informações digitais, contexto e fontes; decisões seguras e éticas antes de compartilhar.",
+        "titulo_exibicao": "Antes de compartilhar",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -125,7 +441,28 @@
       "titulo": "Espanhol 6º ano — ¡Hola! Vamos falar espanhol",
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
-      "fluxo_visual": "missao-interativa"
+      "fluxo_visual": "missao-interativa",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Espanhol"
+        ],
+        "series": [
+          "6º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "hola",
+          "saudações",
+          "língua espanhola"
+        ],
+        "descricao": "Primeiros contatos com o espanhol: saudações, nome, cortesia e objetos da sala, com modelagem e associações.",
+        "titulo_exibicao": "¡Hola! Vamos falar espanhol",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -134,7 +471,28 @@
       "titulo": "Ensino Religioso 6º ano — Memórias, histórias e respeito",
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
-      "fluxo_visual": "missao-interativa"
+      "fluxo_visual": "missao-interativa",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Ensino Religioso"
+        ],
+        "series": [
+          "6º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "respeito",
+          "convivência",
+          "memória"
+        ],
+        "descricao": "Memórias e ensinamentos em tradições orais e escritas; diversidade religiosa e respeito às pessoas com ou sem religião.",
+        "titulo_exibicao": "Memórias, histórias e respeito",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     },
     {
       "tipo": "html",
@@ -143,7 +501,31 @@
       "titulo": "Piloto de coleta identificada — História 192",
       "versao": "0.2.0",
       "coleta": "supabase-identificada",
-      "apoio_imagens": "aulas/29-10-2026-historia-192"
+      "apoio_imagens": "aulas/29-10-2026-historia-192",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "piloto",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "democracia",
+          "cidadania",
+          "História"
+        ],
+        "descricao": "Brasil após 1989: participação da sociedade civil, orçamento participativo no Rio Grande do Sul e análise de fontes para acompanhar direitos e decisões públicas.",
+        "titulo_exibicao": "Da informação à participação · piloto",
+        "acesso": "individual",
+        "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
+      }
     }
   ]
 }

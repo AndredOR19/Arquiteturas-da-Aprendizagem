@@ -8,6 +8,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 from urllib.parse import urlparse
+from portal.gerar import preparar_portal
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '_site'
@@ -112,8 +113,7 @@ def main():
         if not (dest / 'index.html').is_file():
             raise ValueError('HTML final ausente.')
         links.append('<li><a href="' + html.escape(item['destino'], quote=True) + '/">' + html.escape(item['titulo']) + '</a></li>')
-    index = '''<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Arquiteturas da Aprendizagem</title><style>body{font:1.2rem/1.6 system-ui;max-width:850px;margin:8vh auto;padding:24px;color:#16334b;background:#f4f7fa}h1{line-height:1.15}li{margin:22px 0}a{color:#145ca4}</style><h1>Arquiteturas da Aprendizagem</h1><p>Prof. André de Oliveira Rodrigues</p><ul>'''
-    (OUT / 'index.html').write_text(index + ''.join(links) + '</ul></html>', encoding='utf-8')
+    preparar_portal(ROOT, OUT, items)
     (OUT / '.nojekyll').touch()
     print('Materiais públicos preparados:', len(items))
 

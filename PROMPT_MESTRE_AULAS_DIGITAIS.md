@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.27.0**
+Versão vigente: **2.28.0**
 Atualização: **31/10/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -408,6 +408,17 @@ Atualização de 31/10/2026 — decisão do professor: nas aulas migradas, bloqu
 Implantação inicial: receptor Supabase `coleta-educacional`, base privada e piloto separado `aulas/piloto-coleta-historia-192`. Consultar STATUS e VERIFICACAO da integração para a evidência atual; a existência do endpoint não migra as páginas antigas. Eventos e relatório possuem IDs estáveis, confirmação, fila temporária por sessão, cota e reenvio. Somente remover pendências após recibo correspondente. Dados/convites não entram em URL, Git ou logs da aplicação. A abertura é bloqueio de interface da realização registrada; não é sigilo do conteúdo público ou proteção contra inspeção do código.
 
 A lista nominal deve ser conferida em ambiente restrito antes de emitir acessos. Nenhuma identidade real é inventada, nenhuma matrícula é deduzida de nome, e dados antigos não são importados automaticamente. Painel docente e duração detalhada continuam etapas separadas. O pedido de bloqueio de tela foi adiado: não solicitar tela inteira, não impedir saída nem instalar rastreamento de outros aplicativos nesta implantação.
+
+### 13.4. Escola digital, docentes e continuidade anual
+Decisões de 31/10/2026: portal público organizado por ano letivo, série, turma, componente e escola, com busca, menu e coleção de treinamento cognitivo. Consultar publicacao/portal/README.md e metadados `portal` no catálogo. Preservar as URLs existentes; não atribuir turma não confirmada. Uso livre multisséries não equivale a matrícula anual. Acervo novo cresce por publicação conferida, sem inventar aulas ou inflar contagens.
+
+Área docente planejada em docentes/README.md e PROTOCOLO_IA.md. Aluno mantém identidade; matrícula registra escola/ano/série/turma. Professor mantém identidade; atribuição registra escola/ano/turma/componente. A mudança para 2027 cria vínculos novos e preserva 2026, sem promoção, regência ou permissão automática. Cadastro deve solicitar vínculo, cuja liberação é conferida por responsável autorizado; nome de escola e metadados editáveis do cliente não concedem acesso.
+
+IA do professor poderá mediar importação privada de chamada, ementa, planos e calendário escolar: extrair → validar duplicações/identidade/ano → apresentar prévia → professor confirmar → persistir com hash e versão. Homônimos e vínculos ambíguos ficam pendentes; não usar nome como chave. Acesso ao GitHub fornece normas/modelos, não autorização para dados pessoais. Integração docente autenticada ainda precisa ser implementada. Nunca publicar chamada, notas, preferências nominais, observações ou planos reservados no Git público.
+
+Comparar cronograma ao calendário e à aplicação confirmados. Ausência de registro é “aplicação não confirmada”, não falta nem aula não dada. IA pode propor deslocamento, junção compatível ou mudança de ritmo; explicar objetivos, pré-requisitos e avaliação preservados, aguardar confirmação docente e guardar revisão anterior. Não mudar critérios de uma realização em andamento. Avisos exigem implementação, agendamento e canal autorizados; nenhum foi ativado nesta etapa.
+
+Gráficos futuros devem separar participação, primeira resposta/recuperação, apoios e percepção; apresentar denominador, versão e origem. Fonte selecionada, renderizada e conforto declarado são dados distintos. Padrões descritivos podem apoiar mediação; não inferir diagnóstico, atenção ou eficácia causal. O piloto atual guarda preferências finais e avaliação; histórico de cada alteração de fonte e análises de tendências exigem instrumentação adicional, não presumida. Consultar STATUS da extensão docente: base privada criada/testada não significa login, painel ou importação disponíveis.
 
 ## 14. Materiais do professor e segurança de acesso
 Guia docente, orientações “como explicar”, gabarito consolidado e planos exclusivos do professor devem ser separados do material discente.

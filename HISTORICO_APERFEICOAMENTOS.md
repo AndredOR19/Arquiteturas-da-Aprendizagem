@@ -3,6 +3,14 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.28.0 — 31/10/2026 — Escola digital, base docente e ano letivo
+
+Pedidos do Prof. André: organização pública das aulas com menu/filtros por ano, série, turma e matéria; crescimento de treinamento cognitivo; acompanhamento docente por escola/componente; importação pela IA de chamada, ementa e calendário; histórico entre anos e mudanças de professor; propostas de ajuste de cronograma e ritmo.
+
+Implementado: portal público com 18 materiais e URLs preservadas; busca/ordenação/filtros, treinamento e orientação docente. Nove tabelas privadas adicionam solicitações e atribuições docentes anuais, planos versionados, participantes previstos, observações, calendário anual/dias, importações e propostas de replanejamento. Teste SQL real com fixtures revertidos conferiu 2026/2027, professor divergente, escola/ano, calendário, duplicação, revisão e negação de acesso. Não houve cadastro real de alunos ou novos logins.
+
+Protocolo em docentes/ prepara mediação pela IA, sem dar acesso ao banco por ler GitHub. Painel autenticado, gráficos nominais, importação self-service e avisos não implementados. Preferências não geram diagnóstico; o piloto não mede automaticamente cada troca de fonte. Publicação e verificações do portal pelo workflow Pages; detalhes em publicacao/portal/README.md e coleta/supabase/docentes/STATUS.json.
+
 ## 2.27.0 — 31/10/2026 — Receptor e entrada obrigatória no piloto
 
 Pedido do Prof. André: iniciar a implantação gratuita e não abrir a atividade sem nome da escola, aluno, matéria e turma; bloqueio de tela adiado. Organização Supabase conferida no plano free. Receptor coleta-educacional implantado; extensão aditiva do schema privado (convite da sessão, ambiente e cotas); piloto separado de História 192 preserva conteúdo e visual anteriores. Quatro campos e convite individual conferidos no servidor; fila por sessão, envio de interações e relatório integral, confirmação por ID/hash, reenvio e encerramento explícito. Não altera automaticamente os links antigos nem transforma nome em autenticação.

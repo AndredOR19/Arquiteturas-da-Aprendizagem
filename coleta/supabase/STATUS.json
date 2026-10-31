@@ -7,7 +7,7 @@
   "migration_version": "20261030173315",
   "migration_name": "base_privada_coleta_educacional_v010",
   "base_criada": true,
-  "tabelas": 12,
+  "tabelas": 21,
   "rls_em_todas": true,
   "acesso_cliente": "negado_por_padrao",
   "teste_sql_real": "BASE_PRIVADA_OK; transacao ficticia revertida",
@@ -21,8 +21,8 @@
   "coleta_automatica_ativa": false,
   "teste_ponta_a_ponta_navegador": true,
   "advisors": {
-    "security": "12 INFO RLS sem policies: negação intencional do acesso direto",
-    "performance": "7 avisos INFO de índices sem uso na revisão de 31/10/2026; nenhum alerta de performance acima de INFO"
+    "security": "21 INFO de RLS sem policies: negação intencional do acesso direto; conferir estado da extensão docente",
+    "performance": "Somente INFO de índices sem uso; índices de cobertura da extensão docente conferidos em 31/10/2026"
   },
   "pendencias": [
     "Lista nominal real conferida e acessos individuais",
@@ -44,5 +44,6 @@
     "questionario_confirmado": true,
     "relatorio_integral_confirmado": true,
     "fixtures_removidos": true
-  }
+  },
+  "extensao_docente_status": "coleta/supabase/docentes/STATUS.json"
 }

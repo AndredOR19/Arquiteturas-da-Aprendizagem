@@ -1,0 +1,18 @@
+{
+  "versao": "1.0.0",
+  "natureza": "modelo_vazio",
+  "contexto_anual": null,
+  "calendario_id_e_versao": null,
+  "aulas_de_origem": [],
+  "tipo": null,
+  "motivo_observado": null,
+  "fontes_e_evidencias": [],
+  "objetivos_preservados": [],
+  "pre_requisitos": [],
+  "novas_datas_propostas": [],
+  "conteudos_combinados_ou_adiados": [],
+  "criterios_de_avaliacao_preservados": [],
+  "versao_anterior": null,
+  "estado": "proposta_nao_aplicada",
+  "confirmacao_docente": null
+}
