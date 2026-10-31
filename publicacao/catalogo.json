@@ -135,6 +135,14 @@
       "versao": "1.0.0",
       "data_aula": "2026-10-30",
       "fluxo_visual": "missao-interativa"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/piloto-coleta-historia-192",
+      "destino": "aulas/piloto-coleta-historia-192",
+      "titulo": "Piloto de coleta identificada — História 192",
+      "versao": "0.2.0",
+      "coleta": "supabase-identificada"
     }
   ]
 }

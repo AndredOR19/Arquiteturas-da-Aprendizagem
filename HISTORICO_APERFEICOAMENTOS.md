@@ -3,6 +3,12 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.27.0 — 31/10/2026 — Receptor e entrada obrigatória no piloto
+
+Pedido do Prof. André: iniciar a implantação gratuita e não abrir a atividade sem nome da escola, aluno, matéria e turma; bloqueio de tela adiado. Organização Supabase conferida no plano free. Receptor coleta-educacional implantado; extensão aditiva do schema privado (convite da sessão, ambiente e cotas); piloto separado de História 192 preserva conteúdo e visual anteriores. Quatro campos e convite individual conferidos no servidor; fila por sessão, envio de interações e relatório integral, confirmação por ID/hash, reenvio e encerramento explícito. Não altera automaticamente os links antigos nem transforma nome em autenticação.
+
+Verificação inicial: contrato local aprovado; teste HTTP real com sessão/evento/relatório fictícios, reenvio sem duplicação, divergência de turma, colisão de evento e relatório incompleto recusados. Conferência de navegador/publicação e estado operacional detalhados em coleta/supabase/VERIFICACAO.md. Cadastro de alunos reais e distribuição privada de acessos ainda pendentes; painel docente e medição detalhada de duração não implementados. Não há captura de outros sites, bloqueio do sistema ou IA por interação.
+
 ## 2.26.0 — 30/10/2026 — Base privada Supabase e identificação de entrada
 
 Pedido do Prof. André: conferir monitoramento real e automatizar organização/coleta por aluno, turma, professor e escola. Confirmado: aulas consultadas salvam localmente; Apps Script/n8n não implantados, nenhum endpoint ativo. Projeto Supabase existente Arquiteturas da Aprendizagem encontrado ativo, sem tabelas de aplicação ou Edge Functions. Criada base privada educacional 0.1.0 com onze tabelas, identidade/matrícula anual, vínculos institucionais, aulas, sessões, eventos, relatórios e hashes de convites. Migração remota 20261030173315; nenhum dado real inserido.

@@ -83,6 +83,10 @@ jobs:
           if-no-files-found: ignore
       - name: Conferir Missão Ponte do sexto e sétimo ano
         run: node ferramentas/conferir-ponte.cjs
+      - name: Conferir entrada obrigatória e coleta do piloto (receptor simulado)
+        run: |
+          node coleta/supabase/receptor/testes.mjs
+          node ferramentas/conferir-coleta-piloto.cjs
       - name: Conferir transporte integral e abertura segura dos relatórios
         run: |
           node ferramentas/testar-email.cjs

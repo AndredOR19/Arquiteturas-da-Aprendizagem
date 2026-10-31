@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.26.0**
-Atualização: **30/10/2026**
+Versão vigente: **2.27.0**
+Atualização: **31/10/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -403,7 +403,11 @@ Enviar interações parciais em lotes, com IDs estáveis, fila e reenvio idempot
 
 Medir duração total, tempo de página visível e intervalos por percurso separadamente, somente após implementar e testar relógio, pausas, recargas e prevenção de sobreposição. Ausência de cliques pode ser leitura/escuta; visibilidade não é atenção. Analisar tempo com tentativas, apoios e aplicação em exemplo diferente antes de aumentar a extensão de futuras aulas. Extensões opcionais têm registro separado; não mudar denominador ou quantidade obrigatória durante uma realização.
 
-Estado em 30/10/2026: projeto existente ativo; base privada educacional com onze tabelas, RLS e negação de acesso cliente criada e testada com dados fictícios revertidos. Receptor, autorização/entrada, sincronização das aulas, medidor de tempo e painel docente ainda não implantados. Nenhum aluno real ou aula foi cadastrado. Não há coleta automática ativa nem recuperação retrospectiva garantida de dados locais. Próxima implantação exige teste real navegador → receptor → banco → recibo, além de isolamento entre escolas e conferência do relatório completo. Nunca expor credencial privilegiada no HTML nem dados individuais no repositório público.
+Atualização de 31/10/2026 — decisão do professor: nas aulas migradas, bloquear a abertura da atividade até preencher e conferir **nome da escola, nome do aluno, matéria e turma**. Permitir apoio docente no preenchimento; não exigir diagnóstico nem habilidade autônoma de digitação. O acesso individual é adicional aos quatro campos e vincula a sessão no servidor. Nome livre e código de turma não autorizam leitura de registros. Recarga exige nova confirmação de entrada; não restaurar automaticamente o nome/atividade de outro estudante em dispositivo compartilhado.
+
+Implantação inicial: receptor Supabase `coleta-educacional`, base privada e piloto separado `aulas/piloto-coleta-historia-192`. Consultar STATUS e VERIFICACAO da integração para a evidência atual; a existência do endpoint não migra as páginas antigas. Eventos e relatório possuem IDs estáveis, confirmação, fila temporária por sessão, cota e reenvio. Somente remover pendências após recibo correspondente. Dados/convites não entram em URL, Git ou logs da aplicação. A abertura é bloqueio de interface da realização registrada; não é sigilo do conteúdo público ou proteção contra inspeção do código.
+
+A lista nominal deve ser conferida em ambiente restrito antes de emitir acessos. Nenhuma identidade real é inventada, nenhuma matrícula é deduzida de nome, e dados antigos não são importados automaticamente. Painel docente e duração detalhada continuam etapas separadas. O pedido de bloqueio de tela foi adiado: não solicitar tela inteira, não impedir saída nem instalar rastreamento de outros aplicativos nesta implantação.
 
 ## 14. Materiais do professor e segurança de acesso
 Guia docente, orientações “como explicar”, gabarito consolidado e planos exclusivos do professor devem ser separados do material discente.
