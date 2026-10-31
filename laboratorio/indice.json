@@ -849,15 +849,32 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "41199127693",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "c2a12fe693848efbbd0db62bec971257a4727ba5",
+      "pasta": "execucoes/41199127693-1-individuos",
+      "experimento": "e7d94c71abbf7c9e4567f2a460f179c80d718378b64cafde6c36dc0ada8c2544",
+      "diferencas": {
+        "novas": [],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "d597cb91d3e0d6130e4374480ed11bea4e7958b4b2ea39c34d5f8e3d5ddb6c9e",
+      "biblioteca-arquiteturas/catalogo.json": "2f95e1e1f79d459d47a62380606b94d1a9e529b3d0e7d97da4e311e1f821bc4d",
       "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
       "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "6f9ac3eaabc2b3a6fbaf866ee51c13c3f0336e2e86f80a7ac4ea6c2fe97c8dd4",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "7dcc6726aad913c2a9426d2b26f0cc733ac52b7ae730383eabb674dfbcaf6edf",
       "pesquisa/registros.json": "b4bee320cc3537192fd2db8a04e5b89427c0ee608199275ec6a3c55e6df757ab",
       "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
     },
