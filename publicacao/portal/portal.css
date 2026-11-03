@@ -6,3 +6,13 @@
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*{transition:none!important}}
 
 .sidebar-close{display:none}@media(max-width:800px){.sidebar-close{display:block;position:absolute;top:12px;right:13px;font-size:20px;line-height:1;padding:5px 9px}.sidebar .brand{margin-top:20px}}
+
+/* QR de acesso: URL publica individual de cada material; sem dados de estudantes. */
+.card-qr{display:flex;align-items:center;gap:12px;margin-top:13px;padding:11px;border:1px solid #e4eadc;border-radius:6px;background:#f8faf4;flex-wrap:wrap}
+.card-qr-image{display:block;flex:0 0 108px;width:108px;height:108px;object-fit:contain;background:white;border:5px solid white;border-radius:4px}
+.card-qr-caption{flex:1;min-width:95px;color:#506c5a;font-size:11px;line-height:1.5;font-weight:600}
+.card-qr-fallback{display:none;color:#294f3c;font-size:11px;text-decoration:underline}
+.card-qr.qr-unavailable .card-qr-fallback{display:inline}
+.card-qr.qr-unavailable .card-qr-caption{font-weight:400}
+.card-qr-image[hidden]{display:none}
+@media print{.card-qr{break-inside:avoid}.card-qr-image{width:108px;height:108px}}
