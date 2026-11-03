@@ -37,6 +37,9 @@ def main():
     image_learning.mkdir(parents=True, exist_ok=True)
     for name in ["conteudos.js", "cenas.js", "aplicar.js", "estilo.css"]:
         shutil.copyfile(ROOT / "publicacao" / "imagens" / name, image_learning / name)
+    literacy = OUT / "_recursos" / "alfabetizacao"
+    literacy.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(ROOT / "publicacao/alfabetizacao/index.html", literacy / "index.html")
     sounds = OUT / "_recursos" / "sons"
     sounds.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(ROOT / "publicacao/sons/painel.js", sounds / "painel.js")
