@@ -1,7 +1,9 @@
 # Biblioteca de Arquiteturas da Aprendizagem
 Versão documental: 1.4.0 — 28/10/2026  
 Responsável pedagógico: Prof. André de Oliveira Rodrigues.  
-Compatível com o [Prompt Mestre 2.11.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
+Compatível com o [Prompt Mestre 2.30.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
+
+**Nova arquitetura transversal:** [Salas de Alfabetização e Letramento](SALAS_DE_ALFABETIZACAO_E_LETRAMENTO.md): oito modalidades (imagem-palavra, consciência fonológica, grafema-fonema, montagem, frases, letramento social, jogos e ponte curricular), disponíveis como apoio não estigmatizante em todas as turmas.
 
 Esta biblioteca transforma diretrizes em plantas consultáveis: o que cada arquitetura faz, suas entradas, operações, saídas, relações, exemplos e critérios de revisão. O prompt é a porta de entrada; a biblioteca detalha sua execução; os recursos técnicos produzem os formatos. Uma IA deve ler os documentos: links e siglas sozinhos não transferem contexto nem garantem execução idêntica.
 
