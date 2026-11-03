@@ -6,6 +6,8 @@
 ## [ÂNCORA CONCEITUAL]
 Estudar envolve observar, falar, ouvir, ler, registrar e retomar. Neste encontro, as palavras LIVRO, LÁPIS, CADERNO, LUPA e RELÓGIO conectam objetos da rotina de estudo à linguagem oral/escrita. O objetivo não é exigir leitura autônoma como pré-requisito.
 
+**Ajuste prioritário de acessibilidade:** para estudantes que ainda não leem autonomamente, o primeiro contato deve ser oral e visual. O estudante inicia pelo botão grande de áudio, escuta o comando, toca na imagem e pode repetir ou solicitar mediação humana. A palavra impressa é objeto de aprendizagem, não pré-requisito de navegação. A leitura de sílabas deve ser ensinada com apoio explícito e não inferida pela resposta certa. Se o Chromebook não disponibilizar TTS em português, o professor ou mediador lê o comando. Não divulgar nomes ou necessidades individuais na página pública.
+
 ## [MECÂNICA COGNITIVA]
 Apresente o objeto real ou a ilustração, nomeie lentamente, peça que o estudante aponte ou diga o nome; modele a relação entre forma, palavra e significado. Convide o estudante a observar as partes sonoras, sem supor que separar sílabas equivale a decodificar o código escrito. Mostre outra situação em que o objeto seria utilizado, reduzindo pistas. Ofereça escolhas por toque ou oralidade, repetição e mediação.
 
