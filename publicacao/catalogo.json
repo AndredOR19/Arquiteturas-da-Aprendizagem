@@ -528,8 +528,7 @@
       }
     },
     {
-      "tipo": "link",
-      "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-historia-231/",
+      "tipo": "html",
       "titulo": "Autoritarismo sem tanques",
       "data_aula": "2026-11-03",
       "portal": {
@@ -551,9 +550,11 @@
           "231",
           "03/11/2026"
         ],
-        "descricao": "Paternalismo, autoritarismo e populismo: como reconhecer mecanismos autoritários em diferentes contextos.",
+        "descricao": "Entrada identificada, sem login e com registro de abertura/tempo. A atividade completa é hospedada no Vercel; questões e nota ainda não são sincronizadas com este registro.",
         "titulo_exibicao": "Autoritarismo sem tanques"
-      }
+      },
+      "origem": "aulas/03-11-2026-historia-231-entrada",
+      "destino": "aulas/03-11-2026-historia-231-entrada"
     },
     {
       "tipo": "link",
