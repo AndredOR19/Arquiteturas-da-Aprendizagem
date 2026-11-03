@@ -611,6 +611,42 @@
         "descricao": "Atividade digital de Estudos Orientados para a turma 182, em 3 de novembro de 2026.",
         "titulo_exibicao": "Estudos Orientados — turma 182"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/sala-01-alfabetizacao-182",
+      "destino": "aulas/sala-01-alfabetizacao-182",
+      "titulo": "Sala 01 — Imagem, Palavra e Som",
+      "data_aula": "2026-11-03",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "treinamento",
+        "componentes": [
+          "Estudos Orientados",
+          "Alfabetização e Letramento"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [
+          "182"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "alfabetização",
+          "letramento",
+          "imagem",
+          "palavra",
+          "som",
+          "associação",
+          "sílabas",
+          "sala 01",
+          "182"
+        ],
+        "descricao": "Laboratório inclusivo de Estudos Orientados: associar imagens, ouvir palavras, observar sílabas e transferir para outras situações. Sem login, sem diagnóstico, sem nota curricular; progresso local.",
+        "titulo_exibicao": "Sala 01 · Imagem, Palavra e Som"
+      }
     }
   ]
 }
