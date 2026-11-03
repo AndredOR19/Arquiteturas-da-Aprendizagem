@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Aprender com imagens, palavras e áudio</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#152e33;background:#f4f8f5;font-size:18px}*{box-sizing:border-box}body{margin:0}.wrap{max-width:880px;margin:auto;padding:22px}.card{background:white;border:2px solid #294c55;border-radius:16px;padding:20px;margin:16px 0;box-shadow:5px 5px 0 #b4d1c5}button,a.link{border:2px solid #173d44;border-radius:12px;background:#e5f5ff;color:#102e3a;padding:12px;font:inherit;cursor:pointer;text-decoration:none;display:inline-block;min-height:48px}button:focus-visible,a:focus-visible{outline:4px solid #f0a52c;outline-offset:3px}button:disabled{opacity:.55;cursor:default}.menu{display:flex;flex-wrap:wrap;gap:10px}.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}.choice{min-height:140px;background:#f6fbf7;display:grid;align-content:center;justify-items:center;gap:10px}.emoji{font-size:clamp(42px,7vw,76px);line-height:1.1}.word{font-size:clamp(28px,5vw,44px);font-weight:800;letter-spacing:2px}.syllables{display:flex;gap:8px;flex-wrap:wrap}.syllable{padding:12px 18px;background:#f7e7bc;border:2px solid #493c21;border-radius:10px;font-weight:800;font-size:30px}.status{min-height:36px;font-weight:650}.hint{color:#37555c;font-size:15px}.hide{display:none!important}@media(max-width:600px){.choices{grid-template-columns:1fr 1fr}.choice{min-height:115px}.wrap{padding:12px}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body><main class="wrap">
+<header class="card"><p>ARQUITETURAS DA APRENDIZAGEM · PERCURSO DE APOIO</p><h1>Aprender com imagens, palavras e áudio</h1><p>Ouça, observe, escolha e tente novamente. Você pode voltar à aula quando quiser.</p><p id="subject" class="hint"></p><div class="menu"><button id="hearIntro">🔊 Ouvir instruções</button><button id="stop">Parar áudio</button><button id="large" aria-pressed="false">Aumentar letras</button><a class="link" id="back" href="../../">Voltar ao acervo</a></div><p class="hint">O áudio depende do navegador e pode precisar de fones. Não é necessário escrever, criar conta ou informar nome.</p></header>
+<section class="card" id="activity"><p id="step" class="hint"></p><h2 id="command">Observe</h2><div id="symbol" class="emoji" aria-hidden="true"></div><p id="word" class="word"></p><div id="parts" class="syllables" aria-label="Partes da palavra"></div><div class="menu"><button id="hear">🔊 Ouvir palavra</button><button id="hearParts">🔊 Ouvir partes</button></div><p id="question"></p><div class="choices" id="choices"></div><p id="feedback" class="status" role="status" aria-live="polite"></p><div class="menu"><button id="next" disabled>Próxima palavra</button><button id="repeat">Repetir atividade</button></div><p id="progress" class="hint"></p></section>
+<footer class="hint">Este é um percurso complementar, não uma avaliação de leitura nem um diagnóstico. O uso é opcional e não modifica a nota da aula. O progresso fica somente nesta página.</footer>
+</main><script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id);
+const sets={
+geral:[['SOL','☀️',['SOL']],['CASA','🏠',['CA','SA']],['BOLA','⚽',['BO','LA']],['LIVRO','📖',['LI','VRO']]],
+historia:[['LIVRO','📖',['LI','VRO']],['MAPA','🗺️',['MA','PA']],['ESCOLA','🏫',['ES','CO','LA']],['VOTO','🗳️',['VO','TO']]],
+matematica:[['BOLA','⚽',['BO','LA']],['NÚMERO','🔢',['NÚ','ME','RO']],['CASA','🏠',['CA','SA']],['TEMPO','⏰',['TEM','PO']]],
+ciencias:[['ÁGUA','💧',['Á','GUA']],['PLANTA','🌱',['PLAN','TA']],['SOL','☀️',['SOL']],['TEMPO','⏰',['TEM','PO']]],
+arte:[['ARTE','🎨',['AR','TE']],['LIVRO','📖',['LI','VRO']],['BOLA','⚽',['BO','LA']],['CASA','🏠',['CA','SA']]],
+orientados:[['ESCOLA','🏫',['ES','CO','LA']],['LIVRO','📖',['LI','VRO']],['CASA','🏠',['CA','SA']],['BOLA','⚽',['BO','LA']]]};
+const params=new URLSearchParams(location.search);const subject=(params.get('materia')||'Aula').slice(0,90),theme=(params.get('tema')||'').slice(0,100).toLowerCase();
+const low=(subject+' '+theme).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const kind=low.includes('historia')?'historia':low.includes('matematica')?'matematica':low.includes('ciencia')||low.includes('geografia')?'ciencias':low.includes('arte')?'arte':low.includes('orientado')?'orientados':'geral';
+const words=sets[kind];let index=0,score=0,completed=false,large=false;
+$('subject').textContent='Área: '+subject;
+const returnUrl=params.get('voltar');
+if(returnUrl){try{const url=new URL(returnUrl,location.href);if(['https://andredor19.github.io','https://aulas-03-11-2026.vercel.app'].includes(url.origin)){$('back').href=url.href;$('back').textContent='Voltar à aula';}}catch{}}
+function speak(message){if(!('speechSynthesis'in window)){$('feedback').textContent='Áudio indisponível. Peça ajuda para ouvir a palavra.';return;}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.lang='pt-BR';u.rate=.78;const available=speechSynthesis.getVoices();u.voice=available.find(x=>x.lang.toLowerCase()==='pt-br')||available.find(x=>x.lang.toLowerCase().startsWith('pt'))||null;speechSynthesis.speak(u);}
+function render(){const w=words[index];completed=false;$('step').textContent='Palavra '+(index+1)+' de '+words.length;$('command').textContent='Olhe e ouça a palavra';$('symbol').textContent=w[1];$('word').textContent=w[0];$('parts').replaceChildren(...w[2].map(x=>{const b=document.createElement('span');b.className='syllable';b.textContent=x;return b;}));$('question').textContent='Qual imagem combina com a palavra?';$('feedback').textContent='';$('next').disabled=true;
+const others=words.filter(x=>x[0]!==w[0]).slice(0,2);const order=[w,...others].sort((a,b)=>a[0].localeCompare(b[0],'pt-BR')*(index%2?1:-1));
+$('choices').replaceChildren(...order.map(item=>{const b=document.createElement('button');b.className='choice';b.setAttribute('aria-label',item[0]);const a=document.createElement('span');a.className='emoji';a.textContent=item[1];const l=document.createElement('span');l.textContent=item[0];b.append(a,l);b.onclick=()=>{if(completed)return;if(item[0]===w[0]){completed=true;score++;$('feedback').textContent='Você associou a palavra à imagem. Muito bem!';$('next').disabled=false;speak(w[0]+'. Você encontrou a imagem.');}else{$('feedback').textContent='Observe novamente a palavra e escute o som. Tente outra imagem.';speak('Vamos tentar mais uma vez. '+w[0]);}};return b;}));
+$('progress').textContent='Atividades concluídas: '+score+' de '+words.length+'. Você pode repetir quantas vezes precisar.';}
+$('hearIntro').onclick=()=>speak('Você vai ver uma imagem, ouvir uma palavra e escolher a imagem que combina com ela. Pode repetir quantas vezes quiser.');
+$('hear').onclick=()=>speak(words[index][0]);$('hearParts').onclick=()=>speak(words[index][2].join('. '));
+$('stop').onclick=()=>window.speechSynthesis?.cancel();
+$('large').onclick=()=>{large=!large;document.documentElement.style.fontSize=large?'23px':'18px';$('large').setAttribute('aria-pressed',String(large));};
+$('repeat').onclick=render;
+$('next').onclick=()=>{if(!completed)return;if(index===words.length-1){$('feedback').textContent='Você terminou este percurso! Pode voltar à aula ou repetir o treino.';$('next').disabled=true;speak('Parabéns! Você terminou este percurso.');return;}index++;render();};
+render();
+})();
+</script></body></html>
