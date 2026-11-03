@@ -1,0 +1,478 @@
+{
+  "versao_motor": "0.1.0",
+  "tipo": "simulacao_sintetica",
+  "dados_reais": false,
+  "validacao_empirica": false,
+  "modelo_cognitivo": false,
+  "configuracao": {
+    "schema_version": "1.0.0",
+    "id": "turmas",
+    "titulo": "Planejamento com atribuição por turmas",
+    "modelo": "turmas",
+    "estado": "ilustrativo_nao_calibrado",
+    "origem_parametros": "Turmas inteiramente fictícias; a variabilidade entre turmas não foi estimada na rede escolar.",
+    "unidades_por_grupo": [
+      4,
+      8
+    ],
+    "efeitos_pp": [
+      -5,
+      0,
+      5,
+      10
+    ],
+    "perdas": [
+      0.2
+    ],
+    "desvios_turma": [
+      0,
+      0.04
+    ],
+    "estudantes_por_turma": 20,
+    "itens": 20,
+    "beta_inicial": [
+      6,
+      4
+    ],
+    "ganho_comum_pp": 5,
+    "alfa": 0.05,
+    "alvo_planejamento": 0.8
+  },
+  "repeticoes_por_cenario": 1000,
+  "semente_base": 20261028,
+  "pessoas_replicas_planejadas": 3840000,
+  "cenarios": [
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": -5,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 7346531717696146899,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 128.062,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": -4.987543753481641,
+      "percentis_estimativas_pp": [
+        -10.344440125282569,
+        0.4757905218008252
+      ],
+      "frequencia_rejeicao": 0.319,
+      "erro_monte_carlo": 0.014739029818817792,
+      "intervalo_monte_carlo_aprox": [
+        0.2901115015551171,
+        0.3478884984448829
+      ],
+      "rejeicao_positiva": 0.0,
+      "rejeicao_negativa": 0.319
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": -5,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 8948206182263444190,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 128.069,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": -5.112538856138701,
+      "percentis_estimativas_pp": [
+        -12.364651921623913,
+        1.9315594439530157
+      ],
+      "frequencia_rejeicao": 0.178,
+      "erro_monte_carlo": 0.012096115078817662,
+      "intervalo_monte_carlo_aprox": [
+        0.15429161444551737,
+        0.20170838555448262
+      ],
+      "rejeicao_positiva": 0.002,
+      "rejeicao_negativa": 0.176
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": 0,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 3761707593421080591,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 128.209,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": -0.014688369255658317,
+      "percentis_estimativas_pp": [
+        -5.096621877917834,
+        4.997092896917539
+      ],
+      "frequencia_rejeicao": 0.037,
+      "erro_monte_carlo": 0.005969170796685248,
+      "intervalo_monte_carlo_aprox": [
+        0.02530042523849691,
+        0.048699574761503085
+      ],
+      "rejeicao_positiva": 0.017,
+      "rejeicao_negativa": 0.02
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": 0,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 14270900102761372164,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 127.893,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": -0.39676138436297104,
+      "percentis_estimativas_pp": [
+        -7.67309813053089,
+        7.028501035830996
+      ],
+      "frequencia_rejeicao": 0.039,
+      "erro_monte_carlo": 0.006122009474020765,
+      "intervalo_monte_carlo_aprox": [
+        0.0270008614309193,
+        0.0509991385690807
+      ],
+      "rejeicao_positiva": 0.017,
+      "rejeicao_negativa": 0.022
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": 5,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 14601688240589011815,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 128.29,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": 4.825042509219367,
+      "percentis_estimativas_pp": [
+        -0.40944713960145523,
+        9.692605255780084
+      ],
+      "frequencia_rejeicao": 0.31,
+      "erro_monte_carlo": 0.014625320509308504,
+      "intervalo_monte_carlo_aprox": [
+        0.28133437180175536,
+        0.33866562819824464
+      ],
+      "rejeicao_positiva": 0.31,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": 5,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 8312654600665130684,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 127.809,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": 4.9596294294585705,
+      "percentis_estimativas_pp": [
+        -2.1671146693326455,
+        12.596192226890754
+      ],
+      "frequencia_rejeicao": 0.167,
+      "erro_monte_carlo": 0.01179453263168999,
+      "intervalo_monte_carlo_aprox": [
+        0.14388271604188763,
+        0.1901172839581124
+      ],
+      "rejeicao_positiva": 0.167,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": 10,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 17831015391641763025,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 127.901,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": 9.840279763494161,
+      "percentis_estimativas_pp": [
+        4.659938621830312,
+        14.826451987044816
+      ],
+      "frequencia_rejeicao": 0.868,
+      "erro_monte_carlo": 0.010704017937204702,
+      "intervalo_monte_carlo_aprox": [
+        0.8470201248430788,
+        0.8889798751569212
+      ],
+      "rejeicao_positiva": 0.868,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 4,
+      "efeito_assumido_pp": 10,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 14544765114108337367,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 160,
+      "media_pessoas_acompanhadas": 127.999,
+      "media_unidades_analisadas_por_grupo": 4.0,
+      "diferenca_media_pp": 9.754289741819928,
+      "percentis_estimativas_pp": [
+        2.5266072465170284,
+        17.700575792268662
+      ],
+      "frequencia_rejeicao": 0.553,
+      "erro_monte_carlo": 0.01572230899073034,
+      "intervalo_monte_carlo_aprox": [
+        0.5221842743781686,
+        0.5838157256218315
+      ],
+      "rejeicao_positiva": 0.553,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": -5,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 4682963232337163025,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 256.111,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": -4.943912753722134,
+      "percentis_estimativas_pp": [
+        -8.49436153351776,
+        -1.1787090082743639
+      ],
+      "frequencia_rejeicao": 0.684,
+      "erro_monte_carlo": 0.014701836619960105,
+      "intervalo_monte_carlo_aprox": [
+        0.6551844002248782,
+        0.7128155997751219
+      ],
+      "rejeicao_positiva": 0.0,
+      "rejeicao_negativa": 0.684
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": -5,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 662060260788255289,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 255.807,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": -4.978158494001591,
+      "percentis_estimativas_pp": [
+        -10.15412034088686,
+        0.46928010513415647
+      ],
+      "frequencia_rejeicao": 0.403,
+      "erro_monte_carlo": 0.01551099609954177,
+      "intervalo_monte_carlo_aprox": [
+        0.37259844764489813,
+        0.4334015523551019
+      ],
+      "rejeicao_positiva": 0.0,
+      "rejeicao_negativa": 0.403
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": 0,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 742184311297523456,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 256.035,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": -0.023457781927717088,
+      "percentis_estimativas_pp": [
+        -3.6460622777071356,
+        3.4707965148778803
+      ],
+      "frequencia_rejeicao": 0.055,
+      "erro_monte_carlo": 0.00720936890441875,
+      "intervalo_monte_carlo_aprox": [
+        0.04086963694733925,
+        0.06913036305266075
+      ],
+      "rejeicao_positiva": 0.022,
+      "rejeicao_negativa": 0.033
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": 0,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 16477938190706046574,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 255.812,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": -0.11840791095836561,
+      "percentis_estimativas_pp": [
+        -5.261467928517559,
+        5.110415113245028
+      ],
+      "frequencia_rejeicao": 0.047,
+      "erro_monte_carlo": 0.006692607862410586,
+      "intervalo_monte_carlo_aprox": [
+        0.033882488589675255,
+        0.060117511410324745
+      ],
+      "rejeicao_positiva": 0.022,
+      "rejeicao_negativa": 0.025
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": 5,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 15411428417404395748,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 256.205,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": 5.003370956152979,
+      "percentis_estimativas_pp": [
+        1.469582292895227,
+        8.374316497432305
+      ],
+      "frequencia_rejeicao": 0.735,
+      "erro_monte_carlo": 0.013956181426163821,
+      "intervalo_monte_carlo_aprox": [
+        0.7076458844047189,
+        0.7623541155952811
+      ],
+      "rejeicao_positiva": 0.735,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": 5,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 8615060953456749137,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 255.981,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": 5.037569773159847,
+      "percentis_estimativas_pp": [
+        -0.29065280801929344,
+        10.423589209637969
+      ],
+      "frequencia_rejeicao": 0.409,
+      "erro_monte_carlo": 0.015547314880711717,
+      "intervalo_monte_carlo_aprox": [
+        0.378527262833805,
+        0.43947273716619495
+      ],
+      "rejeicao_positiva": 0.409,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": 10,
+      "perda": 0.2,
+      "desvio_turma": 0,
+      "semente": 5708024811811760509,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 255.622,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": 9.886516565974553,
+      "percentis_estimativas_pp": [
+        6.288618406729256,
+        13.458150373636297
+      ],
+      "frequencia_rejeicao": 0.999,
+      "erro_monte_carlo": 0.0009994998749374613,
+      "intervalo_monte_carlo_aprox": [
+        0.9970409802451226,
+        1
+      ],
+      "rejeicao_positiva": 0.999,
+      "rejeicao_negativa": 0.0
+    },
+    {
+      "unidades_por_grupo": 8,
+      "efeito_assumido_pp": 10,
+      "perda": 0.2,
+      "desvio_turma": 0.04,
+      "semente": 17696597644085564364,
+      "repeticoes": 1000,
+      "validas": 1000,
+      "invalidas": 0,
+      "unidade_analise": "turma",
+      "pessoas_iniciais_total": 320,
+      "media_pessoas_acompanhadas": 255.85,
+      "media_unidades_analisadas_por_grupo": 8.0,
+      "diferenca_media_pp": 9.874514571191623,
+      "percentis_estimativas_pp": [
+        4.92758729750373,
+        15.029823918328294
+      ],
+      "frequencia_rejeicao": 0.934,
+      "erro_monte_carlo": 0.007851369307324675,
+      "intervalo_monte_carlo_aprox": [
+        0.9186113161576437,
+        0.9493886838423564
+      ],
+      "rejeicao_positiva": 0.934,
+      "rejeicao_negativa": 0.0
+    }
+  ]
+}
