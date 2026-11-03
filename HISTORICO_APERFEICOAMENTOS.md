@@ -3,6 +3,10 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 2.30.0 — 03/11/2026 — Salas de alfabetização e letramento transversal
+
+Diretriz autoral: cada aula nova deve oferecer um percurso complementar opcional de alfabetização e letramento, com imagens, palavras, sons, grafemas, sílabas, frases, usos sociais da escrita, jogos de recuperação e ponte curricular. Nível de habilidades independente de idade/série e sem exposição de diagnóstico ou dados individuais. Planejamentos específicos de apoio permanecem privados. Acrescentados seção 34 no Prompt Mestre e documento das oito salas na biblioteca. A página genérica já existia; as oito salas completas e integração de dados de alfabetização **ainda não estão implementadas**. Registrar e testar antes de anunciar operação pública.
+
 ## 2.29.0 — 31/10/2026 — Aula dada por execução e painel docente
 
 Pedido do Prof. André: marcar automaticamente execução da aula, acompanhar quem fez/falta, imprimir notas, editar parecer, monitoramento escolar e acesso por e-mail/colaboração. Implementados: receptor de estudantes marca após primeira tentativa válida de produção, com origem; painel e API docentes validam e-mail/sessão e autorização anual privada, com escopo de professor ou gestor. Colaboração GitHub não foi convertida automaticamente em acesso escolar.
