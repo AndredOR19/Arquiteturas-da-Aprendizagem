@@ -1,5 +1,7 @@
 # Protocolo de consulta, composição e continuidade para IA
-Versão: 1.3.0 — 29/10/2026. Compatibilidade: Prompt Mestre 2.23.0.
+Versão: 1.3.0 — 29/10/2026. Compatibilidade atualizada: Prompt Mestre 2.30.0.
+
+**Leitura obrigatória nas novas aulas:** [Salas de Alfabetização e Letramento](SALAS_DE_ALFABETIZACAO_E_LETRAMENTO.md). Toda composição deve incluir a rota curricular e o apoio opcional de imagens, palavras, letras, sons e letramento, sem exposição de dados individuais, sem confundir jogo com avaliação da disciplina e sem afirmar recursos não testados.
 
 ## Âncora — atuação esperada
 Atuar como executor e revisor orientado por uma base explícita. Não presumir vivência compartilhada, memória automática, leitura prévia ou compreensão apenas das siglas. A responsabilidade pedagógica permanece com o professor.
