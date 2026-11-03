@@ -19,7 +19,7 @@ def acervo_publico(root,items):
             m=re.search(r'(\d{2})-(\d{2})-(\d{4})',item.get('origem',''))
             if m:date=f'{m[3]}-{m[2]}-{m[1]}'
         out={k:p[k] for k in ['ano_letivo','categoria','componentes','series','turmas','escola','escola_curta','palavras_chave']}
-        out.update(id=item.get('destino') or 'apresentacao-'+str(i),titulo=p.get('titulo_exibicao',item['titulo']),descricao=p['descricao'],url=item.get('url') if item['tipo']=='link' else item['destino']+'/',data_catalogo=date,acesso=p.get('acesso','aberto'),formato='GAMMA' if item['tipo']=='link' else 'SLIDES' if item['tipo']=='slides' else 'AULA DIGITAL')
+        out.update(id=item.get('destino') or 'apresentacao-'+str(i),titulo=p.get('titulo_exibicao',item['titulo']),descricao=p['descricao'],url=item.get('url') if item['tipo']=='link' else item['destino']+'/',data_catalogo=date,acesso=p.get('acesso','aberto'),formato=('GAMMA' if 'gamma.app' in item.get('url','') else 'AULA DIGITAL') if item['tipo']=='link' else 'SLIDES' if item['tipo']=='slides' else 'AULA DIGITAL')
         saida.append(out)
     return {'versao':'1.0.0','materiais':saida}
 
