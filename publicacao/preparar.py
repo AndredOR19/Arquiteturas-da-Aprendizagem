@@ -46,8 +46,8 @@ def main():
         if item['tipo'] == 'link':
             url = item.get('url', '')
             parsed = urlparse(url)
-            if parsed.scheme != 'https' or parsed.netloc != 'gamma.app':
-                raise ValueError('Apresentação externa deve usar HTTPS no Gamma.')
+            if parsed.scheme != 'https' or parsed.netloc not in {'gamma.app', 'aulas-03-11-2026.vercel.app'}:
+                raise ValueError('Link externo deve usar HTTPS no Gamma ou no Vercel de aulas.')
             links.append('<li><a href="' + html.escape(url, quote=True) + '">' + html.escape(item['titulo']) + '</a></li>')
             continue
         source = safe_path(ROOT, item['origem'])
