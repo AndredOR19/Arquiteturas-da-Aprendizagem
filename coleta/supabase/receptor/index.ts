@@ -2,12 +2,19 @@
 import postgres from 'npm:postgres@3.4.3';
 import {envelope,relatorio,normalizar,exigir} from './validacao.mjs';
 const sql=postgres(Deno.env.get('SUPABASE_DB_URL')!,{prepare:false,max:1,idle_timeout:10,connect_timeout:10});
-const origin='https://andredor19.github.io';
+// Origens de produção explícitas. CORS não substitui o convite individual.
+const allowedOrigins=new Set(['https://andredor19.github.io','https://aulas-03-11-2026.vercel.app']);
+const cors=(req:Request)=>({
+ 'Access-Control-Allow-Origin':allowedOrigins.has(req.headers.get('origin')||'')?req.headers.get('origin')!:'https://andredor19.github.io',
+ 'Access-Control-Allow-Methods':'POST, OPTIONS',
+ 'Access-Control-Allow-Headers':'content-type',
+ 'Cache-Control':'no-store', 'Vary':'Origin'
+});
 const hash=async(s:string)=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))).map(x=>x.toString(16).padStart(2,'0')).join('');
-function resposta(req:Request,body:unknown,status=200){return Response.json(body,{status,headers:{'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Methods':'POST, OPTIONS','Access-Control-Allow-Headers':'content-type','Cache-Control':'no-store','Vary':'Origin'}});}
+function resposta(req:Request,body:unknown,status=200){return Response.json(body,{status,headers:cors(req)});}
 Deno.serve(async(req:Request)=>{
- if(req.headers.get('origin')&&req.headers.get('origin')!==origin)return resposta(req,{ok:false,mensagem:'Origem não permitida.'},403);
- if(req.method==='OPTIONS')return new Response(null,{status:204,headers:{'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Methods':'POST, OPTIONS','Access-Control-Allow-Headers':'content-type','Access-Control-Max-Age':'600'}});
+ if(req.headers.get('origin')&&!allowedOrigins.has(req.headers.get('origin')!))return resposta(req,{ok:false,mensagem:'Origem não permitida.'},403);
+ if(req.method==='OPTIONS')return new Response(null,{status:204,headers:{...cors(req),'Access-Control-Max-Age':'600'}});
  if(req.method!=='POST')return resposta(req,{ok:false,mensagem:'Use POST.'},405);
  try{
   // Ler com limite mesmo sem Content-Length; nunca registrar o corpo em logs.
