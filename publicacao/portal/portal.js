@@ -23,7 +23,17 @@ const qrText=node('span','Aponte a câmera para abrir a aula','card-qr-caption')
 const qrLink=node('a','Link da atividade ↗','card-qr-fallback');
 qrLink.href=x.url;if(x.url.startsWith('https://')){qrLink.target='_blank';qrLink.rel='noopener';}
 qrBox.append(qrImage,qrText,qrLink);
-body.append(bottom,qrBox);article.append(art,body);return article;}
+body.append(bottom);
+if(['aula','demonstracao','piloto'].includes(x.categoria)){
+ const support=node('a','🔊 Aprender com imagens, palavras e áudio','card-literacy-link');
+ const page=new URL('../alfabetizacao/index.html',script.src);
+ page.searchParams.set('materia',x.componentes.join(' + ')||'Aula');
+ page.searchParams.set('tema',x.titulo);
+ page.searchParams.set('voltar',new URL(x.url,document.baseURI).href);
+ support.href=page.href;support.setAttribute('aria-label','Percurso complementar de alfabetização para '+x.titulo);
+ body.append(support);
+}
+body.append(qrBox);article.append(art,body);return article;}
 function saveURL(){const p=new URLSearchParams();for(const[k,v]of Object.entries(state))if(v&&!(k==='collection'&&v==='todos')&&!(k==='sort'&&v==='recentes'))p.set(k,v);const query=p.toString();history.replaceState(null,'',location.pathname+(query?'?'+query:'')+location.hash);}
 function render(){let list=data.filter(matches);list.sort(state.sort==='titulo'?(a,b)=>locale.compare(a.titulo,b.titulo):state.sort==='materia'?(a,b)=>locale.compare(a.componentes[0]||'',b.componentes[0]||'')||locale.compare(a.titulo,b.titulo):(a,b)=>(b.data_catalogo||'').localeCompare(a.data_catalogo||'')||locale.compare(a.titulo,b.titulo));$('materials').replaceChildren(...list.map(card));$('result-count').textContent=list.length+' '+(list.length===1?'material encontrado':'materiais encontrados')+' · '+data.length+' no acervo';$('empty').hidden=list.length>0;const names={todos:'Todo o acervo',aulas:'Aulas por matéria',treinamento:'Treinamento cognitivo',apresentacoes:'Apresentações'};$('current-section').textContent=names[state.collection];document.querySelectorAll('[data-collection]').forEach(b=>{const active=b.dataset.collection===state.collection;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-section]').forEach(a=>a.classList.toggle('active',a.dataset.section===state.collection));saveURL();}
 function options(id,values){for(const x of [...new Set(values)].sort(locale.compare))$(id).append(new Option(x,x));}
