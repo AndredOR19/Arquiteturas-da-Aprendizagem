@@ -16,3 +16,5 @@
 .card-qr.qr-unavailable .card-qr-caption{font-weight:400}
 .card-qr-image[hidden]{display:none}
 @media print{.card-qr{break-inside:avoid}.card-qr-image{width:108px;height:108px}}
+
+.card-literacy-link{display:block;margin:10px 0;padding:12px 14px;text-align:center;border:2px solid #2c665b;border-radius:10px;color:#164838;background:#eaf6ef;text-decoration:none;font-weight:700;font-size:13px;line-height:1.4}.card-literacy-link:hover,.card-literacy-link:focus-visible{outline:2px solid #276857;outline-offset:3px;background:#d7f0e2}
