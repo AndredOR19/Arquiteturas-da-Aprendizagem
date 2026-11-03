@@ -1,0 +1,14 @@
+{
+  "execucao": "41655065767",
+  "tentativa": "1",
+  "cenario": "individuos",
+  "commit_fonte": "587ba01ab3bf69857a73fb26f20a32a46f0d5368",
+  "pasta": "execucoes/41655065767-1-individuos",
+  "experimento": "9d49196e3c45f1f903b9ff6a1adb9be87a5919480db2bd8968259525c5a22d81",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": []
+  }
+}
