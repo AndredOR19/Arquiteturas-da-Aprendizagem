@@ -7,7 +7,7 @@ import shutil
 import subprocess
 import tempfile
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlencode
 from portal.gerar import preparar_portal
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -75,6 +75,17 @@ def main():
                     shutil.copyfile(p, target)
             for page in dest.rglob('*.html'):
                 text = page.read_text(encoding='utf-8')
+                if page == dest / 'index.html':
+                    materia = ', '.join(item.get('portal', {}).get('componentes', [])) or 'Aula'
+                    params = urlencode({'materia': materia, 'tema': item.get('titulo', ''), 'voltar': './'})
+                    support_path = os.path.relpath(literacy / 'index.html', page.parent).replace(os.sep, '/')
+                    support_link = '<aside class="apoio-alfabetizacao" style="max-width:900px;margin:24px auto;padding:16px;background:#eaf6ef;color:#123e36;border:2px solid #377266;border-radius:12px;font:17px/1.5 system-ui"><strong>Percurso opcional de apoio à leitura</strong><p style="margin:8px 0">Imagens, palavras, sílabas e áudio, sem alterar sua nota.</p><a style="display:inline-block;padding:10px 14px;color:#123e36;background:white;border:2px solid #377266;border-radius:8px" href="' + html.escape(support_path + '?' + params, quote=True) + '">Aprender com imagens, palavras e áudio</a></aside>'
+                    gate = '<div id="aula-conteudo" hidden inert>'
+                    if gate in text:
+                        text = text.replace(gate, gate + support_link, 1)
+                    else:
+                        end = text.lower().rfind('</body>')
+                        text = text[:end] + support_link + text[end:] if end >= 0 else text + support_link
                 if 'data-school-lettering' in text:
                     prefix = os.path.relpath(lettering, page.parent).replace(os.sep, '/') + '/'
                     text = text.replace('../../publicacao/lettering/', prefix)
