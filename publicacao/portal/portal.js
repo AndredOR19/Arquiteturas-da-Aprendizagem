@@ -11,7 +11,19 @@ function card(x,i){const article=node('article',undefined,'material-card');artic
 const body=node('div',undefined,'card-body');body.append(node('p',x.componentes.join(' + ')||'Aprendizagem e formação','card-eyebrow'),node('h3',x.titulo,'card-title'),node('p',x.descricao,'card-description'));
 const tags=node('div',undefined,'card-tags');for(const t of [...x.series,...x.turmas.map(t=>'Turma '+t),x.ano_letivo===null?'Uso livre':String(x.ano_letivo),...(x.acesso==='individual'?['Acesso individual']:[])])tags.append(node('span',t,'card-tag'));body.append(tags);
 const bottom=node('div',undefined,'card-bottom');bottom.append(node('span',x.escola==='Uso livre'?'Para explorar e retomar':x.escola_curta||x.escola));
-const a=node('a',(x.acesso==='individual'?'Entrar no piloto':x.categoria==='treinamento'?'Explorar laboratório':'Abrir material')+' ↗','card-link');a.href=x.url;a.setAttribute('aria-label',a.textContent+' — '+x.titulo);if(x.url.startsWith('https://')){a.target='_blank';a.rel='noopener';}bottom.append(a);body.append(bottom);article.append(art,body);return article;}
+const a=node('a',(x.acesso==='individual'?'Entrar no piloto':x.categoria==='treinamento'?'Explorar laboratório':'Abrir material')+' ↗','card-link');a.href=x.url;a.setAttribute('aria-label',a.textContent+' — '+x.titulo);if(x.url.startsWith('https://')){a.target='_blank';a.rel='noopener';}bottom.append(a);
+const qrBox=node('div',undefined,'card-qr');
+const qrImage=node('img',undefined,'card-qr-image');
+const publicURL=new URL(x.url,document.baseURI).href;
+qrImage.src='https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=12&data='+encodeURIComponent(publicURL);
+qrImage.alt='QR code para abrir: '+x.titulo;
+qrImage.width=108;qrImage.height=108;qrImage.loading='lazy';qrImage.decoding='async';qrImage.referrerPolicy='no-referrer';
+qrImage.addEventListener('error',()=>{qrImage.hidden=true;qrBox.classList.add('qr-unavailable');});
+const qrText=node('span','Aponte a câmera para abrir a aula','card-qr-caption');
+const qrLink=node('a','Link da atividade ↗','card-qr-fallback');
+qrLink.href=x.url;if(x.url.startsWith('https://')){qrLink.target='_blank';qrLink.rel='noopener';}
+qrBox.append(qrImage,qrText,qrLink);
+body.append(bottom,qrBox);article.append(art,body);return article;}
 function saveURL(){const p=new URLSearchParams();for(const[k,v]of Object.entries(state))if(v&&!(k==='collection'&&v==='todos')&&!(k==='sort'&&v==='recentes'))p.set(k,v);const query=p.toString();history.replaceState(null,'',location.pathname+(query?'?'+query:'')+location.hash);}
 function render(){let list=data.filter(matches);list.sort(state.sort==='titulo'?(a,b)=>locale.compare(a.titulo,b.titulo):state.sort==='materia'?(a,b)=>locale.compare(a.componentes[0]||'',b.componentes[0]||'')||locale.compare(a.titulo,b.titulo):(a,b)=>(b.data_catalogo||'').localeCompare(a.data_catalogo||'')||locale.compare(a.titulo,b.titulo));$('materials').replaceChildren(...list.map(card));$('result-count').textContent=list.length+' '+(list.length===1?'material encontrado':'materiais encontrados')+' · '+data.length+' no acervo';$('empty').hidden=list.length>0;const names={todos:'Todo o acervo',aulas:'Aulas por matéria',treinamento:'Treinamento cognitivo',apresentacoes:'Apresentações'};$('current-section').textContent=names[state.collection];document.querySelectorAll('[data-collection]').forEach(b=>{const active=b.dataset.collection===state.collection;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-section]').forEach(a=>a.classList.toggle('active',a.dataset.section===state.collection));saveURL();}
 function options(id,values){for(const x of [...new Set(values)].sort(locale.compare))$(id).append(new Option(x,x));}
