@@ -526,6 +526,90 @@
         "acesso": "individual",
         "metadados_fonte": "Conteúdo e título do material publicado; turma numérica somente quando explicitada. Ano letivo das aulas datadas de 2026; materiais de uso livre sem vínculo anual."
       }
+    },
+    {
+      "tipo": "link",
+      "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-historia-231/",
+      "titulo": "Autoritarismo sem tanques",
+      "data_aula": "2026-11-03",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "3º ano · EM"
+        ],
+        "turmas": [
+          "231"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "História",
+          "231",
+          "03/11/2026"
+        ],
+        "descricao": "Paternalismo, autoritarismo e populismo: como reconhecer mecanismos autoritários em diferentes contextos.",
+        "titulo_exibicao": "Autoritarismo sem tanques"
+      }
+    },
+    {
+      "tipo": "link",
+      "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-eletiva-192/",
+      "titulo": "Eletiva de Base — turma 192",
+      "data_aula": "2026-11-03",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Eletiva de Base"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Eletiva de Base",
+          "192",
+          "03/11/2026"
+        ],
+        "descricao": "Atividade digital de Eletiva de Base para a turma 192, em 3 de novembro de 2026.",
+        "titulo_exibicao": "Eletiva de Base — turma 192"
+      }
+    },
+    {
+      "tipo": "link",
+      "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-estudos-orientados-182/",
+      "titulo": "Estudos Orientados — turma 182",
+      "data_aula": "2026-11-03",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [
+          "182"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Estudos Orientados",
+          "182",
+          "03/11/2026"
+        ],
+        "descricao": "Atividade digital de Estudos Orientados para a turma 182, em 3 de novembro de 2026.",
+        "titulo_exibicao": "Estudos Orientados — turma 182"
+      }
     }
   ]
 }
