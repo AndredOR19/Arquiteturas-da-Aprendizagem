@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AEE Aula-Jogo",
+  "type": "object",
+  "required": [
+    "id",
+    "titulo",
+    "habilidade",
+    "motor",
+    "etapas"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "habilidade": {
+      "type": "string"
+    },
+    "motor": {
+      "enum": [
+        "nativo",
+        "phaser4",
+        "p5",
+        "kaplay",
+        "pixijs",
+        "gdevelop",
+        "threejs"
+      ]
+    },
+    "ano": {
+      "type": "string"
+    },
+    "trimestre": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "modoAcessivel": {
+      "type": "boolean"
+    },
+    "etapas": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "fase",
+          "objetivo"
+        ],
+        "properties": {
+          "fase": {
+            "enum": [
+              "entender",
+              "observar",
+              "percursos",
+              "explicar"
+            ]
+          },
+          "objetivo": {
+            "type": "string"
+          },
+          "atividade": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "coleta": {
+      "type": "object",
+      "properties": {
+        "habilitada": {
+          "type": "boolean"
+        },
+        "contrato": {
+          "const": "aee:game-event/v1"
+        }
+      }
+    }
+  }
+}
