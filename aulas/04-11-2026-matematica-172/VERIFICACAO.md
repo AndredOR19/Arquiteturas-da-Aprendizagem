@@ -12,4 +12,7 @@ Prompt 3.1.0. Artefato 1.0.0. Fluxo 03 por composição de componentes públicos
 - Inspeção visual de desktop concluída. Leitura por voz depende de voz portuguesa instalada; ausência tem aviso e alternativa textual/mediação. Áudio audível em equipamentos da turma, operação em celular físico/Chromebook e conforto real ainda dependem de conferência na escola.
 - Coleta online não integrada. Sem cadastro real de alunos, sem acesso à base de estudantes, sem envio de e-mail.
 - Guia docente e gabarito ficam fora do pacote público.
-- Publicação e QR: conferir estado remoto e endereço antes da entrega final.
+- Publicação inicial: workflow Deploy static content to Pages concluído com sucesso; endereço da aula respondeu HTTP 200 com título correto. QR gerado somente após essa confirmação.
+- Apoio complementar: montagem DA·DO, bilhete temático, aviso real de ausência de voz e preservação da nota testados. Mapa/lista e solicitação de OpenDyslexic testados; alterações de leitura mantiveram o indicador.
+- Refinamento: temporizador passou a contabilizar transições de percurso; indicador numérico só aparece depois da confirmação válida.
+- QR e revisão final: acompanhar implantação do último commit antes da entrega.
