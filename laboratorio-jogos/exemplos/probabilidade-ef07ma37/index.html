@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laboratório de Probabilidade — EF07MA37</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#142b38;background:#eff9ff}*{box-sizing:border-box}
+body{margin:0 auto;max-width:850px;padding:1rem}main{background:#fff;border:3px solid #143f50;border-radius:20px;padding:1.25rem;box-shadow:6px 7px #afd8ef}h1{line-height:1.15}
+button,input,select{font:inherit;padding:.65rem;border:2px solid #143f50;border-radius:10px}button{background:#ffe077;cursor:pointer;font-weight:700}button:focus-visible,input:focus-visible{outline:4px solid #db62bd}button:disabled{opacity:.45}fieldset{margin:1rem 0;border-radius:12px} .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem}.stats>div{background:#e6f5fb;border-radius:12px;padding:1rem}output{font-weight:bold;font-size:1.5rem} .bar{background:#dce6e9;height:28px;border-radius:18px;overflow:hidden}.bar span{display:block;height:100%;background:#257b9a;width:0%;transition:width .25s}.small{font-size:.9rem}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}label{display:block;margin:.7rem 0}#feedback{min-height:3em;font-weight:650}
+</style></head><body><main>
+<p>Arquiteturas da Aprendizagem · Laboratório experimental</p><h1>🎲 A chance de sair um número par</h1>
+<p><strong>EF07MA37 · Experimento com dado justo de seis faces.</strong> Ao lançar um dado, há três resultados pares (2, 4 e 6) entre seis possíveis. Portanto, a probabilidade teórica é 3/6 = 50%.</p>
+<h2>01 · Entender e prever</h2><label for="hipotese">Antes de jogar: em 20 lançamentos, quantos resultados pares você prevê?</label>
+<input id="hipotese" type="number" min="0" max="20" value="10"><button id="prever">Registrar hipótese</button>
+<h2>02 · Observar</h2><p>Faça lançamentos e compare a frequência observada com a chance teórica.</p>
+<button id="um" disabled>Lançar 1 dado</button> <button id="vinte" disabled>Lançar 20 dados</button> <button id="limpar">Reiniciar</button>
+<div class="stats" aria-live="polite"><div>Último resultado<br><output id="ultimo">—</output></div><div>Lançamentos<br><output id="total">0</output></div><div>Resultados pares<br><output id="pares">0</output></div><div>Frequência de pares<br><output id="freq">—</output></div></div>
+<p>Proporção observada de pares:</p><div class="bar" role="progressbar" aria-label="Frequência de resultados pares" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barra"><span id="preenchimento"></span></div>
+<h2>03 · Relacionar e revisar</h2><p>Uma amostra pequena pode ter frequência distante de 50%. Experimente aumentar o número de lançamentos. A chance teórica não muda porque o dado continua tendo três faces pares.</p>
+<h2>04 · Explicar</h2><label for="explicacao">Se em dez lançamentos aparecerem oito números pares, significa que a probabilidade mudou? Explique.</label>
+<textarea id="explicacao" rows="4" style="width:100%;font:inherit;border:2px solid #143f50;border-radius:12px;padding:.8rem"></textarea>
+<button id="concluir">Registrar explicação</button><p id="feedback" aria-live="polite"></p>
+<p class="small">Protótipo: não atribui nota nem registra presença. O registro para professor e Supabase depende de integração posterior. Pode funcionar sem conexão.</p>
+</main><script>
+const el=id=>document.getElementById(id);let n=0,p=0,h=null;
+function emit(eventType,payload={}){window.dispatchEvent(new CustomEvent('aee:game-event',{detail:{schemaVersion:1,lessonId:'probabilidade-ef07ma37',eventType,timestamp:new Date().toISOString(),payload}}))}
+function atualizar(ultimo){el('ultimo').textContent=ultimo??'—';el('total').textContent=n;el('pares').textContent=p;const pct=n?Math.round(p/n*100):0;el('freq').textContent=n?pct+'%':'—';el('preenchimento').style.width=pct+'%';el('barra').setAttribute('aria-valuenow',pct)}
+function lancar(q){let u;for(let i=0;i<q;i++){const x=new Uint32Array(1);crypto.getRandomValues(x);u=x[0]%6+1;n++;if(u%2===0)p++}atualizar(u);emit('trial_completed',{quantity:q,total:n,even:p})}
+el('prever').onclick=()=>{const v=Number(el('hipotese').value);if(!Number.isInteger(v)||v<0||v>20){el('feedback').textContent='Escolha um número inteiro entre 0 e 20.';return}h=v;el('um').disabled=false;el('vinte').disabled=false;el('feedback').textContent='Hipótese registrada. Agora experimente!';emit('hypothesis_submitted',{expectedEvenIn20:h})};
+el('um').onclick=()=>lancar(1);el('vinte').onclick=()=>lancar(20);
+el('limpar').onclick=()=>{n=p=0;atualizar();el('feedback').textContent='Experimento reiniciado.'};
+el('concluir').onclick=()=>{const t=el('explicacao').value.trim();if(t.length<20){el('feedback').textContent='Explique com pelo menos 20 caracteres, relacionando chance teórica e frequência observada.';return}emit('explanation_submitted',{length:t.length});el('feedback').textContent='Explicação registrada nesta página. Mostre ao professor e compare com os resultados: a probabilidade teórica permanece 50%, apesar das variações da amostra.'};
+emit('experiment_started');
+</script></body></html>
