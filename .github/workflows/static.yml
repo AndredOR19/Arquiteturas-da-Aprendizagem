@@ -43,12 +43,27 @@ jobs:
           cp gincana-erer/index.html _site/gincana-erer/index.html
           cp gincana-erer/*.pdf _site/gincana-erer/
           cp -R gincana-erer/qr_codes _site/gincana-erer/qr_codes
+      - name: Validar JavaScript interativo da Gincana
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+          page = Path('_site/gincana-erer/index.html').read_text(encoding='utf-8')
+          matches = re.findall(r'<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>', page, re.I)
+          if not matches:
+              raise SystemExit('ERRO: JavaScript ausente da gincana')
+          for i, script in enumerate(matches):
+              path = Path(f'/tmp/gincana-script-{i}.js')
+              path.write_text(script, encoding='utf-8')
+              subprocess.run(['node', '--check', str(path)], check=True)
+          PY
       - name: Bloquear fontes internas e preservar QR Codes
         run: |
           test -s _site/index.html
           test -s _site/gincana-erer/index.html
           test -s _site/gincana-erer/Manual_Completo_Com_QR_Codes.pdf
-          for path in PROMPT_MESTRE_AULAS_DIGITAIS.md AGENTS.md docentes/README.md coleta/STATUS.json prompts/README.md; do
+          for path in PROMPT_MESTRE_AULAS_DIGITAIS.md AGENTS.md docentes/README.md coleta/STATUS.json prompts/README.md HISTORICO_APERFEICOAMENTOS.md docentes/PROTOCOLO_IA.md pesquisa/README.md publicacao/VERCEL.md publicacao/catalogo.json; do
             if test -e "_site/$path"; then
               echo "ERRO: conteudo interno no pacote publico: $path" >&2
               exit 1
