@@ -647,6 +647,37 @@
         "descricao": "Laboratório inclusivo de Estudos Orientados: associar imagens, ouvir palavras, observar sílabas e transferir para outras situações. Sem login, sem diagnóstico, sem nota curricular; progresso local.",
         "titulo_exibicao": "Sala 01 · Imagem, Palavra e Som"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/04-11-2026-estudos-orientados-172",
+      "destino": "aulas/04-11-2026-estudos-orientados-172",
+      "titulo": "Estudos Orientados 172 — Missão Aprender Melhor",
+      "data_aula": "2026-11-04",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [
+          "172"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "estudo",
+          "autonomia",
+          "organização",
+          "3º trimestre"
+        ],
+        "descricao": "Organização de tarefas, compreensão, recuperação sem consulta, revisão e aplicação de estratégias de estudo em outros componentes.",
+        "titulo_exibicao": "Missão: Aprender Melhor",
+        "trimestre": 3
+      }
     }
   ]
 }

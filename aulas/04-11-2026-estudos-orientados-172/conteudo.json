@@ -1,0 +1,598 @@
+{
+  "id": "04-11-2026-estudos-orientados-172",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "172",
+  "componente": "Estudos Orientados",
+  "data": "04/11/2026",
+  "titulo": "Missão: Aprender Melhor",
+  "pergunta": "Como organizar uma tarefa e conferir o que aprendi?",
+  "resumo": "Organização de tarefas, compreensão, recuperação sem consulta, revisão e aplicação de estratégias de estudo em outros componentes.",
+  "habilidades": [
+    "Objetivos transversais: organizar tarefas, explicar ideias, revisar e aplicar estratégias. Sem código específico de BNCC/RCG atribuído: plano do componente não disponível no catálogo consultado."
+  ],
+  "continuidade": "Aula planejada para o 7º ano, turma 172. Não há confirmação de aplicação anterior deste tema.",
+  "fontes": [
+    [
+      "Prof. André de Oliveira Rodrigues",
+      "Roteiro didático de Estudos Orientados; situações fictícias para prática",
+      "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · O que vou conseguir fazer?",
+      "texto": "Escolha uma tarefa real do seu caderno. Em vez de escrever estudar tudo, formule uma meta: explicar a ideia principal e apresentar um exemplo. Confira o enunciado e o material necessário.",
+      "ancora": "D · tarefa → R · objetivo e condições → E · plano verificável → L · planejar não significa concluir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · Compreender e conferir",
+      "texto": "Leia um trecho curto. Identifique a ideia principal e um exemplo. Feche o material e explique com suas palavras. Abra novamente, compare e corrija. Esquecer uma parte indica onde revisar; não significa que todo o estudo foi perdido.",
+      "ancora": "Ler → explicar sem olhar → conferir → corrigir → tentar novamente.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · Uma estratégia em outras matérias",
+      "texto": "Em Matemática, localize os dados e o que deve descobrir. Em Ciências, observe e registre antes de comparar. Em História, identifique a ideia de cada fonte antes de relacioná-las. A estratégia organiza o trabalho; o conteúdo de cada disciplina continua necessário.",
+      "ancora": "Meta → passos → prática → conferência → nova situação.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · Parecia conhecido",
+      "texto": "Uma frase parecer familiar não prova que conseguimos explicá-la. Teste uma ideia sem consultar, confira a relação que faltou e peça ajuda específica. Depois aplique em outro exemplo. Você pode responder oralmente, apontar ou pedir apoio para registrar.",
+      "ancora": "Ponto cego: confundir cópia com explicação. Ação: fechar, explicar, conferir e aplicar.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Planejar",
+      "Meta e passos",
+      "Defina o que precisa fazer. Separe a tarefa em ações e confira o tempo disponível."
+    ],
+    [
+      "Recuperar",
+      "Tente explicar",
+      "Depois de compreender, feche o material e tente explicar. A tentativa mostra o que consegue recuperar agora."
+    ],
+    [
+      "Revisar",
+      "Conferir e ajustar",
+      "Compare sua explicação com a fonte, identifique lacunas e tente novamente. Use a estratégia em outro conteúdo."
+    ]
+  ],
+  "glossario": {
+    "Meta": "Resultado que se deseja alcançar e conferir. Exemplo: explicar duas causas.",
+    "Recuperar": "Tentar trazer uma informação à memória sem consultar naquele momento.",
+    "Revisar": "Voltar à fonte para conferir e corrigir a explicação.",
+    "Transferir": "Aplicar uma estratégia ou relação em uma situação diferente."
+  },
+  "dicionario": {
+    "Identificar": "Localizar e reconhecer o que foi pedido.",
+    "Comparar": "Examinar semelhanças e diferenças usando um critério.",
+    "Evidência": "Informação observável que sustenta uma afirmação.",
+    "Prioridade": "O que será atendido antes, segundo critérios definidos."
+  },
+  "percursos": [
+    {
+      "titulo": "Uma meta verificável",
+      "fase": "Organizar",
+      "explicacao": "Organizar uma tarefa começa por dizer o que você precisa conseguir fazer. Uma meta permite conferir o resultado.",
+      "pergunta": "Qual meta permite verificar o que foi aprendido?",
+      "alternativas": [
+        "Estudar bastante",
+        "Explicar duas causas de um acontecimento",
+        "Olhar o caderno por um tempo"
+      ],
+      "correta": 1,
+      "justificativa": "Explicar duas causas produz uma evidência observável; tempo e esforço, sozinhos, não mostram o conteúdo aprendido.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Explicar duas causas produz uma evidência observável; tempo e esforço, sozinhos, não mostram o conteúdo aprendido."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "O que preciso primeiro?",
+      "fase": "Organizar",
+      "explicacao": "Para fazer um resumo de uma página, localize o texto, leia a proposta e separe o material necessário.",
+      "pergunta": "Qual deve ser o primeiro passo?",
+      "alternativas": [
+        "Passar o resumo a limpo",
+        "Escolher a cor da capa",
+        "Conferir o texto e a tarefa"
+      ],
+      "correta": 2,
+      "justificativa": "Conferir a proposta esclarece o objetivo antes da execução.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Conferir a proposta esclarece o objetivo antes da execução."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Dividir sem perder o todo",
+      "fase": "Organizar",
+      "explicacao": "Uma tarefa longa pode ser dividida em pequenas ações ligadas ao mesmo objetivo.",
+      "pergunta": "Qual sequência ajuda a resumir um texto?",
+      "alternativas": [
+        "Ler, selecionar ideias, escrever e conferir",
+        "Copiar, decorar a capa e entregar",
+        "Escrever a conclusão e procurar o texto"
+      ],
+      "correta": 0,
+      "justificativa": "A leitura fornece o conteúdo; a seleção precede a escrita e a conferência verifica a fidelidade.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A leitura fornece o conteúdo; a seleção precede a escrita e a conferência verifica a fidelidade."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Prioridade com critério",
+      "fase": "Organizar",
+      "explicacao": "Duas tarefas têm o mesmo tamanho. Uma vence amanhã; outra, na semana seguinte.",
+      "pergunta": "Por qual começar neste caso?",
+      "alternativas": [
+        "Pela de amanhã",
+        "Pela da semana seguinte",
+        "Pela que tem capa mais bonita"
+      ],
+      "correta": 0,
+      "justificativa": "Com tamanho semelhante e sem outro impedimento, o prazo mais próximo orienta a prioridade.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Com tamanho semelhante e sem outro impedimento, o prazo mais próximo orienta a prioridade."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Um ambiente possível",
+      "fase": "Organizar",
+      "explicacao": "Mensagens chegam enquanto você tenta compreender uma instrução. É possível silenciar notificações durante a atividade.",
+      "pergunta": "Que ajuste reduz essa interrupção?",
+      "alternativas": [
+        "Aumentar o brilho da tela",
+        "Silenciar as notificações por um período",
+        "Abrir outra conversa"
+      ],
+      "correta": 1,
+      "justificativa": "Silenciar a fonte das notificações reduz essa interrupção; isso não garante compreensão por si só.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Silenciar a fonte das notificações reduz essa interrupção; isso não garante compreensão por si só."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Plano que cabe no tempo",
+      "fase": "Organizar",
+      "explicacao": "Você tem 20 minutos para quatro exercícios e percebe que cada um exige cerca de cinco minutos.",
+      "pergunta": "Qual plano é coerente?",
+      "alternativas": [
+        "Acrescentar mais dez exercícios",
+        "Gastar todo o tempo no título",
+        "Distribuir o tempo e conferir o avanço"
+      ],
+      "correta": 2,
+      "justificativa": "A estimativa orienta um plano que pode ser revisto durante a realização.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A estimativa orienta um plano que pode ser revisto durante a realização."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Ideia principal",
+      "fase": "Organizar",
+      "explicacao": "Texto fictício: Uma agenda registra compromissos. Ao consultá-la, podemos conferir prazos e preparar o material necessário.",
+      "pergunta": "Qual é a ideia principal?",
+      "alternativas": [
+        "A agenda ajuda a organizar compromissos",
+        "A agenda deve ter capa azul",
+        "Todo compromisso é uma prova"
+      ],
+      "correta": 0,
+      "justificativa": "O texto relaciona registro, consulta e organização; a cor e a exclusividade de provas não aparecem.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "O texto relaciona registro, consulta e organização; a cor e a exclusividade de provas não aparecem."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Exemplo ou ideia central?",
+      "fase": "Compreender",
+      "explicacao": "No texto anterior, conferir o prazo de uma atividade é uma aplicação da organização.",
+      "pergunta": "Qual é um exemplo concreto dessa ideia?",
+      "alternativas": [
+        "Organizar é importante",
+        "Conferir na agenda a entrega de Ciências",
+        "Agenda é uma palavra"
+      ],
+      "correta": 1,
+      "justificativa": "A entrega de Ciências especifica uma situação em que se usa a agenda.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A entrega de Ciências especifica uma situação em que se usa a agenda."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Escolher palavras-chave",
+      "fase": "Compreender",
+      "explicacao": "Um parágrafo explica que registrar prazos e consultar a agenda ajuda a organizar tarefas.",
+      "pergunta": "Qual grupo mantém o sentido central?",
+      "alternativas": [
+        "Papel, azul, mochila",
+        "Recreio, jogo, janela",
+        "Agenda, prazos, organização"
+      ],
+      "correta": 2,
+      "justificativa": "As três palavras representam o objeto, a informação e a finalidade da explicação.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "As três palavras representam o objeto, a informação e a finalidade da explicação."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Relacionar, não amontoar",
+      "fase": "Compreender",
+      "explicacao": "Um esquema precisa mostrar como as ideias se ligam. Setas ganham sentido quando a relação é explicada.",
+      "pergunta": "Qual esquema expressa uma relação?",
+      "alternativas": [
+        "Registrar prazo → conferir data → planejar tarefa",
+        "Agenda, janela, bicicleta",
+        "Data → qualquer palavra"
+      ],
+      "correta": 0,
+      "justificativa": "Cada ação prepara a seguinte; uma lista sem ligação não explica o procedimento.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Cada ação prepara a seguinte; uma lista sem ligação não explica o procedimento."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Resumo fiel",
+      "fase": "Compreender",
+      "explicacao": "Resumir significa preservar a ideia central com menos palavras. Não é acrescentar uma regra que o texto não trouxe.",
+      "pergunta": "Qual resumo é fiel ao texto da agenda?",
+      "alternativas": [
+        "Toda agenda garante nota dez",
+        "Registrar e consultar prazos ajuda a organizar tarefas",
+        "Só aprende quem usa agenda de papel"
+      ],
+      "correta": 1,
+      "justificativa": "O resumo conserva a relação sem prometer nota ou exigir um suporte específico.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "O resumo conserva a relação sem prometer nota ou exigir um suporte específico."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Explicar com suas palavras",
+      "fase": "Compreender",
+      "explicacao": "Uma colega diz: Eu anoto a entrega e olho a data para decidir quando fazer.",
+      "pergunta": "O que a fala demonstra neste exemplo?",
+      "alternativas": [
+        "Uma cópia obrigatória",
+        "Uma opinião sobre a capa",
+        "Uma reformulação do uso da agenda"
+      ],
+      "correta": 2,
+      "justificativa": "A colega descreve a mesma relação com outra construção verbal.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A colega descreve a mesma relação com outra construção verbal."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Preparar a recuperação",
+      "fase": "Compreender",
+      "explicacao": "Depois de compreender um trecho, feche o material por um momento e tente explicar uma ideia. Depois confira.",
+      "pergunta": "Qual ação verifica o que você consegue recuperar?",
+      "alternativas": [
+        "Explicar sem consultar e depois conferir",
+        "Copiar olhando o texto",
+        "Fotografar a página"
+      ],
+      "correta": 0,
+      "justificativa": "A tentativa sem consulta torna visível o que foi recuperado; a conferência permite corrigir lacunas.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A tentativa sem consulta torna visível o que foi recuperado; a conferência permite corrigir lacunas."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Uma informação faltou",
+      "fase": "Compreender",
+      "explicacao": "Ao explicar sem olhar, você esqueceu por que deve consultar os prazos.",
+      "pergunta": "Qual é o próximo passo?",
+      "alternativas": [
+        "Apagar tudo que acertou",
+        "Voltar à relação que faltou e tentar novamente",
+        "Concluir que nunca conseguirá aprender"
+      ],
+      "correta": 1,
+      "justificativa": "A lacuna indica um ponto específico de revisão, sem invalidar tudo que já foi compreendido.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A lacuna indica um ponto específico de revisão, sem invalidar tudo que já foi compreendido."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Corrigir preservando o caminho",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Você escreveu que a entrega era sexta, mas o comunicado informa quinta.",
+      "pergunta": "Como registrar a revisão?",
+      "alternativas": [
+        "Manter sexta para evitar rasura",
+        "Trocar a data sem conferir a fonte",
+        "Anotar quinta e identificar a correção"
+      ],
+      "correta": 2,
+      "justificativa": "Conferir a fonte e marcar a correção permite reconhecer o que mudou.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Conferir a fonte e marcar a correção permite reconhecer o que mudou."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Reconhecer não é explicar",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Com o texto aberto, uma frase parece familiar. Ao fechar, você ainda não consegue explicar sua relação principal.",
+      "pergunta": "O que ainda precisa ser verificado?",
+      "alternativas": [
+        "Se consegue explicar e aplicar a ideia",
+        "Se gostou da cor do título",
+        "Se passou os olhos por todas as linhas"
+      ],
+      "correta": 0,
+      "justificativa": "Familiaridade com a frase e explicação são evidências diferentes.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Familiaridade com a frase e explicação são evidências diferentes."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Pedir ajuda específica",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Você sabe localizar as datas, mas não consegue escolher a prioridade entre tarefas.",
+      "pergunta": "Qual pedido orienta melhor a ajuda?",
+      "alternativas": [
+        "Não entendi nada",
+        "Pode mostrar como comparar prazo e tamanho?",
+        "Faça tudo por mim"
+      ],
+      "correta": 1,
+      "justificativa": "O pedido identifica a operação que precisa de modelagem: comparar critérios.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "O pedido identifica a operação que precisa de modelagem: comparar critérios."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Conferir uma instrução",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Um aviso pede: Explique uma causa e dê um exemplo. A resposta apresenta somente um exemplo.",
+      "pergunta": "O que falta?",
+      "alternativas": [
+        "Uma capa",
+        "Uma cópia do enunciado",
+        "Explicar a causa solicitada"
+      ],
+      "correta": 2,
+      "justificativa": "É necessário conferir cada ação do comando, sem confundir exemplo com causa.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "É necessário conferir cada ação do comando, sem confundir exemplo com causa."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Retomada com menos apoio",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Sem reler o bloco inicial: organizar uma tarefa envolve definir o resultado desejado e conferir as condições.",
+      "pergunta": "Qual pergunta ajuda a começar uma tarefa nova?",
+      "alternativas": [
+        "O que preciso conseguir fazer?",
+        "Qual colega terminará primeiro?",
+        "Qual letra enfeita mais?"
+      ],
+      "correta": 0,
+      "justificativa": "A pergunta recupera o papel da meta e pode orientar uma tarefa diferente.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A pergunta recupera o papel da meta e pode orientar uma tarefa diferente."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Comparar duas estratégias",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Lia releu olhando o texto. Rui tentou explicar sem olhar e conferiu depois. Não conhecemos o resultado de nenhum dos dois.",
+      "pergunta": "O que podemos afirmar?",
+      "alternativas": [
+        "Rui aprendeu tudo",
+        "Usaram procedimentos diferentes; é preciso verificar resultados",
+        "Lia não aprendeu nada"
+      ],
+      "correta": 1,
+      "justificativa": "A descrição informa procedimentos, mas não permite concluir quem aprendeu mais.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A descrição informa procedimentos, mas não permite concluir quem aprendeu mais."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Revisão em outro momento",
+      "fase": "Recuperar e revisar",
+      "explicacao": "Você compreendeu uma explicação hoje. Na próxima aula, haverá oportunidade de retomá-la.",
+      "pergunta": "Como planejar essa retomada?",
+      "alternativas": [
+        "Repetir só a capa",
+        "Evitar conferir qualquer dúvida",
+        "Tentar recuperar e depois conferir a ideia"
+      ],
+      "correta": 2,
+      "justificativa": "A nova tentativa permite observar o que é recuperado naquele momento e orientar revisão.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A nova tentativa permite observar o que é recuperado naquele momento e orientar revisão."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Do texto ao procedimento",
+      "fase": "Aplicar",
+      "explicacao": "Para resolver um problema matemático, é preciso compreender o que é pedido antes de escolher uma operação.",
+      "pergunta": "Qual primeiro passo aplica a organização estudada?",
+      "alternativas": [
+        "Identificar dados e o que se quer descobrir",
+        "Somar todos os números imediatamente",
+        "Copiar apenas o resultado de um colega"
+      ],
+      "correta": 0,
+      "justificativa": "Identificar dados e objetivo conecta a estratégia de estudo à leitura do problema.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Identificar dados e objetivo conecta a estratégia de estudo à leitura do problema."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Transferir para Ciências",
+      "fase": "Aplicar",
+      "explicacao": "Sua dupla precisa comparar duas folhas e comunicar uma diferença observável.",
+      "pergunta": "Qual plano atende à tarefa?",
+      "alternativas": [
+        "Escolher a mais bonita",
+        "Observar, registrar a diferença e explicar a comparação",
+        "Escrever o nome sem observar"
+      ],
+      "correta": 1,
+      "justificativa": "O plano articula observação, registro e comunicação, em vez de trocar o objetivo por uma preferência.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "O plano articula observação, registro e comunicação, em vez de trocar o objetivo por uma preferência."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Transferir para História",
+      "fase": "Aplicar",
+      "explicacao": "A tarefa pede comparar dois relatos. Um destaca o comércio; outro, as condições de trabalho.",
+      "pergunta": "Qual estratégia preserva os dois textos?",
+      "alternativas": [
+        "Copiar apenas o mais curto",
+        "Misturar os relatos sem identificar origem",
+        "Registrar a ideia principal de cada um e comparar"
+      ],
+      "correta": 2,
+      "justificativa": "Separar as ideias antes de comparar evita atribuir a uma fonte a afirmação da outra.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "Separar as ideias antes de comparar evita atribuir a uma fonte a afirmação da outra."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Replanejar com evidência",
+      "fase": "Aplicar",
+      "explicacao": "Você planejou cinco exercícios e realizou dois no tempo disponível. Ainda precisa concluir os demais.",
+      "pergunta": "Qual ajuste usa essa informação?",
+      "alternativas": [
+        "Reestimar o tempo e reorganizar o restante",
+        "Registrar que concluiu todos",
+        "Abandonar qualquer planejamento"
+      ],
+      "correta": 0,
+      "justificativa": "O que foi realizado fornece informação para ajustar a estimativa, sem inventar conclusão.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "O que foi realizado fornece informação para ajustar a estimativa, sem inventar conclusão."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    },
+    {
+      "titulo": "Uma evidência de aprendizagem",
+      "fase": "Aplicar",
+      "explicacao": "No final, o professor pede que você use a estratégia em uma tarefa que ainda não fez.",
+      "pergunta": "Qual resposta mostra aplicação?",
+      "alternativas": [
+        "Eu cliquei em todos os botões",
+        "Defino a meta, organizo passos, tento explicar e confiro",
+        "Eu gostei da página"
+      ],
+      "correta": 1,
+      "justificativa": "A resposta descreve ações aplicáveis a uma tarefa nova. A realização prática e a explicação ao professor completam a avaliação.",
+      "pistas": [
+        "Retome o objetivo descrito nesta situação.",
+        "Compare o que cada ação permite verificar.",
+        "A resposta descreve ações aplicáveis a uma tarefa nova. A realização prática e a explicação ao professor completam a avaliação."
+      ],
+      "ponto": "Escolher pela aparência ou pela pressa, sem conferir a relação.",
+      "acao": "Retome a meta, compare as opções e explique sua escolha."
+    }
+  ]
+}

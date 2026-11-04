@@ -1,0 +1,5 @@
+# Verificação técnica — 04/11/2026
+Sintaxe de app.js e estudo.js validada com node --check. Catálogo de arquiteturas e banco documental passaram nos validadores. Acervo regenerado com publicacao/portal/gerar.py.
+Navegador de prévia: entrada autodeclarada, 26 percursos completos, primeira resposta errada e recuperação com pista, avanço bloqueado após erro, avaliação de 12 campos sem seleção inicial, prévia bloqueada antes da confirmação, liberação após respostas incluindo não uso/não sei avaliar. Relatório integral com 25/26 primeiros acertos no ensaio fictício, 26/26 finais, metodologia e apoio complementar. Ensaio não é aplicação a aluno.
+Apoio: seleção de ME e TA recompõe META, com registro separado. Voz real depende do dispositivo; não certificada em Chromebook/celular. Preferências e ruídos incorporados pelo empacotador compartilhado. Não há coleta automática de dados nesta aula.
+Plano do componente não localizado no catálogo: sem códigos normativos inventados. Não se declara aplicação escolar.

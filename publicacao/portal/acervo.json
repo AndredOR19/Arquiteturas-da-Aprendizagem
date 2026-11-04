@@ -473,10 +473,9 @@
         "231",
         "03/11/2026"
       ],
-      "descricao": "Entrada identificada, sem login e com registro de abertura/tempo. A atividade completa é hospedada no Vercel; questões e nota ainda não são sincronizadas com este registro.",
-      "titulo_exibicao": "Autoritarismo sem tanques",
       "id": "aulas/03-11-2026-historia-231-entrada",
       "titulo": "Autoritarismo sem tanques",
+      "descricao": "Entrada identificada, sem login e com registro de abertura/tempo. A atividade completa é hospedada no Vercel; questões e nota ainda não são sincronizadas com este registro.",
       "url": "aulas/03-11-2026-historia-231-entrada/",
       "data_catalogo": "2026-11-03",
       "acesso": "aberto",
@@ -501,10 +500,9 @@
         "192",
         "03/11/2026"
       ],
-      "descricao": "Atividade digital de Eletiva de Base para a turma 192, em 3 de novembro de 2026.",
-      "titulo_exibicao": "Eletiva de Base — turma 192",
-      "id": "vercel/03-11-2026-eletiva-192",
+      "id": "apresentacao-19",
       "titulo": "Eletiva de Base — turma 192",
+      "descricao": "Atividade digital de Eletiva de Base para a turma 192, em 3 de novembro de 2026.",
       "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-eletiva-192/",
       "data_catalogo": "2026-11-03",
       "acesso": "aberto",
@@ -529,10 +527,9 @@
         "182",
         "03/11/2026"
       ],
-      "descricao": "Atividade digital de Estudos Orientados para a turma 182, em 3 de novembro de 2026.",
-      "titulo_exibicao": "Estudos Orientados — turma 182",
-      "id": "vercel/03-11-2026-estudos-orientados-182",
+      "id": "apresentacao-20",
       "titulo": "Estudos Orientados — turma 182",
+      "descricao": "Atividade digital de Estudos Orientados para a turma 182, em 3 de novembro de 2026.",
       "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-estudos-orientados-182/",
       "data_catalogo": "2026-11-03",
       "acesso": "aberto",
@@ -564,12 +561,39 @@
         "sala 01",
         "182"
       ],
-      "descricao": "Laboratório inclusivo de Estudos Orientados: associar imagens, ouvir palavras, observar sílabas e transferir para outras situações. Sem login, sem diagnóstico, sem nota curricular; progresso local.",
-      "titulo_exibicao": "Sala 01 · Imagem, Palavra e Som",
       "id": "aulas/sala-01-alfabetizacao-182",
       "titulo": "Sala 01 · Imagem, Palavra e Som",
+      "descricao": "Laboratório inclusivo de Estudos Orientados: associar imagens, ouvir palavras, observar sílabas e transferir para outras situações. Sem login, sem diagnóstico, sem nota curricular; progresso local.",
       "url": "aulas/sala-01-alfabetizacao-182/",
       "data_catalogo": "2026-11-03",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Estudos Orientados"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [
+        "172"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "estudo",
+        "autonomia",
+        "organização",
+        "3º trimestre"
+      ],
+      "id": "aulas/04-11-2026-estudos-orientados-172",
+      "titulo": "Missão: Aprender Melhor",
+      "descricao": "Organização de tarefas, compreensão, recuperação sem consulta, revisão e aplicação de estratégias de estudo em outros componentes.",
+      "url": "aulas/04-11-2026-estudos-orientados-172/",
+      "data_catalogo": "2026-11-04",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     }
