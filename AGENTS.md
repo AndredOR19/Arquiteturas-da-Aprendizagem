@@ -132,3 +132,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Consultar docentes/README.md e PROTOCOLO_IA.md. Ano letivo pertence às matrículas e atribuições; preservar 2026 ao cadastrar 2027. Lista, calendário, fonte e correspondência de identidades requerem confirmação. Não presumir promoção nem transferência de permissão entre professores.
 - Preencher metadados públicos `portal` de cada novo material em publicacao/catalogo.json; atualizar índice por `python publicacao/portal/gerar.py` e testar ferramentas/conferir-portal.cjs. Preservar URLs, distinguir série de turma e uso livre de vínculo anual. GitHub guarda arquitetura/modelos; dados individuais ficam restritos.
 - Base docente privada não é painel ou login implementado. Conferir coleta/supabase/docentes/STATUS.json. Planejado, extraído, confirmado e aplicado são estados distintos; replanejamento por IA preserva histórico e exige confirmação docente. Não inferir aula não realizada de ausência de recibo nem diagnóstico de escolha de fonte. Avisos só existem após implementação e agendamento autorizados.
+
+
+## Recuperação adaptativa até quatro atividades
+- Aplicar seção 9.1 do Prompt Mestre 3.1.0. Regras visíveis e confirmadas antes de novos inícios: 1 original; primeiro erro +1 experiência; segundo erro do conjunto +3 extras no total; teto 4/conjunto e 104 para 26 originais. Sem ampliação por pista, áudio, pedido de ajuda, erro técnico ou treino complementar de alfabetização.
+- Preservar sessões já iniciadas e cálculo de primeira resposta sobre 26 originais. Extras com novas relações, operações e contextos; não repetir a pergunta apenas para alongar. Registrar e conferir bloqueios, recarga, limites, relatórios integrais e recebimento antes de declarar implantação.

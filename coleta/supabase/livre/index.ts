@@ -13,8 +13,8 @@ Deno.serve(async req=>{
  if(req.method==='OPTIONS')return new Response(null,{status:204,headers});
  if(req.method!=='POST')return Response.json({ok:false,mensagem:'Método inválido.'},{status:405,headers});
  try{
-  if(Number(req.headers.get('content-length')||'0')>80000)error('Dados excessivos.',413);
-  const raw=await req.text();if(raw.length>80000)error('Dados excessivos.',413);
+  if(Number(req.headers.get('content-length')||'0')>512000)error('Dados excessivos.',413);
+  const raw=await req.text();if(raw.length>512000)error('Dados excessivos.',413);
   const b=JSON.parse(raw);if(!['iniciar','eventos','concluir'].includes(b.acao))error('Operação inválida.');
   const dia=new Date().toISOString().slice(0,10);
   const [quota]=await db`insert into educacional.limites_receptor(chave,quantidade) values(${'livre:'+dia},1) on conflict(chave) do update set quantidade=educacional.limites_receptor.quantidade+1 returning quantidade`;
@@ -46,11 +46,18 @@ Deno.serve(async req=>{
     return Response.json({ok:true,estado:'recebido',sessao_id:s.id,eventos_ids:b.eventos.map(ev=>ev.id),quantidade:b.eventos.length},{headers});
   }
   const p=b.relatorio;
-  if(!p||!Number.isInteger(p.percursos_total)||!Number.isInteger(p.percursos_concluidos)||!Number.isInteger(p.acertos_iniciais)||p.percursos_total<1||p.percursos_total>300||p.percursos_concluidos<0||p.percursos_concluidos>p.percursos_total||p.acertos_iniciais<0||p.acertos_iniciais>p.percursos_concluidos||JSON.stringify(p).length>60000)error('Relatório inválido.');
+  if(!p||!Number.isInteger(p.percursos_total)||!Number.isInteger(p.percursos_concluidos)||!Number.isInteger(p.acertos_iniciais)||p.percursos_total<1||p.percursos_total>300||p.percursos_concluidos<0||p.percursos_concluidos>p.percursos_total||p.acertos_iniciais<0||p.acertos_iniciais>p.percursos_concluidos||JSON.stringify(p).length>(s.artefato_id==='04-11-2026-estudos-orientados-172'?400000:60000))error('Relatório inválido.');
+  if(s.artefato_id!=='04-11-2026-estudos-orientados-172'&&raw.length>80000)error('Dados excessivos.',413);
   const integrada=s.artefato_id==='04-11-2026-estudos-orientados-172';
   if(integrada){
     const campos=['leitura','organizacao','navegacao','controles','fonte','espacamento','imagens','dificuldades','sugestao','interesse','repeticao','ritmo'];
     const e=p.experiencia;
+    const ad=p.adaptacao;
+    if(ad?.enabled===true){
+      const fs=ad.families;
+      if(ad.version!=='2.0.0'||ad.rulesConfirmed!==true||!Array.isArray(fs)||fs.length!==26||!fs.every(f=>Number.isInteger(f.errors)&&f.errors>=0&&f.target===(f.errors===0?0:f.errors===1?1:3)&&Array.isArray(f.extras)&&f.extras.length===3&&f.extras.slice(0,f.target).every(x=>x.correct===true&&Array.isArray(x.attempts)&&x.attempts.length>0&&x.attempts.at(-1).correct===true))||26+fs.reduce((n,f)=>n+f.target,0)>104)error('Conclua as experiências de recuperação exigidas e confirme as regras.',422);
+    }
+
     if(p.percursos_total!==s.percursos_total||p.percursos_concluidos!==s.percursos_total||!uuid.test(p.snapshot_id)||!e||e.confirmed!==true||!campos.every(k=>Array.isArray(e.answers?.[k])?e.answers[k].length>0:typeof e.answers?.[k]==='string'&&e.answers[k].trim().length>0)||e.answers.sugestao==='Quero comentar'&&!e.comment?.trim()||!Array.isArray(p.registros)||p.registros.length!==s.percursos_total||!p.registros.every(r=>r.correct===true&&Array.isArray(r.attempts)&&r.attempts.length>0)||p.registros.filter(r=>r.attempts[0].correct===true).length!==p.acertos_iniciais||typeof p.relatorio_texto!=='string'||p.relatorio_texto.length<100)error('Conclua os percursos e confirme toda a avaliação antes de enviar.',422);
   }
   const result=await db.begin(async tx=>{

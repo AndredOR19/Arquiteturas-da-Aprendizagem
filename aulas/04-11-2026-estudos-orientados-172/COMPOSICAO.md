@@ -11,3 +11,6 @@ Imagens autorais SVG: agenda, livro e conferência. Voz opcional dependente do n
 Relatório: tentativas, pistas, consultas, eventos, avaliação obrigatória, metodologia, apoios complementares e preferência de leitura. Sem dados individuais no GitHub.
 
 Integração 04/11: tempo de página visível instrumentado em intervalos, sem inferir atenção; tentativas/pistas/consulta/apoio/final; questionário obrigatório preservado. E-mail do professor andre-orodrigues@educar.rs.gov.br mantido, sem envio automático.
+
+## Revisão adaptativa 2.0.0 — Prompt 3.1.0
+Regra explícita 1→2→4 por conjunto; no máximo 104 atividades. 78 experiências próprias em recuperacao-dados.js: associação, ordenação e aplicação. Recuperação vinculada ao conceito; não altera os 26 originais nem a nota inicial. Confirmação separada da seleção, regras visíveis com aceite e voz, contagem atual, ajuda sem aumento. Realizações anteriores preservadas após recarga por marcador de política; novos alunos/inícios seguem a revisão. Teste do núcleo e teste da primeira família no navegador cobriram expansão, bloqueio, ordenação, aplicação e retorno. Eficácia e experiência escolar não comprovadas por ensaio técnico.

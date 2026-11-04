@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.0.0**
+Versão vigente: **3.1.0**
 Atualização: **04/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -335,6 +335,21 @@ Cada percurso inclui:
 Liberar o próximo percurso somente após acerto. Permitir revisitar percursos concluídos e preservar tentativas. Não criar navegação alternativa que burle a progressão. Nunca apagar o erro inicial ao registrar a correção.
 
 Usar alternativas plausíveis e alinhadas à disciplina. Evitar que a resposta seja identificada apenas pelo tamanho ou por distratores absurdos. Não transformar História em exercício matemático sem justificativa.
+
+### 9.1. Recuperação adaptativa com limite de quatro atividades por conjunto
+Diretriz do Prof. André de 04/11/2026: erros curriculares acrescentam experiências para reconstruir relações e aplicar em novas situações. Regras visíveis em linguagem simples antes do início, com áudio, exemplo numérico e confirmação de compreensão. Não apresentar crescimento oculto, infinito ou apenas exercícios repetidos.
+
+Contrato para novos inícios: cada percurso original forma um conjunto. Sem erro, permanece uma atividade; primeiro erro confirmado no conjunto acrescenta uma experiência, total de duas; segundo erro nesse mesmo conjunto, inclusive em uma recuperação, amplia para três experiências complementares mais a original, total de quatro. Demais erros não acrescentam atividades. Numa aula-base de 26 percursos, o total exigido varia de 26 a 104, nunca além disso. O primeiro erro em um conjunto não dobra automaticamente toda a aula. Exibir total atual, extras exigidas/concluídas e teto. Pistas, áudio, reformulação, ajustes de acesso e pedidos de mediação não ampliam o percurso. Seleção não confirmada, reinício de uma montagem antes de conferir e falha técnica não são erros pedagógicos.
+
+Cada experiência precisa tratar a relação em dificuldade: associação com explicação, organização/comparação e aplicação em outro contexto. Usar pelo menos duas operações diferentes e conteúdo próprio; não gerar volume por repetição literal. Antes de repetir a pergunta original, concluir as experiências exigidas. A original também precisa ser acertada. No limite, oferecer modelagem, pistas e mediação docente, sem crescimento adicional. Avaliar ritmo e carga com o professor; não inferir preguiça, fraude, diagnóstico ou intenção por tempo/erro.
+
+A regra vale somente para realizações iniciadas sob essa versão e aceitas antes da entrada. Preservar atividades, erros, apoios e critérios de sessões anteriores, inclusive após recarga; não introduzir obrigações no meio de uma realização. Treino complementar de alfabetização mantém seus objetivos e registros próprios; seus erros não ampliam automaticamente o percurso curricular.
+
+A nota inicial conserva o denominador original (primeiros acertos nas 26 originais ÷ 26 × 10), sem desconto adicional por apoios nem mistura com os acertos complementares. Registrar separadamente primeira tentativa, todos os erros, expansão por conjunto, tentativas/pistas das experiências, recuperação e aplicação. Relatório TXT/JSON/prévia/e-mail e coleta devem preservar o mesmo processo. Impedir resultado final até originais, extras exigidas e avaliação confirmada. O servidor confere estrutura e completude nas aulas integradas; não anunciar correção sigilosa do gabarito cliente ou eficácia demonstrada.
+
+Mensagem ao estudante: “Acertou de primeira? Siga. Errou? Faça uma experiência de recuperação antes de tentar novamente. Um segundo erro nesse conjunto amplia para três experiências extras. O limite é quatro atividades por conjunto. Leia, ouça, use as pistas e peça ajuda: esses apoios não aumentam o percurso.”
+
+Estado inicial: regra documentada; implementação na aula de Estudos Orientados 172, 04/11/2026, com 78 experiências complementares próprias. Conferir o registro técnico dessa aula para testes e publicação; não declarar migração de todo o acervo.
 
 ## 10. Glossário, dicionário, exemplos e curiosidades
 Oferecer dois apoios distintos:
@@ -783,3 +798,4 @@ Produzir, por padrão, **plano de aula diário** para a aplicação imediata, e 
 A entrega só será considerada implementada para determinada aula depois de: teste do link e QR code; modo claro/escuro e contraste; áudio e alternativa; teclado/Chromebook/celular; retorno à aula; ausência de duplicidades; não alteração da nota; verificação de dados no Supabase quando houver coleta ativada; proteção de dados pessoais. Falha de envio não é confirmação.
 
 **Estado em 03/11/2026:** a página genérica de imagens/palavras/áudio e os links no acervo foram criados no GitHub; o conteúdo específico, as oito salas sistemáticas, a instrumentação integral da coleta em todas as aulas e sua validação ainda são trabalho de implementação. Esta diretriz atualiza o planejamento, **não equivale a implantação de cada recurso**. A versão atual do Prompt Mestre não altera automaticamente artefatos Vercel já publicados.
+

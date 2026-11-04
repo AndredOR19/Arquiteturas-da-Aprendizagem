@@ -3,6 +3,11 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.1.0 — 04/11/2026 — Recuperação adaptativa até quatro atividades
+Pedido do professor: conter avanço por tentativa/erro/acerto; erros devem acrescentar relações e experiências, podendo ampliar até quatro vezes, com regras fáceis de entender e visíveis. Seção 9.1 define expansão local por conjunto: 1 → 2 → 4, máximo 104 para 26 originais; apoios sem ampliação; primeiro acerto e recuperação separados; preservação de realizações anteriores.
+Implementação: Estudos Orientados 172 ganha 78 experiências complementares (associação, ordenação, aplicação), regra/aceite, contagem atual, bloqueios e registro integral. Entrada sem login, fila/recibos Supabase e e-mail do professor preservados. Coleta dessa aula confirmada por navegador → receptor → banco com dados fictícios, 76 eventos e relatório 26/26 no ensaio da versão 1.1.0. E-mail conferido sem envio real. Não inferir aplicação escolar de teste técnico.
+Teste do núcleo adaptativo: expansão 26→52→104, teto após erros sucessivos, completude e restauração. Conferência de navegador/publicação adaptativa registrada por aula após implantação. Demais aulas e Fluxos 01/02/03 preservados; diretriz nova não migra retroativamente artefatos. Não há eficácia empírica comprovada.
+
 ## 3.0.0 — 04/11/2026 — Território de Experiências como padrão de novas aulas
 
 Pedido do Prof. André: atualizar o Prompt Mestre para ambientes imersivos reutilizáveis e preparar implantação restante por outra IA. Alteração estrutural: Fluxo 03 passa a padrão de produção; Fluxos 01/02 e aulas anteriores preservados. Seção 6.4 define AACI, trilha orientada, contrato entrada/ação/evidência/conexão, mapa/lista equivalentes, validação das relações, skins e portais com fallback. Mantidos 26 percursos distribuídos, AEE/MACI/ARN/AIES, alfabetização, entrada sem login e regras de relatório/e-mail. Não cria nova sigla de conforto.
@@ -318,6 +323,7 @@ Solicitação do Prof. André Rodrigues: receber interações da página automat
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 
 
 
