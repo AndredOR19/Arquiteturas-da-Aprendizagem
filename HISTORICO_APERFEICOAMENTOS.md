@@ -3,6 +3,12 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.0.0 — 04/11/2026 — Território de Experiências como padrão de novas aulas
+
+Pedido do Prof. André: atualizar o Prompt Mestre para ambientes imersivos reutilizáveis e preparar implantação restante por outra IA. Alteração estrutural: Fluxo 03 passa a padrão de produção; Fluxos 01/02 e aulas anteriores preservados. Seção 6.4 define AACI, trilha orientada, contrato entrada/ação/evidência/conexão, mapa/lista equivalentes, validação das relações, skins e portais com fallback. Mantidos 26 percursos distribuídos, AEE/MACI/ARN/AIES, alfabetização, entrada sem login e regras de relatório/e-mail. Não cria nova sigla de conforto.
+
+Atualizados mestre, índice e AGENTS; registrados fluxo operacional, planta AACI, catálogo compatível e prompt de implantação para outra IA. Estado: diretriz adotada; implementação experimental na Biblioteca de Diagramação ainda requer inventário, testes e integração. Nenhuma aula migrada, nenhum serviço externo ou coleta ativado por esta revisão documental. Verificação: integridade textual, versão/catálogo e ligações dos novos arquivos; testes de interface e serviços não se aplicam a esta mudança documental e permanecem no prompt de implantação.
+
 ## 2.30.0 — 03/11/2026 — Salas de alfabetização e letramento transversal
 
 Diretriz autoral: cada aula nova deve oferecer um percurso complementar opcional de alfabetização e letramento, com imagens, palavras, sons, grafemas, sílabas, frases, usos sociais da escrita, jogos de recuperação e ponte curricular. Nível de habilidades independente de idade/série e sem exposição de diagnóstico ou dados individuais. Planejamentos específicos de apoio permanecem privados. Acrescentados seção 34 no Prompt Mestre e documento das oito salas na biblioteca. A página genérica já existia; as oito salas completas e integração de dados de alfabetização **ainda não estão implementadas**. Registrar e testar antes de anunciar operação pública.
