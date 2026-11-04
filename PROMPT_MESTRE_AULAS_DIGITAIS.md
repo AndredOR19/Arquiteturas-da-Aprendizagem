@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **2.30.0**
-Atualização: **03/11/2026**
+Versão vigente: **3.0.0**
+Atualização: **04/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -24,13 +24,13 @@ Para continuar a produção intelectual, consultar pesquisa/MEMORIA.md, registro
 
 Este repositório é a base documental de referência do projeto. Não presuma que seu conteúdo é carregado automaticamente em todas as conversas: consulte-o explicitamente quando houver acesso.
 
-## 2. Dois fluxos visuais aprovados
+## 2. Três fluxos de produção — Território de Experiências como novo padrão
 
 **Fidelidade ao código enviado — 29/10/2026:** quando o professor fornecer HTML como referência e pedir “daquela forma”, preservar a composição, fonte efetivamente carregada, cores, fundo, bordas, sombras e microinterações do código; adaptar o conteúdo dentro dessa estrutura. Para a aula de metáfora/comparação de Daiane, vale o modelo neobrutalista Fredoka: fundo pontilhado, painel amarelo, três cartões rosa/azul/laranja, objetos flutuantes, botão que afunda e desafio em modal. Objetos podem produzir efeitos sonoros coerentes ao toque, com silenciamento e redução de movimento. Sons representativos não são gravações naturais. Acessibilidade e registros permanecem; não reinterpretar o desenho com o modelo de lettering anterior. Publicação no GitHub Pages integra a entrega, conforme seção 21.
 
-**Decisão de 29/10/2026 — manter dois prompts de entrada:** [Fluxo 01 — Caderno ilustrado](prompts/FLUXO_01_CADERNO_ILUSTRADO.md) preserva a apresentação anterior com lettering, objeto central, faixas e ramificações. [Fluxo 02 — Missão interativa](prompts/FLUXO_02_MISSAO_INTERATIVA.md) preserva o código aprovado com Fredoka, fundo pontilhado, cartões coloridos, flutuação, botões que afundam, sons por toque e modal. Consulte [o índice dos fluxos](prompts/README.md) e o código do modelo escolhido. A base pedagógica e funcional deste arquivo é comum aos dois; os prompts de entrada não concorrem como autoridades independentes.
+**Decisão de 29/10/2026 — manter dois prompts de entrada:** [Fluxo 01 — Caderno ilustrado](prompts/FLUXO_01_CADERNO_ILUSTRADO.md) preserva a apresentação anterior com lettering, objeto central, faixas e ramificações. [Fluxo 02 — Missão interativa](prompts/FLUXO_02_MISSAO_INTERATIVA.md) preserva o código aprovado com Fredoka, fundo pontilhado, cartões coloridos, flutuação, botões que afundam, sons por toque e modal. Consulte [o índice dos fluxos](prompts/README.md) e o código do modelo escolhido. A base pedagógica e funcional deste arquivo é comum aos três fluxos; os prompts de entrada não concorrem como autoridades independentes.
 
-**Escolha:** Fluxo 02 é o padrão atual para novas aulas. Fluxo 01 permanece disponível para variar a apresentação, por pedido do professor ou necessidade registrada. Ao revisar aula existente, preservar o fluxo dela salvo orientação de mudança. Registrar perfil, motivo e referência na composição. Não misturar os dois visuais por iniciativa automática, alterar critérios conforme aparência nem inferir necessidade por diagnóstico. Alternância não comprova eficácia; não redesenha aulas antigas nem cria botão de troca nas páginas existentes.
+**Escolha atualizada em 04/11/2026:** [Fluxo 03 — Território de Experiências](prompts/FLUXO_03_TERRITORIO_EXPERIENCIAS.md) é o padrão solicitado para novas aulas digitais, conforme seção 6.4. Sua adoção como diretriz não homologa o motor experimental: enquanto houver pendências, implementar e testar o piloto ou declarar a alternativa funcional e a pendência; não apresentar Fluxo 02 como se já fosse 03. Fluxo 02 permanece disponível. Fluxo 01 permanece disponível para variar a apresentação, por pedido do professor ou necessidade registrada. Ao revisar aula existente, preservar o fluxo dela salvo orientação de mudança. Registrar perfil, motivo e referência na composição. Não misturar os dois visuais por iniciativa automática, alterar critérios conforme aparência nem inferir necessidade por diagnóstico. Alternância não comprova eficácia; não redesenha aulas antigas nem cria botão de troca nas páginas existentes.
 
 Referências anteriores preservadas para o Fluxo 01:
 - Aulas da manhã de 19 de outubro.mhtml
@@ -85,7 +85,7 @@ Decisão do Prof. André de Oliveira Rodrigues em 30/10/2026, a partir do relato
 
 **Ponto cego e ação:** se a adaptação aumentar a leitura ou permitir apenas localizar palavras iguais, reduzir a densidade e mudar o exemplo de aplicação. Registrar, quando implementado, versão/reformulação consultada, apoio anterior à primeira resposta, tentativas e aplicação com apoio menor, sem descontar pontos por consulta nem mudar o cálculo vigente. Clique, áudio acionado ou linguagem escolhida não comprovam leitura, escuta, diagnóstico ou domínio. Ausência de registro não equivale a ausência de uso.
 
-**Conferência:** revisar equivalência semântica entre versões; texto curto inicial; não empilhamento; termos curriculares conectados; controle por teclado/toque; áudio com parada/falha informada; preservação de respostas ao trocar versão; relatório correspondente aos eventos realmente implementados. Nos suportes estáticos, selecionar a linguagem principal e separar aprofundamento/versões alternativas em material de consulta. Diretriz válida para os dois fluxos visuais. Este registro não implementa botões, migra aulas publicadas ou ativa coleta; implementação e teste devem ser declarados por entrega.
+**Conferência:** revisar equivalência semântica entre versões; texto curto inicial; não empilhamento; termos curriculares conectados; controle por teclado/toque; áudio com parada/falha informada; preservação de respostas ao trocar versão; relatório correspondente aos eventos realmente implementados. Nos suportes estáticos, selecionar a linguagem principal e separar aprofundamento/versões alternativas em material de consulta. Diretriz válida para os três fluxos visuais. Este registro não implementa botões, migra aulas publicadas ou ativa coleta; implementação e teste devem ser declarados por entrega.
 
 ## 4. AEE — quatro etapas da exposição
 Organizar as explicações e a proposta pedagógica nesta sequência:
@@ -245,6 +245,36 @@ Oferecer alternativa “Leitura simples”, reversível e sem apagar conteúdo, 
 
 Aplicação inicial: revisão visual das aulas de História 192 de 21/10 e 29/10/2026. Recursos em publicacao/lettering; ver conferência em aulas/VERIFICACAO_LETTERING_192.md. Essa alteração não amplia os percursos do legado de 21/10 nem implementa retroativamente funcionalidades de coleta/avaliação ausentes.
 
+### 6.4. AACI — Território de Experiências, padrão de produção de 04/11/2026
+**Nome:** Arquitetura de Ambientes Cognitivos Interativos (AACI), versão documental 1.0.0, domínio pedagógico/interface. **Estado:** diretriz adotada para novas aulas por solicitação do autor; motor, conectores e eficácia permanecem sujeitos a implementação e validação. Não confundir adoção documental com homologação técnica.
+
+**Âncora:** a aula organiza operações de aprendizagem em ambientes conectados, com linguagem original de jogos de exploração. A unidade é a operação mental, não a página. Cada ambiente oferece uma experiência pertinente: observatório, laboratório, mapa, fonte histórica, painel de dados, narrativa, associação ou síntese. AEE permanece a estrutura explicativa; AIES orienta composição e ações; MACI, ARN e EPC orientam relações, retomada e transferência. Não criar siglas adicionais sem definição e registro.
+
+**Mecânica:** apresentar objetivo e pré-treino breve dos conceitos essenciais antes do hub. Mostrar “Comece aqui”, missão atual, trilha recomendada, requisitos dos próximos ambientes e retornos disponíveis. Graduar autonomia pelos pré-requisitos da tarefa. Evitar uma página única de rolagem extensa como organização principal; permitir rolagem local quando necessária, sem cortar conteúdo, impedir zoom ou impor tela cheia. Variar a operação e a representação de fato, não apenas a cor dos cartões. Número de ambientes é definido pelo objetivo e tempo confirmado; seis a dez é referência de prototipagem, não limite científico. Distribuir os 26 percursos em ambientes, sem convertê-los em 26 portais ou inventar atividades para preencher quantidade.
+
+**Contrato versionado de cada ambiente:**
+- ID, tipo e versão do componente; objetivo e conceito curricular.
+- Entrada/contexto com explicação suficiente e exemplo.
+- Ação cognitiva específica e interação acessível.
+- Evidência produzida, critérios/rubrica e feedback causal, inclusive por alternativa.
+- Conexão nomeada com outro ambiente e justificativa por evidência.
+- Pré-requisitos, condição de avanço, apoios graduados e alternativa equivalente.
+- Eventos realmente instrumentados e versão da aula/componente/rubrica.
+
+Conexão declarada não é automaticamente correta. Validar relações estruturadas por critérios verificáveis; respostas abertas ficam como evidência pendente de revisão docente, sem simular avaliação semântica. Oferecer seleção de evidência/explicação, imagem, teclado e apoio oral quando pertinente; texto livre não pode ser a única resposta. Uma visita, dois conectores preenchidos ou tempo de tela não liberam síntese por si. Preservar acerto para avanço nos percursos objetivos e avaliação final confirmada; exploração opcional não contorna pré-requisitos. Ações abertas devem ter estado de revisão explícito e não receber acerto automático.
+
+**Circuito:** briefing + pré-treino → hub orientado → explicação e operação em cada ambiente → evidência e conexão validadas → feedback/retomada → recuperação e transferência → avaliação da experiência → relatório.
+Mapa visual e vista-lista oferecem as mesmas missões, estados, critérios e conteúdo. Preservar teclado, foco após transições, leitor de tela, zoom, contraste, Dia/Noite, leitura simples, movimento reduzido e acesso por imagens/palavras/áudio da seção 34. Nenhuma missão depende exclusivamente de cor, arraste, áudio ou 3D. Estética imersiva usa mapas, marcadores, inventário de descobertas e cenários próprios adequados à idade, sem copiar marcas, mapas ou ativos de GTA/Roblox. Sons começam desligados; animações não competem com a explicação.
+
+**Biblioteca e economia de tokens:** manter motor, componentes, skins semânticas por disciplina e conectores na Biblioteca de Diagramação, com catálogo, schemas, exemplos, versões e testes. A IA seleciona componentes homologados e preenche dados pedagógicos; não regenera o motor por aula. Fixar versão/hash no empacotamento. Acesso ao repositório privado é de produção; o aluno não precisa dele. Distribuir somente ativos discentes com licença de distribuição conferida, excluindo segredos e conteúdo docente reservado. Separar conteúdo de apresentação; mudanças centrais não migram aulas automaticamente. Medir economia em tarefas comparáveis, sem prometer percentual.
+
+**Portal externo — um tipo de ambiente:** briefing nosso → recurso → retorno com evidência/conexão nossas. Modos: `external-guided`, `embed-approved`, `self-hosted-oss`. Registrar fornecedor, URL exata/origem permitida, coordenadas quando pertinentes, data/fonte da verificação, permissões do item e domínio, requisitos de conta/chave/custos, aviso antes de carregar/sair e fallback equivalente. Não carregar terceiros antes da ação informada do usuário. Não presumir iframe permitido, acesso ao DOM, leitura de cliques externos ou retorno automático. Não enviar nome, escola, turma, nota, token ou identificadores em URLs de terceiros. Código aberto do visualizador e licença de modelos/imagens são verificações separadas.
+Usar Earth como link guiado; Maps, museus, anatomia e visualizadores 3D dependem de verificação atual da modalidade e do item. Não fixar gratuidade ou condições comerciais no conteúdo de cada aula; o catálogo central mantém essas informações verificadas em fontes oficiais. Sem credenciais/permissão ou em falha, disponibilizar alternativa local autorizada com o mesmo objetivo, sem simular integração.
+
+**Relatório e medição:** separar ambientes visitados, operações realizadas, primeira resposta, pistas, revisões, conexões propostas, validadas e pendentes, recuperação, transferência e percepção. Não denominar grafo de conexões como prova de compreensão. Persistência e recibos seguem as seções 13/34.5; entrada discente inicial permanece autodeclarada e sem login obrigatório. Coleta nominal e painel docente mantêm permissões reais; presença oficial exige confirmação docente. E-mail é aberto com relatório conforme seção 13, sem confirmação fictícia de envio.
+
+**Dialética e aceite:** risco: produzir um cenário atraente com tarefas repetidas, bloquear por preenchimento ou depender de serviço externo. Correção: demonstrar relação no componente, exigir evidência válida, variar aplicação e testar fallback. Antes de entregar cada aula, testar mapa/lista, teclado/leitor de tela, celular/Chromebook, rede lenta, movimento reduzido, recarga/retomada, critérios, relatório completo e recibo real quando integrado. Registrar separadamente documentado, implementado, testado, publicado e observado em aula. Aprendizagem e interesse são resultados distintos; piloto orienta revisão, sem alegar eficácia comprovada.
+
 ## 7. Referências, documentos e honestidade intelectual
 Usar documentos oficiais para currículo e fontes primárias ou referências acadêmicas pertinentes para o conteúdo. Não inventar autores, títulos, páginas, citações ou códigos.
 
@@ -260,7 +290,7 @@ Conferir a atualidade de documentos que podem ter mudado. Uma referência encont
 
 ## 8. Base curricular: BNCC, RCG e documentos da rede
 
-**Planos das turmas:** aplicar [o protocolo de recebimento e uso](base-curricular/PLANOS_DE_TURMA.md). Os planos efetivamente enviados e lidos orientam conteúdos, objetivos e sequência por turma/componente/período, articulados às fontes curriculares conferidas. Não tratar documento anunciado como recebido, nem plano como prova de aplicação. Registrar fonte, recorte e adaptações; proteger originais privados e dados de estudantes. A escolha entre os dois fluxos muda a apresentação, sem alterar automaticamente objetivo ou avaliação.
+**Planos das turmas:** aplicar [o protocolo de recebimento e uso](base-curricular/PLANOS_DE_TURMA.md). Os planos efetivamente enviados e lidos orientam conteúdos, objetivos e sequência por turma/componente/período, articulados às fontes curriculares conferidas. Não tratar documento anunciado como recebido, nem plano como prova de aplicação. Registrar fonte, recorte e adaptações; proteger originais privados e dados de estudantes. A escolha entre os três fluxos muda a apresentação, sem alterar automaticamente objetivo ou avaliação.
 Usar base-curricular/catalogo.json para saber o que está disponível, pendente ou substituído. A estrutura está preparada para:
 - BNCC.
 - Referencial Curricular Gaúcho (RCG).
@@ -280,7 +310,7 @@ Diretriz de 29/10/2026: [banco-pedagogico/README.md](banco-pedagogico/README.md)
 
 Lote inicial: História 192/211/221, Eletiva 192 e ementa de Cultura Digital. Foram consultados cinco documentos distintos; a segunda cópia da ementa tem hash idêntico e foi deduplicada. Alertas incluem Anos Iniciais na ementa sem turma e divergências de trimestre/etapa/código no PDF da Eletiva. Não corrigir silenciosamente fontes nem tratar datas planejadas como aplicação confirmada.
 
-Outros professores podem propor planos, guias e fontes normativas por contribuição revisada, com escopo e autoria separados. Não conceder acesso automaticamente ou presumir ingresso de regentes citados. Registrar em cada aula `documentos_base`, recorte, adaptações e Fluxo 01/02. Consultar as fontes reais a cada produção; não prometer ingestão automática ou treinamento de IA. O banco é documental e versionado, não um serviço de banco de dados ou base vetorial ativa.
+Outros professores podem propor planos, guias e fontes normativas por contribuição revisada, com escopo e autoria separados. Não conceder acesso automaticamente ou presumir ingresso de regentes citados. Registrar em cada aula `documentos_base`, recorte, adaptações e Fluxo 01/02/03. Consultar as fontes reais a cada produção; não prometer ingestão automática ou treinamento de IA. O banco é documental e versionado, não um serviço de banco de dados ou base vetorial ativa.
 
 **Limite público/restrito:** este repositório é público. Permitir apenas planos gerais e guias compartilháveis sem dados individuais, fontes públicas e modelos vazios. PEIs preenchidos, laudos, notas, relatórios individuais e dados vinculáveis precisam de armazenamento privado com permissões reais, ainda não configurado nesta entrega. Não publicar esses documentos em pasta denominada privada, PR, issue, log ou histórico. Modelos vazios e orientações ficam em banco-pedagogico/pei; documentos individuais nunca entram no catálogo público. Produção autorizada pode traduzir orientações privadas em apoios sem expor estudante ou diagnóstico.
 
@@ -452,6 +482,7 @@ Manter prática pedagógica, didática e currículo como foco. Não misturar pes
 
 ## 16. Conferência antes de entregar
 Verificar:
+- Fluxo 03: contrato e critérios da seção 6.4, mapa/lista equivalentes, trilha orientada, evidências validadas, fallback e estados reais de implantação.
 - Continuidade e horário com fonte identificada.
 - Texto realmente desenvolvido, com mecanismo, exemplos, referências e âncoras visuais.
 - Seção 3.1: leitura obrigatória curta, reformulações opcionais semanticamente equivalentes, sem empilhamento, com termos do componente e aplicação em novo exemplo.
@@ -481,7 +512,7 @@ Cada novo aperfeiçoamento acordado com o professor deve resultar em:
 5. Atualização do catálogo e da documentação quando o aperfeiçoamento envolver documentos curriculares.
 6. Conferência por leitura do conteúdo efetivamente salvo.
 
-O histórico do Git preserva versões anteriores. Este é o núcleo comum vigente; os dois prompts de entrada aprovados na seção 2 especializam a apresentação e permanecem vinculados a esta base, sem duplicação de regras concorrentes. Modelos antigos são referências de interface e de evolução, não prevalecem sobre requisitos atualizados.
+O histórico do Git preserva versões anteriores. Este é o núcleo comum vigente; os três prompts de entrada aprovados na seção 2 especializam a apresentação e permanecem vinculados a esta base, sem duplicação de regras concorrentes. Modelos antigos são referências de interface e de evolução, não prevalecem sobre requisitos atualizados.
 
 O registro é um procedimento de cada sessão de trabalho autorizada; não é um monitoramento automático do repositório.
 
@@ -499,7 +530,10 @@ Representação inicial, apoios e retirada gradual:
 Novo exemplo e evidência de compreensão:
 Habilidades e fonte curricular:
 Preferências de leitura, fontes disponíveis e testes de ajuste:
-Fluxo visual escolhido (01 caderno-ilustrado / 02 missao-interativa) e motivo:
+Fluxo visual escolhido (01 caderno-ilustrado / 02 missao-interativa / 03 territorio-experiencias) e motivo:
+Componentes, skins, versões/hash e estado de homologação:
+Ambientes, operações, conexões e critérios de validação:
+Portais externos, permissões verificadas, aviso e fallback:
 Modelo visual de referência:
 Plano da turma: arquivo, versão/período, trecho utilizado e adaptações:
 Linguagem temática e fontes que a sustentam:
