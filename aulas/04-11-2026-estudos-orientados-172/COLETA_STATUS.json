@@ -1,0 +1,24 @@
+{
+  "versao": "1.1.0",
+  "artefato": "04-11-2026-estudos-orientados-172",
+  "endpoint": "https://ifyiarwygywoexsflfsx.supabase.co/functions/v1/coleta-livre",
+  "entrada": "autodeclarada_sem_login_exige_recibo",
+  "dados": [
+    "identificacao",
+    "tentativas",
+    "pistas",
+    "consultas",
+    "apoio_alfabetizacao",
+    "tempo_visivel",
+    "avaliacao",
+    "relatorio_integral"
+  ],
+  "fila": "sessionStorage_por_aba_ids_estaveis",
+  "fechamento": "pendencias_nao_confirmam_envio",
+  "email": "andre-orodrigues@educar.rs.gov.br",
+  "envio_email": "abertura_assistida_aluno_confere_e_envia",
+  "teste_http_real": "entrada_evento_reenvio_relatorio_readback_confirmados_com_dados_ficticios",
+  "teste_navegador_integrado": "pendente_publicacao",
+  "autenticacao_aluno": false,
+  "coleta_apenas_desta_aula": true
+}

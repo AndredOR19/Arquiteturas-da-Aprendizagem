@@ -4,6 +4,7 @@ const allowed=new Set(['https://andredor19.github.io','https://aulas-03-11-2026.
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim().replace(/\s+/g,' ').toLowerCase();
 const sha=async v=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(v)))).map(x=>x.toString(16).padStart(2,'0')).join('');
+const canonical=v=>JSON.stringify(v,(_,x)=>x&&typeof x==='object'&&!Array.isArray(x)?Object.fromEntries(Object.entries(x).sort(([a],[b])=>a.localeCompare(b))):x);
 const error=(msg,status=400)=>{throw Object.assign(new Error(msg),{status})};
 const cors=req=>({'Access-Control-Allow-Origin':allowed.has(req.headers.get('origin'))?req.headers.get('origin'):'https://andredor19.github.io','Access-Control-Allow-Headers':'content-type','Access-Control-Allow-Methods':'POST, OPTIONS','Cache-Control':'no-store','Vary':'Origin'});
 Deno.serve(async req=>{
@@ -31,24 +32,32 @@ Deno.serve(async req=>{
   }
   if(!uuid.test(b.sessao_id)||typeof b.token!=='string'||!/^[a-f0-9]{64}$/.test(b.token))error('Sessão inválida.',403);
   const digest=await sha(b.token);
-  const [s]=await db`select id,aula_id,estado from educacional.coleta_livre_sessoes where id=${b.sessao_id} and acesso_sha256=${digest}`;
+  const [s]=await db`select s.id,s.aula_id,s.estado,a.artefato_id,a.percursos_total from educacional.coleta_livre_sessoes s join educacional.aulas a on a.id=s.aula_id where s.id=${b.sessao_id} and s.acesso_sha256=${digest}`;
   if(!s)error('Sessão não autorizada.',403);
   if(b.acao==='eventos'){
     if(s.estado!=='em_andamento')error('Aula já concluída.',409);
     if(!Array.isArray(b.eventos)||b.eventos.length<1||b.eventos.length>20)error('Lote inválido.');
     for(const ev of b.eventos){
       if(!uuid.test(ev.id)||!Number.isInteger(ev.sequencia)||ev.sequencia<0||!['inicio','tentativa','pista','consulta','audio','tempo','progresso','avaliacao','fim'].includes(ev.tipo)||typeof ev.dados!=='object'||ev.dados===null||Array.isArray(ev.dados)||JSON.stringify(ev.dados).length>4096)error('Evento inválido.');
-      await db`insert into educacional.coleta_livre_eventos(id,sessao_id,sequencia,tipo,dados) values(${ev.id},${s.id},${ev.sequencia},${ev.tipo},${db.json(ev.dados)}) on conflict(id) do nothing`;
+      const [received]=await db`insert into educacional.coleta_livre_eventos(id,sessao_id,sequencia,tipo,dados) values(${ev.id},${s.id},${ev.sequencia},${ev.tipo},${db.json(ev.dados)}) on conflict(id) do update set id=excluded.id where educacional.coleta_livre_eventos.sessao_id=excluded.sessao_id and educacional.coleta_livre_eventos.sequencia=excluded.sequencia and educacional.coleta_livre_eventos.tipo=excluded.tipo and educacional.coleta_livre_eventos.dados=excluded.dados returning id`;
+      if(!received)error('Evento existente incompatível; preserve a fila e confira a sessão.',409);
     }
     await db`update educacional.coleta_livre_sessoes set ultima_interacao_em=now() where id=${s.id}`;
-    return Response.json({ok:true,estado:'recebido',quantidade:b.eventos.length},{headers});
+    return Response.json({ok:true,estado:'recebido',sessao_id:s.id,eventos_ids:b.eventos.map(ev=>ev.id),quantidade:b.eventos.length},{headers});
   }
   const p=b.relatorio;
   if(!p||!Number.isInteger(p.percursos_total)||!Number.isInteger(p.percursos_concluidos)||!Number.isInteger(p.acertos_iniciais)||p.percursos_total<1||p.percursos_total>300||p.percursos_concluidos<0||p.percursos_concluidos>p.percursos_total||p.acertos_iniciais<0||p.acertos_iniciais>p.percursos_concluidos||JSON.stringify(p).length>60000)error('Relatório inválido.');
+  const integrada=s.artefato_id==='04-11-2026-estudos-orientados-172';
+  if(integrada){
+    const campos=['leitura','organizacao','navegacao','controles','fonte','espacamento','imagens','dificuldades','sugestao','interesse','repeticao','ritmo'];
+    const e=p.experiencia;
+    if(p.percursos_total!==s.percursos_total||p.percursos_concluidos!==s.percursos_total||!uuid.test(p.snapshot_id)||!e||e.confirmed!==true||!campos.every(k=>Array.isArray(e.answers?.[k])?e.answers[k].length>0:typeof e.answers?.[k]==='string'&&e.answers[k].trim().length>0)||e.answers.sugestao==='Quero comentar'&&!e.comment?.trim()||!Array.isArray(p.registros)||p.registros.length!==s.percursos_total||!p.registros.every(r=>r.correct===true&&Array.isArray(r.attempts)&&r.attempts.length>0)||p.registros.filter(r=>r.attempts[0].correct===true).length!==p.acertos_iniciais||typeof p.relatorio_texto!=='string'||p.relatorio_texto.length<100)error('Conclua os percursos e confirme toda a avaliação antes de enviar.',422);
+  }
   const result=await db.begin(async tx=>{
+   if(integrada){const [old]=await tx`select relatorio from educacional.coleta_livre_relatorios where sessao_id=${s.id}`;if(old&&canonical(old.relatorio)!==canonical(p))error('Esta sessão já tem um relatório confirmado. Preserve o recibo anterior.',409);}
    await tx`insert into educacional.coleta_livre_relatorios(sessao_id,percursos_total,percursos_concluidos,acertos_iniciais,relatorio) values(${s.id},${p.percursos_total},${p.percursos_concluidos},${p.acertos_iniciais},${tx.json(p)}) on conflict(sessao_id) do nothing`;
    await tx`update educacional.coleta_livre_sessoes set estado='concluida',concluida_em=coalesce(concluida_em,now()),ultima_interacao_em=now() where id=${s.id}`;
-   return {ok:true,estado:'recebido'};
+   return {ok:true,estado:'recebido',sessao_id:s.id,snapshot_id:p.snapshot_id||null};
   });
   return Response.json(result,{headers});
  }catch(e){return Response.json({ok:false,mensagem:Number(e.status||500)===500?'Não foi possível confirmar o envio. Tente novamente.':e.message},{status:Number(e.status)||500,headers});}
