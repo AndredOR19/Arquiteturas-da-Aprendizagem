@@ -49,7 +49,7 @@ Ramificação experimental apenas:
 - rótulo de trimestre no cartão quando a origem tem data e se enquadra em 2026;
 - rótulo de habilidades oficiais **quando comprovadas na fonte**; sem códigos fictícios;
 - descrição resumida para registro docente.
-A interface ainda não agrupa automaticamente visualmente por cabeçalhos de trimestres, apenas filtra. Histórico interno de data preservado. A origem curricular de cada aula precisa de revisão docente. Login Google, auto-inscrição e coleta online de todas as aulas **não estão ativados** por esta mudança.
+A interface agrupa os materiais em seções visuais com cabeçalhos por trimestre/semestre e oferece filtro de período. Histórico interno de data preservado. A origem curricular de cada aula precisa de revisão docente. Login Google, auto-inscrição e coleta online de todas as aulas **não estão ativados** por esta mudança.
 
 ## Critérios de aceitação
 - Testar filtro com 1º, 2º e 3º trimestre e EJA semestral, mais aulas sem período.
