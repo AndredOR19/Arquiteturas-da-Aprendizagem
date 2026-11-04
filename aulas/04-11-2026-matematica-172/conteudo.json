@@ -1,0 +1,758 @@
+{
+  "id": "04-11-2026-matematica-172",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "172",
+  "componente": "Matemática",
+  "data": "04/11/2026",
+  "titulo": "Probabilidade: do acaso à evidência",
+  "pergunta": "Uma chance de 50% garante metade dos resultados?",
+  "resumo": "Experimentos aleatórios, espaço amostral, cálculo e estimativa de probabilidades; leitura de frequências e gráficos de setores, com análise crítica de dado do IBGE.",
+  "habilidades": [
+    "EF07MA34 — planejar experimentos/simulações e calcular ou estimar probabilidades por frequências.",
+    "EF07MA37 — interpretar gráficos de setores divulgados pela mídia e avaliar sua adequação."
+  ],
+  "continuidade": "7º ano · 3º trimestre. Aula planejada; aplicação anterior não confirmada. Probabilidade: EF07MA34; EF07MA37 articulada na leitura de gráficos. Plano específico de Matemática 172 e RCG não disponíveis no catálogo consultado.",
+  "fontes": [
+    [
+      "MEC",
+      "BNCC — Matemática, 7º ano",
+      "https://basenacionalcomum.mec.gov.br/images/BNCC_20dez_site.pdf"
+    ],
+    [
+      "OBMEP / IMPA",
+      "Sala de estudos: probabilidades",
+      "https://clubes.obmep.org.br/blog/sala-de-estudos-probabilidade-sala-4/"
+    ],
+    [
+      "IBGE",
+      "Internet chega a 74,9 milhões de domicílios em 2024 — 24/07/2025",
+      "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44031-internet-chega-a-74-9-milhoes-de-domicilios-do-pais-em-2024"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · Acaso tem resultados possíveis",
+      "texto": "Um experimento aleatório é uma ação cujo resultado não sabemos antecipar com certeza. Num lançamento de dado comum, sabemos que pode sair 1, 2, 3, 4, 5 ou 6, mas não qual face sairá. Esse conjunto é o espaço amostral. Um evento é a parte que atende à condição: sair par reúne 2, 4 e 6. Não confunda imprevisibilidade de uma ocorrência com ausência de regularidades.",
+      "ancora": "D · faces 1 a 6 → R · selecionar as pares → E · evento {2, 4, 6} → L · não prevê a próxima face.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Mecânica · Por que favoráveis sobre possíveis?",
+      "texto": "No dado honesto, as seis faces têm chances iguais. Para o evento par, três das seis servem. A razão 3/6 mede a parte do total favorável: 3 ÷ 6 = 0,5 = 50%. Essa contagem simples exige resultados equiprováveis. Em uma caixa com 3 fichas A e 1 B, há quatro fichas, embora só dois tipos: a chance de B é 1/4 = 25%, se as fichas forem igualmente sorteáveis. Chance zero indica evento impossível no modelo; 100% indica evento certo.",
+      "ancora": "Favoráveis ÷ possíveis = chance, quando os resultados elementares são equiprováveis.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Circuito · Planejar, repetir, registrar e estimar",
+      "texto": "Para investigar uma moeda, defina cara como evento, lance em condições semelhantes e registre todos os resultados. Se ocorrerem 12 caras em 20 lançamentos, a frequência relativa é 12/20 = 60%. A chance teórica de cara em uma moeda honesta continua 50%; 60% descreve esse ensaio. Muitas repetições ajudam a estabilizar estimativas, mas não garantem exatamente metade nem aproximação a cada novo lançamento. Com reposição, a composição de uma caixa se recompõe; sem reposição, ela pode mudar.",
+      "ancora": "Planejar → registrar todos os ensaios → contar o evento → dividir pelo total → comparar com o modelo.",
+      "fonte": 1
+    },
+    {
+      "titulo": "Representar · Frequências e gráficos de setores",
+      "texto": "Um círculo inteiro representa 100% ou 360°. No ensaio com 12 caras e 8 coroas, os setores são 60% e 40%, equivalentes a 216° e 144°. Setores são úteis para categorias sem sobreposição que repartem um único total. O gráfico precisa de título, categorias, valores, população, período e fonte. Uma tabela equivalente permite conferir os valores sem depender das cores. Para acompanhar mudanças ao longo do tempo, linhas ou colunas podem ser mais adequadas.",
+      "ancora": "Parcela ÷ total → porcentagem; porcentagem ÷ 100 × 360° → ângulo do setor.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Aplicação · Uma notícia com denominador",
+      "texto": "O IBGE divulgou que, em 2024, a internet era utilizada em 93,6% dos domicílios particulares permanentes do Brasil. Reconstruímos um gráfico didático desse percentual: 93,6% com utilização e complemento calculado de 6,4%. O total é de domicílios, não de estudantes ou de pessoas. A fonte e o ano fazem parte do significado. Esse dado histórico não é apresentado como o mais recente nem informa a situação individual de cada aluno.",
+      "ancora": "D · dado do IBGE de 2024 → R · partes do mesmo total → E · leitura de 93,6% e 6,4% → L · não descreve cada estudante.",
+      "fonte": 2
+    },
+    {
+      "titulo": "Dialética · Chance não é promessa",
+      "texto": "Depois de quatro caras, uma moeda honesta não fica devendo coroa: se os lançamentos forem independentes, a próxima coroa continua com chance de 50%. Uma chance de 40% também não garante duas vitórias em cinco sorteios. O ponto cego é transformar uma proporção em destino de uma sequência curta. A ação é dizer qual evento, qual total e quais condições sustentam o cálculo, separando chance do modelo e frequência observada.",
+      "ancora": "Pergunte: qual é o evento? Qual é o total? As chances são iguais? O que o resultado não permite concluir?",
+      "fonte": 1
+    }
+  ],
+  "exploracao": [
+    [
+      "Dado",
+      "Espaço amostral",
+      "Liste as seis faces antes de selecionar um evento."
+    ],
+    [
+      "Caixa",
+      "Proporção",
+      "Conte as fichas, não apenas seus tipos."
+    ],
+    [
+      "Gráfico",
+      "Parte do todo",
+      "Relacione quantidade, percentual e setor."
+    ]
+  ],
+  "glossario": {
+    "Experimento aleatório": "Ação com resultado incerto antes de sua realização.",
+    "Espaço amostral": "Conjunto de todos os resultados possíveis do modelo.",
+    "Evento": "Conjunto de resultados que atendem a uma condição.",
+    "Equiprovável": "Com a mesma probabilidade.",
+    "Probabilidade": "Medida da chance de um evento ocorrer, entre 0 e 1.",
+    "Frequência relativa": "Número de ocorrências dividido pelo total de ensaios.",
+    "Reposição": "Devolver o item antes do próximo sorteio.",
+    "Independência": "O resultado anterior não altera a probabilidade do próximo no modelo.",
+    "Gráfico de setores": "Representação das partes de um total por regiões de um círculo."
+  },
+  "dicionario": {
+    "Estimar": "Aproximar um valor com base em informações e explicitar seu limite.",
+    "Interpretar": "Explicar o significado de dados em seu contexto.",
+    "Denominador": "O número que indica o total de referência numa razão.",
+    "Comparar": "Examinar dois resultados usando a mesma referência ou preservando suas bases.",
+    "Complemento": "Parte que falta para completar o total.",
+    "Modelo": "Representação com condições e limites explicitados."
+  },
+  "percursos": [
+    {
+      "titulo": "Resultados possíveis",
+      "fase": "Observatório do acaso",
+      "explicacao": "Um dado comum possui faces numeradas de 1 a 6. Um lançamento produz uma dessas faces.",
+      "pergunta": "Qual lista contém todos e somente os resultados de um lançamento?",
+      "alternativas": [
+        "1, 2, 3, 4, 5, 6",
+        "0, 1, 2, 3, 4, 5",
+        "2, 4, 6"
+      ],
+      "correta": 0,
+      "justificativa": "O espaço amostral reúne todos os resultados possíveis: 1 a 6; os pares são apenas parte dele.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Um dado comum possui faces numeradas de 1 a 6. Um lançamento produz uma dessas faces.",
+        "O espaço amostral reúne todos os resultados possíveis: 1 a 6; os pares são apenas parte dele."
+      ],
+      "retorno": [
+        "O espaço amostral reúne todos os resultados possíveis: 1 a 6; os pares são apenas parte dele.",
+        "O espaço amostral reúne todos os resultados possíveis: 1 a 6; os pares são apenas parte dele.",
+        "O espaço amostral reúne todos os resultados possíveis: 1 a 6; os pares são apenas parte dele."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Evento é uma parte",
+      "fase": "Observatório do acaso",
+      "explicacao": "No dado, sair número par significa obter 2, 4 ou 6.",
+      "pergunta": "Qual conjunto representa esse evento?",
+      "alternativas": [
+        "1, 3, 5",
+        "2, 4, 6",
+        "Todos os números de 1 a 6"
+      ],
+      "correta": 1,
+      "justificativa": "Um evento reúne os resultados que atendem à condição. Aqui são 2, 4 e 6.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "No dado, sair número par significa obter 2, 4 ou 6.",
+        "Um evento reúne os resultados que atendem à condição. Aqui são 2, 4 e 6."
+      ],
+      "retorno": [
+        "Um evento reúne os resultados que atendem à condição. Aqui são 2, 4 e 6.",
+        "Um evento reúne os resultados que atendem à condição. Aqui são 2, 4 e 6.",
+        "Um evento reúne os resultados que atendem à condição. Aqui são 2, 4 e 6."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Impossível não é improvável",
+      "fase": "Observatório do acaso",
+      "explicacao": "Em um dado de 1 a 6 não existe a face 8.",
+      "pergunta": "A chance de sair 8 nesse modelo é:",
+      "alternativas": [
+        "Pequena, mas positiva",
+        "Zero",
+        "Metade"
+      ],
+      "correta": 1,
+      "justificativa": "Não há resultado favorável. Zero dividido por seis é zero: evento impossível neste modelo.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Em um dado de 1 a 6 não existe a face 8.",
+        "Não há resultado favorável. Zero dividido por seis é zero: evento impossível neste modelo."
+      ],
+      "retorno": [
+        "Não há resultado favorável. Zero dividido por seis é zero: evento impossível neste modelo.",
+        "Não há resultado favorável. Zero dividido por seis é zero: evento impossível neste modelo.",
+        "Não há resultado favorável. Zero dividido por seis é zero: evento impossível neste modelo."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Certo ainda é um evento",
+      "fase": "Observatório do acaso",
+      "explicacao": "Toda face do dado de 1 a 6 é menor que 7.",
+      "pergunta": "Qual é a probabilidade de sair número menor que 7?",
+      "alternativas": [
+        "0%",
+        "50%",
+        "100%"
+      ],
+      "correta": 2,
+      "justificativa": "As seis faces atendem à condição: 6/6 = 1 = 100%.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Toda face do dado de 1 a 6 é menor que 7.",
+        "As seis faces atendem à condição: 6/6 = 1 = 100%."
+      ],
+      "retorno": [
+        "As seis faces atendem à condição: 6/6 = 1 = 100%.",
+        "As seis faces atendem à condição: 6/6 = 1 = 100%.",
+        "As seis faces atendem à condição: 6/6 = 1 = 100%."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Por que dividir?",
+      "fase": "Oficina das chances",
+      "explicacao": "No dado honesto, cada uma das seis faces tem a mesma chance. Para sair par, três faces servem.",
+      "pergunta": "Qual cálculo representa a chance de sair par?",
+      "alternativas": [
+        "6/3",
+        "3/6",
+        "3/3"
+      ],
+      "correta": 1,
+      "justificativa": "Quando os resultados têm chances iguais, comparamos favoráveis com todos os possíveis: 3/6 = 1/2.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "No dado honesto, cada uma das seis faces tem a mesma chance. Para sair par, três faces servem.",
+        "Quando os resultados têm chances iguais, comparamos favoráveis com todos os possíveis: 3/6 = 1/2."
+      ],
+      "retorno": [
+        "Quando os resultados têm chances iguais, comparamos favoráveis com todos os possíveis: 3/6 = 1/2.",
+        "Quando os resultados têm chances iguais, comparamos favoráveis com todos os possíveis: 3/6 = 1/2.",
+        "Quando os resultados têm chances iguais, comparamos favoráveis com todos os possíveis: 3/6 = 1/2."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Três escritas, uma chance",
+      "fase": "Oficina das chances",
+      "explicacao": "Uma chance de 1/2 representa metade do total.",
+      "pergunta": "Qual trio representa a mesma probabilidade?",
+      "alternativas": [
+        "1/2, 0,5 e 50%",
+        "1/2, 0,2 e 20%",
+        "1/2, 2 e 200%"
+      ],
+      "correta": 0,
+      "justificativa": "Dividir 1 por 2 dá 0,5. Multiplicar 0,5 por 100 dá 50%.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma chance de 1/2 representa metade do total.",
+        "Dividir 1 por 2 dá 0,5. Multiplicar 0,5 por 100 dá 50%."
+      ],
+      "retorno": [
+        "Dividir 1 por 2 dá 0,5. Multiplicar 0,5 por 100 dá 50%.",
+        "Dividir 1 por 2 dá 0,5. Multiplicar 0,5 por 100 dá 50%.",
+        "Dividir 1 por 2 dá 0,5. Multiplicar 0,5 por 100 dá 50%."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Cor não basta",
+      "fase": "Oficina das chances",
+      "explicacao": "Uma caixa tem 3 fichas A triangulares e 1 ficha B circular, com sorteio equiprovável entre as quatro fichas.",
+      "pergunta": "Qual é a chance de retirar B?",
+      "alternativas": [
+        "1/2, pois há dois tipos",
+        "3/4",
+        "1/4"
+      ],
+      "correta": 2,
+      "justificativa": "Há dois tipos, mas quatro fichas. Só uma é B: 1/4. Contar tipos como se fossem igualmente prováveis cria erro.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma caixa tem 3 fichas A triangulares e 1 ficha B circular, com sorteio equiprovável entre as quatro fichas.",
+        "Há dois tipos, mas quatro fichas. Só uma é B: 1/4. Contar tipos como se fossem igualmente prováveis cria erro."
+      ],
+      "retorno": [
+        "Há dois tipos, mas quatro fichas. Só uma é B: 1/4. Contar tipos como se fossem igualmente prováveis cria erro.",
+        "Há dois tipos, mas quatro fichas. Só uma é B: 1/4. Contar tipos como se fossem igualmente prováveis cria erro.",
+        "Há dois tipos, mas quatro fichas. Só uma é B: 1/4. Contar tipos como se fossem igualmente prováveis cria erro."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Comparar chances",
+      "fase": "Oficina das chances",
+      "explicacao": "Caixa A: 2 estrelas em 4 fichas. Caixa B: 3 estrelas em 10 fichas. Todas as fichas são igualmente sorteáveis em sua caixa.",
+      "pergunta": "Em qual caixa a chance de estrela é maior?",
+      "alternativas": [
+        "B, porque tem três estrelas",
+        "A, porque 2/4 é maior que 3/10",
+        "São iguais"
+      ],
+      "correta": 1,
+      "justificativa": "A tem 50% e B tem 30%. Precisamos comparar proporções, não só quantidades de estrelas.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Caixa A: 2 estrelas em 4 fichas. Caixa B: 3 estrelas em 10 fichas. Todas as fichas são igualmente sorteáveis em sua caixa.",
+        "A tem 50% e B tem 30%. Precisamos comparar proporções, não só quantidades de estrelas."
+      ],
+      "retorno": [
+        "A tem 50% e B tem 30%. Precisamos comparar proporções, não só quantidades de estrelas.",
+        "A tem 50% e B tem 30%. Precisamos comparar proporções, não só quantidades de estrelas.",
+        "A tem 50% e B tem 30%. Precisamos comparar proporções, não só quantidades de estrelas."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Reposição preserva a caixa",
+      "fase": "Oficina das chances",
+      "explicacao": "Há 2 fichas A e 1 B. Após cada sorteio, a ficha volta e a caixa é misturada.",
+      "pergunta": "O que acontece com a chance de B no próximo sorteio?",
+      "alternativas": [
+        "Permanece 1/3",
+        "Vira sempre 1/2",
+        "Passa a zero"
+      ],
+      "correta": 0,
+      "justificativa": "A reposição recompõe as três fichas antes de cada sorteio. A chance continua uma B em três fichas.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Há 2 fichas A e 1 B. Após cada sorteio, a ficha volta e a caixa é misturada.",
+        "A reposição recompõe as três fichas antes de cada sorteio. A chance continua uma B em três fichas."
+      ],
+      "retorno": [
+        "A reposição recompõe as três fichas antes de cada sorteio. A chance continua uma B em três fichas.",
+        "A reposição recompõe as três fichas antes de cada sorteio. A chance continua uma B em três fichas.",
+        "A reposição recompõe as três fichas antes de cada sorteio. A chance continua uma B em três fichas."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Planejar o experimento",
+      "fase": "Laboratório de frequências",
+      "explicacao": "Queremos estimar a chance de cara numa moeda. Precisamos repetir lançamentos em condições semelhantes e registrar cada resultado.",
+      "pergunta": "Qual plano permite calcular a frequência relativa?",
+      "alternativas": [
+        "Registrar somente as caras",
+        "Lançar várias vezes e registrar cara ou coroa em todas",
+        "Escolher os resultados mais bonitos"
+      ],
+      "correta": 1,
+      "justificativa": "Sem o total de lançamentos, não há denominador confiável. Todas as ocorrências precisam entrar no registro.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Queremos estimar a chance de cara numa moeda. Precisamos repetir lançamentos em condições semelhantes e registrar cada resultado.",
+        "Sem o total de lançamentos, não há denominador confiável. Todas as ocorrências precisam entrar no registro."
+      ],
+      "retorno": [
+        "Sem o total de lançamentos, não há denominador confiável. Todas as ocorrências precisam entrar no registro.",
+        "Sem o total de lançamentos, não há denominador confiável. Todas as ocorrências precisam entrar no registro.",
+        "Sem o total de lançamentos, não há denominador confiável. Todas as ocorrências precisam entrar no registro."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Frequência é uma razão",
+      "fase": "Laboratório de frequências",
+      "explicacao": "Em 20 lançamentos, saíram 12 caras e 8 coroas.",
+      "pergunta": "Qual é a frequência relativa de cara?",
+      "alternativas": [
+        "12/8 = 150%",
+        "8/20 = 40%",
+        "12/20 = 60%"
+      ],
+      "correta": 2,
+      "justificativa": "O evento ocorreu 12 vezes em 20 tentativas: 12/20 = 0,6 = 60%.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Em 20 lançamentos, saíram 12 caras e 8 coroas.",
+        "O evento ocorreu 12 vezes em 20 tentativas: 12/20 = 0,6 = 60%."
+      ],
+      "retorno": [
+        "O evento ocorreu 12 vezes em 20 tentativas: 12/20 = 0,6 = 60%.",
+        "O evento ocorreu 12 vezes em 20 tentativas: 12/20 = 0,6 = 60%.",
+        "O evento ocorreu 12 vezes em 20 tentativas: 12/20 = 0,6 = 60%."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Modelo e observação",
+      "fase": "Laboratório de frequências",
+      "explicacao": "Uma moeda é modelada como honesta: chance de cara de 50%. Num ensaio curto, saíram 7 caras em 10 lançamentos.",
+      "pergunta": "Qual interpretação é adequada?",
+      "alternativas": [
+        "O ensaio deu 70%; isso não obriga o modelo a ter chance de 70%",
+        "É impossível obter sete caras",
+        "A moeda obrigatoriamente tem duas caras"
+      ],
+      "correta": 0,
+      "justificativa": "Frequências variam em amostras finitas. Um resultado isolado não determina a probabilidade real.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma moeda é modelada como honesta: chance de cara de 50%. Num ensaio curto, saíram 7 caras em 10 lançamentos.",
+        "Frequências variam em amostras finitas. Um resultado isolado não determina a probabilidade real."
+      ],
+      "retorno": [
+        "Frequências variam em amostras finitas. Um resultado isolado não determina a probabilidade real.",
+        "Frequências variam em amostras finitas. Um resultado isolado não determina a probabilidade real.",
+        "Frequências variam em amostras finitas. Um resultado isolado não determina a probabilidade real."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Sequências não cobram dívida",
+      "fase": "Laboratório de frequências",
+      "explicacao": "Uma moeda honesta, em lançamentos independentes, deu cara quatro vezes seguidas.",
+      "pergunta": "A chance de coroa no próximo lançamento é:",
+      "alternativas": [
+        "Maior que 50%, para compensar",
+        "100%",
+        "50%"
+      ],
+      "correta": 2,
+      "justificativa": "Independência significa que a sequência anterior não altera a chance do próximo lançamento no modelo.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma moeda honesta, em lançamentos independentes, deu cara quatro vezes seguidas.",
+        "Independência significa que a sequência anterior não altera a chance do próximo lançamento no modelo."
+      ],
+      "retorno": [
+        "Independência significa que a sequência anterior não altera a chance do próximo lançamento no modelo.",
+        "Independência significa que a sequência anterior não altera a chance do próximo lançamento no modelo.",
+        "Independência significa que a sequência anterior não altera a chance do próximo lançamento no modelo."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Mais ensaios, sem garantia exata",
+      "fase": "Laboratório de frequências",
+      "explicacao": "Aumentar a quantidade de ensaios pode tornar uma estimativa mais estável. Isso não elimina oscilações.",
+      "pergunta": "Qual afirmação respeita esse limite?",
+      "alternativas": [
+        "Com mil lançamentos, serão exatamente 500 caras",
+        "A frequência tende a se aproximar da chance, mas pode oscilar",
+        "Mais lançamentos sempre aumentam a porcentagem de caras"
+      ],
+      "correta": 1,
+      "justificativa": "No modelo, mais repetições favorecem estabilidade da frequência relativa; não garantem igualdade exata nem aproximação a cada passo.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Aumentar a quantidade de ensaios pode tornar uma estimativa mais estável. Isso não elimina oscilações.",
+        "No modelo, mais repetições favorecem estabilidade da frequência relativa; não garantem igualdade exata nem aproximação a cada passo."
+      ],
+      "retorno": [
+        "No modelo, mais repetições favorecem estabilidade da frequência relativa; não garantem igualdade exata nem aproximação a cada passo.",
+        "No modelo, mais repetições favorecem estabilidade da frequência relativa; não garantem igualdade exata nem aproximação a cada passo.",
+        "No modelo, mais repetições favorecem estabilidade da frequência relativa; não garantem igualdade exata nem aproximação a cada passo."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Do registro ao todo",
+      "fase": "Ateliê de gráficos",
+      "explicacao": "Num ensaio didático de 20 lançamentos: 12 caras, 8 coroas. Os dois grupos esgotam o total.",
+      "pergunta": "Que porcentagens formam o gráfico de setores?",
+      "alternativas": [
+        "60% e 40%",
+        "60% e 60%",
+        "12% e 8%"
+      ],
+      "correta": 0,
+      "justificativa": "12/20 = 60% e 8/20 = 40%; somam 100% e representam o mesmo total.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Num ensaio didático de 20 lançamentos: 12 caras, 8 coroas. Os dois grupos esgotam o total.",
+        "12/20 = 60% e 8/20 = 40%; somam 100% e representam o mesmo total."
+      ],
+      "retorno": [
+        "12/20 = 60% e 8/20 = 40%; somam 100% e representam o mesmo total.",
+        "12/20 = 60% e 8/20 = 40%; somam 100% e representam o mesmo total.",
+        "12/20 = 60% e 8/20 = 40%; somam 100% e representam o mesmo total."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Porcentagem vira ângulo",
+      "fase": "Ateliê de gráficos",
+      "explicacao": "Uma volta inteira tem 360°. Metade da volta corresponde à metade do total.",
+      "pergunta": "Qual ângulo representa 25% do total?",
+      "alternativas": [
+        "25°",
+        "90°",
+        "180°"
+      ],
+      "correta": 1,
+      "justificativa": "25% de 360° é 0,25 × 360° = 90°. A porcentagem é parte do todo, não o número de graus diretamente.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma volta inteira tem 360°. Metade da volta corresponde à metade do total.",
+        "25% de 360° é 0,25 × 360° = 90°. A porcentagem é parte do todo, não o número de graus diretamente."
+      ],
+      "retorno": [
+        "25% de 360° é 0,25 × 360° = 90°. A porcentagem é parte do todo, não o número de graus diretamente.",
+        "25% de 360° é 0,25 × 360° = 90°. A porcentagem é parte do todo, não o número de graus diretamente.",
+        "25% de 360° é 0,25 × 360° = 90°. A porcentagem é parte do todo, não o número de graus diretamente."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Quando usar setores?",
+      "fase": "Ateliê de gráficos",
+      "explicacao": "Setores mostram como categorias sem sobreposição repartem um mesmo total.",
+      "pergunta": "Em qual caso o gráfico de setores é adequado?",
+      "alternativas": [
+        "Altura de uma planta a cada dia",
+        "Preferência por uma única fruta, com todas as respostas incluídas",
+        "Notas de uma pessoa ao longo do ano"
+      ],
+      "correta": 1,
+      "justificativa": "Uma preferência única por respondente divide o total em grupos sem sobreposição. Séries temporais pedem outra representação.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Setores mostram como categorias sem sobreposição repartem um mesmo total.",
+        "Uma preferência única por respondente divide o total em grupos sem sobreposição. Séries temporais pedem outra representação."
+      ],
+      "retorno": [
+        "Uma preferência única por respondente divide o total em grupos sem sobreposição. Séries temporais pedem outra representação.",
+        "Uma preferência única por respondente divide o total em grupos sem sobreposição. Séries temporais pedem outra representação.",
+        "Uma preferência única por respondente divide o total em grupos sem sobreposição. Séries temporais pedem outra representação."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "O gráfico precisa de legenda",
+      "fase": "Ateliê de gráficos",
+      "explicacao": "Um círculo tem duas regiões, mas não informa categorias, valores nem origem.",
+      "pergunta": "O que falta para interpretar com segurança?",
+      "alternativas": [
+        "Só um fundo colorido",
+        "Título, legenda, valores, total e fonte/contexto",
+        "Uma animação"
+      ],
+      "correta": 1,
+      "justificativa": "Sem rótulos e contexto não sabemos o que cada parte representa. A imagem não determina sozinha o significado.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Um círculo tem duas regiões, mas não informa categorias, valores nem origem.",
+        "Sem rótulos e contexto não sabemos o que cada parte representa. A imagem não determina sozinha o significado."
+      ],
+      "retorno": [
+        "Sem rótulos e contexto não sabemos o que cada parte representa. A imagem não determina sozinha o significado.",
+        "Sem rótulos e contexto não sabemos o que cada parte representa. A imagem não determina sozinha o significado.",
+        "Sem rótulos e contexto não sabemos o que cada parte representa. A imagem não determina sozinha o significado."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Notícia: quem é o total?",
+      "fase": "Agência de dados",
+      "explicacao": "O IBGE informou que, em 2024, a internet era utilizada em 93,6% dos domicílios particulares permanentes do Brasil. O gráfico desta sala foi reconstruído didaticamente desse dado.",
+      "pergunta": "O total representado é:",
+      "alternativas": [
+        "Os domicílios particulares permanentes do Brasil em 2024",
+        "Somente os estudantes da 172",
+        "Todas as pessoas do mundo"
+      ],
+      "correta": 0,
+      "justificativa": "O denominador refere-se a domicílios e ao período de 2024. Não equivale a pessoas, turma ou população mundial.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "O IBGE informou que, em 2024, a internet era utilizada em 93,6% dos domicílios particulares permanentes do Brasil. O gráfico desta sala foi reconstruído didaticamente desse dado.",
+        "O denominador refere-se a domicílios e ao período de 2024. Não equivale a pessoas, turma ou população mundial."
+      ],
+      "retorno": [
+        "O denominador refere-se a domicílios e ao período de 2024. Não equivale a pessoas, turma ou população mundial.",
+        "O denominador refere-se a domicílios e ao período de 2024. Não equivale a pessoas, turma ou população mundial.",
+        "O denominador refere-se a domicílios e ao período de 2024. Não equivale a pessoas, turma ou população mundial."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "A parte complementar",
+      "fase": "Agência de dados",
+      "explicacao": "No dado de 2024 do IBGE, 93,6% dos domicílios tinham utilização de internet. Para a leitura binária do gráfico, o complemento é 100% menos 93,6%.",
+      "pergunta": "Qual é esse complemento?",
+      "alternativas": [
+        "93,6%",
+        "6,4%",
+        "16,4%"
+      ],
+      "correta": 1,
+      "justificativa": "100 − 93,6 = 6,4 pontos percentuais do total. Esse complemento foi calculado para a representação didática.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "No dado de 2024 do IBGE, 93,6% dos domicílios tinham utilização de internet. Para a leitura binária do gráfico, o complemento é 100% menos 93,6%.",
+        "100 − 93,6 = 6,4 pontos percentuais do total. Esse complemento foi calculado para a representação didática."
+      ],
+      "retorno": [
+        "100 − 93,6 = 6,4 pontos percentuais do total. Esse complemento foi calculado para a representação didática.",
+        "100 − 93,6 = 6,4 pontos percentuais do total. Esse complemento foi calculado para a representação didática.",
+        "100 − 93,6 = 6,4 pontos percentuais do total. Esse complemento foi calculado para a representação didática."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Comparar sem trocar a base",
+      "fase": "Agência de dados",
+      "explicacao": "Uma pesquisa fictícia: escola A, 50% de 200 estudantes; escola B, 50% de 80 estudantes.",
+      "pergunta": "Qual conclusão é correta?",
+      "alternativas": [
+        "Os números absolutos são iguais",
+        "A tem 100 estudantes no grupo e B tem 40",
+        "B tem mais estudantes no grupo"
+      ],
+      "correta": 1,
+      "justificativa": "Percentuais iguais podem representar quantidades diferentes: metade de 200 é 100; metade de 80 é 40.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma pesquisa fictícia: escola A, 50% de 200 estudantes; escola B, 50% de 80 estudantes.",
+        "Percentuais iguais podem representar quantidades diferentes: metade de 200 é 100; metade de 80 é 40."
+      ],
+      "retorno": [
+        "Percentuais iguais podem representar quantidades diferentes: metade de 200 é 100; metade de 80 é 40.",
+        "Percentuais iguais podem representar quantidades diferentes: metade de 200 é 100; metade de 80 é 40.",
+        "Percentuais iguais podem representar quantidades diferentes: metade de 200 é 100; metade de 80 é 40."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Limite da notícia",
+      "fase": "Agência de dados",
+      "explicacao": "O dado nacional de 2024 resume um conjunto amplo de domicílios.",
+      "pergunta": "O gráfico permite afirmar que todo aluno da turma tem acesso em casa?",
+      "alternativas": [
+        "Sim, porque o setor é grande",
+        "Não; a turma não foi identificada por esse dado nacional",
+        "Sim, porque 93,6% é igual a 100%"
+      ],
+      "correta": 1,
+      "justificativa": "Uma proporção nacional não identifica a situação de cada estudante. Para conhecer a turma seria necessário outro levantamento adequado.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "O dado nacional de 2024 resume um conjunto amplo de domicílios.",
+        "Uma proporção nacional não identifica a situação de cada estudante. Para conhecer a turma seria necessário outro levantamento adequado."
+      ],
+      "retorno": [
+        "Uma proporção nacional não identifica a situação de cada estudante. Para conhecer a turma seria necessário outro levantamento adequado.",
+        "Uma proporção nacional não identifica a situação de cada estudante. Para conhecer a turma seria necessário outro levantamento adequado.",
+        "Uma proporção nacional não identifica a situação de cada estudante. Para conhecer a turma seria necessário outro levantamento adequado."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Projeto: uma caixa justa",
+      "fase": "Ponte de transferência",
+      "explicacao": "Duas pessoas vencem com A ou B. Há 3 fichas A e 1 B igualmente sorteáveis. Queremos chances iguais.",
+      "pergunta": "Qual ajuste equilibra as chances?",
+      "alternativas": [
+        "Adicionar duas fichas B",
+        "Retirar a única B",
+        "Adicionar uma A"
+      ],
+      "correta": 0,
+      "justificativa": "Com duas B a mais, a caixa terá 3 A e 3 B: cada grupo representa 3/6 = 1/2.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Duas pessoas vencem com A ou B. Há 3 fichas A e 1 B igualmente sorteáveis. Queremos chances iguais.",
+        "Com duas B a mais, a caixa terá 3 A e 3 B: cada grupo representa 3/6 = 1/2."
+      ],
+      "retorno": [
+        "Com duas B a mais, a caixa terá 3 A e 3 B: cada grupo representa 3/6 = 1/2.",
+        "Com duas B a mais, a caixa terá 3 A e 3 B: cada grupo representa 3/6 = 1/2.",
+        "Com duas B a mais, a caixa terá 3 A e 3 B: cada grupo representa 3/6 = 1/2."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Sem reposição muda o modelo",
+      "fase": "Ponte de transferência",
+      "explicacao": "Uma caixa tem 3 A e 1 B. Foi retirada a única B e ela não voltou.",
+      "pergunta": "A chance de B no próximo sorteio é:",
+      "alternativas": [
+        "1/4",
+        "1/3",
+        "Zero"
+      ],
+      "correta": 2,
+      "justificativa": "Sem reposição, restam apenas 3 A. Não há B disponível; o próximo evento B ficou impossível.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma caixa tem 3 A e 1 B. Foi retirada a única B e ela não voltou.",
+        "Sem reposição, restam apenas 3 A. Não há B disponível; o próximo evento B ficou impossível."
+      ],
+      "retorno": [
+        "Sem reposição, restam apenas 3 A. Não há B disponível; o próximo evento B ficou impossível.",
+        "Sem reposição, restam apenas 3 A. Não há B disponível; o próximo evento B ficou impossível.",
+        "Sem reposição, restam apenas 3 A. Não há B disponível; o próximo evento B ficou impossível."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "A melhor evidência",
+      "fase": "Ponte de transferência",
+      "explicacao": "Uma equipe diz que a chance de estrela é 1/4. Outra registrou 30 estrelas em 100 sorteios com reposição.",
+      "pergunta": "Como comparar as duas afirmações?",
+      "alternativas": [
+        "30% prova que 25% é impossível",
+        "Comparar 25% do modelo com 30% observado e examinar condições/repetições",
+        "Ignorar os registros"
+      ],
+      "correta": 1,
+      "justificativa": "Probabilidade do modelo e frequência observada são informações distintas. Variação amostral e condições precisam ser examinadas.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Uma equipe diz que a chance de estrela é 1/4. Outra registrou 30 estrelas em 100 sorteios com reposição.",
+        "Probabilidade do modelo e frequência observada são informações distintas. Variação amostral e condições precisam ser examinadas."
+      ],
+      "retorno": [
+        "Probabilidade do modelo e frequência observada são informações distintas. Variação amostral e condições precisam ser examinadas.",
+        "Probabilidade do modelo e frequência observada são informações distintas. Variação amostral e condições precisam ser examinadas.",
+        "Probabilidade do modelo e frequência observada são informações distintas. Variação amostral e condições precisam ser examinadas."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    },
+    {
+      "titulo": "Explicar e transferir",
+      "fase": "Ponte de transferência",
+      "explicacao": "Na feira, 4 dos 10 cartões de um sorteio equiprovável dão prêmio. Uma pessoa diz: se eu tentar cinco vezes, ganho exatamente duas.",
+      "pergunta": "Qual resposta aplica o conceito com seu limite?",
+      "alternativas": [
+        "A chance por sorteio é 40%; duas vitórias em cinco não são garantidas",
+        "A chance é 4%; a previsão é exata",
+        "A chance é 100% depois de perder"
+      ],
+      "correta": 0,
+      "justificativa": "4/10 = 40% por sorteio com condições preservadas; isso não fixa a quantidade de sucessos em uma sequência curta.",
+      "pistas": [
+        "Identifique o evento e o total; confira as condições deste caso.",
+        "Na feira, 4 dos 10 cartões de um sorteio equiprovável dão prêmio. Uma pessoa diz: se eu tentar cinco vezes, ganho exatamente duas.",
+        "4/10 = 40% por sorteio com condições preservadas; isso não fixa a quantidade de sucessos em uma sequência curta."
+      ],
+      "retorno": [
+        "4/10 = 40% por sorteio com condições preservadas; isso não fixa a quantidade de sucessos em uma sequência curta.",
+        "4/10 = 40% por sorteio com condições preservadas; isso não fixa a quantidade de sucessos em uma sequência curta.",
+        "4/10 = 40% por sorteio com condições preservadas; isso não fixa a quantidade de sucessos em uma sequência curta."
+      ],
+      "ponto": "Confundir quantidade, chance e resultado observado.",
+      "acao": "Diga qual é o evento, qual é o total e por que a relação escolhida é adequada."
+    }
+  ]
+}

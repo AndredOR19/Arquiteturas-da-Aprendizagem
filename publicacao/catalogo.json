@@ -678,6 +678,40 @@
         "titulo_exibicao": "Missão: Aprender Melhor",
         "trimestre": 3
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/04-11-2026-matematica-172",
+      "destino": "aulas/04-11-2026-matematica-172",
+      "titulo": "Matemática 172 — Probabilidade: do acaso à evidência",
+      "versao": "1.0.0",
+      "fluxo_visual": "territorio-experiencias",
+      "data_aula": "2026-11-04",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Matemática"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [
+          "172"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "trimestre": 3,
+        "palavras_chave": [
+          "probabilidade",
+          "EF07MA34",
+          "EF07MA37",
+          "gráficos de setores",
+          "3º trimestre"
+        ],
+        "descricao": "Experimentos de probabilidade, frequência relativa e análise de gráficos de setores com dado do IBGE. Seis ambientes, 26 percursos e recuperação adaptativa até 104 atividades. Registros locais e relatório por arquivo/e-mail.",
+        "titulo_exibicao": "Probabilidade: do acaso à evidência"
+      }
     }
   ]
 }
