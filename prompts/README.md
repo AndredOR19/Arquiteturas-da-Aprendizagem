@@ -6,7 +6,6 @@ Os três prompts são mantidos em paralelo e usam a mesma [base pedagógica e fu
 |---|---|---|---|
 | 01 | [Caderno ilustrado](FLUXO_01_CADERNO_ILUSTRADO.md) | Lettering, objeto central, faixas e conexões visuais | Modelo anterior preservado; alternância quando pertinente |
 | 02 | [Missão interativa](FLUXO_02_MISSAO_INTERATIVA.md) | Fredoka, fundo pontilhado, cartões coloridos, objetos flutuantes, sons ao toque e modal | Alternativa aprovada preservada |
-
 | 03 | [Território de Experiências](FLUXO_03_TERRITORIO_EXPERIENCIAS.md) | Hub, missões guiadas, ambientes e portais externos | Novo padrão de produção; homologação técnica por componente/aula |
 
 Escolher um fluxo antes de produzir e registrar o motivo na composição. O professor pode pedir “Fluxo 01”, “Fluxo 02” ou “Fluxo 03”. Na ausência de escolha, usar 03 conforme seção 6.4 do mestre; para uma aula existente, preservar o fluxo já aplicado salvo pedido de mudança. A alternância pode mudar a apresentação entre aulas, sem presumir que novidade cause aprendizagem.
