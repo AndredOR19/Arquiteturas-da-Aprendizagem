@@ -1026,12 +1026,30 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "41892429532",
+      "tentativa": "1",
+      "cenario": "turmas",
+      "commit_fonte": "ed0ccdd527da0cf20ca27ac2e2d0d1b48afdc41e",
+      "pasta": "execucoes/41892429532-1-turmas",
+      "experimento": "46bd1a9bc34c24306e7637cae3a015ce05f4c19859f74a2c2639e512e9254bd1",
+      "diferencas": {
+        "novas": [
+          "aaci"
+        ],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": [
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "9e9d2c80f924033186b79871aae7b21a9a97511218d37f33bae3174b196baa19",
+      "biblioteca-arquiteturas/catalogo.json": "4d87a0a66a85afa5e9a0818febbfc0e22258930b2d749b119244d849ced28562",
       "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
       "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
       "PROMPT_MESTRE_AULAS_DIGITAIS.md": "702030513726faca95f6679e975eb2e6b85c2ab89dc43640ca0dc168e31b6a1e",
@@ -1399,6 +1417,25 @@
         "calibracao_empirica": false,
         "validacao_empirica": false,
         "revisao_sha256": "3118bd192de1f664d764160b4b3b0e1f909d31dfb8a76726ce0619306683721b"
+      },
+      {
+        "id": "aaci",
+        "nome": "AACI — Arquitetura de Ambientes Cognitivos Interativos",
+        "dominio": "pedagogico",
+        "versao_documental": "1.0.0",
+        "estado_documental": "diretriz_documentada",
+        "fontes_sha256": {
+          "biblioteca-arquiteturas/plantas/aaci.md": "8e764b7a0276e500372947184cae710262f1a93afec21eb9b0d0d2383ea661e1"
+        },
+        "estado_modelagem": "aguardando_formalizacao",
+        "modulos_mecanisticos": [],
+        "modulos_de_apoio": [
+          "planejamento-individual",
+          "planejamento-turmas"
+        ],
+        "calibracao_empirica": false,
+        "validacao_empirica": false,
+        "revisao_sha256": "74bdcde38295fdfd8aa4447de141445d5c0304578f6c81c54b8799c6459da993"
       },
       {
         "id": "cabala",

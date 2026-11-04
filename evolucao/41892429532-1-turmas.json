@@ -1,0 +1,18 @@
+{
+  "execucao": "41892429532",
+  "tentativa": "1",
+  "cenario": "turmas",
+  "commit_fonte": "ed0ccdd527da0cf20ca27ac2e2d0d1b48afdc41e",
+  "pasta": "execucoes/41892429532-1-turmas",
+  "experimento": "46bd1a9bc34c24306e7637cae3a015ce05f4c19859f74a2c2639e512e9254bd1",
+  "diferencas": {
+    "novas": [
+      "aaci"
+    ],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "biblioteca-arquiteturas/catalogo.json"
+    ]
+  }
+}
