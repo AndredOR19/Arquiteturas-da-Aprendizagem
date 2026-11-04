@@ -26,7 +26,9 @@
     "maximo_total": 104,
     "novos_inicios": true,
     "politica": "1_original_mais_0_1_ou_3_experiencias",
-    "estado": "implementado_teste_nucleo_e_navegador_previa",
-    "publicacao": "em_preparacao"
+    "estado": "implantado_testado_nucleo_navegador_http",
+    "publicacao": "link_publico_conferido",
+    "teste_navegador": "26_originais_3_extras_nota_inicial_preservada_avaliacao_obrigatoria",
+    "teste_servidor": "extras_incompletas_recusadas_snapshot_aceito_readback_confirmado"
   }
 }
