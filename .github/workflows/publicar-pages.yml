@@ -1,23 +1,14 @@
-name: Publicar aulas no GitHub Pages
+name: Validar aulas antes da publicação
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
-  actions: read
-  pages: write
-  id-token: write
-concurrency:
-  group: github-pages
-  cancel-in-progress: true
 jobs:
   publicar:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -101,25 +92,16 @@ jobs:
         run: node ferramentas/conferir-portugues.cjs
       - name: Conferir seleção, volume e parada dos ruídos de fundo
         run: node ferramentas/conferir-sons.cjs
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Aguardar publicação automática anterior
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Confirmar integridade do pacote público
         run: |
-          for tentativa in $(seq 1 60); do
-            pendentes=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs?head_sha=$GITHUB_SHA&per_page=30" --jq '[.workflow_runs[] | select(.name == "pages build and deployment" and .status != "completed")] | length')
-            if [ "$pendentes" = "0" ]; then exit 0; fi
-            sleep 5
-          done
-          echo "A publicação automática anterior ainda está em andamento."
-          exit 1
-      - name: Publicar
-        id: deploy
-        uses: actions/deploy-pages@v4
-
-
-
-
+          test -s _site/index.html
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for item in json.loads(Path('publicacao/catalogo.json').read_text())['materiais']:
+              if item['tipo'] != 'link':
+                  path = Path('_site') / item['destino'] / 'index.html'
+                  if not path.is_file() or path.stat().st_size == 0:
+                      raise SystemExit('Material não empacotado: '+str(path))
+          print('Todos os materiais locais constam do pacote público.')
+          PY
