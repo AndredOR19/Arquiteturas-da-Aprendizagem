@@ -1,5 +1,5 @@
 {
- "name": "AIx 05 — Construir experiência",
+ "name": "AIx 05 — Construir experiência (acessível + Phaser 2D + Three.js)",
  "active": false,
  "nodes": [
   {
@@ -15,7 +15,7 @@
   },
   {
    "parameters": {
-    "command": "python3 aix/fabrica.py solicitar --texto {{$json.solicitacao}} --id {{$json.id}} --conteudo {{$json.conteudo}}"
+    "command": "python3 aix/fabrica.py construir --texto {{$json.solicitacao}} --id {{$json.id}} --conteudo {{$json.conteudo}} --motores acessivel,phaser,3d"
    },
    "id": "passo-1",
    "name": "Passo 1",
@@ -23,19 +23,6 @@
    "typeVersion": 1,
    "position": [
     220,
-    0
-   ]
-  },
-  {
-   "parameters": {
-    "command": "python3 aix/engines/accessible/gerar.py {{$json.contractPath}}"
-   },
-   "id": "passo-2",
-   "name": "Passo 2",
-   "type": "n8n-nodes-base.executeCommand",
-   "typeVersion": 1,
-   "position": [
-    440,
     0
    ]
   }

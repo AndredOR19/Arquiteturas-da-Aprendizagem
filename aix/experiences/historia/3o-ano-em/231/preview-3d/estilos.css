@@ -1,0 +1,81 @@
+:root { font: 16px/1.5 system-ui, sans-serif; color: #eef4f2; background: #10161c; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; }
+#palco { position: absolute; inset: 0; }
+#palco canvas { display: block; }
+
+#hud { position: absolute; top: 0; left: 0; right: 0; z-index: 20; pointer-events: none; padding: 8px 10px;
+  background: linear-gradient(rgba(16,22,28,.92), rgba(16,22,28,0)); }
+.aix-topo { display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; }
+.aix-titulo { display: flex; flex-direction: column; }
+.aix-sub { font-size: .8rem; opacity: .85; }
+.aix-botoes { display: flex; flex-wrap: wrap; gap: 6px; pointer-events: auto; }
+button { font: inherit; color: #10161c; background: #ffe279; border: 2px solid #2d5f52; border-radius: 8px;
+  padding: 7px 12px; cursor: pointer; }
+button:focus-visible, textarea:focus-visible { outline: 4px solid #b341bd; outline-offset: 2px; }
+.aix-linha { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 4px;
+  background: rgba(16,22,28,.75); border-radius: 10px; padding: 4px 10px; width: fit-content; max-width: 100%; pointer-events: auto; }
+.aix-env { font-weight: 700; }
+.aix-missao { font-size: .9rem; }
+.aix-barra { width: 140px; height: 14px; appearance: none; }
+.aix-barra::-webkit-progress-bar { background: #22303a; border-radius: 7px; }
+.aix-barra::-webkit-progress-value { background: #7ec8e3; border-radius: 7px; }
+
+#prompt { position: absolute; left: 50%; bottom: 132px; transform: translateX(-50%); z-index: 15;
+  background: #10161c; border: 2px solid #7ec8e3; border-radius: 10px; padding: 8px 14px; font-weight: 600; max-width: 90vw; }
+#toast { position: absolute; left: 50%; top: 64px; transform: translateX(-50%); z-index: 40; opacity: 0;
+  transition: opacity .25s; background: #2d5f52; border: 2px solid #7ec8e3; border-radius: 10px; padding: 8px 14px; max-width: 90vw; }
+#toast.aix-on { opacity: 1; }
+#anuncio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+#painel { position: absolute; inset: 0; z-index: 30; background: rgba(8,12,16,.78);
+  display: grid; place-items: center; padding: 14px; overflow: auto; }
+#painel[hidden] { display: none; }
+.aix-caixa { background: #f7f4ec; color: #1c2b33; border: 3px solid #2d5f52; border-radius: 14px;
+  max-width: 620px; width: 100%; max-height: 84vh; overflow: auto; padding: 16px 18px; }
+#painel > .aix-caixa { color: #1c2b33; }
+.aix-cabecalho { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.aix-cabecalho h2 { margin: 0; font-size: 1.15rem; }
+.aix-fechar { background: #d9e6e1; }
+.aix-conteudo p { margin: 10px 0; }
+.aix-badge { font-size: .78rem; font-weight: 700; border-radius: 6px; padding: 4px 8px; display: inline-block; }
+.aix-ficticio { background: #fff4d6; border: 2px dashed #8a6d1a; color: #6a5310; }
+.aix-fonte { background: #d9ecff; border: 2px solid #1d5f94; color: #14406b; }
+.aix-fonte-ref { font-size: .85rem; opacity: .8; }
+.aix-dica { font-size: .85rem; background: #eef4f2; border-left: 4px solid #2d5f52; padding: 6px 10px; }
+.aix-acao { display: block; margin: 12px 0 4px; }
+.aix-fala { font-style: italic; background: #fff; border-left: 4px solid #d67ba8; padding: 8px 12px; }
+.aix-pergunta { font-weight: 700; font-size: 1.05rem; }
+.aix-opcoes { display: grid; gap: 8px; }
+.aix-opcao { text-align: left; background: #fff; }
+.aix-feedback { font-weight: 600; min-height: 1.4em; }
+.aix-ok { color: #1d5f2f; }
+.aix-retry { color: #8a4a1a; }
+.aix-item-missao, .aix-item-ev { border-top: 1px solid #cdd8d2; padding-top: 8px; }
+.aix-m-titulo { font-weight: 700; margin: 6px 0 2px; }
+.aix-m-obj { margin: 2px 0; font-size: .9rem; }
+.aix-tarefas { margin: 4px 0 4px 1.1rem; padding: 0; font-size: .88rem; }
+.aix-feita { color: #1d5f2f; }
+.aix-ambiente-btn { display: block; width: 100%; text-align: left; margin: 8px 0; background: #fff; }
+textarea { width: 100%; font: inherit; color: #1c2b33; border: 2px solid #2d5f52; border-radius: 8px; padding: 8px; }
+
+#toque { position: absolute; left: 0; right: 0; bottom: 0; z-index: 25; display: none;
+  justify-content: space-between; align-items: flex-end; padding: 0 14px 14px; }
+body.aix-toque #toque { display: flex; }
+.aix-pad { display: grid; grid-template-columns: repeat(3, 54px); grid-template-rows: repeat(2, 54px); gap: 4px; }
+.aix-seta { font-size: 20px; padding: 0; background: rgba(16,22,28,.82); color: #eef4f2; border-color: #7ec8e3; }
+.aix-cima { grid-column: 2; grid-row: 1; }
+.aix-esq { grid-column: 1; grid-row: 2; }
+.aix-baixo { grid-column: 2; grid-row: 2; }
+.aix-dir { grid-column: 3; grid-row: 2; }
+.aix-acao-grande { min-width: 110px; min-height: 74px; font-size: 1.05rem; background: rgba(255,226,121,.95); }
+
+#falha { position: absolute; inset: 0; place-items: center; z-index: 50; background: #10161c; padding: 20px; text-align: center; }
+#falha:not([hidden]) { display: grid; }
+#falha[hidden] { display: none; }
+.aix-dica-leve { position: absolute; bottom: 6px; right: 10px; z-index: 26; font-size: .75rem; background: #10161cc0; padding: 2px 8px; border-radius: 6px; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+@media (max-width: 720px) {
+  .aix-linha { font-size: .8rem; }
+  #prompt { bottom: 150px; font-size: .85rem; }
+}

@@ -18,6 +18,7 @@ Uso:
 import argparse
 import hashlib
 import json
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -30,7 +31,7 @@ sys.path.insert(0, str(AIX / "contracts"))
 import camadas  # noqa: E402
 import validador  # noqa: E402
 
-PIPELINE = "1.0.0"
+PIPELINE = "1.2.0"
 
 DEMO = ("Crie uma aula imersiva de História para a turma 231 do 3º ano do Ensino Médio, "
         "3º trimestre, sobre Guerra Fria, ditadura militar brasileira e redemocratização, "
@@ -83,7 +84,7 @@ def solicitar(texto, id_contrato=None, caminho_conteudo=None):
     pendencias += ["conteúdo em esqueleto: aguardando Workflow 04 (geração de conteúdo)"] if not caminho_conteudo else []
 
     contrato = {
-        "schemaVersion": "1.0.0",
+        "schemaVersion": "1.1.0",
         "experienceId": id_contrato or _derive_id(pedido),
         "generated": {"by": "aix-fabrica", "pipelineVersion": PIPELINE},
         "request": {
@@ -106,7 +107,7 @@ def solicitar(texto, id_contrato=None, caminho_conteudo=None):
         "pedagogy": {k: plano[k] for k in ("architecture", "method", "plantRef", "stages", "drel", "justification")},
         "experience": {
             "template": plano["template"],
-            "modes": ["accessible"] + (["2d"] if pedido["flags"]["jogo2d"] or pedido["flags"]["imersiva"] else []) + (["3d"] if pedido["flags"]["tridimensional"] else []),
+            "modes": ["accessible"] + (["2d"] if pedido["flags"]["jogo2d"] or pedido["flags"]["imersiva"] or _tem_jogo(conteudo) else []) + (["3d"] if pedido["flags"]["tridimensional"] or _tem_jogo(conteudo) else []),
             "narrative": conteudo.get("narrative", ""),
             "environments": conteudo["environments"],
             "missions": conteudo["missions"],
@@ -129,6 +130,11 @@ def solicitar(texto, id_contrato=None, caminho_conteudo=None):
 def _derive_id(pedido):
     base = "aula-%s-%s" % (pedido.get("classroom") or "turma", camadas._slug(pedido.get("subject") or "componente"))
     return base[:64]
+
+
+def _tem_jogo(conteudo):
+    """Conteúdo com dados de jogo (layout+objects em >=1 ambiente) é jogável em 2D e 3D."""
+    return any(a.get("layout") and a.get("objects") for a in conteudo.get("environments", []))
 
 
 def gravar(contrato, pedido):
@@ -172,6 +178,11 @@ def principal():
     p1.add_argument("--conteudo", default=None)
     p2 = sub.add_parser("validar", help="valida um contrato existente")
     p2.add_argument("arquivo")
+    p3 = sub.add_parser("construir", help="solicitação docente → contrato → prévias (acessível, 2D, 3D)")
+    p3.add_argument("--texto", required=True)
+    p3.add_argument("--id", default=None)
+    p3.add_argument("--conteudo", required=True)
+    p3.add_argument("--motores", default="acessivel,phaser,3d")
     sub.add_parser("demo", help="executa a solicitação-piloto da turma 231")
     args = parser.parse_args()
 
@@ -183,7 +194,37 @@ def principal():
             for erro in erros:
                 print("  -", erro)
             return 1
-        print("VALIDO: contrato AIx 1.0.0 integral (estrutura, seguranca e semantica)")
+        print("VALIDO: contrato AIx 1.1.0 integral (estrutura, seguranca e semantica)")
+        return 0
+
+    if args.comando == "construir":
+        try:
+            contrato, pedido = solicitar(args.texto, args.id, args.conteudo)
+        except ValueError as exc:
+            print("SOLICITACAO INCOMPLETA: %s" % exc)
+            return 1
+        registro, erros = gravar(contrato, pedido)
+        if erros:
+            print("CONTRATO INVALIDO (%d problema[s]):" % len(erros))
+            for erro in erros:
+                print("  -", erro)
+            return 1
+        print("CONTRATO_OK %s (sha256 %s, %d bloqueio[s])" % (registro["contractPath"], registro["sha256"][:16], len(registro["blockers"])))
+        caminho = str(RAIZ / registro["contractPath"])
+        motores = [m.strip() for m in args.motores.split(",") if m.strip()]
+        if "acessivel" in motores:
+            r = subprocess.run([sys.executable, str(AIX / "engines" / "accessible" / "gerar.py"), caminho])
+            if r.returncode != 0:
+                return 1
+        if "phaser" in motores:
+            r = subprocess.run([sys.executable, str(AIX / "engines" / "phaser-2d" / "gerar.py"), caminho])
+            if r.returncode != 0:
+                return 1
+        if "3d" in motores:
+            r = subprocess.run([sys.executable, str(AIX / "engines" / "three-3d" / "gerar3d.py"), caminho])
+            if r.returncode != 0:
+                return 1
+        print("CONSTRUIDO: %s" % ", ".join(motores))
         return 0
 
     if args.comando == "demo":

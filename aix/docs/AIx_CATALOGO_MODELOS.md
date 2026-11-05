@@ -7,7 +7,7 @@
 | # | Modelo | Template (`contract.template`) | Método típico | Estado | Avaliação como apoio |
 |---|---|---|---|---|---|
 | 1 | Percursos interativos — 26 perguntas D-R-E-L | `percursos-interativos` | tutoria/fixação | **produção** (Fábrica AEE) | tentativas, pistas, avaliação por percurso |
-| 2 | Investigação documental | `document-investigation` | investigação documental | **implementado** (MVP acessível; piloto 231) | registros por missão + síntese argumentativa |
+| 2 | Investigação documental | `document-investigation` | investigação documental | **implementado** (MVP acessível + **jogo Phaser 2D** + protótipo Three.js; piloto 231) | registros por missão + síntese argumentativa |
 | 3 | Museu histórico | `historical-museum` | aprendizagem por exposição crítica | especificado (Fase 2) | objetos consultados, hipóteses, síntese |
 | 4 | Simulador de decisões éticas | `decision-simulator` | estudo de caso/dilema | roteirizado | decisões + justificativas registradas |
 | 5 | Laboratório experimental | `virtual-lab` | investigação experimental | roteirizado | hipóteses, dados, conclusão |

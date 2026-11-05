@@ -1,4 +1,4 @@
-# AIx — ARQUITETURA TÉCNICA (v1.0 implantada no branch `feature/aix-fabrica`)
+# AIx — ARQUITETURA TÉCNICA (v1.2 implantada no branch `feature/aix-fabrica`)
 
 ## Visão geral
 
@@ -29,6 +29,8 @@ Solicitação docente (pt-BR) ──► aix/fabrica.py (CLI determinística)
 | `aix/camadas.py` | Camadas A/B/C | stdlib |
 | `aix/fabrica.py` | CLI `solicitar/validar/demo`; idempotente por sha256; registro em `aix/jobs/` | stdlib |
 | `aix/engines/accessible/gerar.py` | Motor acessível: contrato → HTML semântico jogável | stdlib |
+| `aix/engines/phaser-2d/` | **v1.2** — motor 2D (`motor.js`), UI compartilhada (`ui-compartilhada.js`), gerador (pasta + arquivo único), Phaser 3.80.1 vendado com sha256 | node --check + Playwright |
+| `aix/engines/three-3d/` | **v1.2** — protótipo 3D (`motor3d.js`) que interpreta o mesmo contrato; three.js r128 vendado | node --check + Playwright |
 | `aix/experiences/…` | Contratos gerados + conteúdos de entrada + prévias | — |
 | `aix/templates/*/modelo.json` | Catálogo de modelos jogáveis (requisitos por template) | — |
 | `aix/tests/` | 18 mutações do contrato + 7 da fábrica (25/25 verdes) | stdlib + unittest |
@@ -48,8 +50,23 @@ Solicitação docente (pt-BR) ──► aix/fabrica.py (CLI determinística)
 
 ```
 python3 aix/fabrica.py solicitar --texto "…" [--id …] [--conteudo caminho.json]
+python3 aix/fabrica.py construir --texto "…" --id … --conteudo … --motores acessivel,phaser,3d
 python3 aix/fabrica.py validar aix/experiences/…/contrato.json
 python3 aix/fabrica.py demo
 python3 aix/engines/accessible/gerar.py aix/experiences/…/contrato.json [saida.html]
+python3 aix/engines/phaser-2d/gerar.py aix/experiences/…/contrato.json
+python3 aix/engines/three-3d/gerar3d.py aix/experiences/…/contrato.json
 python3 aix/tests/testar_contrato.py && python3 aix/tests/testar_fabrica.py
+python3 aix/tests/testar_jogo.py && python3 aix/tests/testar_jogo3d.py
+python3 aix/tests/testar_integracao_supabase.py
 ```
+
+## Decisões da v1.2 (jogo 2D/3D)
+
+1. **Dados de jogo no contrato** (schema 1.1.0, retrocompatível): `layout`, `objects`, `characters`, `tasks` — nenhum código por missão; motores são renderizadores genéricos testados uma vez.
+2. **UI em DOM, mundo no canvas**: painéis, missões e HUD são HTML (foco, Tab, aria-live); Phaser/Three renderizam só o mundo — acessibilidade real em jogo.
+3. **Ficção declarada**: objetos `fictional:true` exibem badge "ELEMENTO FICTÍCIO DA SIMULAÇÃO"; documentos não-fictícios exigem `sourceId` válido (regra do validador).
+4. **Salvamento local** (`localStorage`, fallback em memória em iframes sandbox): progresso, inventário e síntese ficam no dispositivo — privacidade por design.
+5. **Vendagem de bibliotecas** com sha256 (MIT): funciona offline e sem CDN — requisito de escola com internet instável.
+6. `modes` deriva dos dados: conteúdo com `layout+objects` declara `2d`/`3d` automaticamente na fábrica.
+7. Ganchos de teste `?teste=1` (velocidade + inspeção + teleporte) **não alteram regras**; movimentação/colisão/interação também foram testadas com entrada 100% real.

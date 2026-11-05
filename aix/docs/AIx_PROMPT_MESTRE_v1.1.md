@@ -87,4 +87,6 @@ Ver `aix/docs/AIx_CATALOGO_MODELOS.md`. Nenhum layout copiado entre disciplinas;
 
 ## 9. Próximas versões
 
-v1.2: motor Phaser 2D (museu + gincana) com alternativa acessível obrigatória; v1.3: aprovação assistida com diff de contratos; v2.0: motor 3D (A-Frame) e cidades virtuais, sempre com alternativa nativa.
+**v1.2 — ENTREGUE (05/11/2026, branch `feature/aix-fabrica`)**: motor Phaser 2D implementado e testado (avatar teclado/toque, colisões, interação contextual, inventário, diálogos, missões, feedback, progresso, salvamento/retomada, alternativa acessível); Contrato Universal 1.1.0 com dados de jogo; protótipo Three.js interpretando o mesmo contrato; `fabrica.py construir`; E2E completo em Chromium (desktop + mobile); integração Supabase comprovada com evento sintético; relatório em `AIx_RELATORIO_V1_2.md`. Motores 2D/3D e o piloto seguem **draft** — revisão docente pendente, produção intocada.
+
+v1.3: aprovação assistida com diff de contratos; v2.0: motor 3D avançado e cidades virtuais, sempre com alternativa nativa.

@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "experienceId", "generated", "request", "curriculum", "pedagogy", "experience", "assessment", "accessibility", "publication"],
   "properties": {
-    "schemaVersion": { "const": "1.0.0" },
+    "schemaVersion": { "enum": ["1.0.0", "1.1.0"] },
     "experienceId": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+){1,7}$", "minLength": 6, "maxLength": 64 },
     "generated": {
       "type": "object", "additionalProperties": false,
@@ -93,7 +93,76 @@
               "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "minLength": 3 },
               "title": { "type": "string", "minLength": 6 },
               "scenario": { "type": "string", "minLength": 20 },
-              "interactions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 8 } }
+              "interactions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 8 } },
+              "paleta": {
+                "type": "object", "additionalProperties": false, "required": ["fundo", "chao", "destaque"],
+                "properties": {
+                  "fundo": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+                  "chao": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+                  "destaque": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" }
+                }
+              },
+              "layout": {
+                "type": "object", "additionalProperties": false, "required": ["bounds", "spawn"],
+                "properties": {
+                  "bounds": {
+                    "type": "object", "additionalProperties": false, "required": ["w", "h"],
+                    "properties": { "w": { "type": "number", "exclusiveMinimum": 0 }, "h": { "type": "number", "exclusiveMinimum": 0 } }
+                  },
+                  "spawn": {
+                    "type": "object", "additionalProperties": false, "required": ["x", "y"],
+                    "properties": { "x": { "type": "number", "minimum": 0 }, "y": { "type": "number", "minimum": 0 } }
+                  },
+                  "obstacles": {
+                    "type": "array",
+                    "items": {
+                      "type": "object", "additionalProperties": false, "required": ["x", "y", "w", "h"],
+                      "properties": {
+                        "x": { "type": "number", "minimum": 0 }, "y": { "type": "number", "minimum": 0 },
+                        "w": { "type": "number", "exclusiveMinimum": 0 }, "h": { "type": "number", "exclusiveMinimum": 0 },
+                        "label": { "type": "string", "minLength": 3 }
+                      }
+                    }
+                  }
+                }
+              },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "object", "additionalProperties": false, "required": ["id", "tipo", "x", "y", "titulo", "descricao", "fictional"],
+                  "properties": {
+                    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "minLength": 3 },
+                    "tipo": { "enum": ["documento", "cenario"] },
+                    "x": { "type": "number", "minimum": 0 }, "y": { "type": "number", "minimum": 0 },
+                    "titulo": { "type": "string", "minLength": 6 },
+                    "descricao": { "type": "string", "minLength": 20 },
+                    "fictional": { "type": "boolean" },
+                    "sourceId": { "type": "string", "minLength": 3 }
+                  }
+                }
+              },
+              "characters": {
+                "type": "array",
+                "items": {
+                  "type": "object", "additionalProperties": false, "required": ["id", "nome", "x", "y", "papel", "falas"],
+                  "properties": {
+                    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "minLength": 3 },
+                    "nome": { "type": "string", "minLength": 4 },
+                    "x": { "type": "number", "minimum": 0 }, "y": { "type": "number", "minimum": 0 },
+                    "papel": { "type": "string", "minLength": 10 },
+                    "falas": {
+                      "type": "array", "minItems": 1,
+                      "items": {
+                        "type": "object", "additionalProperties": false, "required": ["id", "texto"],
+                        "properties": {
+                          "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "minLength": 3 },
+                          "texto": { "type": "string", "minLength": 20 }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         },
@@ -108,7 +177,23 @@
               "title": { "type": "string", "minLength": 6 },
               "objective": { "type": "string", "minLength": 15 },
               "clues": { "type": "array", "items": { "type": "string", "minLength": 8 } },
-              "evidence": { "type": "string", "minLength": 15 }
+              "evidence": { "type": "string", "minLength": 15 },
+              "tasks": {
+                "type": "array", "minItems": 1,
+                "items": {
+                  "type": "object", "additionalProperties": false, "required": ["tipo"],
+                  "properties": {
+                    "tipo": { "enum": ["coletar", "dialogar", "comparar"] },
+                    "alvo": { "type": "string", "minLength": 3 },
+                    "fala": { "type": "string", "minLength": 3 },
+                    "pergunta": { "type": "string", "minLength": 15 },
+                    "opcoes": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 2 } },
+                    "correta": { "type": "integer", "minimum": 0 },
+                    "feedbackAcerto": { "type": "string", "minLength": 15 },
+                    "feedbackErro": { "type": "string", "minLength": 15 }
+                  }
+                }
+              }
             }
           }
         },

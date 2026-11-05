@@ -5,6 +5,7 @@
 | Passo | Comando |
 |---|---|
 | 1. Solicitar | `python3 aix/fabrica.py solicitar --texto "Turma 231, 3º ano EM, História, 3º trimestre, Guerra Fria" [--id hist-231-encruzilhadas] [--conteudo aix/experiences/historia/3o-ano-em/231/conteudo-encruzilhadas.json]` |
+| 1-bis. **Construir (v1.2)** | `python3 aix/fabrica.py construir --texto "…" --id … --conteudo … --motores acessivel,phaser,3d` — solicitação → contrato validado → prévia acessível + jogo Phaser + protótipo 3D, sem programação manual de aula |
 | 2–3. Recuperar/Planejar | incluídos em `solicitar` (Camadas A/B/C); pendências viram `blockers` |
 | 4. Conteúdo | autoria manual (JSON como o do piloto) OU agente LLM externo — **custo de LLM só aqui** |
 | 5. Construir | `python3 aix/engines/accessible/gerar.py <contrato.json>` → `preview-acessivel.html` ao lado |

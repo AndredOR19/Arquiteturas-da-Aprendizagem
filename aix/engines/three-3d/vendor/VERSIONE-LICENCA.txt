@@ -1,0 +1,3 @@
+three.js r128 (MIT)
+sha256 9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2
+origem https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js

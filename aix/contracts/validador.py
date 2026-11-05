@@ -26,7 +26,7 @@ PROPRIEDADES_PROIBIDAS = {
     "script", "javascript", "code", "eval", "exec", "innerhtml", "srcdoc",
     "onload", "onerror", "onclick", "onchange", "onmouseover",
 }
-TIPOS = {"object": dict, "array": list, "string": str, "boolean": bool}
+TIPOS = {"object": dict, "array": list, "string": str, "boolean": bool, "number": (int, float), "integer": int}
 
 
 # ---------------------------------------------------------------- segurança
@@ -54,10 +54,8 @@ def _tipo_ok(no, esperado):
     alvo = TIPOS.get(esperado)
     if alvo is None:
         return False, "tipo nao suportado pelo validador: %s" % esperado
-    if alvo is bool:
-        return isinstance(no, bool), None
-    if alvo is int:  # nao usado hoje, reservado
-        return isinstance(no, int) and not isinstance(no, bool), None
+    if esperado in ("number", "integer"):
+        return isinstance(no, int) and not isinstance(no, bool) or isinstance(no, float) and esperado == "number", None
     return isinstance(no, alvo), None
 
 
@@ -179,6 +177,64 @@ def regras_semanticas(c, raiz, erros=None):
         if origem and not origem.startswith(("docente:", "pendente:")) and hab.get("confirmed"):
             if not (raiz_dir / origem).exists():
                 erros.append("semantica: habilidade confirmada sem fonte rastreavel: %s" % origem)
+
+    # 7. dados de jogo (opcional na 1.0.0; exigem integridade total quando presentes)
+    fontes_exp = {f.get("id") for f in exp.get("sources", [])}
+    for amb in ambientes:
+        aid = amb.get("id")
+        objetos = amb.get("objects") or []
+        personagens = amb.get("characters") or []
+        layout = amb.get("layout")
+        ids_obj = [o.get("id") for o in objetos]
+        if len(ids_obj) != len(set(ids_obj)):
+            erros.append("semantica: ambiente '%s' com objetos de id repetido" % aid)
+        ids_char = [p.get("id") for p in personagens]
+        if len(ids_char) != len(set(ids_char)):
+            erros.append("semantica: ambiente '%s' com personagens de id repetido" % aid)
+        for fala_id in [f.get("id") for p in personagens for f in p.get("falas", [])]:
+            pass  # unicidade de falas verificada por personagem abaixo
+        for p in personagens:
+            ids_fala = [f.get("id") for f in p.get("falas", [])]
+            if len(ids_fala) != len(set(ids_fala)):
+                erros.append("semantica: personagem '%s' com falas de id repetido" % p.get("id"))
+        if layout:
+            for obst in layout.get("obstacles", []):
+                sx, sy = layout["spawn"]["x"], layout["spawn"]["y"]
+                if obst["x"] <= sx <= obst["x"] + obst["w"] and obst["y"] <= sy <= obst["y"] + obst["h"]:
+                    erros.append("semantica: spawn do ambiente '%s' dentro do obstaculo '%s'" % (aid, obst.get("label", "?")))
+            if layout["spawn"]["x"] > layout["bounds"]["w"] or layout["spawn"]["y"] > layout["bounds"]["h"]:
+                erros.append("semantica: spawn fora dos limites no ambiente '%s'" % aid)
+        for obj in objetos:
+            if obj.get("tipo") == "documento" and not obj.get("fictional", False):
+                if obj.get("sourceId") not in fontes_exp:
+                    erros.append(
+                        "semantica: documento '%s' nao-ficticio sem fonte declarada valida (sourceId)"
+                        % obj.get("id")
+                    )
+            if layout and (obj["x"] > layout["bounds"]["w"] or obj["y"] > layout["bounds"]["h"]):
+                erros.append("semantica: objeto '%s' fora dos limites do ambiente '%s'" % (obj.get("id"), aid))
+    objetos_por_amb = {a.get("id"): {o.get("id") for o in (a.get("objects") or [])} for a in ambientes}
+    chars_por_amb = {}
+    for a in ambientes:
+        chars_por_amb[a.get("id")] = {p.get("id"): {f.get("id") for f in p.get("falas", [])} for p in (a.get("characters") or [])}
+    for missao in exp.get("missions", []):
+        for tarefa in missao.get("tasks", []):
+            tipo, alvo = tarefa.get("tipo"), tarefa.get("alvo")
+            if tipo == "coletar" and alvo not in objetos_por_amb.get(missao.get("environmentId"), set()):
+                erros.append("semantica: tarefa 'coletar' da missao '%s' aponta objeto inexistente '%s'" % (missao.get("id"), alvo))
+            if tipo == "dialogar":
+                falas = chars_por_amb.get(missao.get("environmentId"), {}).get(alvo, set())
+                if alvo not in chars_por_amb.get(missao.get("environmentId"), {}):
+                    erros.append("semantica: tarefa 'dialogar' da missao '%s' aponta personagem inexistente '%s'" % (missao.get("id"), alvo))
+                elif tarefa.get("fala") and tarefa["fala"] not in falas:
+                    erros.append("semantica: tarefa 'dialogar' da missao '%s' aponta fala inexistente '%s'" % (missao.get("id"), tarefa.get("fala")))
+            if tipo == "comparar":
+                opcoes = tarefa.get("opcoes") or []
+                correta = tarefa.get("correta")
+                if len(opcoes) < 2 or not isinstance(correta, int) or not (0 <= correta < len(opcoes)):
+                    erros.append("semantica: tarefa 'comparar' da missao '%s' exige >=2 opcoes e 'correta' valida" % missao.get("id"))
+                if not tarefa.get("pergunta") or not tarefa.get("feedbackAcerto") or not tarefa.get("feedbackErro"):
+                    erros.append("semantica: tarefa 'comparar' da missao '%s' exige pergunta e feedbacks pedagogicos" % missao.get("id"))
     return erros
 
 
