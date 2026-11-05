@@ -10,7 +10,7 @@ on:
       script:
         description: 'Roteiro opcional .md (nunca comando shell)'
         required: false
-        default: ''
+        default: 'automacoes/aulas/roteiros/2026-11-05.md'
         type: string
 permissions:
   contents: write
