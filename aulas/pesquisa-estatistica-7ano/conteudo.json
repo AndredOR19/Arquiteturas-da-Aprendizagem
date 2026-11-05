@@ -462,7 +462,7 @@
       "pergunta": "Qual relação permite prever, e qual não prova causa?",
       "alternativas": ["Distância e tempo andam juntos de forma esperada; ônibus e nota podem coincidir sem que o ônibus cause a nota", "As duas provam causa e efeito", "Nenhuma relação serve para nada"],
       "correta": 0,
-      "justificativa": "Duas variáveis correlacionadas podem coincidir por acaso, por um fator comum ou por causalidade — o dado sozinho não decide; distância↔temppo tem explicação direta plausível, ônibus↔nota não. Correlação pede investigação antes de virar causa.",
+      "justificativa": "Duas variáveis correlacionadas podem coincidir por acaso, por um fator comum ou por causalidade — o dado sozinho não decide; distância↔tempo tem explicação direta plausível, ônibus↔nota não. Correlação pede investigação antes de virar causa.",
       "pistas": ["O que explicaria cada relação?", "Correlação é começo de pergunta, não fim de prova.", "Duas variáveis correlacionadas podem coincidir por acaso, por um fator comum ou por causalidade — o dado sozinho não decide; distância e tempo têm explicação direta plausível, ônibus e nota não. Correlação pede investigação antes de virar causa."],
       "retorno": {
         "0": "Correto: relacionar sem casar causa — o limite é parte da conclusão.",
@@ -496,7 +496,7 @@
       "pergunta": "Como planejar essa nova pesquisa?",
       "alternativas": ["Definir as duas variáveis (lanche preferido — categórica; gasto semanal — numérica), escolher amostra e seguir o método completo", "Perguntar só para os amigos, que é mais rápido", "Aplicar o mesmo gráfico da pesquisa anterior"],
       "correta": 0,
-      "justificativa": "A mesma estrutura se repere em tema novo: classificar variáveis, decidir quem responde, tabular, representar e concluir com limites — o método transfere, os dados mudam.",
+      "justificativa": "A mesma estrutura se repete em tema novo: classificar variáveis, decidir quem responde, tabular, representar e concluir com limites — o método transfere, os dados mudam.",
       "pistas": ["Quais são as duas variáveis e seus tipos?", "O método da aula serve para o novo tema?", "A mesma estrutura se repete em tema novo: classificar variáveis, decidir quem responde, tabular, representar e concluir com limites — o método transfere, os dados mudam."],
       "retorno": {
         "0": "Correto: método transferido com as variáveis certas — pesquisa nova pronta para começar.",

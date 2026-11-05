@@ -6,12 +6,12 @@
     {
       "papel": "prompt-mestre",
       "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
-      "sha256": "41a718e08d55ebf160c44b018f22367e8cf8ec08826a62f2cccb3ba5e46778e1"
+      "sha256": "ce8f54de3c8950e56244a4c252b7169d8c436d36a6ae78334e214b1cc50ae480"
     },
     {
       "papel": "agents",
       "caminho": "AGENTS.md",
-      "sha256": "357c020de3a733242593d9598798f4da7c92a738a0db0b48caece2732ba37ab6"
+      "sha256": "97ea087e0b86c4d4b6e5a0d73fae46f1d7ddc7cda4ffbe85b3a3fd7c21928934"
     },
     {
       "papel": "fluxo-03-territorio-experiencias",

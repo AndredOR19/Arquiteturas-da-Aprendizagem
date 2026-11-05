@@ -151,7 +151,7 @@
     "explicacao": "Maioria é mais da metade; a maior parcela pode ter menos de 50%, como 40%.",
     "assoc": {"pergunta": "12 de 30 escolheram ônibus. Pode-se dizer que a maioria usa ônibus?", "alternativas": ["Não: 40% é a maior parcela, menos da metade", "Sim, pois é o maior número", "Só se a bicicleta tivesse zero"], "correta": 0, "retorno": "40% < 50%: maior parcela, não maioria — a linguagem importa."},
     "ordem": {"passos": ["Calcular a porcentagem da categoria líder", "Comparar com 50%", "Escolher a palavra correta"], "retorno": "Porcentagem calculada, comparada com a metade, palavra precisa."},
-    "apl": {"pergunta": "Numa votação, 45% escolheram azul, 30% vermelho, 25% verde. Azul é…", "alternativas": ["A maior parcela, não a maioria", "A maioria", "O vencediro por maioria absoluta"], "correta": 0, "retorno": "45% lidera sem passar da metade: maior parcela."}
+    "apl": {"pergunta": "Numa votação, 45% escolheram azul, 30% vermelho, 25% verde. Azul é…", "alternativas": ["A maior parcela, não a maioria", "A maioria", "O vencedor por maioria absoluta"], "correta": 0, "retorno": "45% lidera sem passar da metade: maior parcela."}
   },
   {
     "conceito": "Limite da amostra",

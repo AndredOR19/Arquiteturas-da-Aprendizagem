@@ -321,7 +321,7 @@ C) Nenhuma relação serve para nada
 
 **Resposta: A) Distância e tempo andam juntos de forma esperada; ônibus e nota podem coincidir sem que o ônibus cause a nota**
 
-- Por quê: Duas variáveis correlacionadas podem coincidir por acaso, por um fator comum ou por causalidade — o dado sozinho não decide; distância↔temppo tem explicação direta plausível, ônibus↔nota não. Correlação pede investigação antes de virar causa.
+- Por quê: Duas variáveis correlacionadas podem coincidir por acaso, por um fator comum ou por causalidade — o dado sozinho não decide; distância↔tempo tem explicação direta plausível, ônibus↔nota não. Correlação pede investigação antes de virar causa.
 - Ponto cego frequente: Transformar coincidência em causa.
 - Ação de revisão: Propor uma explicação alternativa para a coincidência ônibus-notas.
 - Retorno para alternativas erradas: B: Nenhuma das duas prova causa por si só; a segunda nem tem mecanismo plausível. | C: Correlações orientam hipóteses e decisões — o que falta é concluir causa sem evidência.
@@ -347,7 +347,7 @@ C) Aplicar o mesmo gráfico da pesquisa anterior
 
 **Resposta: A) Definir as duas variáveis (lanche preferido — categórica; gasto semanal — numérica), escolher amostra e seguir o método completo**
 
-- Por quê: A mesma estrutura se repere em tema novo: classificar variáveis, decidir quem responde, tabular, representar e concluir com limites — o método transfere, os dados mudam.
+- Por quê: A mesma estrutura se repete em tema novo: classificar variáveis, decidir quem responde, tabular, representar e concluir com limites — o método transfere, os dados mudam.
 - Ponto cego frequente: Copiar decisões antigas sem olhar o novo problema.
 - Ação de revisão: Escreva o plano da pesquisa da cantina em cinco linhas.
 - Retorno para alternativas erradas: B: Amigos não representam a escola: amostra por conveniência tem limite grande demais. | C: Gráfico se escolhe pela variável do novo estudo, não por reaproveitamento.
