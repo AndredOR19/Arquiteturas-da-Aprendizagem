@@ -1,0 +1,19 @@
+{
+  "id": "lote-2026-11-05",
+  "data": "2026-11-05",
+  "turma": "192,171,162,172",
+  "disciplina": "História / Práticas Experimentais / Estudos Orientados ERER",
+  "tema": "Quatro aulas de quinta-feira: 192 descolonização; 171 EF07MA36 pesquisa estatística; 162 Terra e atmosfera conforme plano; 172 ERER filme Elementos e racismo",
+  "fonte_curricular": "192 banco-pedagogico História 3º trimestre; 162 arquivo 162 - 3º tri - Plano de aula (1).docx a consultar no canal autorizado; 171 e 172 instruções do professor com conferência BNCC/RCG pendente",
+  "habilidades": [
+    "EF07MA36 (enunciado informado pelo professor; conferir fonte oficial)",
+    "habilidades 192/162/172 a conferir antes de publicar"
+  ],
+  "design": {
+    "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+    "revisao": "consultar ferramentas/biblioteca.lock.json",
+    "modelo": "Fluxo 03 - Território de Experiências; componente versionado da biblioteca privada a identificar"
+  },
+  "estado": "rascunho",
+  "observacao": "Este pedido é briefing, não prova de quatro aulas geradas/publicadas. Não incluir nomes ou dados de estudantes."
+}
