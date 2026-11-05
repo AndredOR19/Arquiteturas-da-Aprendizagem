@@ -734,6 +734,33 @@
       "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Estudos Orientados"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "estudos orientados",
+        "estratégias de estudo",
+        "revisão",
+        "metacognição",
+        "planejamento"
+      ],
+      "id": "aulas/05-11-2026-estudos-orientados-7",
+      "titulo": "Missão: Detetives do Estudo",
+      "descricao": "Aula de Estudos Orientados para o 7º ano: investigar como aprender, planejar metas, recuperar ideias sem consultar, revisar e explicar. Oito desafios, leitura por voz, acessibilidade e relatório exportável.",
+      "url": "aulas/05-11-2026-estudos-orientados-7/",
+      "data_catalogo": "2026-11-05",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
     }
   ]
 }
