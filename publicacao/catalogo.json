@@ -834,6 +834,35 @@
         "descricao": "Elementos da Convivência: oito situações hipotéticas para identificar o problema, observar consequências e planejar intervenções fundamentadas. Estereótipos, preconceito, discriminação, racismo estrutural, direitos e atitudes antirracistas (Leis 10.639/2003 e 11.645/2008, DCNERER). 26 percursos e relatório exportável. Sem material do filme.",
         "titulo_exibicao": "Elementos da Convivência"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/05-11-2026-estudos-orientados-7",
+      "destino": "aulas/05-11-2026-estudos-orientados-7",
+      "titulo": "Estudos Orientados 7º ano — Missão: Detetives do Estudo",
+      "versao": "1.0.0",
+      "fluxo_visual": "missao-investigativa",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "estudos orientados",
+          "estratégias de aprendizagem",
+          "revisão",
+          "planejamento de estudos"
+        ],
+        "descricao": "Missão investigativa sobre como estudar: observar o caso, explicar sem consultar, identificar dificuldades e revisar. Oito questões comentadas, acessibilidade, cadastro direto e relatório exportável.",
+        "titulo_exibicao": "Missão: Detetives do Estudo"
+      }
     }
   ]
 }
