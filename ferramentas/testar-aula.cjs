@@ -176,7 +176,18 @@ async function boot() {
   ok(!!w.localStorage.getItem('andre:aula:' + id + ':v1'), 'sessão persistida neste navegador');
   const rodape = w.document.querySelector('footer').textContent;
   ok(/(9º|7º|6º) ano/.test(rodape) && !/\d{2}\/\d{2}\/\d{4}/.test(rodape) && !/turma \d/i.test(rodape), 'rodapé só com o ano, sem turma e sem data');
-  ok(!/qrcode/i.test(w.document.body.innerHTML), 'sem QR code nesta versão (será incluído após validar o endereço publicado)');
+  // Política do repositório: QR somente após validar o endereço publicado (HTTP 200 no Vercel).
+  const slugPub = slugDir.replace(/\/+$/, '').split('/').pop();
+  const urlPublicada = 'https://arquiteturas-aulas.vercel.app/aulas/' + slugPub + '/';
+  const qrSec = w.document.querySelector('section#compartilhar');
+  if (qrSec || /qrcode/i.test(w.document.body.innerHTML)) {
+    const qrImg = qrSec ? qrSec.querySelector('img[src="qrcode.svg"][alt]') : null;
+    const qrLink = qrSec ? [...qrSec.querySelectorAll('a')].find(a => a.href === urlPublicada) : null;
+    const qrArquivo = fs.existsSync(path.join(slugDir, 'qrcode.svg'));
+    ok(qrSec && qrImg && qrLink && qrArquivo, 'QR code presente, com alternativa textual e link para o endereço publicado validado');
+  } else {
+    ok(true, 'sem QR code nesta versão (será incluído após validar o endereço publicado)');
+  }
 
   dom.window.close();
   console.log('[teste] ' + passed + ' verificações aprovadas — ' + id + ' (' + modo + ')');

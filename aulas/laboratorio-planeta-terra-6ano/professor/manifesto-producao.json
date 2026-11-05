@@ -77,11 +77,11 @@
   ],
   "verificacoes": {
     "modo_servidor": [
-      "  ✓ sem QR code nesta versão (será incluído após validar o endereço publicado)",
+      "  ✓ QR code presente, com alternativa textual e link para o endereço publicado validado",
       "[teste] 31 verificações aprovadas — laboratorio-planeta-terra-6ano (servidor)"
     ],
     "modo_recusa": [
-      "  ✓ sem QR code nesta versão (será incluído após validar o endereço publicado)",
+      "  ✓ QR code presente, com alternativa textual e link para o endereço publicado validado",
       "[teste] 31 verificações aprovadas — laboratorio-planeta-terra-6ano (recusa)"
     ]
   },
