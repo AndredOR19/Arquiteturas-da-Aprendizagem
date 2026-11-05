@@ -15,5 +15,59 @@
     "modelo": "Fluxo 03 - Território de Experiências; componente versionado da biblioteca privada a identificar"
   },
   "estado": "rascunho",
-  "observacao": "Este pedido é briefing, não prova de quatro aulas geradas/publicadas. Não incluir nomes ou dados de estudantes."
+  "observacao": "Este pedido é briefing, não prova de quatro aulas geradas/publicadas. Não incluir nomes ou dados de estudantes.",
+  "aulas": [
+    {
+      "id": "2026-11-05-historia-192",
+      "turma": "192",
+      "serie": "9º ano · EF",
+      "disciplina": "História",
+      "tema": "Descolonização da África e da Ásia na Guerra Fria",
+      "fonte_curricular": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-192/conteudo.md: semana de 03 a 06/11/2026",
+      "habilidades": [
+        "EF09HI28 conforme planejamento; validar correspondência oficial"
+      ],
+      "periodos": 2,
+      "experiencia": "Mapa de investigação histórica: fontes, independência e autodeterminação"
+    },
+    {
+      "id": "2026-11-05-praticas-171",
+      "turma": "171",
+      "serie": "7º ano · EF",
+      "disciplina": "Práticas Experimentais de Matemática",
+      "tema": "EF07MA36: pesquisa com variáveis categóricas e numéricas, tabelas e gráficos",
+      "fonte_curricular": "Habilidade e tema fornecidos pelo professor; cotejar BNCC e planejamento da turma quando disponível",
+      "habilidades": [
+        "EF07MA36"
+      ],
+      "periodos": 2,
+      "experiencia": "Simulador de pesquisa com dados fictícios, tabelas, gráficos e limites da conclusão"
+    },
+    {
+      "id": "2026-11-05-praticas-162",
+      "turma": "162",
+      "serie": "6º ano · EF",
+      "disciplina": "Práticas Experimentais em Ciências e Matemática",
+      "tema": "Terra, atmosfera e fenômenos; selecionar recorte conforme plano da turma",
+      "fonte_curricular": "162 - 3º tri - Plano de aula (1).docx; documento original precisa ser lido na fonte autorizada, divergência entre título do trimestre e seção interna",
+      "habilidades": [
+        "EF06CI11 do planejamento; verificar adequação ao recorte"
+      ],
+      "periodos": 2,
+      "experiencia": "Simulador das camadas da Terra e experimento com observação de fenômenos"
+    },
+    {
+      "id": "2026-11-05-erer-172",
+      "turma": "172",
+      "serie": "7º ano · EF",
+      "disciplina": "Estudos Orientados / ERER",
+      "tema": "Filme Elementos como analogia para preconceito, racismo e atitudes antirracistas",
+      "fonte_curricular": "Orientação direta do professor; políticas e currículo de ERER a verificar",
+      "habilidades": [
+        "ERER: relacionar filme, preconceito racial e sociedade atual; conferir referência curricular"
+      ],
+      "periodos": 2,
+      "experiencia": "Jogo de decisões contextualizadas distinguindo metáfora da experiência real do racismo"
+    }
+  ]
 }
