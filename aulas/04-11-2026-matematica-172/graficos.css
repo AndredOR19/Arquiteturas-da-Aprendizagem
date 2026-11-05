@@ -1,0 +1,67 @@
+/* Gráficos em movimento — estilos (compatíveis com dia/noite/preto-e-branco). */
+#graficos{margin:48px 0}
+#graficos h2{margin-bottom:8px}
+#graficos>p{color:var(--muted);font-size:15px;margin-bottom:8px;max-width:760px}
+.gpanel{border:3px solid var(--line);border-radius:20px;background:var(--card);box-shadow:6px 6px 0 var(--line);padding:20px 22px;margin:22px 0}
+.gpanel h3{font-size:20px;margin-bottom:12px}
+.grow{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:22px;align-items:center;margin-top:14px}
+@media (max-width:820px){.grow{grid-template-columns:1fr}}
+.gchart-wrap{max-width:340px;margin:0 auto;width:100%}
+#pie-svg svg,#bar-svg svg,#line-svg svg{width:100%;height:auto;display:block}
+.ginputs{display:flex;flex-wrap:wrap;gap:14px;margin:10px 0 4px}
+.ginputs label{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:14.5px}
+.ginputs input{width:110px}
+.gstatus{background:#fef9c3;border:2px solid var(--line);border-radius:12px;padding:12px 14px;margin-top:14px;font-size:15px;line-height:1.55;white-space:pre-line}
+html[data-theme=dark] .gstatus{background:#3a3316;color:#fde68a}
+html[data-theme=mono] .gstatus{background:#fff;color:#000}
+#pie-table{width:100%;font-size:14.5px}
+#pie-table caption{text-align:left;font-weight:700;margin-bottom:6px;font-size:15px}
+.chipc{display:inline-block;width:13px;height:13px;border-radius:4px;border:2px solid #1e293b;vertical-align:-1px;margin-right:6px}
+#pie-table tr.tot td{font-weight:700;border-top:3px solid var(--line)}
+.pie-slice{transition:opacity .12s}
+.pie-pct{font:800 15px Fredoka,system-ui,sans-serif;fill:#1e293b}
+html[data-theme=dark] .pie-pct{fill:#f8fafc}
+.bar-grid{stroke:var(--line);stroke-width:1.5}
+.bar-tick{font:600 11.5px Fredoka,system-ui,sans-serif;fill:var(--muted)}
+.bar-theo{stroke:#d97706;stroke-width:2.5;stroke-dasharray:7 6}
+html[data-theme=mono] .bar-theo{stroke:#000}
+.bar-theo-l{font:700 12px Fredoka,system-ui,sans-serif;fill:#d97706}
+html[data-theme=dark] .bar-theo-l{fill:#fbbf24}
+html[data-theme=mono] .bar-theo-l{fill:#000}
+.bar-rect{fill:#9be29b;stroke:#1e293b;stroke-width:2}
+html[data-theme=dark] .bar-rect{fill:#4ade80;stroke:#cbd5e1}
+html[data-theme=mono] .bar-rect{fill:#fff;stroke:#000}
+.bar-val{font:700 12px Fredoka,system-ui,sans-serif;fill:var(--text)}
+.bar-face{font:800 15px Fredoka,system-ui,sans-serif;fill:var(--text)}
+.bar-axis{font:600 12.5px Fredoka,system-ui,sans-serif;fill:var(--muted)}
+.line-path{stroke:#9333ea;stroke-width:3;fill:none}
+html[data-theme=mono] .line-path{stroke:#000}
+.line-dot{fill:#9333ea;stroke:#1e293b;stroke-width:2}
+html[data-theme=dark] .line-dot{fill:#c4b5fd;stroke:#cbd5e1}
+html[data-theme=mono] .line-dot{fill:#000;stroke:#000}
+@media (prefers-reduced-motion:reduce){.pie-slice{transition:none}}
+
+/* Camada visual 1: dado e moeda 3D, confete, setor vazio */
+.grow3{display:grid;grid-template-columns:132px 1fr;gap:16px;align-items:center;margin-top:10px}
+@media (max-width:640px){.grow3{grid-template-columns:1fr}}
+.gstage{width:132px;height:132px;display:grid;place-items:center}
+.die-stage{perspective:420px;width:84px;height:84px}
+.die{position:relative;width:64px;height:64px;transform-style:preserve-3d;transition:transform .95s cubic-bezier(.18,.75,.28,1.08);margin:10px}
+.face{position:absolute;inset:0;background:#fff;border:3px solid #1e293b;border-radius:10px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);place-items:center;padding:8px;backface-visibility:hidden}
+.pip{width:9px;height:9px;background:#1e293b;border-radius:50%}
+html[data-theme=dark] .face{background:#123041;border-color:#cbd5e1}
+html[data-theme=dark] .pip{background:#f8fafc}
+html[data-theme=mono] .face{background:#fff;border-color:#000}
+html[data-theme=mono] .pip{background:#000}
+.coin-stage{perspective:420px;width:88px;height:88px}
+.coin3d{position:relative;width:82px;height:82px;transform-style:preserve-3d;transition:transform .95s cubic-bezier(.18,.75,.28,1.08)}
+.cf{position:absolute;inset:0;border-radius:50%;display:grid;place-items:center;font:800 14px Fredoka,system-ui,sans-serif;backface-visibility:hidden;border:4px solid}
+.cf-cara{background:#f7c75d;border-color:#b45309;color:#78350f;transform:rotateY(0deg)}
+.cf-coroa{background:#e2e8f0;border-color:#475569;color:#1e293b;transform:rotateY(180deg)}
+html[data-theme=dark] .cf-cara{background:#8a6d1f;border-color:#fbbf24;color:#fef3c7}
+html[data-theme=dark] .cf-coroa{background:#1f2f3d;border-color:#94a3b8;color:#e2e8f0}
+html[data-theme=mono] .cf-cara{background:#fff;border-color:#000;color:#000}
+html[data-theme=mono] .cf-coroa{background:#fff;border-color:#000;color:#000}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:80}
+.pie-empty{fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:7 7}
+@media (prefers-reduced-motion:reduce){.die,.coin3d{transition:none}}

@@ -712,6 +712,127 @@
         "descricao": "Experimentos de probabilidade, frequência relativa e análise de gráficos de setores com dado do IBGE. Seis ambientes, 26 percursos e recuperação adaptativa até 104 atividades. Registros locais e relatório por arquivo/e-mail.",
         "titulo_exibicao": "Probabilidade: do acaso à evidência"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/descolonizacao-africa-asia-9ano",
+      "destino": "aulas/descolonizacao-africa-asia-9ano",
+      "titulo": "História 9º ano — Territórios da Independência",
+      "versao": "1.0.0",
+      "fluxo_visual": "territorio-experiencias",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "descolonização",
+          "África",
+          "Ásia",
+          "Guerra Fria",
+          "EF09HI28",
+          "EF09HI31"
+        ],
+        "descricao": "Jogo de investigação com mapa interativo e 8 missões sobre a descolonização da África e da Ásia na Guerra Fria: fontes, causas, comparação entre processos e aplicação do método histórico. 26 percursos com recuperação adaptativa e relatório exportável.",
+        "titulo_exibicao": "Territórios da Independência"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/pesquisa-estatistica-7ano",
+      "destino": "aulas/pesquisa-estatistica-7ano",
+      "titulo": "Matemática 7º ano — Laboratório dos Dados",
+      "versao": "1.0.0",
+      "fluxo_visual": "territorio-experiencias",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Matemática"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "pesquisa estatística",
+          "tabela de frequência",
+          "gráficos",
+          "amostra",
+          "EF07MA36"
+        ],
+        "descricao": "Laboratório dos Dados: 10 etapas com painel p5 da pergunta à conclusão, variáveis categóricas e numéricas, censo ou amostra, tabela de frequência e gráfico adequado, com limites declarados. 26 percursos, recuperação adaptativa e relatório exportável. Dados fictícios.",
+        "titulo_exibicao": "Laboratório dos Dados"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/laboratorio-planeta-terra-6ano",
+      "destino": "aulas/laboratorio-planeta-terra-6ano",
+      "titulo": "Práticas Experimentais 6º ano — Laboratório do Planeta Terra",
+      "versao": "1.0.0",
+      "fluxo_visual": "territorio-experiencias",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "6º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "planeta Terra",
+          "atmosfera",
+          "investigação",
+          "EF06CI11",
+          "camadas da Terra"
+        ],
+        "descricao": "Laboratório do Planeta Terra: oito capacidades do investigador com painel em Canvas nativo — observar fenômenos, registrar, medir com instrumento, camadas internas e atmosfera com evidências, modelo versus medição e plano de investigação. 26 percursos, recuperação adaptativa e relatório exportável. Modelos com física simplificada correta.",
+        "titulo_exibicao": "Laboratório do Planeta Terra"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/elementos-da-convivencia-7ano",
+      "destino": "aulas/elementos-da-convivencia-7ano",
+      "titulo": "ERER 7º ano — Elementos da Convivência",
+      "versao": "1.0.0",
+      "fluxo_visual": "territorio-experiencias",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "ERER"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "ERER",
+          "racismo estrutural",
+          "Lei 10.639",
+          "estereótipos",
+          "convivência"
+        ],
+        "descricao": "Elementos da Convivência: oito situações hipotéticas para identificar o problema, observar consequências e planejar intervenções fundamentadas. Estereótipos, preconceito, discriminação, racismo estrutural, direitos e atitudes antirracistas (Leis 10.639/2003 e 11.645/2008, DCNERER). 26 percursos e relatório exportável. Sem material do filme.",
+        "titulo_exibicao": "Elementos da Convivência"
+      }
     }
   ]
 }

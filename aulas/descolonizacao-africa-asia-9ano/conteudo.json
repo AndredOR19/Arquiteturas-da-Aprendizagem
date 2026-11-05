@@ -1,0 +1,509 @@
+{
+  "id": "descolonizacao-africa-asia-9ano",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "9º ano",
+  "componente": "História",
+  "data": "não fixada",
+  "titulo": "Territórios da Independência",
+  "pergunta": "Por que impérios perderam colônias na África e na Ásia depois de 1945 — e o que mudou?",
+  "resumo": "Investigação com fontes sobre a descolonização da África e da Ásia na Guerra Fria: causas, caminhos distintos (negociação e guerra), novos países, neocolonialismo e limites das independências.",
+  "habilidades": [
+    "EF09HI28 (BNCC): Identificar e analisar aspectos da Guerra Fria, seus principais conflitos e as tensões geopolíticas no interior dos blocos liderados por soviéticos e estadunidenses.",
+    "EF09HI31 (BNCC): Descrever e avaliar os processos de descolonização na África e na Ásia.",
+    "Referência docente: o plano da turma formula esses objetivos com palavras próprias; as paráfrases estão preservadas no plano diário, na pasta professor/."
+  ],
+  "continuidade": "Aula pensada para o 9º ano, dentro do estudo da Guerra Fria e da descolonização da África e da Ásia, retomando o pós-1945 estudado antes.",
+  "fontes": [
+    ["Prof. André de Oliveira Rodrigues", "Roteiro didático de História do 9º ano; situações fictícias criadas para prática", "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/"],
+    ["Base Nacional Comum Curricular (MEC)", "Textos oficiais das habilidades EF09HI28 e EF09HI31, conferidos antes do registro", "https://www.gov.br/mec/pt-br/areas-de-atuacao/aprendizado-adequado-e-inclusivo/educacao-basica/curriculo/base-nacional-comum-curricular-bncc"]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · O que vou conseguir fazer",
+      "texto": "Você vai explicar, com evidências, por que grandes impérios europeus perderam colônias na África e na Ásia depois de 1945 — e comparar caminhos diferentes, sem juntar tudo numa história única.",
+      "ancora": "D · fontes de época → R · causas e atores → E · novos países e conflitos → L · independência não garante igualdade.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · Como investigar uma fonte",
+      "texto": "Antes de concluir, situe a fonte: quem produziu, quando, onde e para quem. Compare fontes diferentes sobre o mesmo processo, observe as datas e separe o que a fonte mostra do que ela não mostra. Só depois explique a relação.",
+      "ancora": "Situar → comparar → datar → explicar com evidência → conferir o limite da conclusão.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · O método em outras situações",
+      "texto": "Ao ler hoje uma notícia sobre fronteiras africanas ou um conflito no sul da Ásia, use o mesmo caminho: busque a origem histórica, compare versões e pergunte o que mudou e o que permaneceu desde o período colonial.",
+      "ancora": "Método → nova fonte → relação histórica → limite da generalização.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · Parecia uma história única",
+      "texto": "É comum ouvir que a África e a Ásia simplesmente ficaram independentes de uma vez. As fontes mostram outra coisa: negociações e guerras, décadas diferentes, projetos próprios de país e também conflitos que continuaram depois da bandeira nova. Trocar a história única por processos comparados é o que você vai treinar.",
+      "ancora": "Ponto cego: história única. Ação: comparar datas, atores e caminhos antes de generalizar.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    ["Império e colônia", "O que as fontes mostram", "Antes de 1945, grande parte da África e da Ásia estava sob domínio de potências europeias. Mapas, bandeiras e impostos registram essa presença."],
+    ["Pressões e caminhos", "Causas e atores", "Depois de 1945, movimentos de independência combinaram negociação, resistência e guerra, com ritmos diferentes em cada região."],
+    ["Novos países", "Efeitos e limites", "Entre 1945 e 1975, dezenas de novas bandeiras chegaram à ONU. Independência política não resolveu sozinha desigualdades e conflitos herdadas."]
+  ],
+  "glossario": {
+    "Colônia": "Território sob domínio político e econômico de outra potência, chamada metrópole.",
+    "Metrópole": "Potência que domina e administra colônias, explorando recursos e trabalho.",
+    "Descolonização": "Conjunto de processos, diferentes entre si, pelos quais colônias se tornaram países politicamente independentes.",
+    "Neocolonialismo": "Manutenção de influência e dependência econômica sobre um país formalmente independente.",
+    "Não alinhamento": "Proposta de vários países novos de não ficar obrigados a nenhum dos blocos da Guerra Fria.",
+    "Guerra Fria": "Disputa geopolítica entre EUA e URSS (1947–1991), sem guerra direta entre eles, mas com conflitos e alianças pelo mundo."
+  },
+  "dicionario": {
+    "Situar": "Identificar autor, data, lugar e destinatário de uma fonte antes de usá-la.",
+    "Comparar": "Examinar semelhanças e diferenças com um critério definido.",
+    "Evidência": "Informação extraída de fontes que sustenta uma afirmação.",
+    "Contexto": "Conjunto de circunstâncias (época, lugar, interesses) em que um evento ocorre."
+  },
+  "percursos": [
+    {
+      "titulo": "Ler um mapa de 1945",
+      "fase": "Investigar",
+      "explicacao": "Um mapa político de 1945 mostra grandes áreas da África e da Ásia pintadas com as cores de impérios europeus, como o britânico e o francês.",
+      "pergunta": "O que essas cores indicavam no mapa?",
+      "alternativas": ["Que regiões da África e da Ásia estavam sob domínio de potências europeias", "Que os dois continentes formavam um único país", "Que esses territórios já eram independentes e aliados"],
+      "correta": 0,
+      "justificativa": "Cada cor agrupava territórios controlados pelo mesmo império: em 1945, a maior parte da África e boa parte da Ásia ainda estavam sob domínio europeu.",
+      "pistas": ["Observe quem tinha o controle político dos territórios em 1945.", "As cores agrupavam colônias de um mesmo império.", "Cada cor agrupava territórios controlados pelo mesmo império: em 1945, a maior parte da África e boa parte da Ásia ainda estavam sob domínio europeu."],
+      "retorno": {
+        "0": "Exato: a cor ligava a colônia ao império que a controlava. Compare quantas cores diferentes aparecem — cada uma é uma metrópole.",
+        "1": "Não havia um país continental. As cores mostram justamente a divisão entre vários impérios europeus.",
+        "2": "Se já fossem independentes, não estariam pintadas com as cores das metrópoles. Em 1945, a independência estava por vir na maioria desses territórios."
+      },
+      "ponto": "Ler o mapa como se fosse atual, sem situá-lo no tempo.",
+      "acao": "Volte ao mapa e pergunte: quem controlava cada cor em 1945?"
+    },
+    {
+      "titulo": "Uma fonte da época",
+      "fase": "Investigar",
+      "explicacao": "Um jornal de março de 1957 estampa a manchete: Gana conquista a independência, com fotos de festividades na capital Acra.",
+      "pergunta": "Que tipo de evidência esse jornal oferece?",
+      "alternativas": ["Registro de época sobre a independência de um território africano", "Prova de que toda a África ficou independente em 1957", "Anúncio publicitário sem valor histórico"],
+      "correta": 0,
+      "justificativa": "O jornal é uma fonte de época que documenta um evento específico: a independência de Gana, que de fato ocorreu em 1957, um território por vez.",
+      "pistas": ["Situe a fonte: data, lugar e o que ela noticia.", "A manchete fala de um território, não do continente inteiro.", "O jornal é uma fonte de época que documenta um evento específico: a independência de Gana, que de fato ocorreu em 1957, um território por vez."],
+      "retorno": {
+        "0": "Correto: a fonte é específica — Gana, 1957. Boa evidência sobre esse caso; não sobre todo o continente.",
+        "1": "Cuidado com a generalização: a manchete trata de um país. Outros territórios africanos se tornaram independentes em anos diferentes.",
+        "2": "Jornais de época são fontes históricas valiosas — desde que situemos quem publicava, onde e com quais interesses."
+      },
+      "ponto": "Generalizar a partir de um único caso.",
+      "acao": "Liste o que a fonte mostra e o que ela não mostra."
+    },
+    {
+      "titulo": "Contar os novos países",
+      "fase": "Investigar",
+      "explicacao": "Uma tabela da ONU mostra a evolução do número de membros: 51 países em 1945 e, só em 1960, 17 novos países africanos entraram.",
+      "pergunta": "O que o salto de 1960 registra?",
+      "alternativas": ["A entrada de muitos países africanos recém-independentes na ONU", "O fim da Guerra Fria", "A criação da própria ONU"],
+      "correta": 0,
+      "justificativa": "1960 ficou conhecido como Ano da África: 17 colônias tornaram-se países e passaram a ter assento e voto na ONU.",
+      "pistas": ["Compare o número de membros antes e depois de 1960.", "Os novos membros de 1960 vinham, em sua maioria, de um mesmo continente.", "1960 ficou conhecido como Ano da África: 17 colônias tornaram-se países e passaram a ter assento e voto na ONU."],
+      "retorno": {
+        "0": "Isso: o dado registra o Ano da África. Um número pode resumir uma onda de independências.",
+        "1": "A Guerra Fria seguiria até 1991. O que mudou em 1960 foi a presença africana na ONU.",
+        "2": "A ONU foi criada em 1945, com 51 membros. O salto de 1960 é outra coisa: a chegada dos países novos."
+      },
+      "ponto": "Trocar as datas dos eventos internacionais.",
+      "acao": "Refaça a linha do tempo: ONU 1945, Ano da África 1960, fim da URSS 1991."
+    },
+    {
+      "titulo": "Datas não iguais",
+      "fase": "Investigar",
+      "explicacao": "Uma linha do tempo reúne: Índia (1947), Gana (1957), Argélia (1962), Angola (1975) e Namíbia (1990).",
+      "pergunta": "O que a linha do tempo mostra?",
+      "alternativas": ["Processos de independência em décadas e ritmos diferentes", "Um movimento único e simultâneo", "Independências apenas na Ásia"],
+      "correta": 0,
+      "justificativa": "Entre o primeiro e o último exemplo há 43 anos: cada território seguiu seu processo, com atores e caminhos próprios.",
+      "pistas": ["Observe o intervalo entre a primeira e a última data.", "Cada território tem sua data — não um ano comum.", "Entre o primeiro e o último exemplo há 43 anos: cada território seguiu seu processo, com atores e caminhos próprios."],
+      "retorno": {
+        "0": "Exato: a própria distância entre as datas (1947–1990) desmente a ideia de um movimento simultâneo.",
+        "1": "Se fosse simultâneo, todas as datas seriam iguais. A linha mostra espalhamento no tempo.",
+        "2": "A Ásia aparece (Índia, 1947), mas a lista inclui África: Gana, Argélia, Angola e Namíbia."
+      },
+      "ponto": "Achatar tudo numa única data.",
+      "acao": "Ordene as cinco datas e escreva ao lado o continente de cada uma."
+    },
+    {
+      "titulo": "Quem aparece na fonte",
+      "fase": "Investigar",
+      "explicacao": "Um discurso de líder africano dos anos 1950 repete: nosso povo decide seu destino e o domínio estrangeiro chega ao fim.",
+      "pergunta": "O que esse documento identifica?",
+      "alternativas": ["Um movimento de independência naquele território", "Uma aliança militar entre impérios europeus", "Um tratado da Guerra Fria"],
+      "correta": 0,
+      "justificativa": "A fala de líderes locais é evidência de mobilização e de projeto político próprio — parte essencial da descolonização, que não saiu apenas de decisões europeias.",
+      "pistas": ["Quem fala e para quem?", "A expressão domínio estrangeiro indica qual relação está em jogo.", "A fala de líderes locais é evidência de mobilização e de projeto político próprio — parte essencial da descolonização, que não saiu apenas de decisões europeias."],
+      "retorno": {
+        "0": "Correto: a fonte evidencia organização local, com líderes e projetos próprios de país.",
+        "1": "Ao contrário: o discurso combate o domínio europeu, não une impérios.",
+        "2": "A Guerra Fria influenciou esses processos, mas o documento trata do fim do domínio colonial."
+      },
+      "ponto": "Ignorar os atores locais e pensar que a Europa simplesmente concedeu.",
+      "acao": "Sublinhe no discurso as palavras que indicam decisão própria."
+    },
+    {
+      "titulo": "O que a fonte não diz",
+      "fase": "Investigar",
+      "explicacao": "Um atlas europeu de 1950 destaca as riquezas das colônias: minérios, portos e plantações — mas não traz uma única página com vozes dos povos colonizados.",
+      "pergunta": "Qual é o limite dessa fonte?",
+      "alternativas": ["Mostra o império pelo olhar da metrópole e omite a voz dos colonizados", "Mostra a opinião dos líderes africanos da época", "Prova que não existia resistência nas colônias"],
+      "correta": 0,
+      "justificativa": "Toda fonte tem um ponto de vista: o atlas registra o interesse econômico da metrópole; o silêncio sobre os colonizados é um limite a declarar, não prova de ausência.",
+      "pistas": ["Quem produziu o atlas e com qual interesse?", "O que aparece nas páginas — e o que nunca aparece?", "Toda fonte tem um ponto de vista: o atlas registra o interesse econômico da metrópole; o silêncio sobre os colonizados é um limite a declarar, não prova de ausência."],
+      "retorno": {
+        "0": "Exato: identificar o silêncio da fonte é tão importante quanto ler o que ela mostra.",
+        "1": "É o oposto: as vozes africanas não têm espaço nessa publicação europeia.",
+        "2": "O silêncio não prova ausência: a resistência existia e aparece em outras fontes, como jornais e discursos locais."
+      },
+      "ponto": "Confundir o que a fonte omite com o que não existiu.",
+      "acao": "Escreva uma pergunta que o atlas não responde e onde buscar a resposta."
+    },
+    {
+      "titulo": "Comparar duas fontes",
+      "fase": "Investigar",
+      "explicacao": "Sobre a mesma independência, um documento oficial britânico fala em transferência ordenada de poder; um jornal local fala em vitória depois de longa luta.",
+      "pergunta": "O que a comparação revela?",
+      "alternativas": ["Pontos de vista diferentes sobre o mesmo processo", "Que uma das fontes é falsa", "Que as duas dizem exatamente a mesma coisa"],
+      "correta": 0,
+      "justificativa": "Fontes divergentes não se anulam: juntas, mostram que o processo foi disputado e que cada lado destacou o que lhe interessava.",
+      "pistas": ["Quem produziu cada fonte?", "Compare as palavras escolhidas: transferência x vitória.", "Fontes divergentes não se anulam: juntas, mostram que o processo foi disputado e que cada lado destacou o que lhe interessava."],
+      "retorno": {
+        "0": "Boa leitura: a divergência é informação — revela os interesses em jogo.",
+        "1": "Divergência não é falsificação: são versões de lados diferentes do mesmo processo.",
+        "2": "As palavras são diferentes justamente porque os pontos de vista o são: um administra a saída, outro celebra a conquista."
+      },
+      "ponto": "Escolher uma fonte e descartar a outra sem comparar.",
+      "acao": "Anote uma palavra-chave de cada fonte e explique a diferença."
+    },
+    {
+      "titulo": "Enfraquecimento das metrópoles",
+      "fase": "Relacionar",
+      "explicacao": "Em 1945, a Europa saía da Segunda Guerra Mundial devastada, com cidades destruídas, dívidas e economia frágil.",
+      "pergunta": "Qual a relação disso com as independências?",
+      "alternativas": ["Metrópoles enfraquecidas tiveram mais dificuldade e menos vontade de custear impérios", "As colônias ficaram mais ricas que as metrópoles", "A guerra não teve relação com a descolonização"],
+      "correta": 0,
+      "justificativa": "O custo da guerra enfraqueceu a capacidade e o prestígio das metrópoles — uma das condições que tornaram as independências possíveis, junto com a mobilização local e a pressão internacional.",
+      "pistas": ["Quem pagou a reconstrução da Europa?", "Pense no custo de manter exércitos e administrações em territórios distantes.", "O custo da guerra enfraqueceu a capacidade e o prestígio das metrópoles — uma das condições que tornaram as independências possíveis, junto com a mobilização local e a pressão internacional."],
+      "retorno": {
+        "0": "Correto — e lembre do limite: o enfraquecimento europeu abriu caminho, mas não explica sozinho; sem mobilização local não haveria independência.",
+        "1": "As colônias continuaram fornecedoras de matérias-primas; a riqueza concentrada seguia nas metrópoles.",
+        "2": "Há relação direta: a guerra mudou as condições econômicas e políticas de manter os impérios."
+      },
+      "ponto": "Transformar uma causa em causa única.",
+      "acao": "Liste ao menos duas outras causas que agiram junto com essa."
+    },
+    {
+      "titulo": "Apoio de fora",
+      "fase": "Relacionar",
+      "explicacao": "Na Guerra Fria, EUA e URSS criticavam publicamente o colonialismo europeu — e disputavam aliados no chamado Terceiro Mundo.",
+      "pergunta": "Por que as superpotências pressionavam os impérios?",
+      "alternativas": ["Interesses da Guerra Fria: ganhar aliados e influência nos novos países", "Porque pretendiam colonizar a África", "Por determinação da ONU"],
+      "correta": 0,
+      "justificativa": "A crítica ao colonialismo servia à disputa bipolar: cada superpotência queria atrair os países novos para sua esfera de influência.",
+      "pistas": ["O que cada superpotência ganhava com o fim dos impérios rivais europeus?", "Lembre o que era a Guerra Fria: disputa de influência global.", "A crítica ao colonialismo servia à disputa bipolar: cada superpotência queria atrair os países novos para sua esfera de influência."],
+      "retorno": {
+        "0": "Exato: a pressão tinha cálculo geopolítico — enfraquecer rivais e ampliar influência.",
+        "1": "O objetivo não era colonizar, e sim influenciar: bases, comércio, alianças e votos internacionais.",
+        "2": "A ONU era fórum de pressão, mas a crítica pública vinha sobretudo do jogo de interesses entre EUA e URSS."
+      },
+      "ponto": "Acreditar na crítica sem perguntar quem lucra com ela.",
+      "acao": "Explique por que a crítica das superpotências servia aos próprios interesses delas."
+    },
+    {
+      "titulo": "Lideranças e mobilização",
+      "fase": "Relacionar",
+      "explicacao": "Congressos pan-africanos, partidos locais, sindicatos e movimentos de massa organizaram a reivindicação de independência nas colônias.",
+      "pergunta": "Qual foi o papel desses movimentos locais?",
+      "alternativas": ["Organizaram a luta e formularam projetos próprios de país", "Apenas esperaram a decisão das metrópoles", "Foram criados pelas superpotências"],
+      "correta": 0,
+      "justificativa": "A independência foi conquistada, em grande medida, por mobilização local: lideranças, organizações e participação popular com projetos políticos próprios.",
+      "pistas": ["Quem organizou as reivindicações dentro das colônias?", "Lembre do discurso de líder africano visto antes.", "A independência foi conquistada, em grande medida, por mobilização local: lideranças, organizações e participação popular com projetos políticos próprios."],
+      "retorno": {
+        "0": "Isso: sem organização local, o enfraquecimento europeu não produz independência por si só.",
+        "1": "Esperar não conquista bandeira: houve luta organizada por décadas antes das independências.",
+        "2": "As superpotências se aproveitaram de conflitos, mas os movimentos de independência tinham origem e pautas locais."
+      },
+      "ponto": "Apagar os sujeitos históricos da história.",
+      "acao": "Cite duas formas de organização local que apareceram nas fontes."
+    },
+    {
+      "titulo": "Negociação ou guerra",
+      "fase": "Relacionar",
+      "explicacao": "A Índia tornou-se independente em 1947 após longa negociação com o Reino Unido; a Argélia chegou a 1962 depois de uma guerra de oito anos contra a França.",
+      "pergunta": "O que explica caminhos tão diferentes?",
+      "alternativas": ["Contextos diferentes: força dos movimentos, interesses das metrópoles e composição de cada sociedade", "A Ásia sempre negocia e a África sempre luta", "O caminho era definido por sorteio"],
+      "correta": 0,
+      "justificativa": "Cada processo combinou de modo próprio a força do movimento local, o interesse da metrópole e as tensões internas — por isso houve negociação em uns casos e guerra em outros, na Ásia e na África.",
+      "pistas": ["Compare quem negociava e quem lutava em cada caso.", "Evite explicar por continente: procure os interesses em jogo.", "Cada processo combinou de modo próprio a força do movimento local, o interesse da metrópole e as tensões internas — por isso houve negociação em uns casos e guerra em outros, na Ásia e na África."],
+      "retorno": {
+        "0": "Correto: a explicação está no cruzamento de forças e interesses de cada caso, não no continente.",
+        "1": "Generalização falsa: houve guerras na Ásia (como no Vietnã) e negociações na África (como em Gana).",
+        "2": "Nada de sorteio: as escolhas de caminho resultaram de condições históricas concretas."
+      },
+      "ponto": "Explicar por continente em vez de por processo.",
+      "acao": "Dê um exemplo de negociação e um de guerra em continentes diferentes."
+    },
+    {
+      "titulo": "A Guerra Fria chega ao Sul",
+      "fase": "Relacionar",
+      "explicacao": "Depois das independências, EUA e URSS passaram a apoiar lados diferentes em conflitos internos de países novos, fornecendo armas, dinheiro e apoio político.",
+      "pergunta": "Qual é a relação entre Guerra Fria e descolonização?",
+      "alternativas": ["A disputa entre os blocos influenciou escolhas e apoios nos países recém-independentes", "A Guerra Fria terminou antes da descolonização", "Os novos países foram obrigados a ficar fora dos blocos"],
+      "correta": 0,
+      "justificativa": "Descolonização e Guerra Fria se cruzaram: a rivalidade bipolar deu apoio e armas a lados de conflitos locais — o caso de Angola após 1975 é um exemplo estudado no 9º ano.",
+      "pistas": ["O que as superpotências ofereciam aos lados em disputa?", "Pense no que você já sabe sobre a Guerra Fria no pós-1945.", "Descolonização e Guerra Fria se cruzaram: a rivalidade bipolar deu apoio e armas a lados de conflitos locais — o caso de Angola após 1975 é um exemplo estudado no 9º ano."],
+      "retorno": {
+        "0": "Exato: os dois processos se atravessam — independências novas num mundo dividido em blocos.",
+        "1": "Ordem invertida: a descolonização aconteceu dentro do período da Guerra Fria (1947–1991).",
+        "2": "Não houve obrigação: alguns escolheram não se alinhar; outros receberam apoios de um ou outro bloco — à vezes dos dois, em momentos diferentes."
+      },
+      "ponto": "Tratar os dois temas como capítulos separados sem se cruzarem.",
+      "acao": "Releia a habilidade EF09HI28 e conecte-a com a EF09HI31 em uma frase."
+    },
+    {
+      "titulo": "A economia do império",
+      "fase": "Relacionar",
+      "explicacao": "As colônias forneciam minérios, petróleo, algodão e café a preços baixos, com lucros e decisões concentrados nas metrópoles.",
+      "pergunta": "Que pressão cresceu por causa dessa estrutura?",
+      "alternativas": ["Populações exigiram o controle sobre suas próprias riquezas", "As metrópoles decidiram doar suas riquezas às colônias", "Não havia atividade econômica nas colônias"],
+      "correta": 0,
+      "justificativa": "O argumento econômico — nossas riquezas para nosso povo — foi central nos movimentos de independência e explica por que a independência política precisava incluir a questão econômica.",
+      "pistas": ["Quem ficava com o lucro da produção colonial?", "Lembre dos discursos que cobravam destino próprio.", "O argumento econômico — nossas riquezas para nosso povo — foi central nos movimentos de independência e explica por que a independência política precisava incluir a questão econômica."],
+      "retorno": {
+        "0": "Correto: a exigência de controlar as riquezas uniu a pauta política à econômica.",
+        "1": "Ao contrário: as metrópoles extraíam riquezas; doar não estava nos planos.",
+        "2": "Havia muita economia — o problema era quem decidia e quem lucrava com ela."
+      },
+      "ponto": "Separar política de economia na análise do império.",
+      "acao": "Diga com suas palavras a relação entre riqueza colonial e reivindicação de independência."
+    },
+    {
+      "titulo": "Fronteiras herdadas",
+      "fase": "Relacionar",
+      "explicacao": "As fronteiras coloniais foram desenhadas na Europa, sem consultar os povos da África: dividiram comunidades entre colônias e juntaram grupos diferentes no mesmo território.",
+      "pergunta": "O que a manutenção dessas fronteiras após a independência produziu?",
+      "alternativas": ["Tensões e conflitos em vários países novos", "O fim imediato de todos os conflitos", "Fronteiras totalmente redesenhadas após 1960"],
+      "correta": 0,
+      "justificativa": "A Organização da Unidade Africana decidiu preservar as fronteiras herdadas para evitar guerras por território — mas em vários casos elas continuaram fonte de tensão entre grupos e entre países.",
+      "pistas": ["Quem desenhou essas fronteiras e quando?", "Pergunte o que acontece quando grupos rivais ficam no mesmo território.", "A Organização da Unidade Africana decidiu preservar as fronteiras herdadas para evitar guerras por território — mas em vários casos elas continuaram fonte de tensão entre grupos e entre países."],
+      "retorno": {
+        "0": "Exato — e com um detalhe importante: a maioria dos países escolheu manter as fronteiras para evitar guerras ainda maiores.",
+        "1": "Fronteiras artificiais não viram paz sozinhas: os conflitos pós-independência têm parte de sua origem nelas.",
+        "2": "Na África independente, as fronteiras coloniais foram majoritariamente mantidas, não redesenhadas."
+      },
+      "ponto": "Achar que a independência apagou o passado de uma vez.",
+      "acao": "Explique por que manter fronteiras herdadas foi uma decisão defensiva dos países novos."
+    },
+    {
+      "titulo": "O Ano da África",
+      "fase": "Explicar",
+      "explicacao": "Em 1960, dezessete colônias africanas tornaram-se países independentes — o chamado Ano da África.",
+      "pergunta": "O que explica essa onda em um único ano?",
+      "alternativas": ["Uma conjuntura: metrópoles enfraquecidas, mobilização local madura e pressão internacional somadas", "Uma coincidência sem causas", "Uma ordem da ONU obrigando a descolonizar"],
+      "correta": 0,
+      "justificativa": "Nenhum fator sozinho explica 1960: a onda resultou da soma de condições — enfraquecimento europeu, décadas de organização local e cobrança internacional — amadurecendo ao mesmo tempo.",
+      "pistas": ["Reúna as causas já estudadas: quais estavam maduras em 1960?", "Ondas históricas costumam ter causas combinadas.", "Nenhum fator sozinho explica 1960: a onda resultou da soma de condições — enfraquecimento europeu, décadas de organização local e cobrança internacional — amadurecendo ao mesmo tempo."],
+      "retorno": {
+        "0": "Ótima explicação multifatorial: várias causas somadas, nenhuma isolada.",
+        "1": "História sem coincidência mágica: havia causas acumuladas que amadureceram juntas.",
+        "2": "A ONU aprovou em 1960 uma declaração favorável à descolonização, mas não tinha poder de obrigar impérios; a decisão veio da correlação de forças."
+      },
+      "ponto": "Procurar uma causa única para processos coletivos.",
+      "acao": "Escreva uma frase que junte as três causas sem usar a palavra sorte."
+    },
+    {
+      "titulo": "Novas bandeiras na ONU",
+      "fase": "Explicar",
+      "explicacao": "Com as independências, a ONU ganhou dezenas de novos membros com direito a voz e voto nas assembleias.",
+      "pergunta": "Qual foi o efeito político dessa mudança?",
+      "alternativas": ["Ampliou a voz dos países do Sul global nos fóruns internacionais", "Encerrou as atividades da ONU", "Encerrou a Guerra Fria"],
+      "correta": 0,
+      "justificativa": "Os países novos passaram a votar em bloco em temas como descolonização e desenvolvimento, mudando o equilíbrio político das organizações internacionais.",
+      "pistas": ["O que muda numa assembleia quando entram dezenas de votos novos?", "Pense no peso desses votos em pautas coloniais.", "Os países novos passaram a votar em bloco em temas como descolonização e desenvolvimento, mudando o equilíbrio político das organizações internacionais."],
+      "retorno": {
+        "0": "Correto: mais votos significava nova correlação de forças — o Sul global ganhava tribuna.",
+        "1": "A ONU cresceu com os novos membros; o que mudou foi quem tinha voz nela.",
+        "2": "A Guerra Fria seguiu até 1991 — agora com mais países disputando espaço entre os blocos."
+      },
+      "ponto": "Ver a ONU como cenário estático.",
+      "acao": "Cite uma pauta em que os países novos passaram a votar juntos."
+    },
+    {
+      "titulo": "Independência e dependência",
+      "fase": "Explicar",
+      "explicacao": "Vários países novos mantiveram, após a independência, economias voltadas para exportar matérias-primas e dívidas com antigos impérios e novos parceiros.",
+      "pergunta": "Como se chama e como se caracteriza essa situação?",
+      "alternativas": ["Neocolonialismo: influência e dependência econômica sem domínio político formal", "Colonialismo clássico: domínio político direto da metrópole", "Igualdade econômica imediata entre os países"],
+      "correta": 0,
+      "justificativa": "Bandeira própria e moeda própria não garantiram autonomia econômica: preços, dívidas e empresas continuaram decididos em grande parte de fora — é isso que o termo neocolonialismo descreve.",
+      "pistas": ["Havia domínio político formal depois da independência?", "O que continuou sendo decidido de fora?", "Bandeira própria e moeda própria não garantiram autonomia econômica: preços, dívidas e empresas continuaram decididos em grande parte de fora — é isso que o termo neocolonialismo descreve."],
+      "retorno": {
+        "0": "Exato: a expressão descreve dependência sem domínio formal — o desafio que seguiu depois da independência.",
+        "1": "Domínio político formal é o colonialismo clássico, que terminou com a independência; o que seguiu foi diferente.",
+        "2": "A independência não produziu igualdade: desigualdades econômicas persistiram e, em muitos casos, se agravaram."
+      },
+      "ponto": "Concluir que bandeira nova resolveu tudo.",
+      "acao": "Dê um exemplo de decisão econômica que continuou externa após a independência."
+    },
+    {
+      "titulo": "Conflitos com apoio externo",
+      "fase": "Explicar",
+      "explicacao": "Após a independência de Angola, em 1975, grupos internos disputaram o poder com apoios diferentes: um lado recebeu apoio de Cuba e da URSS; outro, dos EUA e da África do Sul.",
+      "pergunta": "O que esse caso mostra sobre Guerra Fria e descolonização?",
+      "alternativas": ["A rivalidade bipolar alimentou lados de conflitos internos com armas e apoio", "A Guerra Fria impediu conflitos nos países novos", "O conflito angolano não teve nenhuma relação externa"],
+      "correta": 0,
+      "justificativa": "Angola exemplifica o cruzamento dos dois processos: uma luta local de poder tornou-se também um tabuleiro da Guerra Fria, com armas e recursos vindos de fora.",
+      "pistas": ["Quem apoiava cada lado e com o quê?", "Lembre: disputa local + interesses globais = conflito internacionalizado.", "Angola exemplifica o cruzamento dos dois processos: uma luta local de poder tornou-se também um tabuleiro da Guerra Fria, com armas e recursos vindos de fora."],
+      "retorno": {
+        "0": "Exato: a Guerra Fria não criou a disputa local, mas a alimentou — é isso que internacionalizar um conflito significa.",
+        "1": "Ao contrário: a abundância de armas e apoios tornou conflitos mais longos e mais duros.",
+        "2": "Havia sim relação externa: Cuba, URSS, EUA e África do Sul envolveram-se de lados diferentes."
+      },
+      "ponto": "Ver só a disputa local ou só o jogo global — e não os dois juntos.",
+      "acao": "Descreva em uma frase o cruzamento entre disputa local e disputa bipolar em Angola."
+    },
+    {
+      "titulo": "Um caminho próprio: não se alinhar",
+      "fase": "Explicar",
+      "explicacao": "Em 1955, países da Ásia e da África reuniram-se em Bandung, na Indonésia; em 1961, nascia o Movimento dos Não Alinhados.",
+      "pergunta": "O que esses países propunham?",
+      "alternativas": ["Buscar um caminho próprio, sem obrigação de entrar em nenhum dos blocos da Guerra Fria", "Entrar imediatamente no bloco soviético", "Recriar impérios próprios na Ásia"],
+      "correta": 0,
+      "justificativa": "O não alinhamento foi uma terceira via: cooperação entre países novos e recusa da obrigação de escolher entre Washington e Moscou — sem garantir neutralidade absoluta, pois cada país mantinha suas alianças.",
+      "pistas": ["O que a palavra não alinhado sugere?", "Pense no que significava ficar entre dois blocos rivais.", "O não alinhamento foi uma terceira via: cooperação entre países novos e recusa da obrigação de escolher entre Washington e Moscou — sem garantir neutralidade absoluta, pois cada país mantinha suas alianças."],
+      "retorno": {
+        "0": "Correto — incluindo o limite: não se alinhar não significava isenção total; cada país conservava suas escolhas e aproximações.",
+        "1": "Não era o objetivo: a proposta era justamente não ficar preso a bloco algum.",
+        "2": "A pauta era o fim do domínio e a cooperação Sul-Sul, não trocar quem domina."
+      },
+      "ponto": "Confundir não alinhamento com isolamento.",
+      "acao": "Explique a diferença entre não se alinhar e não ter nenhuma aliança."
+    },
+    {
+      "titulo": "Independência com custo",
+      "fase": "Explicar",
+      "explicacao": "A independência da Índia, em 1947, veio acompanhada da partição que criou o Paquistão — milhões de deslocados e enorme violência entre comunidades.",
+      "pergunta": "O que a partição de 1947 mostra sobre as independências?",
+      "alternativas": ["A independência pode vir acompanhada de custos e conflitos muito graves", "A independência indiana foi um processo pacífico do início ao fim", "A partição foi decidida por unanimidade pelos indianos"],
+      "correta": 0,
+      "justificativa": "O caso indiano é ao mesmo tempo exemplo de negociação bem-sucedida com a metrópole e de tragédia na partilha do território: as duas coisas caberiam na mesma história.",
+      "pistas": ["O que aconteceu com as populações na fronteira entre os dois países novos?", "Uma conquista pode vir junto com uma perda?", "O caso indiano é ao mesmo tempo exemplo de negociação bem-sucedida com a metrópole e de tragédia na partilha do território: as duas coisas cabem na mesma história."],
+      "retorno": {
+        "0": "Isso: a mesma história contém conquista e tragédia — separar as duas partes empobrece a explicação.",
+        "1": "A negociação com o Reino Unido existiu, mas a partilha trouxe violência enorme; o quadro completo é mais duro.",
+        "2": "A partição foi decidida em meio a tensões e pressões, não por unanimidade — e seus custos caíram sobre milhões de pessoas."
+      },
+      "ponto": "Contar só a conquista e apagar os custos.",
+      "acao": "Escreva duas frases sobre 1947: uma sobre a conquista, outra sobre o custo."
+    },
+    {
+      "titulo": "O limite do mapa novo",
+      "fase": "Explicar",
+      "explicacao": "A Namíbia, última colônia africana reconhecida, tornou-se independente só em 1990; na África do Sul, o regime racista do apartheid só terminou em 1994, com as primeiras eleições universais.",
+      "pergunta": "O que essas datas ensinam sobre a descolonização?",
+      "alternativas": ["O processo se estendeu por décadas e as desigualdades não terminaram com as bandeiras novas", "A descolonização terminou em 1960", "O apartheid era uma forma de independência"],
+      "correta": 0,
+      "justificativa": "Percorrer até 1990 e 1994 mostra o processo longo e desigual: independência política não eliminou regimes de segregação nem desigualdades econômicas.",
+      "pistas": ["Compare 1960 com 1990: quantos anos de diferença?", "O que muda com a bandeira e o que não muda?", "Percorrer até 1990 e 1994 mostra o processo longo e desigual: independência política não eliminou regimes de segregação nem desigualdades econômicas."],
+      "retorno": {
+        "0": "Exato: datas tardias como as da Namíbia e da África do Sul marcam a extensão e os limites do processo.",
+        "1": "1960 foi o auge da onda, não o fim: trinta anos depois ainda havia colônia e apartheid.",
+        "2": "Apartheid era regime de segregação racial — o oposto de independência e cidadania plena para a maioria."
+      },
+      "ponto": "Fechar a história no dia da independência.",
+      "acao": "Complete: independência política não significa automaticamente…"
+    },
+    {
+      "titulo": "Interpretar uma charge",
+      "fase": "Aplicar",
+      "explicacao": "Uma charge de 1960 mostra o mapa da África como uma pessoa despertando, abrindo os olhos e esticando os braços.",
+      "pergunta": "Qual é a mensagem do desenho?",
+      "alternativas": ["Crítica ao domínio colonial e anúncio das independências africanas", "Defesa do colonialismo europeu", "Representação física do relevo africano"],
+      "correta": 0,
+      "justificativa": "A metáfora do acordar expressa apoio à libertação colonial — e, como toda metáfora, simplifica: os processos não foram um único despertar simultâneo.",
+      "pistas": ["O que o gesto de acordar costuma simbolizar?", "Quando a charge foi publicada? O que acontecia na África nesse ano?", "A metáfora do acordar expressa apoio à libertação colonial — e, como toda metáfora, simplifica: os processos não foram um único despertar simultâneo."],
+      "retorno": {
+        "0": "Boa leitura — e com o limite: a metáfora é forte, mas esconde as diferenças entre os processos.",
+        "1": "A imagem comemora o fim do domínio, o contrário da defesa colonial.",
+        "2": "Não é relevo: é linguagem simbólica — mapa animado como corpo que acorda."
+      },
+      "ponto": "Ler a imagem literalmente, sem decodificar a metáfora.",
+      "acao": "Diga o que a metáfora do despertar revela e o que ela esconde."
+    },
+    {
+      "titulo": "Corrigir uma generalização",
+      "fase": "Aplicar",
+      "explicacao": "Um colega afirma: a África inteira ficou independente do mesmo jeito, tudo em 1960.",
+      "pergunta": "Qual é a melhor correção?",
+      "alternativas": ["Comparar datas, atores e caminhos: houve negociação, guerra e ritmos distintos em territórios diferentes", "Concordar, porque a África é um único país", "Corrigir dizendo que tudo aconteceu na Ásia"],
+      "correta": 0,
+      "justificativa": "A correção usa o método comparativo: Gana (negociada, 1957), Argélia (guerra, 1962), Angola (1975), Namíbia (1990) — datas e caminhos diferentes dentro do mesmo continente.",
+      "pistas": ["Use exemplos já estudados com datas diferentes.", "O que muda de um caso para o outro: data, atores ou caminho?", "A correção usa o método comparativo: Gana (negociada, 1957), Argélia (guerra, 1962), Angola (1975), Namíbia (1990) — datas e caminhos diferentes dentro do mesmo continente."],
+      "retorno": {
+        "0": "Excelente: corrigir comparando é o gesto do historiador — a generalização se desfaz com datas e exemplos.",
+        "1": "A África tem mais de cinquenta países; tratar o continente como um só é justamente o erro a corrigir.",
+        "2": "A Ásia também se descolonizou (Índia, 1947; Indonésia, 1945-49), mas isso não corrige a generalização sobre a África."
+      },
+      "ponto": "Corrigir um erro com outro erro simétrico.",
+      "acao": "Escolha dois países africanos e compare data e caminho de independência."
+    },
+    {
+      "titulo": "Relação, não fatalidade",
+      "fase": "Aplicar",
+      "explicacao": "Uma tira em quadrinhos afirma: a África é pobre porque sempre foi pobre, desde sempre.",
+      "pergunta": "Qual é a melhor resposta histórica?",
+      "alternativas": ["Relacionar a pobreza atual à história de exploração, fronteiras herdadas e dependências — sem tratar nada como destino", "Concordar, pois pobreza não tem história", "Culpar apenas os governos atuais, ignorando o passado"],
+      "correta": 0,
+      "justificativa": "A explicação histórica relaciona processos — exploração colonial, guerras, dependência — sem fatalismo: relações explicam parte do presente, não o determinam por inteiro, e governos e escolhas atuais também pesam.",
+      "pistas": ["O que a expressão desde sempre esconde?", "Que processos históricos já estudados ajudam a explicar desigualdades atuais?", "A explicação histórica relaciona processos — exploração colonial, guerras, dependência — sem fatalismo: relações explicam parte do presente, não o determinam por inteiro, e governos e escolhas atuais também pesam."],
+      "retorno": {
+        "0": "Resposta equilibrada: relaciona sem determinar — nem destino eterno, nem passado irrelevante.",
+        "1": "Pobreza tem história: ela é produzida por processos identificáveis, como os que você estudou.",
+        "2": "Governos atuais importam, mas apagar o passado colonial desmonta a explicação pela metade."
+      },
+      "ponto": "Trocar explicação histórica por fatalismo ou por culpa única.",
+      "acao": "Escreva uma causa histórica e um fator atual que juntos expliquem uma desigualdade."
+    },
+    {
+      "titulo": "Aplicar o método",
+      "fase": "Aplicar",
+      "explicacao": "Você recebe uma fonte nova: um discurso de 1975, de um líder do Sudeste Asiático, celebrando a saída do último exército colonial.",
+      "pergunta": "Qual é o primeiro passo do historiador diante dessa fonte?",
+      "alternativas": ["Situar a fonte: quem fala, em que ano, em que país e para quem", "Concluir imediatamente que o discurso mente", "Aplicar sua opinião pessoal sem ler o documento"],
+      "correta": 0,
+      "justificativa": "Antes de avaliar, situe: autor, data, lugar e destinatário. Só depois compare com outras fontes e formule a interpretação — o mesmo caminho treinado nos percursos anteriores.",
+      "pistas": ["O que você precisaria saber antes de confiar ou desconfiar da fonte?", "Releia o bloco Mecânica: qual é o primeiro gesto?", "Antes de avaliar, situe: autor, data, lugar e destinatário. Só depois compare com outras fontes e formule a interpretação — o mesmo caminho treinado nos percursos anteriores."],
+      "retorno": {
+        "0": "Ordem certa: situar antes de interpretar. Depois virão comparar, datar e explicar.",
+        "1": "Desconfiar sem situar é o mesmo erro que confiar sem situar: primeiro o contexto, depois o juízo.",
+        "2": "Opinião não substitui método: sem situar a fonte, a interpretação fica solta."
+      },
+      "ponto": "Julgar a fonte antes de situá-la.",
+      "acao": "Formule as quatro perguntas de situação para essa fonte de 1975."
+    },
+    {
+      "titulo": "Explicar com evidência",
+      "fase": "Aplicar",
+      "explicacao": "No fechamento, o professor pergunta: por que a descolonização aconteceu depois de 1945 — e não antes?",
+      "pergunta": "Qual resposta usa melhor as evidências estudadas?",
+      "alternativas": ["Articular a Segunda Guerra, a mobilização local e a pressão internacional, com exemplos datados", "Responder que foi sorte da história", "Citar apenas a criação da ONU"],
+      "correta": 0,
+      "justificativa": "A resposta forte articula causas: guerra que enfraqueceu metrópoles (1945), movimentos organizados por décadas e disputa bipolar que pressionava o colonialismo — com exemplos como Índia (1947) e Ano da África (1960).",
+      "pistas": ["Reúna as três grandes causas trabalhadas na aula.", "Que exemplos com data você pode citar?", "A resposta forte articula causas: guerra que enfraqueceu metrópoles (1945), movimentos organizados por décadas e disputa bipolar que pressionava o colonialismo — com exemplos como Índia (1947) e Ano da África (1960)."],
+      "retorno": {
+        "0": "Resposta completa: causas articuladas e exemplos datados — é esse o padrão de explicação histórica.",
+        "1": "Sorte não é explicação: as causas estavam acumuladas e amadureceram no pós-1945.",
+        "2": "A ONU entrou no quadro, mas sozinha não derruba impérios: faltam a guerra, a mobilização e a pressão bipolar."
+      },
+      "ponto": "Responder com uma causa só ou sem exemplo.",
+      "acao": "Monte sua resposta final em três frases, uma por causa, com um exemplo datado."
+    }
+  ]
+}

@@ -596,6 +596,144 @@
       "data_catalogo": "2026-11-04",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Matemática"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [
+        "172"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "probabilidade",
+        "EF07MA34",
+        "EF07MA37",
+        "gráficos de setores",
+        "3º trimestre"
+      ],
+      "id": "aulas/04-11-2026-matematica-172",
+      "titulo": "Probabilidade: do acaso à evidência",
+      "descricao": "Experimentos de probabilidade, frequência relativa e análise de gráficos de setores com dado do IBGE. Seis ambientes, 26 percursos e recuperação adaptativa até 104 atividades. Registros locais e relatório por arquivo/e-mail.",
+      "url": "aulas/04-11-2026-matematica-172/",
+      "data_catalogo": "2026-11-04",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "descolonização",
+        "África",
+        "Ásia",
+        "Guerra Fria",
+        "EF09HI28",
+        "EF09HI31"
+      ],
+      "id": "aulas/descolonizacao-africa-asia-9ano",
+      "titulo": "Territórios da Independência",
+      "descricao": "Jogo de investigação com mapa interativo e 8 missões sobre a descolonização da África e da Ásia na Guerra Fria: fontes, causas, comparação entre processos e aplicação do método histórico. 26 percursos com recuperação adaptativa e relatório exportável.",
+      "url": "aulas/descolonizacao-africa-asia-9ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Matemática"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "pesquisa estatística",
+        "tabela de frequência",
+        "gráficos",
+        "amostra",
+        "EF07MA36"
+      ],
+      "id": "aulas/pesquisa-estatistica-7ano",
+      "titulo": "Laboratório dos Dados",
+      "descricao": "Laboratório dos Dados: 10 etapas com painel p5 da pergunta à conclusão, variáveis categóricas e numéricas, censo ou amostra, tabela de frequência e gráfico adequado, com limites declarados. 26 percursos, recuperação adaptativa e relatório exportável. Dados fictícios.",
+      "url": "aulas/pesquisa-estatistica-7ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "6º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "planeta Terra",
+        "atmosfera",
+        "investigação",
+        "EF06CI11",
+        "camadas da Terra"
+      ],
+      "id": "aulas/laboratorio-planeta-terra-6ano",
+      "titulo": "Laboratório do Planeta Terra",
+      "descricao": "Laboratório do Planeta Terra: oito capacidades do investigador com painel em Canvas nativo — observar fenômenos, registrar, medir com instrumento, camadas internas e atmosfera com evidências, modelo versus medição e plano de investigação. 26 percursos, recuperação adaptativa e relatório exportável. Modelos com física simplificada correta.",
+      "url": "aulas/laboratorio-planeta-terra-6ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "ERER"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "ERER",
+        "racismo estrutural",
+        "Lei 10.639",
+        "estereótipos",
+        "convivência"
+      ],
+      "id": "aulas/elementos-da-convivencia-7ano",
+      "titulo": "Elementos da Convivência",
+      "descricao": "Elementos da Convivência: oito situações hipotéticas para identificar o problema, observar consequências e planejar intervenções fundamentadas. Estereótipos, preconceito, discriminação, racismo estrutural, direitos e atitudes antirracistas (Leis 10.639/2003 e 11.645/2008, DCNERER). 26 percursos e relatório exportável. Sem material do filme.",
+      "url": "aulas/elementos-da-convivencia-7ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
     }
   ]
 }

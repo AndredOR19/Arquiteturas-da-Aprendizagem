@@ -1,0 +1,27 @@
+{
+  "componente_estilo": "estudos-orientados",
+  "fluxo_visual": "territorio-experiencias",
+  "modalidade_principal": "expositiva-associativa (conceito e exemplo) combinada com oficina (recuperar e revisar) — conforme estilos/estudos-orientados.md, adaptada ao componente ERER",
+  "motor_jogo": "DOM nativo (sem motor, sem canvas): 8 situações hipotéticas em cartões com cena + pergunta + alternativas; valores-treino (respeito, escuta, coragem, solidariedade) como elementos visuais",
+  "script_jogo": "jogo.js",
+  "identidade_visual": {
+    "paleta": "rosa-magenta (#be185d/#fdf2f8) como destaque do componente, sobre o padrão Fluxo 03",
+    "tipografia": "Fredoka (lettering-escolar do padrão)",
+    "objeto_central": "cartões de situação hipotética com cena destacada (.game-cena) — o texto é o material de análise",
+    "elementos": "4 chips de valores (💛 Respeito, 👂 Escuta, 🦁 Coragem, 🤲 Solidariedade) — nunca características raciais; sem qualquer material do filme"
+  },
+  "justificativa_visual": "O adendo determina linguagem visual apropriada para ERER, diversidade cultural representada com respeito e atividades críticas. A decisão central: os 'elementos' do jogo são VALORES treináveis, não grupos nem características raciais fixas — evitando mapear os povos do filme em estereótipos. As situações são cartões de texto com cena destacada (a análise é verbal, não gráfica), porque representar cenas de discriminação com personagens caricaturizáveis seria o próprio risco a evitar. A paleta rosa-magenta distingue o componente dos demais (terroso-História, verde-lab-Matemática, azul-ciência-Práticas). Zero assets do filme; sofrimento real nunca pontuado.",
+  "acessibilidade": [
+    "alternativas em botões com data-valor e feedback em role=status",
+    "situações em texto acessível (leitores de tela), sem dependência de imagem",
+    "voz (Web Speech) para perguntas, instruções e sínteses",
+    "painel de leitura (letra, espaçamento, contraste, voz) via leitura/painel.js",
+    "apoio de alfabetização emergente (RESPEITO, ESCUTA, DIREITO, MURAL) separado da nota",
+    "teclado e foco gerenciáveis; erro não pune, sempre explica",
+    "sem motor externo: funciona em qualquer navegador, inclusive celulares antigos"
+  ],
+  "limitacoes_extra": [
+    "Nenhum código BNCC registrado sem conferência em fonte oficial (decisão do professor); fundamento em Leis 10.639/2003 e 11.645/2008 + DCNERER",
+    "Nenhum material do filme Elementos reproduzido; o filme é ponte de conversa citada"
+  ]
+}

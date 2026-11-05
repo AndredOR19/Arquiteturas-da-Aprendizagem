@@ -1,0 +1,37 @@
+{
+  "versao": "1.1.0",
+  "artefato": "elementos-da-convivencia-7ano",
+  "endpoint": "https://ifyiarwygywoexsflfsx.supabase.co/functions/v1/coleta-livre",
+  "estado": "integrada_aguardando_cadastro_no_receptor",
+  "entrada": "autodeclarada_sem_login_exige_recibo",
+  "fallback": "modo_local_apos_duas_recusas_de_cadastro_com_exportacao_txt_json_email",
+  "dados": [
+    "identificacao",
+    "tentativas",
+    "pistas",
+    "consultas",
+    "apoio_alfabetizacao",
+    "jogo",
+    "tempo_visivel",
+    "avaliacao",
+    "relatorio_integral"
+  ],
+  "fila": "sessionStorage_por_aba_ids_estaveis",
+  "fechamento": "pendencias_nao_confirmam_envio",
+  "email": "andre-orodrigues@educar.rs.gov.br",
+  "envio_email": "abertura_assistida_aluno_confere_e_envia",
+  "teste_http_real": "endpoint_real_respondeu_e_recusou_ficticio_nao_cadastrado_2026-11-05",
+  "teste_integrado_jsdom": "62_verificacoes_modo_servidor_simulado_e_modo_recusa",
+  "teste_navegador_fisico": "pendente",
+  "autenticacao_aluno": false,
+  "cadastro_pendente": true,
+  "coleta_apenas_desta_aula": true,
+  "payload_concluir": "44028_caracteres_medido_modo_simulado_teto_60000",
+  "adaptacao": {
+    "versao": "2.0.0",
+    "maximo_total": 104,
+    "novos_inicios": true,
+    "politica": "1_original_mais_0_1_ou_3_experiencias",
+    "estado": "implantado_testado_nucleo_navegador_simulado"
+  }
+}

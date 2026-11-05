@@ -1,0 +1,24 @@
+{
+  "componente_estilo": "historia",
+  "fluxo_visual": "territorio-experiencias",
+  "modalidade_principal": "investigativa (confronto de fontes e evidências), combinada com relacional (mudança e permanência) — conforme estilos/historia.md",
+  "motor_jogo": "Phaser 4.2.1 vendado (mapa didático de 6 regiões com 8 missões de investigação); versão em lista equivalente para leitores de tela e fallback",
+  "script_jogo": "jogo.js",
+  "identidade_visual": {
+    "paleta": "tons terrosos e quentes (mapa, bandeiras, jornal) sobre o fundo claro do padrão Fluxo 03",
+    "tipografia": "Fredoka (lettering-escolar do padrão) para títulos e navegação",
+    "objeto_central": "mapa interativo dos impérios → novos países; missões como expedições de investigação",
+    "elementos": "fontes em cartões (manchete, discurso, mapa, linha do tempo), botões com feedback explicativo, circuito de exploração em três cartões"
+  },
+  "justificativa_visual": "O adendo determina que História privilegie fontes, mapas e narrativas históricas. Por isso o objeto central é o mapa (Phaser) — território como organizador do raciocínio — e não um painel de dados: a operação mental é situar, comparar e datar processos, não calcular. As 8 missões estruturam-se como investigação de fontes; a versão em lista espelha as mesmas missões para acessibilidade. Mantém-se a identidade aprovada do Fluxo 03 (Fredoka, botões com feedback, painéis e percursos), variando a composição conforme o componente em vez de copiar o layout da aula de Matemática.",
+  "acessibilidade": [
+    "alternativas em botões com data-valor e feedback em role=status",
+    "versão em lista equivalente ao mapa (mesmas missões e mesma função responder)",
+    "voz (Web Speech) para perguntas, instruções e sínteses",
+    "painel de leitura (letra, espaçamento, contraste, voz) via leitura/painel.js",
+    "apoio de alfabetização emergente (FONTE, MAPA, BANDEIRA, DATAS) separado da nota",
+    "teclado e foco gerenciáveis; sem punição mecânica nem bloqueio infinito",
+    "degradação sem motor: aula íntegra sem o Phaser"
+  ],
+  "limitacoes_extra": []
+}

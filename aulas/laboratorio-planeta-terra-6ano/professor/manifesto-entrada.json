@@ -1,0 +1,26 @@
+{
+  "componente_estilo": "praticas-experimentais",
+  "fluxo_visual": "territorio-experiencias",
+  "modalidade_principal": "demonstrativa-procedimental (observar modelo e executar) combinada com investigativa (comparar resultados) — conforme estilos/praticas-experimentais.md",
+  "motor_jogo": "Canvas 2D nativo (sem motor externo): painel de bancada redesenhado por capacidade; 8 capacidades em botões DOM carregam o mesmo conteúdo e funcionam sem o canvas",
+  "script_jogo": "jogo.js",
+  "identidade_visual": {
+    "paleta": "azul-ciência (#0c4a6e/#e0f2fe) como destaque do componente, sobre o fundo claro do padrão Fluxo 03",
+    "tipografia": "Fredoka (lettering-escolar do padrão)",
+    "objeto_central": "a bancada do investigador: paisagem com fenômenos → caderno de campo → termômetro → corte da Terra → ondas sísmicas → atmosfera com gráfico de setores → modelo × medição → plano da semana",
+    "elementos": "8 capacidades numeradas (observar a planejar), cartões de exploração (fenômenos / camadas / medir e representar), botões com feedback explicativo, instrumentos sempre desenhados com escala e unidade"
+  },
+  "justificativa_visual": "O adendo determina que Práticas Experimentais privilegie instrumentos, observação, manipulação de variáveis e gráficos. O painel Canvas muda de cena a cada capacidade conforme a operação mental (observar = paisagem; registrar = caderno; medir = termômetro; estruturar = corte; evidenciar = ondas; atmosfera = globo + setores; distinguir = modelo × medição lado a lado; planejar = checklist), variando a diagramação conforme o conteúdo em vez de copiar o layout de outro componente. O próprio painel é usado como exemplo de representação didática distinta de medição real — tema central da aula. Canvas nativo mantém a aula leve para Chromebook e celular.",
+  "acessibilidade": [
+    "alternativas em botões com data-valor e feedback em role=status",
+    "capacidades em DOM equivalentes ao painel Canvas (mesma função responder)",
+    "voz (Web Speech) para perguntas, instruções e sínteses",
+    "painel de leitura (letra, espaçamento, contraste, voz) via leitura/painel.js",
+    "apoio de alfabetização emergente (TERRA, CALOR, NUVEM, MEDIR) separado da nota",
+    "teclado e foco gerenciáveis; erro não pune, sempre explica",
+    "degradação sem canvas: aula íntegra (aviso no status do jogo)"
+  ],
+  "limitacoes_extra": [
+    "Documento de planejamento da turma (docx 162) não acessível na estação de produção; conteúdo conforme resumo fornecido pelo professor; possível divergência de sequência entre trimestres não presumida resolvida — conferir antes da aplicação"
+  ]
+}
