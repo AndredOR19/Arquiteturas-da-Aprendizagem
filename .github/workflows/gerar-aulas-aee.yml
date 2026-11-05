@@ -1,0 +1,89 @@
+name: Gerar aulas AEE - pedido e roteiro
+on:
+  workflow_dispatch:
+    inputs:
+      pedido:
+        description: 'Arquivo JSON em automacoes/aulas/pedidos'
+        required: true
+        default: 'automacoes/aulas/pedidos/2026-11-05-aulas.json'
+        type: string
+      script:
+        description: 'Roteiro opcional .md (nunca comando shell)'
+        required: false
+        default: ''
+        type: string
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: gerar-aulas-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  produzir:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Conferir credenciais e modelo
+        env:
+          LIB: ${{ secrets.BIBLIOTECA_READ_TOKEN }}
+          AI: ${{ secrets.AULA_LLM_API_KEY }}
+          MODEL: ${{ vars.AULA_LLM_MODEL }}
+        run: |
+          test -n "$LIB" || { echo "Falta BIBLIOTECA_READ_TOKEN"; exit 1; }
+          test -n "$AI" || { echo "Falta AULA_LLM_API_KEY"; exit 1; }
+          test -n "$MODEL" || { echo "Falta AULA_LLM_MODEL"; exit 1; }
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validar pedido
+        run: python automacoes/aulas/validar_pedidos.py
+      - name: Resolver revisao privada
+        id: motor
+        run: |
+          python - <<'PY'
+          import json,re,os
+          lock=json.load(open('ferramentas/biblioteca.lock.json'))
+          assert lock['repositorio']=='AndredOR19/Biblioteca-de-Diagramacao'
+          assert re.fullmatch(r'[a-f0-9]{40}',lock['commit'])
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('sha='+lock['commit']+'\n')
+          PY
+      - name: Consultar biblioteca privada na revisao fixada
+        uses: actions/checkout@v4
+        with:
+          repository: AndredOR19/Biblioteca-de-Diagramacao
+          ref: ${{ steps.motor.outputs.sha }}
+          token: ${{ secrets.BIBLIOTECA_READ_TOKEN }}
+          path: _biblioteca_privada
+          persist-credentials: false
+      - name: Gerar aulas e catalogo usando IA
+        env:
+          AULA_LLM_API_KEY: ${{ secrets.AULA_LLM_API_KEY }}
+          AULA_LLM_MODEL: ${{ vars.AULA_LLM_MODEL }}
+          AULA_LLM_BASE_URL: ${{ vars.AULA_LLM_BASE_URL }}
+          PEDIDO: ${{ inputs.pedido }}
+          ROTEIRO: ${{ inputs.script }}
+        run: |
+          python automacoes/aulas/gerar.py --pedido "$PEDIDO" --script "$ROTEIRO"
+      - name: Excluir checkout privado antes do pacote
+        run: rm -rf _biblioteca_privada
+      - name: Validar geracao e pacote publico
+        run: |
+          python automacoes/aulas/validar_gerados.py
+          python biblioteca-arquiteturas/validar_catalogo.py
+          python publicacao/preparar.py
+      - name: Abrir PR de revisao
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          BRANCH="auto/aulas-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add aulas automacoes/aulas/ultima-geracao.json publicacao/catalogo.json
+          git commit -m "feat: aulas geradas para revisao ($GITHUB_RUN_ID)"
+          git push origin "$BRANCH"
+          gh pr create --draft --base main --head "$BRANCH" --title "Revisao docente: aulas geradas automaticamente" --body "Revisar conteudos, habilidades, acessibilidade e funcionamento. O merge aprovado publica no Pages existente."
