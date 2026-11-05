@@ -69,6 +69,20 @@ jobs:
               exit 1
             fi
           done
+      - name: Verificar todas as aulas no pacote final
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          catalogo = json.loads(Path("publicacao/catalogo.json").read_text())
+          for item in catalogo["materiais"]:
+              if item["tipo"] == "link":
+                  continue
+              pagina = Path("_site") / item["destino"] / "index.html"
+              if not pagina.is_file() or pagina.stat().st_size == 0:
+                  raise SystemExit(f"FALHA: aula ausente do pacote de publicação: {pagina}")
+          print("Publicação consistente: todas as aulas do catálogo estão no pacote.")
+          PY
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload apenas o pacote publico
