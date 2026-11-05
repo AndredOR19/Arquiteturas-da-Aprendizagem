@@ -1,0 +1,48 @@
+{
+ "name": "AIx 04 — Gerar conteúdo (agente/LLM externo)",
+ "active": false,
+ "nodes": [
+  {
+   "parameters": {},
+   "id": "gatilho",
+   "name": "Iniciar",
+   "type": "n8n-nodes-base.manualTrigger",
+   "typeVersion": 1,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// Produzir conteudo-*.json conforme aix/docs/AIx_AUTOMACAO_N8N.md; a fábrica nao chama LLM\nreturn [];"
+   },
+   "id": "passo-1",
+   "name": "Passo 1",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    220,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Iniciar": {
+   "main": [
+    [
+     {
+      "node": "Passo 1",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ },
+ "pinData": {},
+ "tags": []
+}

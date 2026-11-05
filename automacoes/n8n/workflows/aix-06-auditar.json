@@ -1,0 +1,96 @@
+{
+ "name": "AIx 06 — Auditar",
+ "active": false,
+ "nodes": [
+  {
+   "parameters": {},
+   "id": "gatilho",
+   "name": "Iniciar",
+   "type": "n8n-nodes-base.manualTrigger",
+   "typeVersion": 1,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "command": "python3 aix/tests/testar_contrato.py"
+   },
+   "id": "passo-1",
+   "name": "Passo 1",
+   "type": "n8n-nodes-base.executeCommand",
+   "typeVersion": 1,
+   "position": [
+    220,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "command": "python3 aix/tests/testar_fabrica.py"
+   },
+   "id": "passo-2",
+   "name": "Passo 2",
+   "type": "n8n-nodes-base.executeCommand",
+   "typeVersion": 1,
+   "position": [
+    440,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "command": "node --check (JS embutido da prévia)"
+   },
+   "id": "passo-3",
+   "name": "Passo 3",
+   "type": "n8n-nodes-base.executeCommand",
+   "typeVersion": 1,
+   "position": [
+    660,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Iniciar": {
+   "main": [
+    [
+     {
+      "node": "Passo 1",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Passo 1": {
+   "main": [
+    [
+     {
+      "node": "Passo 2",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Passo 2": {
+   "main": [
+    [
+     {
+      "node": "Passo 3",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ },
+ "pinData": {},
+ "tags": []
+}

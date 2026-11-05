@@ -1,0 +1,12 @@
+{
+  "nome": "02 — Investigação documental",
+  "origem": "IMPLEMENTADO (MVP acessível) — aix/engines/accessible/gerar.py",
+  "motor": "HTML semântico (motor acessível); Phaser 2D na Fase 2",
+  "requisitos_contrato": [
+    "environments com scenario e interactions",
+    "missions com objective/clues/evidence",
+    "sources com verified"
+  ],
+  "evidencia": "Registros de investigação por missão + síntese argumentativa final",
+  "nota": "Usado no piloto hist-231-encruzilhadas"
+}

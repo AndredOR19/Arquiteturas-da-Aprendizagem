@@ -1,0 +1,48 @@
+{
+ "name": "AIx 02 — Recuperar currículo",
+ "active": false,
+ "nodes": [
+  {
+   "parameters": {},
+   "id": "gatilho",
+   "name": "Iniciar",
+   "type": "n8n-nodes-base.manualTrigger",
+   "typeVersion": 1,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "command": "python3 aix/fabrica.py validar {{$json.contractPath}}"
+   },
+   "id": "passo-1",
+   "name": "Passo 1",
+   "type": "n8n-nodes-base.executeCommand",
+   "typeVersion": 1,
+   "position": [
+    220,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Iniciar": {
+   "main": [
+    [
+     {
+      "node": "Passo 1",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ },
+ "pinData": {},
+ "tags": []
+}

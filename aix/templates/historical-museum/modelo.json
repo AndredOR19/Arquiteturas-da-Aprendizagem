@@ -1,0 +1,11 @@
+{
+  "nome": "01 — Museu Histórico",
+  "origem": "NOVO — especificação AIx (implementação na Fase 2)",
+  "motor": "Phaser 2D + variante acessível HTML",
+  "requisitos_contrato": [
+    "environments[].interactions (explorar/consultar/comparar)",
+    "missions[].evidence por sala"
+  ],
+  "evidencia": "Objetos consultados, hipóteses registradas, síntese explicativa",
+  "nota": "Salas do museus = environments; objetos = sources; nunca apresentar simulação como alteração de fatos históricos"
+}

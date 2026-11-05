@@ -1,0 +1,120 @@
+{
+  "narrative": "As Encruzilhadas da História: um percurso de investigação por três tempos — o mundo dividido da Guerra Fria, as vozes silenciadas pela ditadura e a reconstrução da democracia brasileira. O estudante investiga fontes, relaciona causas e produz síntese argumentativa, sem simular que decisões presentes alterem acontecimentos históricos reais.",
+  "environments": [
+    {
+      "id": "mundo-dividido",
+      "title": "O Mundo Dividido",
+      "scenario": "Berlim na Guerra Fria: uma cidade cortada por muros e por projetos de mundo distintos. O estudante explora um mapa histórico, consulta documentos da época e compara os blocos geopolíticos para explicar consequências da divisão.",
+      "interactions": [
+        "Explorar mapa histórico de Berlim e da Europa dividida",
+        "Consultar documentos de época apresentados no ambiente",
+        "Comparar os blocos geopolíticos e suas propostas",
+        "Investigar a divisão da cidade e registrar hipóteses",
+        "Explicar consequências da divisão em registro próprio"
+      ]
+    },
+    {
+      "id": "vozes-silenciadas",
+      "title": "Vozes Silenciadas",
+      "scenario": "Arquivo histórico brasileiro: fundos documentais, recortes de censura e vestígios de resistência. O estudante examina fontes, investiga o golpe de 1964 e analisa como a censura operava, reconhecendo formas de resistência e relacionando autoritarismo e direitos.",
+      "interactions": [
+        "Examinar fontes do arquivo sob mediação do professor",
+        "Investigar o golpe de 1964 a partir das evidências disponíveis",
+        "Analisar mecanismos de censura em documentos de época",
+        "Reconhecer formas de resistência registradas nas fontes",
+        "Relacionar autoritarismo e supressão de direitos"
+      ]
+    },
+    {
+      "id": "reconstruindo-democracia",
+      "title": "Reconstruindo a Democracia",
+      "scenario": "Espaço cívico interativo: movimentos sociais, diretas já, assembleia constituinte e a Constituição de 1988. O estudante investiga a redemocratização, analisa movimentos sociais e resolve desafios de cidadania produzindo síntese histórica argumentativa.",
+      "interactions": [
+        "Investigar o processo de redemocratização",
+        "Analisar movimentos sociais do período",
+        "Compreender a Constituição de 1988 como marco",
+        "Resolver desafios de cidadania contextualizados",
+        "Produzir síntese histórica argumentativa"
+      ]
+    }
+  ],
+  "missions": [
+    {
+      "id": "berlim-mapa",
+      "environmentId": "mundo-dividido",
+      "title": "Ler o mapa da divisão",
+      "objective": "Identificar no mapa histórico quais setores formavam Berlim e quem controlava cada um.",
+      "clues": ["Observe as legendas e fronteiras do mapa antes de responder", "Compare o mapa de 1945 com o da cidade dividida"],
+      "evidence": "Registro do estudante associando setores da cidade a projetos políticos distintos."
+    },
+    {
+      "id": "berlim-blocos",
+      "environmentId": "mundo-dividido",
+      "title": "Comparar os blocos",
+      "objective": "Comparar organização política e econômica dos blocos a partir dos documentos consultados.",
+      "clues": ["Procure no documento quem decidia e para quem eram os recursos", "Anote semelhanças e diferenças antes de concluir"],
+      "evidence": "Tabela comparativa preenchida com base nas fontes do ambiente."
+    },
+    {
+      "id": "berlim-consequencias",
+      "environmentId": "mundo-dividido",
+      "title": "Explicar consequências",
+      "objective": "Explicar, com uma consequência sustentada em fonte, o que a divisão da cidade produziu na vida das pessoas.",
+      "clues": ["Uma consequência boa menciona quem afetou e em que período", "Volte à fonte se a explicação estiver genérica"],
+      "evidence": "Parágrafo explicativo com referência à fonte utilizada."
+    },
+    {
+      "id": "arquivo-golpe",
+      "environmentId": "vozes-silenciadas",
+      "title": "Investigar o golpe de 1964",
+      "objective": "Reunir nas fontes indícios de como o golpe se organizou e se justificou publicamente.",
+      "clues": ["Diferencie o que a fonte mostra do que ela afirma sobre si mesma", "Mais de uma fonte fortalece a hipótese"],
+      "evidence": "Hipótese com pelo menos dois indícios citados do acervo."
+    },
+    {
+      "id": "arquivo-censura",
+      "environmentId": "vozes-silenciadas",
+      "title": "Analisar a censura",
+      "objective": "Analisar como a censura aparecia nos documentos e que efeitos produzia na circulação de ideias.",
+      "clues": ["Procure marcas de corte, silêncio e orientação nos documentos", "Pergunte quem decidia o que poderia circular"],
+      "evidence": "Análise com exemplo concreto retirado das fontes."
+    },
+    {
+      "id": "arquivo-resistencia",
+      "environmentId": "vozes-silenciadas",
+      "title": "Reconhecer resistências",
+      "objective": "Reconhecer formas de resistência registradas e explicar por que eram perigosas para o regime.",
+      "clues": ["Resistência não é apenas confronto direto: procure formas culturais e cotidianas", "Relacione a forma escolhida ao risco envolvido"],
+      "evidence": "Relato de ao menos duas formas de resistência com base nas fontes."
+    },
+    {
+      "id": "civico-redemocratizacao",
+      "environmentId": "reconstruindo-democracia",
+      "title": "Investigar a redemocratização",
+      "objective": "Ordenar os principais momentos do processo de redemocratização com base nas evidências do ambiente.",
+      "clues": ["Cuidado com datas: confirme na fonte antes de ordenar", "Um momento por vez: o que veio antes e o que dependeu dele"],
+      "evidence": "Linha do tempo com momentos justificados por fonte."
+    },
+    {
+      "id": "civico-constituicao",
+      "environmentId": "reconstruindo-democracia",
+      "title": "Compreender a Constituição de 1988",
+      "objective": "Explicar por que a Constituição de 1988 é chamada de Constituição Cidadã, citando ao menos dois direitos nela previstos.",
+      "clues": ["Procure direitos que a carta garante a todas as pessoas", "Relacione cada direito citado ao texto constitucional"],
+      "evidence": "Explicação com dois direitos citados e vínculo ao texto."
+    },
+    {
+      "id": "civico-sintese",
+      "environmentId": "reconstruindo-democracia",
+      "title": "Produzir a síntese final",
+      "objective": "Produzir síntese histórica argumentativa relacionando autoritarismo, resistência e redemocratização, com uso das fontes dos três ambientes.",
+      "clues": ["Uma boa síntese usa pelo menos uma fonte de cada ambiente", "Diferencie fato comprovado de opinião"],
+      "evidence": "Texto argumentativo final com referências às fontes utilizadas."
+    }
+  ],
+  "sources": [
+    { "id": "constituicao-1988", "title": "Constituição da República Federativa do Brasil de 1988", "type": "primaria", "reference": "Texto oficial da Constituição de 1988 (edição a indicar pelo professor)", "verified": false },
+    { "id": "documento-berlim", "title": "Documentos e mapas sobre a divisão de Berlim", "type": "primaria", "reference": "Acervo a selecionar pelo professor (arquivos históricos oficiais)", "verified": false },
+    { "id": "fontes-ditadura", "title": "Fontes sobre o golpe de 1964, censura e resistência", "type": "primaria", "reference": "Acervo a selecionar pelo professor (arquivos e projetos de memória oficiais)", "verified": false }
+  ]
+}

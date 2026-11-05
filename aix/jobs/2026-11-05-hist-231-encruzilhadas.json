@@ -1,0 +1,14 @@
+{
+  "requestId": "req-11b50031fa49",
+  "receivedAt": "2026-11-05",
+  "experienceId": "hist-231-encruzilhadas",
+  "contractPath": "aix/experiences/historia/3o-ano-em/231/hist-231-encruzilhadas.json",
+  "sha256": "26614e5c95eedf6d0bda89eeee06b6d7720ddb6112ccb0b3d525838f5f04fd1e",
+  "blockers": [
+    "planejamento não localizado em banco-pedagogico/planejamentos para turma 231 (História, 3º trimestre); validação curricular definitiva fica pendente de revisão docente",
+    "habilidade curricular sem confirmação para esta turma",
+    "fontes documentais ainda não verificadas pelo professor"
+  ],
+  "planning": null,
+  "resultado": "criado"
+}

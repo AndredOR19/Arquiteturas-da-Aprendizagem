@@ -1,0 +1,10 @@
+{
+  "nome": "Percursos interativos (26 perguntas D-R-E-L)",
+  "origem": "EXISTENTE — automacoes/aulas/gerar.py (Fábrica AEE, em produção no workflow gerar-aulas-aee.yml)",
+  "motor": "HTML semântico fixo (template local; LLM não escreve JavaScript)",
+  "requisitos_contrato": [
+    "experience.missions com alternativas e feedback no arquivo de conteúdo do Workflow 04"
+  ],
+  "evidencia": "Tentativas, pistas e avaliação por percurso; 26 percursos por aula",
+  "nota": "Contrato AIx envolve este modelo como template=percursos-interativos; a geração continua usando o pipeline aprovado"
+}

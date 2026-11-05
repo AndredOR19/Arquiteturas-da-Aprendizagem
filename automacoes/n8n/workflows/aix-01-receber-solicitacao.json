@@ -1,0 +1,55 @@
+{
+ "name": "AIx 01 — Receber solicitação",
+ "active": false,
+ "nodes": [
+  {
+   "parameters": {
+    "httpMethod": "POST",
+    "path": "aix-01-receber-solicitacao",
+    "responseMode": "responseNode",
+    "options": {
+     "allowedOrigins": "https://andredor19.github.io"
+    }
+   },
+   "id": "gatilho",
+   "name": "Iniciar",
+   "type": "n8n-nodes-base.webhook",
+   "typeVersion": 1,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// aix/fabrica.py solicitar --texto {{$json.texto}}\nreturn [];"
+   },
+   "id": "passo-1",
+   "name": "Passo 1",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    220,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Iniciar": {
+   "main": [
+    [
+     {
+      "node": "Passo 1",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ },
+ "pinData": {},
+ "tags": []
+}

@@ -1,0 +1,48 @@
+{
+ "name": "AIx 09 — Monitoramento",
+ "active": false,
+ "nodes": [
+  {
+   "parameters": {},
+   "id": "gatilho",
+   "name": "Iniciar",
+   "type": "n8n-nodes-base.manualTrigger",
+   "typeVersion": 1,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// Painel docente existente (edge function painel-docente); relatórios de participação/progresso; sem alteração automática de aulas publicadas\nreturn [];"
+   },
+   "id": "passo-1",
+   "name": "Passo 1",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    220,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Iniciar": {
+   "main": [
+    [
+     {
+      "node": "Passo 1",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ },
+ "pinData": {},
+ "tags": []
+}
