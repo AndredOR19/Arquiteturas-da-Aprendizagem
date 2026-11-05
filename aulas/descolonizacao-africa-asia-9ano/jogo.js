@@ -87,6 +87,6 @@ class CenaTerritorios extends Phaser.Scene{
   else{if(typeof v==='string'&&this.rects[v]){this.tweens.add({targets:this.rects[v].rect,angle:{from:-2,to:2},yoyo:true,repeat:2,duration:60,onComplete:()=>this.rects[v].rect.setAngle(0)})}}}
  proxima(){this.continuar.setVisible(false);this.continuarT.setVisible(false);Object.values(this.rects).forEach(({rect},id)=>rect.setFillStyle(REGIOES.find(r=>this.rects[r.id]&&this.rects[r.id].rect===rect).cor));this.mostrar();montarLista()}
 }
-try{new Phaser.Game({type:Phaser.AUTO,parent:'jogo-mapa',width:760,height:520,backgroundColor:'#eef7fb',scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH},scene:CenaTerritorios});}
+try{new Phaser.Game({audio:{noAudio:true},type:Phaser.AUTO,parent:'jogo-mapa',width:760,height:520,backgroundColor:'#eef7fb',scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH},scene:CenaTerritorios});}
 catch(e){statusJogo('O mapa interativo não iniciou neste dispositivo. Use a versão em lista abaixo: as missões são as mesmas.')}
 })();

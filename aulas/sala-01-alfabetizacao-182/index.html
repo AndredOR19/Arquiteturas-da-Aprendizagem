@@ -2,7 +2,7 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#143d46"><title>Sala 01 · Imagem, Palavra e Som · Estudos Orientados 182</title>
 <style>
 :root{font-family:system-ui,-apple-system,sans-serif;font-size:18px;line-height:1.5;background:#f1f6f4;color:#143b42;--panel:#fff;--line:#1c4b52;--accent:#0e625c;--btn:#dff1ea;--text:#143b42}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 12% 5%,#d8eae5 0,transparent 30%),#f1f6f4}body.dark{--panel:#182d36;--line:#a7d9dc;--accent:#bdecdc;--btn:#294750;--text:#f3fafb;background:#112329;color:var(--text)}.page{max-width:1000px;margin:auto;padding:20px}h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:.4rem 0}h2{font-size:1.3rem;margin:.25rem 0}.eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.panel{background:var(--panel);border:2px solid var(--line);border-radius:20px;padding:clamp(16px,3vw,30px);box-shadow:5px 5px 0 #75aaa366;margin:15px 0}.tools{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}button,.link{border:2px solid var(--line);background:var(--btn);color:var(--text);padding:12px 16px;border-radius:13px;min-height:50px;cursor:pointer;font:inherit;font-weight:700;text-decoration:none;display:inline-flex;justify-content:center;align-items:center;gap:8px}button:focus-visible,.link:focus-visible{outline:4px solid #efad32;outline-offset:3px}button:disabled{opacity:.53;cursor:not-allowed}button.primary{background:#116659;color:#fff}body.dark button.primary{background:#b9efe0;color:#113b37}.subtle{font-size:.9rem;opacity:.91}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.scene{width:min(100%,390px);aspect-ratio:4/3;border:3px solid var(--line);border-radius:18px;background:#e4f2e7;display:flex;align-items:center;justify-content:center;margin:auto;color:#203c47}.scene svg{width:90%;height:90%}.word{font-size:clamp(1.8rem,5vw,3.2rem);font-weight:900;letter-spacing:.08em;text-align:center}.chunks{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}.chunk{background:#f7dba3;color:#342c21;border:2px solid #5d4b30;border-radius:10px;padding:8px 16px;font-size:1.5rem;font-weight:800}.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.choice{min-height:170px;flex-direction:column;background:var(--panel);border:3px solid var(--line)}.choice svg{width:100%;max-width:130px;height:95px}.choice small{font-size:1rem}.choice[aria-pressed=true]{outline:4px solid #d9a13f}.feedback{min-height:66px;padding:12px 15px;border-radius:14px;background:var(--btn);font-weight:700}.bar{height:17px;border-radius:20px;border:1px solid var(--line);overflow:hidden}.bar div{height:100%;background:#1d8b72;width:0%;transition:width .2s}.step{font-weight:800}.notice{border-left:5px solid #bd873c;padding:8px 14px;background:#ffefcf;color:#3c3018;border-radius:8px}.hide{display:none!important}#report{width:100%;min-height:145px;border-radius:12px;padding:13px;font:inherit;color:var(--text);background:var(--panel);border:2px solid var(--line)}.large{font-size:23px}@media(max-width:680px){.grid{grid-template-columns:1fr}.choices{grid-template-columns:repeat(2,1fr)}.choice{min-height:140px}.page{padding:10px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
-</style></head><body>
+</style><link href="image-learning.css" rel="stylesheet"/></head><body>
 <main class="page">
 <header class="panel"><div class="eyebrow">Arquiteturas da Aprendizagem · Sala 01</div><h1>Imagem, Palavra e Som</h1><p>Estudos Orientados · Turma 182 · Bernardina · Laboratório de alfabetização e letramento</p><p>Observe, ouça e escolha. Você pode usar este apoio em qualquer etapa da leitura, sem precisar escrever.</p><div class="tools"><button id="introSpeak">🔊 Ouvir como funciona</button><button id="stopSpeak">■ Parar voz</button><button id="toggleTheme" aria-pressed="false">◐ Modo escuro</button><button id="toggleSize" aria-pressed="false">A+ Letras maiores</button><a class="link" href="../../">Voltar ao acervo</a></div><p class="subtle">Atividade opcional, aberta a todos os estudantes. Não é teste clínico, não exige login e não altera a nota curricular.</p></header>
 <section class="panel" id="audio-entry" aria-label="Começar com orientação falada"><h2>🔊 Começar ouvindo</h2><p>Toque no botão grande para ouvir as instruções e iniciar. Não precisa saber ler.</p><button id="startAudio" class="primary" style="font-size:1.35rem;min-height:85px;width:100%">▶️ 🔊 Começar ouvindo</button><p class="subtle">Se não sair som, peça ao professor que leia em voz alta e acompanhe as imagens.</p></section><section class="panel hide" id="game" aria-label="Aprendizagem por associação"><div class="step" id="step">Palavra 1 de 5</div><div class="bar" aria-label="Progresso do percurso" role="progressbar" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress"><div id="fill"></div></div>
@@ -49,4 +49,81 @@ $('toggleSize').onclick=()=>{big=!big;document.documentElement.classList.toggle(
 $('copy').onclick=async()=>{try{await navigator.clipboard.writeText($('report').value);$('summary').textContent='Resumo copiado. Confira antes de compartilhar.';}catch{$('report').focus();$('report').select();}};
 render();
 })();
-</script></body></html>
+</script><script src="imagens-1.js" data-image-learning data-learning-key="aulas/sala-01-alfabetizacao-182"></script>
+<script src="imagens-2.js" data-image-learning data-learning-key="aulas/sala-01-alfabetizacao-182"></script>
+<script src="imagens-3.js" data-image-learning data-learning-key="aulas/sala-01-alfabetizacao-182"></script><script>
+/* Transporte padrão de relatório por e-mail: nunca contata o Gmail sozinho; o estudante escolhe. */
+function openReportEmail(to, subject, body) {
+  const mail = String(to || '').trim();
+  if (!/^[^\s@?&#]+@[^\s@?&#]+\.[^\s@?&#]+$/.test(mail)) {
+    alert('Confirme o endereço do professor. Você pode copiar ou baixar o relatório completo.');
+    return;
+  }
+  body = String(body ?? '');
+  subject = String(subject ?? 'Relatório de aula');
+  document.getElementById('report-email-options')?.remove();
+  const panel = document.createElement('dialog');
+  panel.id = 'report-email-options';
+  panel.dataset.emailVersion = '2.0.0';
+  panel.style.cssText = 'width:min(90vw,720px);max-height:85vh;overflow:auto;padding:24px;border:2px solid #526779;border-radius:12px;background:#fff;color:#172535';
+  const title = document.createElement('h2'); title.textContent = 'Enviar relatório ao professor';
+  const info = document.createElement('p');
+  info.textContent = 'Destinatário: ' + mail + '. Confira o relatório e envie pelo seu e-mail. Esta página não confirma envio nem recebimento.';
+  const preview = document.createElement('textarea');
+  preview.value = body; preview.readOnly = true;
+  preview.setAttribute('aria-label','Relatório completo para copiar');
+  preview.style.cssText='width:100%;box-sizing:border-box;min-height:180px;color:#172535;background:white';
+  const status = document.createElement('p'); status.setAttribute('role','status');
+  const shortGmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(mail) + '&su=' + encodeURIComponent(subject);
+  const gmail = shortGmail + '&body=' + encodeURIComponent(body);
+  const shortMailto = 'mailto:' + mail + '?subject=' + encodeURIComponent(subject);
+  const mailto = shortMailto + '&body=' + encodeURIComponent(body);
+  // Limite conservador de transporte, não limite do texto preservado na prévia/TXT.
+  const maxUrl = 1800;
+  const longReport = gmail.length > maxUrl || mailto.length > maxUrl;
+  status.textContent = longReport
+    ? 'O relatório é longo demais para uma abertura confiável pelo endereço do e-mail. Use Copiar relatório e abrir Gmail; depois cole no corpo da mensagem (Ctrl+V). Ou baixe o TXT e anexe manualmente. O relatório permanece completo.'
+    : 'Você pode abrir a mensagem preenchida. Se preferir, copie o texto ou baixe o TXT. Confira tudo antes de enviar.';
+  function button(label, fn) {
+    const b=document.createElement('button'); b.type='button'; b.textContent=label;
+    b.style.cssText='margin:5px;padding:10px;cursor:pointer'; b.onclick=fn;panel.append(b);return b;
+  }
+  function launch(url) {
+    const a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer';
+    document.body.append(a); a.click(); a.remove();
+  }
+  function selectReport() { preview.focus(); preview.select(); preview.setSelectionRange(0,preview.value.length); }
+  function copyReportText(afterCopy) {
+    selectReport();
+    let copied=false;
+    try { copied=document.execCommand('copy')===true; } catch (_) {}
+    const success=()=>{status.textContent=afterCopy;};
+    const failure=()=>{status.textContent=copied?afterCopy:'A cópia automática não foi confirmada. Volte a esta janela, selecione o relatório e use Ctrl+C (ou Copiar). Depois cole no corpo do e-mail. Você também pode baixar o TXT.';};
+    if(navigator.clipboard?.writeText) navigator.clipboard.writeText(body).then(success).catch(failure);
+    else if(copied)success();else failure();
+  }
+  panel.append(title,info,preview,status);
+  // Nunca navegar com um corpo grande: um aviso sozinho não impede o erro de URL.
+  if (!longReport) {
+    button('Abrir Gmail com relatório',()=>{launch(gmail);status.textContent='Abertura solicitada. Confira a mensagem antes de enviar; se nada abriu, use a opção de copiar abaixo.';});
+    button('Abrir aplicativo de e-mail',()=>{launch(mailto);status.textContent='Abertura solicitada. Se não houver aplicativo configurado, use Gmail ou baixe o TXT.';});
+  }
+  button('Copiar relatório e abrir Gmail',()=>{
+    // Abrir endereço curto no próprio clique evita depender de pop-up após await.
+    copyReportText('Relatório completo copiado. Na mensagem do Gmail, clique no corpo e use Ctrl+V (ou Colar). Confira e envie. Se a aba não abriu, use Abrir Gmail para colar.');
+    launch(shortGmail);
+  });
+  button('Copiar relatório completo',()=>copyReportText('Relatório completo copiado. Abra o e-mail, cole no corpo da mensagem, confira e envie.'));
+  button('Abrir Gmail para colar',()=>{launch(shortGmail);status.textContent='Gmail solicitado com destinatário e assunto. Cole o relatório completo no corpo da mensagem (Ctrl+V). Se a aba foi bloqueada, use o link abaixo.';});
+  const link=document.createElement('a');link.href=shortGmail;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Abrir Gmail pelo link direto (colar o relatório)';link.style.cssText='display:block;margin:12px 5px;color:#154c92;text-decoration:underline';panel.append(link);
+  button('Baixar relatório TXT',()=>{
+    const url=URL.createObjectURL(new Blob([body],{type:'text/plain;charset=utf-8'}));
+    const a=document.createElement('a');a.href=url;a.download='relatorio-completo.txt';
+    document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    status.textContent='Download solicitado. No Gmail, anexe o TXT manualmente antes de enviar. O arquivo contém o relatório completo.';
+  });
+  button('Fechar',()=>{panel.close();panel.remove();});
+  document.body.append(panel);panel.showModal();
+}
+</script>
+</body></html>
