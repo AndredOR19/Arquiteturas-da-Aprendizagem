@@ -25,6 +25,7 @@ Modelo reutilizável, a preencher com dados confirmados. Sem informações ident
 | EPC: revisão perceptível da compreensão | Preencher | Preencher | Preencher |
 | SSS/ASA: integração e controles opcionais | Preencher | Preencher | Preencher |
 | Leitura acessível: fonte, espaçamento e apresentação ajustáveis | Preencher | Preencher | Preencher |
+| Labirinto de evidências, quando pertinente: informação → relação → perspectiva → aplicação | Preencher ou justificar não uso | Preencher | Preencher |
 | AIES e ramo disciplinar: linguagem e operações próprias | Preencher | Preencher | Preencher |
 
 ## Circuito
@@ -61,3 +62,20 @@ A existência desta ficha não prova implementação. Conferir o material produz
 - Próxima retomada planejada (não aplicada):
 - Instrumento metodológico: respostas, confirmação, circuitos e ausências:
 - Integração ao texto/JSON/cópia/TXT/e-mail: implementada/testada/pendente:
+
+
+## Passagens por evidências e perspectivas — quando configuradas
+- Objetivo que justifica a ramificação; alternativa mais direta quando pertinente:
+- Proposição/pergunta, fonte e unidades de evidência selecionáveis (IDs/descrições):
+- Critério de pertinência/suficiência da evidência e relação esperada:
+- Seleção/confirmação, alternativas por lista/teclado/imagem/voz/mediação:
+- Outra linguagem: equivalência semântica e apoio livre, sem carga adicional:
+- Outro ponto de vista: sujeito/fonte/condição/critério; limites e informação necessária:
+- Outra situação: o que muda, relação preservada e critério de aplicação:
+- Nós/versões, ligações com justificativa, retornos e condições de entrada/saída:
+- Mapa/lista equivalentes; onde estou, o que verifico, o que falta e como saio:
+- Orçamento: quais nós compõem uma atividade, quais são extras e teto por conjunto:
+- Confirmações avaliadas, indicadores separados, nota dos originais preservada e versão da sessão:
+- Estados de revisão docente pendente em produções abertas:
+- Registro de resposta, evidência, relação, perspectiva, revisão/motivo, aplicação e apoios:
+- Estado real: documentado / implementado / testado / publicado / aplicação observada; evidências:

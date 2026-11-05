@@ -3,6 +3,15 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.2.0 — 04/11/2026 — Labirinto de Evidências e Perspectivas
+Pedido do Prof. André: selecionar a informação que sustenta uma resposta e abrir outra linguagem, ponto de vista ou experiência, circulando por um labirinto. Adotada documentação da arquitetura, com autoria/proveniência explícitas e sem nova sigla. A síntese operacional foi elaborada com o assistente a partir da formulação do professor.
+
+Seção 6.5 define resposta/evidência/relação, três tipos de passagem, retorno com motivo e saída por aplicação em situação diferente. Mapa/lista equivalentes, rota recomendada e finalidade de cada nó/ligação; apoios livres sem aumentar carga. Tarefas adicionais integram o teto 1→2→4 por conjunto da seção 9.1, sem crescimento por tela ou reformulação. Não fixa espera universal de cinco minutos, não altera sessões iniciadas ou a nota original e não infere compreensão pelo trajeto/tempo.
+
+Arquivos: Prompt Mestre, AGENTS, esta entrada, planta biblioteca-arquiteturas/plantas/labirinto-evidencias.md, catálogo, índice da biblioteca, protocolo de consulta e modelo de composição. Catálogo e versões compatíveis atualizados. Verificação executada: validador de arquiteturas aprovou 21 registros/15 ramos, dependências sem ciclos, arquivos, ligações e compatibilidade com Prompt 3.2.0; validador do banco documental também passou. Verificação documental, sem ensaio de interface para o componente ainda não construído.
+
+Estado: diretriz documentada e contrato descrito; não cria motor, schema executável, perguntas, integração Supabase, testes de navegador ou migração do acervo. A aula 172 tem recuperação adaptativa relacionada; isso não equivale ao labirinto por evidências. Aplicação escolar e eficácia permanecem não demonstradas nesta atualização.
+
 ## 3.1.0 — 04/11/2026 — Recuperação adaptativa até quatro atividades
 Pedido do professor: conter avanço por tentativa/erro/acerto; erros devem acrescentar relações e experiências, podendo ampliar até quatro vezes, com regras fáceis de entender e visíveis. Seção 9.1 define expansão local por conjunto: 1 → 2 → 4, máximo 104 para 26 originais; apoios sem ampliação; primeiro acerto e recuperação separados; preservação de realizações anteriores.
 Implementação: Estudos Orientados 172 ganha 78 experiências complementares (associação, ordenação, aplicação), regra/aceite, contagem atual, bloqueios e registro integral. Entrada sem login, fila/recibos Supabase e e-mail do professor preservados. Coleta dessa aula confirmada por navegador → receptor → banco com dados fictícios, 76 eventos e relatório 26/26 no ensaio da versão 1.1.0. E-mail conferido sem envio real. Não inferir aplicação escolar de teste técnico.
@@ -323,6 +332,7 @@ Solicitação do Prof. André Rodrigues: receber interações da página automat
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 
 
 

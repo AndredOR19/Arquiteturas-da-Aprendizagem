@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.1.0**
+Versão vigente: **3.2.0**
 Atualização: **04/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -275,6 +275,23 @@ Usar Earth como link guiado; Maps, museus, anatomia e visualizadores 3D dependem
 
 **Dialética e aceite:** risco: produzir um cenário atraente com tarefas repetidas, bloquear por preenchimento ou depender de serviço externo. Correção: demonstrar relação no componente, exigir evidência válida, variar aplicação e testar fallback. Antes de entregar cada aula, testar mapa/lista, teclado/leitor de tela, celular/Chromebook, rede lenta, movimento reduzido, recarga/retomada, critérios, relatório completo e recibo real quando integrado. Registrar separadamente documentado, implementado, testado, publicado e observado em aula. Aprendizagem e interesse são resultados distintos; piloto orienta revisão, sem alegar eficácia comprovada.
 
+### 6.5. Labirinto de Evidências e Perspectivas — passagens por relações
+Diretriz do Prof. André de 04/11/2026. Planta operacional: [Labirinto de Evidências e Perspectivas](biblioteca-arquiteturas/plantas/labirinto-evidencias.md), versão documental 1.0.0, domínio pedagógico/interface. Estado: diretriz documentada; componente específico e migração de aulas ainda pendentes. A arquitetura especializa as conexões da AACI e pode compor os Fluxos 01/02, preservando seu visual. Não criar sigla adicional nem afirmar eficácia demonstrada.
+
+**Âncora:** a passagem curricular depende da relação entre resposta, informação e contexto. Depois de responder, o estudante recebe “Encontre a informação que sustenta sua resposta e selecione-a”. Pode indicar trecho, imagem, dado, parte de mapa/esquema ou etapa de demonstração. Nas novas aulas, prever esse ciclo onde o objetivo pedir sustentar, interpretar, comparar ou explicar; procedimentos podem usar a operação/etapa como evidência, sem fabricar investigação. Justificar no briefing quando um percurso direto for mais adequado.
+
+**Mecânica:** expor conceito e exemplo → selecionar e confirmar resposta → selecionar evidência por toque/clique/teclado/lista equivalente → indicar como ela sustenta a resposta → receber feedback específico → abrir outra linguagem, perspectiva ou situação pertinente → manter ou revisar a resposta com motivo → aplicar em um caso diferente. Encontrar palavra igual à alternativa, visitar uma tela ou esperar não comprova a relação. Definir unidades de evidência, critérios de pertinência/suficiência, relação e saída. Para resposta aberta, usar rubrica e revisão docente explícita, sem simular avaliação semântica automática.
+
+**Tipos de passagem:** outra linguagem reformula o mesmo significado com precisão e adequação à idade; outro ponto de vista muda sujeito, fonte, condição ou critério relevante e pode manter ou rever a conclusão; outra situação muda o contexto para verificar aplicação. Perspectiva diferente não valida informação falsa nem dispensa fonte e critério. Identificar a função de cada passagem. Reformulação, voz, glossário, leitura simples, alfabetização complementar e pedidos de ajuda são apoios livres: não contam como erro, não ampliam a carga, não alteram a nota e não exigem visitar todas as versões. Uma evidência inválida não bloqueia acesso aos apoios; a passagem curricular segue o critério declarado.
+
+**Circuito e navegação:** o labirinto é um grafo finito, com trilha recomendada e retorno justificado. Mostrar “Onde estou”, “O que estou verificando”, “O que falta” e “Como saio”. Mapa e lista preservam conteúdo, critérios, requisitos e estados. Permitir voltar à explicação/evidência sem apagar tentativas. Cada ligação tem origem/destino, relação, justificativa e condição de abertura; cada nó tem objetivo, operação, representação, evidência, rubrica/critério, feedback e alternativa de acesso. A saída exige a evidência e aplicação previstas; não é liberada por tráfego, preenchimento genérico ou cronômetro.
+
+**Carga e ritmo:** aplicar a seção 9.1 sem multiplicadores adicionais: uma original; primeiro erro confirmado no conjunto acrescenta uma atividade; segundo erro amplia para três extras no total; teto de quatro por conjunto e 104 na base de 26. Definir antes do início quais passagens integram uma atividade e quais são extras; não contar cada tela, seleção ou apoio como percurso. Declarar quais confirmações são erros curriculares, sem duplicar a penalização de uma única confirmação. No teto, usar revisão/modelagem/mediação em vez de novas tarefas. Não alterar realizações já iniciadas. Esta arquitetura não fixa espera universal de cinco minutos: eventual liberação por blocos exige finalidade, ação durante a janela, duração ajustável e regra informadas; tempo de página não prova atenção ou compreensão.
+
+**Registro e avaliação:** conservar primeira resposta, evidência escolhida, relação, apoios consultados, perspectiva, revisão/motivo, aplicação, transições e versões. Separar visita, escolha de apoio e critério atendido/não atendido/pendente. Preservar a nota inicial e o denominador dos originais; evidência/relação/aplicação têm indicadores separados, sem inflar nota ou denominador por navegação. Prévia, TXT/JSON, cópia, e-mail e coleta integrada devem guardar o mesmo processo completo e respeitar os bloqueios/recibos das seções 13 e 34.5. Não publicar dados individuais ou identificadores em URLs, QR codes ou GitHub.
+
+**Dialética prática:** risco: substituir tentativa/erro/acerto por circulação decorativa ou carga excessiva. Ação: pedir “O que esta informação permite afirmar? Em que condição sua conclusão mudaria?”, modelar uma relação e verificar novo exemplo com apoio conceitual menor e acesso preservado. Conferir evidência inadequada após resposta correta, linguagem consultada sem aumento de carga, conclusão inicial mantida quando válida, mapa/lista, teclado/foco, voz ausente, recarga, limite e saída. Documentação não equivale a componente construído, testes de interface, publicação, coleta ativa ou aprendizagem observada; registrar o estado real por aula.
+
 ## 7. Referências, documentos e honestidade intelectual
 Usar documentos oficiais para currículo e fontes primárias ou referências acadêmicas pertinentes para o conteúdo. Não inventar autores, títulos, páginas, citações ou códigos.
 
@@ -497,6 +514,7 @@ Manter prática pedagógica, didática e currículo como foco. Não misturar pes
 
 ## 16. Conferência antes de entregar
 Verificar:
+- Labirinto de evidências quando configurado: tipos de passagem separados, relação validada, mapa/lista, saída definida, apoios livres, carga dentro do teto e estados reais de implementação (seção 6.5).
 - Fluxo 03: contrato e critérios da seção 6.4, mapa/lista equivalentes, trilha orientada, evidências validadas, fallback e estados reais de implantação.
 - Continuidade e horário com fonte identificada.
 - Texto realmente desenvolvido, com mecanismo, exemplos, referências e âncoras visuais.
@@ -548,6 +566,7 @@ Preferências de leitura, fontes disponíveis e testes de ajuste:
 Fluxo visual escolhido (01 caderno-ilustrado / 02 missao-interativa / 03 territorio-experiencias) e motivo:
 Componentes, skins, versões/hash e estado de homologação:
 Ambientes, operações, conexões e critérios de validação:
+Labirinto quando pertinente: unidades de evidência, relação/critério, tipos de passagem, mapa/lista, saída e orçamento por conjunto:
 Portais externos, permissões verificadas, aviso e fallback:
 Modelo visual de referência:
 Plano da turma: arquivo, versão/período, trecho utilizado e adaptações:
@@ -798,4 +817,5 @@ Produzir, por padrão, **plano de aula diário** para a aplicação imediata, e 
 A entrega só será considerada implementada para determinada aula depois de: teste do link e QR code; modo claro/escuro e contraste; áudio e alternativa; teclado/Chromebook/celular; retorno à aula; ausência de duplicidades; não alteração da nota; verificação de dados no Supabase quando houver coleta ativada; proteção de dados pessoais. Falha de envio não é confirmação.
 
 **Estado em 03/11/2026:** a página genérica de imagens/palavras/áudio e os links no acervo foram criados no GitHub; o conteúdo específico, as oito salas sistemáticas, a instrumentação integral da coleta em todas as aulas e sua validação ainda são trabalho de implementação. Esta diretriz atualiza o planejamento, **não equivale a implantação de cada recurso**. A versão atual do Prompt Mestre não altera automaticamente artefatos Vercel já publicados.
+
 
