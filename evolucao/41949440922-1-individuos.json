@@ -1,0 +1,19 @@
+{
+  "execucao": "41949440922",
+  "tentativa": "1",
+  "cenario": "individuos",
+  "commit_fonte": "fd61167614472ff7f970993ff8bc2e455f8cbdea",
+  "pasta": "execucoes/41949440922-1-individuos",
+  "experimento": "8dd3a200a3d74eefc7b1a357934ed5e417bc83fa439298ac6c34df76c44ecd18",
+  "diferencas": {
+    "novas": [
+      "labirinto-evidencias"
+    ],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "biblioteca-arquiteturas/catalogo.json"
+    ]
+  }
+}

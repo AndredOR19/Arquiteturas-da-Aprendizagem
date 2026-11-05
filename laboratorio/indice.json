@@ -1089,15 +1089,34 @@
         "alteradas": [],
         "fontes_gerais_alteradas": []
       }
+    },
+    {
+      "execucao": "41949440922",
+      "tentativa": "1",
+      "cenario": "individuos",
+      "commit_fonte": "fd61167614472ff7f970993ff8bc2e455f8cbdea",
+      "pasta": "execucoes/41949440922-1-individuos",
+      "experimento": "8dd3a200a3d74eefc7b1a357934ed5e417bc83fa439298ac6c34df76c44ecd18",
+      "diferencas": {
+        "novas": [
+          "labirinto-evidencias"
+        ],
+        "removidas": [],
+        "alteradas": [],
+        "fontes_gerais_alteradas": [
+          "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+          "biblioteca-arquiteturas/catalogo.json"
+        ]
+      }
     }
   ],
   "ultimo_inventario": {
     "schema_version": "1.0.0",
     "fontes_gerais_sha256": {
-      "biblioteca-arquiteturas/catalogo.json": "9e217fe043bf1104de482d877257057e37809544c5d21a6d4ac6bd0ccd768c50",
+      "biblioteca-arquiteturas/catalogo.json": "e06187b77bd0bff6120885187ec0100d7d6ffaeef51f234a818efcd3eabb7cef",
       "pesquisa/simulacoes/arquiteturas_externas.json": "b12c1299a8297d1e9b9a420bf9477424ee898e8c8038f082dfe0f45f4d75dd34",
       "pesquisa/simulacoes/catalogo_modelos.json": "4ab1449d6e3c8c2dee4743df7f460d0a9d3027d412e08ac8ef1f7e8edf0c20b6",
-      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "41a718e08d55ebf160c44b018f22367e8cf8ec08826a62f2cccb3ba5e46778e1",
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md": "ce8f54de3c8950e56244a4c252b7169d8c436d36a6ae78334e214b1cc50ae480",
       "pesquisa/registros.json": "b4bee320cc3537192fd2db8a04e5b89427c0ee608199275ec6a3c55e6df757ab",
       "pesquisa/producoes.json": "93f70c73b7f57b4c69ddaf29176a16843eb61a907d82554873f351118df9d58e"
     },
@@ -1481,6 +1500,25 @@
         "calibracao_empirica": false,
         "validacao_empirica": false,
         "revisao_sha256": "74bdcde38295fdfd8aa4447de141445d5c0304578f6c81c54b8799c6459da993"
+      },
+      {
+        "id": "labirinto-evidencias",
+        "nome": "Arquitetura do Labirinto de Evidências e Perspectivas",
+        "dominio": "pedagogico",
+        "versao_documental": "1.0.0",
+        "estado_documental": "diretriz_documentada",
+        "fontes_sha256": {
+          "biblioteca-arquiteturas/plantas/labirinto-evidencias.md": "7abb01ac5443a0ff8e9fc5aabab3ec849e32ea9f4b0c23d6bcd95d8c751cdb96"
+        },
+        "estado_modelagem": "aguardando_formalizacao",
+        "modulos_mecanisticos": [],
+        "modulos_de_apoio": [
+          "planejamento-individual",
+          "planejamento-turmas"
+        ],
+        "calibracao_empirica": false,
+        "validacao_empirica": false,
+        "revisao_sha256": "7bc28cc5c71dc7722ed29522099dddb91187d73cab6f091fd50d061d75b4c745"
       },
       {
         "id": "cabala",
