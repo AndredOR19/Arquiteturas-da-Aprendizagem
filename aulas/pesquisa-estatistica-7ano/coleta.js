@@ -1,6 +1,6 @@
 /* Integração 1.1.0: identidade autodeclarada, sem login; dados privados no receptor.
-   Adaptação desta aula: cadastro no receptor pode estar pendente — após duas recusas
-   de cadastro é oferecido modo local (navegador + exportação), sem falsear confirmação
+   Adaptação desta aula: cadastro no receptor pode estar pendente — o acesso é imediato em modo local e a
+   sincronização ocorre em segundo plano (navegador + exportação), sem falsear confirmação
    de envio. Nenhum texto declara coleta confirmada sem recibo do servidor. */
 (()=>{'use strict';
 const endpoint='https://ifyiarwygywoexsflfsx.supabase.co/functions/v1/coleta-livre';
@@ -23,11 +23,28 @@ async function flush(){if(!active||busy||state.receipt)return;busy=true;try{
  }catch(e){status('Envio pendente: '+e.message+' Use Tentar sincronizar. A fila foi preservada.')}finally{busy=false}}
 function aplicarTextosColeta(){document.querySelectorAll('p').forEach(p=>{if(p.textContent.includes('Respostas ficam neste navegador.'))p.textContent='As respostas são enviadas à base privada do professor com confirmação. Acompanhe o painel de registro.';if(p.textContent.includes('Sem coleta automática:'))p.textContent=p.textContent.replace('Sem coleta automática: os registros ficam neste navegador e podem ser entregues por arquivo ou e-mail.','Coleta desta aula integrada à base privada. Arquivo e e-mail são alternativas quando o envio estiver pendente.')})}
 const originalEntry=$('entry-confirm').onclick;
-$('entry-confirm').onclick=async()=>{const nome=$('entry-name').value.trim(),turma=$('entry-class').value.trim(),professor=$('entry-teacher').value.trim();if(window.AdaptiveCanStart?.()===false)return;if(nome.split(/\s+/).length<2||!turma||!professor){$('entry-status').textContent='Preencha nome completo, turma e professor; pode pedir ajuda.';return}
- if(state&&state.nome!==nome&&(state.queue.length||state.final&&!state.receipt)){status('Há registros pendentes de outra sessão nesta aba. Sincronize a sessão anterior antes de trocar de estudante.');return}
- if(!state||state.nome!==nome||state.turma!==turma||state.professor!==professor)state=makeState(nome,turma,professor);persist();$('entry-confirm').disabled=true;$('entry-status').textContent='Aguardando confirmação do servidor…';try{const d=await request(envelope('iniciar',{artefato:D.id,nome,turma,professor}));if(d.estado!=='identificado'||d.sessao_id!==state.id)throw Error('Identificação não confirmada.');active=true;aplicarTextosColeta();originalEntry();lastTick=performance.now();if(!state.receipt)enqueue('inicio',{versao:'1.1.0',progresso_local_ao_entrar:done(),identidade:'autodeclarada'});clearInterval(interval);interval=setInterval(()=>{tick();flush()},15000);if(state.receipt||state.final){status(state.receipt?'Esta sessão tem relatório final recebido.':'Relatório final pendente: use Tentar sincronizar.');document.querySelectorAll('#experience input,#experience textarea,#confirmExperience').forEach(x=>x.disabled=true)}else await flush()}catch(e){active=false;if(String(e.message).includes('não correspondem')){cadastroRecusas++;status('Aula ainda não cadastrada na base do professor. É possível iniciar em modo local: os registros ficam neste navegador e podem ser entregues por TXT, cópia ou e-mail.');
-  if(cadastroRecusas>=2&&!$('entry-local')){const b=document.createElement('button');b.className='btn primary';b.id='entry-local';b.textContent='Iniciar em modo local (neste navegador)';b.onclick=()=>{originalEntry();$('entry-status').textContent='Modo local: registros apenas neste navegador. Exporte o relatório ao terminar.';status('Modo local ativo. O professor pode ativar a coleta cadastrando a aula; nesta aba os registros seguem locais.')};$('entry-status').after(b)}}
-  $('entry-status').textContent='Entrada não liberada: '+e.message}finally{$('entry-confirm').disabled=false}};
+$('entry-confirm').onclick=async()=>{
+ const nome=$('entry-name').value.trim(),turma=$('entry-class').value.trim(),professor=$('entry-teacher').value.trim();
+ if(!nome||!turma||!professor){$('entry-status').textContent='Preencha nome e turma; pode pedir ajuda.';return}
+ if(window.AdaptiveCanStart?.()===false)return;
+ // O acesso curricular independe de rede ou cadastro remoto.
+ originalEntry();
+ if(!$('entry').hidden)return;
+ status('Aula liberada. Registros neste navegador; tentando sincronizar em segundo plano.');
+ if(state&&(state.nome!==nome||state.turma!==turma||state.professor!==professor)&&(state.queue.length||state.final&&!state.receipt)){
+   active=false;clearInterval(interval);status('Aula liberada em modo local. Há registros pendentes da sessão anterior nesta aba. Entregue o relatório por arquivo ou e-mail.');return;
+ }
+ try{
+  if(!state||state.nome!==nome||state.turma!==turma||state.professor!==professor)state=makeState(nome,turma,professor);
+  persist();
+  const d=await request(envelope('iniciar',{artefato:D.id,nome,turma,professor}));
+  if(d.estado!=='identificado'||d.sessao_id!==state.id)throw Error('Identificação não confirmada.');
+  active=true;aplicarTextosColeta();lastTick=performance.now();
+  if(!state.receipt)enqueue('inicio',{versao:'1.1.1',progresso_local_ao_entrar:done(),identidade:'autodeclarada'});
+  clearInterval(interval);interval=setInterval(()=>{tick();flush()},15000);
+  if(state.receipt||state.final){status(state.receipt?'Esta sessão tem relatório final recebido.':'Relatório final pendente: use Tentar sincronizar.');document.querySelectorAll('#experience input,#experience textarea,#confirmExperience').forEach(x=>x.disabled=true)}else await flush();
+ }catch(e){active=false;status('Aula liberada em modo local. Sincronização indisponível: '+e.message+' Os registros continuam neste navegador. Entregue o relatório por TXT, cópia ou e-mail.');}
+};
 window.ColetaLivreAdaptativo=data=>enqueue('tentativa',{adaptativo:true,...data});
 window.ColetaLivreApoio=(type,detail)=>enqueue('consulta',{apoio:'alfabetizacao',acao:type,detalhe:detail});
 const originalLog=log;log=function(type,detail=''){originalLog(type,detail);if(!active||state.receipt)return;let tipo='consulta',data={acao:type,detalhe:detail,percurso:index+1};if(type==='acerto'||type==='revisao'){tipo='tentativa';data.tentativa=S.records[index].attempts.at(-1);data.concluidos=done()}else if(type==='pista')tipo='pista';else if(type==='voz')tipo='audio';else if(type.startsWith('experiencia'))tipo='avaliacao';else if(type==='avanco')tipo='progresso';enqueue(tipo,data)};
