@@ -1,7 +1,7 @@
 # Biblioteca de Arquiteturas da Aprendizagem
-Versão documental: 1.4.0 — 28/10/2026  
+Versão documental: 1.5.0 — 04/11/2026  
 Responsável pedagógico: Prof. André de Oliveira Rodrigues.  
-Compatível com o [Prompt Mestre 2.30.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
+Compatível com o [Prompt Mestre 3.2.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
 
 **Nova arquitetura transversal:** [Salas de Alfabetização e Letramento](SALAS_DE_ALFABETIZACAO_E_LETRAMENTO.md): oito modalidades (imagem-palavra, consciência fonológica, grafema-fonema, montagem, frases, letramento social, jogos e ponte curricular), disponíveis como apoio não estigmatizante em todas as turmas.
 
@@ -16,8 +16,12 @@ Esta biblioteca transforma diretrizes em plantas consultáveis: o que cada arqui
 6. Conferir [pendências e diferenças entre versões](PENDENCIAS.md).
 
 ## Plantas disponíveis
+
+**Atualização de 04/11/2026:** [Labirinto de Evidências e Perspectivas](plantas/labirinto-evidencias.md) — resposta → evidência → relação → outra linguagem/perspectiva/situação → revisão → aplicação. Diretriz documentada; componente específico ainda não implantado. Apoios livres, mapa/lista e saída definida, dentro do limite por conjunto.
+
 | Planta | Função |
 | --- | --- |
+| [Labirinto de Evidências e Perspectivas](plantas/labirinto-evidencias.md) | Abrir passagens por evidências e relações, examinar perspectivas e verificar aplicação, com orientação e limite de carga. |
 | [AEE — Arquitetura de Exposição Explicativa](plantas/aee.md) | Tornar explícitos conceito, relações, representação e limites de uma explicação. |
 | [MACI — conexões, retomadas e complexificação](plantas/maci.md) | Articular conhecimentos e fazer a retomada exigir reconstrução, com avanço gradual. |
 | [ARN — percurso investigativo e retorno ao problema](plantas/arn.md) | Dar sentido à investigação por meio de problema, pistas, explicação e retorno. |
@@ -45,7 +49,7 @@ Usar o [modelo de planta](MODELO_DE_PLANTA.md). Atualizar o catálogo, dependên
 
 O [validador do catálogo](validar_catalogo.py) confere integridade estrutural e referências locais. Ele não avalia qualidade pedagógica, currículo nem eficácia. Executar na raiz do repositório: `python biblioteca-arquiteturas/validar_catalogo.py`.
 
-## Estado desta entrega
+## Estado do registro inicial de 28/10/2026
 Doze plantas transversais/de integração, duas plantas ou roteiros disciplinares iniciais e duas pendências nominais catalogadas. Nenhuma aula existente foi redesenhada nesta atualização. Arquivos curriculares continuam sujeitos ao status de seu catálogo. O motor privado mantém a revisão já fixada.
 
 ## Coleta online em preparação
@@ -59,3 +63,4 @@ As plantas [Progressão coordenada](plantas/ritmo-progressao.md) e [Cadência te
 ## Acesso ao conteúdo para quem ainda não lê/escreve
 
 [Arquitetura de Acesso por Imagens, Voz e Palavra](plantas/imagens-voz-palavra.md), proposta por André de Oliveira Rodrigues: diretriz permanente de produção. Cenas e orientação falada relacionam objeto, cor/forma, significado, palavra escrita e aproximação com letras; resposta por toque/teclado e aplicação em outra cena. [Módulo HTML](../publicacao/imagens/README.md) e [capítulo em desenvolvimento](../livros/integracao-estetico-semantica/CAPITULO_ACESSO_IMAGENS_VOZ.md). Não equivale a alfabetização completa, diagnóstico ou eficácia comprovada.
+

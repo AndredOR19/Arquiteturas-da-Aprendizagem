@@ -1,5 +1,5 @@
 # Protocolo de consulta, composição e continuidade para IA
-Versão: 1.3.0 — 29/10/2026. Compatibilidade atualizada: Prompt Mestre 2.30.0.
+Versão: 1.4.0 — 04/11/2026. Compatibilidade atualizada: Prompt Mestre 3.2.0.
 
 **Leitura obrigatória nas novas aulas:** [Salas de Alfabetização e Letramento](SALAS_DE_ALFABETIZACAO_E_LETRAMENTO.md). Toda composição deve incluir a rota curricular e o apoio opcional de imagens, palavras, letras, sons e letramento, sem exposição de dados individuais, sem confundir jogo com avaliação da disciplina e sem afirmar recursos não testados.
 
@@ -62,3 +62,7 @@ Consultar pesquisa/simulacoes/LABORATORIO.md e o contrato de novos modelos. O in
 
 ## Roteiros adaptativos
 Consultar estilos/README.md e o repertório do componente. Escolher modalidade, fluxo visual e linguagem separadamente. Registrar espiral MACI e monitoramento conforme seção 5.1 do prompt. Investigação é condicional; exposição por associações, relações e procedimentos pode orientar a aula inteira.
+
+
+## Consulta de passagens por evidência
+Quando o briefing usar seleção de informação para sustentar respostas ou abrir perspectivas, ler plantas/labirinto-evidencias.md e preencher os campos correspondentes no modelo de composição. Justificar nós e relações, separar apoio de atividade curricular e declarar critério de saída e teto por conjunto. A arquitetura pode compor os três fluxos visuais; não obriga investigação em todo conteúdo. Conferir versões e estado técnico por aula; contrato documentado não ativa motor ou coleta.

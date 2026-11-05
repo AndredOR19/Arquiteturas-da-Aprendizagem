@@ -137,3 +137,11 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 ## Recuperação adaptativa até quatro atividades
 - Aplicar seção 9.1 do Prompt Mestre 3.1.0. Regras visíveis e confirmadas antes de novos inícios: 1 original; primeiro erro +1 experiência; segundo erro do conjunto +3 extras no total; teto 4/conjunto e 104 para 26 originais. Sem ampliação por pista, áudio, pedido de ajuda, erro técnico ou treino complementar de alfabetização.
 - Preservar sessões já iniciadas e cálculo de primeira resposta sobre 26 originais. Extras com novas relações, operações e contextos; não repetir a pergunta apenas para alongar. Registrar e conferir bloqueios, recarga, limites, relatórios integrais e recebimento antes de declarar implantação.
+
+
+## Labirinto de Evidências e Perspectivas
+- Aplicar seção 6.5 do Prompt Mestre 3.2.0 e biblioteca-arquiteturas/plantas/labirinto-evidencias.md ao configurar passagens por evidência. Declarar objetivo, fonte, unidade selecionável, relação, critério, retorno e saída; escolher a modalidade pelo objetivo.
+- Distinguir outra linguagem (apoio livre/equivalente), outro ponto de vista (condição/interpretação com fonte e critério) e outra situação (aplicação). Nenhuma visita, espera ou palavra igual comprova compreensão. Evidência inválida não bloqueia apoios.
+- Mapa e lista equivalentes; seleção e confirmação separadas; alternativa por imagens, voz e mediação. Exibir onde está, o que verifica, o que falta e como sai. Preservar sessões anteriores e nota original.
+- Integrar atividades adicionais ao teto da seção 9.1, sem multiplicar por número de telas ou apoios. Não fixar cinco minutos por tarefa nem inferir atenção pelo tempo. Registrar resposta, evidência, relação, revisão e aplicação no relatório/e-mail/coleta quando realmente instrumentados.
+- Estado inicial: arquitetura documentada, componente próprio ainda não implantado; não confundir a recuperação adaptativa já existente com o labirinto completo.
