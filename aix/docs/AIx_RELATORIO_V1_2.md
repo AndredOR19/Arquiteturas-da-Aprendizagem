@@ -35,8 +35,11 @@
 ## 4. Prévias jogáveis
 
 - **Ao vivo (temporária)**: servidor local da sessão — `/preview-phaser/index.html` (2D), `/preview-3d/index.html` (3D), `/preview-acessivel.html`.
-- **Offline**: `aix/experiences/historia/3o-ano-em/231/preview-phaser.html` e `preview-3d.html` (arquivo único, abre no navegador sem rede).
-- Link privado persistente via conector Vercel não foi viável (deploy por arquivos exige conteúdo embutido; biblioteca de 1,2 MB). Alternativa registrada: URL sha-pinned via jsDelivr do branch (repositório público; não é o catálogo de produção).
+- **Offline (privada por posse)**: `aix/experiences/historia/3o-ano-em/231/preview-phaser.html` e `preview-3d.html` — arquivo único, abre no navegador sem rede (testado via `file://`).
+- **Link externo verificável** (sha do commit `8bce1d0`, fora do catálogo de produção), comprovado em Chromium — caminhada real por teclado até o objeto, prompt, painel e evidência no inventário, sem erros:
+  - 2D: `https://htmlpreview.github.io/?https://raw.githubusercontent.com/AndredOR19/Arquiteturas-da-Aprendizagem/8bce1d064560f263afa5e9681291cd8b01784ec8/aix/experiences/historia/3o-ano-em/231/preview-phaser.html`
+  - 3D: mesmo prefixo com `preview-3d.html`
+- **Vias descartadas** (registradas): deploy por arquivos no conector Vercel exige conteúdo embutido (biblioteca de 1,2 MB inviabiliza); jsDelivr serve `text/plain`; raw.githack mostra intersticial; statically trunca. htmlpreview.github.io foi a via funcional.
 
 ## 5. Critério final de aceite — verificado
 
