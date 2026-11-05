@@ -4,9 +4,9 @@
 #graficos>p{color:var(--muted);font-size:15px;margin-bottom:8px;max-width:760px}
 .gpanel{border:3px solid var(--line);border-radius:20px;background:var(--card);box-shadow:6px 6px 0 var(--line);padding:20px 22px;margin:22px 0}
 .gpanel h3{font-size:20px;margin-bottom:12px}
-.grow{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:22px;align-items:center;margin-top:14px}
-@media (max-width:820px){.grow{grid-template-columns:1fr}}
-.gchart-wrap{max-width:340px;margin:0 auto;width:100%}
+.grow{display:grid;grid-template-columns:minmax(220px,340px) minmax(0,1fr);gap:22px;align-items:center;margin-top:14px;min-width:0}
+@media (max-width:820px){.grow{grid-template-columns:minmax(0,1fr)}.grow>div{min-width:0}}
+.gchart-wrap{max-width:340px;margin:0 auto;width:100%;min-width:0;overflow:hidden}.gchart-wrap svg{max-width:100%;height:auto}
 #pie-svg svg,#bar-svg svg,#line-svg svg{width:100%;height:auto;display:block}
 .ginputs{display:flex;flex-wrap:wrap;gap:14px;margin:10px 0 4px}
 .ginputs label{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:14.5px}
@@ -14,7 +14,7 @@
 .gstatus{background:#fef9c3;border:2px solid var(--line);border-radius:12px;padding:12px 14px;margin-top:14px;font-size:15px;line-height:1.55;white-space:pre-line}
 html[data-theme=dark] .gstatus{background:#3a3316;color:#fde68a}
 html[data-theme=mono] .gstatus{background:#fff;color:#000}
-#pie-table{width:100%;font-size:14.5px}
+#pie-table{width:100%;font-size:14.5px;display:block;overflow-x:auto;max-width:100%}
 #pie-table caption{text-align:left;font-weight:700;margin-bottom:6px;font-size:15px}
 .chipc{display:inline-block;width:13px;height:13px;border-radius:4px;border:2px solid #1e293b;vertical-align:-1px;margin-right:6px}
 #pie-table tr.tot td{font-weight:700;border-top:3px solid var(--line)}
