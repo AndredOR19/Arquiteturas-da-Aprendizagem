@@ -1,0 +1,25 @@
+name: Conferir publicacao das aulas AEE
+on:
+  workflow_run:
+    workflows:
+      - 'Deploy static content to Pages'
+      - 'Publicar aulas no GitHub Pages'
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verificar:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Conferir URLs das ultimas aulas aprovadas
+        run: python automacoes/aulas/verificar_publicacao.py
