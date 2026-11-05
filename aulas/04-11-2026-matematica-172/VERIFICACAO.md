@@ -17,3 +17,14 @@ Prompt 3.1.0. Artefato 1.0.0. Fluxo 03 por composição de componentes públicos
 - Refinamento: temporizador passou a contabilizar transições de percurso; indicador numérico só aparece depois da confirmação válida.
 - Revisão semântica: percurso 25 mantém escolha justificada entre modelo e frequência; cálculo numérico de outro ensaio permanece na recuperação de transferência, sem classificação de tarefas diferentes como equivalentes.
 - QR e revisão final: acompanhar implantação do último commit antes da entrega.
+- Extensão (mapa mental + Gráficos em movimento), conferida sem navegador real no ambiente de trabalho:
+  - Sintaxe Node (node --check) aprovada em todos os JavaScripts locais, incluindo os quatro novos; JSON do conteúdo continua válido.
+  - Estrutura do HTML conferida por parser: nenhuma tag desbalanceada; todos os ids referenciados pelos dois módulos novos existem na página.
+  - Teste de DOM com jsdom (simulação de navegador, sem renderização visual): 23/23 asserções — sete nós do mapa com detalhe D/R/E/L e lista equivalente; setores com três presets, duas/três fatias, tabela equivalente, ângulo 216° e círculo único em 100%; barras com acúmulo 330 e zerar; linha com 50 lançamentos e zerar; motor original intacto (26 itens de menu, missão, 3 alternativas, hub com 6 ambientes, pista, registro, 6 blocos, glossário e dicionário).
+  - Equivalência de comportamento: “impressão digital” do motor original (menu, missão, feedback, registros, recuperação, navegação) idêntica antes e depois da adição; os módulos novos só acrescentam suas seções.
+  - Validador do catálogo local passou (20 registros); catálogo não modificado.
+  - Limites honestos: sandbox sem navegador real — sem inspeção visual, foco real de teclado, TTS ou teste de impressão desta extensão; a confirmação visual/interativa pendente para o primeiro acesso em navegador, como as demais observações desta aula. O fluxo de resposta passa pelo módulo de recuperação adaptativa; em jsdom o clique na alternativa não completa o fluxo (igual na versão anterior), comportamento validado em navegador real no percurso 26/26 acima.
+  - Camada visual 1 (animações), conferida sem navegador real:
+    - node --check aprovado; 33/33 asserções jsdom, incluindo: 2/3 fatias após varredura de abertura dos setores, transição 100% = círculo único, barras animadas com acúmulo 330, dado 3D com 6 faces e transform aplicado no giro, linha desenhada lançamento a lançamento (50 e 100) com moeda 3D girando, zerar remove a polyline.
+    - Animações por requestAnimationFrame/timeout com estado final idêntico ao instantâneo; prefers-reduced-motion leva direto ao estado final (verificado por código; a conferência do efeito em tela pendente para navegador real).
+    - Confete observa apenas o atributo data-kind do feedback do motor (MutationObserver); sem alteração no motor; dispara somente na transição para “confirm”.

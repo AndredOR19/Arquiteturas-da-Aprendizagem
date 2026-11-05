@@ -1,0 +1,184 @@
+[
+  {
+    "conceito": "Impérios no mapa de 1945",
+    "explicacao": "Um mapa político de 1945 pinta grandes áreas da África e da Ásia com as cores dos impérios europeus.",
+    "assoc": {"pergunta": "O que as cores desse mapa indicavam?", "alternativas": ["Territórios sob domínio de potências europeias", "Um único país continental", "Países já independentes e aliados"], "correta": 0, "retorno": "Cada cor ligava a colônia ao império que a controlava em 1945."},
+    "ordem": {"passos": ["Observar a data do mapa", "Identificar a cor de cada império", "Comparar com o mapa de hoje"], "retorno": "Primeiro situamos o mapa no tempo, depois identificamos os impérios e por fim comparamos com o presente."},
+    "apl": {"pergunta": "Ao encontrar um mapa antigo com cores por império, o que fazer antes de concluir?", "alternativas": ["Situar a data e quem controlava cada cor", "Concluir de imediato o que ele significa", "Descartar o mapa por ser velho"], "correta": 0, "retorno": "Situar antes de concluir: primeiro a data e o domínio, depois a interpretação."}
+  },
+  {
+    "conceito": "Fonte de época",
+    "explicacao": "Um jornal de março de 1957 noticia a independência de Gana, com fotos das festividades.",
+    "assoc": {"pergunta": "Que evidência esse jornal oferece?", "alternativas": ["Registro de época sobre um caso específico de independência", "Prova de que todo o continente ficou independente em 1957", "Anúncio sem valor histórico"], "correta": 0, "retorno": "A fonte documenta um evento específico, não o continente inteiro."},
+    "ordem": {"passos": ["Ler a data e o lugar do jornal", "Identificar o evento noticiado", "Avaliar o que a fonte não cobre"], "retorno": "Primeiro situamos a fonte, depois identificamos o evento e por fim declaramos seus limites."},
+    "apl": {"pergunta": "Um jornal de 1963 anuncia a independência do Quênia. O que se pode afirmar com segurança?", "alternativas": ["O Quênia tornou-se independente naquele ano", "Toda a África Oriental ficou independente em 1963", "O jornal não serve como fonte"], "correta": 0, "retorno": "A manchete sustenta o caso específico; a generalização pediria mais fontes."}
+  },
+  {
+    "conceito": "Ano da África",
+    "explicacao": "Em 1960, dezessete colônias africanas tornaram-se países e entraram na ONU.",
+    "assoc": {"pergunta": "O que o número de membros da ONU em 1960 registra?", "alternativas": ["A entrada de muitos países africanos novos", "O fim da Guerra Fria", "A criação da ONU"], "correta": 0, "retorno": "O salto de 1960 registra o Ano da África, não outros eventos."},
+    "ordem": {"passos": ["Comparar o número de membros antes e depois de 1960", "Identificar de onde vinham os novos membros", "Relacionar com as independências"], "retorno": "Comparamos os números, identificamos a origem dos membros novos e conectamos com a descolonização."},
+    "apl": {"pergunta": "Se um gráfico mostra a ONU crescendo muito em 1975 com países novos, o que pesquisar?", "alternativas": ["Quais territórios tornaram-se independentes por volta de 1975", "Se a Guerra Fria terminou em 1975", "Se a ONU foi criada em 1975"], "correta": 0, "retorno": "O crescimento de membros pede pesquisa sobre as independências daquele momento, como as colônias portuguesas."}
+  },
+  {
+    "conceito": "Datas diferentes",
+    "explicacao": "As independências se espalham por décadas: Índia 1947, Gana 1957, Argélia 1962, Angola 1975, Namíbia 1990.",
+    "assoc": {"pergunta": "O que a linha do tempo mostra?", "alternativas": ["Processos em ritmos e décadas diferentes", "Um movimento único e simultâneo", "Independências só na Ásia"], "correta": 0, "retorno": "Quarenta e três anos separam o primeiro e o último exemplo da lista."},
+    "ordem": {"passos": ["Ordenar as datas na linha do tempo", "Anotar o território de cada data", "Comparar os intervalos"], "retorno": "Ordenamos, identificamos e comparamos os intervalos para enxergar a dispersão no tempo."},
+    "apl": {"pergunta": "Um texto diz que a descolonização durou de 1945 a 1975. Como conferir?", "alternativas": ["Procurar datas de início e fim de processos, como a Namíbia em 1990", "Aceitar sem conferir", "Trocar por outra opinião"], "correta": 0, "retorno": "Conferir com datas: a Namíbia (1990) mostra que o período foi ainda mais longo."}
+  },
+  {
+    "conceito": "Mobilização local",
+    "explicacao": "Discursos de líderes africanos dos anos 1950 cobravam fim do domínio e destino próprio.",
+    "assoc": {"pergunta": "O que essas falas evidenciam?", "alternativas": ["Organização e projeto político local", "Aliança entre impérios", "Tratado da Guerra Fria"], "correta": 0, "retorno": "A voz dos líderes locais é evidência de mobilização própria, não de decisão europeia."},
+    "ordem": {"passos": ["Ler quem fala e para quem", "Sublinhar as reivindicações", "Relacionar com o processo de independência"], "retorno": "Identificamos o autor, extraímos as reivindicações e conectamos com o processo."},
+    "apl": {"pergunta": "Ao ler um discurso de líder asiático de 1946 contra o domínio colonial, o que ele evidencia?", "alternativas": ["Mobilização local por independência", "Apoio ao império", "Criação de um bloco militar"], "correta": 0, "retorno": "A cobrança de fim do domínio evidencia mobilização local, em qualquer continente."}
+  },
+  {
+    "conceito": "Limite da fonte",
+    "explicacao": "Um atlas europeu de 1950 exalta as riquezas das colônias e não traz vozes dos colonizados.",
+    "assoc": {"pergunta": "Qual é o limite dessa fonte?", "alternativas": ["Mostra o império e omite os colonizados", "Representa a opinião dos colonizados", "Prova que não havia resistência"], "correta": 0, "retorno": "O silêncio da fonte é um limite a declarar, não prova de ausência."},
+    "ordem": {"passos": ["Identificar quem produziu a fonte", "Listar o que ela mostra", "Registrar o que ela omite"], "retorno": "Quem produziu, o que mostra e o que omite: os três passos para declarar limites."},
+    "apl": {"pergunta": "Um álbum de fotos de uma fábrica colonial mostra apenas máquinas e produtos. O que perguntar?", "alternativas": ["Onde estão os trabalhadores e suas condições", "Se as fotos são bonitas", "Se a fábrica existe hoje"], "correta": 0, "retorno": "Perguntar pelo que foi omitido — aqui, o trabalho das pessoas — é parte da análise."}
+  },
+  {
+    "conceito": "Comparar fontes",
+    "explicacao": "Sobre a mesma independência, um documento britânico fala em transferência de poder; um jornal local, em vitória depois de longa luta.",
+    "assoc": {"pergunta": "O que a comparação revela?", "alternativas": ["Pontos de vista diferentes do mesmo processo", "Que uma fonte é falsa", "Que as duas dizem a mesma coisa"], "correta": 0, "retorno": "As versões divergentes revelam interesses diferentes em disputa."},
+    "ordem": {"passos": ["Identificar o autor de cada fonte", "Comparar as palavras escolhidas", "Explicar a diferença"], "retorno": "Identificamos autores, comparamos vocabulário e explicamos a divergência."},
+    "apl": {"pergunta": "Dois jornais de 1975 narram a mesma independência com tons opostos. O primeiro passo é:", "alternativas": ["Situar quem escreveu cada um e para quem", "Escolher o mais emocionante", "Jogar os dois fora"], "correta": 0, "retorno": "Situar os autores primeiro; a divergência depois vira informação sobre o processo."}
+  },
+  {
+    "conceito": "Metrópoles enfraquecidas",
+    "explicacao": "A Segunda Guerra (1939–1945) deixou a Europa devastada, endividada e com menos prestígio.",
+    "assoc": {"pergunta": "Relação disso com as independências?", "alternativas": ["Custou mais caro manter impérios depois da guerra", "As colônias ficaram mais ricas que as metrópoles", "Não houve relação"], "correta": 0, "retorno": "O enfraquecimento europeu foi uma condição — não a única causa."},
+    "ordem": {"passos": ["Descrever a situação da Europa em 1945", "Pensar no custo de manter impérios", "Somar com as outras causas"], "retorno": "Descrevemos a metrópole, avaliamos o custo do império e somamos as demais causas."},
+    "apl": {"pergunta": "Um império sai arruinado de uma guerra longa. O que fica mais difícil?", "alternativas": ["Custear exércitos e administrações em territórios distantes", "Construir escolas na metrópole", "Fazer acordos comerciais"], "correta": 0, "retorno": "A ruína econômica atinge primeiro o que custa mais caro: manter o domínio à distância."}
+  },
+  {
+    "conceito": "Interesses das superpotências",
+    "explicacao": "Na Guerra Fria, EUA e URSS criticavam o colonialismo europeu enquanto disputavam aliados.",
+    "assoc": {"pergunta": "Por que pressionavam os impérios?", "alternativas": ["Para ganhar influência sobre os países novos", "Porque queriam colonizar a África", "Por obrigação da ONU"], "correta": 0, "retorno": "A crítica servia à disputa bipolar: aliados, bases e votos."},
+    "ordem": {"passos": ["Lembrar o que era a Guerra Fria", "Perguntar quem lucra com o fim dos impérios rivais", "Concluir sobre o interesse"], "retorno": "Recordamos a disputa, perguntamos quem lucra e concluímos sobre o interesse."},
+    "apl": {"pergunta": "Hoje, uma grande potência critica o domínio de outro país sobre uma região vizinha. O que perguntar antes de aceitar?", "alternativas": ["Que interesse ela tem nessa crítica", "Se a crítica está bem escrita", "Se ela é potência antiga"], "correta": 0, "retorno": "Perguntar pelo interesse não anula a crítica, mas completa a análise."}
+  },
+  {
+    "conceito": "Papel dos movimentos",
+    "explicacao": "Congressos, partidos e sindicatos organizaram a luta por independência dentro das colônias.",
+    "assoc": {"pergunta": "Qual foi o papel desses movimentos?", "alternativas": ["Organizaram a luta com projetos próprios", "Esperaram a decisão europeia", "Foram criados pelas superpotências"], "correta": 0, "retorno": "A independência foi conquistada por mobilização, não concedida por gentileza."},
+    "ordem": {"passos": ["Listar as formas de organização", "Identificar suas reivindicações", "Ligar com o resultado"], "retorno": "Listamos organizações, extraímos reivindicações e ligamos com as independências."},
+    "apl": {"pergunta": "Em uma luta atual por direitos, para que servem organizações e lideranças locais?", "alternativas": ["Formular reivindicações e dar continuidade à luta", "Apenas divulgar na internet", "Esperar decisões de fora"], "correta": 0, "retorno": "Organização dá força e continuidade — na descolonização e em qualquer luta por direitos."}
+  },
+  {
+    "conceito": "Negociação ou guerra",
+    "explicacao": "A Índia (1947) chegou à independência por negociação; a Argélia (1962), após guerra de oito anos.",
+    "assoc": {"pergunta": "O que explica caminhos diferentes?", "alternativas": ["Contextos diferentes de movimento, metrópole e sociedade", "A Ásia negocia e a África luta", "Decisão por sorteio"], "correta": 0, "retorno": "A explicação está no cruzamento de forças de cada caso, não no continente."},
+    "ordem": {"passos": ["Examinar o movimento local", "Examinar o interesse da metrópole", "Comparar os dois casos"], "retorno": "Examinamos movimento e metrópole em cada caso e só então comparamos."},
+    "apl": {"pergunta": "Dois países vizinhos conquistaram direitos por vias diferentes: um por acordo, outro por conflito. O que explica?", "alternativas": ["Contextos e forças políticas diferentes em cada país", "Diferença de continente", "Acaso"], "correta": 0, "retorno": "Caminhos diferentes vêm de condições diferentes — dentro do mesmo continente também."}
+  },
+  {
+    "conceito": "Guerra Fria no Sul",
+    "explicacao": "Depois das independências, EUA e URSS apoiaram lados diferentes em conflitos internos de países novos.",
+    "assoc": {"pergunta": "Qual é a relação entre Guerra Fria e descolonização?", "alternativas": ["Os blocos disputaram influência sobre os países novos", "A Guerra Fria acabou antes", "Os novos países ficaram obrigados à neutralidade"], "correta": 0, "retorno": "Os processos se cruzam: independências num mundo dividido em blocos."},
+    "ordem": {"passos": ["Situar as datas dos dois processos", "Identificar os apoios de cada lado", "Explicar o cruzamento"], "retorno": "Situar datas, mapear apoios e explicar o cruzamento — é assim que se conecta os dois temas."},
+    "apl": {"pergunta": "Um país novo recebe armas de um lado e dinheiro do outro em uma disputa interna. Como descrever?", "alternativas": ["Conflito local internacionalizado pela Guerra Fria", "Guerra entre EUA e URSS direta", "Problema sem relação externa"], "correta": 0, "retorno": "A disputa é local, mas os apoios externos a internacionalizam — sem guerra direta entre as superpotências."}
+  },
+  {
+    "conceito": "Economia colonial",
+    "explicacao": "Colônias exportavam matérias-primas baratas, com lucros e decisões concentrados na metrópole.",
+    "assoc": {"pergunta": "Que pressão essa estrutura gerou?", "alternativas": ["Exigência de controlar as próprias riquezas", "Doação de riquezas às colônias", "Ausência de economia"], "correta": 0, "retorno": "A pauta econômica entrou na luta política: nossas riquezas para nosso povo."},
+    "ordem": {"passos": ["Identificar o que a colônia produzia", "Ver quem decidia preços e lucros", "Relacionar com a reivindicação"], "retorno": "Produção, decisão e reivindicação: a cadeia que liga economia e política."},
+    "apl": {"pergunta": "Uma região exporta só matéria-prima e importa tudo industrializado, com preços decididos fora. O que observar?", "alternativas": ["A dependência dessa estrutura e quem se beneficia", "Que a região é naturalmente pobre", "Que exportar é sempre ruim"], "correta": 0, "retorno": "Observar a dependência e a quem ela serve — sem concluir que pobreza é natural."}
+  },
+  {
+    "conceito": "Fronteiras herdadas",
+    "explicacao": "Fronteiras coloniais dividiram povos e juntaram grupos diferentes; a maioria dos países novos decidiu mantê-las.",
+    "assoc": {"pergunta": "O que a manutenção produziu?", "alternativas": ["Tensões em vários países novos", "Fim de todos os conflitos", "Redesenho total das fronteiras"], "correta": 0, "retorno": "Mantidas para evitar guerras maiores, as fronteiras herdadas seguiram fonte de tensão."},
+    "ordem": {"passos": ["Lembrar quem desenhou as fronteiras", "Entender por que foram mantidas", "Avaliar as consequências"], "retorno": "Origem, razão da manutenção e consequências: os três passos da análise."},
+    "apl": {"pergunta": "Duas comunidades rivais ficam no mesmo país por causa de uma fronteira antiga. O que analisar primeiro?", "alternativas": ["A origem dessa divisão territorial", "Qual comunidade tem razão", "Qual é maior"], "correta": 0, "retorno": "Analisar a origem territorial antes de julgar os lados — a divisão vem antes da disputa."}
+  },
+  {
+    "conceito": "Explicação multifatorial",
+    "explicacao": "O Ano da África (1960) resultou da soma: metrópoles enfraquecidas, mobilização madura e pressão internacional.",
+    "assoc": {"pergunta": "O que explica a onda de 1960?", "alternativas": ["Várias causas somadas ao mesmo tempo", "Coincidência", "Ordem da ONU"], "correta": 0, "retorno": "Ondas históricas têm causas combinadas, nunca uma só."},
+    "ordem": {"passos": ["Listar as causas estudadas", "Verificar quais estavam maduras em 1960", "Escrever a explicação articulada"], "retorno": "Listar, verificar maturação e articular: o caminho da boa explicação."},
+    "apl": {"pergunta": "Vários países mudam de governo no mesmo ano. Como o historiador explica?", "alternativas": ["Procura causas combinadas naquele momento", "Atribui ao acaso", "Cita apenas um país"], "correta": 0, "retorno": "Ondas pedem causas combinadas: econômicas, sociais e políticas no mesmo período."}
+  },
+  {
+    "conceito": "Voz na ONU",
+    "explicacao": "Os países novos passaram a ter assento e voto, mudando o equilíbrio das assembleias.",
+    "assoc": {"pergunta": "Efeito político das independências na ONU?", "alternativas": ["Mais voz para os países do Sul", "Fim da ONU", "Fim da Guerra Fria"], "correta": 0, "retorno": "Mais membros e votos mudaram a correlação de forças nos fóruns."},
+    "ordem": {"passos": ["Comparar membros antes e depois", "Identificar pautas comuns dos novos membros", "Concluir sobre o efeito"], "retorno": "Comparamos números, identificamos pautas e concluímos o efeito político."},
+    "apl": {"pergunta": "Numa votação de assembleia, entram muitos membros novos com pauta semelhante. O que muda?", "alternativas": ["O equilíbrio de votos", "O regulamento", "A sede"], "correta": 0, "retorno": "Muda o equilíbrio: pautas antes derrotadas podem passar a vencer."}
+  },
+  {
+    "conceito": "Neocolonialismo",
+    "explicacao": "Após a independência, muitos países seguiram dependentes: preços, dívidas e empresas decididos de fora.",
+    "assoc": {"pergunta": "Como caracterizar essa situação?", "alternativas": ["Dependência econômica sem domínio político formal", "Colonialismo clássico", "Igualdade imediata"], "correta": 0, "retorno": "Bandeira própria, economia dependente: isso é neocolonialismo."},
+    "ordem": {"passos": ["Verificar o domínio político formal", "Verificar quem decide a economia", "Nomear a situação"], "retorno": "Sem domínio formal, mas com decisão econômica externa: nomeamos o neocolonialismo."},
+    "apl": {"pergunta": "Um país elege seus governantes, mas o preço de sua principal exportação é fixado fora. Como descrever?", "alternativas": ["Independência política com dependência econômica", "Colônia formal", "País igual aos demais"], "correta": 0, "retorno": "Soberania política incompleta na economia: a descrição cabe no neocolonialismo."}
+  },
+  {
+    "conceito": "Conflito internacionalizado",
+    "explicacao": "Em Angola após 1975, lados internos receberam apoios diferentes: Cuba e URSS de um lado; EUA e África do Sul do outro.",
+    "assoc": {"pergunta": "O que o caso mostra?", "alternativas": ["Guerra Fria alimentando conflito local com armas e apoio", "Guerra Fria impedindo conflitos", "Conflito sem relação externa"], "correta": 0, "retorno": "A disputa local virou tabuleiro da Guerra Fria."},
+    "ordem": {"passos": ["Identificar os lados locais", "Mapear os apoios externos", "Explicar a internacionalização"], "retorno": "Lados locais, apoios externos e o cruzamento: a anatomia do conflito internacionalizado."},
+    "apl": {"pergunta": "Uma guerra civil recebe armas de países rivais que não se enfrentam diretamente. Como chamar?", "alternativas": ["Conflito local internacionalizado", "Guerra mundial", "Paz armada"], "correta": 0, "retorno": "Rivais que se enfrentam por procuração: conflito local internacionalizado."}
+  },
+  {
+    "conceito": "Não alinhamento",
+    "explicacao": "Em Bandung (1955) e no Movimento dos Não Alinhados (1961), países novos buscaram caminho próprio fora dos blocos.",
+    "assoc": {"pergunta": "O que propunham?", "alternativas": ["Não ficar obrigados a nenhum bloco", "Entrar no bloco soviético", "Recriar impérios"], "correta": 0, "retorno": "Terceira via: cooperação entre países novos sem obrigação de bloco."},
+    "ordem": {"passos": ["Situar as conferências no tempo", "Identificar os participantes", "Resumir a proposta"], "retorno": "Situar, identificar participantes e resumir a proposta de não alinhamento."},
+    "apl": {"pergunta": "Hoje, um país pequeno evita alianças militares fixas e negocia com todos. Que ideia histórica isso lembra?", "alternativas": ["Não alinhamento", "Colonialismo", "Apartheid"], "correta": 0, "retorno": "Lembra o não alinhamento: autonomia sem obrigação de bloco."}
+  },
+  {
+    "conceito": "Independência com custo",
+    "explicacao": "A independência da Índia (1947) veio com a partição: milhões de deslocados e violência enorme.",
+    "assoc": {"pergunta": "O que a partição mostra?", "alternativas": ["A independência pode vir com custos graves", "O processo foi inteiramente pacífico", "A partição foi unânime"], "correta": 0, "retorno": "Conquista e tragédia cabem na mesma história."},
+    "ordem": {"passos": ["Separar a conquista da independência", "Examinar o custo da partição", "Contar as duas partes"], "retorno": "Primeiro a conquista, depois o custo: a explicação completa tem as duas."},
+    "apl": {"pergunta": "Um país conquista um direito histórico, mas com vítimas e perdas no processo. Como narrar?", "alternativas": ["As duas partes: conquista e custo", "Só a conquista", "Só o custo"], "correta": 0, "retorno": "Narrativas completas sustentam conquista e custo juntos, sem apagar nenhum."}
+  },
+  {
+    "conceito": "Processo longo",
+    "explicacao": "A Namíbia só se tornou independente em 1990; o apartheid terminou em 1994.",
+    "assoc": {"pergunta": "O que essas datas ensinam?", "alternativas": ["O processo foi longo e desigual", "Terminou em 1960", "Apartheid era independência"], "correta": 0, "retorno": "Trinta anos após o Ano da África ainda havia colônia e segregação."},
+    "ordem": {"passos": ["Comparar as datas do processo", "Identificar o que persistiu", "Formular o limite"], "retorno": "Comparamos datas, identificamos persistências e formulamos o limite da independência política."},
+    "apl": {"pergunta": "Uma lei importante é aprovada, mas sua aplicação leva décadas. O que concluir?", "alternativas": ["A conquista formal e a efetivação são etapas distintas", "A lei não vale nada", "Foi rápido"], "correta": 0, "retorno": "Entre o papel e a vida real há décadas: formal e efetivo são etapas diferentes."}
+  },
+  {
+    "conceito": "Metáfora na charge",
+    "explicacao": "Charge de 1960 mostra o mapa da África acordando, com olhos e braços.",
+    "assoc": {"pergunta": "Qual a mensagem?", "alternativas": ["Apoio à libertação colonial", "Defesa do colonialismo", "Relevo físico"], "correta": 0, "retorno": "O acordar simboliza independências — e simplifica processos diversos."},
+    "ordem": {"passos": ["Descrever o desenho", "Decodificar a metáfora", "Avaliar o que ela simplifica"], "retorno": "Descrever, decodificar e avaliar: análise completa de imagem."},
+    "apl": {"pergunta": "Um cartum atual mostra um país como animal acorrentado se soltando. O que fazer primeiro?", "alternativas": ["Decodificar a metáfora e seu contexto", "Concluir que fala de animais", "Curtir a arte"], "correta": 0, "retorno": "Metáfora visual pede decodificação: o que a corrente e a soltura representam?"}
+  },
+  {
+    "conceito": "Corrigir generalização",
+    "explicacao": "Dizer que a África toda ficou independente do mesmo jeito em 1960 é generalização errada.",
+    "assoc": {"pergunta": "Qual é a melhor correção?", "alternativas": ["Comparar datas, atores e caminhos", "Concordar", "Trocar por outra generalização"], "correta": 0, "retorno": "Gana 1957, Argélia 1962, Angola 1975: a comparação desfaz a generalização."},
+    "ordem": {"passos": ["Ouvir a afirmação geral", "Buscar exemplos com datas diferentes", "Responder comparando"], "retorno": "Ouvir, buscar exemplos e responder comparando: o método contra generalizações."},
+    "apl": {"pergunta": "Alguém diz que todos os países da América Latina ganharam independência no mesmo ano. Como conferir?", "alternativas": ["Comparar as datas de independência de cada país", "Aceitar a frase", "Responder com outra frase geral"], "correta": 0, "retorno": "Comparar datas: o método serve para qualquer continente."}
+  },
+  {
+    "conceito": "Relação sem fatalismo",
+    "explicacao": "Afirmação do tipo sempre foi pobre esconde a história; a explicação relaciona processos sem tratar nada como destino.",
+    "assoc": {"pergunta": "Qual é a melhor resposta histórica?", "alternativas": ["Relacionar exploração, fronteiras e dependências sem fatalismo", "Concordar que é destino", "Culpar só os governos atuais"], "correta": 0, "retorno": "Relações históricas explicam parte do presente; escolhas atuais também pesam."},
+    "ordem": {"passos": ["Identificar a afirmação fatalista", "Levantar processos históricos relevantes", "Equilibrar história e presente"], "retorno": "Identificar, levantar processos e equilibrar: resposta sem fatalismo."},
+    "apl": {"pergunta": "Alguém diz que uma região sempre foi atrasada por natureza. O que a história oferece?", "alternativas": ["Processos que explicam desigualdades, sem destino natural", "Confirmação do atraso", "Silêncio"], "correta": 0, "retorno": "A história substitui natureza por processos: nada é atrasado desde sempre."}
+  },
+  {
+    "conceito": "Situar fonte nova",
+    "explicacao": "Diante de um discurso de 1975 de líder do Sudeste Asiático, o primeiro passo é situá-lo.",
+    "assoc": {"pergunta": "O que fazer primeiro?", "alternativas": ["Situar quem fala, quando, onde e para quem", "Concluir que mente", "Aplicar opinião pessoal"], "correta": 0, "retorno": "Situar antes de interpretar: autor, data, lugar e público."},
+    "ordem": {"passos": ["Perguntar quem escreveu e quando", "Perguntar para quem e com que fim", "Só então interpretar"], "retorno": "Quem, quando, para quem — depois a interpretação."},
+    "apl": {"pergunta": "Você recebe um post sobre um conflito atual. Qual é o primeiro passo?", "alternativas": ["Verificar autor, data e fonte", "Compartilhar logo", "Concordar com quem escreveu bonito"], "correta": 0, "retorno": "Situar antes de compartilhar: autor, data e fonte — o método vale para redes sociais."}
+  },
+  {
+    "conceito": "Explicar com evidência",
+    "explicacao": "Explicar por que a descolonização ocorreu após 1945 exige articular causas com exemplos datados.",
+    "assoc": {"pergunta": "Qual resposta é melhor?", "alternativas": ["Causas articuladas com exemplos datados", "Foi sorte", "Citar só a ONU"], "correta": 0, "retorno": "Guerra + mobilização + pressão internacional, com Índia 1947 e África 1960."},
+    "ordem": {"passos": ["Listar as causas", "Escolher exemplos com data", "Escrever a explicação articulada"], "retorno": "Causas, exemplos datados e redação final: a explicação completa."},
+    "apl": {"pergunta": "Ao explicar por que uma cidade cresceu num período, o que incluir?", "alternativas": ["Causas combinadas com dados do período", "Apenas opinião", "Uma única causa"], "correta": 0, "retorno": "Explicações históricas fortes articulam causas com evidências datadas — em qualquer tema."}
+  }
+]

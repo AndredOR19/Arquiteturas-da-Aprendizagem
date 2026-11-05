@@ -1,0 +1,742 @@
+{
+  "id": "elementos-da-convivencia-7ano",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "7º ano",
+  "componente": "ERER — Educação para as Relações Étnico-Raciais",
+  "data": "não fixada",
+  "titulo": "Elementos da Convivência",
+  "pergunta": "Como reconhecer estereótipos, preconceito e racismo nas situações do dia a dia — e intervir de forma fundamentada, com direitos e respeito às identidades?",
+  "resumo": "Estereótipos, preconceito, discriminação e racismo estrutural; consequências e exclusão; direitos e leis (10.639/2003 e 11.645/2008); identidades e atitudes antirracistas em situações hipotéticas.",
+  "habilidades": [
+    "ERER conforme Lei 10.639/2003 e Lei 11.645/2008 e Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais (DCNERER): reconhecer e questionar estereótipos, preconceitos e discriminações raciais e sociais, posicionando-se frente a eles.",
+    "Nenhum código BNCC específico registrado nesta aula: habilidade da etapa só será incluída após conferência em fonte oficial — sem inventar código."
+  ],
+  "continuidade": "Aula do componente ERER (tarde, 7º ano), após a exibição e rodada de conversa do filme Elementos. As situações do jogo são hipotéticas e criadas para a prática; o filme é ponte de conversa, não fonte de imagens ou personagens (nenhum material do filme é reproduzido).",
+  "fontes": [
+    [
+      "Prof. André de Oliveira Rodrigues",
+      "ERER 7º ano: filme Elementos como disparador; estereótipos, preconceito, discriminação racial, racismo estrutural, exclusão, direitos, identidades e atitudes antirracistas; situações hipotéticas criadas para a prática",
+      "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/"
+    ],
+    [
+      "Lei 10.639/2003 e Lei 11.645/2008; DCNERER (MEC)",
+      "Ensino obrigatório de história e cultura afro-brasileira e indígena; diretrizes para as relações étnico-raciais",
+      "https://www.gov.br/mec/pt-br/areas-de-atuacao/areas-estrategicas/educacao-para-as-relacoes-etnico-raciais"
+    ],
+    [
+      "Base Nacional Comum Curricular (MEC)",
+      "Consulta para eventual habilidade específica — nenhum código registrado sem conferência prévia",
+      "https://www.gov.br/mec/pt-br/areas-de-atuacao/aprendizado-adequado-e-inclusivo/educacao-basica/curriculo/base-nacional-comum-curricular-bncc"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · O que vou conseguir fazer",
+      "texto": "Você vai treinar o olhar para situações reais de convivência: identificar o problema, observar quem é afetado e como, e planejar uma intervenção fundamentada — sabendo a diferença entre estereótipo, preconceito, discriminação e racismo estrutural.",
+      "ancora": "D · a situação e o problema → R · consequências e direitos → E · intervenção fundamentada → L · metáfora não é o processo real.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · O caminho do olhar crítico",
+      "texto": "Primeiro nomear: estereótipo é a ideia fixa sobre um grupo; preconceito é o julgamento anterior; discriminação é a ação que exclui; racismo estrutural é a desigualdade enraizada na história e nas instituições — que existe mesmo sem intenção individual. Depois observar consequências, acionar direitos e escolher a atitude.",
+      "ancora": "Identificar → observar consequências → acionar direitos → intervir → avaliar o efeito.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · O mesmo método em outras situações",
+      "texto": "Pátio da escola, grupo de mensagens, filme, notícia, piada de corredor: o caminho é o mesmo — quem foi atingido, que padrão se repete, que direito está em jogo, que atitude cabe agora.",
+      "ancora": "Situação nova → mesmo método → atitude adequada ao contexto.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · Armadilhas do senso comum",
+      "texto": "Armadilhas frequentes: 'era só uma piada' (humor pode naturalizar preconceito); 'não vejo raça, vejo pessoas' (negar o problema não o resolve); 'racismo é só quando alguém é agressivo' (estrutural existe sem agressão explícita); 'o filme resolve com fantasia' (metáfora ajuda a conversar, mas não substitui o processo real).",
+      "ancora": "Ponto cego: a familiaridade disfarça o padrão. Ação: perguntar quem é atingido, com que frequência e o que o direito garante.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Nomear o problema",
+      "Do estereótipo ao racismo estrutural",
+      "Ideia fixa, julgamento anterior, ação que exclui e desigualdade enraizada: quatro palavras diferentes para fenômenos diferentes."
+    ],
+    [
+      "Consequências e direitos",
+      "Quem é atingido e o que a lei garante",
+      "Estereótipos e discriminação afetam oportunidades e autoimagem; a Constituição, o ECA e as Leis 10.639/2003 e 11.645/2008 garantem direitos."
+    ],
+    [
+      "Atitudes antirracistas",
+      "O que fazer em situação real",
+      "Acolher quem foi atingido, nomear o problema, buscar apoio de adultos, registrar e denunciar — posição de quem observa também é escolha."
+    ]
+  ],
+  "glossario": {
+    "Estereótipo": "Ideia fixa e generalizada sobre um grupo de pessoas, que ignora as diferenças individuais.",
+    "Preconceito": "Julgamento formado antes de conhecer; atitude interiorizada que antecede a informação.",
+    "Discriminação": "Ação que trata pessoas de forma desigual e as exclui, com base em características como raça, gênero ou origem.",
+    "Racismo estrutural": "Desigualdade enraizada na história e no funcionamento das instituições, que se mantém mesmo sem intenção individual explícita.",
+    "Identidade": "Conjunto de pertenças de uma pessoa (cultura, história, família, gostos) — ninguém se reduz a uma só.",
+    "Direitos": "Garantias asseguradas por leis, como a Constituição, o ECA e as Leis 10.639/2003 e 11.645/2008.",
+    "Intervenção": "Ação deliberada diante de um problema: nomear, apoiar, buscar ajuda ou denunciar."
+  },
+  "dicionario": {
+    "Reconhecer": "Identificar o padrão na situação, nomeando o problema com precisão.",
+    "Observar": "Notar quem é atingido, de que forma e com que frequência.",
+    "Fundamentar": "Sustentar a posição em direitos e em consequências observadas, não em opinião solta.",
+    "Acolher": "Dar apoio e palavra a quem foi atingido, antes de qualquer outra medida."
+  },
+  "percursos": [
+    {
+      "titulo": "Ideia fixa sobre um grupo",
+      "fase": "Reconhecer",
+      "explicacao": "No filme Elementos, mundos muito diferentes precisam aprender a conviver. Na conversa após a exibição, alguém repete uma frase que sempre ouviu sobre 'como é' um certo grupo de pessoas.",
+      "pergunta": "Como se chama essa ideia fixa e generalizada sobre um grupo?",
+      "alternativas": [
+        "Estereótipo",
+        "Direito",
+        "Identidade"
+      ],
+      "correta": 0,
+      "justificativa": "Estereótipo é a generalização que apaga as diferenças individuais: 'todo mundo de X é assim'. Ele costuma parecer inofensivo, mas é a base sobre a qual preconceito e discriminação se apoiam.",
+      "pistas": [
+        "A frase ignora que cada pessoa é única?",
+        "Ideia fixa sobre grupo = estereótipo.",
+        "Estereótipo é a generalização que apaga as diferenças individuais: 'todo mundo de X é assim'. Ele costuma parecer inofensivo, mas é a base sobre a qual preconceito e discriminação se apoiam."
+      ],
+      "retorno": {
+        "0": "Correto: generalizar um grupo é o primeiro degrau do problema — e nomear é o primeiro passo para questionar.",
+        "1": "Direito é garantia, não julgamento de grupo.",
+        "2": "Identidade é pertencimento próprio; o estereótipo é o rótulo imposto de fora."
+      },
+      "ponto": "Achar que generalização positiva não faz mal.",
+      "acao": "Pegue um estereótipo que você já ouviu e reescreva reconhecendo a variedade do grupo."
+    },
+    {
+      "titulo": "Julgamento anterior ao conhecimento",
+      "fase": "Reconhecer",
+      "explicacao": "Um estudante novo chega à turma. Antes de qualquer conversa, alguns já decidiram 'como ele deve ser' por causa da aparência dele.",
+      "pergunta": "O que é preconceito, nesse caso?",
+      "alternativas": [
+        "O julgamento formado antes de conhecer a pessoa",
+        "A decisão de excluí-la do grupo",
+        "A lei que protege o estudante"
+      ],
+      "correta": 0,
+      "justificativa": "Preconceito é julgar antes: a opinião vem primeiro e a informação (nem chega a vir) depois; quando o julgamento vira ação de exclusão, passa a ser discriminação — os dois são diferentes e andam juntos.",
+      "pistas": [
+        "O que vem primeiro: conhecer ou julgar?",
+        "Pre + conceito: ideia anterior ao conhecimento.",
+        "Preconceito é julgar antes: a opinião vem primeiro e a informação (nem chega a vir) depois; quando o julgamento vira ação de exclusão, passa a ser discriminação — os dois são diferentes e andam juntos."
+      ],
+      "retorno": {
+        "0": "Correto: julgamento antecipado — e o antídoto é conhecer antes de concluir.",
+        "1": "Excluir é a ação: isso é discriminação, o passo seguinte.",
+        "2": "A lei entra como proteção, não como definição de preconceito."
+      },
+      "ponto": "Confundir julgamento interno com ação externa.",
+      "acao": "Descreva uma situação em que conhecer alguém derrubou uma ideia pronta."
+    },
+    {
+      "titulo": "Quando vira ação",
+      "fase": "Reconhecer",
+      "explicacao": "Na situação hipotética do jogo, um estudante é deixado de fora do time 'porque gente como ele não joga bem'.",
+      "pergunta": "Que fenômeno a cena mostra?",
+      "alternativas": [
+        "Discriminação: tratamento desigual que exclui, com base em característica do grupo",
+        "Estereótipo: apenas uma ideia fixa, sem consequência",
+        "Uma regra esportiva comum"
+      ],
+      "correta": 0,
+      "justificativa": "A ideia fixa virou ação: negar lugar no time por 'gente como ele' é discriminação — tratamento desigual e concreto, que a Lei e a escola repudiam; o estereótipo era o discurso, a exclusão é o ato.",
+      "pistas": [
+        "Alguém perdeu uma oportunidade concreta?",
+        "Ideia que vira ação de excluir = discriminação.",
+        "A ideia fixa virou ação: negar lugar no time por 'gente como ele' é discriminação — tratamento desigual e concreto, que a lei e a escola repudiam; o estereótipo era o discurso, a exclusão é o ato."
+      ],
+      "retorno": {
+        "0": "Correto: a oportunidade negada é a prova da ação — e o ponto de intervenção.",
+        "1": "A ideia existe, mas aqui ela saiu do discurso e virou exclusão.",
+        "2": "Nenhuma regra esportiva legitima exclusão por origem ou aparência."
+      },
+      "ponto": "Ficar no discurso e não ver a exclusão concreta.",
+      "acao": "Na cena, aponte a oportunidade negada e quem agiu."
+    },
+    {
+      "titulo": "Racismo não é só intolerância individual",
+      "fase": "Reconhecer",
+      "explicacao": "Um colega diz: 'racismo só existe quando alguém xinga ou agride'. A turma vai discutir.",
+      "pergunta": "O que essa frase deixa de fora?",
+      "alternativas": [
+        "O racismo estrutural: desigualdades enraizadas na história e nas instituições, que se mantêm mesmo sem agressão explícita",
+        "Nada: racismo é mesmo só agressão individual",
+        "O fato de que palavras não machucam"
+      ],
+      "correta": 0,
+      "justificativa": "Reduzir racismo a atitude individual esconde o padrão histórico: acesso desigual a escola, renda, justiça e representação se reproduz geração após geração mesmo sem ninguém 'xingar' — entender isso muda o tamanho da resposta necessária.",
+      "pistas": [
+        "O que os números de desigualdade mostram, mesmo sem agressão visível?",
+        "Existe desigualdade sem agressor identificável? Por quê?",
+        "Reduzir racismo a atitude individual esconde o padrão histórico: acesso desigual a escola, renda, justiça e representação se reproduz geração após geração mesmo sem ninguém 'xingar' — entender isso muda o tamanho da resposta necessária."
+      ],
+      "retorno": {
+        "0": "Correto: o estrutural é o mapa, o individual é um ponto dele — os dois precisam de resposta.",
+        "1": "A agressão individual é real, mas não é o quadro inteiro.",
+        "2": "Palavras ferem e naturalizam; e desigualdade existe além delas."
+      },
+      "ponto": "Medir racismo apenas por intenção individual.",
+      "acao": "Cite uma desigualdade que se mantém sem agressão explícita (ex.: representação em livros didáticos)."
+    },
+    {
+      "titulo": "Metáfora e processo real",
+      "fase": "Reconhecer",
+      "explicacao": "O filme Elementos usa mundos de fantasia para falar de convivência entre diferentes.",
+      "pergunta": "Qual é o limite dessa metáfora?",
+      "alternativas": [
+        "A metáfora ajuda a começar a conversa, mas racismo e exclusão são processos históricos reais, que não se resolvem como no enredo",
+        "A metáfora resolve o problema: basta assistir",
+        "Metáfora e realidade são a mesma coisa"
+      ],
+      "correta": 0,
+      "justificativa": "A fantasia traduz o tema para a idade, mas não substitui o processo real: leis, história, direitos e atitudes cotidianas. Confundir o plano da metáfora com o da realidade esconde o trabalho que a convivência exige.",
+      "pistas": [
+        "O filme acaba; a convivência continua. O que fica por fazer?",
+        "Ajudar a conversar não é o mesmo que resolver.",
+        "A fantasia traduz o tema para a idade, mas não substitui o processo real: leis, história, direitos e atitudes cotidianas. Confundir o plano da metáfora com o da realidade esconde o trabalho que a convivência exige."
+      ],
+      "retorno": {
+        "0": "Correto: o filme é a ponte, a travessia é a vida real — com direitos e atitudes.",
+        "1": "Assistir é o começo; sem conversa e ação, a ponte não é atravessada.",
+        "2": "São planos diferentes: fantasia ilustra, a realidade exige resposta."
+      },
+      "ponto": "Ficar na metáfora e não descer para a situação real.",
+      "acao": "Escolha uma cena do filme e diga o que ela ajuda a conversar — e o que ela não resolve."
+    },
+    {
+      "titulo": "Ninguém é uma coisa só",
+      "fase": "Reconhecer",
+      "explicacao": "Cada pessoa da turma se apresentou citando várias pertenças: família, música, time, fé, lugar de origem, língua dos avós.",
+      "pergunta": "O que a atividade mostra sobre identidade?",
+      "alternativas": [
+        "Identidade é múltipla: cada pessoa reúne várias pertenças que se combinam de modo único",
+        "Identidade é uma única etiqueta definida pelos outros",
+        "Identidade não muda nunca"
+      ],
+      "correta": 0,
+      "justificativa": "Ninguém se resume a um traço: a mesma pessoa é várias coisas ao mesmo tempo, e essa combinação é única — por isso estereótipo e 'grupo homogêneo' são erros dobrados: apagam tanto o indivíduo quanto a variedade interna do grupo.",
+      "pistas": [
+        "Quantas pertenças você listou para si mesmo?",
+        "Uma etiqueta consegue te descrever inteiro?",
+        "Ninguém se resume a um traço: a mesma pessoa é várias coisas ao mesmo tempo, e essa combinação é única — por isso estereótipo e 'grupo homogêneo' são erros dobrados: apagam tanto o indivíduo quanto a variedade interna do grupo."
+      ],
+      "retorno": {
+        "0": "Correto: identidade é conjunto, não etiqueta única.",
+        "1": "Etiquetas impostas de fora são exatamente o que o estereótipo faz.",
+        "2": "Identidades se ampliam com a vida; o essencial é que são muitas."
+      },
+      "ponto": "Reduzir colegas a um único traço.",
+      "acao": "Liste cinco pertenças suas e note qual delas alguém já reduziu você a ser 'só isso'."
+    },
+    {
+      "titulo": "Exclusão silenciosa",
+      "fase": "Reconhecer",
+      "explicacao": "Ninguém xingou ninguém: o grupo de mensagens da turma simplesmente 'esqueceu' de incluir duas colegas nas decisões do trabalho.",
+      "pergunta": "Exclusão sem agressão explícita…",
+      "alternativas": [
+        "Ainda é problema: o efeito — estar fora — é real, e o padrão 'esquecer sempre as mesmas pessoas' mostra o viés",
+        "Não conta, porque ninguém fez por mal",
+        "É sorte das pessoas deixadas de fora"
+      ],
+      "correta": 0,
+      "justificativa": "O critério do problema é o efeito e o padrão, não só a intenção: se as mesmas pessoas são sempre 'esquecidas', o viés opera mesmo sem maldade declarada — reconhecer isso permite corrigir sem acusar de cara.",
+      "pistas": [
+        "Quem foi deixado de fora? É a primeira vez?",
+        "Intenção ou padrão: qual dos dois se repete?",
+        "O critério do problema é o efeito e o padrão, não só a intenção: se as mesmas pessoas são sempre 'esquecidas', o viés opera mesmo sem maldade declarada — reconhecer isso permite corrigir sem acusar de cara."
+      ],
+      "retorno": {
+        "0": "Correto: padrão + efeito revelam o problema — e apontam a correção (incluir de fato).",
+        "1": "'Sem maldade' não apaga o efeito: a correção continua necessária.",
+        "2": "Sorte não explica repetição: padrão se corrige com mudança de prática."
+      },
+      "ponto": "Só enxergar exclusão quando há agressão.",
+      "acao": "Sugira uma prática concreta para o grupo incluir todos nas decisões."
+    },
+    {
+      "titulo": "O que o estereótipo contamina",
+      "fase": "Analisar",
+      "explicacao": "A turma lista consequências de uma ideia fixa espalhada sobre um grupo: na escola, no trabalho, na mídia.",
+      "pergunta": "Quais consequências aparecem?",
+      "alternativas": [
+        "Oportunidades negadas e autoimagem afetada — a pessoa passa a se ver com os olhos do rótulo",
+        "Nenhuma: é só uma opinião",
+        "Somente consequências econômicas"
+      ],
+      "correta": 0,
+      "justificativa": "O estereótipo contamina decisões (quem é chamado para o time, para o projeto, para o emprego) e contamina a autoimagem (a pessoa pode interiorizar o rótulo) — dano material e subjetivo, individual e coletivo.",
+      "pistas": [
+        "O que muda nas chances de quem é rotulado?",
+        "O rótulo de fora pode virar voz de dentro?",
+        "O estereótipo contamina decisões (quem é chamado para o time, para o projeto, para o emprego) e contamina a autoimagem (a pessoa pode interiorizar o rótulo) — dano material e subjetivo, individual e coletivo."
+      ],
+      "retorno": {
+        "0": "Correto: oportunidade e autoimagem — o dano é externo e interno.",
+        "1": "Opinião repetida vira prática: as consequências são bem reais.",
+        "2": "Não só econômicas: subjetividade, saúde e pertencimento também."
+      },
+      "ponto": "Achar que rótulo 'não pega' em ninguém.",
+      "acao": "Aponte no texto da aula uma consequência material e uma subjetiva do estereótipo."
+    },
+    {
+      "titulo": "'Era só uma piada'",
+      "fase": "Analisar",
+      "explicacao": "No corredor, alguém conta uma piada sobre um grupo; quem é do grupo está ali e sorri sem vontade.",
+      "pergunta": "Como analisar a cena?",
+      "alternativas": [
+        "O humor que se apoia em rótulo naturaliza o preconceito — e quem é alvo paga o preço de rir junto para não se isolar",
+        "Piada é piada: nunca tem consequência",
+        "O problema é só de quem se incomoda"
+      ],
+      "correta": 0,
+      "justificativa": "A piada que se sustenta em estereótipo normaliza o rótulo como senso comum; o alvo fica em posição impossível — reagir é 'não ter humor', calar é engolir. Analisar essa armadilha é aprender a ler situações sociais.",
+      "pistas": [
+        "Sobre o que a graça depende: situação engraçada ou rótulo de grupo?",
+        "Por que o alvo sorri sem vontade?",
+        "O humor que se apoia em rótulo naturaliza o preconceito — e quem é alvo paga o preço de rir junto para não se isolar."
+      ],
+      "retorno": {
+        "0": "Correto: a graça às custas do rótulo treina a turma a não levar o grupo a sério.",
+        "1": "Consequência existe: normalização e isolamento do alvo.",
+        "2": "O incômodo é dado legítimo — sinal do problema, não o problema."
+      },
+      "ponto": "Aceitar humor como atenuante universal.",
+      "acao": "Repare numa piada que você ouviu: a graça depende de rótulo ou da situação?"
+    },
+    {
+      "titulo": "Aparência como critério",
+      "fase": "Analisar",
+      "explicacao": "Uma estudante negra ouve que seu cabelo é 'chamativo demais' para a apresentação — e que precisa 'arrumá-lo'.",
+      "pergunta": "O que a análise da situação revela?",
+      "alternativas": [
+        "Usar a estética do grupo majoritário como padrão único é discriminação: trata característica própria como problema a corrigir",
+        "É apenas uma orientação estética neutra",
+        "O critério vale igualmente para todos, portanto é justo"
+      ],
+      "correta": 0,
+      "justificativa": "Quando um único padrão estético define o que é 'arrumado', características de grupos não majoritários viram 'erro' — é assim que a discriminação se apresenta como 'regra neutra'. A escola tem o dever de revisar a regra, não a pessoa.",
+      "pistas": [
+        "'Arrumado' segundo quem?",
+        "A regra afeta todos do mesmo jeito?",
+        "Quando um único padrão estético define o que é 'arrumado', características de grupos não majoritários viram 'erro' — é assim que a discriminação se apresenta como 'regra neutra'. A escola tem o dever de revisar a regra, não a pessoa."
+      ],
+      "retorno": {
+        "0": "Correto: o problema está no padrão único, não na característica.",
+        "1": "Estética 'neutra' costuma ser a do grupo majoritário — não é neutra.",
+        "2": "Regra formalmente igual com efeito desigual também é discriminação."
+      },
+      "ponto": "Confundir padrão dominante com neutralidade.",
+      "acao": "Reescreva a 'regra' de forma que sirva a todos os cabelos igualmente."
+    },
+    {
+      "titulo": "Números sem culpabilizar",
+      "fase": "Analisar",
+      "explicacao": "A aula mostra dados públicos: médias de escolaridade e de renda por cor/raça no Brasil.",
+      "pergunta": "Como ler esses números corretamente?",
+      "alternativas": [
+        "Como evidência de desigualdade estrutural — resultado de história e instituições, não de esforço individual",
+        "Como prova de que um grupo 'se esforça menos'",
+        "Como coincidência sem explicação"
+      ],
+      "correta": 0,
+      "justificativa": "Ler desigualdade como mérito individual culpabiliza quem foi historicamente excluído — o racismo estrutural se mostra justamente em padrões que persistem entre gerações; os números descrevem o terreno desigual, não o valor das pessoas.",
+      "pistas": [
+        "O que a história do país fez com o acesso de cada grupo a terra e escola?",
+        "Desigualdade persistente é mérito ou terreno desigual?",
+        "Ler desigualdade como mérito individual culpabiliza quem foi historicamente excluído — o racismo estrutural se mostra justamente em padrões que persistem entre gerações; os números descrevem o terreno desigual, não o valor das pessoas."
+      ],
+      "retorno": {
+        "0": "Correto: o número mede o terreno, não as pessoas — e terreno desigual se corrige com política e direito.",
+        "1": "Essa leitura é o erro clássico: transforma efeito em culpa.",
+        "2": "Padrão estatístico persistente não é acaso."
+      },
+      "ponto": "Culpabilizar a vítima da desigualdade.",
+      "acao": "Explique em uma frase por que a média não mede esforço."
+    },
+    {
+      "titulo": "Sofrimento não é pontuação",
+      "fase": "Analisar",
+      "explicacao": "Alguém sugere fazer um jogo em que 'quem sofre mais preconceito ganha pontos'.",
+      "pergunta": "Por que isso é inadequado?",
+      "alternativas": [
+        "Porque transforma dor real em disputa recreativa — quem viveu exclusão vira peça de um placar",
+        "Porque seria um jogo lento",
+        "Porque ninguém sofre preconceito de verdade"
+      ],
+      "correta": 0,
+      "justificativa": "Sofrimento racial não é insumo de entretenimento: transformá-lo em pontuação banaliza a dor e expõe quem já foi atingido. Esta aula treina análise e intervenção — o jogo aqui é de situações hipotéticas, nunca da dor de colegas reais.",
+      "pistas": [
+        "O que acontece com quem já foi alvo quando a dor vira placar?",
+        "Analisar situações hipotéticas é diferente de pontuar dores reais?",
+        "Sofrimento racial não é insumo de entretenimento: transformá-lo em pontuação banaliza a dor e expõe quem já foi atingido. Esta aula treina análise e intervenção — o jogo aqui é de situações hipotéticas, nunca da dor de colegas reais."
+      ],
+      "retorno": {
+        "0": "Correto: o limite ético é claro — situação hipotética sim, dor alheia como placar nunca.",
+        "1": "O problema não é técnico: é ético.",
+        "2": "O sofrimento existe — e é justamente por isso que não vira jogo."
+      },
+      "ponto": "Banalizar dor em nome da dinâmica.",
+      "acao": "Proponha uma dinâmica que treine empatia sem expor ninguém."
+    },
+    {
+      "titulo": "O que a escola deve",
+      "fase": "Analisar",
+      "explicacao": "O estatuto da escola diz que ninguém pode ser tratado de forma desigual por raça, cor, origem ou religião.",
+      "pergunta": "Quando a regra é descumprida, o que a análise exige?",
+      "alternativas": [
+        "Apuração do caso, proteção de quem foi atingido e resposta educativa — a instituição age sobre o ato e sobre o ambiente",
+        "Nada: cada um resolve por conta própria",
+        "Apenas transferir o estudante atingido"
+      ],
+      "correta": 0,
+      "justificativa": "Analisar institucionalmente é perguntar: como o caso foi apurado, como quem foi atingido foi protegido e o que mudou no ambiente — a resposta que só pune (ou que ignora) não altera o padrão que produziu o problema.",
+      "pistas": [
+        "Além de saber quem agiu, o que mais precisa acontecer?",
+        "Quem foi atingido ficou protegido?",
+        "Analisar institucionalmente é perguntar: como o caso foi apurado, como quem foi atingido foi protegido e o que mudou no ambiente — a resposta que só pune (ou que ignora) não altera o padrão que produziu o problema."
+      ],
+      "retorno": {
+        "0": "Correto: apuração + proteção + mudança de ambiente: análise completa.",
+        "1": "Deixar por conta própria reproduz o abandono de quem foi atingido.",
+        "2": "Transferir a vítima pune quem sofreu — o ambiente é que precisa mudar."
+      },
+      "ponto": "Reduzir o caso a punição individual.",
+      "acao": "Liste as três perguntas da análise institucional para um caso hipotético."
+    },
+    {
+      "titulo": "Direitos que já existem",
+      "fase": "Analisar",
+      "explicacao": "A turma separa o que é 'pedido de gentileza' do que é 'direito garantido'.",
+      "pergunta": "Qual desses é direito garantido por lei no Brasil?",
+      "alternativas": [
+        "Proteção contra discriminação racial — assegurada pela Constituição e por leis específicas",
+        "Ser incluído no grupo de mensagens da moda",
+        "Gostar de todos os colegas"
+      ],
+      "correta": 0,
+      "justificativa": "A Constituição repudia racismo; o ECA protece crianças e adolescentes; leis específicas definem deveres e consequências. Direito não depende de simpatia — vale mesmo quando ninguém 'gosta' — e é isso que o diferencia de gentileza.",
+      "pistas": [
+        "O que vale mesmo quando ninguém está de bom humor?",
+        "Constituição, ECA e leis antidiscriminação garantem o quê?",
+        "A Constituição repudia racismo; o ECA protege crianças e adolescentes; leis específicas definem deveres e consequências. Direito não depende de simpatia — vale mesmo quando ninguém 'gosta' — e é isso que o diferencia de gentileza."
+      ],
+      "retorno": {
+        "0": "Correto: proteção antidiscriminação é direito — exigível, não favor.",
+        "1": "Inclusão em grupo da moda é questão social, não direito legal.",
+        "2": "Sentimento não se legisla; conduta sim."
+      },
+      "ponto": "Tratar direito como favor ou gentileza.",
+      "acao": "Classifique três situações da aula: gentileza ou direito?"
+    },
+    {
+      "titulo": "A Lei 10.639/2003",
+      "fase": "Dialogar",
+      "explicacao": "Uma lei de 2003 mudou o currículo obrigatório das escolas brasileiras.",
+      "pergunta": "O que ela estabelece?",
+      "alternativas": [
+        "O ensino obrigatório de história e cultura afro-brasileira nas escolas",
+        "A proibição de filmes estrangeiros",
+        "Que cada escola escolhe se ensina ou não o tema"
+      ],
+      "correta": 0,
+      "justificativa": "A Lei 10.639/2003 tornou obrigatório o estudo da história da África e dos africanos e da luta dos negros no Brasil — reconhecer que um currículo incompleto também forma visões distorcidas; a ERER que você faz agora é cumprimento dessa lei.",
+      "pistas": [
+        "Por que o que se ensina (e o que falta) molda visões?",
+        "O que essa lei acrescentou ao currículo?",
+        "A Lei 10.639/2003 tornou obrigatório o estudo da história da África e dos africanos e da luta dos negros no Brasil — reconhecer que um currículo incompleto também forma visões distorcidas; a ERER que você faz agora é cumprimento dessa lei."
+      ],
+      "retorno": {
+        "0": "Correto: história e cultura afro-brasileira são conteúdo obrigatório — não tema opcional.",
+        "1": "A lei trata de currículo e de combate ao racismo, não de proibir filmes.",
+        "2": "Não é opcional: é dever de todas as escolas."
+      },
+      "ponto": "Achar ERER 'tema extra' opcional.",
+      "acao": "Pergunte: que parte da história que você aprendeu mudou com essa lei?"
+    },
+    {
+      "titulo": "A Lei 11.645/2008 e os povos indígenas",
+      "fase": "Dialogar",
+      "explicacao": "Cinco anos depois da 10.639, outra lei ampliou a obrigação curricular.",
+      "pergunta": "O que a Lei 11.645/2008 acrescentou?",
+      "alternativas": [
+        "Tornou obrigatório também o estudo da história e cultura dos povos indígenas brasileiros",
+        "Substituiu a lei anterior",
+        "Criou o ERER como disciplina única"
+      ],
+      "correta": 0,
+      "justificativa": "A 11.645/2008 amplia o dever: história e cultura indígenas também são obrigatórias — junto com a 10.639/2003 e as DCNERER, formam o alicerce do trabalho com relações étnico-raciais na escola.",
+      "pistas": [
+        "Quais povos foram incluídos em 2008?",
+        "A lei ampliou ou cancelou a anterior?",
+        "A 11.645/2008 amplia o dever: história e cultura indígenas também são obrigatórias — junto com a 10.639/2003 e as DCNERER, formam o alicerce do trabalho com relações étnico-raciais na escola."
+      ],
+      "retorno": {
+        "0": "Correto: amplia — afro-brasileira (2003) e indígena (2008), lado a lado.",
+        "1": "Ela amplia, não substitui: as duas seguem valendo.",
+        "2": "As leis fundamentam o trabalho em todas as disciplinas, não uma única matéria."
+      },
+      "ponto": "Conhecer uma lei e ignorar a outra.",
+      "acao": "Cite uma contribuição indígena presente no seu cotidiano (alimento, palavra, técnica)."
+    },
+    {
+      "titulo": "Falar com precisão",
+      "fase": "Dialogar",
+      "explicacao": "Na conversa da aula, um grupo mistura as palavras: chama tudo de 'racismo' ou tudo de 'brincadeira'.",
+      "pergunta": "Por que nomear com precisão importa?",
+      "alternativas": [
+        "Porque o nome define a resposta certa: estereótipo se questiona, discriminação se corrige com direito, dor se acolhe",
+        "Porque é só questão de gramática",
+        "Porque simplificar a conversa é melhor"
+      ],
+      "correta": 0,
+      "justificativa": "Nomear é parte da intervenção: chamar tudo de 'brincadeira' apaga o problema; chamar tudo de 'racismo' sem análise confunde os níveis — cada fenômeno tem resposta adequada, e o diálogo produtivo depende dessa precisão.",
+      "pistas": [
+        "A resposta muda conforme o nome do problema?",
+        "'Só brincadeira' resolve a conversa?",
+        "Nomear é parte da intervenção: chamar tudo de 'brincadeira' apaga o problema; chamar tudo de 'racismo' sem análise confunde os níveis — cada fenômeno tem resposta adequada, e o diálogo produtivo depende dessa precisão."
+      ],
+      "retorno": {
+        "0": "Correto: nome certo = resposta certa — é isso que fundamenta a intervenção.",
+        "1": "Não é gramática: é clareza sobre o que fazer.",
+        "2": "Simplificar costuma esconder exatamente o que precisa ser visto."
+      },
+      "ponto": "Usar os termos como sinônimos.",
+      "acao": "Dê um exemplo de resposta adequada para cada um dos quatro termos do bloco."
+    },
+    {
+      "titulo": "Consequências antes do veredito",
+      "fase": "Dialogar",
+      "explicacao": "Diante de uma situação conflitante, a turma treina descrever o efeito antes de julgar a intenção.",
+      "pergunta": "Por que começar pelas consequências?",
+      "alternativas": [
+        "Porque o efeito é observável e comum a todos; a intenção é invisível e incerta — julgá-la primeiro gera discussão sem fim",
+        "Porque intenção nunca importa",
+        "Porque efeito e intenção são sempre iguais"
+      ],
+      "correta": 0,
+      "justificativa": "O efeito é dado partilhável (quem ficou fora, o que perdeu, como ficou); a intenção é íntima. Começar pelo observável organiza o diálogo, permite corrigir o problema e só depois conversar sobre a intenção.",
+      "pistas": [
+        "O que todos na sala conseguem ver igual?",
+        "Dar palpite sobre intenção alheia costuma resolver ou empacar?",
+        "O efeito é dado partilhável (quem ficou fora, o que perdeu, como ficou); a intenção é íntima. Começar pelo observável organiza o diálogo, permite corrigir o problema e só depois conversar sobre a intenção."
+      ],
+      "retorno": {
+        "0": "Correto: primeiro o que aconteceu, depois o porquê — diálogo com chão.",
+        "1": "Intenção importa, mas em segundo plano: o dano se corrige de qualquer forma.",
+        "2": "Podem coincidir ou não — e é justamente a diferença que precisa de método."
+      },
+      "ponto": "Julgar intenção sem olhar efeito.",
+      "acao": "Descreva o efeito de uma cena do jogo sem usar a palavra 'intenção'."
+    },
+    {
+      "titulo": "Quem cala diante do problema",
+      "fase": "Dialogar",
+      "explicacao": "Na cena hipotética, vários estudantes veem a exclusão acontecer e ninguém diz nada.",
+      "pergunta": "O que a posição de quem apenas assiste produz?",
+      "alternativas": [
+        "Silêncio mantém a situação como está: sem contraponto, a exclusão fica normalizada",
+        "Silêncio é sempre a escolha mais segura para todos",
+        "Quem cala concorda necessariamente com o ato"
+      ],
+      "correta": 0,
+      "justificativa": "O silêncio não é neutro: sem contraponto, o padrão segue. Mas cuidado na análise — calar pode ser medo, e medo se acolhe com apoio, não com acusação; a saída é oferecer caminhos seguros de agir (coletivo, com adultos, com registro).",
+      "pistas": [
+        "O que acontece com um padrão que ninguém contesta?",
+        "Calando por medo é o mesmo que concordar?",
+        "O silêncio não é neutro: sem contraponto, o padrão segue. Mas cuidado na análise — calar pode ser medo, e medo se acolhe com apoio, não com acusação; a saída é oferecer caminhos seguros de agir (coletivo, com adultos, com registro)."
+      ],
+      "retorno": {
+        "0": "Correto: silêncio sustenta — e a resposta é criar caminho seguro, não culpar quem temeu.",
+        "1": "Para quem é atingido, silêncio coletivo dói tanto quanto o ato.",
+        "2": "Concordância é uma das razões; medo é outra — análise não pode simplificar."
+      },
+      "ponto": "Tratar espectador como cúmplice ou como inocente.",
+      "acao": "Liste dois caminhos seguros para quem assiste e quer agir."
+    },
+    {
+      "titulo": "Acolher antes de tudo",
+      "fase": "Dialogar",
+      "explicacao": "Depois de uma cena dura, um estudante pergunta o que fazer primeiro por quem foi atingido.",
+      "pergunta": "Qual é o primeiro passo?",
+      "alternativas": [
+        "Acolher: ouvir a pessoa, reconhecer o que ela sente e garantir que não está sozinha",
+        "Explicar logo por que o outro agiu assim",
+        "Abrir votação na turma sobre o caso"
+      ],
+      "correta": 0,
+      "justificativa": "A ordem importa: quem foi atingido precisa primeiro de palavra e presença — a análise do agressor, a apuração e as medidas vêm depois e em fórum adequado; explicar antes de acolher inverte as prioridades.",
+      "pistas": [
+        "O que a pessoa atingida precisa ouvir primeiro?",
+        "Explicar o agressor ajuda quem foi machucado agora?",
+        "A ordem importa: quem foi atingido precisa primeiro de palavra e presença — a análise do agressor, a apuração e as medidas vêm depois e em fórum adequado; explicar antes de acolher inverte as prioridades."
+      ],
+      "retorno": {
+        "0": "Correto: acolher é o primeiro ato antirracista da cena.",
+        "1": "Explicar o agressor pode esperar: a pessoa vem primeiro.",
+        "2": "Votação transforma dor em espetáculo — nunca."
+      },
+      "ponto": "Priorizar a apuração antes da pessoa.",
+      "acao": "Escreva a primeira frase que você diria a um colega atingido."
+    },
+    {
+      "titulo": "Conversa que sustenta a mudança",
+      "fase": "Dialogar",
+      "explicacao": "A turma vai combinar um acordo de convivência — e a conversa esquentou.",
+      "pergunta": "O que ajuda o diálogo a ser produtivo?",
+      "alternativas": [
+        "Falar do comportamento e do efeito ('quando X acontece, Y fica de fora'), sem atacar a essência de ninguém",
+        "Rotular quem errou para sempre",
+        "Deixar cada um falar sem escutar"
+      ],
+      "correta": 0,
+      "justificativa": "Descrever comportamento e efeito mantém a porta aberta para a mudança: quem errou pode corrigir; rótulo definitivo fecha o diálogo — a convivência que se quer construir precisa ser possível para todos, inclusive para quem precisa mudar.",
+      "pistas": [
+        "A frase fala do ato ou da essência da pessoa?",
+        "Do que adianta apontar erro sem deixar caminho?",
+        "Descrever comportamento e efeito mantém a porta aberta para a mudança: quem errou pode corrigir; rótulo definitivo fecha o diálogo — a convivência que se quer construir precisa ser possível para todos, inclusive para quem precisa mudar."
+      ],
+      "retorno": {
+        "0": "Correto: ato e efeito nas palavras, caminho aberto para corrigir.",
+        "1": "Rótulo eterno não deixa espaço para mudar — e mudança é o objetivo.",
+        "2": "Falar sem escutar é monólogo: acordo não nasce disso."
+      },
+      "ponto": "Atacar a pessoa em vez do comportamento.",
+      "acao": "Reescreva uma acusação em forma de ato + efeito."
+    },
+    {
+      "titulo": "Identificar o problema (situação nova)",
+      "fase": "Agir",
+      "explicacao": "Situação hipotética: num grupo de mensagens, um colega posta meme que zomba de um sotaque regional, e outros respondem com risadas.",
+      "pergunta": "Qual é o problema central a identificar?",
+      "alternativas": [
+        "Zombar de característica de um grupo no espaço coletivo: exclusão pela marca da diferença, naturalizada pelo humor",
+        "O meme está mal feito",
+        "O problema é o aplicativo de mensagens"
+      ],
+      "correta": 0,
+      "justificativa": "Identificar com precisão: a zombaria de marca de grupo (sotaque = origem) em espaço coletivo exclui quem carrega essa marca — e as risadas em sequência normalizam. Sem esse enquadro, a resposta erra o alvo.",
+      "pistas": [
+        "O que está sendo zombado: uma atitude ou uma marca de origem?",
+        "O que as risadas em cadeia produzem?",
+        "Zombar de característica de um grupo no espaço coletivo exclui quem carrega essa marca — e as risadas em sequência normalizam. Sem esse enquadro, a resposta erra o alvo."
+      ],
+      "retorno": {
+        "0": "Correto: marca de grupo + espaço coletivo + normalização = o problema em uma linha.",
+        "1": "Qualidade do meme é detalhe: o conteúdo é o problema.",
+        "2": "O aplicativo é o meio; o problema é a conduta."
+      },
+      "ponto": "Ficar na superfície da cena.",
+      "acao": "Pratique: identifique o problema central de outra cena da aula em uma frase."
+    },
+    {
+      "titulo": "Observar as consequências",
+      "fase": "Agir",
+      "explicacao": "Seguindo a cena do meme: a colega dona do sotaque leu tudo e não respondeu; no dia seguinte, pediu para não apresentar o trabalho.",
+      "pergunta": "O que essas consequências mostram?",
+      "alternativas": [
+        "O efeito é real e visível: silêncio, retirada, perda de participação — o custo cai sobre a pessoa atingida",
+        "Nada aconteceu de fato",
+        "A colega é que deveria ter reagido melhor"
+      ],
+      "correta": 0,
+      "justificativa": "Observar consequências é reunir o que a cena produziu: quem foi atingido se retrai e perde espaço — efeito mensurável (participação, presença, confiança) que sustenta a intervenção; sem isso, a conversa vira opinião contra opinião.",
+      "pistas": [
+        "Que comportamentos mudaram depois da cena?",
+        "Quem pagou o preço do 'humor'?",
+        "O efeito é real e visível: silêncio, retirada, perda de participação — o custo cai sobre a pessoa atingida."
+      ],
+      "retorno": {
+        "0": "Correto: o efeito documentado é o chão da intervenção fundamentada.",
+        "1": "Aconteceu sim: retirada e perda de participação são efeitos concretos.",
+        "2": "A expectativa de reação perfeita cai sobre quem já foi atingido — injusta."
+      },
+      "ponto": "Ignorar o rastro da cena.",
+      "acao": "Liste dois efeitos observáveis da cena para registrar."
+    },
+    {
+      "titulo": "Intervenção fundamentada",
+      "fase": "Agir",
+      "explicacao": "Hora de agir na cena do meme do sotaque.",
+      "alternativas": [
+        "Falar com a colega (acolher), nomear o problema no grupo com calma, guardar as telas e procurar um adulto da confiança se continuar",
+        "Revidar com memes contra quem postou",
+        "Fingir que não viu para não criar caso"
+      ],
+      "correta": 0,
+      "justificativa": "A intervenção fundamentada combina: acolhimento de quem foi atingido, nomeação pública e serena do problema, preservação de evidência e escala para adultos quando necessário — cada passo tem fundamento em efeito observado e direito garantido.",
+      "pistas": [
+        "O que fazer primeiro por quem foi atingida?",
+        "Como nomear sem esquentar a briga?",
+        "Acolher, nomear com calma, registrar e escalar se precisar: cada passo tem fundamento em efeito e direito."
+      ],
+      "retorno": {
+        "0": "Correto: sequência completa — e proporcionada, sem revanche.",
+        "1": "Revanche reproduz o problema com sinal trocado: não corrige o ambiente.",
+        "2": "Ignorar deixou a cena seguir: o custo continuou com a colega."
+      },
+      "ponto": "Agir por impulso ou não agir.",
+      "acao": "Monte sua sequência de três passos para uma cena real (sem expor ninguém).",
+      "pergunta": "Qual é a intervenção correta, e com que fundamento?"
+    },
+    {
+      "titulo": "Atitude antirracista cotidiana",
+      "fase": "Agir",
+      "explicacao": "A turma lista atitudes possíveis todos os dias — não só em situações dramáticas.",
+      "pergunta": "Qual conjunto faz sentido como atitude antirracista cotidiana?",
+      "alternativas": [
+        "Questionar rótulos quando aparecem, ampliar círculos de amizade, valorizar histórias e culturas silenciadas, apoiar quem é atingido",
+        "Avisar que não é racista e encerrar o assunto",
+        "Falar do tema apenas quando há prova registrada"
+      ],
+      "correta": 0,
+      "justificativa": "Atitude antirracista é prática recorrente: no comentário que se questiona, na amizade que se amplia, no conteúdo que se valoriza, no apoio que se dá — não é declaração única, é direção mantida em atos pequenos e frequentes.",
+      "pistas": [
+        "Que atitudes cabem num dia comum, sem cena dramática?",
+        "Declarar basta ou praticar conta?",
+        "Atitude antirracista é prática recorrente: no comentário que se questiona, na amizade que se amplia, no conteúdo que se valoriza, no apoio que se dá — não é declaração única, é direção mantida em atos pequenos e frequentes."
+      ],
+      "retorno": {
+        "0": "Correto: direção mantida em atos frequentes — e o cotidiano é onde ela conta.",
+        "1": "Declaração sem prática não muda ambiente nenhum.",
+        "2": "Esperar prova registrada para falar de padrão é deixar o padrão agir."
+      },
+      "ponto": "Esperar a grande cena para agir.",
+      "acao": "Escolha uma atitude da lista para praticar esta semana e registre como foi."
+    },
+    {
+      "titulo": "O plano de convivência da turma",
+      "fase": "Agir",
+      "explicacao": "Chegou a hora de escrever, em grupo, o plano de convivência que a turma vai assinar.",
+      "pergunta": "O que um bom plano precisa conter?",
+      "alternativas": [
+        "Compromissos concretos (o que faremos), forma de nomear problemas (como falaremos), apoio a quem for atingido e com quem contar quando precisar",
+        "Uma frase bonita sobre respeito",
+        "A lista de punições para quem errar"
+      ],
+      "correta": 0,
+      "justificativa": "Plano de convivência é ferramenta: compromissos que se cumprem, caminho para nomear problemas, protocolo de apoio e rede de confiança — e representação de todos com presença real, sem caricatura nem papel coadjuvante fixo (no mural e em qualquer produção da turma). A frase bonita não sustenta; a lista só de punições não constrói. O plano vive desses elementos juntos.",
+      "pistas": [
+        "O que acontece de fato quando um problema surge?",
+        "Como o plano prevê apoio antes de punição?",
+        "Compromissos concretos, forma de nomear problemas, apoio, rede de confiança e representação respeitosa."
+      ],
+      "retorno": {
+        "0": "Correto: compromisso + caminho + apoio + rede: plano que funciona quando precisa.",
+        "1": "Frase sem procedimento é enfeite de parede.",
+        "2": "Só punição não ensina convivência: falta construir o caminho."
+      },
+      "ponto": "Plano decorativo sem procedimento.",
+      "acao": "Escreva o rascunho do plano da turma com os quatro elementos e uma regra para o mural (sem caricatura, com protagonismo)."
+    }
+  ]
+}

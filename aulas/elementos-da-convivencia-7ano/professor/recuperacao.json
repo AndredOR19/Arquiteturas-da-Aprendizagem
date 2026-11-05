@@ -1,0 +1,184 @@
+[
+  {
+    "conceito": "Estereótipo",
+    "explicacao": "Ideia fixa e generalizada sobre um grupo, que apaga as diferenças individuais.",
+    "assoc": {"pergunta": "'Todo mundo de X é assim' é…", "alternativas": ["Um estereótipo", "Um direito", "Uma identidade"], "correta": 0, "retorno": "Generalização que apaga o indivíduo — a base do preconceito."},
+    "ordem": {"passos": ["Ouvir a generalização", "Lembrar que cada pessoa é única", "Questionar o 'todo mundo'"], "retorno": "Ouvir, lembrar da individualidade, questionar."},
+    "apl": {"pergunta": "Como derrubar um estereótipo sobre um grupo?", "alternativas": ["Conhecendo pessoas e histórias variadas do grupo", "Repetindo mais ainda a frase", "Evitando o assunto"], "correta": 0, "retorno": " variedade real desmente a frase pronta."}
+  },
+  {
+    "conceito": "Preconceito",
+    "explicacao": "Julgamento formado antes de conhecer: a opinião vem antes da informação.",
+    "assoc": {"pergunta": "Decidir como alguém 'deve ser' antes de conversar é…", "alternativas": ["Preconceito", "Discriminação", "Direito"], "correta": 0, "retorno": "Julgar antes de conhecer — pre + conceito."},
+    "ordem": {"passos": ["Notar o julgamento antecipado", "Pausar a conclusão", "Conhecer antes de decidir"], "retorno": "Notar, pausar, conhecer."},
+    "apl": {"pergunta": "O antídoto do preconceito é…", "alternativas": ["Informação e convivência real", "Mais rótulos", "Silêncio"], "correta": 0, "retorno": "Quem convive e pergunta derruba a ideia pronta."}
+  },
+  {
+    "conceito": "Discriminação",
+    "explicacao": "Ação que trata pessoas de forma desigual e as exclui, por raça, gênero, origem ou outra marca.",
+    "assoc": {"pergunta": "Deixar alguém de fora do time por 'gente como ele' é…", "alternativas": ["Discriminação", "Estereótipo apenas", "Regra esportiva"], "correta": 0, "retorno": "A ideia virou ação de excluir: discriminação."},
+    "ordem": {"passos": ["Ver a oportunidade negada", "Ligar a negativa à marca do grupo", "Nomear como discriminação"], "retorno": "Oportunidade negada + marca do grupo = discriminação."},
+    "apl": {"pergunta": "Recusar aluno em atividade por sotaque é…", "alternativas": ["Discriminação por origem", "Critério pedagógico", "Brincadeira"], "correta": 0, "retorno": "Exclusão por marca de grupo — sempre discriminação."}
+  },
+  {
+    "conceito": "Racismo estrutural",
+    "explicacao": "Desigualdade enraizada na história e nas instituições, que se mantém mesmo sem agressão individual explícita.",
+    "assoc": {"pergunta": "Desigualdades que persistem entre gerações sem agressor visível mostram…", "alternativas": ["Racismo estrutural", "Falta de esforço individual", "Coincidência"], "correta": 0, "retorno": "O padrão institucional e histórico opera sozinho — e exige resposta estrutural."},
+    "ordem": {"passos": ["Olhar o padrão (não o caso isolado)", "Perguntar o que a história e as instituições fizeram", "Pensar correção coletiva e de direito"], "retorno": "Padrão, história, política: leitura estrutural."},
+    "apl": {"pergunta": "Ler média salarial por cor/raça como…", "alternativas": ["Evidência de terreno desigual", "Prova de mérito diferente", "Detalhe irrelevante"], "correta": 0, "retorno": "O número mede o terreno, não as pessoas."}
+  },
+  {
+    "conceito": "Metáfora × realidade",
+    "explicacao": "A fantasia do filme ajuda a começar a conversa; racismo e exclusão são processos históricos reais.",
+    "assoc": {"pergunta": "O filme Elementos resolve o racismo?", "alternativas": ["Não: ajuda a conversar; a resolução real exige leis, direitos e atitudes", "Sim, basta assistir", "O filme não tem relação nenhuma"], "correta": 0, "retorno": "Ponte, não destino: a travessia é na vida real."},
+    "ordem": {"passos": ["Nomear o que a metáfora ilumina", "Nomear o que ela não resolve", "Descer para a situação real"], "retorno": "Ilumina, não resolve, desce à realidade."},
+    "apl": {"pergunta": "Usar uma cena do filme na conversa serve para…", "alternativas": ["Começar o diálogo sobre diferença e convivência", "Provar que tudo se resolve sozinho", "Substituir a lei"], "correta": 0, "retorno": "A cena abre a conversa; a conversa continua na vida."}
+  },
+  {
+    "conceito": "Identidade múltipla",
+    "explicacao": "Cada pessoa reúne várias pertenças (família, cultura, gostos, origem) combinadas de modo único.",
+    "assoc": {"pergunta": "Identidade é…", "alternativas": ["Um conjunto de pertenças", "Uma etiqueta única dada pelos outros", "Algo fixo e simples"], "correta": 0, "retorno": "Conjunto único — ninguém é uma coisa só."},
+    "ordem": {"passos": ["Listar suas pertenças", "Notar a variedade", "Reconhecer o mesmo nos outros"], "retorno": "Listar, notar, reconhecer: o exercício da empatia."},
+    "apl": {"pergunta": "Reduzir um colega a um único traço é…", "alternativas": ["Apagar a identidade dele", "Conhecê-lo", "Elogio"], "correta": 0, "retorno": "A etiqueta apaga o resto — é assim que nasce o rótulo."}
+  },
+  {
+    "conceito": "Exclusão silenciosa",
+    "explicacao": "Exclusão sem agressão explícita: o efeito (estar fora) e o padrão (sempre as mesmas pessoas) revelam o viés.",
+    "assoc": {"pergunta": "'Esquecer' sempre as mesmas pessoas do grupo é…", "alternativas": ["Um padrão com efeito real, mesmo sem maldade", "Nada, foi sem querer", "Sorte"], "correta": 0, "retorno": "Repetição não é acaso: padrão se corrige com prática."},
+    "ordem": {"passos": ["Ver quem ficou de fora", "Ver se é a primeira vez", "Corrigir a prática de inclusão"], "retorno": "Quem, quantas vezes, e a correção do hábito."},
+    "apl": {"pergunta": "Como garantir inclusão real nas decisões do grupo?", "alternativas": ["Combinar regra clara e conferir a lista sempre", "Esperar alguém reclamar", "Sortear quem participa"], "correta": 0, "retorno": "Regra + conferência: inclusão é procedimento, não acaso."}
+  },
+  {
+    "conceito": "Consequências do estereótipo",
+    "explicacao": "O rótulo contamina oportunidades (quem é chamado, escolhido) e a autoimagem (voz de dentro).",
+    "assoc": {"pergunta": "O estereótipo afeta…", "alternativas": ["Oportunidades e autoimagem", "Somente o humor", "Nada"], "correta": 0, "retorno": "Dano externo (chance) e interno (como a pessoa se vê)."},
+    "ordem": {"passos": ["Olhar quem perde oportunidades", "Ouvir o efeito na autoimagem", "Ligar os dois ao rótulo"], "retorno": "Chance, autoestima, rótulo: o circuito do dano."},
+    "apl": {"pergunta": "Quem decide quem 'serve' para um papel usando rótulo…", "alternativas": ["Priva o grupo de talentos", "É justo", "Está sendo realista"], "correta": 0, "retorno": "O rótulo escolhe mal — e todos perdem."}
+  },
+  {
+    "conceito": "Humor e preconceito",
+    "explicacao": "'Era só uma piada': humor que se apoia em rótulo naturaliza o preconceito e isola quem é alvo.",
+    "assoc": {"pergunta": "A piada que depende de rótulo de grupo…", "alternativas": ["Normaliza o preconceito", "É sempre inofensiva", "É problema só de quem não ri"], "correta": 0, "retorno": "A graça às custas do rótulo treina a não levar o grupo a sério."},
+    "ordem": {"passos": ["Ouvir a piada", "Perguntar de que depende a graça", "Nomear quando depende de rótulo"], "retorno": "Situação engraçada × rótulo: a pergunta que separa."},
+    "apl": {"pergunta": "Rir junto para não se isolar é posição…", "alternativas": ["Possível para quem é alvo — e exatamente por isso a piada é problema", "Prova de que está tudo bem", "De cumplicidade"], "correta": 0, "retorno": "A armadilha do alvo: reagir vira 'sem humor', calar engole."}
+  },
+  {
+    "conceito": "Padrão estético como critério",
+    "explicacao": "Usar a estética do grupo majoritário como padrão único transforma característica própria em 'erro' — discriminação com cara de regra neutra.",
+    "assoc": {"pergunta": "'Cabelo chamativo demais' como regra é…", "alternativas": ["Padrão único disfarçando discriminação", "Orientação neutra", "Exigência igualitária"], "correta": 0, "retorno": "Regra formalmente igual com efeito desigual: discriminação."},
+    "ordem": {"passos": ["Olhar a regra", "Perguntar 'segundo qual padrão'", "Ver quem a regra penaliza"], "retorno": "Regra, padrão de quem, quem paga: os três passos."},
+    "apl": {"pergunta": "Reescrever a regra de forma justa é…", "alternativas": ["Definir o que serve a todos os cabelos igualmente", "Proibir todo cabelo", "Deixar cada professor decidir"], "correta": 0, "retorno": "A escola revisa a regra, não a pessoa."}
+  },
+  {
+    "conceito": "Ler desigualdade sem culpabilizar",
+    "explicacao": "Números de desigualdade descrevem terreno histórico desigual, não mérito das pessoas.",
+    "assoc": {"pergunta": "Média de renda menor por cor/raça mostra…", "alternativas": ["Terreno desigual construído pela história", "Menor esforço de um grupo", "Casualidade"], "correta": 0, "retorno": "Efeito vira culpa? Não: vira pauta de correção."},
+    "ordem": {"passos": ["Ver o dado", "Perguntar o que a história fez com o acesso", "Concluir pelo terreno, não pelo mérito"], "retorno": "Dado, história, terreno: a leitura honesta."},
+    "apl": {"pergunta": "Culpabilizar quem foi historicamente excluído é…", "alternativas": ["O erro clássico de leitura", "Análise realista", "Solução"], "correta": 0, "retorno": "Transforma efeito em culpa — e bloqueia a correção."}
+  },
+  {
+    "conceito": "Sofrimento não é pontuação",
+    "explicacao": "Dor real de exclusão não vira placar de jogo: situação hipotética treina; dor de colega nunca.",
+    "assoc": {"pergunta": "Jogo em quem 'sofre mais ganha pontos' é…", "alternativas": ["Inadequado: banaliza a dor e expõe quem viveu", "Educativo", "Sem problema"], "correta": 0, "retorno": "Limite ético: hipótese sim, dor alheia como placar nunca."},
+    "ordem": {"passos": ["Ver o que a dinâmica usa como insumo", "Perguntar se expõe dor real", "Trocar por situação hipotética"], "retorno": "Insumo, exposição, substituição."},
+    "apl": {"pergunta": "Dinâmica que treina empatia sem expor ninguém usa…", "alternativas": ["Situações hipotéticas e papéis fictícios", "Relatos reais colhidos na hora", "Votação de quem sofreu mais"], "correta": 0, "retorno": "Ficção protegida + discussão orientada."}
+  },
+  {
+    "conceito": "O que a escola deve",
+    "explicacao": "Diante de discriminação: apuração, proteção de quem foi atingido e resposta que muda o ambiente.",
+    "assoc": {"pergunta": "A resposta institucional completa inclui…", "alternativas": ["Apuração, proteção e mudança do ambiente", "Só punir alguém", "Nada, é problema privado"], "correta": 0, "retorno": "Os três juntos: caso, pessoa e ambiente."},
+    "ordem": {"passos": ["Apurar com escuta", "Proteger e acolher", "Corrigir o ambiente"], "retorno": "Apurar, proteger, corrigir."},
+    "apl": {"pergunta": "Transferir o estudante atingido de turma…", "alternativas": ["Pune quem sofreu — o ambiente é que deve mudar", "Resolve bem", "É procedimento padrão correto"], "correta": 0, "retorno": "A vítima não carrega o problema: o ambiente sim."}
+  },
+  {
+    "conceito": "Direitos garantidos",
+    "explicacao": "Proteção antidiscriminação é direito (Constituição, ECA, leis específicas) — não gentileza opcional.",
+    "assoc": {"pergunta": "Qual é direito garantido?", "alternativas": ["Proteção contra discriminação racial", "Entrar no grupo da moda", "Ser amigo de todos"], "correta": 0, "retorno": "Direito é exigível — não depende de simpatia."},
+    "ordem": {"passos": ["Separar pedido de gentileza de direito", "Identificar a lei que garante", "Exigir o cumprimento"], "retorno": "Gentileza × direito × lei × exigibilidade."},
+    "apl": {"pergunta": "Direito vale…", "alternativas": ["Mesmo quando ninguém está de bom humor", "Só quando todos concordam", "Só com prova de simpatia"], "correta": 0, "retorno": "É isso que difere direito de favor."}
+  },
+  {
+    "conceito": "Lei 10.639/2003",
+    "explicacao": "Ensino obrigatório de história e cultura afro-brasileira nas escolas.",
+    "assoc": {"pergunta": "A Lei 10.639/2003 tornou obrigatório…", "alternativas": ["História e cultura afro-brasileira", "Filmes estrangeiros", "Aulas opcionais de tema livre"], "correta": 0, "retorno": "Currículo obrigatório — ERER cumpre essa lei."},
+    "ordem": {"passos": ["Lembrar o ano (2003)", "Lembrar o objeto (história afro-brasileira)", "Ligar com a aula de ERER"], "retorno": "2003, conteúdo, cumprimento."},
+    "apl": {"pergunta": "Por que o currículo importa no combate ao racismo?", "alternativas": ["Currículo incompleto forma visões distorcidas", "Currículo não tem relação", "Só importa a nota"], "correta": 0, "retorno": "O que se ensina molda o que se enxerga."}
+  },
+  {
+    "conceito": "Lei 11.645/2008",
+    "explicacao": "Amplia a obrigação: história e cultura dos povos indígenas também são conteúdo obrigatório.",
+    "assoc": {"pergunta": "A Lei 11.645/2008 acrescentou…", "alternativas": ["História e cultura indígena obrigatórias", "A substituição da 10.639", "O fim das aulas de ERER"], "correta": 0, "retorno": "Amplia — as duas leis valem juntas."},
+    "ordem": {"passos": ["Lembrar a 10.639 (2003)", "Lembrar a ampliação (2008)", "Ver as duas como alicerce"], "retorno": "2003 afro-brasileira + 2008 indígena."},
+    "apl": {"pergunta": "As DCNERER são…", "alternativas": ["Diretrizes que orientam o trabalho com relações étnico-raciais", "Um novo filme", "Punições escolares"], "correta": 0, "retorno": "Diretrizes nacionais que dão o quadro pedagógico das leis."}
+  },
+  {
+    "conceito": "Nomear com precisão",
+    "explicacao": "O nome define a resposta: estereótipo se questiona, discriminação se corrige com direito, dor se acolhe.",
+    "assoc": {"pergunta": "Chamar tudo de 'brincadeira'…", "alternativas": ["Apaga o problema e a resposta adequada", "Organiza a conversa", "É preciso e suficiente"], "correta": 0, "retorno": "Nome errado → resposta errada."},
+    "ordem": {"passos": ["Descrever o fato", "Escolher o termo preciso", "Escolher a resposta compatível"], "retorno": "Fato, nome, resposta — a sequência."},
+    "apl": {"pergunta": "Para discriminação, a resposta adequada envolve…", "alternativas": ["Direito e correção institucional", "Só conversa informal", "Ignorar"], "correta": 0, "retorno": "Ação concreta excluída exige correção concreta."}
+  },
+  {
+    "conceito": "Efeito antes da intenção",
+    "explicacao": "O efeito é observável e partilhável; a intenção é invisível — começar pelo efeito organiza o diálogo.",
+    "assoc": {"pergunta": "Diante de conflito, comece por…", "alternativas": ["O efeito: quem ficou fora, o que perdeu", "A intenção: 'por que você fez isso?'", "O veredito sobre a pessoa"], "correta": 0, "retorno": "O observável primeiro; o porquê depois."},
+    "ordem": {"passos": ["Descrever o que aconteceu", "Registrar quem foi afetado e como", "Só então conversar sobre intenção"], "retorno": "Fato, efeito, intenção — nessa ordem."},
+    "apl": {"pergunta": "'Eu não quis ofender' diante de dano causado…", "alternativas": ["Não apaga o efeito: corrige-se o ato mesmo assim", "Resolve tudo", "Prova que não houve problema"], "correta": 0, "retorno": "Sem mágoa de intenção, o efeito pede correção."}
+  },
+  {
+    "conceito": "Posição de quem assiste",
+    "explicacao": "Silêncio mantém o padrão; mas calar pode ser medo — a saída é caminho seguro, não acusação.",
+    "assoc": {"pergunta": "Assistir sem dizer nada…", "alternativas": ["Deixa a exclusão seguir como se fosse normal", "É sempre a opção mais segura", "Significa concordar sempre"], "correta": 0, "retorno": "Sem contraponto, o padrão segue — e medo se acolhe com apoio."},
+    "ordem": {"passos": ["Reconhecer que assistiu", "Lembrar dos caminhos seguros (coletivo, adulto, registro)", "Agir por um deles"], "retorno": "Ver, escolher caminho, agir."},
+    "apl": {"pergunta": "Caminho seguro para quem quer agir e teme…", "alternativas": ["Agir em grupo e com um adulto de confiança", "Revidar sozinho", "Esperar outro resolver"], "correta": 0, "retorno": "Coletivo e mediação adulta protegem quem age."}
+  },
+  {
+    "conceito": "Acolhimento primeiro",
+    "explicacao": "Quem foi atingido precisa primeiro de palavra e presença; análise e medidas vêm depois.",
+    "assoc": {"pergunta": "Primeiro passo com quem foi atingido:", "alternativas": ["Acolher: ouvir e garantir que não está sozinho", "Explicar o agressor", "Abrir votação na turma"], "correta": 0, "retorno": "Pessoa primeiro, apuração depois."},
+    "ordem": {"passos": ["Ouvir sem interromper", "Reconhecer o que a pessoa sente", "Oferecer presença e rede de apoio"], "retorno": "Ouvir, validar, acompanhar."},
+    "apl": {"pergunta": "Uma boa primeira frase é…", "alternativas": ["'Eu vi. Você não está sozinho nisso.'", "'Por que você não reagiu?'", "'Devia ter ignorado.'"], "correta": 0, "retorno": "Presença e reconhecimento antes de qualquer conselho."}
+  },
+  {
+    "conceito": "Diálogo produtivo",
+    "explicacao": "Falar do comportamento e do efeito ('quando X, Y fica de fora'), sem rotular a essência de ninguém.",
+    "assoc": {"pergunta": "Frase que abre porta para mudar:", "alternativas": ["'Quando isso acontece, ela fica de fora.'", "'Você é um monstro.'", "'Sempre foi assim com você.'"], "correta": 0, "retorno": "Ato + efeito; rotulo fecha, descrição abre."},
+    "ordem": {"passos": ["Nomear o ato", "Descrever o efeito", "Ouvir a resposta antes de concluir"], "retorno": "Ato, efeito, escuta."},
+    "apl": {"pergunta": "Reescrever 'você é racista' em ato+efeito:", "alternativas": ["'Quando você repete aquele rótulo, ele fica de fora do grupo.'", "'Você sempre foi assim'", "'Não perco tempo com você'"], "correta": 0, "retorno": "A descrição do ato dá caminho; o rótulo não."}
+  },
+  {
+    "conceito": "Identificar o problema (situação nova)",
+    "explicacao": "Em cena nova: marca de grupo + espaço coletivo + normalização = o problema central.",
+    "assoc": {"pergunta": "Meme que zomba de sotaque no grupo: o problema é…", "alternativas": ["Zombar de marca de origem em espaço coletivo, normalizado por risadas", "A qualidade do meme", "O aplicativo"], "correta": 0, "retorno": "Marca + espaço + normalização: o enquadro correto."},
+    "ordem": {"passos": ["O que está sendo zombado?", "Em que espaço?", "O que as reações produzem?"], "retorno": "Alvo, espaço, reação: identificação completa."},
+    "apl": {"pergunta": "Zombaria de sotaque atinge…", "alternativas": ["Origem e pertencimento da pessoa", "Só a pronúncia, sem mais", "Ninguém em particular"], "correta": 0, "retorno": "Sotaque carrega origem, história e pertencimento."}
+  },
+  {
+    "conceito": "Observar consequências",
+    "explicacao": "Reunir o que a cena produziu: silêncio, retirada, perda de participação de quem foi atingido.",
+    "assoc": {"pergunta": "Depois da cena, a colega se retrai e pede para não apresentar. Isso é…", "alternativas": ["Efeito real e observável da cena", "Coincidência", "Falta de capacidade dela"], "correta": 0, "retorno": "O efeito documentado sustenta a intervenção."},
+    "ordem": {"passos": ["O que mudou no comportamento de quem foi atingido?", "Que espaço a pessoa perdeu?", "Registrar os dois"], "retorno": "Mudança, perda, registro."},
+    "apl": {"pergunta": "Por que registrar consequências?", "alternativas": ["Porque transforma opinião em evidência", "Para expor a pessoa", "Por burocracia"], "correta": 0, "retorno": "Efeito registrado: a conversa deixa de ser 'acho'."}
+  },
+  {
+    "conceito": "Intervenção fundamentada",
+    "explicacao": "Acolher quem foi atingido, nomear o problema com serenidade, preservar evidência e escalar quando necessário.",
+    "assoc": {"pergunta": "Intervenção correta na cena do meme:", "alternativas": ["Acolher a colega, nomear o problema com calma, guardar as telas, buscar adulto se persistir", "Revidar com memes", "Fingir que não viu"], "correta": 0, "retorno": "Sequência completa e proporcionada — sem revanche."},
+    "ordem": {"passos": ["Acolher", "Nomear com serenidade", "Registrar e escalar se precisar"], "retorno": "Acolher, nomear, registrar, escalar."},
+    "apl": {"pergunta": "Por que não revidar?", "alternativas": ["Revanche reproduz o problema com sinal trocado", "Porque é covardia", "Porque é proibido rir"], "correta": 0, "retorno": "O objetivo é corrigir o ambiente, não abrir outra guerra."}
+  },
+  {
+    "conceito": "Atitude antirracista cotidiana",
+    "explicacao": "Prática recorrente: questionar rótulos, ampliar círculos, valorizar culturas silenciadas, apoiar quem é atingido.",
+    "assoc": {"pergunta": "Atitude antirracista é…", "alternativas": ["Direção mantida em atos frequentes", "Uma declaração única", "Só participação em eventos"], "correta": 0, "retorno": "Não é frase, é prática de todo dia."},
+    "ordem": {"passos": ["Escolher uma atitude concreta", "Praticar na semana", "Registrar o efeito"], "retorno": "Escolher, praticar, registrar."},
+    "apl": {"pergunta": "Exemplo de atitude cotidiana:", "alternativas": ["Questionar um rótulo quando aparecer", "Avisar que não é racista e mudar de assunto", "Esperar uma grande cena dramática"], "correta": 0, "retorno": "O cotidiano é onde a direção se mostra."}
+  },
+  {
+    "conceito": "Plano de convivência",
+    "explicacao": "Compromissos concretos, forma de nomear problemas, apoio a quem for atingido, rede de confiança e representação respeitosa.",
+    "assoc": {"pergunta": "Um bom plano de convivência contém…", "alternativas": ["Compromissos, caminho para problemas, apoio e rede de confiança", "Uma frase bonita", "Só a lista de punições"], "correta": 0, "retorno": "Ferramenta, não enfeite: quatro elementos juntos."},
+    "ordem": {"passos": ["Escrever compromissos concretos", "Combinar como nomear problemas", "Definir apoio e com quem contar"], "retorno": "Compromisso, caminho, apoio, rede."},
+    "apl": {"pergunta": "No mural do plano, a representação deve…", "alternativas": ["Mostrar diversidade real com protagonismo, sem caricatura", "Seguir um único padrão estético", "Evitar qualquer cultura"], "correta": 0, "retorno": "Presença real — e, na dúvida, perguntar a quem vive a cultura."}
+  }
+]

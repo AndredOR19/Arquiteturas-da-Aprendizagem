@@ -1,0 +1,46 @@
+/* Mapa mental — estilos (compatíveis com dia/noite/preto-e-branco e movimento reduzido). */
+#mapa{margin:48px 0}
+#mapa .eyebrow{margin-bottom:4px}
+#mapa h2{margin-bottom:8px}
+.mm-hint{color:var(--muted);font-size:15px;margin-bottom:18px;max-width:760px}
+#mm-svg{width:100%;height:auto;display:block}
+#mm-svg.hidden-map{display:none}
+.mm-link{fill:none;stroke:var(--line);stroke-width:3;opacity:.9}
+.mm-core{fill:#e9d5ff;stroke:#1e293b;stroke-width:3}
+html[data-theme=dark] .mm-core{fill:#3b2a63;stroke:#cbd5e1}
+html[data-theme=mono] .mm-core{fill:#fff;stroke:#000}
+.mm-core-t1{font:800 21px Fredoka,system-ui,sans-serif;fill:#1e293b}
+.mm-core-t2{font:600 12.5px Fredoka,system-ui,sans-serif;fill:#5b21b6}
+html[data-theme=dark] .mm-core-t1{fill:#f8fafc}
+html[data-theme=dark] .mm-core-t2{fill:#c4b5fd}
+html[data-theme=mono] .mm-core-t1,html[data-theme=mono] .mm-core-t2{fill:#000}
+.mm-node{cursor:pointer;outline:none}
+.mm-node rect{fill:var(--card);stroke:#9333ea;stroke-width:2.5;transition:stroke-width .1s}
+.mm-node:hover rect,.mm-node:focus-visible rect{stroke-width:4.5}
+.mm-node:focus-visible rect{stroke:#1d4ed8}
+.mm-node.sel rect{fill:#f3e8ff;stroke:#1e293b;stroke-width:4}
+html[data-theme=dark] .mm-node.sel rect{fill:#2e2450;stroke:#f8fafc}
+html[data-theme=mono] .mm-node.sel rect{fill:#000;stroke:#000}
+html[data-theme=mono] .mm-node rect{fill:#fff;stroke:#000}
+.mm-node-t{font:700 14.5px Fredoka,system-ui,sans-serif;fill:var(--text)}
+.mm-node-s{font:500 12px Fredoka,system-ui,sans-serif;fill:var(--muted)}
+html[data-theme=mono] .mm-node-t,html[data-theme=mono] .mm-node-s{fill:#000}
+#mm-detail{display:none;margin-top:20px;border:3px solid var(--line);border-radius:16px;padding:18px 20px;background:var(--card);box-shadow:4px 4px 0 var(--line)}
+#mm-detail.show{display:block}
+#mm-detail h3{font-size:20px;margin-bottom:10px}
+.mm-drel p{margin:8px 0;font-size:16px;line-height:1.55}
+.mm-drel b{color:#6b21a8}
+html[data-theme=dark] .mm-drel b{color:#c4b5fd}
+html[data-theme=mono] .mm-drel b{color:#000}
+#mm-list{display:none;flex-direction:column;gap:10px;margin:18px 0}
+.mm-list-item{text-align:left;display:flex;gap:10px;align-items:center}
+.mm-list-item.act{background:#e9d5ff}
+html[data-theme=dark] .mm-list-item.act{background:#3b2a63}
+@media (prefers-reduced-motion:reduce){.mm-node rect{transition:none}}
+
+/* Camada visual 1: pulso suave do mapa */
+.mm-core{transform-box:fill-box;transform-origin:center;animation:mmBreathe 5.5s ease-in-out infinite}
+@keyframes mmBreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.mm-node.sel rect{animation:mmSelPulse 2.2s ease-in-out infinite}
+@keyframes mmSelPulse{0%,100%{stroke-width:4}50%{stroke-width:6}}
+@media (prefers-reduced-motion:reduce){.mm-core{animation:none}.mm-node.sel rect{animation:none}}

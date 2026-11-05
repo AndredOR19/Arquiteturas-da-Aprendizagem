@@ -1,0 +1,184 @@
+[
+  {
+    "conceito": "Pergunta pesquisável",
+    "explicacao": "Uma pesquisa começa com uma pergunta que dados podem responder: o que medir e em quem.",
+    "assoc": {"pergunta": "Qual pergunta pode ser respondida com dados?", "alternativas": ["Quantos livros cada aluno leu no mês?", "Qual é a melhor história do mundo?", "Por que as pessoas gostam de histórias?"], "correta": 0, "retorno": "A primeira define o que contar (livros) e em quem (alunos); as outras pedem opinião ou explicam causas."},
+    "ordem": {"passos": ["Definir o que observar", "Definir em quem observar", "Escrever a pergunta com o que e em quem"], "retorno": "Primeiro o que, depois em quem, por fim a pergunta completa."},
+    "apl": {"pergunta": "Para pesquisar o tempo de tela dos colegas, qual pergunta serve?", "alternativas": ["Quantas horas de tela você usa por dia?", "Tela é ruim para a saúde?", "Qual é o melhor aplicativo?"], "correta": 0, "retorno": "Horas por dia define medida e público — a estrutura se repete em qualquer tema."}
+  },
+  {
+    "conceito": "Variável",
+    "explicacao": "Variável é a característica observada em cada participante, que pode variar de um para outro.",
+    "assoc": {"pergunta": "O que é a variável de uma pesquisa?", "alternativas": ["A característica observada em cada participante", "O nome do pesquisador", "A cor da capa do relatório"], "correta": 0, "retorno": "Variável é o que se observa e pode mudar de pessoa para pessoa."},
+    "ordem": {"passos": ["Ler a pergunta da pesquisa", "Identificar o que é observado", "Nomear a variável"], "retorno": "A pergunta indica o que observar; nomear a variável organiza todo o resto."},
+    "apl": {"pergunta": "Na pesquisa sobre lanches, qual é a variável?", "alternativas": ["O lanche preferido de cada aluno", "O número da cantina", "O preço do caderno"], "correta": 0, "retorno": "O que muda de aluno para aluno é o lanche preferido — essa é a variável."}
+  },
+  {
+    "conceito": "Variável categórica",
+    "explicacao": "Variável categórica tem valores em categorias, sem ordem numérica: ônibus, a pé, carro.",
+    "assoc": {"pergunta": "Meio de transporte é que tipo de variável?", "alternativas": ["Categórica, pois são categorias sem ordem", "Numérica, pois dá para contar", "Nenhuma, pois é opinião"], "correta": 0, "retorno": "Categorias nomeadas, sem soma possível: variável categórica."},
+    "ordem": {"passos": ["Olhar os valores possíveis", "Perguntar se têm ordem e operações", "Classificar como categórica ou numérica"], "retorno": "Valores em rótulos sem operação definem categórica; números com ordem definem numérica."},
+    "apl": {"pergunta": "Esporte preferido é variável categórica ou numérica?", "alternativas": ["Categórica: futebol, vôlei, basquete…", "Numérica: dá para somar esportes", "As duas ao mesmo tempo"], "correta": 0, "retorno": "Categorias sem ordem nem soma: categórica, como meio de transporte."}
+  },
+  {
+    "conceito": "Variável numérica",
+    "explicacao": "Variável numérica tem valores em números com ordem e operações: minutos, reais, metros.",
+    "assoc": {"pergunta": "Tempo de deslocamento em minutos é que tipo de variável?", "alternativas": ["Numérica, pois admite ordem e operações", "Categórica, pois cada tempo é um rótulo", "Nenhuma, pois depende do aluno"], "correta": 0, "retorno": "Ordenar, somar, dividir: operações com sentido definem variável numérica."},
+    "ordem": {"passos": ["Olhar os valores registrados", "Testar operações (somar, ordenar)", "Classificar a variável"], "retorno": "Se as operações fazem sentido, a variável é numérica."},
+    "apl": {"pergunta": "Gasto semanal na cantina, em reais, é variável…", "alternativas": ["Numérica: admite soma e média", "Categórica: reais são categorias", "Irrelevante para pesquisa"], "correta": 0, "retorno": "Valores em reais permitem média e amplitude — numérica, como os minutos."}
+  },
+  {
+    "conceito": "População e amostra",
+    "explicacao": "População é o conjunto completo que se quer conhecer; amostra é a parte que responde.",
+    "assoc": {"pergunta": "Numa pesquisa com 2 turmas de um ano de 4 turmas, o que é amostra?", "alternativas": ["As 2 turmas que responderam", "As 4 turmas do ano", "A escola inteira"], "correta": 0, "retorno": "As 2 turmas são a parte consultada — a amostra da população de 4 turmas."},
+    "ordem": {"passos": ["Definir o todo que interessa", "Escolher quem vai responder", "Declarar população e amostra no relatório"], "retorno": "Todo definido, parte escolhida e declarada: pesquisa transparente."},
+    "apl": {"pergunta": "Para ouvir o 6º ano inteiro sobre o recreio, o que é população?", "alternativas": ["Todos os alunos do 6º ano", "Uma turma sorteada", "Os monitores do pátio"], "correta": 0, "retorno": "População é sempre o todo que a conclusão quer alcançar."}
+  },
+  {
+    "conceito": "Censo ou amostra",
+    "explicacao": "Censo consulta todos; amostra consulta parte — o objetivo define o método.",
+    "assoc": {"pergunta": "Para eleger o representante da turma, qual método?", "alternativas": ["Censo: todos votam", "Amostra: alguns votam pelos outros", "Sorteio sem votação"], "correta": 0, "retorno": "Resultado exato e de todos pede censo — a votação é um censo."},
+    "ordem": {"passos": ["Ver se o valor precisa ser exato", "Pesar tempo e custo", "Escolher censo ou amostra e registrar"], "retorno": "Exatidão puxa censo; estimativa rápida aceita amostra declarada."},
+    "apl": {"pergunta": "Para estimar quantos alunos usam óculos na escola, basta…", "alternativas": ["Uma amostra bem escolhida, com limite declarado", "Um censo obrigatório de todos", "Perguntar só ao primeiro que passar"], "correta": 0, "retorno": "Estimativa aceita amostra — desde que representativa e com ressalva."}
+  },
+  {
+    "conceito": "Instrumento de coleta",
+    "explicacao": "O formulário precisa de opções claras, mutuamente exclusivas, com uma marcação por pessoa.",
+    "assoc": {"pergunta": "Qual pergunta do formulário é melhor para tabular?", "alternativas": ["Marque uma: ônibus | a pé | carro | outro", "Conte como você vem para a escola", "Você vem a pé ou de carro, ou depende?"], "correta": 0, "retorno": "Uma marcação, categorias sem sobreposição: tabela fácil de montar."},
+    "ordem": {"passos": ["Listar as categorias possíveis", "Garantir que não se sobrepõem", "Testar o formulário com alguém"], "retorno": "Categorias completas e exclusivas, testadas antes de aplicar."},
+    "apl": {"pergunta": "Para pesquisar fruta preferida, como escrever as opções?", "alternativas": ["Marque uma: banana | maçã | laranja | outra", "Fale da fruta que você gosta", "Você gosta de frutas ou não?"], "correta": 0, "retorno": "Mesma estrutura: uma marcação, categorias exclusivas, com opção outra."}
+  },
+  {
+    "conceito": "Registro individual",
+    "explicacao": "Dados brutos têm uma linha por participante: o valor da variável para cada um.",
+    "assoc": {"pergunta": "30 alunos responderam. Quantas linhas tem a planilha de dados brutos?", "alternativas": ["30, uma por resposta", "4, uma por categoria", "1, com a média"], "correta": 0, "retorno": "Uma linha por participante; resumos vêm depois."},
+    "ordem": {"passos": ["Aplicar o questionário", "Registrar cada resposta em uma linha", "Conferir o total de linhas"], "retorno": "Coletar, registrar, conferir: os dados brutos estão prontos."},
+    "apl": {"pergunta": "Se 45 pessoas responderem à pesquisa do lanche, quantas linhas de dados brutos?", "alternativas": ["45", "O número de lanches oferecidos", "Depende do gráfico"], "correta": 0, "retorno": "Sempre uma linha por respondente — 45 respostas, 45 linhas."}
+  },
+  {
+    "conceito": "Tabela de frequência",
+    "explicacao": "A tabela conta quantas vezes cada categoria apareceu: 12, 10, 6, 2.",
+    "assoc": {"pergunta": "O que a tabela de frequência mostra?", "alternativas": ["A contagem de cada categoria", "A ordem de chegada das respostas", "A opinião do pesquisador"], "correta": 0, "retorno": "Frequência é contagem por categoria — o resumo dos dados brutos."},
+    "ordem": {"passos": ["Listar as categorias", "Contar os registros de cada uma", "Escrever as frequências na tabela"], "retorno": "Listar, contar, registrar: a tabela resume a planilha."},
+    "apl": {"pergunta": "Para 8 votos em pizza e 4 em hambúrguer, qual a tabela?", "alternativas": ["Pizza 8 | Hambúrguer 4", "Pizza e hambúrguer juntos: 12", "Pizza 12 | Hambúrguer 0"], "correta": 0, "retorno": "Cada categoria com sua contagem — o total 12 aparece na soma."}
+  },
+  {
+    "conceito": "Conferência do total",
+    "explicacao": "A soma das frequências precisa fechar com o total de registros: 12+10+6+2=30.",
+    "assoc": {"pergunta": "Se a soma das frequências der 32 com 30 respondentes, o que aconteceu?", "alternativas": ["Alguém foi contado duas vezes ou falta categoria", "A pesquisa está certa", "O total de respondentes está errado por natureza"], "correta": 0, "retorno": "Soma acima do total indica dupla contagem ou categoria mal fechada."},
+    "ordem": {"passos": ["Somar as frequências", "Comparar com o total de registros", "Corrigir e conferir de novo"], "retorno": "Somar, comparar, corrigir: o total fechando valida a tabulação."},
+    "apl": {"pergunta": "Numa votação de 25 alunos, a soma das frequências deu 25. O que isso indica?", "alternativas": ["Tabulação consistente com o total", "Que faltaram votos", "Que a votação foi fraudada"], "correta": 0, "retorno": "Total fechando com os votantes: controle de qualidade aprovado."}
+  },
+  {
+    "conceito": "Frequência relativa",
+    "explicacao": "Frequência relativa é a parte sobre o total: 12 em 30 = 0,4 = 40%.",
+    "assoc": {"pergunta": "12 respostas em 30 correspondem a que porcentagem?", "alternativas": ["40%", "12%", "30%"], "correta": 0, "retorno": "12÷30=0,4=40% — parte sobre o total."},
+    "ordem": {"passos": ["Identificar frequência e total", "Dividir frequência pelo total", "Transformar em porcentagem"], "retorno": "Dividir e converter: a parte vira porcentagem."},
+    "apl": {"pergunta": "8 de 20 escolheram futebol. Qual a frequência relativa?", "alternativas": ["40%", "8%", "20%"], "correta": 0, "retorno": "8÷20=0,4=40% — a mesma conta em qualquer pesquisa."}
+  },
+  {
+    "conceito": "Organizar valores numéricos",
+    "explicacao": "Valores numéricos se organizam em ordem para revelar extremos e concentração.",
+    "assoc": {"pergunta": "Qual o primeiro passo com os tempos 45, 10, 25, 15?", "alternativas": ["Colocar em ordem crescente", "Somar tudo", "Fazer o gráfico"], "correta": 0, "retorno": "Ordenar mostra menor, maior e concentração antes de qualquer conta."},
+    "ordem": {"passos": ["Listar os valores", "Ordenar de menor a maior", "Identificar menor, maior e amplitude"], "retorno": "Ordenado, o conjunto revela sua estrutura."},
+    "apl": {"pergunta": "Com os valores 5, 20, 15, 40, 10, qual é a amplitude?", "alternativas": ["35 (de 5 a 40)", "20", "90"], "correta": 0, "retorno": "Amplitude é maior menos menor: 40−5=35."}
+  },
+  {
+    "conceito": "Média e dispersão",
+    "explicacao": "A média resume o centro, mas não mostra a variação entre os valores.",
+    "assoc": {"pergunta": "Duas turmas têm média 20 minutos. O que a média não mostra?", "alternativas": ["A diferença entre os valores de cada turma", "Quantas turmas existem", "A unidade dos dados"], "correta": 0, "retorno": "Média igual, dispersão diferente: duas histórias distintas."},
+    "ordem": {"passos": ["Calcular a média", "Olhar menor e maior", "Comparar médias e dispersões"], "retorno": "Média para o centro, amplitude para o espalhamento — sempre juntas."},
+    "apl": {"pergunta": "Turma A: todos levam 20 min. Turma B: metade 5, metade 35. Média?", "alternativas": ["20 nas duas, com dispersões diferentes", "Diferente nas duas", "Impossível calcular"], "correta": 0, "retorno": "As duas médias dão 20 — mas a realidade de cada turma é bem diferente."}
+  },
+  {
+    "conceito": "Limpeza de categorias",
+    "explicacao": "Categorias equivalentes (a pé e caminhando) se unificam; uma marcação por resposta.",
+    "assoc": {"pergunta": "Respostas a pé e caminhando aparecem separadas. O que fazer?", "alternativas": ["Unificar em uma só categoria", "Manter separadas para dobrar a contagem", "Descartar a pesquisa"], "correta": 0, "retorno": "Equivalentes viram uma categoria — senão o total quebra."},
+    "ordem": {"passos": ["Revisar as respostas registradas", "Agrupar categorias equivalentes", "Recontar e conferir o total"], "retorno": "Revisar, agrupar, recontar: tabela limpa e total fechado."},
+    "apl": {"pergunta": "Numa lista aparecem bike, bicicleta e BICICLETA. Como tabular?", "alternativas": ["Uma categoria única: bicicleta", "Três categorias separadas", "Ignorar essas respostas"], "correta": 0, "retorno": "Mesmo significado, uma categoria — grafia não cria categoria nova."}
+  },
+  {
+    "conceito": "Gráfico por tipo de variável",
+    "explicacao": "Categórica pede barras ou setores; sequência no tempo pede linha.",
+    "assoc": {"pergunta": "Qual gráfico para meio de transporte (categórica)?", "alternativas": ["Barras ou setores", "Linha", "Nenhum"], "correta": 0, "retorno": "Categorias comparam com barras ou repartem o todo em setores."},
+    "ordem": {"passos": ["Classificar a variável", "Pensar no que quer comunicar", "Escolher o gráfico adequado"], "retorno": "Tipo de variável e objetivo escolhem o gráfico."},
+    "apl": {"pergunta": "Para mostrar uso do bicicletário mês a mês, qual gráfico?", "alternativas": ["Linha, pois há ordem no tempo", "Setores, pois são categorias", "Tabela não gráfico"], "correta": 0, "retorno": "Meses em sequência: a linha mostra a evolução."}
+  },
+  {
+    "conceito": "Leitura de barras",
+    "explicacao": "A altura de cada barra é a frequência da categoria.",
+    "assoc": {"pergunta": "No gráfico, a barra do ônibus é a mais alta. O que isso significa?", "alternativas": ["Ônibus é a categoria mais frequente", "Ônibus é o melhor transporte", "A barra está errada"], "correta": 0, "retorno": "Barra mais alta = mais respostas naquela categoria; qualidade não entra na conta."},
+    "ordem": {"passos": ["Ler o título e os eixos", "Comparar as alturas", "Relacionar com a tabela"], "retorno": "Título, eixos, comparação e volta à tabela: leitura completa."},
+    "apl": {"pergunta": "Num gráfico de lanches, a maior barra é da pizza com 15 de 25. O que dizer?", "alternativas": ["Pizza foi a mais escolhida (15 de 25)", "Pizza é a mais saudável", "Todos preferem pizza"], "correta": 0, "retorno": "Frequência maior, com total declarado — sem julgamento de qualidade."}
+  },
+  {
+    "conceito": "Setor e proporção",
+    "explicacao": "Cada fatia do setor guarda a proporção da categoria: 40% do círculo = 144°.",
+    "assoc": {"pergunta": "Uma categoria com 50% das respostas ocupa quanto do círculo?", "alternativas": ["Metade: 180°", "50°", "Todo o círculo"], "correta": 0, "retorno": "50% de 360° = 180° — a proporção se mantém."},
+    "ordem": {"passos": ["Calcular a fração sobre o total", "Multiplicar por 360°", "Conferir se as fatias somam 360°"], "retorno": "Fração, graus e conferência: o setor é proporcional."},
+    "apl": {"pergunta": "10 de 40 escolheram vôlei. Qual o ângulo do setor?", "alternativas": ["90°", "10°", "40°"], "correta": 0, "retorno": "10÷40=0,25; 0,25×360°=90°."}
+  },
+  {
+    "conceito": "Título e fonte",
+    "explicacao": "Gráfico comunicado precisa de título (o quê) e fonte (quem, quando, como).",
+    "assoc": {"pergunta": "O que falta num gráfico sem título e sem fonte?", "alternativas": ["Contexto: o que é e de quem são os dados", "Cores", "Nada"], "correta": 0, "retorno": "Sem contexto, o gráfico não sustenta leitura confiável."},
+    "ordem": {"passos": ["Nomear o que o gráfico mostra", "Declarar quem respondeu e quando", "Incluir ambos na publicação"], "retorno": "Título e fonte completam o gráfico como informação."},
+    "apl": {"pergunta": "Qual título serve para o gráfico dos transportes?", "alternativas": ["Meio de transporte até a escola — 30 alunos do 7º ano", "Gráfico", "Transportes do mundo"], "correta": 0, "retorno": "Título com o quê e o quem: leitor situado na primeira linha."}
+  },
+  {
+    "conceito": "Escala honesta",
+    "explicacao": "Eixo que não começa em 0 exagera diferenças visuais entre as barras.",
+    "assoc": {"pergunta": "O eixo vertical começa em 10. Qual o efeito?", "alternativas": ["Diferenças parecem maiores do que são", "O gráfico fica mais correto", "Nada muda"], "correta": 0, "retorno": "Cortar o eixo distorce a comparação — e o leitor deve ser avisado."},
+    "ordem": {"passos": ["Onde o eixo começa", "Comparar com a versão começando em 0", "Declarar a escala usada"], "retorno": "Conferir início do eixo, comparar e declarar: leitura protegida."},
+    "apl": {"pergunta": "Um anúncio corta o eixo para o produto parecer muito à frente. Que pergunta fazer?", "alternativas": ["Onde o eixo começa e qual a diferença real", "Qual a cor do anúncio", "Quem pagou o espaço"], "correta": 0, "retorno": "Escala e diferença real: as perguntas do leitor atento."}
+  },
+  {
+    "conceito": "Forma e conteúdo",
+    "explicacao": "Reordenar categorias ou trocar o tipo de gráfico muda a apresentação, não os dados.",
+    "assoc": {"pergunta": "Trocar a ordem das categorias altera as frequências?", "alternativas": ["Não: 12, 10, 6 e 2 continuam os mesmos", "Sim: a ordem muda as contagens", "Depende da cor"], "correta": 0, "retorno": "Forma muda, dado não: as frequências são invariantes."},
+    "ordem": {"passos": ["Registrar os valores da tabela", "Mudar a apresentação", "Conferir se os valores continuam iguais"], "retorno": "Registrar, mudar, conferir: manipular a forma preserva o conteúdo."},
+    "apl": {"pergunta": "No laboratório, você trocou barras por setores. O que muda?", "alternativas": ["A forma de comunicar; os dados não", "O total de respondentes", "A conclusão da pesquisa"], "correta": 0, "retorno": "O gráfico é escolha de comunicação; os dados são os mesmos."}
+  },
+  {
+    "conceito": "Linha para sequência",
+    "explicacao": "O gráfico de linha conecta valores numa ordem temporal.",
+    "assoc": {"pergunta": "Quando o gráfico de linha é adequado?", "alternativas": ["Quando há sequência no tempo entre os valores", "Para categorias sem ordem", "Para deixar o trabalho moderno"], "correta": 0, "retorno": "Linha liga pontos ordenados — típico de meses, dias, anos."},
+    "ordem": {"passos": ["Ver se os valores têm ordem temporal", "Colocar o tempo no eixo horizontal", "Ligar os pontos e interpretar a tendência"], "retorno": "Tempo no eixo, pontos ligados, tendência lida."},
+    "apl": {"pergunta": "Temperatura média de cada mês do ano pede qual gráfico?", "alternativas": ["Linha, pois os meses se sucedem no tempo", "Setores, pois são doze categorias", "Nenhum"], "correta": 0, "retorno": "Sucessão de meses com valores: a linha mostra a variação do ano."}
+  },
+  {
+    "conceito": "Maior parcela x maioria",
+    "explicacao": "Maioria é mais da metade; a maior parcela pode ter menos de 50%, como 40%.",
+    "assoc": {"pergunta": "12 de 30 escolheram ônibus. Pode-se dizer que a maioria usa ônibus?", "alternativas": ["Não: 40% é a maior parcela, menos da metade", "Sim, pois é o maior número", "Só se a bicicleta tivesse zero"], "correta": 0, "retorno": "40% < 50%: maior parcela, não maioria — a linguagem importa."},
+    "ordem": {"passos": ["Calcular a porcentagem da categoria líder", "Comparar com 50%", "Escolher a palavra correta"], "retorno": "Porcentagem calculada, comparada com a metade, palavra precisa."},
+    "apl": {"pergunta": "Numa votação, 45% escolheram azul, 30% vermelho, 25% verde. Azul é…", "alternativas": ["A maior parcela, não a maioria", "A maioria", "O vencediro por maioria absoluta"], "correta": 0, "retorno": "45% lidera sem passar da metade: maior parcela."}
+  },
+  {
+    "conceito": "Limite da amostra",
+    "explicacao": "A conclusão da amostra vale como estimativa e precisa declarar seus limites.",
+    "assoc": {"pergunta": "A amostra teve só turmas da manhã. Que ressalva declarar?", "alternativas": ["O resultado pode não valer para a tarde", "Nenhuma: amostra é amostra", "A pesquisa está errada"], "correta": 0, "retorno": "Quem ficou fora define o alcance da conclusão."},
+    "ordem": {"passos": ["Descrever quem respondeu", "Identificar quem ficou de fora", "Escrever a ressalva no relatório"], "retorno": "Respondentes, ausentes e ressalva: generalização honesta."},
+    "apl": {"pergunta": "Pesquisa feita só com a turma 171 pode concluir sobre a escola?", "alternativas": ["Só como estimativa, com limite declarado", "Sim, com exatidão", "Não serve para nada"], "correta": 0, "retorno": "Uma turma é pouco para representar todas — estimativa com ressalva."}
+  },
+  {
+    "conceito": "Correlação sem causa",
+    "explicacao": "Variáveis que andam juntas não provam que uma causa a outra.",
+    "assoc": {"pergunta": "Quem usa ônibus tirou notas maiores. O ônibus causa boas notas?", "alternativas": ["Não dá para concluir: pode ser coincidência ou fator comum", "Sim, os dados mostram causa", "As notas causam o ônibus"], "correta": 0, "retorno": "Correlação abre pergunta; causa exige mecanismo e investigação."},
+    "ordem": {"passos": ["Observar a associação nos dados", "Propor explicações alternativas", "Investigar antes de concluir causa"], "retorno": "Associar, propor alternativas, investigar — o caminho da causalidade."},
+    "apl": {"pergunta": "Vendas de sorvete e afogamentos sobem juntos no verão. Qual a explicação?", "alternativas": ["Fator comum: o calor aumenta os dois", "Sorvete causa afogamentos", "Coincidência total"], "correta": 0, "retorno": "O verão é a causa comum — correlação sem causalidade direta."}
+  },
+  {
+    "conceito": "Relatório completo",
+    "explicacao": "O relatório comunica a pesquisa inteira: pergunta, variáveis, método, tabela, gráfico, conclusão e limites.",
+    "assoc": {"pergunta": "O que não pode faltar no relatório?", "alternativas": ["Método e limites, além do resultado", "Somente o resultado", "Somente o gráfico"], "correta": 0, "retorno": "Quem lê precisa conferir o caminho, não só o fim."},
+    "ordem": {"passos": ["Apresentar pergunta e variáveis", "Declarar método e dados organizados", "Concluir com evidência e limites"], "retorno": "Pergunta, método, evidência e limite: relatório completo."},
+    "apl": {"pergunta": "A direção vai ler seu relatório do lanche. O que ela precisa para decidir?", "alternativas": ["Pergunta, amostra, tabela, gráfico, conclusão e ressalva", "Só a lista dos lanches mais votados", "Uma foto da cantina"], "correta": 0, "retorno": "Decisão confiável pede o caminho completo dos dados."}
+  },
+  {
+    "conceito": "Transferir o método",
+    "explicacao": "O método da pesquisa se aplica a temas novos: classificar variáveis, decidir amostra, tabular, representar, concluir.",
+    "assoc": {"pergunta": "Nova pesquisa: horas de leitura por semana. Primeiro passo?", "alternativas": ["Classificar a variável e definir quem responde", "Fazer o gráfico", "Publicar a conclusão"], "correta": 0, "retorno": "Toda pesquisa começa pelo planejamento — o gráfico vem depois."},
+    "ordem": {"passos": ["Definir pergunta e variáveis", "Escolher amostra e instrumento", "Seguir coleta, tabela, gráfico e conclusão"], "retorno": "Planejar, coletar, organizar, representar, concluir: o ciclo se repete."},
+    "apl": {"pergunta": "O método aprendido serve para pesquisar o que mais?", "alternativas": ["Qualquer tema com pergunta pesquisável e variáveis definidas", "Apenas transporte escolar", "Apenas temas de Matemática"], "correta": 0, "retorno": "O método é geral: mudam os dados, permanece o caminho."}
+  }
+]

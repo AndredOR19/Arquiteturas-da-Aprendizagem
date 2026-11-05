@@ -1,0 +1,94 @@
+{
+  "versao": "1.0.0",
+  "gerado_em": "2026-11-05",
+  "aula": "pesquisa-estatistica-7ano",
+  "referencias_utilizadas": [
+    {
+      "papel": "prompt-mestre",
+      "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "sha256": "41a718e08d55ebf160c44b018f22367e8cf8ec08826a62f2cccb3ba5e46778e1"
+    },
+    {
+      "papel": "agents",
+      "caminho": "AGENTS.md",
+      "sha256": "357c020de3a733242593d9598798f4da7c92a738a0db0b48caece2732ba37ab6"
+    },
+    {
+      "papel": "fluxo-03-territorio-experiencias",
+      "caminho": "prompts/FLUXO_03_TERRITORIO_EXPERIENCIAS.md",
+      "sha256": "7f1b804162b24c9956d9796c00e42965300e239a0ac321ca6a449548bc51336f"
+    },
+    {
+      "papel": "estilo-matematica",
+      "caminho": "biblioteca-arquiteturas/estilos/matematica.md",
+      "sha256": "a1d1ba482263129e52ad66fac86203a72e32e39ec0af470a26bd0b0f7c96e8ea"
+    },
+    {
+      "papel": "arquitetura-da-biblioteca",
+      "caminho": "biblioteca-arquiteturas/ARQUITETURA_DA_BIBLIOTECA.md",
+      "sha256": "28caef73846976ecf1e94750876648ca43eb58bfbc16c1e2579032e2af93a64e"
+    },
+    {
+      "papel": "ponte-diagramacao",
+      "caminho": "ferramentas/README.md",
+      "sha256": "da3d3a4cdcf2dcd9ac2fe67273a28d303d50dbc76c5b3dd46808d84202d73ae7"
+    },
+    {
+      "papel": "lock-diagramacao",
+      "caminho": "ferramentas/biblioteca.lock.json",
+      "sha256": "1144534f2ad1ef88fef479143a5c42abdab74bcf66d9431260ed77af5d3de6da"
+    }
+  ],
+  "fluxo_pedagogico": {
+    "padrao": "AEE/MACI — 01 ENTENDER, 02 OBSERVAR, 03 PERCURSOS, 04 EXPLICAR",
+    "fases": {
+      "Planejar": 7,
+      "Coletar e organizar": 7,
+      "Representar": 7,
+      "Concluir": 5
+    },
+    "percursos": 26,
+    "habilidades": [
+      "EF07MA36 (BNCC): Planejar e realizar pesquisa envolvendo tema da realidade social, identificando a necessidade de ser censitária ou de usar amostra, e interpretar os dados para comunicá-los por meio de relatório escrito, tabelas e gráficos, com apoio de planilhas eletrônicas.",
+      "Referência fornecida pela professora parceira (preservada como referência): pesquisa estatística com variáveis categóricas e numéricas, organização em tabelas e gráficos, interpretação e justificativa das conclusões.",
+      "Complemento opcional quando o recorte numérico aparecer: EF07MA35 (BNCC) — obter e interpretar medidas de tendência central e de amplitude."
+    ]
+  },
+  "modelo_visual": {
+    "fluxo": "territorio-experiencias",
+    "estilo_componente": "matematica",
+    "modalidade_principal": "demonstrativa-procedimental (exemplo resolvido e passos justificados) combinada com relacional (representações equivalentes: pergunta ↔ tabela ↔ gráfico) — conforme estilos/matematica.md",
+    "identidade_visual": {
+      "paleta": "verde-água de laboratório (fundo do painel p5) com as cores convencionais dos dados do padrão (amarelo/verde/azul/rosa das categorias)",
+      "tipografia": "Fredoka (lettering-escolar do padrão)",
+      "objeto_central": "a bancada de dados: prancheta → tabela de frequência → gráficos de barras e setores manipuláveis",
+      "elementos": "10 etapas numeradas da pergunta à conclusão, cartões de exploração (pergunta e variáveis / coleta e organização / gráficos e conclusões), botões com feedback explicativo, números sempre com total e porcentagem visíveis"
+    },
+    "justificativa_visual": "O adendo determina variação por componente: a aula de pesquisa estatística privilegia a manipulação de representações. O objeto central é o painel p5 que redesenha a mesma base de dados fictícios a cada etapa (cartões de registro → tabela → barras ordenadas/na ordem → setores), tornando visível que mudar a apresentação não altera os dados — núcleo relacional da modalidade matemática. Difere da aula de História (mapa/fontes): aqui a identidade é a bancada de dados com números, total e escala sempre explícitos. As 10 etapas em botões espelham o painel para leitores de tela e fallback."
+  },
+  "motor_jogo": "p5.js 2.3.4 vendado (painel de visualização por etapa); 10 etapas em botões DOM carregam o mesmo conteúdo e funcionam sem o motor",
+  "acessibilidade": [
+    "alternativas em botões com data-valor e feedback em role=status",
+    "etapas em DOM equivalentes ao painel p5 (mesma função responder)",
+    "voz (Web Speech) para perguntas, instruções e sínteses",
+    "painel de leitura (letra, espaçamento, contraste, voz) via leitura/painel.js",
+    "apoio de alfabetização emergente (PESQUISA, TABELA, GRÁFICO, DADOS) separado da nota",
+    "teclado e foco gerenciáveis; erro não pune, sempre explica",
+    "degradação sem motor: aula íntegra sem o p5 (aviso no status do jogo)"
+  ],
+  "verificacoes": {
+    "modo_servidor": [
+      "  ✓ sem QR code nesta versão (será incluído após validar o endereço publicado)",
+      "[teste] 31 verificações aprovadas — pesquisa-estatistica-7ano (servidor)"
+    ],
+    "modo_recusa": [
+      "  ✓ sem QR code nesta versão (será incluído após validar o endereço publicado)",
+      "[teste] 31 verificações aprovadas — pesquisa-estatistica-7ano (recusa)"
+    ]
+  },
+  "limitacoes": [
+    "Biblioteca de Diagramação (AndredOR19/Biblioteca-de-Diagramacao, commit d10a9a45) é privada: não acessível nesta estação; integração pelos artefatos locais autorizados (ponte ferramentas/README.md, lock, Fluxo 03 e identidade aprovada das aulas publicadas), conforme ARQUITETURA_DA_BIBLIOTECA.md.",
+    "Formulação da habilidade pela professora parceira preservada como referência fornecida; texto oficial da EF07MA36 conferido à parte e registrado no conteudo.json"
+  ],
+  "publicacao": "preparar.py + workflows existentes (Pages/Vercel por push aprovado); sem Deploy Hooks manuais"
+}

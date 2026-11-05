@@ -1,0 +1,93 @@
+{
+  "versao": "1.0.0",
+  "gerado_em": "2026-11-05",
+  "aula": "descolonizacao-africa-asia-9ano",
+  "referencias_utilizadas": [
+    {
+      "papel": "prompt-mestre",
+      "caminho": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+      "sha256": "41a718e08d55ebf160c44b018f22367e8cf8ec08826a62f2cccb3ba5e46778e1"
+    },
+    {
+      "papel": "agents",
+      "caminho": "AGENTS.md",
+      "sha256": "357c020de3a733242593d9598798f4da7c92a738a0db0b48caece2732ba37ab6"
+    },
+    {
+      "papel": "fluxo-03-territorio-experiencias",
+      "caminho": "prompts/FLUXO_03_TERRITORIO_EXPERIENCIAS.md",
+      "sha256": "7f1b804162b24c9956d9796c00e42965300e239a0ac321ca6a449548bc51336f"
+    },
+    {
+      "papel": "estilo-historia",
+      "caminho": "biblioteca-arquiteturas/estilos/historia.md",
+      "sha256": "401007eb40488a0be3a8da1fc942eb209f8c13b617955e6b35d6550a8dd65a8d"
+    },
+    {
+      "papel": "arquitetura-da-biblioteca",
+      "caminho": "biblioteca-arquiteturas/ARQUITETURA_DA_BIBLIOTECA.md",
+      "sha256": "28caef73846976ecf1e94750876648ca43eb58bfbc16c1e2579032e2af93a64e"
+    },
+    {
+      "papel": "ponte-diagramacao",
+      "caminho": "ferramentas/README.md",
+      "sha256": "da3d3a4cdcf2dcd9ac2fe67273a28d303d50dbc76c5b3dd46808d84202d73ae7"
+    },
+    {
+      "papel": "lock-diagramacao",
+      "caminho": "ferramentas/biblioteca.lock.json",
+      "sha256": "1144534f2ad1ef88fef479143a5c42abdab74bcf66d9431260ed77af5d3de6da"
+    }
+  ],
+  "fluxo_pedagogico": {
+    "padrao": "AEE/MACI — 01 ENTENDER, 02 OBSERVAR, 03 PERCURSOS, 04 EXPLICAR",
+    "fases": {
+      "Investigar": 7,
+      "Relacionar": 7,
+      "Explicar": 7,
+      "Aplicar": 5
+    },
+    "percursos": 26,
+    "habilidades": [
+      "EF09HI28 (BNCC): Identificar e analisar aspectos da Guerra Fria, seus principais conflitos e as tensões geopolíticas no interior dos blocos liderados por soviéticos e estadunidenses.",
+      "EF09HI31 (BNCC): Descrever e avaliar os processos de descolonização na África e na Ásia.",
+      "Referência docente: o plano da turma formula esses objetivos com palavras próprias; as paráfrases estão preservadas no plano diário, na pasta professor/."
+    ]
+  },
+  "modelo_visual": {
+    "fluxo": "territorio-experiencias",
+    "estilo_componente": "historia",
+    "modalidade_principal": "investigativa (confronto de fontes e evidências), combinada com relacional (mudança e permanência) — conforme estilos/historia.md",
+    "identidade_visual": {
+      "paleta": "tons terrosos e quentes (mapa, bandeiras, jornal) sobre o fundo claro do padrão Fluxo 03",
+      "tipografia": "Fredoka (lettering-escolar do padrão) para títulos e navegação",
+      "objeto_central": "mapa interativo dos impérios → novos países; missões como expedições de investigação",
+      "elementos": "fontes em cartões (manchete, discurso, mapa, linha do tempo), botões com feedback explicativo, circuito de exploração em três cartões"
+    },
+    "justificativa_visual": "O adendo determina que História privilegie fontes, mapas e narrativas históricas. Por isso o objeto central é o mapa (Phaser) — território como organizador do raciocínio — e não um painel de dados: a operação mental é situar, comparar e datar processos, não calcular. As 8 missões estruturam-se como investigação de fontes; a versão em lista espelha as mesmas missões para acessibilidade. Mantém-se a identidade aprovada do Fluxo 03 (Fredoka, botões com feedback, painéis e percursos), variando a composição conforme o componente em vez de copiar o layout da aula de Matemática."
+  },
+  "motor_jogo": "Phaser 4.2.1 vendado (mapa didático de 6 regiões com 8 missões de investigação); versão em lista equivalente para leitores de tela e fallback",
+  "acessibilidade": [
+    "alternativas em botões com data-valor e feedback em role=status",
+    "versão em lista equivalente ao mapa (mesmas missões e mesma função responder)",
+    "voz (Web Speech) para perguntas, instruções e sínteses",
+    "painel de leitura (letra, espaçamento, contraste, voz) via leitura/painel.js",
+    "apoio de alfabetização emergente (FONTE, MAPA, BANDEIRA, DATAS) separado da nota",
+    "teclado e foco gerenciáveis; sem punição mecânica nem bloqueio infinito",
+    "degradação sem motor: aula íntegra sem o Phaser"
+  ],
+  "verificacoes": {
+    "modo_servidor": [
+      "  ✓ sem QR code nesta versão (será incluído após validar o endereço publicado)",
+      "[teste] 31 verificações aprovadas — descolonizacao-africa-asia-9ano (servidor)"
+    ],
+    "modo_recusa": [
+      "  ✓ sem QR code nesta versão (será incluído após validar o endereço publicado)",
+      "[teste] 31 verificações aprovadas — descolonizacao-africa-asia-9ano (recusa)"
+    ]
+  },
+  "limitacoes": [
+    "Biblioteca de Diagramação (AndredOR19/Biblioteca-de-Diagramacao, commit d10a9a45) é privada: não acessível nesta estação; integração pelos artefatos locais autorizados (ponte ferramentas/README.md, lock, Fluxo 03 e identidade aprovada das aulas publicadas), conforme ARQUITETURA_DA_BIBLIOTECA.md."
+  ],
+  "publicacao": "preparar.py + workflows existentes (Pages/Vercel por push aprovado); sem Deploy Hooks manuais"
+}
