@@ -1,7 +1,7 @@
 # Biblioteca de Arquiteturas da Aprendizagem
 Versão documental: 1.5.0 — 04/11/2026  
 Responsável pedagógico: Prof. André de Oliveira Rodrigues.  
-Compatível com o [Prompt Mestre 3.4.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
+Compatível com o [Prompt Mestre 3.5.0](../PROMPT_MESTRE_AULAS_DIGITAIS.md).
 
 **Nova arquitetura transversal:** [Salas de Alfabetização e Letramento](SALAS_DE_ALFABETIZACAO_E_LETRAMENTO.md): oito modalidades (imagem-palavra, consciência fonológica, grafema-fonema, montagem, frases, letramento social, jogos e ponte curricular), disponíveis como apoio não estigmatizante em todas as turmas.
 

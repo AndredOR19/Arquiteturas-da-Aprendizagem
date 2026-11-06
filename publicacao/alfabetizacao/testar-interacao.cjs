@@ -16,18 +16,17 @@ for(const materia of ['História','Matemática','Ciências','Arte','Estudos Orie
  const ctx={document,location,URL,URLSearchParams,window:{},console};vm.runInNewContext(script,ctx);
  assert.equal(get('back').href,document.referrer);
  get('hear').onclick();assert.match(get('audioStatus').textContent,/indisponível/);
- for(let i=0;i<28;i++){
-  assert.equal(get('step').textContent,`Percurso ${i+1} de 28`);
+ for(let i=0;i<57;i++){
+  assert.equal(get('step').textContent,`Percurso ${i+1} de 57`);
   assert.equal(get('next').disabled,true);
-  const key=get('word').textContent||get('choices').children.find(b=>b.attrs['aria-label']===data.bancos[materia==='História'?'historia':materia==='Matemática'?'matematica':materia==='Ciências'?'ciencias':materia==='Arte'?'arte':materia==='Estudos Orientados'?'orientados':'geral'][data.percursos[i].palavra][0])?.attrs['aria-label'];
   const bank=data.bancos[materia==='História'?'historia':materia==='Matemática'?'matematica':materia==='Ciências'?'ciencias':materia==='Arte'?'arte':materia==='Estudos Orientados'?'orientados':'geral'];
-  const word=bank[data.percursos[i].palavra];const answer=data.percursos[i].modo==='silaba'?word[2][0]:word[0];
+  const word=bank[data.percursos[i].palavra];const mode=data.percursos[i].modo;const answer=mode==='silaba'?word[2][0]:mode==='letra'?word[0][0]:['final','montagem'].includes(mode)?word[2].at(-1):mode==='frase'?word[3]:word[0];
   const choices=get('choices').children;choices.find(b=>b.attrs['aria-label']!==answer).onclick();assert.equal(get('next').disabled,true);
   choices.find(b=>b.attrs['aria-label']===answer).onclick();assert.equal(get('next').disabled,false);
-  assert.match(get('progress').textContent,new RegExp(`concluídos: ${i+1} de 28`));
-  if(i===0){get('repeat').onclick();get('choices').children.find(b=>b.attrs['aria-label']===answer).onclick();assert.match(get('progress').textContent,/concluídos: 1 de 28/);}
+  assert.match(get('progress').textContent,new RegExp(`concluídos: ${i+1} de 57`));
+  if(i===0){get('repeat').onclick();get('choices').children.find(b=>b.attrs['aria-label']===answer).onclick();assert.match(get('progress').textContent,/concluídos: 1 de 57/);}
   get('next').onclick();
  }
  assert.match(get('feedback').textContent,/terminou/);assert.equal(get('next').disabled,true);
- console.log(materia+': 28 percursos, erro/recuperação, repetição e conclusão OK');
+ console.log(materia+': 57 percursos, erro/recuperação, repetição e conclusão OK');
 }

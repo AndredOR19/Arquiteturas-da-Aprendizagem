@@ -737,6 +737,157 @@
       },
       "ponto": "Escolher sem relacionar o dado à conclusão.",
       "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Imagem antiga · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma foto verdadeira pode circular com uma legenda falsa. Conferir quando e onde ela foi feita ajuda a avaliar se representa o fato anunciado.",
+      "pergunta": "Uma foto de uma enchente antiga é apresentada como acontecimento de hoje. O que conferir?",
+      "alternativas": [
+        "Somente a quantidade de curtidas",
+        "A origem e a data da foto, comparando com a legenda",
+        "Se a foto tem cores fortes"
+      ],
+      "correta": 1,
+      "justificativa": "A foto pode ser real e estar fora de contexto. Sua data e origem precisam combinar com a afirmação.",
+      "pistas": [
+        "Identifique o que a mensagem afirma.",
+        "Uma foto verdadeira pode circular com uma legenda falsa. Conferir quando e onde ela foi feita ajuda a avaliar se representa o fato anunciado.",
+        "A foto pode ser real e estar fora de contexto. Sua data e origem precisam combinar com a afirmação."
+      ],
+      "retorno": {
+        "0": "Revise o dado e a relação. A foto pode ser real e estar fora de contexto. Sua data e origem precisam combinar com a afirmação.",
+        "1": "A foto pode ser real e estar fora de contexto. Sua data e origem precisam combinar com a afirmação.",
+        "2": "Revise o dado e a relação. A foto pode ser real e estar fora de contexto. Sua data e origem precisam combinar com a afirmação."
+      },
+      "ponto": "Confundir aparência ou repetição com evidência.",
+      "acao": "Mostre a informação que sustenta sua conclusão e reconheça um limite."
+    },
+    {
+      "titulo": "Opinião e informação · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma opinião expressa uma avaliação. Uma afirmação factual pode ser confrontada com registros e outras evidências. Ambas precisam ser identificadas antes de compartilhar.",
+      "pergunta": "Qual frase apresenta uma opinião?",
+      "alternativas": [
+        "A reunião começou às 14 horas",
+        "A escola publicou um aviso no mural",
+        "Este aplicativo é o mais bonito de todos"
+      ],
+      "correta": 2,
+      "justificativa": "A avaliação de beleza depende de preferência; não é uma medida verificada pelo enunciado.",
+      "pistas": [
+        "Identifique o que a mensagem afirma.",
+        "Uma opinião expressa uma avaliação. Uma afirmação factual pode ser confrontada com registros e outras evidências. Ambas precisam ser identificadas antes de compartilhar.",
+        "A avaliação de beleza depende de preferência; não é uma medida verificada pelo enunciado."
+      ],
+      "retorno": {
+        "0": "Revise o dado e a relação. A avaliação de beleza depende de preferência; não é uma medida verificada pelo enunciado.",
+        "1": "Revise o dado e a relação. A avaliação de beleza depende de preferência; não é uma medida verificada pelo enunciado.",
+        "2": "A avaliação de beleza depende de preferência; não é uma medida verificada pelo enunciado."
+      },
+      "ponto": "Confundir aparência ou repetição com evidência.",
+      "acao": "Mostre a informação que sustenta sua conclusão e reconheça um limite."
+    },
+    {
+      "titulo": "Corrigir com cuidado · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Quando uma informação compartilhada se mostra errada, interromper sua circulação e publicar uma correção clara ajuda outras pessoas a rever o que receberam.",
+      "pergunta": "Você compartilhou um aviso incorreto e encontrou a fonte correta. Como agir?",
+      "alternativas": [
+        "Avisar sobre o erro e indicar a correção com a fonte",
+        "Apagar sem avisar quem recebeu",
+        "Repassar de novo para perguntar se é falso"
+      ],
+      "correta": 0,
+      "justificativa": "Corrigir explicitamente e apresentar a fonte permite que os destinatários também revisem a informação.",
+      "pistas": [
+        "Identifique o que a mensagem afirma.",
+        "Quando uma informação compartilhada se mostra errada, interromper sua circulação e publicar uma correção clara ajuda outras pessoas a rever o que receberam.",
+        "Corrigir explicitamente e apresentar a fonte permite que os destinatários também revisem a informação."
+      ],
+      "retorno": {
+        "0": "Corrigir explicitamente e apresentar a fonte permite que os destinatários também revisem a informação.",
+        "1": "Revise o dado e a relação. Corrigir explicitamente e apresentar a fonte permite que os destinatários também revisem a informação.",
+        "2": "Revise o dado e a relação. Corrigir explicitamente e apresentar a fonte permite que os destinatários também revisem a informação."
+      },
+      "ponto": "Confundir aparência ou repetição com evidência.",
+      "acao": "Mostre a informação que sustenta sua conclusão e reconheça um limite."
+    },
+    {
+      "titulo": "Dado pessoal · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Nome completo, foto e telefone podem identificar pessoas. Uma atividade de aprendizagem pode usar dados fictícios sem expor colegas.",
+      "pergunta": "Para testar um formulário de uma aula, qual opção protege melhor os colegas?",
+      "alternativas": [
+        "Usar o telefone de um colega sem pedir",
+        "Usar dados fictícios aprovados pelo professor",
+        "Copiar uma lista real da turma"
+      ],
+      "correta": 1,
+      "justificativa": "Dados fictícios permitem praticar sem revelar a identidade ou os contatos de outra pessoa.",
+      "pistas": [
+        "Identifique o que a mensagem afirma.",
+        "Nome completo, foto e telefone podem identificar pessoas. Uma atividade de aprendizagem pode usar dados fictícios sem expor colegas.",
+        "Dados fictícios permitem praticar sem revelar a identidade ou os contatos de outra pessoa."
+      ],
+      "retorno": {
+        "0": "Revise o dado e a relação. Dados fictícios permitem praticar sem revelar a identidade ou os contatos de outra pessoa.",
+        "1": "Dados fictícios permitem praticar sem revelar a identidade ou os contatos de outra pessoa.",
+        "2": "Revise o dado e a relação. Dados fictícios permitem praticar sem revelar a identidade ou os contatos de outra pessoa."
+      },
+      "ponto": "Confundir aparência ou repetição com evidência.",
+      "acao": "Mostre a informação que sustenta sua conclusão e reconheça um limite."
+    },
+    {
+      "titulo": "Fonte original · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Vários perfis podem repetir a mesma mensagem sem acrescentar evidência. Retornar ao documento ou ao canal original ajuda a conferir o que realmente foi anunciado.",
+      "pergunta": "Dez perfis repetem o mesmo aviso sem indicar a origem. Isso comprova o aviso?",
+      "alternativas": [
+        "Sim, pois dez publicações são dez provas",
+        "Sim, se usarem a mesma imagem",
+        "Não; é preciso buscar a origem e as evidências"
+      ],
+      "correta": 2,
+      "justificativa": "Repetições podem partir de uma única mensagem. Quantidade de compartilhamentos não equivale a fontes independentes.",
+      "pistas": [
+        "Identifique o que a mensagem afirma.",
+        "Vários perfis podem repetir a mesma mensagem sem acrescentar evidência. Retornar ao documento ou ao canal original ajuda a conferir o que realmente foi anunciado.",
+        "Repetições podem partir de uma única mensagem. Quantidade de compartilhamentos não equivale a fontes independentes."
+      ],
+      "retorno": {
+        "0": "Revise o dado e a relação. Repetições podem partir de uma única mensagem. Quantidade de compartilhamentos não equivale a fontes independentes.",
+        "1": "Revise o dado e a relação. Repetições podem partir de uma única mensagem. Quantidade de compartilhamentos não equivale a fontes independentes.",
+        "2": "Repetições podem partir de uma única mensagem. Quantidade de compartilhamentos não equivale a fontes independentes."
+      },
+      "ponto": "Confundir aparência ou repetição com evidência.",
+      "acao": "Mostre a informação que sustenta sua conclusão e reconheça um limite."
+    },
+    {
+      "titulo": "Limite da verificação · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma busca pode não encontrar dados suficientes. Reconhecer esse limite evita transformar dúvida em certeza. Pedir ajuda e aguardar confirmação são ações responsáveis.",
+      "pergunta": "Você não encontrou confirmação nem prova de falsidade. Como registrar a conclusão?",
+      "alternativas": [
+        "Ainda não verificado; evitar compartilhar como certeza",
+        "É verdadeiro porque ninguém negou",
+        "É falso porque não apareceu na primeira busca"
+      ],
+      "correta": 0,
+      "justificativa": "Ausência de confirmação não comprova verdade nem falsidade. A conclusão deve explicitar o limite da busca.",
+      "pistas": [
+        "Identifique o que a mensagem afirma.",
+        "Uma busca pode não encontrar dados suficientes. Reconhecer esse limite evita transformar dúvida em certeza. Pedir ajuda e aguardar confirmação são ações responsáveis.",
+        "Ausência de confirmação não comprova verdade nem falsidade. A conclusão deve explicitar o limite da busca."
+      ],
+      "retorno": {
+        "0": "Ausência de confirmação não comprova verdade nem falsidade. A conclusão deve explicitar o limite da busca.",
+        "1": "Revise o dado e a relação. Ausência de confirmação não comprova verdade nem falsidade. A conclusão deve explicitar o limite da busca.",
+        "2": "Revise o dado e a relação. Ausência de confirmação não comprova verdade nem falsidade. A conclusão deve explicitar o limite da busca."
+      },
+      "ponto": "Confundir aparência ou repetição com evidência.",
+      "acao": "Mostre a informação que sustenta sua conclusão e reconheça um limite."
     }
-  ]
+  ],
+  "quantidade_percursos": 32
 }

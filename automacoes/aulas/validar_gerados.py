@@ -16,7 +16,7 @@ for rel in manifest['artefatos']:
     m=re.search(r'<script id="dados" type="application/json">(.*?)</script>',html,re.S)
     assert m,'JSON embutido não encontrado'
     data=json.loads(m.group(1))
-    assert len(data['percursos'])==26
+    assert len(data['percursos'])==32
     assert all(len(p['alternativas'])==4 and 0<=p['correta']<4 for p in data['percursos'])
     with tempfile.TemporaryDirectory() as tmp:
         scripts=re.findall(r'<script>(.*?)</script>',html,re.S)
@@ -26,4 +26,4 @@ for rel in manifest['artefatos']:
             file.write_text(script,encoding='utf-8')
             subprocess.run(['node','--check',str(file)],check=True)
     assert any(item.get('destino')==rel for item in catalog)
-    print('OK:',rel,'26 percursos, JS sintaticamente válido, catalogado')
+    print('OK:',rel,'32 percursos, JS sintaticamente válido, catalogado')

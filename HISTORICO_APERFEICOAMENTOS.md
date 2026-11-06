@@ -3,6 +3,11 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.5.0 — 06/11/2026 — 32 curriculares, 57 de leitura e opção por exemplos
+O professor propôs página acoplada com menos texto, mais exemplos e relações e banco opcional com dobro/triplo dos percursos. Em seguida, atualizou os totais: principal 32 e apoio inclusivo 57. A seção 35 distingue principal, alfabetização/leitura e exemplos curriculares. Na base de 32, os exemplos têm mínimo 64 e padrão 96; não há obrigação de concluir os bancos juntos nem benefício inferido pela quantidade.
+
+Gerador atualizado para 32 e página opcional de exemplos com banco validado, texto breve, modelagem, retorno e progresso separado. Apoio compartilhado ampliado para 57, com novas operações de letra inicial, sílaba final, completar, frase e aplicação. Aula 182 recebeu seis casos curriculares, total 32, e 18 retomadas; cálculo/contagem/regras acompanham o total, preservando sessões antigas de 26 sem apagar respostas. Catálogos e orientações reconciliados. Não migra automaticamente outras aulas antigas nem cria coleta para a nova rota. Testes técnicos não demonstram eficácia pedagógica ou reprodução de voz no dispositivo final.
+
 ## 3.4.0 — 06/11/2026 — Apoio opcional com pelo menos 26 percursos
 Prof. André relatou que os estudantes gostaram do apoio, mas o considerou curto, e solicitou mínimo de 26 na automação e no prompt. Seção 34.4.1 e AGENTS tornam o mínimo obrigatório, independente dos percursos curriculares e da nota, com atividades variadas e sem contar instruções ou tentativas como novos percursos.
 

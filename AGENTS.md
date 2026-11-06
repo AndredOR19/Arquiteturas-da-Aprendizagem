@@ -32,7 +32,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 - Design de associações: cumprir seção 6.1 do prompt. Definir relação, aproximar imagem e frase, manter sinais redundantes e D/R/E/L, oferecer interação acessível, reduzir pistas gradualmente e conferir aplicação em novo exemplo. Layout flexível; não prometer aprendizagem automática ou perfil único de neurodivergência.
 - Integração estético-semântica: cumprir seção 6.2 do prompt. A linguagem do objeto participa da composição e das ações; sketchnote é uma possibilidade. Fundamentar escolhas, manter acesso e D/R/E/L, diferenciar produção didática e documento e conferir transferência além do estilo. Levar o briefing ao HTML, aos slides e aos demais suportes.
 - AEE + MACI + ARN + SVS + EPC + SSS, integradas em ASA.
-- No mínimo 26 percursos; pistas graduadas; glossário e dicionário.
+- 32 percursos curriculares; pistas graduadas; glossário e dicionário.
 - Próximo percurso liberado somente após acerto; preservar tentativas e apoios.
 - Relatório completo, não somente nota; prévia, cópia e download. Ao final, botão “Enviar relatório ao professor” abre o aplicativo de e-mail com destinatário confirmado do solicitante, assunto e relatório completo preenchidos; o estudante confere e envia. Não exige backend de e-mail e não confirmar envio pelo simples clique. Consulte a seção 13 do prompt para limites e alternativas.
 - Guias e gabaritos docentes separados do material público; não usar senha no JavaScript como proteção.
@@ -115,7 +115,7 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 
 ## Roteiros e monitoramento metodológico
 - Cumprir seção 5.1 do prompt e consultar biblioteca-arquiteturas/estilos/README.md e o repertório do componente. Investigação é uma modalidade, não uma exigência de toda aula. Separar metodologia e fluxo visual.
-- Registrar espiral MACI, ponte interdisciplinar justificada, circuito personalizado e motivo da variação; 26 percursos não significam 26 perguntas investigativas.
+- Registrar espiral MACI, ponte interdisciplinar justificada, circuito personalizado e motivo da variação; 32 percursos não significam 32 perguntas investigativas.
 - Novas aulas devem integrar e testar coleta/metodologia.mjs conforme coleta/MONITORAMENTO_METODOLOGICO.md. Legados continuam válidos; registrar migração efetiva. Não inferir tédio ou eficácia de erros/cliques; revisão docente e dados privados.
 
 ## Leitura breve e linguagens alternativas
@@ -135,8 +135,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 
 
 ## Recuperação adaptativa até quatro atividades
-- Aplicar seção 9.1 do Prompt Mestre 3.1.0. Regras visíveis e confirmadas antes de novos inícios: 1 original; primeiro erro +1 experiência; segundo erro do conjunto +3 extras no total; teto 4/conjunto e 104 para 26 originais. Sem ampliação por pista, áudio, pedido de ajuda, erro técnico ou treino complementar de alfabetização.
-- Preservar sessões já iniciadas e cálculo de primeira resposta sobre 26 originais. Extras com novas relações, operações e contextos; não repetir a pergunta apenas para alongar. Registrar e conferir bloqueios, recarga, limites, relatórios integrais e recebimento antes de declarar implantação.
+- Aplicar seção 9.1 do Prompt Mestre 3.1.0. Regras visíveis e confirmadas antes de novos inícios: 1 original; primeiro erro +1 experiência; segundo erro do conjunto +3 extras no total; teto 4/conjunto e 128 para 32 originais. Sem ampliação por pista, áudio, pedido de ajuda, erro técnico ou treino complementar de alfabetização.
+- Preservar sessões já iniciadas e cálculo de primeira resposta sobre 32 originais. Extras com novas relações, operações e contextos; não repetir a pergunta apenas para alongar. Registrar e conferir bloqueios, recarga, limites, relatórios integrais e recebimento antes de declarar implantação.
 
 
 ## Labirinto de Evidências e Perspectivas
@@ -153,6 +153,14 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - O professor revisa e transfere o texto para o Escola RS. Não afirmar envio automático, aplicação da aula ou atualização de páginas antigas por uma mudança documental.
 
 
-## Apoio à leitura com no mínimo 26 percursos
-- Aplicar seção 34.4.1: pelo menos 26 atividades significativas no apoio opcional, separadas dos percursos curriculares e da nota. Variar imagens, palavras, sílabas e frases/contexto com áudio e alternativa mediada. Não contar instruções, repetições idênticas ou tentativas extras como novos percursos.
-- O empacotamento deve executar `publicacao/alfabetizacao/validar.py` e bloquear banco com menos de 26. Conferir progresso, repetição, avanço, áudio indisponível e retorno. O recurso compartilhado atual oferece 28; não confundir com oito salas completas, eficácia comprovada ou instrumentação no painel.
+## Apoio à leitura com no mínimo 57 percursos
+- Aplicar seção 34.4.1: pelo menos 57 atividades significativas no apoio opcional, separadas dos percursos curriculares e da nota. Variar imagens, palavras, sílabas e frases/contexto com áudio e alternativa mediada. Não contar instruções, repetições idênticas ou tentativas extras como novos percursos.
+- O empacotamento deve executar `publicacao/alfabetizacao/validar.py` e bloquear banco com menos de 57. Conferir progresso, repetição, avanço, áudio indisponível e retorno. O recurso compartilhado atual oferece 57; não confundir com oito salas completas, eficácia comprovada ou instrumentação no painel.
+
+
+## Exemplos e relações: terceira entrada opcional
+- Seguir seção 35 do Prompt Mestre 3.5.0: 32 curriculares, apoio à leitura com 57 e opção curricular por exemplos com mínimo 64/padrão 96. Não confundir os dois apoios.
+- Produzir página acoplada, exemplos concretos, relações explicadas, pouco texto e aplicação em outro contexto. Validar quantidade e duplicação literal; revisão docente verifica diversidade semântica e adequação visual. Banco ampliado é opção para prática distribuída, sem exigir tudo junto ou modificar a nota automaticamente.
+- Preservar realizações iniciadas, notas e relatórios; migração de legado deve ser declarada e testada.
+
+- Esclarecimento autoral: “Aprender de outro jeito” inclui leitura breve e várias linguagens explicativas equivalentes. Não é um caminho sem leitura. Troca de linguagem é apoio livre, preserva respostas e não aumenta a contagem.

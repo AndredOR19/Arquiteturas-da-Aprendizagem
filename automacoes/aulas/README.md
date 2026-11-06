@@ -9,7 +9,7 @@ Fluxo executável **quando credenciais e permissões estiverem habilitadas**:
 
 1. Validar arquivo do pedido com `validar_pedidos.py`.
 2. Consultar Prompt Mestre e Fluxo 03, e fazer checkout da **Biblioteca de Diagramação privada no commit fixado** por `ferramentas/biblioteca.lock.json`.
-3. Passar o pedido e o roteiro ao modelo configurado via API de chat compatível com OpenAI, exigindo JSON pedagógico estruturado. Cada aula recebe 26 percursos e quatro alternativas comentadas. O código executável é um template local fixo: **o modelo não escreve JavaScript arbitrário**.
+3. Passar o pedido e o roteiro ao modelo configurado via API de chat compatível com OpenAI, exigindo JSON pedagógico estruturado. Cada aula recebe 32 percursos e quatro alternativas comentadas. O código executável é um template local fixo: **o modelo não escreve JavaScript arbitrário**.
 4. Gerar `aulas/<id>/index.html` e cadastrar a aula em `publicacao/catalogo.json` na nova branch.
 5. Executar `validar_gerados.py`, `biblioteca-arquiteturas/validar_catalogo.py` e `publicacao/preparar.py`. Criar PR em **rascunho**, sem fazer merge e sem publicar a aula diretamente.
 6. Professor revisa conteúdo, correção, currículo, acessibilidade e versão para uso; após aprovação e merge, os workflows **já existentes** do Pages geram o acervo público.
@@ -64,4 +64,12 @@ O fluxo `Validar pedidos e aulas AEE` roda em PR e também manualmente. A checag
 
 
 ## Apoio opcional de leitura — regra de 06/11/2026
-O mínimo de 26 percursos de apoio é independente dos 26 curriculares, sem mudar a nota ou exigir conclusão do apoio. O gerador inclui essa regra na solicitação ao modelo; o empacotador integra `publicacao/alfabetizacao/index.html` e executa `publicacao/alfabetizacao/validar.py` antes de publicar. O banco compartilhado atual oferece 28 percursos por área (7 palavras × 4 operações). Banco menor que 26, IDs/atividades duplicados ou referências inexistentes interrompem o build; não basta anunciar 26 no texto. Execute `python3 publicacao/alfabetizacao/testar.py`. A geração por API continua dependente das credenciais configuradas e de revisão docente.
+O mínimo de 57 percursos de apoio é independente dos 32 curriculares, sem mudar a nota ou exigir conclusão do apoio. O gerador inclui essa regra na solicitação ao modelo; o empacotador integra `publicacao/alfabetizacao/index.html` e executa `publicacao/alfabetizacao/validar.py` antes de publicar. O banco compartilhado atual oferece 57 percursos por área (oito operações sobre sete palavras e aplicação final). Banco menor que 57, IDs/atividades duplicados ou referências inexistentes interrompem o build; não basta anunciar 57 no texto. Execute `python3 publicacao/alfabetizacao/testar.py`. A geração por API continua dependente das credenciais configuradas e de revisão docente.
+
+
+## Opção Aprender de outro jeito — exemplos e relações — 06/11/2026
+Além da aula principal de 32 percursos e do apoio à leitura de 57, cada geração cria `exemplos/index.html`. O gerador faz uma segunda chamada de conteúdo ao modelo, usando o mesmo objetivo curricular. Padrão 96 exemplos (triplo); `percursos_exemplos` permite adaptação de no mínimo 64 (dobro). São opções independentes, sem soma de carga obrigatória ou nota automática.
+
+`exemplos.py` valida banco, IDs, duplicações literais, campos breves e respostas. O template mostra exemplo, elementos relacionados, relação explicada, resposta e feedback, com áudio opcional, retorno e progresso na aba. O template atual representa relações por cartões textuais: cenas/imagens específicas e diversidade pedagógica exigem revisão e enriquecimento antes da publicação. Não anunciar que todas as operações cognitivas sugeridas foram implementadas por este template de seleção. Não há coleta nominal ou diagnóstico.
+
+O empacotador rejeita página ausente ou contagem divergente nas aulas com metadado `rota_exemplos`. A revisão docente continua obrigatória, inclusive para relações repetidas com outra redação, precisão e adequação etária. Teste sintético sem API: `python3 automacoes/aulas/testar_gerador.py`. A rotina continua dependente de credenciais/modelo e biblioteca privada configurados; esta atualização não executa geração real por API nem migra o acervo antigo.

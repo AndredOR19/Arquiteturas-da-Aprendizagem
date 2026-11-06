@@ -5,3 +5,6 @@ Prompt 3.2.0; Fluxo 03 com quatro ambientes guiados, mapa/lista e motor público
 Adaptação da ementa recebida de Cultura Digital para os anos finais; a ementa menciona anos iniciais e não fixa sequência para 182.
 
 26 originais, nove passagens de evidência integradas aos conjuntos, 78 recuperações disponíveis, jogos 2D e CSS 3D opcionais com lista equivalente. Fontes Fredoka/OpenDyslexic locais licenciadas; movimento reduzido, teclado, texto, voz opcional e apoio grafema-palavra. Coleta somente local, sem integração online anunciada. Texto do professor entregue separadamente. Estado: preparado; validação e publicação registradas à parte.
+
+
+Atualização 06/11/2026: 32 percursos curriculares para novos inícios, seis casos adicionais e 96 retomadas possíveis. Sessões que começaram com 26 conservam suas respostas e o denominador original. Apoio compartilhado ampliado para 57 percursos. Novo caminho Aprender de outro jeito é regra do gerador para novas aulas; esta página não o apresenta como já implementado.

@@ -37,8 +37,11 @@ def validar_conteudo(d, slug):
         erro(f"{slug}: conteudo.id={d['id']!r} difere do diretório")
     if 'data' in d and re_data(d):
         erro(f"{slug}: convenção da aula: sem data no conteúdo (usar 'não fixada')")
-    if len(d['percursos']) != 26:
-        erro(f"{slug}: {len(d['percursos'])} percursos (esperados 26)")
+    esperado=d.get('quantidade_percursos',26)
+    if esperado not in (26,32):
+        erro('Total curricular não suportado')
+    if len(d['percursos']) != esperado:
+        erro(f"{slug}: {len(d['percursos'])} percursos (esperados {esperado})")
     for i, p in enumerate(d['percursos']):
         for k in ['titulo', 'fase', 'explicacao', 'pergunta', 'justificativa', 'ponto', 'acao']:
             if not str(p.get(k, '')).strip():
@@ -81,7 +84,7 @@ def validar_conteudo(d, slug):
     if tam > 60000:
         print(f"  AVISO: conteudo.json tem {tam} bytes (cota do relatório no receptor é 60 KB; "
               f"o relatório final inclui registros além do conteúdo)")
-    print(f"  conteudo.json OK ({tam} bytes, 26 percursos, {len(d['blocos'])} blocos, "
+    print(f"  conteudo.json OK ({tam} bytes, {len(d['percursos'])} percursos, {len(d['blocos'])} blocos, "
           f"{len(d['fontes'])} fontes)")
 
 
@@ -90,9 +93,9 @@ def re_data(d):
     return bool(re.search(r'\d{2}/\d{2}/\d{4}', str(d.get('data', ''))))
 
 
-def validar_recuperacao(r, slug):
-    if not isinstance(r, list) or len(r) != 26:
-        erro(f"{slug}: recuperacao.json precisa de 26 entradas (recebi {len(r) if isinstance(r, list) else 'não-lista'})")
+def validar_recuperacao(r, slug, esperado=32):
+    if not isinstance(r, list) or len(r) != esperado:
+        erro(f"{slug}: recuperacao.json precisa de {esperado} entradas (recebi {len(r) if isinstance(r, list) else 'não-lista'})")
     for i, e in enumerate(r):
         for k in ['conceito', 'explicacao']:
             if not str(e.get(k, '')).strip():
@@ -149,7 +152,7 @@ def main():
     validar_conteudo(d, slug)
 
     r = json.loads((pasta / 'professor' / 'recuperacao.json').read_text(encoding='utf-8'))
-    validar_recuperacao(r, slug)
+    validar_recuperacao(r, slug, len(d['percursos']))
 
     conteudo_js = json.dumps(d, ensure_ascii=False, separators=(',', ':'))
     cauda = ('Promise.resolve(' + conteudo_js + ').then(d=>init(d))'

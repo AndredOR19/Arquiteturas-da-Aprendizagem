@@ -11,6 +11,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from exemplos import validar as validar_exemplos, renderizar as renderizar_exemplos
 
 def read(path):
     p=Path(path)
@@ -40,7 +42,7 @@ def ask(prompt):
 
 def check(data):
     assert all(isinstance(data.get(k),str) and len(data[k])>15 for k in ('titulo','objetivo','conceito','conclusao'))
-    assert isinstance(data.get('percursos'),list) and len(data['percursos'])==26, 'São exigidos 26 percursos'
+    assert isinstance(data.get('percursos'),list) and len(data['percursos'])==32, 'São exigidos 32 percursos'
     for i,item in enumerate(data['percursos']):
         assert all(isinstance(item.get(k),str) and len(item[k])>=12 for k in ('contexto','pergunta','explicacao','transferencia')),i
         assert isinstance(item.get('alternativas'),list) and len(item['alternativas'])==4,i
@@ -72,14 +74,14 @@ button{background:#ffe279;cursor:pointer;margin:5px}button:focus-visible,input:f
 </main><script id="dados" type="application/json">__DADOS__</script><script>
 (()=>{'use strict';const doc=JSON.parse(document.querySelector('#dados').textContent),$=id=>document.getElementById(id);
 let pos=0,erros=0,acertos=0,registros=[],nome='',inicio=0;
-function mostrar(){const q=doc.percursos[pos];$('contador').textContent='Percurso '+(pos+1)+' de 26';$('contexto').textContent=q.contexto;$('pergunta').textContent=q.pergunta;
+function mostrar(){const q=doc.percursos[pos];$('contador').textContent='Percurso '+(pos+1)+' de 32';$('contexto').textContent=q.contexto;$('pergunta').textContent=q.pergunta;
 $('alternativas').replaceChildren();$('seguir').disabled=true;$('feedback').textContent='Analise a situação antes de responder.';
 q.alternativas.forEach((o,i)=>{const b=document.createElement('button');b.className='opcao';b.textContent=String.fromCharCode(65+i)+'. '+o.texto;b.onclick=()=>{
 const certo=i===q.correta;registros.push({percurso:pos+1,alternativa:i+1,acerto:certo});$('feedback').textContent=o.feedback+(certo?' '+q.explicacao:' Relacione a evidência com outra possibilidade.');
 if(certo){acertos++;$('seguir').disabled=false;[...$('alternativas').children].forEach(x=>x.disabled=true)}else{erros++;}
 };$('alternativas').appendChild(b)})}
 $('iniciar').onclick=()=>{nome=$('nome').value.trim();if(!nome){$('nome').focus();return}inicio=Date.now();$('entrada').classList.add('esconder');$('aula').classList.remove('esconder');mostrar()};
-$('seguir').onclick=()=>{pos++;if(pos<26)mostrar();else{$('aula').classList.add('esconder');$('fim').classList.remove('esconder');$('conclusao').textContent=doc.conclusao}};
+$('seguir').onclick=()=>{pos++;if(pos<32)mostrar();else{$('aula').classList.add('esconder');$('fim').classList.remove('esconder');$('conclusao').textContent=doc.conclusao}};
 $('voz').onclick=()=>{if(!('speechSynthesis'in window))return;const a=new SpeechSynthesisUtterance($('contexto').textContent+' '+$('pergunta').textContent);a.lang='pt-BR';speechSynthesis.cancel();speechSynthesis.speak(a)};
 $('baixar').onclick=()=>{const txt=$('explicacao').value.trim();if(txt.length<20){$('aviso').textContent='Explique o que aprendeu antes de gerar o relatório.';return}
 const dados={atividade:document.title,nome,acertos,erros,tempoSegundos:Math.round((Date.now()-inicio)/1000),tentativas:registros,explicacao:txt};
@@ -117,26 +119,52 @@ def main():
         pasta=ROOT/rel
         if pasta.exists() or rel in usados:
             raise ValueError('Aula já existe; preservada: '+rel)
-        prompt=('Crie uma aula para dois períodos, 26 percursos completos, ensinando antes de perguntar, '
+        prompt=('Crie uma aula para dois períodos, 32 percursos completos, ensinando antes de perguntar, '
                 'com variação entre observar, associar, comparar, inferir e aplicar. Responda JSON com '
                 'titulo, objetivo, conceito, conclusao, percursos; cada percurso tem contexto, pergunta, '
                 'alternativas [4 objetos {texto,feedback}], correta [0..3], explicacao e transferencia. '
                 'Inclua conteúdo adequado à turma e não invente fontes. Use linguagem pt-BR. '
-                'O apoio à leitura é opcional, separado da nota e dos 26 percursos curriculares. '
-                'A publicação integra o recurso compartilhado com no mínimo 26 percursos de apoio: '
+                'O apoio à leitura é opcional, separado da nota e dos 32 percursos curriculares. '
+                'A publicação integra o recurso compartilhado com no mínimo 32 percursos de apoio: '
                 'imagem-palavra, palavra-imagem, sílabas e frases em contexto, com áudio e mediação. '
                 'Nunca conte telas de instrução, tentativas ou repetição idêntica como novos percursos. '
                 'ERER: diferencie analogia fílmica de racismo real e não copie personagens protegidos.\n'
                 +json.dumps(aula,ensure_ascii=False)+'\n'+roteiro+'\n'+protocolo+'\n'+fluxo+
                 '\nReferência versionada da Biblioteca de Diagramação (não copiar motor): '+guia)
         doc=check(ask(prompt))
+        total_exemplos=aula.get('percursos_exemplos',96)
+        if type(total_exemplos) is not int or total_exemplos < max(64,2*len(doc['percursos'])):
+            raise ValueError('Solicitar pelo menos o dobro dos percursos curriculares; mínimo 64')
+        prompt_exemplos=('Crie o caminho opcional Aprender de outro jeito — exemplos e relações para a mesma aula. '
+            'Há leitura breve, não ausência de leitura. Use diferentes linguagens explicativas equivalentes: '
+            'direta, exemplo cotidiano e comparação, além de elementos visuais/áudio opcional. '
+            'Preserve conceitos e objetivo curricular; não classifique por diagnóstico. '
+            'Gere '+str(total_exemplos)+' percursos distintos, em grupos curtos de 6 a 13. '
+            'Cada percurso mostra um exemplo concreto e os elementos relacionados antes de perguntar. '
+            'Varie observar, associar, comparar, ordenar, causa/efeito e aplicar em novo contexto. '
+            'Não conte instruções, tentativas ou repetições idênticas como percursos. '
+            'Retorne JSON {percursos:[{id,exemplo,relacao,elementos:[2 a 4 rótulos de até 55 caracteres],'
+            'pergunta,alternativas:[2 ou 3 objetos {texto,feedback}],correta,transferencia,'
+            'linguagens:{direta,cotidiana,comparacao}}]}. '
+            'Campos exemplo, relacao, pergunta e transferencia: entre 5 e 180 caracteres. '
+            'Alternativa até 80 caracteres e feedback entre 5 e 180. Cada linguagem tem 5 a 180 caracteres, '
+            'explicando a mesma relação com outra representação, sem empilhar todas de uma vez. '
+            'Texto simples, sem HTML e sem dados pessoais. '
+            'Não invente fontes nem considere facilidade de leitura prova de domínio. '
+            +json.dumps(aula,ensure_ascii=False)+'\\n'+json.dumps(doc,ensure_ascii=False))
+        exemplos=validar_exemplos(ask(prompt_exemplos),total_exemplos)
         dados=json.dumps(doc,ensure_ascii=False).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
         page=HTML.replace('__TITULO__',html.escape(doc['titulo'])).replace('__OBJETIVO__',html.escape(doc['objetivo']))
         page=page.replace('__DISCIPLINA__',html.escape(aula['disciplina'])).replace('__TURMA__',html.escape(str(aula['turma']))).replace('__DADOS__',dados)
+        page=page.replace('<section id="entrada">','<p><a href="exemplos/">Aprender de outro jeito — exemplos e relações · caminho opcional</a></p><section id="entrada">',1)
+        pagina_exemplos=renderizar_exemplos(exemplos,doc['titulo'],slug)
         pasta.mkdir(parents=True)
         (pasta/'index.html').write_text(page,encoding='utf-8')
+        (pasta/'exemplos').mkdir()
+        (pasta/'exemplos/index.html').write_text(pagina_exemplos,encoding='utf-8')
         catalogo['materiais'].append({
             'tipo':'html','origem':rel,'destino':rel,'titulo':doc['titulo'],'estilo_visual':'territorio-experiencias',
+            'rota_exemplos':{'arquivo':'exemplos/index.html','minimo':64,'quantidade':len(exemplos['percursos'])},
             'versao_visual':'piloto-1.0','atualizado_em':pedido['data'],
             'portal':{'ano_letivo':int(pedido['data'][:4]),'categoria':'aula',
               'componentes':[aula['disciplina']],'series':[aula.get('serie','Ensino Fundamental')],

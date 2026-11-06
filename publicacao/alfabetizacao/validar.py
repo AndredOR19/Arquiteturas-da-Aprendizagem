@@ -1,4 +1,4 @@
-"""Contrato de publicação do apoio opcional: 26 atividades reais, no mínimo."""
+"""Contrato de publicação do apoio opcional: 57 atividades reais, no mínimo."""
 import json
 import re
 from pathlib import Path
@@ -11,8 +11,8 @@ def validar_apoio(path):
         raise ValueError('Apoio à leitura sem banco verificável de percursos')
     data = json.loads(match.group(1))
     tasks = data.get('percursos', [])
-    if len(tasks) < 26:
-        raise ValueError('O apoio à leitura exige no mínimo 26 percursos')
+    if len(tasks) < 57:
+        raise ValueError('O apoio à leitura exige no mínimo 57 percursos')
     ids = [t.get('id') for t in tasks]
     pairs = [(t.get('modo'), t.get('palavra')) for t in tasks]
     if not all(ids) or len(set(ids)) != len(ids) or len(set(pairs)) != len(pairs):
@@ -21,13 +21,13 @@ def validar_apoio(path):
         raise ValueError('Exigir variação: imagem, palavra, sílaba e contexto')
     for bank in data.get('bancos', {}).values():
         for task in tasks:
-            if task.get('modo') not in {'imagem', 'palavra', 'silaba', 'contexto'}:
+            if task.get('modo') not in {'imagem', 'palavra', 'silaba', 'contexto', 'letra', 'final', 'montagem', 'frase', 'aplicar'}:
                 raise ValueError('Operação de apoio desconhecida')
             index = task.get('palavra')
             if type(index) is not int or not 0 <= index < len(bank):
                 raise ValueError('Percurso aponta para palavra inexistente')
             word = bank[index]
-            if len(word) != 4 or not all(word) or ''.join(word[2]) != word[0]:
+            if len(word) != 5 or not all(word) or ''.join(word[2]) != word[0]:
                 raise ValueError('Palavra, imagem, sílabas e frase são obrigatórias e coerentes')
     if not data.get('bancos'):
         raise ValueError('Banco de palavras ausente')
