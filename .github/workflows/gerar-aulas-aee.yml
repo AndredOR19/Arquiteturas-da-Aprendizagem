@@ -73,7 +73,7 @@ jobs:
         run: |
           python automacoes/aulas/validar_gerados.py
           python biblioteca-arquiteturas/validar_catalogo.py
-          python publicacao/preparar.py
+          bash publicacao/vercel-build.sh
       - name: Abrir PR de revisao
         env:
           GH_TOKEN: ${{ github.token }}

@@ -54,7 +54,12 @@ with tempfile.TemporaryDirectory() as tmp:
     try:
         os.chdir(root)
         mod.ROOT=root
-        mod.ask=lambda prompt: exemplos if 'Retorne JSON {percursos:' in prompt else answer
+        def fake_ask(prompt):
+            if 'Retorne JSON {percursos:' in prompt:
+                return exemplos
+            assert 'no mínimo 57 percursos de apoio' in prompt
+            return answer
+        mod.ask=fake_ask
         sys.argv=['gerar.py','--pedido','automacoes/aulas/pedidos/teste.json']
         mod.main()
     finally:
