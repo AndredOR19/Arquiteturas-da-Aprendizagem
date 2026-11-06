@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Painel administrativo · Arquiteturas da Aprendizagem</title>
+  <link rel="stylesheet" href="admin.css?v=1">
+  <script defer src="../docentes/area/config.js"></script>
+  <script defer src="admin.js?v=1"></script>
+</head>
+<body>
+  <header><a href="../">← Escola de caminhos</a><strong>Painel administrativo</strong><span id="account"></span></header>
+  <main>
+    <section id="login" class="panel narrow">
+      <p class="eyebrow">ACESSO RESTRITO · ADMINISTRAÇÃO DA PLATAFORMA</p>
+      <h1>Governar sem perder o contexto.</h1>
+      <p>Esta área é exclusiva para administradores explicitamente autorizados no banco privado. O domínio do e-mail, o GitHub e o papel de gestor escolar não liberam este painel.</p>
+      <form id="login-form">
+        <label>E-mail<input id="email" type="email" autocomplete="username" required></label>
+        <label>Senha<input id="password" type="password" autocomplete="current-password" required minlength="12"></label>
+        <button>Entrar</button>
+      </form>
+      <p id="login-status" role="status"></p>
+    </section>
+    <section id="denied" class="panel narrow" hidden>
+      <p class="eyebrow">ACESSO RECUSADO</p><h1>Esta conta não é administradora.</h1>
+      <p id="denied-message"></p><button id="logout-denied" class="secondary">Sair</button>
+    </section>
+    <section id="dashboard" hidden>
+      <div class="heading"><div><p class="eyebrow">VISÃO GLOBAL · SOMENTE LEITURA</p><h1>Estado da plataforma.</h1><p class="note">Os indicadores são operacionais. Não são diagnóstico, ranking ou avaliação de estudantes.</p></div><button id="reload" class="secondary">Atualizar</button><button id="logout" class="secondary">Sair</button></div>
+      <p id="status" role="status"></p>
+      <section class="metrics">
+        <article><strong id="m-schools">—</strong><span>escolas ativas</span></article><article><strong id="m-teachers">—</strong><span>professores</span></article><article><strong id="m-classes">—</strong><span>turmas</span></article><article><strong id="m-lessons">—</strong><span>aulas cadastradas</span></article><article><strong id="m-sessions">—</strong><span>sessões</span></article><article><strong id="m-reports">—</strong><span>relatórios recebidos</span></article>
+      </section>
+      <div class="two-columns"><section class="panel"><h2>Escolas e produção</h2><div class="table-wrap"><table><thead><tr><th>Escola</th><th>Turmas</th><th>Aulas</th><th>Professores</th></tr></thead><tbody id="school-rows"></tbody></table></div></section><section class="panel"><h2>Pendências de vínculo</h2><div class="table-wrap"><table><thead><tr><th>Escola</th><th>Turma</th><th>Componente</th><th>Estado</th></tr></thead><tbody id="request-rows"></tbody></table></div><p id="request-empty" class="note"></p></section></div>
+      <section class="panel"><h2>Limites desta primeira entrega</h2><p>Esta versão não edita vínculos, não altera notas, não exclui registros, não envia convites e não publica aulas. Essas operações só serão adicionadas depois de auditoria imutável, confirmação humana e revisão das políticas de segurança.</p></section>
+    </section>
+  </main>
+</body>
+</html>

@@ -131,13 +131,16 @@ def main():
     teacher_area.mkdir(parents=True, exist_ok=True)
     for name in ["index.html", "area.css", "area.js", "config.js"]:
         shutil.copyfile(ROOT / "docentes/area" / name, teacher_area / name)
+    admin_area = OUT / "admin"
+    admin_area.mkdir(parents=True, exist_ok=True)
+    for name in ["index.html", "admin.css", "admin.js"]:
+        shutil.copyfile(ROOT / "admin" / name, admin_area / name)
     preparar_portal(ROOT, OUT, items)
     (OUT / '.nojekyll').touch()
     print('Materiais públicos preparados:', len(items))
 
 if __name__ == '__main__':
     main()
-
 
 
 

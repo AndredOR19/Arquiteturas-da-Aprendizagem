@@ -35,6 +35,12 @@ jobs:
         run: node ferramentas/conferir-portal.cjs
       - name: Conferir área docente com serviço simulado
         run: node ferramentas/conferir-area-docente.cjs
+      - name: Conferir painel administrativo restrito
+        run: |
+          test -s _site/admin/index.html
+          test -s _site/admin/admin.js
+          test -s _site/admin/admin.css
+          grep -q 'painel-admin' _site/admin/admin.js
       - name: Conferir laboratório Conectar e investigar
         timeout-minutes: 5
         run: node ferramentas/conferir-conectar.cjs
