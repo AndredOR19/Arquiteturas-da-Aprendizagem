@@ -17,3 +17,7 @@ Aplicar a seção 5.1 do Prompt Mestre e consultar [repertórios por componente]
 
 ## Implantação técnica pendente
 [Prompt completo para outra IA](PROMPT_IMPLANTACAO_FLUXO_03.md): contratos, componentes, skins, portais, coleta, testes e piloto. Documento preparado não equivale a implantação.
+
+
+## GEI 1.0 — jogos de verdade e fábrica de recursos
+Sempre que uma aula incorporar gameplay, somar a camada GEI aos fluxos 01/02/03, sem alterar automaticamente os materiais existentes. Jogos precisam de ações controláveis, exploração, NPCs/missões e consequências curriculares, não apenas perguntas estilizadas. Para agentes do Arena A.I. e integrações com n8n, consultar [contrato GEI/n8n](../automacao/GEI_N8N_CONTRATO_V1.md) e seção 35 do [Prompt Mestre](../PROMPT_MESTRE_AULAS_DIGITAIS.md). O catálogo Supabase foi criado; a automação ainda exige configuração e testes reais.
