@@ -3,6 +3,11 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.3.0 — 06/11/2026 — Registro para Escola RS no painel e na aula
+Pedido do Prof. André: incluir título, resumo da aula e habilidade para registro no Escola RS, tanto no painel de acesso quanto na própria aula. A seção 15.1 torna obrigatórios os três campos, código/descrição com fonte curricular verificada, fonte única de metadados, consulta antes da entrada e cópia integral com alternativa manual. Checklist, briefing e AGENTS reconciliados; catálogo e referências de compatibilidade atualizados.
+
+Verificação: releitura dos documentos salvos, integridade do catálogo e correspondência das versões. Escopo documental: não implementa controles de interface, não migra aulas existentes e não envia dados ao Escola RS. A presença real nos dois locais e a cópia devem ser verificadas em cada entrega.
+
 ## 3.2.0 — 04/11/2026 — Labirinto de Evidências e Perspectivas
 Pedido do Prof. André: selecionar a informação que sustenta uma resposta e abrir outra linguagem, ponto de vista ou experiência, circulando por um labirinto. Adotada documentação da arquitetura, com autoria/proveniência explícitas e sem nova sigla. A síntese operacional foi elaborada com o assistente a partir da formulação do professor.
 

@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.2.0**
-Atualização: **04/11/2026**
+Versão vigente: **3.3.0**
+Atualização: **06/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -512,6 +512,23 @@ Registro por turma: escola → turma → componente → data → título → res
 
 Manter prática pedagógica, didática e currículo como foco. Não misturar pesquisas pessoais ou temas esotéricos do autor sem solicitação específica.
 
+### 15.1. Registro para Escola RS — obrigatório nos dois locais
+Toda aula nova deve apresentar um bloco identificado **“Registro para Escola RS”**, com os mesmos dados no **painel de acesso/acervo** e **dentro da própria aula**.
+
+| Campo obrigatório | Conteúdo |
+|---|---|
+| Título da aula | Tema específico e coerente com a turma e o componente. |
+| Resumo da aula para registro | Texto breve, pronto para copiar, descrevendo o objeto estudado, as relações trabalhadas e a atividade/metodologia prevista. |
+| Habilidade(s) | Código e descrição correspondente, com fonte curricular verificada e pertinência às atividades propostas. |
+
+No painel, os três campos devem estar legíveis no card ou em uma área de detalhes claramente identificada, acessível antes de entrar na aula. Dentro da aula, apresentar o bloco no início ou por um acesso permanente claramente visível. Não condicionar sua consulta à identificação do aluno, à conclusão, à nota ou ao relatório final.
+
+Manter uma única fonte de metadados para as duas apresentações; não usar resumo truncado do card como único registro. Disponibilizar **“Copiar registro para Escola RS”**, reunindo título, resumo e habilidades em texto simples, com alternativa de seleção/cópia manual se a área de transferência estiver indisponível. Nenhum dado pessoal de aluno integra esse bloco público.
+
+O resumo deve descrever a aprendizagem, sem se limitar a “jogo”, “quiz” ou recursos técnicos. Na preparação, usar linguagem de planejamento; somente após confirmação docente registrar aplicação, sem afirmar resultados observados por antecipação. Não inventar códigos, descrições oficiais ou correspondência curricular: se a fonte ainda não foi verificada, sinalizar a pendência e solicitar revisão antes de apresentar o registro como pronto.
+
+Critério de entrega: conferir presença e igualdade dos três campos no painel e na aula, texto completo copiável, leitura em celular e ausência de bloqueio por login/progresso. Essa preparação **não envia nem registra automaticamente no sistema Escola RS**; o professor revisa e transfere o texto.
+
 ## 16. Conferência antes de entregar
 Verificar:
 - Labirinto de evidências quando configurado: tipos de passagem separados, relação validada, mapa/lista, saída definida, apoios livres, carga dentro do teto e estados reais de implementação (seção 6.5).
@@ -527,7 +544,7 @@ Verificar:
 - Bloqueio de avanço após erro e liberação após acerto.
 - Glossário, dicionário, voz, navegação e contraste.
 - Preferências de leitura da seção 11.1: fontes reais, ajustes reversíveis, tolerância a espaçamento e preservação de símbolos, respostas e progresso; avisos sem promessa clínica.
-- Registro copiável correto para cada turma.
+- Registro para Escola RS (seção 15.1): título, resumo e habilidades com código/descrição presentes e iguais no painel de acesso e dentro da aula; cópia integral e alternativa manual verificadas.
 - Cálculo de indicadores e preservação das primeiras respostas.
 - Botão final “Enviar relatório ao professor”: destinatário confirmado do solicitante, assunto e corpo completo devidamente codificados; correspondência com a prévia/exportação, alternativas para limites de tamanho e ausência de confirmação falsa de envio.
 - Avaliação da experiência da seção 13.1: todas as perguntas respondidas e confirmadas, sem opinião afetar o cálculo da nota; bloqueio de conclusão, resultado e relatório final/e-mail até validação; alternativas honestas de não uso e não saber; revalidação após edição e recarga.
@@ -561,7 +578,10 @@ Objetivo imediato:
 Relações a construir e elementos associados:
 Representação inicial, apoios e retirada gradual:
 Novo exemplo e evidência de compreensão:
-Habilidades e fonte curricular:
+Título para registro no Escola RS:
+Resumo para registro no Escola RS:
+Habilidades (código e descrição) e fonte curricular:
+Localização do bloco e verificação de cópia no painel de acesso e na aula:
 Preferências de leitura, fontes disponíveis e testes de ajuste:
 Fluxo visual escolhido (01 caderno-ilustrado / 02 missao-interativa / 03 territorio-experiencias) e motivo:
 Componentes, skins, versões/hash e estado de homologação:

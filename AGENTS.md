@@ -145,3 +145,9 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Mapa e lista equivalentes; seleção e confirmação separadas; alternativa por imagens, voz e mediação. Exibir onde está, o que verifica, o que falta e como sai. Preservar sessões anteriores e nota original.
 - Integrar atividades adicionais ao teto da seção 9.1, sem multiplicar por número de telas ou apoios. Não fixar cinco minutos por tarefa nem inferir atenção pelo tempo. Registrar resposta, evidência, relação, revisão e aplicação no relatório/e-mail/coleta quando realmente instrumentados.
 - Estado inicial: arquitetura documentada, componente próprio ainda não implantado; não confundir a recuperação adaptativa já existente com o labirinto completo.
+
+
+## Registro para Escola RS
+- Cumprir seção 15.1 do Prompt Mestre: toda nova aula deve mostrar título, resumo para registro e habilidades (código e descrição com fonte verificada), tanto no painel de acesso/acervo quanto dentro da aula.
+- Usar a mesma fonte de metadados, permitir consulta antes da entrada e oferecer cópia integral do registro com alternativa manual. Conferir presença, igualdade e leitura em celular; não exigir conclusão ou nota.
+- O professor revisa e transfere o texto para o Escola RS. Não afirmar envio automático, aplicação da aula ou atualização de páginas antigas por uma mudança documental.
