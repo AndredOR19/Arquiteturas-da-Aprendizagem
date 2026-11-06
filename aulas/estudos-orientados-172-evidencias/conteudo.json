@@ -1,0 +1,737 @@
+{
+  "id": "estudos-orientados-172-evidencias",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "172",
+  "componente": "Estudos Orientados",
+  "data": "não fixada",
+  "titulo": "Detetives do estudo: explicar, conferir e transferir",
+  "pergunta": "Escolher estratégias de estudo e justificar uma resposta com evidência, revisão e aplicação em outro exemplo.",
+  "resumo": "Escolher estratégias de estudo e justificar uma resposta com evidência, revisão e aplicação em outro exemplo.",
+  "habilidades": [
+    "Competências gerais BNCC 2 e 10: investigação, reflexão e autonomia; objetivos transversais, sem código específico inventado."
+  ],
+  "continuidade": "Retomada proposta de Aprender Melhor; não há confirmação de aplicação anterior.",
+  "fontes": [
+    [
+      "MEC",
+      "BNCC - competências gerais, síntese didática",
+      "https://basenacionalcomum.mec.gov.br/images/BNCC_20dez_site.pdf"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · o que vamos compreender",
+      "texto": "Você vai transformar respostas rápidas em explicações verificáveis. Escolha uma tarefa real da escola: compreender uma fração, interpretar uma fonte ou conferir uma mensagem. O objetivo é mostrar como chegou à resposta, não apenas terminar.",
+      "ancora": "D · contexto | R · relação | E · conclusão | L · limite",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · como a relação funciona",
+      "texto": "Primeiro modele uma relação curta. Depois tente recuperar a ideia sem olhar, consulte a explicação e revise. Este ciclo torna visível qual parte precisa de ajuda. Tempo, clique e quantidade de telas não são prova isolada de aprendizagem.",
+      "ancora": "Observe, relacione e confira antes de concluir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · o caminho da experiência",
+      "texto": "Percorra quatro ambientes: Preparar, Sustentar, Revisar e Transferir. No jogo 2D, ligue cada ação ao que ela permite verificar. No cenário 3D, organize as estações de estudo e explique a sequência. A lista equivalente preserva as mesmas operações.",
+      "ancora": "Preparar → Relacionar → Conferir → Aplicar",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · risco e ação",
+      "texto": "O risco é circular pelos ambientes sem construir relações. Para sair de um conjunto, acerte a tarefa e selecione a informação pertinente quando solicitada. Use pistas livremente. Na conclusão, explique uma relação nova ao professor.",
+      "ancora": "Explique com uma evidência e verifique outro caso.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Objetivo",
+      "Relação central",
+      "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso."
+    ],
+    [
+      "Pré-requisito",
+      "Relação central",
+      "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso."
+    ],
+    [
+      "Recuperação de memória",
+      "Relação central",
+      "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha."
+    ]
+  ],
+  "glossario": {
+    "Objetivo": "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+    "Pré-requisito": "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+    "Recuperação de memória": "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+    "Evidência": "Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+    "Relação": "Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+    "Primeira tentativa": "A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+    "Pistas": "Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+    "Organização": "Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+    "Comparação": "Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+    "Outra linguagem": "Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+    "Transferência": "Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+    "Limite": "Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+    "Síntese": "Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação."
+  },
+  "dicionario": {
+    "Comparar": "Observar semelhanças e diferenças com um critério.",
+    "Justificar": "Explicar por que uma informação sustenta a resposta.",
+    "Evidência": "Informação pertinente usada para sustentar uma conclusão.",
+    "Limite": "O que os dados disponíveis ainda não permitem afirmar."
+  },
+  "percursos": [
+    {
+      "titulo": "Objetivo · observar",
+      "fase": "Preparar",
+      "explicacao": "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+      "pergunta": "Qual objetivo permite conferir a aprendizagem?",
+      "alternativas": [
+        "Explicar uma fração com um desenho",
+        "Estudar bastante durante a tarde",
+        "Olhar o caderno por muito tempo"
+      ],
+      "correta": 0,
+      "justificativa": "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+        "Confira a relação: Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Objetivo · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+      "pergunta": "Ao estudar História, qual objetivo é verificável?",
+      "alternativas": [
+        "Ler as páginas sem parar",
+        "Copiar todo o capítulo",
+        "Comparar duas fontes e indicar uma diferença"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, comparar duas fontes e indicar uma diferença. Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+        "Confira a relação: Neste caso, comparar duas fontes e indicar uma diferença. Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, comparar duas fontes e indicar uma diferença. Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, comparar duas fontes e indicar uma diferença. Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso.",
+        "2": "Relação consistente. Neste caso, comparar duas fontes e indicar uma diferença. Um objetivo verificável diz o que você conseguirá fazer e como mostrará isso."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Pré-requisito · observar",
+      "fase": "Preparar",
+      "explicacao": "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+      "pergunta": "Antes de comparar 1/3 e 1/4, o que retomar?",
+      "alternativas": [
+        "A velocidade de leitura",
+        "Divisão do mesmo inteiro em partes iguais",
+        "A cor das frações no caderno"
+      ],
+      "correta": 1,
+      "justificativa": "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+        "Confira a relação: Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+        "1": "Relação consistente. Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Pré-requisito · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+      "pergunta": "Você não entendeu um gráfico. O que retomar primeiro?",
+      "alternativas": [
+        "O significado dos eixos e da legenda",
+        "O título da próxima unidade",
+        "O tamanho das letras do livro"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, o significado dos eixos e da legenda. Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+        "Confira a relação: Neste caso, o significado dos eixos e da legenda. Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, o significado dos eixos e da legenda. Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o significado dos eixos e da legenda. Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o significado dos eixos e da legenda. Quando falta uma ideia anterior, uma explicação nova pode parecer impossível. Retomar essa ideia é apoio, não fracasso."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Recuperação de memória · observar",
+      "fase": "Preparar",
+      "explicacao": "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+      "pergunta": "Que ação verifica melhor sua lembrança?",
+      "alternativas": [
+        "Reler imediatamente a mesma linha",
+        "Sublinhar sem explicar",
+        "Explicar sem consultar e depois conferir"
+      ],
+      "correta": 2,
+      "justificativa": "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+        "Confira a relação: Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+        "2": "Relação consistente. Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Recuperação de memória · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+      "pergunta": "Depois de ler sobre uma experiência, o que fazer?",
+      "alternativas": [
+        "Repetir somente a última palavra",
+        "Contar os passos de memória e verificar",
+        "Copiar os passos olhando o texto"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, contar os passos de memória e verificar. Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+        "Confira a relação: Neste caso, contar os passos de memória e verificar. Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, contar os passos de memória e verificar. Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+        "1": "Relação consistente. Neste caso, contar os passos de memória e verificar. Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, contar os passos de memória e verificar. Tentar explicar sem olhar mostra o que você consegue recuperar. Depois consulte e corrija, sem transformar dúvida em vergonha."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Evidência · observar",
+      "fase": "Relacionar",
+      "explicacao": "Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+      "pergunta": "Para defender que houve melhora, qual dado ajuda?",
+      "alternativas": [
+        "Resultados comparáveis antes e depois",
+        "Uma frase com a palavra melhora",
+        "Uma impressão sem registro"
+      ],
+      "correta": 0,
+      "justificativa": "Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+        "Confira a relação: Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Evidência · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+      "pergunta": "Uma barra representa 12 alunos. O que sustenta essa leitura?",
+      "alternativas": [
+        "A preferência pela cor da barra",
+        "A posição do gráfico na página",
+        "A altura na escala e a legenda do gráfico"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, a altura na escala e a legenda do gráfico. Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+        "Confira a relação: Neste caso, a altura na escala e a legenda do gráfico. Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a altura na escala e a legenda do gráfico. Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a altura na escala e a legenda do gráfico. Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta.",
+        "2": "Relação consistente. Neste caso, a altura na escala e a legenda do gráfico. Uma informação sustenta uma resposta quando se relaciona ao que foi perguntado. Ter a mesma palavra não basta."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Relação · observar",
+      "fase": "Relacionar",
+      "explicacao": "Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+      "pergunta": "Qual frase apresenta uma relação?",
+      "alternativas": [
+        "A resposta é um quarto; fim",
+        "O total é 20; 5 representam um quarto porque 20 dividido por 4 é 5",
+        "A resposta é um quarto porque eu gostei"
+      ],
+      "correta": 1,
+      "justificativa": "Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+        "Confira a relação: Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque..."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+        "1": "Relação consistente. Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque..."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Relação · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+      "pergunta": "Você escolheu uma fonte datada. Como justificar?",
+      "alternativas": [
+        "A data permite situar a informação no período estudado",
+        "É mais bonita que as outras fontes",
+        "Está no primeiro resultado da busca"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, a data permite situar a informação no período estudado. Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+        "Confira a relação: Neste caso, a data permite situar a informação no período estudado. Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque..."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, a data permite situar a informação no período estudado. Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a data permite situar a informação no período estudado. Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque...",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a data permite situar a informação no período estudado. Explicar é ligar o dado à conclusão: isto sustenta minha resposta porque..."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Primeira tentativa · observar",
+      "fase": "Relacionar",
+      "explicacao": "A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+      "pergunta": "Como registrar uma correção útil?",
+      "alternativas": [
+        "Apagar o erro para parecer que sempre soube",
+        "Mudar até o sistema aceitar sem conferir",
+        "Manter a escolha inicial e explicar a mudança"
+      ],
+      "correta": 2,
+      "justificativa": "A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+        "Confira a relação: A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+        "2": "Relação consistente. A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Primeira tentativa · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+      "pergunta": "Você percebeu que confundiu total e parte. O que fazer?",
+      "alternativas": [
+        "Recomeçar toda a matéria sem localizar a dúvida",
+        "Marcar os dois no desenho e refazer a relação",
+        "Trocar o número sem ver o desenho"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, marcar os dois no desenho e refazer a relação. A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+        "Confira a relação: Neste caso, marcar os dois no desenho e refazer a relação. A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, marcar os dois no desenho e refazer a relação. A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+        "1": "Relação consistente. Neste caso, marcar os dois no desenho e refazer a relação. A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, marcar os dois no desenho e refazer a relação. A primeira tentativa indica um ponto de partida. A revisão registra o que mudou e por qual motivo."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Pistas · observar",
+      "fase": "Relacionar",
+      "explicacao": "Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+      "pergunta": "Qual pista ajuda a compreender uma fração?",
+      "alternativas": [
+        "Observe em quantas partes iguais o inteiro foi dividido",
+        "Escolha a alternativa mais comprida",
+        "Clique em todas rapidamente"
+      ],
+      "correta": 0,
+      "justificativa": "Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+        "Confira a relação: Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Pistas · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+      "pergunta": "No texto histórico, qual ajuda é pertinente?",
+      "alternativas": [
+        "Ignore a fonte e use a primeira opinião",
+        "Conte quantas palavras há em cada alternativa",
+        "Localize autor, data e o que a fonte permite afirmar"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, localize autor, data e o que a fonte permite afirmar. Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+        "Confira a relação: Neste caso, localize autor, data e o que a fonte permite afirmar. Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, localize autor, data e o que a fonte permite afirmar. Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, localize autor, data e o que a fonte permite afirmar. Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga.",
+        "2": "Relação consistente. Neste caso, localize autor, data e o que a fonte permite afirmar. Uma pista aponta onde olhar ou qual relação conferir. Pedir ajuda não deve aumentar a carga."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Organização · observar",
+      "fase": "Conferir",
+      "explicacao": "Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+      "pergunta": "Qual plano inclui conferência?",
+      "alternativas": [
+        "Abrir vários vídeos ao mesmo tempo",
+        "Ler um trecho, explicar e resolver novo exemplo",
+        "Ler durante cinco minutos e encerrar"
+      ],
+      "correta": 1,
+      "justificativa": "Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+        "Confira a relação: Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+        "1": "Relação consistente. Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Organização · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+      "pergunta": "O cronômetro acabou e você não consegue explicar. Qual ajuste?",
+      "alternativas": [
+        "Retomar o ponto difícil e verificar um exemplo",
+        "Declarar que aprendeu porque o tempo passou",
+        "Esperar mais sem mudar a atividade"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, retomar o ponto difícil e verificar um exemplo. Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+        "Confira a relação: Neste caso, retomar o ponto difícil e verificar um exemplo. Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, retomar o ponto difícil e verificar um exemplo. Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, retomar o ponto difícil e verificar um exemplo. Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, retomar o ponto difícil e verificar um exemplo. Um bloco de estudo liga objetivo, ação e conferência. O relógio organiza a rotina, mas não comprova compreensão."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Comparação · observar",
+      "fase": "Conferir",
+      "explicacao": "Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+      "pergunta": "Como comparar duas estratégias?",
+      "alternativas": [
+        "Escolher a mais rápida sem conferir",
+        "Escolher a mais popular entre colegas",
+        "Aplicá-las ao mesmo objetivo e observar a evidência produzida"
+      ],
+      "correta": 2,
+      "justificativa": "Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+        "Confira a relação: Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+        "2": "Relação consistente. Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Comparação · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+      "pergunta": "Dois resumos têm tamanhos diferentes. O que avaliar?",
+      "alternativas": [
+        "Qual usa mais cores",
+        "Se preservam as relações essenciais do tema",
+        "Qual ocupa mais folhas"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, se preservam as relações essenciais do tema. Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+        "Confira a relação: Neste caso, se preservam as relações essenciais do tema. Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, se preservam as relações essenciais do tema. Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+        "1": "Relação consistente. Neste caso, se preservam as relações essenciais do tema. Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, se preservam as relações essenciais do tema. Comparar exige um critério comum: o que é igual, o que muda e por que essa mudança importa."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Outra linguagem · observar",
+      "fase": "Conferir",
+      "explicacao": "Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+      "pergunta": "Qual reformulação mantém o sentido de evidência?",
+      "alternativas": [
+        "Informação que ajuda a sustentar uma conclusão",
+        "Qualquer opinião que convence alguém",
+        "Uma palavra difícil do livro"
+      ],
+      "correta": 0,
+      "justificativa": "Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+        "Confira a relação: Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Outra linguagem · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+      "pergunta": "Uma versão mais simples elimina a condição do problema. O que fazer?",
+      "alternativas": [
+        "Aceitar porque ficou mais curta",
+        "Apagar também os números",
+        "Recolocar a condição para manter o significado"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, recolocar a condição para manter o significado. Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+        "Confira a relação: Neste caso, recolocar a condição para manter o significado. Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, recolocar a condição para manter o significado. Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, recolocar a condição para manter o significado. Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia.",
+        "2": "Relação consistente. Neste caso, recolocar a condição para manter o significado. Uma explicação cotidiana deve manter o significado do conceito. Mudar palavras não autoriza mudar a ideia."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Transferência · observar",
+      "fase": "Aplicar",
+      "explicacao": "Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+      "pergunta": "Qual tarefa testa transferência?",
+      "alternativas": [
+        "Reler somente o título",
+        "Resolver um novo caso e justificar a mesma relação",
+        "Repetir a resposta anterior literalmente"
+      ],
+      "correta": 1,
+      "justificativa": "Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+        "Confira a relação: Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+        "1": "Relação consistente. Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Transferência · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+      "pergunta": "Depois de estudar uma notícia, como transferir o método?",
+      "alternativas": [
+        "Conferir origem, data e evidência de outra mensagem",
+        "Compartilhar outra mensagem sem conferir",
+        "Procurar uma mensagem com a mesma foto"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, conferir origem, data e evidência de outra mensagem. Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+        "Confira a relação: Neste caso, conferir origem, data e evidência de outra mensagem. Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, conferir origem, data e evidência de outra mensagem. Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, conferir origem, data e evidência de outra mensagem. Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, conferir origem, data e evidência de outra mensagem. Aplicar em um caso diferente ajuda a verificar se a relação foi compreendida além do exemplo decorado."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Limite · observar",
+      "fase": "Aplicar",
+      "explicacao": "Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+      "pergunta": "Três exercícios certos permitem afirmar o quê?",
+      "alternativas": [
+        "Domina qualquer assunto para sempre",
+        "Não precisa mais de ajuda em nenhuma aula",
+        "Acertou aqueles itens; outros usos ainda precisam ser verificados"
+      ],
+      "correta": 2,
+      "justificativa": "Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+        "Confira a relação: Uma resposta responsável também diz o que não pode concluir com os dados disponíveis."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+        "2": "Relação consistente. Uma resposta responsável também diz o que não pode concluir com os dados disponíveis."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Limite · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+      "pergunta": "Um colega terminou rápido. O que isso mostra sozinho?",
+      "alternativas": [
+        "Que obrigatoriamente tentou adivinhar",
+        "O tempo de execução, sem comprovar aprendizagem",
+        "Que aprendeu mais que todos"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, o tempo de execução, sem comprovar aprendizagem. Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+        "Confira a relação: Neste caso, o tempo de execução, sem comprovar aprendizagem. Uma resposta responsável também diz o que não pode concluir com os dados disponíveis."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o tempo de execução, sem comprovar aprendizagem. Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+        "1": "Relação consistente. Neste caso, o tempo de execução, sem comprovar aprendizagem. Uma resposta responsável também diz o que não pode concluir com os dados disponíveis.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o tempo de execução, sem comprovar aprendizagem. Uma resposta responsável também diz o que não pode concluir com os dados disponíveis."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Síntese · observar",
+      "fase": "Aplicar",
+      "explicacao": "Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+      "pergunta": "Qual fechamento é mais completo?",
+      "alternativas": [
+        "Explico a ideia, mostro o dado, justifico e digo um limite",
+        "Digo apenas quantos pontos consegui",
+        "Repito o título com outras palavras"
+      ],
+      "correta": 0,
+      "justificativa": "Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+        "Confira a relação: Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Síntese · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+      "pergunta": "Como decidir o próximo passo de estudo?",
+      "alternativas": [
+        "Repetir sempre tudo desde o começo",
+        "Mudar de assunto sem conferir a dúvida",
+        "Usar a dificuldade identificada para escolher uma tarefa específica"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, usar a dificuldade identificada para escolher uma tarefa específica. Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+        "Confira a relação: Neste caso, usar a dificuldade identificada para escolher uma tarefa específica. Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, usar a dificuldade identificada para escolher uma tarefa específica. Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, usar a dificuldade identificada para escolher uma tarefa específica. Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação.",
+        "2": "Relação consistente. Neste caso, usar a dificuldade identificada para escolher uma tarefa específica. Uma boa síntese reúne ideia, evidência, relação e limite, seguida de uma aplicação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    }
+  ]
+}

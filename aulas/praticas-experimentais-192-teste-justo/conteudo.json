@@ -1,0 +1,737 @@
+{
+  "id": "praticas-experimentais-192-teste-justo",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "192",
+  "componente": "Práticas Experimentais",
+  "data": "não fixada",
+  "titulo": "Laboratório do teste justo: dissolver, medir e comparar",
+  "pergunta": "Planejar e interpretar uma comparação controlada sobre agitação e tempo de dissolução, distinguindo observação, hipótese e limite.",
+  "resumo": "Planejar e interpretar uma comparação controlada sobre agitação e tempo de dissolução, distinguindo observação, hipótese e limite.",
+  "habilidades": [
+    "Competência geral BNCC 2: investigação e análise crítica; recorte metodológico de Ciências, sem atribuição de código específico não conferido."
+  ],
+  "continuidade": "Proposta provisória: o planejamento específico de Herbert não foi localizado. Não substitui nem presume a sequência da Eletiva 192.",
+  "fontes": [
+    [
+      "MEC",
+      "BNCC - competência geral 2, investigação",
+      "https://basenacionalcomum.mec.gov.br/images/BNCC_20dez_site.pdf"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · o que vamos compreender",
+      "texto": "Pergunta do laboratório: agitar muda o tempo para os cristais deixarem de ser visíveis? A aula ensina a construir uma comparação justa. Use água em temperatura ambiente e pequena quantidade de sal; não provar as amostras. O experimento é opcional e supervisionado.",
+      "ancora": "D · contexto | R · relação | E · conclusão | L · limite",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · como a relação funciona",
+      "texto": "Compare copos iguais, volumes iguais, mesma água inicial e medidas padronizadas de sal. Mude apenas a agitação. Combine o critério de parada e registre duração em segundos. A repetição mostra variação; não invente resultados quando faltar material.",
+      "ancora": "Observe, relacione e confira antes de concluir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · o caminho da experiência",
+      "texto": "Planejar o ensaio, montar as condições, observar e registrar, interpretar e comunicar. O jogo 2D pede corrigir comparações injustas. O ambiente 3D permite inspecionar um modelo e organizar as etapas; não gera resultados experimentais reais.",
+      "ancora": "Preparar → Relacionar → Conferir → Aplicar",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · risco e ação",
+      "texto": "Ponto cego: achar que transparência significa ausência de substâncias ou segurança para beber. Dissolução não é desaparecimento da matéria. A conclusão deve mencionar as condições, a variação e o limite do critério visual.",
+      "ancora": "Explique com uma evidência e verifique outro caso.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Pergunta investigável",
+      "Relação central",
+      "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação."
+    ],
+    [
+      "Hipótese",
+      "Relação central",
+      "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio."
+    ],
+    [
+      "Variável alterada",
+      "Relação central",
+      "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos."
+    ]
+  ],
+  "glossario": {
+    "Pergunta investigável": "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+    "Hipótese": "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+    "Variável alterada": "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+    "Condições controladas": "Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+    "Critério observável": "Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+    "Instrumento": "Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+    "Registro completo": "Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+    "Repetição": "Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+    "Tabela comparável": "Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+    "Dissolução": "O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+    "Modelo 3D": "O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+    "Conclusão limitada": "Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+    "Comunicação": "Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação."
+  },
+  "dicionario": {
+    "Comparar": "Observar semelhanças e diferenças com um critério.",
+    "Justificar": "Explicar por que uma informação sustenta a resposta.",
+    "Evidência": "Informação pertinente usada para sustentar uma conclusão.",
+    "Limite": "O que os dados disponíveis ainda não permitem afirmar."
+  },
+  "percursos": [
+    {
+      "titulo": "Pergunta investigável · observar",
+      "fase": "Preparar",
+      "explicacao": "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+      "pergunta": "Qual pergunta cabe no ensaio?",
+      "alternativas": [
+        "Qual mistura é a mais interessante?",
+        "Por que toda experiência dá certo?",
+        "Agitar muda o tempo até deixar de ver os cristais de sal?"
+      ],
+      "correta": 2,
+      "justificativa": "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+        "Confira a relação: Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+        "2": "Relação consistente. Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Pergunta investigável · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+      "pergunta": "Para investigar papel e água, qual pergunta é testável?",
+      "alternativas": [
+        "A água gosta de papel?",
+        "O tipo de papel muda a altura alcançada pela água em dois minutos?",
+        "Qual papel é o melhor de todos?"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, o tipo de papel muda a altura alcançada pela água em dois minutos?. Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+        "Confira a relação: Neste caso, o tipo de papel muda a altura alcançada pela água em dois minutos?. Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o tipo de papel muda a altura alcançada pela água em dois minutos?. Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+        "1": "Relação consistente. Neste caso, o tipo de papel muda a altura alcançada pela água em dois minutos?. Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o tipo de papel muda a altura alcançada pela água em dois minutos?. Uma pergunta investigável define o que comparar e o que observar. Aqui a comparação é entre água agitada e sem agitação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Hipótese · observar",
+      "fase": "Preparar",
+      "explicacao": "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+      "pergunta": "Qual frase é uma hipótese para o teste?",
+      "alternativas": [
+        "Com agitação, os cristais deixam de ser visíveis em menos tempo",
+        "O copo A foi observado por 30 segundos",
+        "A tabela tem duas colunas"
+      ],
+      "correta": 0,
+      "justificativa": "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+        "Confira a relação: Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Hipótese · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+      "pergunta": "Você prevê que papel fino absorva mais rápido. Quando registrar?",
+      "alternativas": [
+        "Só depois de ver qual venceu",
+        "Somente se a previsão der certo",
+        "Antes de medir, para depois comparar com o resultado"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, antes de medir, para depois comparar com o resultado. Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+        "Confira a relação: Neste caso, antes de medir, para depois comparar com o resultado. Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, antes de medir, para depois comparar com o resultado. Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, antes de medir, para depois comparar com o resultado. Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio.",
+        "2": "Relação consistente. Neste caso, antes de medir, para depois comparar com o resultado. Hipótese é uma explicação ou previsão que pode ser confrontada com observações. Ela é registrada antes do ensaio."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Variável alterada · observar",
+      "fase": "Preparar",
+      "explicacao": "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+      "pergunta": "O que vamos alterar deliberadamente?",
+      "alternativas": [
+        "A conclusão depois do teste",
+        "Agitar ou não agitar",
+        "Agitação, volume e sal ao mesmo tempo"
+      ],
+      "correta": 1,
+      "justificativa": "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+        "Confira a relação: Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+        "1": "Relação consistente. Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Variável alterada · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+      "pergunta": "Um grupo usa copos e volumes diferentes. Qual correção?",
+      "alternativas": [
+        "Igualar copos e volumes e manter a agitação como diferença",
+        "Aumentar também a temperatura",
+        "Descartar o registro sem revisar o plano"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, igualar copos e volumes e manter a agitação como diferença. Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+        "Confira a relação: Neste caso, igualar copos e volumes e manter a agitação como diferença. Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, igualar copos e volumes e manter a agitação como diferença. Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, igualar copos e volumes e manter a agitação como diferença. Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, igualar copos e volumes e manter a agitação como diferença. Para examinar o efeito da agitação, ela deve ser a diferença planejada entre os tratamentos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Condições controladas · observar",
+      "fase": "Relacionar",
+      "explicacao": "Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+      "pergunta": "Qual condição deve ser mantida?",
+      "alternativas": [
+        "Um copo com o dobro de água",
+        "Uma colher diferente para cada quantidade",
+        "Mesmo volume de água nos dois copos"
+      ],
+      "correta": 2,
+      "justificativa": "Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+        "Confira a relação: Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+        "2": "Relação consistente. Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Condições controladas · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+      "pergunta": "A massa de sal mudou junto da agitação. O que concluir?",
+      "alternativas": [
+        "A quantidade de sal nunca interfere",
+        "Não é possível atribuir a diferença apenas à agitação",
+        "A agitação foi a única causa com certeza"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, não é possível atribuir a diferença apenas à agitação. Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+        "Confira a relação: Neste caso, não é possível atribuir a diferença apenas à agitação. Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, não é possível atribuir a diferença apenas à agitação. Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+        "1": "Relação consistente. Neste caso, não é possível atribuir a diferença apenas à agitação. Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, não é possível atribuir a diferença apenas à agitação. Volume, temperatura inicial, tipo de sal e quantidade precisam ser comparáveis. Isso reduz explicações concorrentes."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Critério observável · observar",
+      "fase": "Relacionar",
+      "explicacao": "Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+      "pergunta": "Quando parar o cronômetro?",
+      "alternativas": [
+        "Quando cumprir o mesmo critério visual combinado",
+        "Quando cada observador achar que já chega",
+        "Quando a hipótese parecer confirmada"
+      ],
+      "correta": 0,
+      "justificativa": "Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+        "Confira a relação: Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Critério observável · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+      "pergunta": "Um copo está transparente mas ainda tem grãos no fundo. O que fazer?",
+      "alternativas": [
+        "Encerrar porque a água parece limpa",
+        "Trocar silenciosamente o critério",
+        "Continuar observando pelo critério definido"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, continuar observando pelo critério definido. Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+        "Confira a relação: Neste caso, continuar observando pelo critério definido. Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, continuar observando pelo critério definido. Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, continuar observando pelo critério definido. Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida.",
+        "2": "Relação consistente. Neste caso, continuar observando pelo critério definido. Defina antes o fim da contagem: cristais não visíveis sob a mesma condição de observação. Esse critério não detecta cada partícula dissolvida."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Instrumento · observar",
+      "fase": "Relacionar",
+      "explicacao": "Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+      "pergunta": "Para medir duração, use…",
+      "alternativas": [
+        "Uma estimativa sem registro",
+        "Cronômetro com unidade de segundos",
+        "Régua com unidade de centímetros"
+      ],
+      "correta": 1,
+      "justificativa": "Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+        "Confira a relação: Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+        "1": "Relação consistente. Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Instrumento · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+      "pergunta": "Sem balança disponível, como proceder?",
+      "alternativas": [
+        "Usar medida padronizada e declarar que a massa não foi medida",
+        "Inventar um valor em gramas",
+        "Afirmar precisão igual à da balança"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, usar medida padronizada e declarar que a massa não foi medida. Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+        "Confira a relação: Neste caso, usar medida padronizada e declarar que a massa não foi medida. Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, usar medida padronizada e declarar que a massa não foi medida. Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, usar medida padronizada e declarar que a massa não foi medida. Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, usar medida padronizada e declarar que a massa não foi medida. Cronômetro mede duração; recipiente graduado ajuda no volume; balança ajuda na massa. Nenhum elimina sozinho o erro de procedimento."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Registro completo · observar",
+      "fase": "Relacionar",
+      "explicacao": "Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+      "pergunta": "Qual registro é mais útil?",
+      "alternativas": [
+        "35, sem unidade ou condição",
+        "Deu certo, sem observação",
+        "Agitado, ensaio 1, 35 s, mesmo volume e temperatura inicial"
+      ],
+      "correta": 2,
+      "justificativa": "Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+        "Confira a relação: Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+        "2": "Relação consistente. Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Registro completo · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+      "pergunta": "Uma linha está sem unidade. Qual ação?",
+      "alternativas": [
+        "Mudar todos os números para combinar",
+        "Conferir o registro original antes de completar",
+        "Assumir que qualquer unidade serve"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, conferir o registro original antes de completar. Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+        "Confira a relação: Neste caso, conferir o registro original antes de completar. Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, conferir o registro original antes de completar. Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+        "1": "Relação consistente. Neste caso, conferir o registro original antes de completar. Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, conferir o registro original antes de completar. Registre tratamento, repetição, unidade e resultado. Um valor sem condição não permite interpretar a comparação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Repetição · observar",
+      "fase": "Conferir",
+      "explicacao": "Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+      "pergunta": "Por que repetir?",
+      "alternativas": [
+        "Verificar se a diferença se mantém apesar da variação",
+        "Escolher apenas o resultado mais bonito",
+        "Garantir antecipadamente a hipótese"
+      ],
+      "correta": 0,
+      "justificativa": "Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+        "Confira a relação: Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Repetição · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+      "pergunta": "Tempos foram 34, 37 e 35 s. O que fazer?",
+      "alternativas": [
+        "Apagar 37 porque é diferente",
+        "Dizer que repetição falhou por não ser idêntica",
+        "Guardar todos e descrever a variação"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, guardar todos e descrever a variação. Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+        "Confira a relação: Neste caso, guardar todos e descrever a variação. Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, guardar todos e descrever a variação. Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, guardar todos e descrever a variação. Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos.",
+        "2": "Relação consistente. Neste caso, guardar todos e descrever a variação. Repetir o mesmo procedimento permite observar variação entre ensaios. Não obriga a obter números idênticos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Tabela comparável · observar",
+      "fase": "Conferir",
+      "explicacao": "Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+      "pergunta": "Qual leitura os dados sustentam?",
+      "alternativas": [
+        "Qualquer líquido dissolve qualquer sólido",
+        "No conjunto fictício, agitar esteve associado a menor tempo observado",
+        "Agitar sempre leva exatamente 35 s"
+      ],
+      "correta": 1,
+      "justificativa": "Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+        "Confira a relação: Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+        "1": "Relação consistente. Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Tabela comparável · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+      "pergunta": "Novo ensaio: agitado 40 s e sem agitação 42 s. O que fazer?",
+      "alternativas": [
+        "Repetir e examinar a pequena diferença antes de generalizar",
+        "Esconder porque a diferença diminuiu",
+        "Trocar o nome dos copos"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, repetir e examinar a pequena diferença antes de generalizar. Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+        "Confira a relação: Neste caso, repetir e examinar a pequena diferença antes de generalizar. Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, repetir e examinar a pequena diferença antes de generalizar. Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, repetir e examinar a pequena diferença antes de generalizar. Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, repetir e examinar a pequena diferença antes de generalizar. Dados fictícios: agitado 35, 38 e 37 s; sem agitação 90, 95 e 91 s. As condições foram mantidas no exemplo."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Dissolução · observar",
+      "fase": "Conferir",
+      "explicacao": "O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+      "pergunta": "O que a água transparente permite afirmar?",
+      "alternativas": [
+        "O sal foi destruído e deixou de existir",
+        "A água ficou potável por causa da transparência",
+        "O sal pode estar dissolvido mesmo sem cristais visíveis"
+      ],
+      "correta": 2,
+      "justificativa": "O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+        "Confira a relação: O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+        "2": "Relação consistente. O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Dissolução · novo caso",
+      "fase": "Conferir",
+      "explicacao": "O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+      "pergunta": "Uma amostra contém substância dissolvida invisível. O que muda?",
+      "alternativas": [
+        "A massa necessariamente virou zero",
+        "A aparência sozinha não informa toda a composição",
+        "Não há mais substância alguma"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, a aparência sozinha não informa toda a composição. O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+        "Confira a relação: Neste caso, a aparência sozinha não informa toda a composição. O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a aparência sozinha não informa toda a composição. O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+        "1": "Relação consistente. Neste caso, a aparência sozinha não informa toda a composição. O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a aparência sozinha não informa toda a composição. O sal pode deixar de ser visível ao se distribuir na água. Ausência de cristais visíveis não significa que a matéria deixou de existir."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Modelo 3D · observar",
+      "fase": "Aplicar",
+      "explicacao": "O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+      "pergunta": "Qual uso é adequado para a simulação?",
+      "alternativas": [
+        "Comparar relações e explicitar o que foi simplificado",
+        "Usar a animação como tempo real medido",
+        "Substituir todos os registros por uma imagem"
+      ],
+      "correta": 0,
+      "justificativa": "O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+        "Confira a relação: O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real."
+      ],
+      "retorno": {
+        "0": "Relação consistente. O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Modelo 3D · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+      "pergunta": "As partículas digitais parecem cubos. Isso significa…",
+      "alternativas": [
+        "Que moléculas são cubos visíveis",
+        "Que o sal muda de forma por clicar",
+        "Uma escolha de representação, não formato real das partículas"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, uma escolha de representação, não formato real das partículas. O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+        "Confira a relação: Neste caso, uma escolha de representação, não formato real das partículas. O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, uma escolha de representação, não formato real das partículas. O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, uma escolha de representação, não formato real das partículas. O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real.",
+        "2": "Relação consistente. Neste caso, uma escolha de representação, não formato real das partículas. O cenário representa partículas e recipientes por objetos ampliados. É modelo didático, sem escala molecular nem medição real."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Conclusão limitada · observar",
+      "fase": "Aplicar",
+      "explicacao": "Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+      "pergunta": "Qual conclusão é responsável?",
+      "alternativas": [
+        "Agitar aumenta sempre a quantidade máxima que dissolve",
+        "Nestas condições, a agitação reduziu o tempo visual observado nos ensaios",
+        "Agitar torna toda água segura para beber"
+      ],
+      "correta": 1,
+      "justificativa": "Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+        "Confira a relação: Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+        "1": "Relação consistente. Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Conclusão limitada · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+      "pergunta": "Para estudar o efeito da temperatura, o que fazer?",
+      "alternativas": [
+        "Planejar outro teste mudando temperatura e controlando as demais condições",
+        "Mudar tudo no mesmo ensaio",
+        "Reutilizar os tempos como se fossem de água quente"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, planejar outro teste mudando temperatura e controlando as demais condições. Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+        "Confira a relação: Neste caso, planejar outro teste mudando temperatura e controlando as demais condições. Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, planejar outro teste mudando temperatura e controlando as demais condições. Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, planejar outro teste mudando temperatura e controlando as demais condições. Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, planejar outro teste mudando temperatura e controlando as demais condições. Uma conclusão precisa se referir ao ensaio, às condições e aos dados. Testar uma condição não autoriza afirmações sobre todas as misturas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Comunicação · observar",
+      "fase": "Aplicar",
+      "explicacao": "Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+      "pergunta": "Se a hipótese não se confirmar, o que registrar?",
+      "alternativas": [
+        "Somente a hipótese original como se tivesse dado certo",
+        "Um número inventado que confirme a ideia",
+        "Os dados obtidos e a revisão da explicação"
+      ],
+      "correta": 2,
+      "justificativa": "Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+        "Confira a relação: Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+        "2": "Relação consistente. Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Comunicação · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+      "pergunta": "Como outro grupo pode conferir o trabalho?",
+      "alternativas": [
+        "Confiando apenas no título do experimento",
+        "Lendo condições, procedimento, dados e critério de observação",
+        "Vendo apenas quem terminou primeiro"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, lendo condições, procedimento, dados e critério de observação. Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+        "Confira a relação: Neste caso, lendo condições, procedimento, dados e critério de observação. Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, lendo condições, procedimento, dados e critério de observação. Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+        "1": "Relação consistente. Neste caso, lendo condições, procedimento, dados e critério de observação. Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, lendo condições, procedimento, dados e critério de observação. Relato científico separa pergunta, plano, observações, explicação e limites. Resultado contrário à previsão também é informação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    }
+  ]
+}

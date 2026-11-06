@@ -863,6 +863,198 @@
         "descricao": "Missão investigativa sobre como estudar: observar o caso, explicar sem consultar, identificar dificuldades e revisar. Oito questões comentadas, acessibilidade, cadastro direto e relatório exportável.",
         "titulo_exibicao": "Missão: Detetives do Estudo"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/estudos-orientados-172-evidencias",
+      "destino": "aulas/estudos-orientados-172-evidencias",
+      "titulo": "Detetives do estudo: explicar, conferir e transferir",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [
+          "172"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Objetivo",
+          "Pré-requisito",
+          "Recuperação de memória",
+          "Evidência",
+          "Relação"
+        ],
+        "descricao": "Escolher estratégias de estudo e justificar uma resposta com evidência, revisão e aplicação em outro exemplo.",
+        "titulo_exibicao": "Detetives do estudo: explicar, conferir e transferir",
+        "periodo": "3º trimestre",
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/praticas-experimentais-192-teste-justo",
+      "destino": "aulas/praticas-experimentais-192-teste-justo",
+      "titulo": "Laboratório do teste justo: dissolver, medir e comparar",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Pergunta investigável",
+          "Hipótese",
+          "Variável alterada",
+          "Condições controladas",
+          "Critério observável"
+        ],
+        "descricao": "Planejar e interpretar uma comparação controlada sobre agitação e tempo de dissolução, distinguindo observação, hipótese e limite.",
+        "titulo_exibicao": "Laboratório do teste justo: dissolver, medir e comparar",
+        "periodo": "3º trimestre",
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/historia-221-direitos-em-acao",
+      "destino": "aulas/historia-221-direitos-em-acao",
+      "titulo": "Direitos em ação: do documento à vida cotidiana",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "2ª série · EM"
+        ],
+        "turmas": [
+          "221"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Fonte e contexto",
+          "Dignidade",
+          "Igualdade",
+          "Não discriminação",
+          "Educação"
+        ],
+        "descricao": "Identificar princípios de direitos humanos em fontes e justificar ações diante de uma situação fictícia de exclusão.",
+        "titulo_exibicao": "Direitos em ação: do documento à vida cotidiana",
+        "periodo": "3º trimestre",
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/cultura-digital-182-verificar-antes-compartilhar",
+      "destino": "aulas/cultura-digital-182-verificar-antes-compartilhar",
+      "titulo": "Agência de verificação: antes de compartilhar",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Cultura Digital"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [
+          "182"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Mensagem",
+          "Origem",
+          "Data",
+          "Evidência",
+          "Conferência independente"
+        ],
+        "descricao": "Conferir origem, data e evidência de mensagens e decidir como agir sem expor dados pessoais.",
+        "titulo_exibicao": "Agência de verificação: antes de compartilhar",
+        "periodo": "3º trimestre",
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/praticas-experimentais-161-fracoes",
+      "destino": "aulas/praticas-experimentais-161-fracoes",
+      "titulo": "Oficina das frações: montar, comparar e explicar",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "6º ano · EF"
+        ],
+        "turmas": [
+          "161"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Inteiro",
+          "Partes iguais",
+          "Denominador",
+          "Numerador",
+          "Leitura"
+        ],
+        "descricao": "Representar frações de um mesmo inteiro, relacionar nome e símbolo e justificar equivalência e comparação.",
+        "titulo_exibicao": "Oficina das frações: montar, comparar e explicar",
+        "periodo": "3º trimestre",
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/historia-211-cultura-resistencia",
+      "destino": "aulas/historia-211-cultura-resistencia",
+      "titulo": "Territórios de resistência: cultura e sociedade colonial",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "1ª série · EM"
+        ],
+        "turmas": [
+          "211"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Contexto colonial",
+          "Diversidade",
+          "Fonte situada",
+          "Resistência",
+          "Quilombos"
+        ],
+        "descricao": "Analisar práticas culturais e formas de resistência nas sociedades coloniais, situando fontes e reconhecendo diversidade e limites.",
+        "titulo_exibicao": "Territórios de resistência: cultura e sociedade colonial",
+        "periodo": "3º trimestre",
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
+      }
     }
   ]
 }

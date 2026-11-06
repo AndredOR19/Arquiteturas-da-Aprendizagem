@@ -1,0 +1,742 @@
+{
+  "id": "historia-211-cultura-resistencia",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "211",
+  "componente": "História",
+  "data": "não fixada",
+  "titulo": "Territórios de resistência: cultura e sociedade colonial",
+  "pergunta": "Analisar práticas culturais e formas de resistência nas sociedades coloniais, situando fontes e reconhecendo diversidade e limites.",
+  "resumo": "Analisar práticas culturais e formas de resistência nas sociedades coloniais, situando fontes e reconhecendo diversidade e limites.",
+  "habilidades": [
+    "Análise de fontes, relações de poder e resistências; os códigos transcritos no plano têm descrições divergentes da BNCC e não são reproduzidos como redação oficial."
+  ],
+  "continuidade": "Plano História 211, semana 9 (03 a 06/11): cultura, resistência e construção de identidades nas sociedades coloniais. Não presumir aulas anteriores como aplicadas.",
+  "fontes": [
+    [
+      "MDHC",
+      "Quilombo dos Palmares - memória e contexto; síntese didática",
+      "https://www.gov.br/mdh/pt-br/navegue-por-temas/memoria-e-verdade-da-escravidao/acao/lugares-de-memoria/quilombo-dos-palmares"
+    ],
+    [
+      "Arquivo Nacional",
+      "Quilombos e revoltas - diversidade de organizações",
+      "https://historialuso.arquivonacional.gov.br/index.php/historia-luso-brasileira/assuntos/listadetemas/quilombos-e-revoltas-de-escravos"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · o que vamos compreender",
+      "texto": "A sociedade colonial foi marcada por violência e exploração, mas as pessoas submetidas a ela não foram apenas objetos da ação de outros. Vamos analisar resistência, organização coletiva e práticas culturais, reconhecendo a diversidade dos sujeitos e situando as fontes.",
+      "ancora": "D · contexto | R · relação | E · conclusão | L · limite",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · como a relação funciona",
+      "texto": "Uma fuga, um acordo, uma troca ou uma prática cultural precisam ser lidos em contexto. Pergunte quem agiu, contra qual condição e com quais possibilidades. Nenhuma estratégia pode ser avaliada sem considerar coerção, interesses e limites históricos.",
+      "ancora": "Observe, relacione e confira antes de concluir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · o caminho da experiência",
+      "texto": "Arquivo de fontes, território e redes, oficina de interpretações e novo caso. No jogo 2D, associe indícios a perguntas históricas. O cenário 3D é uma representação autoral de relações entre espaço, organização e circulação, sem pretensão de reconstruir Palmares.",
+      "ancora": "Preparar → Relacionar → Conferir → Aplicar",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · risco e ação",
+      "texto": "Ponto cego: transformar um caso famoso em retrato de todos os grupos ou idealizar relações como harmoniosas. Compare com critérios, confronte pontos de vista e preserve o que não pode concluir. Cultura e resistência serão relacionadas, sem apagar a violência.",
+      "ancora": "Explique com uma evidência e verifique outro caso.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Contexto colonial",
+      "Relação central",
+      "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram."
+    ],
+    [
+      "Diversidade",
+      "Relação central",
+      "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças."
+    ],
+    [
+      "Fonte situada",
+      "Relação central",
+      "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite."
+    ]
+  ],
+  "glossario": {
+    "Contexto colonial": "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+    "Diversidade": "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+    "Fonte situada": "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+    "Resistência": "Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+    "Quilombos": "Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+    "Território": "Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+    "Redes e trocas": "Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+    "Cultura em movimento": "Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+    "Negociação e limites": "Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+    "Memória": "Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+    "Passado e presente": "Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+    "Argumento com fonte": "Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+    "Transferência": "Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas."
+  },
+  "dicionario": {
+    "Comparar": "Observar semelhanças e diferenças com um critério.",
+    "Justificar": "Explicar por que uma informação sustenta a resposta.",
+    "Evidência": "Informação pertinente usada para sustentar uma conclusão.",
+    "Limite": "O que os dados disponíveis ainda não permitem afirmar."
+  },
+  "percursos": [
+    {
+      "titulo": "Contexto colonial · observar",
+      "fase": "Preparar",
+      "explicacao": "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+      "pergunta": "Qual leitura reconhece agência histórica?",
+      "alternativas": [
+        "Ignorar a violência para destacar somente cultura",
+        "Examinar dominação e ações dos grupos submetidos",
+        "Tratar as pessoas como passivas em todas as situações"
+      ],
+      "correta": 1,
+      "justificativa": "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+        "Confira a relação: A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+        "1": "Relação consistente. A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Contexto colonial · novo caso",
+      "fase": "Preparar",
+      "explicacao": "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+      "pergunta": "Uma fonte descreve uma fuga. O que investigar?",
+      "alternativas": [
+        "Quem agiu, em que contexto e contra qual condição",
+        "Só se o registro tem uma letra bonita",
+        "Se o evento confirma uma opinião anterior"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, quem agiu, em que contexto e contra qual condição. A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+        "Confira a relação: Neste caso, quem agiu, em que contexto e contra qual condição. A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, quem agiu, em que contexto e contra qual condição. A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, quem agiu, em que contexto e contra qual condição. A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, quem agiu, em que contexto e contra qual condição. A colonização articulou exploração, relações de poder e trabalho compulsório. Os grupos submetidos a essas relações também agiram, negociaram e resistiram."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Diversidade · observar",
+      "fase": "Preparar",
+      "explicacao": "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+      "pergunta": "Qual formulação é mais precisa?",
+      "alternativas": [
+        "Todos tinham a mesma cultura",
+        "As diferenças surgiram apenas depois da colonização",
+        "Diferentes povos africanos e indígenas participaram desses processos"
+      ],
+      "correta": 2,
+      "justificativa": "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+        "Confira a relação: Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+        "2": "Relação consistente. Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Diversidade · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+      "pergunta": "Uma imagem representa um único povo como se fosse todos. O que fazer?",
+      "alternativas": [
+        "Apagar as legendas para simplificar",
+        "Identificar a generalização e buscar o contexto específico",
+        "Usar a imagem como retrato universal"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, identificar a generalização e buscar o contexto específico. Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+        "Confira a relação: Neste caso, identificar a generalização e buscar o contexto específico. Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, identificar a generalização e buscar o contexto específico. Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+        "1": "Relação consistente. Neste caso, identificar a generalização e buscar o contexto específico. Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, identificar a generalização e buscar o contexto específico. Povos africanos e indígenas eram e são diversos em línguas, conhecimentos e formas de organização. Categorias amplas não eliminam diferenças."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Fonte situada · observar",
+      "fase": "Preparar",
+      "explicacao": "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+      "pergunta": "Antes de usar um relato colonial, o que conferir?",
+      "alternativas": [
+        "Quem escreveu, quando, para quem e com qual finalidade",
+        "Se concorda com a conclusão desejada",
+        "Somente a extensão do documento"
+      ],
+      "correta": 0,
+      "justificativa": "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+        "Confira a relação: Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Fonte situada · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+      "pergunta": "Um administrador chama um grupo de ameaça. Qual cuidado?",
+      "alternativas": [
+        "Aceitar o rótulo como descrição neutra",
+        "Descartar tudo sem examinar o conteúdo",
+        "Analisar seus interesses e confrontar outras fontes"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, analisar seus interesses e confrontar outras fontes. Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+        "Confira a relação: Neste caso, analisar seus interesses e confrontar outras fontes. Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, analisar seus interesses e confrontar outras fontes. Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, analisar seus interesses e confrontar outras fontes. Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite.",
+        "2": "Relação consistente. Neste caso, analisar seus interesses e confrontar outras fontes. Autor, data, lugar, finalidade e destinatário ajudam a compreender o que uma fonte permite afirmar e o que omite."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Resistência · observar",
+      "fase": "Relacionar",
+      "explicacao": "Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+      "pergunta": "Qual análise evita reduzir resistência a uma única ação?",
+      "alternativas": [
+        "Negar ação onde não houve batalha",
+        "Comparar estratégias e seus contextos",
+        "Contar apenas confrontos armados"
+      ],
+      "correta": 1,
+      "justificativa": "Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+        "Confira a relação: Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+        "1": "Relação consistente. Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Resistência · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+      "pergunta": "Um grupo preserva uma prática sob restrições. O que investigar?",
+      "alternativas": [
+        "Seu significado, condições e formas de manutenção",
+        "Presumir que não existia dominação",
+        "Concluir que toda prática era igual em qualquer época"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, seu significado, condições e formas de manutenção. Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+        "Confira a relação: Neste caso, seu significado, condições e formas de manutenção. Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, seu significado, condições e formas de manutenção. Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, seu significado, condições e formas de manutenção. Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, seu significado, condições e formas de manutenção. Resistência pode assumir formas diferentes: fuga, organização coletiva, defesa territorial, negociação e preservação ou recriação de práticas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Quilombos · observar",
+      "fase": "Relacionar",
+      "explicacao": "Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+      "pergunta": "Qual comparação é responsável?",
+      "alternativas": [
+        "Tratar todos como cópias do mesmo povoado",
+        "Definir todos apenas pelo tamanho",
+        "Examinar cada caso sem transformar Palmares em padrão universal"
+      ],
+      "correta": 2,
+      "justificativa": "Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+        "Confira a relação: Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+        "2": "Relação consistente. Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Quilombos · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+      "pergunta": "Um registro descreve um pequeno agrupamento. Como analisá-lo?",
+      "alternativas": [
+        "Inventar um território igual ao de Palmares",
+        "Situar o caso e comparar com critérios explícitos",
+        "Negar que possa ser resistência por ser pequeno"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, situar o caso e comparar com critérios explícitos. Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+        "Confira a relação: Neste caso, situar o caso e comparar com critérios explícitos. Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, situar o caso e comparar com critérios explícitos. Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+        "1": "Relação consistente. Neste caso, situar o caso e comparar com critérios explícitos. Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, situar o caso e comparar com critérios explícitos. Quilombos apresentaram diferentes escalas e formas de organização. Palmares foi um caso importante, mas não representa todos os quilombos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Território · observar",
+      "fase": "Relacionar",
+      "explicacao": "Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+      "pergunta": "Por que estudar o território de uma comunidade?",
+      "alternativas": [
+        "Para relacionar condições espaciais, vida e relações de poder",
+        "Para explicar tudo apenas pelo relevo",
+        "Para afirmar isolamento completo sem fontes"
+      ],
+      "correta": 0,
+      "justificativa": "Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+        "Confira a relação: Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Território · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+      "pergunta": "Um modelo digital mostra trilhas e moradias. O que pode representar?",
+      "alternativas": [
+        "Uma reconstrução arqueológica automática",
+        "A posição real de toda construção colonial",
+        "Relações espaciais didáticas, sem comprovar uma planta histórica exata"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, relações espaciais didáticas, sem comprovar uma planta histórica exata. Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+        "Confira a relação: Neste caso, relações espaciais didáticas, sem comprovar uma planta histórica exata. Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, relações espaciais didáticas, sem comprovar uma planta histórica exata. Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, relações espaciais didáticas, sem comprovar uma planta histórica exata. Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites.",
+        "2": "Relação consistente. Neste caso, relações espaciais didáticas, sem comprovar uma planta histórica exata. Território envolve ocupação, relações de poder, circulação e modos de vida. A localização pode favorecer defesa e também estabelecer limites."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Redes e trocas · observar",
+      "fase": "Relacionar",
+      "explicacao": "Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+      "pergunta": "O que um registro de troca permite analisar?",
+      "alternativas": [
+        "Fim da escravidão naquele momento",
+        "Relações entre grupos, seus interesses e limites",
+        "Ausência de conflito em toda a região"
+      ],
+      "correta": 1,
+      "justificativa": "Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+        "Confira a relação: Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+        "1": "Relação consistente. Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Redes e trocas · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+      "pergunta": "Uma comunidade mantém trocas com vizinhos. O que evitar?",
+      "alternativas": [
+        "Concluir que estava completamente isolada",
+        "Investigar os produtos trocados",
+        "Examinar quem controlava as rotas"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, concluir que estava completamente isolada. Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+        "Confira a relação: Neste caso, concluir que estava completamente isolada. Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, concluir que estava completamente isolada. Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, concluir que estava completamente isolada. Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, concluir que estava completamente isolada. Trocas e contatos podem coexistir com conflitos. A presença de intercâmbio não significa igualdade nas relações."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Cultura em movimento · observar",
+      "fase": "Conferir",
+      "explicacao": "Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+      "pergunta": "Qual explicação reconhece processo histórico?",
+      "alternativas": [
+        "Cultura imutável e sem contexto",
+        "Mistura sempre harmoniosa e sem conflitos",
+        "Transformações culturais com escolhas e relações de poder"
+      ],
+      "correta": 2,
+      "justificativa": "Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+        "Confira a relação: Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+        "2": "Relação consistente. Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Cultura em movimento · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+      "pergunta": "Uma prática mudou entre gerações. O que perguntar?",
+      "alternativas": [
+        "Se deixou de ser cultura por ter mudado",
+        "Quais condições, sujeitos e escolhas participaram da mudança",
+        "Qual geração estava errada por mudar"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, quais condições, sujeitos e escolhas participaram da mudança. Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+        "Confira a relação: Neste caso, quais condições, sujeitos e escolhas participaram da mudança. Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, quais condições, sujeitos e escolhas participaram da mudança. Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+        "1": "Relação consistente. Neste caso, quais condições, sujeitos e escolhas participaram da mudança. Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, quais condições, sujeitos e escolhas participaram da mudança. Práticas culturais podem ser preservadas e recriadas em contextos de encontro, imposição e resistência. Isso não significa mistura sem violência."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Negociação e limites · observar",
+      "fase": "Conferir",
+      "explicacao": "Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+      "pergunta": "O que conferir num acordo colonial?",
+      "alternativas": [
+        "Quem foi incluído, excluído e quais condições foram impostas",
+        "Só se o documento usa a palavra paz",
+        "Se um líder assinou, logo todos concordaram"
+      ],
+      "correta": 0,
+      "justificativa": "Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+        "Confira a relação: Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Negociação e limites · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+      "pergunta": "Um acordo beneficia um grupo e exclui outro. Como avaliar?",
+      "alternativas": [
+        "Chamar de solução universal",
+        "Apagar a parte que mostra exclusões",
+        "Reconhecer o alcance parcial e os conflitos de interesse"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, reconhecer o alcance parcial e os conflitos de interesse. Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+        "Confira a relação: Neste caso, reconhecer o alcance parcial e os conflitos de interesse. Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, reconhecer o alcance parcial e os conflitos de interesse. Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, reconhecer o alcance parcial e os conflitos de interesse. Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas.",
+        "2": "Relação consistente. Neste caso, reconhecer o alcance parcial e os conflitos de interesse. Uma negociação histórica precisa ser examinada por seus participantes, condições e consequências. Nem toda proposta garantia liberdade a todas as pessoas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Memória · observar",
+      "fase": "Conferir",
+      "explicacao": "Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+      "pergunta": "Como analisar um monumento de resistência?",
+      "alternativas": [
+        "Usá-lo para dispensar documentos",
+        "Perguntar quem o criou, quando e qual memória destaca",
+        "Tomá-lo como fotografia do passado"
+      ],
+      "correta": 1,
+      "justificativa": "Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+        "Confira a relação: Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+        "1": "Relação consistente. Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Memória · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+      "pergunta": "Uma homenagem destaca um líder. Qual investigação ampliar?",
+      "alternativas": [
+        "Outros sujeitos e processos que a homenagem não mostra",
+        "Somente o material da placa",
+        "A ideia de que apenas um indivíduo agiu"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, outros sujeitos e processos que a homenagem não mostra. Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+        "Confira a relação: Neste caso, outros sujeitos e processos que a homenagem não mostra. Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, outros sujeitos e processos que a homenagem não mostra. Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, outros sujeitos e processos que a homenagem não mostra. Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, outros sujeitos e processos que a homenagem não mostra. Memória seleciona e atribui sentidos ao passado. Monumentos e comemorações são fontes sobre usos do passado, não retratos completos dos acontecimentos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Passado e presente · observar",
+      "fase": "Aplicar",
+      "explicacao": "Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+      "pergunta": "Qual relação evita congelar pessoas no passado?",
+      "alternativas": [
+        "Exigir que vivam como no período colonial",
+        "Afirmar que só existem em livros de História",
+        "Reconhecer história, mudanças e atuação contemporânea"
+      ],
+      "correta": 2,
+      "justificativa": "Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+        "Confira a relação: Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+        "2": "Relação consistente. Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Passado e presente · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+      "pergunta": "Uma comunidade usa tecnologia atual. Isso significa…",
+      "alternativas": [
+        "Prova de que a comunidade foi inventada",
+        "Transformação do modo de vida, sem apagar automaticamente sua história",
+        "Perda automática de toda identidade"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, transformação do modo de vida, sem apagar automaticamente sua história. Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+        "Confira a relação: Neste caso, transformação do modo de vida, sem apagar automaticamente sua história. Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, transformação do modo de vida, sem apagar automaticamente sua história. Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+        "1": "Relação consistente. Neste caso, transformação do modo de vida, sem apagar automaticamente sua história. Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, transformação do modo de vida, sem apagar automaticamente sua história. Comunidades quilombolas contemporâneas têm trajetórias próprias. Relacionar passado e presente exige examinar permanências e transformações."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Argumento com fonte · observar",
+      "fase": "Aplicar",
+      "explicacao": "Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+      "pergunta": "Qual argumento é mais consistente?",
+      "alternativas": [
+        "Fonte situada, relação explicada e limite declarado",
+        "Afirmação geral baseada numa imagem sem legenda",
+        "Opinião pessoal apresentada como documento"
+      ],
+      "correta": 0,
+      "justificativa": "Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+        "Confira a relação: Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Argumento com fonte · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+      "pergunta": "Você só tem o relato de um adversário. O que registrar?",
+      "alternativas": [
+        "Que o relato representa a voz de todos",
+        "Que nenhuma análise pode começar",
+        "O ponto de vista parcial e a necessidade de outras fontes"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, o ponto de vista parcial e a necessidade de outras fontes. Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+        "Confira a relação: Neste caso, o ponto de vista parcial e a necessidade de outras fontes. Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o ponto de vista parcial e a necessidade de outras fontes. Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o ponto de vista parcial e a necessidade de outras fontes. Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem.",
+        "2": "Relação consistente. Neste caso, o ponto de vista parcial e a necessidade de outras fontes. Uma explicação histórica deve indicar o dado, como ele se liga à interpretação e quais limites permanecem."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Transferência · observar",
+      "fase": "Aplicar",
+      "explicacao": "Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+      "pergunta": "Como comparar dois casos?",
+      "alternativas": [
+        "Contar somente o número de batalhas",
+        "Usar critérios históricos e reconhecer diferenças",
+        "Eleger uma cultura superior"
+      ],
+      "correta": 1,
+      "justificativa": "Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+        "Confira a relação: Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+        "1": "Relação consistente. Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Transferência · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+      "pergunta": "Uma nova fonte descreve resistência indígena. Como aplicar o método?",
+      "alternativas": [
+        "Situar a fonte, reconhecer sujeitos e estratégias e declarar limites",
+        "Copiar a explicação de Palmares sem adaptar",
+        "Tratar povos diferentes como um só"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, situar a fonte, reconhecer sujeitos e estratégias e declarar limites. Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+        "Confira a relação: Neste caso, situar a fonte, reconhecer sujeitos e estratégias e declarar limites. Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, situar a fonte, reconhecer sujeitos e estratégias e declarar limites. Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, situar a fonte, reconhecer sujeitos e estratégias e declarar limites. Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, situar a fonte, reconhecer sujeitos e estratégias e declarar limites. Comparar resistências requer critérios, como contexto, objetivo, sujeitos, estratégias e limites. Sem critérios, a comparação vira hierarquia de culturas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    }
+  ]
+}

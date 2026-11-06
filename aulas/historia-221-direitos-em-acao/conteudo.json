@@ -1,0 +1,742 @@
+{
+  "id": "historia-221-direitos-em-acao",
+  "escola": "ETE Bernardina Rodrigues Padilha",
+  "turma": "221",
+  "componente": "História",
+  "data": "não fixada",
+  "titulo": "Direitos em ação: do documento à vida cotidiana",
+  "pergunta": "Identificar princípios de direitos humanos em fontes e justificar ações diante de uma situação fictícia de exclusão.",
+  "resumo": "Identificar princípios de direitos humanos em fontes e justificar ações diante de uma situação fictícia de exclusão.",
+  "habilidades": [
+    "Análise de fontes e princípios dos direitos humanos; códigos do plano recebido têm redações divergentes e não foram reproduzidos como transcrição oficial."
+  ],
+  "continuidade": "Plano de História 221, semana 9 (03 a 06/11): leitura da DUDH e da Constituição, análise documental e síntese. A aplicação anterior não foi presumida.",
+  "fontes": [
+    [
+      "UNICEF",
+      "Declaração Universal dos Direitos Humanos, artigos 1, 2, 12 e 26 - paráfrases didáticas",
+      "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos"
+    ],
+    [
+      "Planalto",
+      "Constituição da República Federativa do Brasil de 1988 - referência para comparação",
+      "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    ]
+  ],
+  "blocos": [
+    {
+      "titulo": "Âncora · o que vamos compreender",
+      "texto": "Direitos humanos são princípios de proteção da dignidade das pessoas. A DUDH foi proclamada em 1948. Nesta aula, leia uma síntese de princípios e confira a fonte. A tarefa é distinguir direito declarado, situação concreta e ação possível.",
+      "ancora": "D · contexto | R · relação | E · conclusão | L · limite",
+      "fonte": 0
+    },
+    {
+      "titulo": "Mecânica · como a relação funciona",
+      "texto": "Comece identificando o princípio. Depois localize um dado verificável do caso fictício e explique a ligação. Por fim, proponha uma ação compatível com a responsabilidade da escola ou da comunidade. Não exponha colegas para tornar o debate concreto.",
+      "ancora": "Observe, relacione e confira antes de concluir.",
+      "fonte": 0
+    },
+    {
+      "titulo": "Circuito · o caminho da experiência",
+      "texto": "Arquivo de fontes, observatório de barreiras, oficina de propostas e aplicação. O jogo 2D associa casos a princípios. O cenário 3D representa uma pequena cidade esquemática: visite escola, informação e espaços de participação e escolha a intervenção pertinente.",
+      "ancora": "Preparar → Relacionar → Conferir → Aplicar",
+      "fonte": 0
+    },
+    {
+      "titulo": "Dialética · risco e ação",
+      "texto": "Ponto cego: tratar o documento como prova de que todos os direitos já são respeitados. Uma norma orienta a análise, mas seus efeitos precisam ser observados. Termine indicando uma ação, quem poderia realizá-la e como conferir o resultado.",
+      "ancora": "Explique com uma evidência e verifique outro caso.",
+      "fonte": 0
+    }
+  ],
+  "exploracao": [
+    [
+      "Fonte e contexto",
+      "Relação central",
+      "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial."
+    ],
+    [
+      "Dignidade",
+      "Relação central",
+      "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade."
+    ],
+    [
+      "Igualdade",
+      "Relação central",
+      "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas."
+    ]
+  ],
+  "glossario": {
+    "Fonte e contexto": "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+    "Dignidade": "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+    "Igualdade": "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+    "Não discriminação": "A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+    "Educação": "O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+    "Privacidade": "Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+    "Documento e prática": "Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+    "Evidência do caso": "Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+    "Justiça e apoio": "Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+    "Responsabilidade": "Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+    "Constituição e DUDH": "A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+    "Argumento": "Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+    "Aplicação e limite": "Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa."
+  },
+  "dicionario": {
+    "Comparar": "Observar semelhanças e diferenças com um critério.",
+    "Justificar": "Explicar por que uma informação sustenta a resposta.",
+    "Evidência": "Informação pertinente usada para sustentar uma conclusão.",
+    "Limite": "O que os dados disponíveis ainda não permitem afirmar."
+  },
+  "percursos": [
+    {
+      "titulo": "Fonte e contexto · observar",
+      "fase": "Preparar",
+      "explicacao": "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+      "pergunta": "Qual informação situa a fonte?",
+      "alternativas": [
+        "Uma opinião recente sem autoria",
+        "ONU, 1948, contexto posterior à Segunda Guerra",
+        "Um texto sem instituição ou data"
+      ],
+      "correta": 1,
+      "justificativa": "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+        "Confira a relação: A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+        "1": "Relação consistente. A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Fonte e contexto · novo caso",
+      "fase": "Preparar",
+      "explicacao": "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+      "pergunta": "Uma imagem omite a data do documento. O que conferir?",
+      "alternativas": [
+        "O texto em uma fonte institucional identificada",
+        "A quantidade de curtidas",
+        "O tamanho do cartaz"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, o texto em uma fonte institucional identificada. A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+        "Confira a relação: Neste caso, o texto em uma fonte institucional identificada. A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, o texto em uma fonte institucional identificada. A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o texto em uma fonte institucional identificada. A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, o texto em uma fonte institucional identificada. A Declaração Universal dos Direitos Humanos foi proclamada pela Assembleia Geral da ONU em 1948, no contexto posterior à Segunda Guerra Mundial."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Dignidade · observar",
+      "fase": "Preparar",
+      "explicacao": "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+      "pergunta": "Qual critério condiz com dignidade?",
+      "alternativas": [
+        "Respeito apenas aos mais populares",
+        "Respeito condicionado à renda",
+        "Respeito a todas as pessoas"
+      ],
+      "correta": 2,
+      "justificativa": "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+        "Confira a relação: Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+        "2": "Relação consistente. Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Dignidade · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+      "pergunta": "Um estudante tem dificuldades de aprendizagem. O que se mantém?",
+      "alternativas": [
+        "O direito de expor sua dificuldade publicamente",
+        "Seu direito ao respeito e à participação",
+        "A possibilidade de excluí-lo por dificuldade"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, seu direito ao respeito e à participação. Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+        "Confira a relação: Neste caso, seu direito ao respeito e à participação. Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, seu direito ao respeito e à participação. Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+        "1": "Relação consistente. Neste caso, seu direito ao respeito e à participação. Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, seu direito ao respeito e à participação. Dignidade designa o valor de cada pessoa. A titularidade dos direitos não depende de notas, riqueza ou popularidade."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Igualdade · observar",
+      "fase": "Preparar",
+      "explicacao": "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+      "pergunta": "Qual frase distingue princípio e realidade?",
+      "alternativas": [
+        "Direitos iguais podem coexistir com barreiras que precisam ser enfrentadas",
+        "Direitos iguais provam que nenhuma desigualdade existe",
+        "Toda diferença de condição elimina os direitos"
+      ],
+      "correta": 0,
+      "justificativa": "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+        "Confira a relação: Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Igualdade · novo caso",
+      "fase": "Preparar",
+      "explicacao": "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+      "pergunta": "Uma atividade só pode ser feita por escadas. Qual análise?",
+      "alternativas": [
+        "Quem não sobe perdeu o direito",
+        "A mesma regra elimina qualquer exclusão",
+        "Há uma barreira de acesso apesar do direito de participar"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, há uma barreira de acesso apesar do direito de participar. Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+        "Confira a relação: Neste caso, há uma barreira de acesso apesar do direito de participar. Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, há uma barreira de acesso apesar do direito de participar. Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, há uma barreira de acesso apesar do direito de participar. Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas.",
+        "2": "Relação consistente. Neste caso, há uma barreira de acesso apesar do direito de participar. Igualdade em direitos não significa que todas as pessoas vivem nas mesmas condições. É necessário reconhecer barreiras concretas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Não discriminação · observar",
+      "fase": "Relacionar",
+      "explicacao": "A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+      "pergunta": "Qual situação exige intervenção?",
+      "alternativas": [
+        "Explicar critérios pedagógicos de avaliação",
+        "Impedir participação por origem familiar",
+        "Organizar turnos por necessidade da atividade"
+      ],
+      "correta": 1,
+      "justificativa": "A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+        "Confira a relação: A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+        "1": "Relação consistente. A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Não discriminação · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+      "pergunta": "Um grupo rejeita colega por religião. Qual resposta?",
+      "alternativas": [
+        "Interromper a exclusão e garantir participação respeitosa",
+        "Aceitar porque é preferência do grupo",
+        "Exigir que o colega mude de religião"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, interromper a exclusão e garantir participação respeitosa. A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+        "Confira a relação: Neste caso, interromper a exclusão e garantir participação respeitosa. A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, interromper a exclusão e garantir participação respeitosa. A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, interromper a exclusão e garantir participação respeitosa. A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, interromper a exclusão e garantir participação respeitosa. A DUDH afirma direitos sem distinções como raça, origem, religião ou condição. Uma regra deve ser examinada por seus efeitos e justificativa."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Educação · observar",
+      "fase": "Relacionar",
+      "explicacao": "O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+      "pergunta": "Qual medida se relaciona a esse princípio?",
+      "alternativas": [
+        "Selecionar somente quem já sabe",
+        "Confundir acesso à escola com aprendizagem garantida",
+        "Remover barreiras para aprender e participar"
+      ],
+      "correta": 2,
+      "justificativa": "O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+        "Confira a relação: O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+        "2": "Relação consistente. O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Educação · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+      "pergunta": "O material só tem letras muito pequenas. Qual ação?",
+      "alternativas": [
+        "Concluir que ele não se interessa",
+        "Oferecer leitura ampliada e mediação sem reduzir o objetivo",
+        "Retirar o aluno da atividade"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, oferecer leitura ampliada e mediação sem reduzir o objetivo. O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+        "Confira a relação: Neste caso, oferecer leitura ampliada e mediação sem reduzir o objetivo. O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, oferecer leitura ampliada e mediação sem reduzir o objetivo. O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+        "1": "Relação consistente. Neste caso, oferecer leitura ampliada e mediação sem reduzir o objetivo. O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, oferecer leitura ampliada e mediação sem reduzir o objetivo. O artigo 26 da DUDH reconhece o direito à educação e sua relação com o desenvolvimento humano e o respeito aos direitos."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Privacidade · observar",
+      "fase": "Relacionar",
+      "explicacao": "Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+      "pergunta": "Como estudar um caso de exclusão?",
+      "alternativas": [
+        "Usar situação fictícia e preservar identidades",
+        "Publicar nomes e senhas para tornar o caso concreto",
+        "Projetar conversas privadas sem necessidade"
+      ],
+      "correta": 0,
+      "justificativa": "Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+        "Confira a relação: Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Privacidade · novo caso",
+      "fase": "Relacionar",
+      "explicacao": "Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+      "pergunta": "Um relatório contém dificuldades individuais. Como usar em aula?",
+      "alternativas": [
+        "Divulgar para a turma inteira",
+        "Inserir os nomes em um mural público",
+        "Trabalhar uma síntese sem identificar estudantes"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, trabalhar uma síntese sem identificar estudantes. Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+        "Confira a relação: Neste caso, trabalhar uma síntese sem identificar estudantes. Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, trabalhar uma síntese sem identificar estudantes. Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, trabalhar uma síntese sem identificar estudantes. Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo.",
+        "2": "Relação consistente. Neste caso, trabalhar uma síntese sem identificar estudantes. Informações pessoais e correspondência merecem proteção. Expor colegas não é condição para discutir um problema coletivo."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Documento e prática · observar",
+      "fase": "Relacionar",
+      "explicacao": "Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+      "pergunta": "O que a existência do documento comprova?",
+      "alternativas": [
+        "Que não é necessário agir",
+        "Que princípios foram formalizados, não que toda violação acabou",
+        "Que os direitos são respeitados em qualquer lugar"
+      ],
+      "correta": 1,
+      "justificativa": "Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+        "Confira a relação: Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+        "1": "Relação consistente. Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Documento e prática · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+      "pergunta": "Uma escola tem norma inclusiva e barreira de acesso. O que analisar?",
+      "alternativas": [
+        "A diferença entre norma e implementação",
+        "Somente o texto da norma",
+        "Somente a intenção de quem escreveu"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, a diferença entre norma e implementação. Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+        "Confira a relação: Neste caso, a diferença entre norma e implementação. Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, a diferença entre norma e implementação. Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a diferença entre norma e implementação. Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, a diferença entre norma e implementação. Um documento enuncia princípios; sua realização depende de instituições, ações e condições concretas."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Evidência do caso · observar",
+      "fase": "Conferir",
+      "explicacao": "Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+      "pergunta": "Qual dado sustenta a análise de barreira?",
+      "alternativas": [
+        "O aviso foi gravado em uma terça-feira",
+        "O arquivo tem nome curto",
+        "O aviso usa apenas áudio e não oferece alternativa"
+      ],
+      "correta": 2,
+      "justificativa": "Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+        "Confira a relação: Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+        "2": "Relação consistente. Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Evidência do caso · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+      "pergunta": "Se o aviso passa a ter texto acessível, o que muda?",
+      "alternativas": [
+        "A necessidade de consultar os participantes desaparece",
+        "Uma barreira informacional pode ser reduzida; é preciso conferir o acesso",
+        "Todas as desigualdades acabam"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, uma barreira informacional pode ser reduzida; é preciso conferir o acesso. Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+        "Confira a relação: Neste caso, uma barreira informacional pode ser reduzida; é preciso conferir o acesso. Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, uma barreira informacional pode ser reduzida; é preciso conferir o acesso. Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+        "1": "Relação consistente. Neste caso, uma barreira informacional pode ser reduzida; é preciso conferir o acesso. Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, uma barreira informacional pode ser reduzida; é preciso conferir o acesso. Caso fictício: um encontro é anunciado apenas por áudio, sem texto, e alguns participantes não recebem a informação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Justiça e apoio · observar",
+      "fase": "Conferir",
+      "explicacao": "Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+      "pergunta": "Por que oferecer formatos de leitura diferentes?",
+      "alternativas": [
+        "Para ampliar acesso ao mesmo objetivo",
+        "Para entregar a resposta correta",
+        "Para eliminar qualquer avaliação"
+      ],
+      "correta": 0,
+      "justificativa": "Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+        "Confira a relação: Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Justiça e apoio · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+      "pergunta": "Dois alunos usam formatos distintos e o mesmo critério conceitual. O que observar?",
+      "alternativas": [
+        "Se os arquivos têm o mesmo tamanho",
+        "Se todos escolheram a mesma fonte",
+        "Se ambos conseguem demonstrar a aprendizagem"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, se ambos conseguem demonstrar a aprendizagem. Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+        "Confira a relação: Neste caso, se ambos conseguem demonstrar a aprendizagem. Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, se ambos conseguem demonstrar a aprendizagem. Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, se ambos conseguem demonstrar a aprendizagem. Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático.",
+        "2": "Relação consistente. Neste caso, se ambos conseguem demonstrar a aprendizagem. Uma medida de apoio pode buscar condições de participação. Avalie sua finalidade e seu efeito, sem confundir apoio com privilégio automático."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Responsabilidade · observar",
+      "fase": "Conferir",
+      "explicacao": "Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+      "pergunta": "Qual proposta é executável?",
+      "alternativas": [
+        "Os excluídos devem se virar sozinhos",
+        "Coordenação e turma revisam a comunicação e conferem quem recebeu",
+        "Alguém resolve tudo algum dia"
+      ],
+      "correta": 1,
+      "justificativa": "Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+        "Confira a relação: Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+        "1": "Relação consistente. Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Responsabilidade · novo caso",
+      "fase": "Conferir",
+      "explicacao": "Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+      "pergunta": "Uma barreira depende de recurso da escola. Qual encaminhamento?",
+      "alternativas": [
+        "Registrar a necessidade e procurar a instância responsável",
+        "Prometer uma obra que a turma não pode executar",
+        "Culpar publicamente um colega"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, registrar a necessidade e procurar a instância responsável. Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+        "Confira a relação: Neste caso, registrar a necessidade e procurar a instância responsável. Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, registrar a necessidade e procurar a instância responsável. Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, registrar a necessidade e procurar a instância responsável. Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, registrar a necessidade e procurar a instância responsável. Respeitar direitos envolve pessoas e instituições. Uma proposta precisa dizer quem pode agir e sobre qual barreira."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Constituição e DUDH · observar",
+      "fase": "Aplicar",
+      "explicacao": "A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+      "pergunta": "Como comparar os documentos?",
+      "alternativas": [
+        "Tratá-los como a mesma lei de 1948",
+        "Escolher um e ignorar o outro",
+        "Identificar origem, contexto e princípios, sem igualar sua natureza"
+      ],
+      "correta": 2,
+      "justificativa": "A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+        "Confira a relação: A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+        "2": "Relação consistente. A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Constituição e DUDH · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+      "pergunta": "O texto diz Constituição de 1948. Qual correção?",
+      "alternativas": [
+        "Dizer que datas não importam",
+        "Conferir a fonte: Constituição brasileira de 1988 e DUDH de 1948",
+        "Mudar a data sem consultar"
+      ],
+      "correta": 1,
+      "justificativa": "Neste caso, conferir a fonte: Constituição brasileira de 1988 e DUDH de 1948. A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+        "Confira a relação: Neste caso, conferir a fonte: Constituição brasileira de 1988 e DUDH de 1948. A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, conferir a fonte: Constituição brasileira de 1988 e DUDH de 1948. A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+        "1": "Relação consistente. Neste caso, conferir a fonte: Constituição brasileira de 1988 e DUDH de 1948. A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, conferir a fonte: Constituição brasileira de 1988 e DUDH de 1948. A DUDH é uma declaração internacional; a Constituição Federal de 1988 integra o ordenamento brasileiro. Não são o mesmo documento."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Argumento · observar",
+      "fase": "Aplicar",
+      "explicacao": "Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+      "pergunta": "Qual estrutura é mais consistente?",
+      "alternativas": [
+        "Direito envolvido, dado do caso e ação justificada",
+        "Opinião, opinião e repetição",
+        "Conclusão antes de ler o caso"
+      ],
+      "correta": 0,
+      "justificativa": "Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+        "Confira a relação: Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Argumento · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+      "pergunta": "Como defender uma proposta de aviso acessível?",
+      "alternativas": [
+        "Dizer que o layout é mais bonito",
+        "Citar um artigo sem explicar a relação",
+        "Relacionar participação, falta de alternativa e oferta de formatos"
+      ],
+      "correta": 2,
+      "justificativa": "Neste caso, relacionar participação, falta de alternativa e oferta de formatos. Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+        "Confira a relação: Neste caso, relacionar participação, falta de alternativa e oferta de formatos. Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, relacionar participação, falta de alternativa e oferta de formatos. Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, relacionar participação, falta de alternativa e oferta de formatos. Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação.",
+        "2": "Relação consistente. Neste caso, relacionar participação, falta de alternativa e oferta de formatos. Um argumento liga princípio, evidência e proposta. Só declarar que algo é injusto não explica a barreira nem a ação."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Aplicação e limite · observar",
+      "fase": "Aplicar",
+      "explicacao": "Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+      "pergunta": "Qual é o próximo passo após a ação?",
+      "alternativas": [
+        "Retirar o direito de reclamar",
+        "Conferir seus efeitos e ajustar o que persistiu",
+        "Declarar o problema encerrado sem observar"
+      ],
+      "correta": 1,
+      "justificativa": "Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+        "Confira a relação: Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa."
+      ],
+      "retorno": {
+        "0": "Esta escolha mudaria a conclusão do caso. Compare com: Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+        "1": "Relação consistente. Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Aplicação e limite · novo caso",
+      "fase": "Aplicar",
+      "explicacao": "Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+      "pergunta": "O novo aviso funciona para parte da turma. O que fazer?",
+      "alternativas": [
+        "Investigar barreiras restantes e ampliar as alternativas",
+        "Voltar ao formato que excluía todos",
+        "Afirmar que o direito depende de adaptação individual"
+      ],
+      "correta": 0,
+      "justificativa": "Neste caso, investigar barreiras restantes e ampliar as alternativas. Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+      "pistas": [
+        "Localize o que o caso informa e o que pede.",
+        "Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+        "Confira a relação: Neste caso, investigar barreiras restantes e ampliar as alternativas. Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa."
+      ],
+      "retorno": {
+        "0": "Relação consistente. Neste caso, investigar barreiras restantes e ampliar as alternativas. Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+        "1": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, investigar barreiras restantes e ampliar as alternativas. Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa.",
+        "2": "Esta escolha mudaria a conclusão do caso. Compare com: Neste caso, investigar barreiras restantes e ampliar as alternativas. Uma solução deve ser acompanhada: ouvir participantes e verificar se a barreira diminuiu. Uma única mudança não garante inclusão completa."
+      },
+      "ponto": "Escolher sem relacionar o dado à conclusão.",
+      "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    }
+  ]
+}
