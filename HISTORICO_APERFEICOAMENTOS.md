@@ -3,6 +3,11 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.6.0 — 06/11/2026 — Instruções, imagens didáticas, identidade visual e relatório dos apoios
+O professor solicitou relatório nas três alternativas e relatou que as páginas alternativas e de alfabetização estavam sem orientação, imagens didáticas ou apelo visual. Seção 36 torna explícitos exemplo resolvido, três passos, representação próxima da atividade, fundo temático removível, leitura breve e preservação de respostas. Duas ilustrações novas (oficina de frações e arquivo de pesquisa contemporâneo) são recursos de ambientação; modelos matemáticos e esquemas históricos são representações autorais distintas, sem apresentar ilustração como fonte histórica.
+
+Módulos compartilhados de interface e relatório são integrados pelo empacotamento aos bancos de apoio e exemplos. O coletor local registra tentativas, progresso, apoios/linguagens e reflexão; oferece prévia/TXT/JSON/cópia e preparação de e-mail, preservando o exportador completo que já existe nas alternativas de 161/211. Sem transmissão automática, sem recebimento confirmado, sem dados reais inseridos e sem nova coleta Supabase. Verificação técnica inclui orientação, modelo visual, mudança de linguagem sem alterar progresso, modo com menos estímulos, relatórios e preservação das quantidades. Verificar deploy e dispositivo separadamente; não inferir eficácia pedagógica.
+
 ## 3.5.0 — 06/11/2026 — 32 curriculares, 57 de leitura e opção por exemplos
 O professor propôs página acoplada com menos texto, mais exemplos e relações e banco opcional com dobro/triplo dos percursos. Em seguida, atualizou os totais: principal 32 e apoio inclusivo 57. A seção 35 distingue principal, alfabetização/leitura e exemplos curriculares. Na base de 32, os exemplos têm mínimo 64 e padrão 96; não há obrigação de concluir os bancos juntos nem benefício inferido pela quantidade.
 

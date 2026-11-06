@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.5.0**
+Versão vigente: **3.6.0**
 Atualização: **06/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -878,3 +878,23 @@ O gerador usa 32 originais e solicita 96 exemplos por padrão; campo `percursos_
 ### 35.4. Dialética prática
 **Ponto cego:** alongar a sessão, repetir respostas óbvias, confundir reconhecimento de figura com compreensão ou conceder nota de leitura como nota curricular. **Ação de maestria:** apresentar outra situação e pedir que o aluno indique a relação/evidência, com toque, montagem, fala mediada ou texto curto. O professor define equivalência avaliativa, se necessária; concluir o apoio não libera automaticamente a nota principal. Respeitar pausas e evitar indicação de que mais cliques comprovam aprendizagem.
 
+
+
+## 36. Orientação visível, imagens didáticas e relatório nas três alternativas
+### 36.1. Âncora
+As páginas de apoio à leitura e “Aprender de outro jeito” devem explicar como realizar o percurso antes da primeira resposta. O professor relatou ausência de orientação e interesse visual. A revisão acrescenta modelagem, representações e identidade temática adequada à idade; não presume ganho de aprendizagem ou concentração só pela aparência.
+
+### 36.2. Mecânica
+Oferecer três passos curtos, um exemplo resolvido claramente identificado como treino fora da contagem e uma imagem didática ligada à relação do exemplo. O fundo ilustrado situa o tema; não substitui a imagem que explica. Para frações, representar partes iguais e o inteiro com precisão; para História, distinguir ilustração contemporânea, esquema autoral e fonte histórica real. Explicação escrita breve, áudio opcional, linguagem alternativa e ajuda devem permanecer disponíveis.
+
+Fundos podem ser retirados em “Menos estímulos”, sem apagar respostas. Manter contraste, foco, teclado, leitura em celular, movimento reduzido e instrução em texto quando a voz não estiver disponível. Não infantilizar estudantes mais velhos nem atrelar escolha de layout a diagnóstico. Trocar explicação ou consultar exemplo não aumenta a quantidade nem altera nota.
+
+### 36.3. Circuito e dados
+Orientação → exemplo resolvido → representação didática → resposta → explicação do retorno → nova aplicação. As três alternativas devem produzir relatório próprio: identificação declarada quando fornecida, aula/turma, quantidade/progresso, primeiras escolhas, tentativas, apoios e linguagens realmente usados, reflexão e estado parcial/concluído pertinentes. Não deduzir escuta, atenção ou diagnóstico por cliques ou tempo.
+
+Oferecer prévia integral, TXT/JSON e cópia para envio ao professor, com alternativa manual. Não truncar o relatório nem colocá-lo integralmente numa URL de e-mail longa. Abrir aplicativo ou preparar rascunho não confirma envio. Na versão sem receptor, declarar armazenamento local e entrega pelo estudante; não anunciar coleta automática ou recebimento em painel sem conferir servidor e autorização. Dados pessoais não integram HTML, QR ou repositório público.
+
+O empacotador integra `publicacao/apoios/` às páginas com banco `apoio-dados` ou `dados-exemplos`. Exportadores já existentes são preservados para evitar duplicação. A integração visual não muda conteúdos, denominadores ou regras de avaliação. Não altera automaticamente slides ou documentos externos.
+
+### 36.4. Dialética prática
+**Ponto cego:** acrescentar um fundo bonito sem ensinar o procedimento, confundir desenho com evidência ou mostrar “enviado” sem confirmação. **Ação de maestria:** testar a primeira atividade sem instrução oral externa, pedir que o aluno explique a relação mostrada e conferir os dados exportados em cada caminho. Validação técnica de interface não substitui uso com mediação e avaliação docente.

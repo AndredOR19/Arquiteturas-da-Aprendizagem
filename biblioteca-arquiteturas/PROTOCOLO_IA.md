@@ -1,5 +1,5 @@
 # Protocolo de consulta, composição e continuidade para IA
-Versão: 1.4.0 — 04/11/2026. Compatibilidade atualizada: Prompt Mestre 3.5.0.
+Versão: 1.4.0 — 04/11/2026. Compatibilidade atualizada: Prompt Mestre 3.6.0.
 
 **Leitura obrigatória nas novas aulas:** [Salas de Alfabetização e Letramento](SALAS_DE_ALFABETIZACAO_E_LETRAMENTO.md). Toda composição deve incluir a rota curricular e o apoio opcional de imagens, palavras, letras, sons e letramento, sem exposição de dados individuais, sem confundir jogo com avaliação da disciplina e sem afirmar recursos não testados.
 

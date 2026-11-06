@@ -22,6 +22,18 @@ def safe_path(base, name):
         raise ValueError('Caminho inválido: ' + name)
     return p
 
+def decorar_apoios(text, page, assets):
+    if 'id="apoio-dados"' not in text and 'id="dados-exemplos"' not in text:
+        return text
+    if 'data-apoio-ui-script' in text:
+        return text
+    prefix = os.path.relpath(assets, page.parent).replace(os.sep, '/') + '/'
+    css = '<link rel="stylesheet" href="' + prefix + 'experiencia.css?v=3.6.0">'
+    scripts = ''.join('<script defer src="' + prefix + name + '?v=3.6.0" data-apoio-ui-script></script>' for name in ['experiencia.js','relatorios.js'])
+    text = text.replace('</head>', css + '</head>', 1)
+    at = text.lower().rfind('</body>')
+    return text[:at] + scripts + text[at:] if at >= 0 else text + scripts
+
 def main():
     apoio = validar_apoio(ROOT / "publicacao/alfabetizacao/index.html")
     print("Apoio opcional:", len(apoio["percursos"]), "percursos por área; mínimo 57")
@@ -29,6 +41,10 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
+    support_assets = OUT / "_recursos" / "apoios"
+    support_assets.mkdir(parents=True, exist_ok=True)
+    for name in ['experiencia.css','experiencia.js','relatorios.js','oficina-fracoes.webp','arquivo-historia.webp']:
+        shutil.copyfile(ROOT / 'publicacao' / 'apoios' / name, support_assets / name)
     reading = OUT / "_recursos" / "leitura"
     reading.mkdir(parents=True, exist_ok=True)
     for name in ["painel.js", "OpenDyslexic-Regular.woff2", "OFL.txt"]:
@@ -43,7 +59,9 @@ def main():
         shutil.copyfile(ROOT / "publicacao" / "imagens" / name, image_learning / name)
     literacy = OUT / "_recursos" / "alfabetizacao"
     literacy.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(ROOT / "publicacao/alfabetizacao/index.html", literacy / "index.html")
+    literacy_page = literacy / "index.html"
+    literacy_source = (ROOT / "publicacao/alfabetizacao/index.html").read_text(encoding='utf-8')
+    literacy_page.write_text(decorar_apoios(literacy_source, literacy_page, support_assets), encoding='utf-8')
     sounds = OUT / "_recursos" / "sons"
     sounds.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(ROOT / "publicacao/sons/painel.js", sounds / "painel.js")
@@ -97,7 +115,8 @@ def main():
                     target.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copyfile(p, target)
             for page in dest.rglob('*.html'):
-                text = page.read_text(encoding='utf-8')
+                text = decorar_apoios(page.read_text(encoding='utf-8'), page, support_assets)
+                page.write_text(text, encoding='utf-8')
                 if page == dest / 'index.html' and 'data-apoio-local' not in text:
                     materia = ', '.join(item.get('portal', {}).get('componentes', [])) or 'Aula'
                     params = urlencode({'materia': materia, 'tema': item.get('titulo', ''), 'voltar': './'})

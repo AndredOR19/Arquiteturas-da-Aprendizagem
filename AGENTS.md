@@ -164,3 +164,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Preservar realizações iniciadas, notas e relatórios; migração de legado deve ser declarada e testada.
 
 - Esclarecimento autoral: “Aprender de outro jeito” inclui leitura breve e várias linguagens explicativas equivalentes. Não é um caminho sem leitura. Troca de linguagem é apoio livre, preserva respostas e não aumenta a contagem.
+
+
+## Orientação, imagens e relatório de cada alternativa
+- Aplicar seção 36 do Prompt Mestre 3.6.0: três passos claros, exemplo resolvido, representação que ensina e fundo temático removível nas páginas de apoio e de leitura breve. Preservar dados, contraste, teclado e alternativa ao áudio.
+- As três opções devem ter relatório próprio e exportação integral; integração local não é envio automático nem recebimento no painel. Conferir tentativas, apoios, identidade declarada, estado e alternativa manual de entrega, sem dados reais no Git público.
