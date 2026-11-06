@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.3.0**
+Versão vigente: **3.4.0**
 Atualização: **06/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -544,6 +544,7 @@ Verificar:
 - Bloqueio de avanço após erro e liberação após acerto.
 - Glossário, dicionário, voz, navegação e contraste.
 - Preferências de leitura da seção 11.1: fontes reais, ajustes reversíveis, tolerância a espaçamento e preservação de símbolos, respostas e progresso; avisos sem promessa clínica.
+- Apoio à leitura (seção 34.4.1): no mínimo 26 percursos efetivos, opcionais e independentes da nota; contagem e validação automática do banco antes de publicar.
 - Registro para Escola RS (seção 15.1): título, resumo e habilidades com código/descrição presentes e iguais no painel de acesso e dentro da aula; cópia integral e alternativa manual verificadas.
 - Cálculo de indicadores e preservação das primeiras respostas.
 - Botão final “Enviar relatório ao professor”: destinatário confirmado do solicitante, assunto e corpo completo devidamente codificados; correspondência com a prévia/exportação, alternativas para limites de tamanho e ausência de confirmação falsa de envio.
@@ -815,6 +816,13 @@ Cada sala tem **níveis por habilidades**, não por rótulos clínicos ou idade:
 6. Oferecer treino opcional sem descontar pontuação, preservar percurso regular, impedir que a conclusão opcional substitua a avaliação curricular exigida.
 7. Gerar um registro técnico por versão informando a disponibilidade das salas: **implantada e testada**, **piloto** ou **planejada**. Não declarar som, coleta, métricas ou adaptação ativos apenas por existir botão.
 8. Vincular a temática da disciplina sem infantilizar. Ex.: História — mapa, lei, voto, fonte; Matemática — número, forma, medida; Cultura Digital — mensagem, fonte, senha, cuidado. As palavras são exemplos, não lista curricular fixa.
+
+### 34.4.1. Mínimo de 26 percursos no apoio opcional
+Decisão de 06/11/2026, após relato positivo do professor sobre o uso pelos alunos: cada aula deve oferecer **no mínimo 26 percursos de apoio à leitura**, além dos percursos curriculares. O apoio permanece opcional, sem prazo obrigatório, sem penalidade por erros e sem alterar a nota. Permitir pausas e retorno à aula a qualquer momento; não exigir que o aluno conclua tudo em uma sessão.
+
+Cada percurso deve propor uma ação significativa com modelagem, comando acessível, resposta/interação e feedback. Variar associação imagem–palavra, reconhecimento de palavra, partes/sílabas, frases e uso em contexto; retomar vocabulário com operações diferentes. Não atingir o mínimo contando instruções, botões de áudio, novas tentativas ou cópias idênticas como atividades distintas. Ajustar linguagem e vocabulário à área, sem infantilização; imagem, voz, texto e mediação devem ser complementares, sem depender exclusivamente de emoji ou áudio.
+
+Na automação, registrar a quantidade e as operações do banco e **validar o mínimo de 26 antes da publicação**. Informar contagem e progresso próprios do apoio; preservar a separação da avaliação curricular. Testar avanço, feedback, repetição sem duplicar conclusão, ausência de áudio e retorno à aula. Uma diretriz ou contagem nominal não comprova 26 atividades funcionais, alfabetização, escuta ou eficácia.
 
 ### 34.5. Entrada simples e coleta — nova regra
 Aluno **não precisa de login, senha ou convite individual** no modelo inicial de coleta livre. Antes do início, solicitar nome completo, turma e professor; escola/disciplinas/aula podem vir preenchidas pelo cadastro. Registrar identidade **autodeclarada**, não confirmada documentalmente. Impedir liberação se os campos estiverem inválidos ou não houver confirmação de recebimento do servidor para a aula integrada. Uma aula fora da integração não pode alegar coleta automática; deve mostrar aviso e alternativa operativa sob orientação docente.

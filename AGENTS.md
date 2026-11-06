@@ -151,3 +151,8 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Cumprir seção 15.1 do Prompt Mestre: toda nova aula deve mostrar título, resumo para registro e habilidades (código e descrição com fonte verificada), tanto no painel de acesso/acervo quanto dentro da aula.
 - Usar a mesma fonte de metadados, permitir consulta antes da entrada e oferecer cópia integral do registro com alternativa manual. Conferir presença, igualdade e leitura em celular; não exigir conclusão ou nota.
 - O professor revisa e transfere o texto para o Escola RS. Não afirmar envio automático, aplicação da aula ou atualização de páginas antigas por uma mudança documental.
+
+
+## Apoio à leitura com no mínimo 26 percursos
+- Aplicar seção 34.4.1: pelo menos 26 atividades significativas no apoio opcional, separadas dos percursos curriculares e da nota. Variar imagens, palavras, sílabas e frases/contexto com áudio e alternativa mediada. Não contar instruções, repetições idênticas ou tentativas extras como novos percursos.
+- O empacotamento deve executar `publicacao/alfabetizacao/validar.py` e bloquear banco com menos de 26. Conferir progresso, repetição, avanço, áudio indisponível e retorno. O recurso compartilhado atual oferece 28; não confundir com oito salas completas, eficácia comprovada ou instrumentação no painel.

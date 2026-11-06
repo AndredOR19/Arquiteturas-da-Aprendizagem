@@ -35,6 +35,9 @@ registro: opcional e separado da nota curricular
 **Avaliação:** observar associação sem ajuda, reconhecimento do som e aplicação em palavra nova; aceitar resposta oral/tátil.
 **Ajuste:** oferecer retorno ao modelo e escolha de outras palavras; não registrar "não alfabetizado" como resultado automático.
 
+## Quantidade mínima e automação
+Cada apoio opcional oferece no mínimo 26 percursos significativos, independentes dos curriculares e da nota (Prompt Mestre 3.4.0, seção 34.4.1). O recurso compartilhado oferece 28 por área: sete palavras com quatro operações diferentes. O empacotador valida quantidade, unicidade e referências antes da publicação. Não contar áudio, instruções ou novas tentativas como percursos. Testes em `publicacao/alfabetizacao/testar.py`; adaptação por aula e avaliação docente continuam necessárias.
+
 ## Contrato de interface
 - Entrada da sala em todas as aulas novas, título amigável e sem exposição da dificuldade individual.
 - Uma operação principal por tela; modos claro/escuro com contraste AA; controle de tamanho/fonte e movimento.
@@ -46,7 +49,7 @@ registro: opcional e separado da nota curricular
 - Dados pessoais e planos individualizados permanecem em área docente privada.
 
 ## Implementado versus previsto
-**Existente:** `publicacao/alfabetizacao/index.html` fornece uma atividade geral simples de palavra–imagem, separação silábica e áudio, com link pelo acervo; `publicacao/imagens/` já reúne suporte por imagens.
+**Existente:** `publicacao/alfabetizacao/index.html` fornece um banco compartilhado de 28 atividades por área (imagem, palavra, sílaba inicial e frase/contexto), com áudio opcional, com link pelo acervo; `publicacao/imagens/` já reúne suporte por imagens.
 **Previsto, não concluído:** oito salas independentes com progressão, banco por matéria/idade, coleta granular da sala, painel de habilidades, adaptação a partir de evidências, jogos multiformato e testes de campo. Não declarar esses recursos ativos antes da implementação e auditoria.
 
 ## Indicadores de avaliação pedagógica

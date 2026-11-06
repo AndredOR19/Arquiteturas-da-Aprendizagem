@@ -122,6 +122,10 @@ def main():
                 'titulo, objetivo, conceito, conclusao, percursos; cada percurso tem contexto, pergunta, '
                 'alternativas [4 objetos {texto,feedback}], correta [0..3], explicacao e transferencia. '
                 'Inclua conteúdo adequado à turma e não invente fontes. Use linguagem pt-BR. '
+                'O apoio à leitura é opcional, separado da nota e dos 26 percursos curriculares. '
+                'A publicação integra o recurso compartilhado com no mínimo 26 percursos de apoio: '
+                'imagem-palavra, palavra-imagem, sílabas e frases em contexto, com áudio e mediação. '
+                'Nunca conte telas de instrução, tentativas ou repetição idêntica como novos percursos. '
                 'ERER: diferencie analogia fílmica de racismo real e não copie personagens protegidos.\n'
                 +json.dumps(aula,ensure_ascii=False)+'\n'+roteiro+'\n'+protocolo+'\n'+fluxo+
                 '\nReferência versionada da Biblioteca de Diagramação (não copiar motor): '+guia)

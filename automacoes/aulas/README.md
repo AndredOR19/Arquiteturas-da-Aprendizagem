@@ -61,3 +61,7 @@ O fluxo `Validar pedidos e aulas AEE` roda em PR e também manualmente. A checag
 ## Aprovação segura
 
 **Pedido cadastrado não significa aula produzida. PR em rascunho não significa aula aprovada. Merge não substitui a conferência pedagógica e o teste de navegador.** Não automatizar merge de materiais discentes sem uma regra explícita de aprovação.
+
+
+## Apoio opcional de leitura — regra de 06/11/2026
+O mínimo de 26 percursos de apoio é independente dos 26 curriculares, sem mudar a nota ou exigir conclusão do apoio. O gerador inclui essa regra na solicitação ao modelo; o empacotador integra `publicacao/alfabetizacao/index.html` e executa `publicacao/alfabetizacao/validar.py` antes de publicar. O banco compartilhado atual oferece 28 percursos por área (7 palavras × 4 operações). Banco menor que 26, IDs/atividades duplicados ou referências inexistentes interrompem o build; não basta anunciar 26 no texto. Execute `python3 publicacao/alfabetizacao/testar.py`. A geração por API continua dependente das credenciais configuradas e de revisão docente.

@@ -3,6 +3,11 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.4.0 — 06/11/2026 — Apoio opcional com pelo menos 26 percursos
+Prof. André relatou que os estudantes gostaram do apoio, mas o considerou curto, e solicitou mínimo de 26 na automação e no prompt. Seção 34.4.1 e AGENTS tornam o mínimo obrigatório, independente dos percursos curriculares e da nota, com atividades variadas e sem contar instruções ou tentativas como novos percursos.
+
+Recurso compartilhado ampliado de quatro associações para 28 percursos por área (sete palavras × imagem, palavra, sílaba inicial e frase/contexto). Mantém áudio opcional, mediação e retorno livre; repetição não duplica a contagem. O build valida banco, unicidade e referências antes de empacotar; gerador e documentação incluem a regra. Teste de contrato aprova 28 e rejeita 25, duplicação e índice inexistente; teste de interação percorre os bancos. A confirmação de deploy permanece uma etapa separada. Não cria oito salas completas, coleta/painel, persistência após recarga ou prova de aprendizagem. O relato docente é registrado como relato, sem generalização de eficácia.
+
 ## 3.3.0 — 06/11/2026 — Registro para Escola RS no painel e na aula
 Pedido do Prof. André: incluir título, resumo da aula e habilidade para registro no Escola RS, tanto no painel de acesso quanto na própria aula. A seção 15.1 torna obrigatórios os três campos, código/descrição com fonte curricular verificada, fonte única de metadados, consulta antes da entrada e cópia integral com alternativa manual. Checklist, briefing e AGENTS reconciliados; catálogo e referências de compatibilidade atualizados.
 

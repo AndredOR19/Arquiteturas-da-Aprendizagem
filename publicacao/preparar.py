@@ -9,6 +9,7 @@ import tempfile
 from pathlib import Path
 from urllib.parse import urlparse, urlencode
 from portal.gerar import preparar_portal
+from alfabetizacao.validar import validar_apoio
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '_site'
@@ -21,6 +22,8 @@ def safe_path(base, name):
     return p
 
 def main():
+    apoio = validar_apoio(ROOT / "publicacao/alfabetizacao/index.html")
+    print("Apoio opcional:", len(apoio["percursos"]), "percursos por área; mínimo 26")
     items = json.loads((ROOT / 'publicacao/catalogo.json').read_text())['materiais']
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -79,7 +82,7 @@ def main():
                     materia = ', '.join(item.get('portal', {}).get('componentes', [])) or 'Aula'
                     params = urlencode({'materia': materia, 'tema': item.get('titulo', ''), 'voltar': './'})
                     support_path = os.path.relpath(literacy / 'index.html', page.parent).replace(os.sep, '/')
-                    support_link = '<aside class="apoio-alfabetizacao" style="max-width:900px;margin:24px auto;padding:16px;background:#eaf6ef;color:#123e36;border:2px solid #377266;border-radius:12px;font:17px/1.5 system-ui"><strong>Percurso opcional de apoio à leitura</strong><p style="margin:8px 0">Imagens, palavras, sílabas e áudio, sem alterar sua nota.</p><a style="display:inline-block;padding:10px 14px;color:#123e36;background:white;border:2px solid #377266;border-radius:8px" href="' + html.escape(support_path + '?' + params, quote=True) + '">Aprender com imagens, palavras e áudio</a></aside>'
+                    support_link = '<aside class="apoio-alfabetizacao" style="max-width:900px;margin:24px auto;padding:16px;background:#eaf6ef;color:#123e36;border:2px solid #377266;border-radius:12px;font:17px/1.5 system-ui"><strong>Percurso opcional de apoio à leitura</strong><p style="margin:8px 0">28 percursos com imagens, palavras, sílabas, frases e áudio, sem alterar sua nota.</p><a style="display:inline-block;padding:10px 14px;color:#123e36;background:white;border:2px solid #377266;border-radius:8px" href="' + html.escape(support_path + '?' + params, quote=True) + '">Aprender com imagens, palavras e áudio</a></aside>'
                     gate = '<div id="aula-conteudo" hidden inert>'
                     if gate in text:
                         text = text.replace(gate, gate + support_link, 1)
