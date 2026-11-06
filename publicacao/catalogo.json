@@ -1018,11 +1018,40 @@
           "Numerador",
           "Leitura"
         ],
-        "descricao": "Representar frações de um mesmo inteiro, relacionar nome e símbolo e justificar equivalência e comparação.",
+        "descricao": "Representar e comparar frações por tiras, repartições e blocos; relacionar inteiro, partes iguais, numerador e denominador e justificar equivalências e ordenações.",
         "titulo_exibicao": "Oficina das frações: montar, comparar e explicar",
         "periodo": "3º trimestre",
-        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
-      }
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação.",
+        "registro_escola_rs": {
+          "titulo": "Oficina das frações: montar, comparar e explicar",
+          "resumo": "Representar e comparar frações por tiras, repartições e blocos; relacionar inteiro, partes iguais, numerador e denominador e justificar equivalências e ordenações.",
+          "habilidades": [
+            "EF06MA07 — Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes."
+          ]
+        },
+        "rotas": [
+          {
+            "titulo": "Apoio à leitura · 57 atividades",
+            "url": "aulas/praticas-experimentais-161-fracoes/apoio/"
+          },
+          {
+            "titulo": "Aprender de outro jeito · 96 atividades",
+            "url": "aulas/praticas-experimentais-161-fracoes/exemplos/"
+          }
+        ],
+        "apoio_leitura_url": "aulas/praticas-experimentais-161-fracoes/apoio/"
+      },
+      "rota_exemplos": {
+        "arquivo": "exemplos/index.html",
+        "minimo": 64,
+        "quantidade": 96
+      },
+      "apoio_local": {
+        "arquivo": "apoio/index.html",
+        "quantidade": 57
+      },
+      "atualizado_em": "2026-11-06",
+      "versao_visual": "tres-alternativas-1.0"
     },
     {
       "tipo": "html",
@@ -1050,11 +1079,40 @@
           "Resistência",
           "Quilombos"
         ],
-        "descricao": "Analisar práticas culturais e formas de resistência nas sociedades coloniais, situando fontes e reconhecendo diversidade e limites.",
+        "descricao": "Analisar fontes e situações didáticas sobre cultura e resistência nas sociedades coloniais, comparando sujeitos, estratégias e relações de poder e reconhecendo limites das interpretações.",
         "titulo_exibicao": "Territórios de resistência: cultura e sociedade colonial",
         "periodo": "3º trimestre",
-        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação."
-      }
+        "metadados_fonte": "Horário informado pelo professor em 05/11; fontes e ressalvas na composição. Planejada não comprova aplicação.",
+        "registro_escola_rs": {
+          "titulo": "Territórios de resistência: cultura e sociedade colonial",
+          "resumo": "Analisar fontes e situações didáticas sobre cultura e resistência nas sociedades coloniais, comparando sujeitos, estratégias e relações de poder e reconhecendo limites das interpretações.",
+          "habilidades": [
+            "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas em diferentes linguagens para compreender processos históricos e culturais. Síntese didática da habilidade; descrição integral na BNCC, p. 572."
+          ]
+        },
+        "rotas": [
+          {
+            "titulo": "Apoio à leitura · 57 atividades",
+            "url": "aulas/historia-211-cultura-resistencia/apoio/"
+          },
+          {
+            "titulo": "Aprender de outro jeito · 96 atividades",
+            "url": "aulas/historia-211-cultura-resistencia/exemplos/"
+          }
+        ],
+        "apoio_leitura_url": "aulas/historia-211-cultura-resistencia/apoio/"
+      },
+      "rota_exemplos": {
+        "arquivo": "exemplos/index.html",
+        "minimo": 64,
+        "quantidade": 96
+      },
+      "apoio_local": {
+        "arquivo": "apoio/index.html",
+        "quantidade": 57
+      },
+      "atualizado_em": "2026-11-06",
+      "versao_visual": "tres-alternativas-1.0"
     }
   ]
 }

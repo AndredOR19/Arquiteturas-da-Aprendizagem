@@ -749,18 +749,227 @@
       "escola_curta": "Bernardina",
       "palavras_chave": [
         "estudos orientados",
-        "estratégias de estudo",
+        "estratégias de aprendizagem",
         "revisão",
-        "metacognição",
-        "planejamento"
+        "planejamento de estudos"
       ],
       "id": "aulas/05-11-2026-estudos-orientados-7",
       "titulo": "Missão: Detetives do Estudo",
-      "descricao": "Aula de Estudos Orientados para o 7º ano: investigar como aprender, planejar metas, recuperar ideias sem consultar, revisar e explicar. Oito desafios, leitura por voz, acessibilidade e relatório exportável.",
+      "descricao": "Missão investigativa sobre como estudar: observar o caso, explicar sem consultar, identificar dificuldades e revisar. Oito questões comentadas, acessibilidade, cadastro direto e relatório exportável.",
       "url": "aulas/05-11-2026-estudos-orientados-7/",
       "data_catalogo": "2026-11-05",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Estudos Orientados"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [
+        "172"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Objetivo",
+        "Pré-requisito",
+        "Recuperação de memória",
+        "Evidência",
+        "Relação"
+      ],
+      "id": "aulas/estudos-orientados-172-evidencias",
+      "titulo": "Detetives do estudo: explicar, conferir e transferir",
+      "descricao": "Escolher estratégias de estudo e justificar uma resposta com evidência, revisão e aplicação em outro exemplo.",
+      "url": "aulas/estudos-orientados-172-evidencias/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [
+        "192"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Pergunta investigável",
+        "Hipótese",
+        "Variável alterada",
+        "Condições controladas",
+        "Critério observável"
+      ],
+      "id": "aulas/praticas-experimentais-192-teste-justo",
+      "titulo": "Laboratório do teste justo: dissolver, medir e comparar",
+      "descricao": "Planejar e interpretar uma comparação controlada sobre agitação e tempo de dissolução, distinguindo observação, hipótese e limite.",
+      "url": "aulas/praticas-experimentais-192-teste-justo/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "2ª série · EM"
+      ],
+      "turmas": [
+        "221"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Fonte e contexto",
+        "Dignidade",
+        "Igualdade",
+        "Não discriminação",
+        "Educação"
+      ],
+      "id": "aulas/historia-221-direitos-em-acao",
+      "titulo": "Direitos em ação: do documento à vida cotidiana",
+      "descricao": "Identificar princípios de direitos humanos em fontes e justificar ações diante de uma situação fictícia de exclusão.",
+      "url": "aulas/historia-221-direitos-em-acao/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Cultura Digital"
+      ],
+      "series": [
+        "8º ano · EF"
+      ],
+      "turmas": [
+        "182"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Mensagem",
+        "Origem",
+        "Data",
+        "Evidência",
+        "Conferência independente"
+      ],
+      "id": "aulas/cultura-digital-182-verificar-antes-compartilhar",
+      "titulo": "Agência de verificação: antes de compartilhar",
+      "descricao": "Conferir origem, data e evidência de mensagens e decidir como agir sem expor dados pessoais. Versão ampliada: 32 percursos curriculares para novos inícios e apoio opcional à leitura com 57 atividades.",
+      "url": "aulas/cultura-digital-182-verificar-antes-compartilhar/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "6º ano · EF"
+      ],
+      "turmas": [
+        "161"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Inteiro",
+        "Partes iguais",
+        "Denominador",
+        "Numerador",
+        "Leitura"
+      ],
+      "id": "aulas/praticas-experimentais-161-fracoes",
+      "titulo": "Oficina das frações: montar, comparar e explicar",
+      "descricao": "Representar e comparar frações por tiras, repartições e blocos; relacionar inteiro, partes iguais, numerador e denominador e justificar equivalências e ordenações.",
+      "url": "aulas/praticas-experimentais-161-fracoes/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Oficina das frações: montar, comparar e explicar",
+        "resumo": "Representar e comparar frações por tiras, repartições e blocos; relacionar inteiro, partes iguais, numerador e denominador e justificar equivalências e ordenações.",
+        "habilidades": [
+          "EF06MA07 — Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio à leitura · 57 atividades",
+          "url": "aulas/praticas-experimentais-161-fracoes/apoio/"
+        },
+        {
+          "titulo": "Aprender de outro jeito · 96 atividades",
+          "url": "aulas/praticas-experimentais-161-fracoes/exemplos/"
+        }
+      ],
+      "apoio_leitura_url": "aulas/praticas-experimentais-161-fracoes/apoio/"
+    },
+    {
+      "ano_letivo": 2026,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "1ª série · EM"
+      ],
+      "turmas": [
+        "211"
+      ],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Contexto colonial",
+        "Diversidade",
+        "Fonte situada",
+        "Resistência",
+        "Quilombos"
+      ],
+      "id": "aulas/historia-211-cultura-resistencia",
+      "titulo": "Territórios de resistência: cultura e sociedade colonial",
+      "descricao": "Analisar fontes e situações didáticas sobre cultura e resistência nas sociedades coloniais, comparando sujeitos, estratégias e relações de poder e reconhecendo limites das interpretações.",
+      "url": "aulas/historia-211-cultura-resistencia/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Territórios de resistência: cultura e sociedade colonial",
+        "resumo": "Analisar fontes e situações didáticas sobre cultura e resistência nas sociedades coloniais, comparando sujeitos, estratégias e relações de poder e reconhecendo limites das interpretações.",
+        "habilidades": [
+          "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas em diferentes linguagens para compreender processos históricos e culturais. Síntese didática da habilidade; descrição integral na BNCC, p. 572."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio à leitura · 57 atividades",
+          "url": "aulas/historia-211-cultura-resistencia/apoio/"
+        },
+        {
+          "titulo": "Aprender de outro jeito · 96 atividades",
+          "url": "aulas/historia-211-cultura-resistencia/exemplos/"
+        }
+      ],
+      "apoio_leitura_url": "aulas/historia-211-cultura-resistencia/apoio/"
     }
   ]
 }

@@ -1,0 +1,3059 @@
+{
+  "percursos": [
+    {
+      "id": "praticas-experimentais-161-fracoes-01-1",
+      "exemplo": "Metade de uma tira de 12 cm mede 6 cm.",
+      "relacao": "Escolha o inteiro antes de comparar suas partes.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Inteiro"
+      ],
+      "pergunta": "Antes de comparar partes, o que identificar?",
+      "alternativas": [
+        {
+          "texto": "O inteiro de referência",
+          "feedback": "Escolha o inteiro antes de comparar suas partes. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "A cor de cada parte",
+          "feedback": "Revise a relação: Escolha o inteiro antes de comparar suas partes."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Escolha o inteiro antes de comparar suas partes.",
+        "cotidiana": "Metade de uma tira de 12 cm mede 6 cm.",
+        "comparacao": "A fração funciona como uma referência: mudar o inteiro muda a quantidade."
+      },
+      "conceito": 0,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-01-2",
+      "exemplo": "Metade de uma tira de 12 cm mede 6 cm.",
+      "relacao": "Escolha o inteiro antes de comparar suas partes.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Inteiro"
+      ],
+      "pergunta": "Metade de uma pizza grande e metade de uma pequena são…",
+      "alternativas": [
+        {
+          "texto": "Frações diferentes apenas por terem cores diferentes",
+          "feedback": "Revise a relação: Escolha o inteiro antes de comparar suas partes."
+        },
+        {
+          "texto": "A mesma proporção, mas podem ter quantidades diferentes",
+          "feedback": "Escolha o inteiro antes de comparar suas partes. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Escolha o inteiro antes de comparar suas partes.",
+        "cotidiana": "Metade de uma tira de 12 cm mede 6 cm.",
+        "comparacao": "A fração funciona como uma referência: mudar o inteiro muda a quantidade."
+      },
+      "conceito": 0,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-01-3",
+      "exemplo": "Duas metades vieram de tiras de 10 e 20 cm. Têm a mesma medida?",
+      "relacao": "Escolha o inteiro antes de comparar suas partes.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Inteiro"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Não; os inteiros têm comprimentos diferentes.",
+          "feedback": "Escolha o inteiro antes de comparar suas partes. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Sim; a palavra metade garante medidas iguais.",
+          "feedback": "Revise a relação: Escolha o inteiro antes de comparar suas partes."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Escolha o inteiro antes de comparar suas partes.",
+        "cotidiana": "Metade de uma tira de 12 cm mede 6 cm.",
+        "comparacao": "A fração funciona como uma referência: mudar o inteiro muda a quantidade."
+      },
+      "conceito": 0,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-01-4",
+      "exemplo": "Um grupo escolhe uma barra como inteiro e outro escolhe duas barras. O que combinar?",
+      "relacao": "Escolha o inteiro antes de comparar suas partes.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Inteiro"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "A mesma cor do lápis.",
+          "feedback": "Revise a relação: Escolha o inteiro antes de comparar suas partes."
+        },
+        {
+          "texto": "O mesmo inteiro de referência.",
+          "feedback": "Escolha o inteiro antes de comparar suas partes. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Escolha o inteiro antes de comparar suas partes.",
+        "cotidiana": "Metade de uma tira de 12 cm mede 6 cm.",
+        "comparacao": "A fração funciona como uma referência: mudar o inteiro muda a quantidade."
+      },
+      "conceito": 0,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-01-5",
+      "exemplo": "Uma receita usa metade de um copo. Qual informação define a quantidade?",
+      "relacao": "Escolha o inteiro antes de comparar suas partes.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Inteiro"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "A capacidade do copo tomado como inteiro.",
+          "feedback": "Escolha o inteiro antes de comparar suas partes. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Somente a cor do copo.",
+          "feedback": "Revise a relação: Escolha o inteiro antes de comparar suas partes."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Escolha o inteiro antes de comparar suas partes.",
+        "cotidiana": "Metade de uma tira de 12 cm mede 6 cm.",
+        "comparacao": "A fração funciona como uma referência: mudar o inteiro muda a quantidade."
+      },
+      "conceito": 0,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-01-6",
+      "exemplo": "Uma fotografia ampliou a tira. A fração pintada precisa mudar?",
+      "relacao": "Escolha o inteiro antes de comparar suas partes.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Inteiro"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Sim; toda ampliação troca o denominador.",
+          "feedback": "Revise a relação: Escolha o inteiro antes de comparar suas partes."
+        },
+        {
+          "texto": "Não; a proporção pode ser mantida na ampliação.",
+          "feedback": "Escolha o inteiro antes de comparar suas partes. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Escolha o inteiro antes de comparar suas partes.",
+        "cotidiana": "Metade de uma tira de 12 cm mede 6 cm.",
+        "comparacao": "A fração funciona como uma referência: mudar o inteiro muda a quantidade."
+      },
+      "conceito": 0,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-02-1",
+      "exemplo": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+      "relacao": "As partes de um mesmo inteiro devem ter medidas iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Partes iguais"
+      ],
+      "pergunta": "Uma tira foi cortada em quatro tamanhos diferentes. Cada pedaço é 1/4?",
+      "alternativas": [
+        {
+          "texto": "Sim; basta haver quatro pedaços",
+          "feedback": "Revise a relação: As partes de um mesmo inteiro devem ter medidas iguais."
+        },
+        {
+          "texto": "Não; quatro pedaços não garantem quatro partes iguais",
+          "feedback": "As partes de um mesmo inteiro devem ter medidas iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "As partes de um mesmo inteiro devem ter medidas iguais.",
+        "cotidiana": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+        "comparacao": "Contar pedaços é diferente de comparar suas medidas."
+      },
+      "conceito": 1,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-02-2",
+      "exemplo": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+      "relacao": "As partes de um mesmo inteiro devem ter medidas iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Partes iguais"
+      ],
+      "pergunta": "Como representar 1/3 de uma faixa?",
+      "alternativas": [
+        {
+          "texto": "Dividir o inteiro em três partes iguais e marcar uma",
+          "feedback": "As partes de um mesmo inteiro devem ter medidas iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Fazer três cortes em qualquer lugar",
+          "feedback": "Revise a relação: As partes de um mesmo inteiro devem ter medidas iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "As partes de um mesmo inteiro devem ter medidas iguais.",
+        "cotidiana": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+        "comparacao": "Contar pedaços é diferente de comparar suas medidas."
+      },
+      "conceito": 1,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-02-3",
+      "exemplo": "Uma faixa tem três partes de 2 cm e uma de 6 cm. São quatro quartos?",
+      "relacao": "As partes de um mesmo inteiro devem ter medidas iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Partes iguais"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Sim; existem quatro partes.",
+          "feedback": "Revise a relação: As partes de um mesmo inteiro devem ter medidas iguais."
+        },
+        {
+          "texto": "Não; as partes não têm a mesma medida.",
+          "feedback": "As partes de um mesmo inteiro devem ter medidas iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "As partes de um mesmo inteiro devem ter medidas iguais.",
+        "cotidiana": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+        "comparacao": "Contar pedaços é diferente de comparar suas medidas."
+      },
+      "conceito": 1,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-02-4",
+      "exemplo": "Uma folha foi dobrada ao meio duas vezes, com as bordas alinhadas. Qual divisão se busca?",
+      "relacao": "As partes de um mesmo inteiro devem ter medidas iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Partes iguais"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Quatro partes de mesma área.",
+          "feedback": "As partes de um mesmo inteiro devem ter medidas iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Quatro partes de qualquer área.",
+          "feedback": "Revise a relação: As partes de um mesmo inteiro devem ter medidas iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "As partes de um mesmo inteiro devem ter medidas iguais.",
+        "cotidiana": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+        "comparacao": "Contar pedaços é diferente de comparar suas medidas."
+      },
+      "conceito": 1,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-02-5",
+      "exemplo": "Um círculo tem quatro setores de tamanhos diferentes. O maior setor vale sempre 1/4?",
+      "relacao": "As partes de um mesmo inteiro devem ter medidas iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Partes iguais"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Sim; há quatro setores.",
+          "feedback": "Revise a relação: As partes de um mesmo inteiro devem ter medidas iguais."
+        },
+        {
+          "texto": "Não; é preciso conferir a igualdade das partes.",
+          "feedback": "As partes de um mesmo inteiro devem ter medidas iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "As partes de um mesmo inteiro devem ter medidas iguais.",
+        "cotidiana": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+        "comparacao": "Contar pedaços é diferente de comparar suas medidas."
+      },
+      "conceito": 1,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-02-6",
+      "exemplo": "Para mostrar um quinto de uma tira, o que fazer primeiro?",
+      "relacao": "As partes de um mesmo inteiro devem ter medidas iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Partes iguais"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Dividir a tira em cinco comprimentos iguais.",
+          "feedback": "As partes de um mesmo inteiro devem ter medidas iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Pintar cinco marcas de qualquer tamanho.",
+          "feedback": "Revise a relação: As partes de um mesmo inteiro devem ter medidas iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "As partes de um mesmo inteiro devem ter medidas iguais.",
+        "cotidiana": "Uma faixa em quatro pedaços desiguais não mostra quatro quartos.",
+        "comparacao": "Contar pedaços é diferente de comparar suas medidas."
+      },
+      "conceito": 1,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-03-1",
+      "exemplo": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+      "relacao": "O denominador informa o total de partes iguais do inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Denominador"
+      ],
+      "pergunta": "Em 3/4, o número 4 indica…",
+      "alternativas": [
+        {
+          "texto": "O total de partes iguais do inteiro",
+          "feedback": "O denominador informa o total de partes iguais do inteiro. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "O tamanho absoluto da faixa",
+          "feedback": "Revise a relação: O denominador informa o total de partes iguais do inteiro."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O denominador informa o total de partes iguais do inteiro.",
+        "cotidiana": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+        "comparacao": "O denominador descreve a divisão, não quantas partes foram pintadas."
+      },
+      "conceito": 2,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-03-2",
+      "exemplo": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+      "relacao": "O denominador informa o total de partes iguais do inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Denominador"
+      ],
+      "pergunta": "Em 2/5, quantas partes iguais formam o inteiro?",
+      "alternativas": [
+        {
+          "texto": "Duas",
+          "feedback": "Revise a relação: O denominador informa o total de partes iguais do inteiro."
+        },
+        {
+          "texto": "Cinco",
+          "feedback": "O denominador informa o total de partes iguais do inteiro. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O denominador informa o total de partes iguais do inteiro.",
+        "cotidiana": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+        "comparacao": "O denominador descreve a divisão, não quantas partes foram pintadas."
+      },
+      "conceito": 2,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-03-3",
+      "exemplo": "Em 5/9, o que o nove descreve?",
+      "relacao": "O denominador informa o total de partes iguais do inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Denominador"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Nove partes iguais formando o inteiro.",
+          "feedback": "O denominador informa o total de partes iguais do inteiro. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Nove partes necessariamente pintadas.",
+          "feedback": "Revise a relação: O denominador informa o total de partes iguais do inteiro."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O denominador informa o total de partes iguais do inteiro.",
+        "cotidiana": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+        "comparacao": "O denominador descreve a divisão, não quantas partes foram pintadas."
+      },
+      "conceito": 2,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        9
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-03-4",
+      "exemplo": "Uma figura inteira tem dez partes iguais. Que denominador usar?",
+      "relacao": "O denominador informa o total de partes iguais do inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Denominador"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "O número de partes escolhidas.",
+          "feedback": "Revise a relação: O denominador informa o total de partes iguais do inteiro."
+        },
+        {
+          "texto": "10",
+          "feedback": "O denominador informa o total de partes iguais do inteiro. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O denominador informa o total de partes iguais do inteiro.",
+        "cotidiana": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+        "comparacao": "O denominador descreve a divisão, não quantas partes foram pintadas."
+      },
+      "conceito": 2,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-03-5",
+      "exemplo": "Oito peças iguais formam um bloco inteiro. Uma delas é que fração?",
+      "relacao": "O denominador informa o total de partes iguais do inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Denominador"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "1/8",
+          "feedback": "O denominador informa o total de partes iguais do inteiro. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/7",
+          "feedback": "Revise a relação: O denominador informa o total de partes iguais do inteiro."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O denominador informa o total de partes iguais do inteiro.",
+        "cotidiana": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+        "comparacao": "O denominador descreve a divisão, não quantas partes foram pintadas."
+      },
+      "conceito": 2,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-03-6",
+      "exemplo": "Uma faixa mudou de quatro para oito divisões iguais. O que mudou?",
+      "relacao": "O denominador informa o total de partes iguais do inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Denominador"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "A quantidade de inteiros obrigatoriamente.",
+          "feedback": "Revise a relação: O denominador informa o total de partes iguais do inteiro."
+        },
+        {
+          "texto": "O tamanho das partes e o denominador.",
+          "feedback": "O denominador informa o total de partes iguais do inteiro. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O denominador informa o total de partes iguais do inteiro.",
+        "cotidiana": "Em 2/7, a tira inteira está dividida em sete partes iguais.",
+        "comparacao": "O denominador descreve a divisão, não quantas partes foram pintadas."
+      },
+      "conceito": 2,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-04-1",
+      "exemplo": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+      "relacao": "O numerador conta quantas partes foram consideradas.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Numerador"
+      ],
+      "pergunta": "Em 3/4, o número 3 indica…",
+      "alternativas": [
+        {
+          "texto": "O total de divisões do inteiro",
+          "feedback": "Revise a relação: O numerador conta quantas partes foram consideradas."
+        },
+        {
+          "texto": "As partes consideradas",
+          "feedback": "O numerador conta quantas partes foram consideradas. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O numerador conta quantas partes foram consideradas.",
+        "cotidiana": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+        "comparacao": "O numerador conta as partes; o denominador explica a divisão."
+      },
+      "conceito": 3,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-04-2",
+      "exemplo": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+      "relacao": "O numerador conta quantas partes foram consideradas.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Numerador"
+      ],
+      "pergunta": "Uma tira em seis partes iguais tem duas marcadas. Qual fração?",
+      "alternativas": [
+        {
+          "texto": "2/6",
+          "feedback": "O numerador conta quantas partes foram consideradas. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/8",
+          "feedback": "Revise a relação: O numerador conta quantas partes foram consideradas."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O numerador conta quantas partes foram consideradas.",
+        "cotidiana": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+        "comparacao": "O numerador conta as partes; o denominador explica a divisão."
+      },
+      "conceito": 3,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-04-3",
+      "exemplo": "Uma tira tem nove partes iguais, com quatro destacadas. Qual fração?",
+      "relacao": "O numerador conta quantas partes foram consideradas.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Numerador"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "9/4",
+          "feedback": "Revise a relação: O numerador conta quantas partes foram consideradas."
+        },
+        {
+          "texto": "4/9",
+          "feedback": "O numerador conta quantas partes foram consideradas. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O numerador conta quantas partes foram consideradas.",
+        "cotidiana": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+        "comparacao": "O numerador conta as partes; o denominador explica a divisão."
+      },
+      "conceito": 3,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-04-4",
+      "exemplo": "Em 7/10, quantas partes foram consideradas?",
+      "relacao": "O numerador conta quantas partes foram consideradas.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Numerador"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sete.",
+          "feedback": "O numerador conta quantas partes foram consideradas. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Dez.",
+          "feedback": "Revise a relação: O numerador conta quantas partes foram consideradas."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O numerador conta quantas partes foram consideradas.",
+        "cotidiana": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+        "comparacao": "O numerador conta as partes; o denominador explica a divisão."
+      },
+      "conceito": 3,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        7,
+        10
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-04-5",
+      "exemplo": "Três de cinco peças iguais estão marcadas. Onde fica o três?",
+      "relacao": "O numerador conta quantas partes foram consideradas.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Numerador"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "No denominador de 5/3.",
+          "feedback": "Revise a relação: O numerador conta quantas partes foram consideradas."
+        },
+        {
+          "texto": "No numerador de 3/5.",
+          "feedback": "O numerador conta quantas partes foram consideradas. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O numerador conta quantas partes foram consideradas.",
+        "cotidiana": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+        "comparacao": "O numerador conta as partes; o denominador explica a divisão."
+      },
+      "conceito": 3,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-04-6",
+      "exemplo": "De 2/6 para 5/6, o que mudou no mesmo inteiro?",
+      "relacao": "O numerador conta quantas partes foram consideradas.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Numerador"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "A quantidade de partes consideradas.",
+          "feedback": "O numerador conta quantas partes foram consideradas. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "O tamanho de cada sexta parte.",
+          "feedback": "Revise a relação: O numerador conta quantas partes foram consideradas."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O numerador conta quantas partes foram consideradas.",
+        "cotidiana": "Em 5/8, cinco das oito partes iguais foram escolhidas.",
+        "comparacao": "O numerador conta as partes; o denominador explica a divisão."
+      },
+      "conceito": 3,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-05-1",
+      "exemplo": "Um terço indica uma de três partes iguais.",
+      "relacao": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Leitura"
+      ],
+      "pergunta": "Como ler 3/4?",
+      "alternativas": [
+        {
+          "texto": "Três quartos",
+          "feedback": "O nome da fração liga a quantidade escolhida ao tipo de divisão. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Quatro terços",
+          "feedback": "Revise a relação: O nome da fração liga a quantidade escolhida ao tipo de divisão."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+        "cotidiana": "Um terço indica uma de três partes iguais.",
+        "comparacao": "Ler uma fração é nomear a relação, não trocar os dois números."
+      },
+      "conceito": 4,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-05-2",
+      "exemplo": "Um terço indica uma de três partes iguais.",
+      "relacao": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Leitura"
+      ],
+      "pergunta": "Como escrever dois terços?",
+      "alternativas": [
+        {
+          "texto": "3/2",
+          "feedback": "Revise a relação: O nome da fração liga a quantidade escolhida ao tipo de divisão."
+        },
+        {
+          "texto": "2/3",
+          "feedback": "O nome da fração liga a quantidade escolhida ao tipo de divisão. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+        "cotidiana": "Um terço indica uma de três partes iguais.",
+        "comparacao": "Ler uma fração é nomear a relação, não trocar os dois números."
+      },
+      "conceito": 4,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-05-3",
+      "exemplo": "Como ler 1/2?",
+      "relacao": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Leitura"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Um meio.",
+          "feedback": "O nome da fração liga a quantidade escolhida ao tipo de divisão. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Dois inteiros.",
+          "feedback": "Revise a relação: O nome da fração liga a quantidade escolhida ao tipo de divisão."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+        "cotidiana": "Um terço indica uma de três partes iguais.",
+        "comparacao": "Ler uma fração é nomear a relação, não trocar os dois números."
+      },
+      "conceito": 4,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-05-4",
+      "exemplo": "Qual símbolo representa três terços?",
+      "relacao": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Leitura"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "1/3",
+          "feedback": "Revise a relação: O nome da fração liga a quantidade escolhida ao tipo de divisão."
+        },
+        {
+          "texto": "3/3",
+          "feedback": "O nome da fração liga a quantidade escolhida ao tipo de divisão. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+        "cotidiana": "Um terço indica uma de três partes iguais.",
+        "comparacao": "Ler uma fração é nomear a relação, não trocar os dois números."
+      },
+      "conceito": 4,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-05-5",
+      "exemplo": "Como ler 2/4?",
+      "relacao": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Leitura"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Dois quartos.",
+          "feedback": "O nome da fração liga a quantidade escolhida ao tipo de divisão. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Quatro meios.",
+          "feedback": "Revise a relação: O nome da fração liga a quantidade escolhida ao tipo de divisão."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+        "cotidiana": "Um terço indica uma de três partes iguais.",
+        "comparacao": "Ler uma fração é nomear a relação, não trocar os dois números."
+      },
+      "conceito": 4,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-05-6",
+      "exemplo": "Uma tira tem três partes iguais, uma marcada. Qual nome corresponde?",
+      "relacao": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Leitura"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Três inteiros.",
+          "feedback": "Revise a relação: O nome da fração liga a quantidade escolhida ao tipo de divisão."
+        },
+        {
+          "texto": "Um terço.",
+          "feedback": "O nome da fração liga a quantidade escolhida ao tipo de divisão. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "O nome da fração liga a quantidade escolhida ao tipo de divisão.",
+        "cotidiana": "Um terço indica uma de três partes iguais.",
+        "comparacao": "Ler uma fração é nomear a relação, não trocar os dois números."
+      },
+      "conceito": 4,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-06-1",
+      "exemplo": "Três oitavos significam três de oito partes iguais.",
+      "relacao": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Quintos e oitavos"
+      ],
+      "pergunta": "Como ler 5/8?",
+      "alternativas": [
+        {
+          "texto": "Cinco meios",
+          "feedback": "Revise a relação: Quintos e oitavos nomeiam divisões em cinco e oito partes iguais."
+        },
+        {
+          "texto": "Cinco oitavos",
+          "feedback": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+        "cotidiana": "Três oitavos significam três de oito partes iguais.",
+        "comparacao": "O nome da divisão continua ligado ao inteiro, mesmo mudando a parte marcada."
+      },
+      "conceito": 5,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-06-2",
+      "exemplo": "Três oitavos significam três de oito partes iguais.",
+      "relacao": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Quintos e oitavos"
+      ],
+      "pergunta": "Uma figura em cinco partes iguais tem três pintadas. Como ler?",
+      "alternativas": [
+        {
+          "texto": "Três quintos",
+          "feedback": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Cinco terços",
+          "feedback": "Revise a relação: Quintos e oitavos nomeiam divisões em cinco e oito partes iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+        "cotidiana": "Três oitavos significam três de oito partes iguais.",
+        "comparacao": "O nome da divisão continua ligado ao inteiro, mesmo mudando a parte marcada."
+      },
+      "conceito": 5,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-06-3",
+      "exemplo": "Qual símbolo corresponde a quatro quintos?",
+      "relacao": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Quintos e oitavos"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "5/4",
+          "feedback": "Revise a relação: Quintos e oitavos nomeiam divisões em cinco e oito partes iguais."
+        },
+        {
+          "texto": "4/5",
+          "feedback": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+        "cotidiana": "Três oitavos significam três de oito partes iguais.",
+        "comparacao": "O nome da divisão continua ligado ao inteiro, mesmo mudando a parte marcada."
+      },
+      "conceito": 5,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-06-4",
+      "exemplo": "Como ler 7/8?",
+      "relacao": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Quintos e oitavos"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sete oitavos.",
+          "feedback": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Oito sétimos.",
+          "feedback": "Revise a relação: Quintos e oitavos nomeiam divisões em cinco e oito partes iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+        "cotidiana": "Três oitavos significam três de oito partes iguais.",
+        "comparacao": "O nome da divisão continua ligado ao inteiro, mesmo mudando a parte marcada."
+      },
+      "conceito": 5,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-06-5",
+      "exemplo": "Dois de oito quadrados iguais foram destacados. Qual leitura?",
+      "relacao": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Quintos e oitavos"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Oito meios.",
+          "feedback": "Revise a relação: Quintos e oitavos nomeiam divisões em cinco e oito partes iguais."
+        },
+        {
+          "texto": "Dois oitavos.",
+          "feedback": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+        "cotidiana": "Três oitavos significam três de oito partes iguais.",
+        "comparacao": "O nome da divisão continua ligado ao inteiro, mesmo mudando a parte marcada."
+      },
+      "conceito": 5,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-06-6",
+      "exemplo": "Uma tira tem cinco partes iguais, uma pintada. Qual nome?",
+      "relacao": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Quintos e oitavos"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Um quinto.",
+          "feedback": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Cinco quartos.",
+          "feedback": "Revise a relação: Quintos e oitavos nomeiam divisões em cinco e oito partes iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Quintos e oitavos nomeiam divisões em cinco e oito partes iguais.",
+        "cotidiana": "Três oitavos significam três de oito partes iguais.",
+        "comparacao": "O nome da divisão continua ligado ao inteiro, mesmo mudando a parte marcada."
+      },
+      "conceito": 5,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-07-1",
+      "exemplo": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+      "relacao": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo denominador"
+      ],
+      "pergunta": "Qual é maior: 3/7 ou 5/7?",
+      "alternativas": [
+        {
+          "texto": "5/7",
+          "feedback": "No mesmo inteiro e com o mesmo denominador, compare os numeradores. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "3/7",
+          "feedback": "Revise a relação: No mesmo inteiro e com o mesmo denominador, compare os numeradores."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+        "cotidiana": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+        "comparacao": "Você conta mais ou menos partes do mesmo tamanho."
+      },
+      "conceito": 6,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-07-2",
+      "exemplo": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+      "relacao": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo denominador"
+      ],
+      "pergunta": "Em duas tiras iguais, qual ocupa menos: 2/6 ou 4/6?",
+      "alternativas": [
+        {
+          "texto": "São iguais",
+          "feedback": "Revise a relação: No mesmo inteiro e com o mesmo denominador, compare os numeradores."
+        },
+        {
+          "texto": "2/6",
+          "feedback": "No mesmo inteiro e com o mesmo denominador, compare os numeradores. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+        "cotidiana": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+        "comparacao": "Você conta mais ou menos partes do mesmo tamanho."
+      },
+      "conceito": 6,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-07-3",
+      "exemplo": "Qual é maior no mesmo inteiro: 4/9 ou 7/9?",
+      "relacao": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo denominador"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "7/9",
+          "feedback": "No mesmo inteiro e com o mesmo denominador, compare os numeradores. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "4/9",
+          "feedback": "Revise a relação: No mesmo inteiro e com o mesmo denominador, compare os numeradores."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+        "cotidiana": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+        "comparacao": "Você conta mais ou menos partes do mesmo tamanho."
+      },
+      "conceito": 6,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-07-4",
+      "exemplo": "Qual ocupa menos: 1/5 ou 3/5 da mesma faixa?",
+      "relacao": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo denominador"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "3/5",
+          "feedback": "Revise a relação: No mesmo inteiro e com o mesmo denominador, compare os numeradores."
+        },
+        {
+          "texto": "1/5",
+          "feedback": "No mesmo inteiro e com o mesmo denominador, compare os numeradores. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+        "cotidiana": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+        "comparacao": "Você conta mais ou menos partes do mesmo tamanho."
+      },
+      "conceito": 6,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-07-5",
+      "exemplo": "Uma barra tem 6/8 marcados e outra igual tem 2/8. Qual marcação é maior?",
+      "relacao": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo denominador"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "6/8",
+          "feedback": "No mesmo inteiro e com o mesmo denominador, compare os numeradores. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/8",
+          "feedback": "Revise a relação: No mesmo inteiro e com o mesmo denominador, compare os numeradores."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+        "cotidiana": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+        "comparacao": "Você conta mais ou menos partes do mesmo tamanho."
+      },
+      "conceito": 6,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-07-6",
+      "exemplo": "Qual ordem é crescente: frações de um mesmo inteiro?",
+      "relacao": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo denominador"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "5/6, 3/6, 1/6",
+          "feedback": "Revise a relação: No mesmo inteiro e com o mesmo denominador, compare os numeradores."
+        },
+        {
+          "texto": "1/6, 3/6, 5/6",
+          "feedback": "No mesmo inteiro e com o mesmo denominador, compare os numeradores. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro e com o mesmo denominador, compare os numeradores.",
+        "cotidiana": "Quatro sextos ocupam mais que um sexto da mesma tira.",
+        "comparacao": "Você conta mais ou menos partes do mesmo tamanho."
+      },
+      "conceito": 6,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-08-1",
+      "exemplo": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+      "relacao": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo numerador"
+      ],
+      "pergunta": "Qual ocupa mais do mesmo inteiro: 1/3 ou 1/4?",
+      "alternativas": [
+        {
+          "texto": "1/4",
+          "feedback": "Revise a relação: No mesmo inteiro, mais divisões iguais produzem partes menores."
+        },
+        {
+          "texto": "1/3",
+          "feedback": "No mesmo inteiro, mais divisões iguais produzem partes menores. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+        "cotidiana": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+        "comparacao": "Dividir a mesma porção entre mais partes diminui o tamanho de cada parte."
+      },
+      "conceito": 7,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-08-2",
+      "exemplo": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+      "relacao": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo numerador"
+      ],
+      "pergunta": "Qual é maior: 2/3 ou 2/5, no mesmo inteiro?",
+      "alternativas": [
+        {
+          "texto": "2/3",
+          "feedback": "No mesmo inteiro, mais divisões iguais produzem partes menores. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/5",
+          "feedback": "Revise a relação: No mesmo inteiro, mais divisões iguais produzem partes menores."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+        "cotidiana": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+        "comparacao": "Dividir a mesma porção entre mais partes diminui o tamanho de cada parte."
+      },
+      "conceito": 7,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-08-3",
+      "exemplo": "Qual fração é maior no mesmo inteiro: 1/5 ou 1/8?",
+      "relacao": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo numerador"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "1/8",
+          "feedback": "Revise a relação: No mesmo inteiro, mais divisões iguais produzem partes menores."
+        },
+        {
+          "texto": "1/5",
+          "feedback": "No mesmo inteiro, mais divisões iguais produzem partes menores. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+        "cotidiana": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+        "comparacao": "Dividir a mesma porção entre mais partes diminui o tamanho de cada parte."
+      },
+      "conceito": 7,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-08-4",
+      "exemplo": "Qual ocupa menos do mesmo inteiro: 2/7 ou 2/3?",
+      "relacao": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo numerador"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "2/7",
+          "feedback": "No mesmo inteiro, mais divisões iguais produzem partes menores. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/3",
+          "feedback": "Revise a relação: No mesmo inteiro, mais divisões iguais produzem partes menores."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+        "cotidiana": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+        "comparacao": "Dividir a mesma porção entre mais partes diminui o tamanho de cada parte."
+      },
+      "conceito": 7,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-08-5",
+      "exemplo": "Uma unidade foi repartida entre duas ou entre quatro pessoas. Onde cada uma recebe mais?",
+      "relacao": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo numerador"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Na divisão entre quatro pessoas.",
+          "feedback": "Revise a relação: No mesmo inteiro, mais divisões iguais produzem partes menores."
+        },
+        {
+          "texto": "Na divisão entre duas pessoas.",
+          "feedback": "No mesmo inteiro, mais divisões iguais produzem partes menores. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+        "cotidiana": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+        "comparacao": "Dividir a mesma porção entre mais partes diminui o tamanho de cada parte."
+      },
+      "conceito": 7,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-08-6",
+      "exemplo": "Qual ordem é crescente para partes do mesmo inteiro?",
+      "relacao": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Mesmo numerador"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "1/8, 1/4, 1/2",
+          "feedback": "No mesmo inteiro, mais divisões iguais produzem partes menores. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/2, 1/4, 1/8",
+          "feedback": "Revise a relação: No mesmo inteiro, mais divisões iguais produzem partes menores."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "No mesmo inteiro, mais divisões iguais produzem partes menores.",
+        "cotidiana": "Uma sexta parte de uma tira é menor que uma terceira parte dela.",
+        "comparacao": "Dividir a mesma porção entre mais partes diminui o tamanho de cada parte."
+      },
+      "conceito": 7,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-09-1",
+      "exemplo": "Uma metade pode ser repartida em três sextos.",
+      "relacao": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Equivalência"
+      ],
+      "pergunta": "Por que 1/2 e 2/4 são equivalentes?",
+      "alternativas": [
+        {
+          "texto": "Representam a mesma porção do mesmo inteiro",
+          "feedback": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Têm denominadores iguais",
+          "feedback": "Revise a relação: Frações equivalentes representam o mesmo número ou porção do mesmo inteiro."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+        "cotidiana": "Uma metade pode ser repartida em três sextos.",
+        "comparacao": "Trocar a divisão sem mudar a porção é diferente de aumentar o que foi escolhido."
+      },
+      "conceito": 8,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-09-2",
+      "exemplo": "Uma metade pode ser repartida em três sextos.",
+      "relacao": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Equivalência"
+      ],
+      "pergunta": "Uma tira mostra 3 de 6 partes iguais. Que fração é equivalente?",
+      "alternativas": [
+        {
+          "texto": "1/3",
+          "feedback": "Revise a relação: Frações equivalentes representam o mesmo número ou porção do mesmo inteiro."
+        },
+        {
+          "texto": "1/2",
+          "feedback": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+        "cotidiana": "Uma metade pode ser repartida em três sextos.",
+        "comparacao": "Trocar a divisão sem mudar a porção é diferente de aumentar o que foi escolhido."
+      },
+      "conceito": 8,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-09-3",
+      "exemplo": "Qual fração é equivalente a 2/3?",
+      "relacao": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Equivalência"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "4/6",
+          "feedback": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/6",
+          "feedback": "Revise a relação: Frações equivalentes representam o mesmo número ou porção do mesmo inteiro."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+        "cotidiana": "Uma metade pode ser repartida em três sextos.",
+        "comparacao": "Trocar a divisão sem mudar a porção é diferente de aumentar o que foi escolhido."
+      },
+      "conceito": 8,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-09-4",
+      "exemplo": "Uma tira tem 4/8 pintados. Que outra fração mostra essa porção?",
+      "relacao": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Equivalência"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "1/4",
+          "feedback": "Revise a relação: Frações equivalentes representam o mesmo número ou porção do mesmo inteiro."
+        },
+        {
+          "texto": "1/2",
+          "feedback": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+        "cotidiana": "Uma metade pode ser repartida em três sextos.",
+        "comparacao": "Trocar a divisão sem mudar a porção é diferente de aumentar o que foi escolhido."
+      },
+      "conceito": 8,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        4,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-09-5",
+      "exemplo": "Ao dividir cada quarto em duas partes iguais, 3/4 passa a ser…",
+      "relacao": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Equivalência"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "6/8",
+          "feedback": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "3/8",
+          "feedback": "Revise a relação: Frações equivalentes representam o mesmo número ou porção do mesmo inteiro."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+        "cotidiana": "Uma metade pode ser repartida em três sextos.",
+        "comparacao": "Trocar a divisão sem mudar a porção é diferente de aumentar o que foi escolhido."
+      },
+      "conceito": 8,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-09-6",
+      "exemplo": "Qual par representa o mesmo número?",
+      "relacao": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Equivalência"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "2/5 e 3/10",
+          "feedback": "Revise a relação: Frações equivalentes representam o mesmo número ou porção do mesmo inteiro."
+        },
+        {
+          "texto": "2/5 e 4/10",
+          "feedback": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Frações equivalentes representam o mesmo número ou porção do mesmo inteiro.",
+        "cotidiana": "Uma metade pode ser repartida em três sextos.",
+        "comparacao": "Trocar a divisão sem mudar a porção é diferente de aumentar o que foi escolhido."
+      },
+      "conceito": 8,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-10-1",
+      "exemplo": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+      "relacao": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Completar o inteiro"
+      ],
+      "pergunta": "Quanto falta para completar 3/8 até o inteiro?",
+      "alternativas": [
+        {
+          "texto": "3/8",
+          "feedback": "Revise a relação: Para completar um inteiro, conte as partes iguais que ainda faltam."
+        },
+        {
+          "texto": "5/8",
+          "feedback": "Para completar um inteiro, conte as partes iguais que ainda faltam. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+        "cotidiana": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+        "comparacao": "O inteiro corresponde a todas as partes da divisão, como 8/8."
+      },
+      "conceito": 9,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-10-2",
+      "exemplo": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+      "relacao": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Completar o inteiro"
+      ],
+      "pergunta": "Uma faixa tem 2/5 preenchidos. O restante é…",
+      "alternativas": [
+        {
+          "texto": "3/5",
+          "feedback": "Para completar um inteiro, conte as partes iguais que ainda faltam. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "5/2",
+          "feedback": "Revise a relação: Para completar um inteiro, conte as partes iguais que ainda faltam."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+        "cotidiana": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+        "comparacao": "O inteiro corresponde a todas as partes da divisão, como 8/8."
+      },
+      "conceito": 9,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-10-3",
+      "exemplo": "Uma tira tem 5/6 preenchidos. Quanto falta para completar o inteiro?",
+      "relacao": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Completar o inteiro"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "5/6",
+          "feedback": "Revise a relação: Para completar um inteiro, conte as partes iguais que ainda faltam."
+        },
+        {
+          "texto": "1/6",
+          "feedback": "Para completar um inteiro, conte as partes iguais que ainda faltam. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+        "cotidiana": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+        "comparacao": "O inteiro corresponde a todas as partes da divisão, como 8/8."
+      },
+      "conceito": 9,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-10-4",
+      "exemplo": "De dez partes iguais, sete estão pintadas. Qual fração falta?",
+      "relacao": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Completar o inteiro"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "3/10",
+          "feedback": "Para completar um inteiro, conte as partes iguais que ainda faltam. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "7/3",
+          "feedback": "Revise a relação: Para completar um inteiro, conte as partes iguais que ainda faltam."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+        "cotidiana": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+        "comparacao": "O inteiro corresponde a todas as partes da divisão, como 8/8."
+      },
+      "conceito": 9,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        10
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-10-5",
+      "exemplo": "Uma barra tem 1/4 destacado. Que porção completa a barra?",
+      "relacao": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Completar o inteiro"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "1/3",
+          "feedback": "Revise a relação: Para completar um inteiro, conte as partes iguais que ainda faltam."
+        },
+        {
+          "texto": "3/4",
+          "feedback": "Para completar um inteiro, conte as partes iguais que ainda faltam. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+        "cotidiana": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+        "comparacao": "O inteiro corresponde a todas as partes da divisão, como 8/8."
+      },
+      "conceito": 9,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-10-6",
+      "exemplo": "Qual soma completa uma unidade?",
+      "relacao": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Completar o inteiro"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "2/7 + 5/7",
+          "feedback": "Para completar um inteiro, conte as partes iguais que ainda faltam. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/7 + 2/7",
+          "feedback": "Revise a relação: Para completar um inteiro, conte as partes iguais que ainda faltam."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para completar um inteiro, conte as partes iguais que ainda faltam.",
+        "cotidiana": "De quatro partes iguais, uma está pintada: faltam três quartos.",
+        "comparacao": "O inteiro corresponde a todas as partes da divisão, como 8/8."
+      },
+      "conceito": 9,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-11-1",
+      "exemplo": "Um terço de nove peças corresponde a três peças.",
+      "relacao": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Fração de quantidade"
+      ],
+      "pergunta": "Quanto é 1/4 de 12?",
+      "alternativas": [
+        {
+          "texto": "3",
+          "feedback": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "4",
+          "feedback": "Revise a relação: Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+        "cotidiana": "Um terço de nove peças corresponde a três peças.",
+        "comparacao": "O denominador organiza os grupos; o numerador indica quantos grupos considerar."
+      },
+      "conceito": 10,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-11-2",
+      "exemplo": "Um terço de nove peças corresponde a três peças.",
+      "relacao": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Fração de quantidade"
+      ],
+      "pergunta": "Uma caixa tem oito peças iguais; metade foi usada. Quantas?",
+      "alternativas": [
+        {
+          "texto": "2",
+          "feedback": "Revise a relação: Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos."
+        },
+        {
+          "texto": "4",
+          "feedback": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+        "cotidiana": "Um terço de nove peças corresponde a três peças.",
+        "comparacao": "O denominador organiza os grupos; o numerador indica quantos grupos considerar."
+      },
+      "conceito": 10,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-11-3",
+      "exemplo": "Quanto é 1/3 de 12 peças?",
+      "relacao": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Fração de quantidade"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "4 peças.",
+          "feedback": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "3 peças.",
+          "feedback": "Revise a relação: Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+        "cotidiana": "Um terço de nove peças corresponde a três peças.",
+        "comparacao": "O denominador organiza os grupos; o numerador indica quantos grupos considerar."
+      },
+      "conceito": 10,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-11-4",
+      "exemplo": "Quanto é 2/4 de 12 peças?",
+      "relacao": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Fração de quantidade"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "8 peças.",
+          "feedback": "Revise a relação: Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos."
+        },
+        {
+          "texto": "6 peças.",
+          "feedback": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+        "cotidiana": "Um terço de nove peças corresponde a três peças.",
+        "comparacao": "O denominador organiza os grupos; o numerador indica quantos grupos considerar."
+      },
+      "conceito": 10,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-11-5",
+      "exemplo": "Uma caixa tem 15 peças. Um quinto delas corresponde a…",
+      "relacao": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Fração de quantidade"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "3 peças.",
+          "feedback": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "5 peças.",
+          "feedback": "Revise a relação: Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+        "cotidiana": "Um terço de nove peças corresponde a três peças.",
+        "comparacao": "O denominador organiza os grupos; o numerador indica quantos grupos considerar."
+      },
+      "conceito": 10,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-11-6",
+      "exemplo": "Metade de uma coleção de dez peças corresponde a…",
+      "relacao": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Fração de quantidade"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "2 peças.",
+          "feedback": "Revise a relação: Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos."
+        },
+        {
+          "texto": "5 peças.",
+          "feedback": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para achar a fração de uma quantidade, forme grupos iguais e conte os escolhidos.",
+        "cotidiana": "Um terço de nove peças corresponde a três peças.",
+        "comparacao": "O denominador organiza os grupos; o numerador indica quantos grupos considerar."
+      },
+      "conceito": 10,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-12-1",
+      "exemplo": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+      "relacao": "A fração também representa uma divisão em partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Divisão e fração"
+      ],
+      "pergunta": "Três barras iguais repartidas por quatro pessoas dão…",
+      "alternativas": [
+        {
+          "texto": "3 barras para cada pessoa",
+          "feedback": "Revise a relação: A fração também representa uma divisão em partes iguais."
+        },
+        {
+          "texto": "3/4 de barra para cada pessoa",
+          "feedback": "A fração também representa uma divisão em partes iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "A fração também representa uma divisão em partes iguais.",
+        "cotidiana": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+        "comparacao": "O número de unidades repartidas e o número de pessoas têm funções diferentes."
+      },
+      "conceito": 11,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-12-2",
+      "exemplo": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+      "relacao": "A fração também representa uma divisão em partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Divisão e fração"
+      ],
+      "pergunta": "Duas unidades iguais repartidas entre três pessoas dão…",
+      "alternativas": [
+        {
+          "texto": "2/3 para cada pessoa",
+          "feedback": "A fração também representa uma divisão em partes iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "3/2 para cada pessoa",
+          "feedback": "Revise a relação: A fração também representa uma divisão em partes iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "A fração também representa uma divisão em partes iguais.",
+        "cotidiana": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+        "comparacao": "O número de unidades repartidas e o número de pessoas têm funções diferentes."
+      },
+      "conceito": 11,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-12-3",
+      "exemplo": "Uma barra igual é repartida entre três pessoas. Cada uma recebe…",
+      "relacao": "A fração também representa uma divisão em partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Divisão e fração"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "3 barras.",
+          "feedback": "Revise a relação: A fração também representa uma divisão em partes iguais."
+        },
+        {
+          "texto": "1/3 de barra.",
+          "feedback": "A fração também representa uma divisão em partes iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "A fração também representa uma divisão em partes iguais.",
+        "cotidiana": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+        "comparacao": "O número de unidades repartidas e o número de pessoas têm funções diferentes."
+      },
+      "conceito": 11,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-12-4",
+      "exemplo": "Cinco barras iguais são repartidas por quatro pessoas. Cada uma recebe…",
+      "relacao": "A fração também representa uma divisão em partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Divisão e fração"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "5/4 de barra.",
+          "feedback": "A fração também representa uma divisão em partes iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "4/5 de barra.",
+          "feedback": "Revise a relação: A fração também representa uma divisão em partes iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "A fração também representa uma divisão em partes iguais.",
+        "cotidiana": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+        "comparacao": "O número de unidades repartidas e o número de pessoas têm funções diferentes."
+      },
+      "conceito": 11,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-12-5",
+      "exemplo": "Duas barras iguais são repartidas igualmente por cinco pessoas. Cada uma recebe…",
+      "relacao": "A fração também representa uma divisão em partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Divisão e fração"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "5/2 de barra.",
+          "feedback": "Revise a relação: A fração também representa uma divisão em partes iguais."
+        },
+        {
+          "texto": "2/5 de barra.",
+          "feedback": "A fração também representa uma divisão em partes iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "A fração também representa uma divisão em partes iguais.",
+        "cotidiana": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+        "comparacao": "O número de unidades repartidas e o número de pessoas têm funções diferentes."
+      },
+      "conceito": 11,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-12-6",
+      "exemplo": "Quatro barras iguais são repartidas entre quatro pessoas. Cada uma recebe…",
+      "relacao": "A fração também representa uma divisão em partes iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Divisão e fração"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "4/4 de barra, isto é, uma barra.",
+          "feedback": "A fração também representa uma divisão em partes iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/4 de barra.",
+          "feedback": "Revise a relação: A fração também representa uma divisão em partes iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "A fração também representa uma divisão em partes iguais.",
+        "cotidiana": "Uma barra repartida por quatro pessoas dá 1/4 para cada uma.",
+        "comparacao": "O número de unidades repartidas e o número de pessoas têm funções diferentes."
+      },
+      "conceito": 11,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-13-1",
+      "exemplo": "Oito cubos de mesmo volume podem representar um inteiro.",
+      "relacao": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Modelo e limite"
+      ],
+      "pergunta": "O que conferir antes de contar cubinhos como fração?",
+      "alternativas": [
+        {
+          "texto": "Se têm volumes iguais e qual é o bloco inteiro",
+          "feedback": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Só se usam cores diferentes",
+          "feedback": "Revise a relação: Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+        "cotidiana": "Oito cubos de mesmo volume podem representar um inteiro.",
+        "comparacao": "O modelo ajuda a ver relações, mas sua cor ou rotação não muda o volume escolhido."
+      },
+      "conceito": 12,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-13-2",
+      "exemplo": "Oito cubos de mesmo volume podem representar um inteiro.",
+      "relacao": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Modelo e limite"
+      ],
+      "pergunta": "Um bloco com oito cubinhos iguais tem seis destacados. Qual equivalência?",
+      "alternativas": [
+        {
+          "texto": "6/8 = 3/8",
+          "feedback": "Revise a relação: Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais."
+        },
+        {
+          "texto": "6/8 = 3/4",
+          "feedback": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+        "cotidiana": "Oito cubos de mesmo volume podem representar um inteiro.",
+        "comparacao": "O modelo ajuda a ver relações, mas sua cor ou rotação não muda o volume escolhido."
+      },
+      "conceito": 12,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-13-3",
+      "exemplo": "O bloco tem oito cubos iguais, dois selecionados. Qual equivalência?",
+      "relacao": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Modelo e limite"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "2/8 = 1/4",
+          "feedback": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "2/8 = 1/2",
+          "feedback": "Revise a relação: Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+        "cotidiana": "Oito cubos de mesmo volume podem representar um inteiro.",
+        "comparacao": "O modelo ajuda a ver relações, mas sua cor ou rotação não muda o volume escolhido."
+      },
+      "conceito": 12,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-13-4",
+      "exemplo": "Girar um bloco de oito cubos altera a fração de quatro cubos escolhidos?",
+      "relacao": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Modelo e limite"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sim; passam a ser 4/4.",
+          "feedback": "Revise a relação: Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais."
+        },
+        {
+          "texto": "Não; continuam sendo 4/8.",
+          "feedback": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+        "cotidiana": "Oito cubos de mesmo volume podem representar um inteiro.",
+        "comparacao": "O modelo ajuda a ver relações, mas sua cor ou rotação não muda o volume escolhido."
+      },
+      "conceito": 12,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        4,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-13-5",
+      "exemplo": "Um modelo usa cubos de tamanhos diferentes. Basta contar para obter a fração do volume?",
+      "relacao": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Modelo e limite"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Não; é preciso considerar os volumes.",
+          "feedback": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Sim; cada cubo vale a mesma parte.",
+          "feedback": "Revise a relação: Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+        "cotidiana": "Oito cubos de mesmo volume podem representar um inteiro.",
+        "comparacao": "O modelo ajuda a ver relações, mas sua cor ou rotação não muda o volume escolhido."
+      },
+      "conceito": 12,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-13-6",
+      "exemplo": "No mesmo bloco de oito cubos, seis selecionados representam…",
+      "relacao": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Modelo e limite"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "1/4 do volume.",
+          "feedback": "Revise a relação: Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais."
+        },
+        {
+          "texto": "3/4 do volume.",
+          "feedback": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Um modelo só representa uma fração parte-todo se as partes comparadas forem iguais.",
+        "cotidiana": "Oito cubos de mesmo volume podem representar um inteiro.",
+        "comparacao": "O modelo ajuda a ver relações, mas sua cor ou rotação não muda o volume escolhido."
+      },
+      "conceito": 12,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-14-1",
+      "exemplo": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+      "relacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Reta numérica"
+      ],
+      "pergunta": "A reta de 0 a 1 tem quatro intervalos iguais. Qual é o terceiro ponto após 0?",
+      "alternativas": [
+        {
+          "texto": "1/4",
+          "feedback": "Revise a relação: Na reta numérica, intervalos iguais representam partes iguais da unidade."
+        },
+        {
+          "texto": "3/4",
+          "feedback": "Na reta numérica, intervalos iguais representam partes iguais da unidade. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "cotidiana": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+        "comparacao": "A reta permite comparar posições, mantendo a mesma unidade."
+      },
+      "conceito": 13,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-14-2",
+      "exemplo": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+      "relacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Reta numérica"
+      ],
+      "pergunta": "Na mesma reta, qual fica à direita: 1/3 ou 2/3?",
+      "alternativas": [
+        {
+          "texto": "2/3",
+          "feedback": "Na reta numérica, intervalos iguais representam partes iguais da unidade. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/3",
+          "feedback": "Revise a relação: Na reta numérica, intervalos iguais representam partes iguais da unidade."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "cotidiana": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+        "comparacao": "A reta permite comparar posições, mantendo a mesma unidade."
+      },
+      "conceito": 13,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-14-3",
+      "exemplo": "Entre 0 e 1, quatro intervalos iguais foram marcados. O segundo ponto após 0 é…",
+      "relacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Reta numérica"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "2/3",
+          "feedback": "Revise a relação: Na reta numérica, intervalos iguais representam partes iguais da unidade."
+        },
+        {
+          "texto": "2/4",
+          "feedback": "Na reta numérica, intervalos iguais representam partes iguais da unidade. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "cotidiana": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+        "comparacao": "A reta permite comparar posições, mantendo a mesma unidade."
+      },
+      "conceito": 13,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-14-4",
+      "exemplo": "Na mesma reta, qual vem primeiro: 1/4 ou 3/4?",
+      "relacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Reta numérica"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "1/4",
+          "feedback": "Na reta numérica, intervalos iguais representam partes iguais da unidade. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "3/4",
+          "feedback": "Revise a relação: Na reta numérica, intervalos iguais representam partes iguais da unidade."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "cotidiana": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+        "comparacao": "A reta permite comparar posições, mantendo a mesma unidade."
+      },
+      "conceito": 13,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-14-5",
+      "exemplo": "O ponto do meio entre 0 e 1 pode ser escrito como…",
+      "relacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Reta numérica"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "1/3",
+          "feedback": "Revise a relação: Na reta numérica, intervalos iguais representam partes iguais da unidade."
+        },
+        {
+          "texto": "1/2",
+          "feedback": "Na reta numérica, intervalos iguais representam partes iguais da unidade. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "cotidiana": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+        "comparacao": "A reta permite comparar posições, mantendo a mesma unidade."
+      },
+      "conceito": 13,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-14-6",
+      "exemplo": "Dividir o intervalo de 0 a 1 em oito partes iguais coloca 6/8 no mesmo ponto que…",
+      "relacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Reta numérica"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "3/4",
+          "feedback": "Na reta numérica, intervalos iguais representam partes iguais da unidade. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/4",
+          "feedback": "Revise a relação: Na reta numérica, intervalos iguais representam partes iguais da unidade."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "cotidiana": "Entre zero e um, quatro intervalos iguais marcam quartos.",
+        "comparacao": "A reta permite comparar posições, mantendo a mesma unidade."
+      },
+      "conceito": 13,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-15-1",
+      "exemplo": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+      "relacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Comparar representações"
+      ],
+      "pergunta": "Compare 3/5 e 1/2 usando décimos. Qual é maior?",
+      "alternativas": [
+        {
+          "texto": "3/5, pois 6/10 > 5/10.",
+          "feedback": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/2, pois 2 é menor que 5.",
+          "feedback": "Revise a relação: Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "cotidiana": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+        "comparacao": "Trocar a representação preservando o valor permite uma comparação comum."
+      },
+      "conceito": 14,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-15-2",
+      "exemplo": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+      "relacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Comparar representações"
+      ],
+      "pergunta": "Qual fração em doze partes representa 3/4?",
+      "alternativas": [
+        {
+          "texto": "3/12",
+          "feedback": "Revise a relação: Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho."
+        },
+        {
+          "texto": "9/12",
+          "feedback": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "cotidiana": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+        "comparacao": "Trocar a representação preservando o valor permite uma comparação comum."
+      },
+      "conceito": 14,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        9,
+        12
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-15-3",
+      "exemplo": "Compare 1/2 e 4/6 usando sextos. Qual é maior?",
+      "relacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Comparar representações"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "4/6",
+          "feedback": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/2",
+          "feedback": "Revise a relação: Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "cotidiana": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+        "comparacao": "Trocar a representação preservando o valor permite uma comparação comum."
+      },
+      "conceito": 14,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-15-4",
+      "exemplo": "Compare 2/3 e 3/4 usando doze partes iguais. Qual é maior?",
+      "relacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Comparar representações"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "2/3",
+          "feedback": "Revise a relação: Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho."
+        },
+        {
+          "texto": "3/4",
+          "feedback": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "cotidiana": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+        "comparacao": "Trocar a representação preservando o valor permite uma comparação comum."
+      },
+      "conceito": 14,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-15-5",
+      "exemplo": "Qual relação é verdadeira no mesmo inteiro?",
+      "relacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Comparar representações"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "1/2 < 3/4",
+          "feedback": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "1/2 > 3/4",
+          "feedback": "Revise a relação: Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "cotidiana": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+        "comparacao": "Trocar a representação preservando o valor permite uma comparação comum."
+      },
+      "conceito": 14,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-15-6",
+      "exemplo": "Para comparar 1/3 e 1/2, podemos escrever…",
+      "relacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Comparar representações"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "1/6 e 1/6",
+          "feedback": "Revise a relação: Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho."
+        },
+        {
+          "texto": "2/6 e 3/6",
+          "feedback": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "cotidiana": "Meio pode ser escrito como três sextos para comparar com quatro sextos.",
+        "comparacao": "Trocar a representação preservando o valor permite uma comparação comum."
+      },
+      "conceito": 14,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-16-1",
+      "exemplo": "Cinco quartos são um inteiro e mais um quarto.",
+      "relacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Além do inteiro"
+      ],
+      "pergunta": "Sete terços correspondem a quantos inteiros e qual parte restante?",
+      "alternativas": [
+        {
+          "texto": "Um inteiro e um terço.",
+          "feedback": "Revise a relação: Uma fração pode representar uma quantidade maior que uma unidade."
+        },
+        {
+          "texto": "Dois inteiros e um terço.",
+          "feedback": "Uma fração pode representar uma quantidade maior que uma unidade. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "cotidiana": "Cinco quartos são um inteiro e mais um quarto.",
+        "comparacao": "Repartir unidades pode produzir uma parte individual maior que uma unidade."
+      },
+      "conceito": 15,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-16-2",
+      "exemplo": "Cinco quartos são um inteiro e mais um quarto.",
+      "relacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Além do inteiro"
+      ],
+      "pergunta": "Três meios correspondem a…",
+      "alternativas": [
+        {
+          "texto": "Um inteiro e um meio.",
+          "feedback": "Uma fração pode representar uma quantidade maior que uma unidade. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Três inteiros.",
+          "feedback": "Revise a relação: Uma fração pode representar uma quantidade maior que uma unidade."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "cotidiana": "Cinco quartos são um inteiro e mais um quarto.",
+        "comparacao": "Repartir unidades pode produzir uma parte individual maior que uma unidade."
+      },
+      "conceito": 15,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-16-3",
+      "exemplo": "Cinco partes de tamanho 1/4 formam…",
+      "relacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Além do inteiro"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Menos de um inteiro.",
+          "feedback": "Revise a relação: Uma fração pode representar uma quantidade maior que uma unidade."
+        },
+        {
+          "texto": "Um inteiro e um quarto.",
+          "feedback": "Uma fração pode representar uma quantidade maior que uma unidade. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "cotidiana": "Cinco quartos são um inteiro e mais um quarto.",
+        "comparacao": "Repartir unidades pode produzir uma parte individual maior que uma unidade."
+      },
+      "conceito": 15,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-16-4",
+      "exemplo": "Qual fração é maior que uma unidade?",
+      "relacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Além do inteiro"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "7/4",
+          "feedback": "Uma fração pode representar uma quantidade maior que uma unidade. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "3/4",
+          "feedback": "Revise a relação: Uma fração pode representar uma quantidade maior que uma unidade."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "cotidiana": "Cinco quartos são um inteiro e mais um quarto.",
+        "comparacao": "Repartir unidades pode produzir uma parte individual maior que uma unidade."
+      },
+      "conceito": 15,
+      "formato": "modelo-fracionario",
+      "fracao": [
+        7,
+        4
+      ]
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-16-5",
+      "exemplo": "Quatro de quatro partes iguais correspondem a…",
+      "relacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Além do inteiro"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Quatro unidades.",
+          "feedback": "Revise a relação: Uma fração pode representar uma quantidade maior que uma unidade."
+        },
+        {
+          "texto": "Uma unidade.",
+          "feedback": "Uma fração pode representar uma quantidade maior que uma unidade. Confira a representação antes de seguir."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "cotidiana": "Cinco quartos são um inteiro e mais um quarto.",
+        "comparacao": "Repartir unidades pode produzir uma parte individual maior que uma unidade."
+      },
+      "conceito": 15,
+      "formato": "modelo-fracionario"
+    },
+    {
+      "id": "praticas-experimentais-161-fracoes-16-6",
+      "exemplo": "Seis meios representam quantos inteiros?",
+      "relacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "elementos": [
+        "Inteiro e partes iguais",
+        "Além do inteiro"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Três.",
+          "feedback": "Uma fração pode representar uma quantidade maior que uma unidade. Confira a representação antes de seguir."
+        },
+        {
+          "texto": "Dois.",
+          "feedback": "Revise a relação: Uma fração pode representar uma quantidade maior que uma unidade."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Mostre a relação em outra tira, quantidade ou bloco e explique o inteiro usado.",
+      "linguagens": {
+        "direta": "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "cotidiana": "Cinco quartos são um inteiro e mais um quarto.",
+        "comparacao": "Repartir unidades pode produzir uma parte individual maior que uma unidade."
+      },
+      "conceito": 15,
+      "formato": "modelo-fracionario"
+    }
+  ],
+  "aula": {
+    "id": "praticas-experimentais-161-fracoes",
+    "titulo": "Oficina das frações: montar, comparar e explicar",
+    "resumo": "Representar e comparar frações por tiras, repartições e blocos; relacionar inteiro, partes iguais, numerador e denominador e justificar equivalências e ordenações.",
+    "habilidades": [
+      "EF06MA07 — Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes."
+    ],
+    "turma": "161",
+    "componente": "Práticas Experimentais"
+  },
+  "versao": "tarde-2026-11-06-v1"
+}

@@ -1,0 +1,2799 @@
+{
+  "percursos": [
+    {
+      "id": "historia-211-cultura-resistencia-01-1",
+      "exemplo": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+      "relacao": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Contexto colonial"
+      ],
+      "pergunta": "Qual leitura reconhece agência histórica?",
+      "alternativas": [
+        {
+          "texto": "Examinar dominação e ações dos grupos submetidos",
+          "feedback": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Ignorar a violência para destacar somente cultura",
+          "feedback": "Revise a relação: Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+        "cotidiana": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+        "comparacao": "Reconhecer ação não significa negar a violência sofrida."
+      },
+      "conceito": 0,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-01-2",
+      "exemplo": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+      "relacao": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Contexto colonial"
+      ],
+      "pergunta": "Uma fonte descreve uma fuga. O que investigar?",
+      "alternativas": [
+        {
+          "texto": "Só se o registro tem uma letra bonita",
+          "feedback": "Revise a relação: Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites."
+        },
+        {
+          "texto": "Quem agiu, em que contexto e contra qual condição",
+          "feedback": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+        "cotidiana": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+        "comparacao": "Reconhecer ação não significa negar a violência sofrida."
+      },
+      "conceito": 0,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-01-3",
+      "exemplo": "Em um caso fictício, pessoas organizam uma fuga coletiva. O que a ação evidencia?",
+      "relacao": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Contexto colonial"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Iniciativa diante de uma relação de dominação.",
+          "feedback": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Ausência de violência na sociedade.",
+          "feedback": "Revise a relação: Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+        "cotidiana": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+        "comparacao": "Reconhecer ação não significa negar a violência sofrida."
+      },
+      "conceito": 0,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-01-4",
+      "exemplo": "Um texto cita apenas decisões dos colonizadores. Que pergunta amplia a análise?",
+      "relacao": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Contexto colonial"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Como eliminar os outros sujeitos do estudo?",
+          "feedback": "Revise a relação: Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites."
+        },
+        {
+          "texto": "Como agiram os grupos submetidos?",
+          "feedback": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+        "cotidiana": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+        "comparacao": "Reconhecer ação não significa negar a violência sofrida."
+      },
+      "conceito": 0,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-01-5",
+      "exemplo": "Um grupo negocia sob ameaça. A escolha pode ser analisada como livre de restrições?",
+      "relacao": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Contexto colonial"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Não; é preciso considerar a coerção.",
+          "feedback": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Sim; toda negociação ocorre em igualdade.",
+          "feedback": "Revise a relação: Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+        "cotidiana": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+        "comparacao": "Reconhecer ação não significa negar a violência sofrida."
+      },
+      "conceito": 0,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-01-6",
+      "exemplo": "Uma fonte registra vigilância e uma reação a ela. O que relacionar?",
+      "relacao": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Contexto colonial"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "A ideia de que ninguém podia agir.",
+          "feedback": "Revise a relação: Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites."
+        },
+        {
+          "texto": "Dominação, ação dos sujeitos e seus limites.",
+          "feedback": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Mesmo sob dominação, sujeitos históricos agiram dentro de condições e limites.",
+        "cotidiana": "Um exercício descreve uma fuga; pergunte quem tomou a iniciativa e contra qual condição.",
+        "comparacao": "Reconhecer ação não significa negar a violência sofrida."
+      },
+      "conceito": 0,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-02-1",
+      "exemplo": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+      "relacao": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+      "elementos": [
+        "Fonte e contexto",
+        "Diversidade"
+      ],
+      "pergunta": "Qual formulação é mais precisa?",
+      "alternativas": [
+        {
+          "texto": "Todos tinham a mesma cultura",
+          "feedback": "Revise a relação: Povos africanos e indígenas têm histórias, línguas e organizações diversas."
+        },
+        {
+          "texto": "Diferentes povos africanos e indígenas participaram desses processos",
+          "feedback": "Povos africanos e indígenas têm histórias, línguas e organizações diversas. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+        "cotidiana": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+        "comparacao": "Uma categoria ampla não descreve cada povo em particular."
+      },
+      "conceito": 1,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-02-2",
+      "exemplo": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+      "relacao": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+      "elementos": [
+        "Fonte e contexto",
+        "Diversidade"
+      ],
+      "pergunta": "Uma imagem representa um único povo como se fosse todos. O que fazer?",
+      "alternativas": [
+        {
+          "texto": "Identificar a generalização e buscar o contexto específico",
+          "feedback": "Povos africanos e indígenas têm histórias, línguas e organizações diversas. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Apagar as legendas para simplificar",
+          "feedback": "Revise a relação: Povos africanos e indígenas têm histórias, línguas e organizações diversas."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+        "cotidiana": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+        "comparacao": "Uma categoria ampla não descreve cada povo em particular."
+      },
+      "conceito": 1,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-02-3",
+      "exemplo": "Um quadro atribui a todos os povos uma única língua. Qual problema identificar?",
+      "relacao": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+      "elementos": [
+        "Fonte e contexto",
+        "Diversidade"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Excesso de identificação específica.",
+          "feedback": "Revise a relação: Povos africanos e indígenas têm histórias, línguas e organizações diversas."
+        },
+        {
+          "texto": "Apagamento da diversidade.",
+          "feedback": "Povos africanos e indígenas têm histórias, línguas e organizações diversas. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+        "cotidiana": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+        "comparacao": "Uma categoria ampla não descreve cada povo em particular."
+      },
+      "conceito": 1,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-02-4",
+      "exemplo": "Dois grupos têm práticas diferentes. Como compará-los?",
+      "relacao": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+      "elementos": [
+        "Fonte e contexto",
+        "Diversidade"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Situar suas trajetórias e seus contextos.",
+          "feedback": "Povos africanos e indígenas têm histórias, línguas e organizações diversas. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Escolher qual cultura é superior.",
+          "feedback": "Revise a relação: Povos africanos e indígenas têm histórias, línguas e organizações diversas."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+        "cotidiana": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+        "comparacao": "Uma categoria ampla não descreve cada povo em particular."
+      },
+      "conceito": 1,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-02-5",
+      "exemplo": "Uma fonte nomeia um povo específico. O que fazer na síntese?",
+      "relacao": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+      "elementos": [
+        "Fonte e contexto",
+        "Diversidade"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Trocar o nome por uma generalização universal.",
+          "feedback": "Revise a relação: Povos africanos e indígenas têm histórias, línguas e organizações diversas."
+        },
+        {
+          "texto": "Preservar a identificação e seu contexto.",
+          "feedback": "Povos africanos e indígenas têm histórias, línguas e organizações diversas. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+        "cotidiana": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+        "comparacao": "Uma categoria ampla não descreve cada povo em particular."
+      },
+      "conceito": 1,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-02-6",
+      "exemplo": "Um mapa reúne diversos povos numa região. Isso comprova costumes idênticos?",
+      "relacao": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+      "elementos": [
+        "Fonte e contexto",
+        "Diversidade"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Não; localização comum não elimina diferenças.",
+          "feedback": "Povos africanos e indígenas têm histórias, línguas e organizações diversas. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Sim; o espaço determina uma só cultura.",
+          "feedback": "Revise a relação: Povos africanos e indígenas têm histórias, línguas e organizações diversas."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Povos africanos e indígenas têm histórias, línguas e organizações diversas.",
+        "cotidiana": "Uma legenda que chama todos os grupos pelo mesmo nome pode esconder diferenças.",
+        "comparacao": "Uma categoria ampla não descreve cada povo em particular."
+      },
+      "conceito": 1,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-03-1",
+      "exemplo": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+      "relacao": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+      "elementos": [
+        "Fonte e contexto",
+        "Fonte situada"
+      ],
+      "pergunta": "Antes de usar um relato colonial, o que conferir?",
+      "alternativas": [
+        {
+          "texto": "Quem escreveu, quando, para quem e com qual finalidade",
+          "feedback": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Se concorda com a conclusão desejada",
+          "feedback": "Revise a relação: Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+        "cotidiana": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+        "comparacao": "Uma fonte é uma perspectiva situada, não uma janela que mostra tudo."
+      },
+      "conceito": 2,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-03-2",
+      "exemplo": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+      "relacao": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+      "elementos": [
+        "Fonte e contexto",
+        "Fonte situada"
+      ],
+      "pergunta": "Um administrador chama um grupo de ameaça. Qual cuidado?",
+      "alternativas": [
+        {
+          "texto": "Aceitar o rótulo como descrição neutra",
+          "feedback": "Revise a relação: Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário."
+        },
+        {
+          "texto": "Analisar seus interesses e confrontar outras fontes",
+          "feedback": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+        "cotidiana": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+        "comparacao": "Uma fonte é uma perspectiva situada, não uma janela que mostra tudo."
+      },
+      "conceito": 2,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-03-3",
+      "exemplo": "Um exercício apresenta uma carta sem autoria identificada. Qual limite registrar?",
+      "relacao": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+      "elementos": [
+        "Fonte e contexto",
+        "Fonte situada"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Não sabemos quem produziu o relato.",
+          "feedback": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "A carta representa necessariamente todos os grupos.",
+          "feedback": "Revise a relação: Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+        "cotidiana": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+        "comparacao": "Uma fonte é uma perspectiva situada, não uma janela que mostra tudo."
+      },
+      "conceito": 2,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-03-4",
+      "exemplo": "Um relatório foi escrito para pedir uma intervenção. O que examinar?",
+      "relacao": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+      "elementos": [
+        "Fonte e contexto",
+        "Fonte situada"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Só o tamanho do papel.",
+          "feedback": "Revise a relação: Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário."
+        },
+        {
+          "texto": "Como essa finalidade orienta o que é destacado.",
+          "feedback": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+        "cotidiana": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+        "comparacao": "Uma fonte é uma perspectiva situada, não uma janela que mostra tudo."
+      },
+      "conceito": 2,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-03-5",
+      "exemplo": "Uma imagem perdeu sua legenda. Qual providência ajuda a interpretá-la?",
+      "relacao": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+      "elementos": [
+        "Fonte e contexto",
+        "Fonte situada"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Investigar origem, data e contexto.",
+          "feedback": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Inventar a legenda que melhor combina com a opinião.",
+          "feedback": "Revise a relação: Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+        "cotidiana": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+        "comparacao": "Uma fonte é uma perspectiva situada, não uma janela que mostra tudo."
+      },
+      "conceito": 2,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-03-6",
+      "exemplo": "Duas fontes descrevem o mesmo caso de modos diferentes. Como começar?",
+      "relacao": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+      "elementos": [
+        "Fonte e contexto",
+        "Fonte situada"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Escolher a mais longa como verdadeira.",
+          "feedback": "Revise a relação: Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário."
+        },
+        {
+          "texto": "Comparar posição e finalidade de seus autores.",
+          "feedback": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma fonte deve ser situada por autoria, data, lugar, finalidade e destinatário.",
+        "cotidiana": "Antes de confiar em um relato, veja quem escreveu e para quem.",
+        "comparacao": "Uma fonte é uma perspectiva situada, não uma janela que mostra tudo."
+      },
+      "conceito": 2,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-04-1",
+      "exemplo": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+      "relacao": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+      "elementos": [
+        "Fonte e contexto",
+        "Resistência"
+      ],
+      "pergunta": "Qual análise evita reduzir resistência a uma única ação?",
+      "alternativas": [
+        {
+          "texto": "Negar ação onde não houve batalha",
+          "feedback": "Revise a relação: Resistências assumem estratégias variadas, conforme contexto e possibilidades."
+        },
+        {
+          "texto": "Comparar estratégias e seus contextos",
+          "feedback": "Resistências assumem estratégias variadas, conforme contexto e possibilidades. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+        "cotidiana": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+        "comparacao": "Não encontrar uma batalha não significa ausência de resistência."
+      },
+      "conceito": 3,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-04-2",
+      "exemplo": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+      "relacao": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+      "elementos": [
+        "Fonte e contexto",
+        "Resistência"
+      ],
+      "pergunta": "Um grupo preserva uma prática sob restrições. O que investigar?",
+      "alternativas": [
+        {
+          "texto": "Seu significado, condições e formas de manutenção",
+          "feedback": "Resistências assumem estratégias variadas, conforme contexto e possibilidades. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Presumir que não existia dominação",
+          "feedback": "Revise a relação: Resistências assumem estratégias variadas, conforme contexto e possibilidades."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+        "cotidiana": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+        "comparacao": "Não encontrar uma batalha não significa ausência de resistência."
+      },
+      "conceito": 3,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-04-3",
+      "exemplo": "Um grupo mantém uma prática sob restrições, num caso didático. O que investigar?",
+      "relacao": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+      "elementos": [
+        "Fonte e contexto",
+        "Resistência"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "A conclusão automática de que não havia conflito.",
+          "feedback": "Revise a relação: Resistências assumem estratégias variadas, conforme contexto e possibilidades."
+        },
+        {
+          "texto": "Seu significado e as condições para mantê-la.",
+          "feedback": "Resistências assumem estratégias variadas, conforme contexto e possibilidades. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+        "cotidiana": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+        "comparacao": "Não encontrar uma batalha não significa ausência de resistência."
+      },
+      "conceito": 3,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-04-4",
+      "exemplo": "Uma fonte registra uma fuga sem combate. Pode haver resistência?",
+      "relacao": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+      "elementos": [
+        "Fonte e contexto",
+        "Resistência"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sim; examine a situação e o objetivo da ação.",
+          "feedback": "Resistências assumem estratégias variadas, conforme contexto e possibilidades. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Não; resistência exige sempre uma batalha.",
+          "feedback": "Revise a relação: Resistências assumem estratégias variadas, conforme contexto e possibilidades."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+        "cotidiana": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+        "comparacao": "Não encontrar uma batalha não significa ausência de resistência."
+      },
+      "conceito": 3,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-04-5",
+      "exemplo": "Dois grupos reagem por negociação e defesa territorial. Como analisar?",
+      "relacao": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+      "elementos": [
+        "Fonte e contexto",
+        "Resistência"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Classificar uma cultura como inferior.",
+          "feedback": "Revise a relação: Resistências assumem estratégias variadas, conforme contexto e possibilidades."
+        },
+        {
+          "texto": "Comparar estratégias, condições e limites.",
+          "feedback": "Resistências assumem estratégias variadas, conforme contexto e possibilidades. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+        "cotidiana": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+        "comparacao": "Não encontrar uma batalha não significa ausência de resistência."
+      },
+      "conceito": 3,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-04-6",
+      "exemplo": "Uma estratégia tem custos para os participantes. O que isso exige?",
+      "relacao": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+      "elementos": [
+        "Fonte e contexto",
+        "Resistência"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Examinar escolhas e consequências no contexto.",
+          "feedback": "Resistências assumem estratégias variadas, conforme contexto e possibilidades. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Apagar os custos para idealizar a ação.",
+          "feedback": "Revise a relação: Resistências assumem estratégias variadas, conforme contexto e possibilidades."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Resistências assumem estratégias variadas, conforme contexto e possibilidades.",
+        "cotidiana": "Uma atividade apresenta fuga e preservação cultural; investigue as duas estratégias.",
+        "comparacao": "Não encontrar uma batalha não significa ausência de resistência."
+      },
+      "conceito": 3,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-05-1",
+      "exemplo": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+      "relacao": "Quilombos tiveram diferentes dimensões e formas de organização.",
+      "elementos": [
+        "Fonte e contexto",
+        "Quilombos"
+      ],
+      "pergunta": "Qual comparação é responsável?",
+      "alternativas": [
+        {
+          "texto": "Examinar cada caso sem transformar Palmares em padrão universal",
+          "feedback": "Quilombos tiveram diferentes dimensões e formas de organização. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Tratar todos como cópias do mesmo povoado",
+          "feedback": "Revise a relação: Quilombos tiveram diferentes dimensões e formas de organização."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Quilombos tiveram diferentes dimensões e formas de organização.",
+        "cotidiana": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+        "comparacao": "Estudar um caso é diferente de transformar esse caso numa regra universal."
+      },
+      "conceito": 4,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-05-2",
+      "exemplo": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+      "relacao": "Quilombos tiveram diferentes dimensões e formas de organização.",
+      "elementos": [
+        "Fonte e contexto",
+        "Quilombos"
+      ],
+      "pergunta": "Um registro descreve um pequeno agrupamento. Como analisá-lo?",
+      "alternativas": [
+        {
+          "texto": "Inventar um território igual ao de Palmares",
+          "feedback": "Revise a relação: Quilombos tiveram diferentes dimensões e formas de organização."
+        },
+        {
+          "texto": "Situar o caso e comparar com critérios explícitos",
+          "feedback": "Quilombos tiveram diferentes dimensões e formas de organização. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Quilombos tiveram diferentes dimensões e formas de organização.",
+        "cotidiana": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+        "comparacao": "Estudar um caso é diferente de transformar esse caso numa regra universal."
+      },
+      "conceito": 4,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-05-3",
+      "exemplo": "Um exercício compara dois quilombos com tamanhos diferentes. Qual critério usar?",
+      "relacao": "Quilombos tiveram diferentes dimensões e formas de organização.",
+      "elementos": [
+        "Fonte e contexto",
+        "Quilombos"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Contexto, organização e relações de cada caso.",
+          "feedback": "Quilombos tiveram diferentes dimensões e formas de organização. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Somente qual aparece mais nos livros.",
+          "feedback": "Revise a relação: Quilombos tiveram diferentes dimensões e formas de organização."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Quilombos tiveram diferentes dimensões e formas de organização.",
+        "cotidiana": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+        "comparacao": "Estudar um caso é diferente de transformar esse caso numa regra universal."
+      },
+      "conceito": 4,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-05-4",
+      "exemplo": "Um agrupamento pequeno aparece numa fonte. O tamanho basta para negar resistência?",
+      "relacao": "Quilombos tiveram diferentes dimensões e formas de organização.",
+      "elementos": [
+        "Fonte e contexto",
+        "Quilombos"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sim; só grandes agrupamentos resistiam.",
+          "feedback": "Revise a relação: Quilombos tiveram diferentes dimensões e formas de organização."
+        },
+        {
+          "texto": "Não; é preciso examinar suas relações e ações.",
+          "feedback": "Quilombos tiveram diferentes dimensões e formas de organização. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Quilombos tiveram diferentes dimensões e formas de organização.",
+        "cotidiana": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+        "comparacao": "Estudar um caso é diferente de transformar esse caso numa regra universal."
+      },
+      "conceito": 4,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-05-5",
+      "exemplo": "Uma síntese descreve todos os quilombos como cópias de Palmares. Qual ajuste fazer?",
+      "relacao": "Quilombos tiveram diferentes dimensões e formas de organização.",
+      "elementos": [
+        "Fonte e contexto",
+        "Quilombos"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Reconhecer a diversidade e os limites da comparação.",
+          "feedback": "Quilombos tiveram diferentes dimensões e formas de organização. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Acrescentar a mesma descrição a todos.",
+          "feedback": "Revise a relação: Quilombos tiveram diferentes dimensões e formas de organização."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Quilombos tiveram diferentes dimensões e formas de organização.",
+        "cotidiana": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+        "comparacao": "Estudar um caso é diferente de transformar esse caso numa regra universal."
+      },
+      "conceito": 4,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-05-6",
+      "exemplo": "O registro de um quilombo omite seu cotidiano. O que buscar?",
+      "relacao": "Quilombos tiveram diferentes dimensões e formas de organização.",
+      "elementos": [
+        "Fonte e contexto",
+        "Quilombos"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Afirmar que não existia vida cotidiana.",
+          "feedback": "Revise a relação: Quilombos tiveram diferentes dimensões e formas de organização."
+        },
+        {
+          "texto": "Outras fontes sobre sua organização e relações.",
+          "feedback": "Quilombos tiveram diferentes dimensões e formas de organização. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Quilombos tiveram diferentes dimensões e formas de organização.",
+        "cotidiana": "Palmares é um caso importante, mas não descreve sozinho todos os quilombos.",
+        "comparacao": "Estudar um caso é diferente de transformar esse caso numa regra universal."
+      },
+      "conceito": 4,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-06-1",
+      "exemplo": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+      "relacao": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Território"
+      ],
+      "pergunta": "Por que estudar o território de uma comunidade?",
+      "alternativas": [
+        {
+          "texto": "Para explicar tudo apenas pelo relevo",
+          "feedback": "Revise a relação: Território envolve espaço, modos de vida, circulação e relações de poder."
+        },
+        {
+          "texto": "Para relacionar condições espaciais, vida e relações de poder",
+          "feedback": "Território envolve espaço, modos de vida, circulação e relações de poder. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+        "cotidiana": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+        "comparacao": "Um mapa ajuda a relacionar lugares; não explica sozinho toda a sociedade."
+      },
+      "conceito": 5,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-06-2",
+      "exemplo": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+      "relacao": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Território"
+      ],
+      "pergunta": "Um modelo digital mostra trilhas e moradias. O que pode representar?",
+      "alternativas": [
+        {
+          "texto": "Relações espaciais didáticas, sem comprovar uma planta histórica exata",
+          "feedback": "Território envolve espaço, modos de vida, circulação e relações de poder. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Uma reconstrução arqueológica automática",
+          "feedback": "Revise a relação: Território envolve espaço, modos de vida, circulação e relações de poder."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+        "cotidiana": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+        "comparacao": "Um mapa ajuda a relacionar lugares; não explica sozinho toda a sociedade."
+      },
+      "conceito": 5,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-06-3",
+      "exemplo": "Um modelo digital mostra uma trilha. Isso prova seu traçado histórico?",
+      "relacao": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Território"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Sim; todo modelo 3D é uma reconstrução exata.",
+          "feedback": "Revise a relação: Território envolve espaço, modos de vida, circulação e relações de poder."
+        },
+        {
+          "texto": "Não; o modelo precisa de fontes para essa afirmação.",
+          "feedback": "Território envolve espaço, modos de vida, circulação e relações de poder. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+        "cotidiana": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+        "comparacao": "Um mapa ajuda a relacionar lugares; não explica sozinho toda a sociedade."
+      },
+      "conceito": 5,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-06-4",
+      "exemplo": "Uma comunidade ocupa uma área de difícil acesso. O relevo explica tudo?",
+      "relacao": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Território"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Não; examine também relações sociais e políticas.",
+          "feedback": "Território envolve espaço, modos de vida, circulação e relações de poder. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Sim; as pessoas não influenciam o território.",
+          "feedback": "Revise a relação: Território envolve espaço, modos de vida, circulação e relações de poder."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+        "cotidiana": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+        "comparacao": "Um mapa ajuda a relacionar lugares; não explica sozinho toda a sociedade."
+      },
+      "conceito": 5,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-06-5",
+      "exemplo": "Uma rota liga duas localidades em um esquema didático. O que investigar?",
+      "relacao": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Território"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "A ausência automática de qualquer conflito.",
+          "feedback": "Revise a relação: Território envolve espaço, modos de vida, circulação e relações de poder."
+        },
+        {
+          "texto": "Circulação, controle e possibilidades de contato.",
+          "feedback": "Território envolve espaço, modos de vida, circulação e relações de poder. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+        "cotidiana": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+        "comparacao": "Um mapa ajuda a relacionar lugares; não explica sozinho toda a sociedade."
+      },
+      "conceito": 5,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-06-6",
+      "exemplo": "Uma fonte cita defesa de um território. Qual relação considerar?",
+      "relacao": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Território"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Espaço, organização e relações de poder.",
+          "feedback": "Território envolve espaço, modos de vida, circulação e relações de poder. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Somente a cor usada no mapa.",
+          "feedback": "Revise a relação: Território envolve espaço, modos de vida, circulação e relações de poder."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Território envolve espaço, modos de vida, circulação e relações de poder.",
+        "cotidiana": "Um esquema mostra caminhos e moradias para discutir organização espacial.",
+        "comparacao": "Um mapa ajuda a relacionar lugares; não explica sozinho toda a sociedade."
+      },
+      "conceito": 5,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-07-1",
+      "exemplo": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+      "relacao": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Redes e trocas"
+      ],
+      "pergunta": "O que um registro de troca permite analisar?",
+      "alternativas": [
+        {
+          "texto": "Relações entre grupos, seus interesses e limites",
+          "feedback": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Fim da escravidão naquele momento",
+          "feedback": "Revise a relação: Trocas, conflitos e desigualdades podem coexistir nas mesmas relações."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+        "cotidiana": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+        "comparacao": "Contato não significa igualdade; conflito não elimina todo contato."
+      },
+      "conceito": 6,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-07-2",
+      "exemplo": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+      "relacao": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Redes e trocas"
+      ],
+      "pergunta": "Uma comunidade mantém trocas com vizinhos. O que evitar?",
+      "alternativas": [
+        {
+          "texto": "Investigar os produtos trocados",
+          "feedback": "Revise a relação: Trocas, conflitos e desigualdades podem coexistir nas mesmas relações."
+        },
+        {
+          "texto": "Concluir que estava completamente isolada",
+          "feedback": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+        "cotidiana": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+        "comparacao": "Contato não significa igualdade; conflito não elimina todo contato."
+      },
+      "conceito": 6,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-07-3",
+      "exemplo": "Há troca de produtos num caso fictício. Isso demonstra igualdade social?",
+      "relacao": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Redes e trocas"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Não; é preciso examinar as condições da troca.",
+          "feedback": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Sim; toda troca ocorre entre iguais.",
+          "feedback": "Revise a relação: Trocas, conflitos e desigualdades podem coexistir nas mesmas relações."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+        "cotidiana": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+        "comparacao": "Contato não significa igualdade; conflito não elimina todo contato."
+      },
+      "conceito": 6,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-07-4",
+      "exemplo": "Uma comunidade tem contato com vizinhos. Que conclusão deve ser revista?",
+      "relacao": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Redes e trocas"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "A de que houve relações a investigar.",
+          "feedback": "Revise a relação: Trocas, conflitos e desigualdades podem coexistir nas mesmas relações."
+        },
+        {
+          "texto": "A de isolamento completo sem evidências.",
+          "feedback": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+        "cotidiana": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+        "comparacao": "Contato não significa igualdade; conflito não elimina todo contato."
+      },
+      "conceito": 6,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-07-5",
+      "exemplo": "Uma rota é controlada por um grupo. Que pergunta ajuda?",
+      "relacao": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Redes e trocas"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Quem pode circular e sob quais condições?",
+          "feedback": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Como supor circulação igual para todos?",
+          "feedback": "Revise a relação: Trocas, conflitos e desigualdades podem coexistir nas mesmas relações."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+        "cotidiana": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+        "comparacao": "Contato não significa igualdade; conflito não elimina todo contato."
+      },
+      "conceito": 6,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-07-6",
+      "exemplo": "Fontes registram troca e confronto na mesma região. Como tratá-las?",
+      "relacao": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Redes e trocas"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Apagar uma das fontes para simplificar.",
+          "feedback": "Revise a relação: Trocas, conflitos e desigualdades podem coexistir nas mesmas relações."
+        },
+        {
+          "texto": "Examinar como essas relações coexistiram.",
+          "feedback": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Trocas, conflitos e desigualdades podem coexistir nas mesmas relações.",
+        "cotidiana": "Um exercício apresenta intercâmbio entre grupos e disputa pelo controle de rotas.",
+        "comparacao": "Contato não significa igualdade; conflito não elimina todo contato."
+      },
+      "conceito": 6,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-08-1",
+      "exemplo": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+      "relacao": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Cultura em movimento"
+      ],
+      "pergunta": "Qual explicação reconhece processo histórico?",
+      "alternativas": [
+        {
+          "texto": "Cultura imutável e sem contexto",
+          "feedback": "Revise a relação: Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder."
+        },
+        {
+          "texto": "Transformações culturais com escolhas e relações de poder",
+          "feedback": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+        "cotidiana": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+        "comparacao": "Transformação cultural não é sinônimo de mistura harmoniosa."
+      },
+      "conceito": 7,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-08-2",
+      "exemplo": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+      "relacao": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Cultura em movimento"
+      ],
+      "pergunta": "Uma prática mudou entre gerações. O que perguntar?",
+      "alternativas": [
+        {
+          "texto": "Quais condições, sujeitos e escolhas participaram da mudança",
+          "feedback": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Se deixou de ser cultura por ter mudado",
+          "feedback": "Revise a relação: Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+        "cotidiana": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+        "comparacao": "Transformação cultural não é sinônimo de mistura harmoniosa."
+      },
+      "conceito": 7,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-08-3",
+      "exemplo": "Uma prática muda sob restrições, em um caso didático. O que analisar?",
+      "relacao": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Cultura em movimento"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Uma mistura necessariamente sem conflitos.",
+          "feedback": "Revise a relação: Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder."
+        },
+        {
+          "texto": "Escolhas, imposições e condições da mudança.",
+          "feedback": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+        "cotidiana": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+        "comparacao": "Transformação cultural não é sinônimo de mistura harmoniosa."
+      },
+      "conceito": 7,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-08-4",
+      "exemplo": "Dois registros mostram diferenças na mesma prática. Qual pergunta é histórica?",
+      "relacao": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Cultura em movimento"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Quais processos ajudam a explicar a mudança?",
+          "feedback": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Qual versão deve ser apagada por ser diferente?",
+          "feedback": "Revise a relação: Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+        "cotidiana": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+        "comparacao": "Transformação cultural não é sinônimo de mistura harmoniosa."
+      },
+      "conceito": 7,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-08-5",
+      "exemplo": "Uma comunidade preserva parte de um conhecimento e recria outra. Isso é contraditório?",
+      "relacao": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Cultura em movimento"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Sim; cultura nunca muda.",
+          "feedback": "Revise a relação: Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder."
+        },
+        {
+          "texto": "Não; permanências e mudanças podem coexistir.",
+          "feedback": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+        "cotidiana": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+        "comparacao": "Transformação cultural não é sinônimo de mistura harmoniosa."
+      },
+      "conceito": 7,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-08-6",
+      "exemplo": "Uma explicação celebra encontros e omite coerção. Qual limite apontar?",
+      "relacao": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+      "elementos": [
+        "Fonte e contexto",
+        "Cultura em movimento"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Ela pode apagar violência e relações de poder.",
+          "feedback": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Ela já apresenta todas as condições históricas.",
+          "feedback": "Revise a relação: Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Práticas culturais podem ser preservadas, transformadas e recriadas em relações de poder.",
+        "cotidiana": "Uma atividade compara formas de uma prática em dois momentos, sem chamar mudança de perda automática.",
+        "comparacao": "Transformação cultural não é sinônimo de mistura harmoniosa."
+      },
+      "conceito": 7,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-09-1",
+      "exemplo": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+      "relacao": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+      "elementos": [
+        "Fonte e contexto",
+        "Negociação e limites"
+      ],
+      "pergunta": "O que conferir num acordo colonial?",
+      "alternativas": [
+        {
+          "texto": "Quem foi incluído, excluído e quais condições foram impostas",
+          "feedback": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Só se o documento usa a palavra paz",
+          "feedback": "Revise a relação: Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+        "cotidiana": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+        "comparacao": "A palavra paz não demonstra, por si, que todos tiveram seus interesses atendidos."
+      },
+      "conceito": 8,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-09-2",
+      "exemplo": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+      "relacao": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+      "elementos": [
+        "Fonte e contexto",
+        "Negociação e limites"
+      ],
+      "pergunta": "Um acordo beneficia um grupo e exclui outro. Como avaliar?",
+      "alternativas": [
+        {
+          "texto": "Chamar de solução universal",
+          "feedback": "Revise a relação: Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos."
+        },
+        {
+          "texto": "Reconhecer o alcance parcial e os conflitos de interesse",
+          "feedback": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+        "cotidiana": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+        "comparacao": "A palavra paz não demonstra, por si, que todos tiveram seus interesses atendidos."
+      },
+      "conceito": 8,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-09-3",
+      "exemplo": "Um acordo inclui alguns participantes e exclui outros. Qual conclusão é adequada?",
+      "relacao": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+      "elementos": [
+        "Fonte e contexto",
+        "Negociação e limites"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Seu alcance é parcial e precisa ser analisado.",
+          "feedback": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Ele resolveu o problema de todas as pessoas.",
+          "feedback": "Revise a relação: Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+        "cotidiana": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+        "comparacao": "A palavra paz não demonstra, por si, que todos tiveram seus interesses atendidos."
+      },
+      "conceito": 8,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-09-4",
+      "exemplo": "Um líder assina um documento. Isso prova concordância de todos?",
+      "relacao": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+      "elementos": [
+        "Fonte e contexto",
+        "Negociação e limites"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sim; uma assinatura expressa todas as vozes.",
+          "feedback": "Revise a relação: Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos."
+        },
+        {
+          "texto": "Não; é preciso investigar representação e divergências.",
+          "feedback": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+        "cotidiana": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+        "comparacao": "A palavra paz não demonstra, por si, que todos tiveram seus interesses atendidos."
+      },
+      "conceito": 8,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-09-5",
+      "exemplo": "Uma proposta exige uma condição restritiva. O que verificar?",
+      "relacao": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+      "elementos": [
+        "Fonte e contexto",
+        "Negociação e limites"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Quem seria afetado e com quais consequências.",
+          "feedback": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Somente a presença de palavras positivas.",
+          "feedback": "Revise a relação: Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+        "cotidiana": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+        "comparacao": "A palavra paz não demonstra, por si, que todos tiveram seus interesses atendidos."
+      },
+      "conceito": 8,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-09-6",
+      "exemplo": "Uma negociação ocorre sob ameaça. Qual dado não pode ser omitido?",
+      "relacao": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+      "elementos": [
+        "Fonte e contexto",
+        "Negociação e limites"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "A ideia de que todos tinham poder igual.",
+          "feedback": "Revise a relação: Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos."
+        },
+        {
+          "texto": "A desigualdade e a coerção na negociação.",
+          "feedback": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Acordos precisam ser examinados por suas condições, inclusões, exclusões e efeitos.",
+        "cotidiana": "Um documento fictício beneficia um grupo, mas deixa outro de fora.",
+        "comparacao": "A palavra paz não demonstra, por si, que todos tiveram seus interesses atendidos."
+      },
+      "conceito": 8,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-10-1",
+      "exemplo": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+      "relacao": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+      "elementos": [
+        "Fonte e contexto",
+        "Memória"
+      ],
+      "pergunta": "Como analisar um monumento de resistência?",
+      "alternativas": [
+        {
+          "texto": "Usá-lo para dispensar documentos",
+          "feedback": "Revise a relação: Memórias selecionam o que lembrar e atribuem sentidos ao passado."
+        },
+        {
+          "texto": "Perguntar quem o criou, quando e qual memória destaca",
+          "feedback": "Memórias selecionam o que lembrar e atribuem sentidos ao passado. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+        "cotidiana": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+        "comparacao": "Uma comemoração é também fonte sobre quem a criou, não um retrato completo do passado."
+      },
+      "conceito": 9,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-10-2",
+      "exemplo": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+      "relacao": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+      "elementos": [
+        "Fonte e contexto",
+        "Memória"
+      ],
+      "pergunta": "Uma homenagem destaca um líder. Qual investigação ampliar?",
+      "alternativas": [
+        {
+          "texto": "Outros sujeitos e processos que a homenagem não mostra",
+          "feedback": "Memórias selecionam o que lembrar e atribuem sentidos ao passado. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Somente o material da placa",
+          "feedback": "Revise a relação: Memórias selecionam o que lembrar e atribuem sentidos ao passado."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+        "cotidiana": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+        "comparacao": "Uma comemoração é também fonte sobre quem a criou, não um retrato completo do passado."
+      },
+      "conceito": 9,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-10-3",
+      "exemplo": "Uma placa foi produzida muito depois do acontecimento. Qual contexto investigar?",
+      "relacao": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+      "elementos": [
+        "Fonte e contexto",
+        "Memória"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Somente a data do acontecimento lembrado.",
+          "feedback": "Revise a relação: Memórias selecionam o que lembrar e atribuem sentidos ao passado."
+        },
+        {
+          "texto": "O momento e os interesses de sua produção.",
+          "feedback": "Memórias selecionam o que lembrar e atribuem sentidos ao passado. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+        "cotidiana": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+        "comparacao": "Uma comemoração é também fonte sobre quem a criou, não um retrato completo do passado."
+      },
+      "conceito": 9,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-10-4",
+      "exemplo": "Uma homenagem destaca um indivíduo. O que ampliar?",
+      "relacao": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+      "elementos": [
+        "Fonte e contexto",
+        "Memória"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "A investigação de outros sujeitos e processos.",
+          "feedback": "Memórias selecionam o que lembrar e atribuem sentidos ao passado. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "A certeza de que ninguém mais participou.",
+          "feedback": "Revise a relação: Memórias selecionam o que lembrar e atribuem sentidos ao passado."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+        "cotidiana": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+        "comparacao": "Uma comemoração é também fonte sobre quem a criou, não um retrato completo do passado."
+      },
+      "conceito": 9,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-10-5",
+      "exemplo": "Duas comemorações dão sentidos diferentes ao passado. Como analisá-las?",
+      "relacao": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+      "elementos": [
+        "Fonte e contexto",
+        "Memória"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Definir a mais colorida como mais verdadeira.",
+          "feedback": "Revise a relação: Memórias selecionam o que lembrar e atribuem sentidos ao passado."
+        },
+        {
+          "texto": "Comparar autores, épocas e escolhas de memória.",
+          "feedback": "Memórias selecionam o que lembrar e atribuem sentidos ao passado. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+        "cotidiana": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+        "comparacao": "Uma comemoração é também fonte sobre quem a criou, não um retrato completo do passado."
+      },
+      "conceito": 9,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-10-6",
+      "exemplo": "Um monumento omite conflitos. Como usar essa fonte?",
+      "relacao": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+      "elementos": [
+        "Fonte e contexto",
+        "Memória"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Examinar o que destaca e o que silencia.",
+          "feedback": "Memórias selecionam o que lembrar e atribuem sentidos ao passado. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Tomá-lo como descrição de tudo o que ocorreu.",
+          "feedback": "Revise a relação: Memórias selecionam o que lembrar e atribuem sentidos ao passado."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Memórias selecionam o que lembrar e atribuem sentidos ao passado.",
+        "cotidiana": "Uma homenagem destaca um líder; outras pessoas e processos podem não aparecer.",
+        "comparacao": "Uma comemoração é também fonte sobre quem a criou, não um retrato completo do passado."
+      },
+      "conceito": 9,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-11-1",
+      "exemplo": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+      "relacao": "Relacionar passado e presente exige observar permanências e transformações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Passado e presente"
+      ],
+      "pergunta": "Qual relação evita congelar pessoas no passado?",
+      "alternativas": [
+        {
+          "texto": "Reconhecer história, mudanças e atuação contemporânea",
+          "feedback": "Relacionar passado e presente exige observar permanências e transformações. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Exigir que vivam como no período colonial",
+          "feedback": "Revise a relação: Relacionar passado e presente exige observar permanências e transformações."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Relacionar passado e presente exige observar permanências e transformações.",
+        "cotidiana": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+        "comparacao": "Uma trajetória histórica não congela pessoas num modo de vida antigo."
+      },
+      "conceito": 10,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-11-2",
+      "exemplo": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+      "relacao": "Relacionar passado e presente exige observar permanências e transformações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Passado e presente"
+      ],
+      "pergunta": "Uma comunidade usa tecnologia atual. Isso significa…",
+      "alternativas": [
+        {
+          "texto": "Prova de que a comunidade foi inventada",
+          "feedback": "Revise a relação: Relacionar passado e presente exige observar permanências e transformações."
+        },
+        {
+          "texto": "Transformação do modo de vida, sem apagar automaticamente sua história",
+          "feedback": "Relacionar passado e presente exige observar permanências e transformações. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Relacionar passado e presente exige observar permanências e transformações.",
+        "cotidiana": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+        "comparacao": "Uma trajetória histórica não congela pessoas num modo de vida antigo."
+      },
+      "conceito": 10,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-11-3",
+      "exemplo": "Uma comunidade cria um site para comunicar sua história. Isso apaga sua identidade?",
+      "relacao": "Relacionar passado e presente exige observar permanências e transformações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Passado e presente"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Não; examine sua trajetória e atuação atual.",
+          "feedback": "Relacionar passado e presente exige observar permanências e transformações. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Sim; identidade exige ausência de tecnologia.",
+          "feedback": "Revise a relação: Relacionar passado e presente exige observar permanências e transformações."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Relacionar passado e presente exige observar permanências e transformações.",
+        "cotidiana": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+        "comparacao": "Uma trajetória histórica não congela pessoas num modo de vida antigo."
+      },
+      "conceito": 10,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-11-4",
+      "exemplo": "Uma pesquisa compara práticas em dois períodos. O que procurar?",
+      "relacao": "Relacionar passado e presente exige observar permanências e transformações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Passado e presente"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "A obrigação de que tudo seja idêntico.",
+          "feedback": "Revise a relação: Relacionar passado e presente exige observar permanências e transformações."
+        },
+        {
+          "texto": "Mudanças e permanências com fontes e contexto.",
+          "feedback": "Relacionar passado e presente exige observar permanências e transformações. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Relacionar passado e presente exige observar permanências e transformações.",
+        "cotidiana": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+        "comparacao": "Uma trajetória histórica não congela pessoas num modo de vida antigo."
+      },
+      "conceito": 10,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-11-5",
+      "exemplo": "Uma imagem antiga é usada para definir toda a vida atual de uma comunidade. Qual problema?",
+      "relacao": "Relacionar passado e presente exige observar permanências e transformações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Passado e presente"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Congelar sujeitos no passado.",
+          "feedback": "Relacionar passado e presente exige observar permanências e transformações. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Reconhecer que há transformações.",
+          "feedback": "Revise a relação: Relacionar passado e presente exige observar permanências e transformações."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Relacionar passado e presente exige observar permanências e transformações.",
+        "cotidiana": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+        "comparacao": "Uma trajetória histórica não congela pessoas num modo de vida antigo."
+      },
+      "conceito": 10,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-11-6",
+      "exemplo": "Um relato atual lembra um acontecimento antigo. Que distinção ajuda?",
+      "relacao": "Relacionar passado e presente exige observar permanências e transformações.",
+      "elementos": [
+        "Fonte e contexto",
+        "Passado e presente"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "A ideia de que as duas datas são sempre iguais.",
+          "feedback": "Revise a relação: Relacionar passado e presente exige observar permanências e transformações."
+        },
+        {
+          "texto": "A época lembrada e o momento do relato.",
+          "feedback": "Relacionar passado e presente exige observar permanências e transformações. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Relacionar passado e presente exige observar permanências e transformações.",
+        "cotidiana": "Uma comunidade contemporânea utiliza tecnologia sem que isso apague automaticamente sua história.",
+        "comparacao": "Uma trajetória histórica não congela pessoas num modo de vida antigo."
+      },
+      "conceito": 10,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-12-1",
+      "exemplo": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+      "relacao": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Argumento com fonte"
+      ],
+      "pergunta": "Qual argumento é mais consistente?",
+      "alternativas": [
+        {
+          "texto": "Afirmação geral baseada numa imagem sem legenda",
+          "feedback": "Revise a relação: Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites."
+        },
+        {
+          "texto": "Fonte situada, relação explicada e limite declarado",
+          "feedback": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+        "cotidiana": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+        "comparacao": "Uma opinião só não faz o trabalho de uma evidência."
+      },
+      "conceito": 11,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-12-2",
+      "exemplo": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+      "relacao": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Argumento com fonte"
+      ],
+      "pergunta": "Você só tem o relato de um adversário. O que registrar?",
+      "alternativas": [
+        {
+          "texto": "O ponto de vista parcial e a necessidade de outras fontes",
+          "feedback": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Que o relato representa a voz de todos",
+          "feedback": "Revise a relação: Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+        "cotidiana": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+        "comparacao": "Uma opinião só não faz o trabalho de uma evidência."
+      },
+      "conceito": 11,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-12-3",
+      "exemplo": "Um texto afirma algo sem indicar fonte. O que acrescentar?",
+      "relacao": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Argumento com fonte"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Uma repetição da mesma afirmação.",
+          "feedback": "Revise a relação: Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites."
+        },
+        {
+          "texto": "Evidência, contexto e ligação com a conclusão.",
+          "feedback": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+        "cotidiana": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+        "comparacao": "Uma opinião só não faz o trabalho de uma evidência."
+      },
+      "conceito": 11,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-12-4",
+      "exemplo": "Um relatório expressa apenas o olhar de um adversário. Como usá-lo?",
+      "relacao": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Argumento com fonte"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Examinar seu ponto de vista e buscar confronto.",
+          "feedback": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Tratá-lo como voz de todos os envolvidos.",
+          "feedback": "Revise a relação: Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+        "cotidiana": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+        "comparacao": "Uma opinião só não faz o trabalho de uma evidência."
+      },
+      "conceito": 11,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-12-5",
+      "exemplo": "Uma hipótese vai além do que o registro mostra. Qual cuidado?",
+      "relacao": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Argumento com fonte"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Apresentá-la como fato já demonstrado.",
+          "feedback": "Revise a relação: Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites."
+        },
+        {
+          "texto": "Distinguir dado, interpretação e limite.",
+          "feedback": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+        "cotidiana": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+        "comparacao": "Uma opinião só não faz o trabalho de uma evidência."
+      },
+      "conceito": 11,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-12-6",
+      "exemplo": "Uma nova fonte contraria a explicação inicial. Como proceder?",
+      "relacao": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+      "elementos": [
+        "Fonte e contexto",
+        "Argumento com fonte"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Rever a hipótese e comparar as evidências.",
+          "feedback": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Ignorar a fonte para manter a primeira resposta.",
+          "feedback": "Revise a relação: Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Um argumento histórico liga uma evidência situada a uma interpretação e explicita limites.",
+        "cotidiana": "Dizer qual fonte sustenta a afirmação permite que outra pessoa confira a relação.",
+        "comparacao": "Uma opinião só não faz o trabalho de uma evidência."
+      },
+      "conceito": 11,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-13-1",
+      "exemplo": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+      "relacao": "Comparações históricas precisam de critérios e respeito às diferenças.",
+      "elementos": [
+        "Fonte e contexto",
+        "Transferência"
+      ],
+      "pergunta": "Como comparar dois casos?",
+      "alternativas": [
+        {
+          "texto": "Usar critérios históricos e reconhecer diferenças",
+          "feedback": "Comparações históricas precisam de critérios e respeito às diferenças. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Contar somente o número de batalhas",
+          "feedback": "Revise a relação: Comparações históricas precisam de critérios e respeito às diferenças."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Comparações históricas precisam de critérios e respeito às diferenças.",
+        "cotidiana": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+        "comparacao": "Comparar não é criar uma escala de superioridade entre culturas."
+      },
+      "conceito": 12,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-13-2",
+      "exemplo": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+      "relacao": "Comparações históricas precisam de critérios e respeito às diferenças.",
+      "elementos": [
+        "Fonte e contexto",
+        "Transferência"
+      ],
+      "pergunta": "Uma nova fonte descreve resistência indígena. Como aplicar o método?",
+      "alternativas": [
+        {
+          "texto": "Copiar a explicação de Palmares sem adaptar",
+          "feedback": "Revise a relação: Comparações históricas precisam de critérios e respeito às diferenças."
+        },
+        {
+          "texto": "Situar a fonte, reconhecer sujeitos e estratégias e declarar limites",
+          "feedback": "Comparações históricas precisam de critérios e respeito às diferenças. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Comparações históricas precisam de critérios e respeito às diferenças.",
+        "cotidiana": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+        "comparacao": "Comparar não é criar uma escala de superioridade entre culturas."
+      },
+      "conceito": 12,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-13-3",
+      "exemplo": "Dois casos têm objetivos diferentes. Como compará-los?",
+      "relacao": "Comparações históricas precisam de critérios e respeito às diferenças.",
+      "elementos": [
+        "Fonte e contexto",
+        "Transferência"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Declarar critérios e reconhecer as diferenças.",
+          "feedback": "Comparações históricas precisam de critérios e respeito às diferenças. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Classificar o mais conhecido como superior.",
+          "feedback": "Revise a relação: Comparações históricas precisam de critérios e respeito às diferenças."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Comparações históricas precisam de critérios e respeito às diferenças.",
+        "cotidiana": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+        "comparacao": "Comparar não é criar uma escala de superioridade entre culturas."
+      },
+      "conceito": 12,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-13-4",
+      "exemplo": "Uma resistência indígena aparece num novo exercício. Qual método aplicar?",
+      "relacao": "Comparações históricas precisam de critérios e respeito às diferenças.",
+      "elementos": [
+        "Fonte e contexto",
+        "Transferência"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Copiar sem mudanças um relato de Palmares.",
+          "feedback": "Revise a relação: Comparações históricas precisam de critérios e respeito às diferenças."
+        },
+        {
+          "texto": "Situar sujeitos, fonte, contexto e estratégia.",
+          "feedback": "Comparações históricas precisam de critérios e respeito às diferenças. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Comparações históricas precisam de critérios e respeito às diferenças.",
+        "cotidiana": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+        "comparacao": "Comparar não é criar uma escala de superioridade entre culturas."
+      },
+      "conceito": 12,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-13-5",
+      "exemplo": "A comparação usa apenas o número de combates. O que falta?",
+      "relacao": "Comparações históricas precisam de critérios e respeito às diferenças.",
+      "elementos": [
+        "Fonte e contexto",
+        "Transferência"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Outras estratégias, objetivos e condições.",
+          "feedback": "Comparações históricas precisam de critérios e respeito às diferenças. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Uma conclusão sobre superioridade cultural.",
+          "feedback": "Revise a relação: Comparações históricas precisam de critérios e respeito às diferenças."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Comparações históricas precisam de critérios e respeito às diferenças.",
+        "cotidiana": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+        "comparacao": "Comparar não é criar uma escala de superioridade entre culturas."
+      },
+      "conceito": 12,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-13-6",
+      "exemplo": "Uma fonte nova traz um contexto diferente. Como transferir o método?",
+      "relacao": "Comparações históricas precisam de critérios e respeito às diferenças.",
+      "elementos": [
+        "Fonte e contexto",
+        "Transferência"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Manter a mesma resposta sem examinar o caso.",
+          "feedback": "Revise a relação: Comparações históricas precisam de critérios e respeito às diferenças."
+        },
+        {
+          "texto": "Manter as perguntas e revisar a interpretação.",
+          "feedback": "Comparações históricas precisam de critérios e respeito às diferenças. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Comparações históricas precisam de critérios e respeito às diferenças.",
+        "cotidiana": "Comparar duas resistências pode envolver sujeitos, objetivos, estratégias e condições.",
+        "comparacao": "Comparar não é criar uma escala de superioridade entre culturas."
+      },
+      "conceito": 12,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-14-1",
+      "exemplo": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+      "relacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "elementos": [
+        "Fonte e contexto",
+        "Vozes e silêncios"
+      ],
+      "pergunta": "Uma crônica não menciona artesãos. Isso demonstra que não houve trabalho artesanal?",
+      "alternativas": [
+        {
+          "texto": "Sim; só existe o que foi mencionado.",
+          "feedback": "Revise a relação: Ausência de uma voz no registro não demonstra ausência de sua participação."
+        },
+        {
+          "texto": "Não; é uma lacuna do registro, não prova de inexistência.",
+          "feedback": "Ausência de uma voz no registro não demonstra ausência de sua participação. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "cotidiana": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+        "comparacao": "O que não foi registrado é diferente do que não aconteceu."
+      },
+      "conceito": 13,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-14-2",
+      "exemplo": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+      "relacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "elementos": [
+        "Fonte e contexto",
+        "Vozes e silêncios"
+      ],
+      "pergunta": "Um relatório só registra proprietários. Como tratar os outros habitantes?",
+      "alternativas": [
+        {
+          "texto": "Investigar outras fontes sem inventar suas vozes.",
+          "feedback": "Ausência de uma voz no registro não demonstra ausência de sua participação. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Concluir que eles não existiam.",
+          "feedback": "Revise a relação: Ausência de uma voz no registro não demonstra ausência de sua participação."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "cotidiana": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+        "comparacao": "O que não foi registrado é diferente do que não aconteceu."
+      },
+      "conceito": 13,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-14-3",
+      "exemplo": "Uma lista de autoridades não cita mulheres. O que ela permite concluir?",
+      "relacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "elementos": [
+        "Fonte e contexto",
+        "Vozes e silêncios"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Que mulheres não participaram da história.",
+          "feedback": "Revise a relação: Ausência de uma voz no registro não demonstra ausência de sua participação."
+        },
+        {
+          "texto": "Que o recorte da lista é limitado.",
+          "feedback": "Ausência de uma voz no registro não demonstra ausência de sua participação. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "cotidiana": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+        "comparacao": "O que não foi registrado é diferente do que não aconteceu."
+      },
+      "conceito": 13,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-14-4",
+      "exemplo": "Uma fonte omite crianças e cotidiano. Qual pergunta ampliar?",
+      "relacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "elementos": [
+        "Fonte e contexto",
+        "Vozes e silêncios"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Que outros registros podem ajudar a investigar?",
+          "feedback": "Ausência de uma voz no registro não demonstra ausência de sua participação. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Como provar ausência de vida cotidiana?",
+          "feedback": "Revise a relação: Ausência de uma voz no registro não demonstra ausência de sua participação."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "cotidiana": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+        "comparacao": "O que não foi registrado é diferente do que não aconteceu."
+      },
+      "conceito": 13,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-14-5",
+      "exemplo": "Um resumo só apresenta decisões de líderes. Qual risco reconhecer?",
+      "relacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "elementos": [
+        "Fonte e contexto",
+        "Vozes e silêncios"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Incluir todas as vozes possíveis.",
+          "feedback": "Revise a relação: Ausência de uma voz no registro não demonstra ausência de sua participação."
+        },
+        {
+          "texto": "Apagar participação coletiva e outras experiências.",
+          "feedback": "Ausência de uma voz no registro não demonstra ausência de sua participação. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "cotidiana": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+        "comparacao": "O que não foi registrado é diferente do que não aconteceu."
+      },
+      "conceito": 13,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-14-6",
+      "exemplo": "Um registro não informa quem produziu um objeto. Como escrever?",
+      "relacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "elementos": [
+        "Fonte e contexto",
+        "Vozes e silêncios"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "A autoria não está identificada nessa fonte.",
+          "feedback": "Ausência de uma voz no registro não demonstra ausência de sua participação. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "O objeto necessariamente não teve autoria.",
+          "feedback": "Revise a relação: Ausência de uma voz no registro não demonstra ausência de sua participação."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "cotidiana": "Um documento fictício nomeia apenas autoridades e não menciona o cotidiano de mulheres.",
+        "comparacao": "O que não foi registrado é diferente do que não aconteceu."
+      },
+      "conceito": 13,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-15-1",
+      "exemplo": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+      "relacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "elementos": [
+        "Fonte e contexto",
+        "Confrontar fontes"
+      ],
+      "pergunta": "Um mapa e uma carta se referem a datas diferentes. Qual cuidado tomar?",
+      "alternativas": [
+        {
+          "texto": "Conferir a cronologia antes de aproximar as informações.",
+          "feedback": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Tratá-los como registros do mesmo instante.",
+          "feedback": "Revise a relação: Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "cotidiana": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+        "comparacao": "Confrontar fontes é relacionar evidências, não somar registros como votos."
+      },
+      "conceito": 14,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-15-2",
+      "exemplo": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+      "relacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "elementos": [
+        "Fonte e contexto",
+        "Confrontar fontes"
+      ],
+      "pergunta": "Um relato oral e um registro escrito apresentam recortes diferentes. Como analisar?",
+      "alternativas": [
+        {
+          "texto": "Descartar um apenas por sua linguagem.",
+          "feedback": "Revise a relação: Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo."
+        },
+        {
+          "texto": "Examinar produção, contexto e limites de ambos.",
+          "feedback": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "cotidiana": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+        "comparacao": "Confrontar fontes é relacionar evidências, não somar registros como votos."
+      },
+      "conceito": 14,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-15-3",
+      "exemplo": "Um mapa mostra localização, mas não explica uma negociação. O que fazer?",
+      "relacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "elementos": [
+        "Fonte e contexto",
+        "Confrontar fontes"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Consultar fontes adequadas à pergunta sobre a negociação.",
+          "feedback": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Inventar o acordo a partir das cores do mapa.",
+          "feedback": "Revise a relação: Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "cotidiana": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+        "comparacao": "Confrontar fontes é relacionar evidências, não somar registros como votos."
+      },
+      "conceito": 14,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-15-4",
+      "exemplo": "Dois relatos concordam e copiaram a mesma origem. São duas provas independentes?",
+      "relacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "elementos": [
+        "Fonte e contexto",
+        "Confrontar fontes"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Sim; qualquer repetição é confirmação independente.",
+          "feedback": "Revise a relação: Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo."
+        },
+        {
+          "texto": "Não necessariamente; examine sua relação.",
+          "feedback": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "cotidiana": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+        "comparacao": "Confrontar fontes é relacionar evidências, não somar registros como votos."
+      },
+      "conceito": 14,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-15-5",
+      "exemplo": "Uma imagem e um texto parecem divergir. Por onde começar?",
+      "relacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "elementos": [
+        "Fonte e contexto",
+        "Confrontar fontes"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Conferir data, autoria, finalidade e contexto.",
+          "feedback": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Eliminar a fonte menos familiar.",
+          "feedback": "Revise a relação: Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "cotidiana": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+        "comparacao": "Confrontar fontes é relacionar evidências, não somar registros como votos."
+      },
+      "conceito": 14,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-15-6",
+      "exemplo": "Uma hipótese é apoiada por um relato parcial. O que fortalece a análise?",
+      "relacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "elementos": [
+        "Fonte e contexto",
+        "Confrontar fontes"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Esconder o ponto de vista da primeira fonte.",
+          "feedback": "Revise a relação: Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo."
+        },
+        {
+          "texto": "Confrontar outras fontes e reconhecer limites.",
+          "feedback": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "cotidiana": "Um exercício reúne um mapa e um relato: cada um permite fazer perguntas próprias.",
+        "comparacao": "Confrontar fontes é relacionar evidências, não somar registros como votos."
+      },
+      "conceito": 14,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-16-1",
+      "exemplo": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+      "relacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "elementos": [
+        "Fonte e contexto",
+        "Síntese e limite"
+      ],
+      "pergunta": "Uma síntese diz que duas comunidades tinham culturas idênticas sem evidência. Como revisar?",
+      "alternativas": [
+        {
+          "texto": "Manter a afirmação para tornar o texto mais simples.",
+          "feedback": "Revise a relação: Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber."
+        },
+        {
+          "texto": "Restringir a conclusão ao que as fontes sustentam.",
+          "feedback": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "cotidiana": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+        "comparacao": "Concluir uma análise não significa eliminar toda incerteza."
+      },
+      "conceito": 15,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-16-2",
+      "exemplo": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+      "relacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "elementos": [
+        "Fonte e contexto",
+        "Síntese e limite"
+      ],
+      "pergunta": "Qual pergunta é uma continuação responsável de uma análise?",
+      "alternativas": [
+        {
+          "texto": "Que fonte poderia esclarecer a participação ainda desconhecida?",
+          "feedback": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Como transformar uma hipótese em certeza sem novos dados?",
+          "feedback": "Revise a relação: Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "cotidiana": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+        "comparacao": "Concluir uma análise não significa eliminar toda incerteza."
+      },
+      "conceito": 15,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-16-3",
+      "exemplo": "Só um documento parcial está disponível. Como concluir?",
+      "relacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "elementos": [
+        "Fonte e contexto",
+        "Síntese e limite"
+      ],
+      "pergunta": "Qual relação explica este caso?",
+      "alternativas": [
+        {
+          "texto": "Afirmar que toda a sociedade foi explicada.",
+          "feedback": "Revise a relação: Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber."
+        },
+        {
+          "texto": "Apresentar uma interpretação provisória com limites.",
+          "feedback": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "cotidiana": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+        "comparacao": "Concluir uma análise não significa eliminar toda incerteza."
+      },
+      "conceito": 15,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-16-4",
+      "exemplo": "Um modelo 3D ajuda a discutir circulação. Qual limite declarar?",
+      "relacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "elementos": [
+        "Fonte e contexto",
+        "Síntese e limite"
+      ],
+      "pergunta": "Que interpretação deve orientar a comparação?",
+      "alternativas": [
+        {
+          "texto": "Ele não comprova sozinho uma planta histórica real.",
+          "feedback": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Ele substitui automaticamente documentos e pesquisa.",
+          "feedback": "Revise a relação: Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "cotidiana": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+        "comparacao": "Concluir uma análise não significa eliminar toda incerteza."
+      },
+      "conceito": 15,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-16-5",
+      "exemplo": "Uma comparação revelou uma semelhança e duas diferenças. O que manter na síntese?",
+      "relacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "elementos": [
+        "Fonte e contexto",
+        "Síntese e limite"
+      ],
+      "pergunta": "Qual conclusão respeita os dados?",
+      "alternativas": [
+        {
+          "texto": "Só a semelhança para dizer que os casos são iguais.",
+          "feedback": "Revise a relação: Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber."
+        },
+        {
+          "texto": "Semelhança e diferenças com os critérios usados.",
+          "feedback": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber. Situe a informação e reconheça o limite."
+        }
+      ],
+      "correta": 1,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "cotidiana": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+        "comparacao": "Concluir uma análise não significa eliminar toda incerteza."
+      },
+      "conceito": 15,
+      "formato": "relacao-historica"
+    },
+    {
+      "id": "historia-211-cultura-resistencia-16-6",
+      "exemplo": "Uma nova pergunta surgiu depois da análise. O que fazer?",
+      "relacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "elementos": [
+        "Fonte e contexto",
+        "Síntese e limite"
+      ],
+      "pergunta": "Como aplicar a relação com cuidado?",
+      "alternativas": [
+        {
+          "texto": "Indicar quais fontes seriam necessárias para investigá-la.",
+          "feedback": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber. Situe a informação e reconheça o limite."
+        },
+        {
+          "texto": "Inventar a resposta para encerrar o percurso.",
+          "feedback": "Revise a relação: Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber."
+        }
+      ],
+      "correta": 0,
+      "transferencia": "Aplique as perguntas a outra fonte e diga o que ainda não é possível concluir.",
+      "linguagens": {
+        "direta": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "cotidiana": "No fim de um caso, apresente uma conclusão e uma pergunta que ainda exige investigação.",
+        "comparacao": "Concluir uma análise não significa eliminar toda incerteza."
+      },
+      "conceito": 15,
+      "formato": "relacao-historica"
+    }
+  ],
+  "aula": {
+    "id": "historia-211-cultura-resistencia",
+    "titulo": "Territórios de resistência: cultura e sociedade colonial",
+    "resumo": "Analisar fontes e situações didáticas sobre cultura e resistência nas sociedades coloniais, comparando sujeitos, estratégias e relações de poder e reconhecendo limites das interpretações.",
+    "habilidades": [
+      "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas em diferentes linguagens para compreender processos históricos e culturais. Síntese didática da habilidade; descrição integral na BNCC, p. 572."
+    ],
+    "turma": "211",
+    "componente": "História"
+  },
+  "versao": "tarde-2026-11-06-v1"
+}

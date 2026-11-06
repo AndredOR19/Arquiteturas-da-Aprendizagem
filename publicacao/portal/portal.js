@@ -10,6 +10,9 @@ function matches(x){return (state.collection==='todos'||(state.collection==='aul
 function card(x,i){const article=node('article',undefined,'material-card');article.dataset.material=x.id;const type=kind(x),art=node('div',undefined,'card-art');art.style.setProperty('--tone',tones[type]);art.setAttribute('aria-hidden','true');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 80 80');svg.setAttribute('fill','none');svg.setAttribute('stroke-width','1.6');svg.setAttribute('stroke-linecap','round');svg.setAttribute('stroke-linejoin','round');svg.innerHTML=icons[type];art.append(svg,node('span',String(i+1).padStart(2,'0')+' / EXPLORAR','card-number'),node('span',x.formato,'art-tag'));
 const body=node('div',undefined,'card-body');body.append(node('p',x.componentes.join(' + ')||'Aprendizagem e formação','card-eyebrow'),node('h3',x.titulo,'card-title'),node('p',x.descricao,'card-description'));
 const tags=node('div',undefined,'card-tags');for(const t of [...x.series,...x.turmas.map(t=>'Turma '+t),x.ano_letivo===null?'Uso livre':String(x.ano_letivo),...(x.acesso==='individual'?['Acesso individual']:[])])tags.append(node('span',t,'card-tag'));body.append(tags);
+if(x.registro_escola_rs){const r=x.registro_escola_rs,details=node('details',undefined,'card-registration'),summary=node('summary','Registro para Escola RS'),text=node('pre','TÍTULO: '+r.titulo+'\nRESUMO: '+r.resumo+'\nHABILIDADES: '+r.habilidades.join('; ')),copy=node('button','Copiar registro para Escola RS'),status=node('p');text.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;font:inherit';copy.type='button';copy.onclick=async()=>{try{await navigator.clipboard.writeText(text.textContent);status.textContent='Registro copiado. Revise e cole no Escola RS.';}catch{const range=document.createRange();range.selectNodeContents(text);getSelection().removeAllRanges();getSelection().addRange(range);status.textContent='Copie o texto selecionado manualmente.';}};details.append(summary,text,copy,status);body.append(details);}
+if(Array.isArray(x.rotas)){const nav=node('nav');nav.setAttribute('aria-label','Alternativas de aprendizagem');for(const r of x.rotas){const link=node('a',r.titulo,'card-literacy-link');link.href=r.url;nav.append(link);}body.append(nav);}
+
 const bottom=node('div',undefined,'card-bottom');bottom.append(node('span',x.escola==='Uso livre'?'Para explorar e retomar':x.escola_curta||x.escola));
 const a=node('a',(x.acesso==='individual'?'Entrar no piloto':x.categoria==='treinamento'?'Explorar laboratório':'Abrir material')+' ↗','card-link');a.href=x.url;a.setAttribute('aria-label',a.textContent+' — '+x.titulo);if(x.url.startsWith('https://')){a.target='_blank';a.rel='noopener';}bottom.append(a);
 const qrBox=node('div',undefined,'card-qr');
@@ -24,13 +27,13 @@ const qrLink=node('a','Link da atividade ↗','card-qr-fallback');
 qrLink.href=x.url;if(x.url.startsWith('https://')){qrLink.target='_blank';qrLink.rel='noopener';}
 qrBox.append(qrImage,qrText,qrLink);
 body.append(bottom);
-if(['aula','demonstracao','piloto'].includes(x.categoria)){
+if(['aula','demonstracao','piloto'].includes(x.categoria)&&!x.apoio_leitura_url){
  const support=node('a','🔊 Aprender com imagens, palavras e áudio','card-literacy-link');
  const page=new URL('../alfabetizacao/index.html',script.src);
  page.searchParams.set('materia',x.componentes.join(' + ')||'Aula');
  page.searchParams.set('tema',x.titulo);
  page.searchParams.set('voltar',new URL(x.url,document.baseURI).href);
- support.href=page.href;support.setAttribute('aria-label','Percurso complementar de alfabetização para '+x.titulo);
+ support.href=x.apoio_leitura_url||page.href;support.setAttribute('aria-label','Percurso complementar de alfabetização para '+x.titulo);
  body.append(support);
 }
 body.append(qrBox);article.append(art,body);return article;}

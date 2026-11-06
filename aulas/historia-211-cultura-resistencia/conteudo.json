@@ -6,9 +6,9 @@
   "data": "não fixada",
   "titulo": "Territórios de resistência: cultura e sociedade colonial",
   "pergunta": "Analisar práticas culturais e formas de resistência nas sociedades coloniais, situando fontes e reconhecendo diversidade e limites.",
-  "resumo": "Analisar práticas culturais e formas de resistência nas sociedades coloniais, situando fontes e reconhecendo diversidade e limites.",
+  "resumo": "Analisar fontes e situações didáticas sobre cultura e resistência nas sociedades coloniais, comparando sujeitos, estratégias e relações de poder e reconhecendo limites das interpretações.",
   "habilidades": [
-    "Análise de fontes, relações de poder e resistências; os códigos transcritos no plano têm descrições divergentes da BNCC e não são reproduzidos como redação oficial."
+    "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas em diferentes linguagens para compreender processos históricos e culturais. Síntese didática da habilidade; descrição integral na BNCC, p. 572."
   ],
   "continuidade": "Plano História 211, semana 9 (03 a 06/11): cultura, resistência e construção de identidades nas sociedades coloniais. Não presumir aulas anteriores como aplicadas.",
   "fontes": [
@@ -737,6 +737,158 @@
       },
       "ponto": "Escolher sem relacionar o dado à conclusão.",
       "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Vozes e silêncios",
+      "fase": "Aplicar",
+      "explicacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "pergunta": "Uma crônica não menciona artesãos. Isso demonstra que não houve trabalho artesanal?",
+      "alternativas": [
+        "Não; é uma lacuna do registro, não prova de inexistência.",
+        "Sim; só existe o que foi mencionado.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Não; é uma lacuna do registro, não prova de inexistência. Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "Não; é uma lacuna do registro, não prova de inexistência."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Não; é uma lacuna do registro, não prova de inexistência.",
+        "1": "Revise a relação: Não; é uma lacuna do registro, não prova de inexistência.",
+        "2": "O caso precisa ser examinado: Não; é uma lacuna do registro, não prova de inexistência."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Vozes e silêncios",
+      "fase": "Aplicar",
+      "explicacao": "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "pergunta": "Um relatório só registra proprietários. Como tratar os outros habitantes?",
+      "alternativas": [
+        "Investigar outras fontes sem inventar suas vozes.",
+        "Concluir que eles não existiam.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Investigar outras fontes sem inventar suas vozes. Ausência de uma voz no registro não demonstra ausência de sua participação.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Ausência de uma voz no registro não demonstra ausência de sua participação.",
+        "Investigar outras fontes sem inventar suas vozes."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Investigar outras fontes sem inventar suas vozes.",
+        "1": "Revise a relação: Investigar outras fontes sem inventar suas vozes.",
+        "2": "O caso precisa ser examinado: Investigar outras fontes sem inventar suas vozes."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Confrontar fontes",
+      "fase": "Aplicar",
+      "explicacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "pergunta": "Um mapa e uma carta se referem a datas diferentes. Qual cuidado tomar?",
+      "alternativas": [
+        "Conferir a cronologia antes de aproximar as informações.",
+        "Tratá-los como registros do mesmo instante.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Conferir a cronologia antes de aproximar as informações. Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "Conferir a cronologia antes de aproximar as informações."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Conferir a cronologia antes de aproximar as informações.",
+        "1": "Revise a relação: Conferir a cronologia antes de aproximar as informações.",
+        "2": "O caso precisa ser examinado: Conferir a cronologia antes de aproximar as informações."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Confrontar fontes",
+      "fase": "Aplicar",
+      "explicacao": "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "pergunta": "Um relato oral e um registro escrito apresentam recortes diferentes. Como analisar?",
+      "alternativas": [
+        "Examinar produção, contexto e limites de ambos.",
+        "Descartar um apenas por sua linguagem.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Examinar produção, contexto e limites de ambos. Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Fontes diferentes podem esclarecer aspectos distintos de um mesmo processo.",
+        "Examinar produção, contexto e limites de ambos."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Examinar produção, contexto e limites de ambos.",
+        "1": "Revise a relação: Examinar produção, contexto e limites de ambos.",
+        "2": "O caso precisa ser examinado: Examinar produção, contexto e limites de ambos."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Síntese e limite",
+      "fase": "Aplicar",
+      "explicacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "pergunta": "Uma síntese diz que duas comunidades tinham culturas idênticas sem evidência. Como revisar?",
+      "alternativas": [
+        "Restringir a conclusão ao que as fontes sustentam.",
+        "Manter a afirmação para tornar o texto mais simples.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Restringir a conclusão ao que as fontes sustentam. Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "Restringir a conclusão ao que as fontes sustentam."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Restringir a conclusão ao que as fontes sustentam.",
+        "1": "Revise a relação: Restringir a conclusão ao que as fontes sustentam.",
+        "2": "O caso precisa ser examinado: Restringir a conclusão ao que as fontes sustentam."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Síntese e limite",
+      "fase": "Aplicar",
+      "explicacao": "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "pergunta": "Qual pergunta é uma continuação responsável de uma análise?",
+      "alternativas": [
+        "Que fonte poderia esclarecer a participação ainda desconhecida?",
+        "Como transformar uma hipótese em certeza sem novos dados?",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Que fonte poderia esclarecer a participação ainda desconhecida? Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Uma síntese responsável distingue o que a fonte mostra, a interpretação e o que falta saber.",
+        "Que fonte poderia esclarecer a participação ainda desconhecida?"
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Que fonte poderia esclarecer a participação ainda desconhecida?",
+        "1": "Revise a relação: Que fonte poderia esclarecer a participação ainda desconhecida?",
+        "2": "O caso precisa ser examinado: Que fonte poderia esclarecer a participação ainda desconhecida?"
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
     }
-  ]
+  ],
+  "quantidade_percursos": 32,
+  "fonte_habilidades": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf"
 }

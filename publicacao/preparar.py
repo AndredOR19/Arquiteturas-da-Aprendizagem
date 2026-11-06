@@ -24,7 +24,7 @@ def safe_path(base, name):
 
 def main():
     apoio = validar_apoio(ROOT / "publicacao/alfabetizacao/index.html")
-    print("Apoio opcional:", len(apoio["percursos"]), "percursos por área; mínimo 26")
+    print("Apoio opcional:", len(apoio["percursos"]), "percursos por área; mínimo 57")
     items = json.loads((ROOT / 'publicacao/catalogo.json').read_text())['materiais']
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -67,6 +67,11 @@ def main():
                 raise ValueError('HTML deve vir de aulas/ ou laboratorios/.')
             if not (source / 'index.html').is_file():
                 raise ValueError('Material sem index.html: ' + item['origem'])
+            if item.get('apoio_local'):
+                info_apoio=item['apoio_local']
+                dados_apoio=validar_apoio(safe_path(source,info_apoio['arquivo']))
+                if len(dados_apoio['percursos']) != info_apoio['quantidade']:
+                    raise ValueError('Contagem do apoio local diverge do catálogo')
             if item.get('rota_exemplos'):
                 info=item['rota_exemplos']
                 rota=safe_path(source,info['arquivo'])
@@ -93,7 +98,7 @@ def main():
                     shutil.copyfile(p, target)
             for page in dest.rglob('*.html'):
                 text = page.read_text(encoding='utf-8')
-                if page == dest / 'index.html':
+                if page == dest / 'index.html' and 'data-apoio-local' not in text:
                     materia = ', '.join(item.get('portal', {}).get('componentes', [])) or 'Aula'
                     params = urlencode({'materia': materia, 'tema': item.get('titulo', ''), 'voltar': './'})
                     support_path = os.path.relpath(literacy / 'index.html', page.parent).replace(os.sep, '/')

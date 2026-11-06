@@ -6,9 +6,9 @@
   "data": "não fixada",
   "titulo": "Oficina das frações: montar, comparar e explicar",
   "pergunta": "Representar frações de um mesmo inteiro, relacionar nome e símbolo e justificar equivalência e comparação.",
-  "resumo": "Representar frações de um mesmo inteiro, relacionar nome e símbolo e justificar equivalência e comparação.",
+  "resumo": "Representar e comparar frações por tiras, repartições e blocos; relacionar inteiro, partes iguais, numerador e denominador e justificar equivalências e ordenações.",
   "habilidades": [
-    "EF06MA07: compreender, comparar e ordenar frações de inteiros e divisão, identificando equivalências; recorte do dia com representações e nomenclatura."
+    "EF06MA07 — Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes."
   ],
   "continuidade": "Plano 161 recebido: semana 9, datada 05/11, prevê nomenclatura de frações; adaptado ao horário de sexta informado pelo professor. O corpo do plano traz rótulo de trimestre divergente, preservado na fonte.",
   "fontes": [
@@ -732,6 +732,158 @@
       },
       "ponto": "Escolher sem relacionar o dado à conclusão.",
       "acao": "Mostre o dado, explique a relação e aplique em um caso diferente."
+    },
+    {
+      "titulo": "Reta numérica",
+      "fase": "Aplicar",
+      "explicacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "pergunta": "A reta de 0 a 1 tem quatro intervalos iguais. Qual é o terceiro ponto após 0?",
+      "alternativas": [
+        "3/4",
+        "1/4",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "3/4 Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "3/4"
+      ],
+      "retorno": {
+        "0": "Relação sustentada: 3/4",
+        "1": "Revise a relação: 3/4",
+        "2": "O caso precisa ser examinado: 3/4"
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Reta numérica",
+      "fase": "Aplicar",
+      "explicacao": "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "pergunta": "Na mesma reta, qual fica à direita: 1/3 ou 2/3?",
+      "alternativas": [
+        "2/3",
+        "1/3",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "2/3 Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Na reta numérica, intervalos iguais representam partes iguais da unidade.",
+        "2/3"
+      ],
+      "retorno": {
+        "0": "Relação sustentada: 2/3",
+        "1": "Revise a relação: 2/3",
+        "2": "O caso precisa ser examinado: 2/3"
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Comparar representações",
+      "fase": "Aplicar",
+      "explicacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "pergunta": "Compare 3/5 e 1/2 usando décimos. Qual é maior?",
+      "alternativas": [
+        "3/5, pois 6/10 > 5/10.",
+        "1/2, pois 2 é menor que 5.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "3/5, pois 6/10 > 5/10. Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "3/5, pois 6/10 > 5/10."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: 3/5, pois 6/10 > 5/10.",
+        "1": "Revise a relação: 3/5, pois 6/10 > 5/10.",
+        "2": "O caso precisa ser examinado: 3/5, pois 6/10 > 5/10."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Comparar representações",
+      "fase": "Aplicar",
+      "explicacao": "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "pergunta": "Qual fração em doze partes representa 3/4?",
+      "alternativas": [
+        "9/12",
+        "3/12",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "9/12 Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Para comparar denominadores diferentes, procure partes equivalentes do mesmo tamanho.",
+        "9/12"
+      ],
+      "retorno": {
+        "0": "Relação sustentada: 9/12",
+        "1": "Revise a relação: 9/12",
+        "2": "O caso precisa ser examinado: 9/12"
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Além do inteiro",
+      "fase": "Aplicar",
+      "explicacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "pergunta": "Sete terços correspondem a quantos inteiros e qual parte restante?",
+      "alternativas": [
+        "Dois inteiros e um terço.",
+        "Um inteiro e um terço.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Dois inteiros e um terço. Uma fração pode representar uma quantidade maior que uma unidade.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "Dois inteiros e um terço."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Dois inteiros e um terço.",
+        "1": "Revise a relação: Dois inteiros e um terço.",
+        "2": "O caso precisa ser examinado: Dois inteiros e um terço."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
+    },
+    {
+      "titulo": "Além do inteiro",
+      "fase": "Aplicar",
+      "explicacao": "Uma fração pode representar uma quantidade maior que uma unidade.",
+      "pergunta": "Três meios correspondem a…",
+      "alternativas": [
+        "Um inteiro e um meio.",
+        "Três inteiros.",
+        "Não precisamos examinar os dados deste caso."
+      ],
+      "correta": 0,
+      "justificativa": "Um inteiro e um meio. Uma fração pode representar uma quantidade maior que uma unidade.",
+      "pistas": [
+        "Identifique o dado e a relação do caso.",
+        "Uma fração pode representar uma quantidade maior que uma unidade.",
+        "Um inteiro e um meio."
+      ],
+      "retorno": {
+        "0": "Relação sustentada: Um inteiro e um meio.",
+        "1": "Revise a relação: Um inteiro e um meio.",
+        "2": "O caso precisa ser examinado: Um inteiro e um meio."
+      },
+      "ponto": "Escolher sem relacionar os dados.",
+      "acao": "Explique a relação e indique um limite."
     }
-  ]
+  ],
+  "quantidade_percursos": 32,
+  "fonte_habilidades": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf"
 }
