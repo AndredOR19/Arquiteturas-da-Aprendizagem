@@ -145,3 +145,11 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Mapa e lista equivalentes; seleção e confirmação separadas; alternativa por imagens, voz e mediação. Exibir onde está, o que verifica, o que falta e como sai. Preservar sessões anteriores e nota original.
 - Integrar atividades adicionais ao teto da seção 9.1, sem multiplicar por número de telas ou apoios. Não fixar cinco minutos por tarefa nem inferir atenção pelo tempo. Registrar resposta, evidência, relação, revisão e aplicação no relatório/e-mail/coleta quando realmente instrumentados.
 - Estado inicial: arquitetura documentada, componente próprio ainda não implantado; não confundir a recuperação adaptativa já existente com o labirinto completo.
+
+
+## Diretriz de execução GEI/n8n — 06/11/2026
+- Antes de criar novo game ou asset, ler [contrato GEI para Arena A.I. e n8n](automacao/GEI_N8N_CONTRATO_V1.md) e seção 35 do Prompt Mestre. O professor exige games jogáveis com personagem, NPCs, ambientes, tarefas e consequências — não quizzes fantasiados.
+- Primeiro consultar catálogo privado Supabase GEI e alternativas licenciadas; reutilizar recursos aprovados. Não colocar chaves nem assets privados em Pages/Vercel. Separar montagem de gameplay, geração de imagens e orquestração n8n.
+- Arena A.I. pode estar alterando o projeto ao mesmo tempo: inspecionar branches/PRs recentes, coordenar por contratos e PR, não sobrescrever main nem o trabalho em curso.
+- Projeto Supabase educacional confirmado: `ifyiarwygywoexsflfsx`; tabelas GEI criadas, mas isso não prova n8n ativo, armazenamento configurado ou integração concluída.
+- Para toda automação: workflow n8n exportado (sem credenciais), schema, controle de custo, idempotência, retries limitados, testes e evidências de execução. Informar separadamente documentado, implementado, testado e publicado. Piloto inicial: Cidade dos Dados (EF07MA36).

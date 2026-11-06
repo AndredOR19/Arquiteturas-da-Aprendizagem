@@ -340,3 +340,10 @@ Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais.
 
 
 
+
+
+### 06/11/2026 — GEI 1.0: gameplay real e fábrica automatizada por n8n
+- Diretriz nova: games educacionais devem ter personagem controlável, cenário, NPCs, missões, ações e consequências, em vez de quizzes visualmente estilizados.
+- Especificação operacional: `automacao/GEI_N8N_CONTRATO_V1.md` define quatro fluxos n8n, descoberta/reuso de assets, segurança, armazenamento, aprovação, testes, publicação dual e convivência com Arena A.I.
+- Estado verificado: catálogo Supabase GEI existente e protegido por RLS; configuração e execução real de n8n, geração, storage e publicação não atestadas.
+- Prompt Mestre passa de 3.2.0 para 3.3.0; adição da seção 35 sem revogar fluxos anteriores.

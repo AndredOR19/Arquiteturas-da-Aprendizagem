@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.2.0**
-Atualização: **04/11/2026**
+Versão vigente: **3.3.0**
+Atualização: **06/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -819,3 +819,16 @@ A entrega só será considerada implementada para determinada aula depois de: te
 **Estado em 03/11/2026:** a página genérica de imagens/palavras/áudio e os links no acervo foram criados no GitHub; o conteúdo específico, as oito salas sistemáticas, a instrumentação integral da coleta em todas as aulas e sua validação ainda são trabalho de implementação. Esta diretriz atualiza o planejamento, **não equivale a implantação de cada recurso**. A versão atual do Prompt Mestre não altera automaticamente artefatos Vercel já publicados.
 
 
+
+
+## 35. GEI 1.0 — Games Educacionais Imersivos e Fábrica Automatizada (06/11/2026)
+
+**Diretriz vigente:** quando o objetivo da aula envolver jogo, não apresentar quiz, caça-cliques ou animação decorativa como videogame. Priorizar experiências jogáveis com personagem controlável, cenário navegável, NPCs, ações contextualizadas, missões encadeadas, objetos/inventário, feedback e consequências didáticas. A complexidade gráfica é subordinada à fluidez em dispositivos escolares. A produção regular das aulas continua seguindo o fluxo pedagógico escolhido; o GEI é uma camada de gameplay, não substitui os Fluxos 01/02/03 nem o Plano de Aula Diário.
+
+**Automação obrigatória como arquitetura-alvo:** consultar [contrato operacional GEI/n8n](automacao/GEI_N8N_CONTRATO_V1.md) antes de criar recursos ou jogos. O n8n orquestra pedido → reuso no catálogo → geração/importação licenciada → testes → revisão → gravação no Supabase/Storage → montagem no Phaser/Three.js → CI → deploy em Vercel e Pages → smoke tests → QR Code e recibo. Nunca afirmar que o fluxo está ativo sem verificar instância, credenciais seguras, workflow exportado, execuções e artefatos. **Arena A.I. está executando trabalho paralelo:** inspecionar branches/PRs e contratos existentes, não sobrescrever implementações ou a main; integrar por PR versionado e testes.
+
+**Catálogo confirmado em 06/11/2026:** Supabase `ifyiarwygywoexsflfsx` com tabelas `gei_assets`, `gei_asset_files`, `gei_generation_jobs`, `gei_asset_usages`, com RLS habilitada e acessos de clientes comuns não concedidos. Isso **não** atesta workflows n8n ativos nem assets binários armazenados. Autorização backend, armazenamento de binários, geração e dashboard permanecem dependentes de implantação e testes.
+
+**Contrato de execução para qualquer IA:** primeiro consultar prompt, AGENTS, biblioteca de arquiteturas, biblioteca de diagramação/lock, currículo e o contrato GEI; verificar recursos existentes, licenças e estado real do n8n; descrever entrada e saída dos nós, provedor, orçamento, idempotência, erros, segurança e evidências; construir ou integrar um trecho pequeno testável; entregar estados distintos `documentado`, `implementado`, `testado`, `publicado`. Não usar códigos, segredos ou nomes de alunos em recursos públicos. O acesso não leitor deve permitir jogar por imagens, instruções narradas e controles alternativos; não diminuir o objetivo curricular automaticamente.
+
+**Aceitação mínima para jogos:** controle por teclado/toque; mecânicas funcionais (movimento, interação e consequências), cenário e missão; salvamento/retomada quando pertinente; desempenho móvel; avaliação por evidências curriculares; compatibilidade de assets e suas licenças; testes documentados em dispositivos alvo. Fallback acessível quando 3D ou áudio falhar, sem relatar conclusão automática. Piloto: A Cidade dos Dados, Matemática 7º, EF07MA36, investigando dados de uma cidade.
