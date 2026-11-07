@@ -1,6 +1,6 @@
 {
-  "versao": "0.2.0",
-  "verificado_em": "2026-10-31",
+  "versao": "0.3.0",
+  "verificado_em": "2026-11-07",
   "base_implantada": true,
   "migration_base": "20261031110854",
   "novas_tabelas": [
@@ -20,6 +20,10 @@
   "login_docente_implementado": true,
   "cadastro_self_service_implementado": "Ativação por convite individual administrativo; contas confirmadas podem solicitar vínculo. Aprovação escolar continua administrativa.",
   "painel_docente_implementado": true,
+  "painel_administrativo_senior_implementado": true,
+  "funcao_administrativa": "admin-panel",
+  "google_oauth_na_entrada": true,
+  "administradores_seniores_autorizados": 2,
   "importacao_ia_implementada": false,
   "avisos_automaticos_ativos": false,
   "dados_reais_importados": false,
@@ -53,5 +57,7 @@
   "migration_escolas_ativas": "20261031114556",
   "ativacao_sem_smtp_implementada": true,
   "teste_ativacao_sem_smtp_real": true,
-  "teste_convite_uso_unico_real": true
+  "teste_convite_uso_unico_real": true,
+  "administracao_migracao": "administracao_senior_auditoria_v1",
+  "auditoria_administrativa": true
 }

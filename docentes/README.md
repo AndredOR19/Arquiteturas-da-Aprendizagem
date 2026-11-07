@@ -1,6 +1,6 @@
 # Área docente — escola, ano letivo, turma e componente
 
-Diretrizes do Prof. André de Oliveira Rodrigues, 31/10/2026. **Área docente inicial implementada:** login por e-mail autorizado e convite administrativo, autorização anual, monitoramento por professor/escola, importação CSV da chamada com prévia, impressão e parecer revisável. **Nenhum docente real foi autorizado automaticamente.** Integração direta de IA, upload de calendário/ementa, avisos e tendências longitudinais ainda pendentes. Consultar [estado](../coleta/supabase/docentes/STATUS.json). O portal público reúne aulas; o painel docente será restrito.
+Diretrizes do Prof. André de Oliveira Rodrigues, 31/10/2026. **Área docente implementada:** login por senha ou Google OAuth, convite administrativo, autorização anual, monitoramento por professor/escola, importação CSV da chamada com prévia, impressão e parecer revisável. A [administração sênior](admin/README.md) tem painel global, convites, aprovações, recuperação e auditoria. **Nenhum docente real foi autorizado automaticamente.** Integração direta de IA, upload de calendário/ementa, avisos e tendências longitudinais ainda pendentes. Consultar [estado](../coleta/supabase/docentes/STATUS.json). O portal público reúne aulas; os painéis são restritos.
 
 ## Identidade que permanece, vínculos que mudam
 

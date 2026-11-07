@@ -1,48 +1,873 @@
-(()=>{'use strict';const C=window.DocenteConfig,$=id=>document.getElementById(id),make=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};let session=null,D=null,editing=null,roster=null,contexts=[],generation=0;
-const SESSION_KEY='aa:docente:auth',REMEMBER_KEY='aa:docente:remember';
-let keepConnected=false;
-try{keepConnected=localStorage.getItem(REMEMBER_KEY)==='yes';session=JSON.parse((keepConnected?localStorage:sessionStorage).getItem(SESSION_KEY)||'null');}catch{session=null;keepConnected=false;}
-function persistSession(){if(!session)return;const target=keepConnected?localStorage:sessionStorage,other=keepConnected?sessionStorage:localStorage;other.removeItem(SESSION_KEY);target.setItem(SESSION_KEY,JSON.stringify(session));if(keepConnected)localStorage.setItem(REMEMBER_KEY,'yes');else localStorage.removeItem(REMEMBER_KEY);}
-$('remember-login').checked=keepConnected;
-const date=v=>v?new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Sao_Paulo'}).format(new Date(v)):'';
-async function auth(path,body,token){const r=await fetch(C.url+'/auth/v1/'+path,{method:'POST',headers:{apikey:C.key,'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:JSON.stringify(body)});const d=await r.json().catch(()=>({}));if(d.access_token&&!d.expires_at)d.expires_at=Math.floor(Date.now()/1000)+(d.expires_in||3600);if(!r.ok)throw Error(d.msg||d.error_description||d.message||'Não foi possível autenticar.');return d;}
-async function refresh(){const version=generation,current=session;if(!current)throw Error('Sessão encerrada.');if(current.expires_at*1000>Date.now()+30000)return;const d=await auth('token?grant_type=refresh_token',{refresh_token:current.refresh_token});if(version!==generation||session!==current)throw Error('Sessão encerrada.');session=d;persistSession();}
-async function api(body){await refresh();const r=await fetch(C.endpoint,{method:'POST',headers:{Authorization:'Bearer '+session.access_token,'Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json();if(!r.ok||!d.ok)throw Error(d.mensagem||'Operação sem confirmação.');return d;}
-function show(id){for(const k of ['login','pending','dashboard'])$(k).hidden=k!==id;$('logout').hidden=id==='login';}
-async function load(){const version=generation;try{const d=await api({acao:'painel'});if(version!==generation||!session)return;$('account').textContent=d.email||'';if(d.estado==='aguardando_autorizacao'){show('pending');$('pending-message').textContent=d.mensagem||'O responsável precisa autorizar seu vínculo.';const c=await api({acao:'contextos'});contexts=c.contextos;$('request-context').replaceChildren(new Option('Selecione o contexto',''),...contexts.map((x,i)=>new Option(x.escola+' · '+x.ano_letivo+' · turma '+x.turma,String(i))));return;}D=d;show('dashboard');fillFilters();renderScopes();render();api({acao:'contextos'}).then(v=>{contexts=v.contextos;$('additional-context').replaceChildren(new Option('Selecione',''),...contexts.map((c,i)=>new Option(c.escola+' · '+c.ano_letivo+' · turma '+c.turma,String(i))));}).catch(()=>{$('additional-request-status').textContent='Não foi possível listar as turmas.';});}catch(e){if(version!==generation)return;if(!D){show('login');$('login-status').textContent=e.message;}else $('dashboard-status').textContent=e.message;}}
-function renderScopes(){const root=$('scope-list');root.replaceChildren();for(const s of D.escopos||[]){const row=make('p',`${s.escola||'Escola'} · ${s.ano_letivo} · ${s.papel==='gestor'?'Gestão escolar':'Turma '+(D.aulas.find(a=>a.turma_id===s.turma_id)?.turma||'vinculada')+' · '+s.componente}`);row.className='scope-item';root.append(row);}if(!root.childNodes.length)root.textContent='Nenhum vínculo ativo.';}
-function fill(id,values,label){const old=$(id).value;$(id).replaceChildren(new Option(label,''),...[...new Set(values)].sort((a,b)=>String(a).localeCompare(String(b),'pt-BR',{numeric:true})).map(v=>new Option(v,v)));if([...$(id).options].some(o=>o.value===old))$(id).value=old;}
-function fillFilters(){fill('school',D.aulas.map(a=>a.escola),'Todas as escolas');fill('year',D.aulas.map(a=>a.ano_letivo),'Todos os anos');fill('class',D.aulas.map(a=>a.turma),'Todas as turmas');fill('subject',D.aulas.map(a=>a.componente),'Todas as matérias');const old=$('lesson').value;$('lesson').replaceChildren(new Option('Todas as aulas',''),...D.aulas.map(a=>new Option(a.titulo+' · '+a.turma+' · '+a.ano_letivo,a.id)));$('lesson').value=old;}
-function lessons(){return D.aulas.filter(a=>(!$('school').value||a.escola===$('school').value)&&(!$('year').value||String(a.ano_letivo)===$('year').value)&&(!$('class').value||a.turma===$('class').value)&&(!$('subject').value||a.componente===$('subject').value)&&(!$('lesson').value||a.id===$('lesson').value));}
-function latest(r){return D.pareceres.filter(p=>p.aula_id===r.aula_id&&p.matricula_id===r.matricula_id).sort((a,b)=>Number(D.escopos.some(s=>s.professor_id===b.professor_id))-Number(D.escopos.some(s=>s.professor_id===a.professor_id))||String(b.criado_em).localeCompare(String(a.criado_em)))[0];}
-function situation(r){return r.situacao!=='previsto'?r.situacao:r.relatorio_id?'Concluído com relatório':r.tentativas>0?'Em andamento':r.sessoes>0?'Entrada recebida · sem tentativa':'Sem registro recebido';}
-function pref(r){const f=r.preferencias?.font;return [f?'Fonte selecionada: '+({dyslexic:'OpenDyslexic',system:'padrão',serif:'serifada',mono:'monoespaçada'}[f]||f):null,r.experiencia?.answers?.fonte].filter(Boolean).join(' · ')||'Não coletada';}
-function canEdit(a){return D.escopos.some(s=>s.papel==='professor'&&s.escola_id===a.escola_id&&s.ano_letivo===a.ano_letivo&&s.turma_id===a.turma_id&&s.componente===a.componente);}
-function selectedLesson(){return D.aulas.find(a=>a.id===$('lesson').value);}
-function render(){const aulas=lessons(),ids=new Set(aulas.map(a=>a.id));const free=(D.sessoes_livres||[]).filter(s=>ids.has(s.aula_id));$('free-rows').replaceChildren();for(const s of free){const tr=make('tr');const aula=D.aulas.find(a=>a.id===s.aula_id);for(const value of [s.nome_declarado,s.turma_declarada,aula?.titulo||'Aula',date(s.iniciada_em),date(s.ultima_interacao_em),s.eventos,s.percursos_concluidos===null?(s.estado==='concluida'?'Encerrada sem relatório de percursos':'Em andamento — sem relatório de percursos'):`${s.percursos_concluidos}/${s.percursos_total} percursos`])tr.append(make('td',String(value??'—')));$('free-rows').append(tr);}$('free-empty').textContent=free.length?'Verifique a identificação declarada antes de associar a uma matrícula.':'Nenhuma entrada sem login recebida neste recorte.';const rows=D.registros.filter(r=>ids.has(r.aula_id)),expected=rows.filter(r=>r.situacao==='previsto'),done=expected.filter(r=>r.relatorio_id).length,started=expected.filter(r=>r.tentativas>0||r.relatorio_id).length,missing=expected.filter(r=>r.sessoes===0&&!r.relatorio_id).length;$('m-expected').textContent=expected.length;$('m-started').textContent=started;$('m-done').textContent=done;$('m-pending').textContent=missing;
-$('print-context').textContent=[...new Set(aulas.map(a=>a.escola+' · '+a.ano_letivo+' · turma '+a.turma+' · '+a.componente))].join(' | ')+' · consulta em '+date(new Date());const bars=$('progress-chart');bars.replaceChildren();for(const [label,n]of [['Concluídos',done],['Em andamento / entrada',expected.length-done-missing],['Sem registro',missing]])if(n){const x=make('span',label+': '+n);x.style.flex=String(n);bars.append(x);}
-const tbody=$('grades').querySelector('tbody');tbody.replaceChildren();for(const r of rows){const a=D.aulas.find(a=>a.id===r.aula_id),tr=make('tr'),name=make('td',r.nome);name.append(make('small',r.codigo_interno+' · '+a.titulo));const p=latest(r);tr.append(name,make('td',situation(r)),make('td',r.tentativas+' / '+r.pistas),make('td',r.nota_indicador===null?'—':Number(r.nota_indicador).toLocaleString('pt-BR')+' / 10'),make('td',p?.revisado&&p.nota_docente!==null?Number(p.nota_docente).toLocaleString('pt-BR'):'—'),make('td',pref(r)));const td=make('td'),button=make('button',p?'Ver / editar':'Preparar parecer');td.className='no-print';button.onclick=()=>openReport(r,a,p);td.append(button);tr.append(td);tbody.append(tr);}
-$('empty-records').textContent=rows.length?'Notas docentes dependem da revisão do professor. Pareceres preservam versões anteriores.':'Nenhuma lista de participantes neste recorte. Selecione uma aula e importe a chamada; ausência de lista não é turma sem alunos.';
-$('plans').replaceChildren();for(const a of aulas){const row=make('article');row.className='plan-row';row.append(make('strong',a.titulo),make('small',a.ano_letivo+' · '+a.turma+' · '+a.componente+' · prevista: '+date(a.data_planejada)),make('p',a.aplicada_em?'Aula dada · '+(a.origem_aplicacao==='execucao_estudante'?'execução de estudante recebida em ':'confirmada em ')+date(a.aplicada_em):'Aplicação ainda não confirmada'));for(const plan of D.planos.filter(p=>p.aula_id===a.id))row.append(make('p',plan.titulo+' · '+date(plan.data_prevista)+' · '+plan.estado));$('plans').append(row);}if(!aulas.length)$('plans').textContent='Não há aulas cadastradas nos vínculos autorizados.';
-$('calendar').replaceChildren();const calendar=D.calendarios.filter(c=>aulas.some(a=>a.escola_id===c.escola_id&&a.ano_letivo===c.ano_letivo));for(const c of calendar)$('calendar').append(make('p',c.titulo+' · '+c.ano_letivo+' · v'+c.versao+(c.data?' · '+date(c.data)+' · '+c.descricao:'')));if(!calendar.length)$('calendar').textContent='Calendário escolar ainda não importado e confirmado para este recorte.';
-const target=selectedLesson();$('import-open').disabled=!target||!canEdit(target);$('plan-open').disabled=!target||!canEdit(target);$('dashboard-status').textContent=target?'Aula selecionada: '+target.titulo:'Para importar uma chamada ou adicionar um plano, selecione uma aula específica.';}
-function draft(r,a){return `${r.nome} — ${a.componente}, turma ${a.turma}, ano letivo ${a.ano_letivo}.\n\nNo recorte da aula “${a.titulo}”, a situação registrada é: ${situation(r)}. ${r.relatorio_id?`O relatório informa ${r.acertos_iniciais} primeiras respostas corretas em ${r.percursos_total} percursos, com indicador de ${r.nota_indicador}/10.`:'Ainda não há relatório final recebido; isso não permite concluir ausência ou não realização.'}\n\nForam recebidos ${r.tentativas} registros de tentativas e ${r.pistas} de pistas. ${pref(r)}. Essas informações são descritivas e devem ser relacionadas à observação do professor.\n\nAcompanhamento proposto pelo professor: [editar conforme as evidências da aula].`;}
-function openReport(r,a,p){editing={r,a};$('report-student').textContent=r.nome+' · '+a.componente+' · '+a.ano_letivo;$('report-text').value=p?.texto||draft(r,a);$('teacher-grade').value=p?.nota_docente??'';$('reviewed').checked=p?.revisado||false;$('report-status').textContent='';const editable=canEdit(a);$('report-form').querySelector('button[type=submit],button:not([type])').disabled=!editable;$('report-text').readOnly=!editable;$('teacher-grade').disabled=!editable;$('reviewed').disabled=!editable;$('report-editor').showModal();}
-$('login-form').onsubmit=async e=>{e.preventDefault();$('login-status').textContent='Entrando…';try{const d=await auth('token?grant_type=password',{email:$('email').value.trim(),password:$('password').value});generation++;session=d;keepConnected=$('remember-login').checked;persistSession();$('password').value='';await load();}catch(e){$('login-status').textContent=e.message;}};
-$('activate').onclick=async()=>{if(!$('login-form').reportValidity())return;const codigo=$('activation-code').value.trim();if(!/^[0-9a-f]{64}$/.test(codigo)){$('login-status').textContent='Informe o convite individual recebido do responsável.';return;}$('login-status').textContent='Ativando acesso autorizado…';try{const r=await fetch(C.endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({acao:'ativar',email:$('email').value.trim(),password:$('password').value,codigo})});const d=await r.json();$('login-status').textContent=d.mensagem||'Ativação sem confirmação.';if(d.ok){$('password').value='';$('activation-code').value='';}}catch(e){$('login-status').textContent='Não foi possível confirmar a ativação. Contate o responsável antes de repetir.';}};
-let recoveryToken=null;
-$('forgot-password').onclick=async()=>{const email=$('email').value.trim();if(!email||!$('email').checkValidity()){$('login-status').textContent='Digite primeiro seu e-mail cadastrado.';return;}const button=$('forgot-password');button.disabled=true;try{await auth('recover?redirect_to='+encodeURIComponent(location.origin+location.pathname),{email});$('login-status').textContent='Se o e-mail estiver cadastrado, você receberá instruções para redefinir sua senha. Confira também a caixa de spam.';}catch{$('login-status').textContent='Não foi possível concluir a solicitação. Confira a conexão ou procure o responsável.';}finally{button.disabled=false;}};
-(function detectRecovery(){const p=new URLSearchParams(location.hash.slice(1));if(p.get('type')!=='recovery'||!p.get('access_token'))return;recoveryToken=p.get('access_token');history.replaceState(null,'',location.pathname+location.search);$('password-dialog').showModal();})();
-$('password-form').onsubmit=async e=>{e.preventDefault();if(!recoveryToken)return;$('password-status').textContent='Atualizando senha…';try{const r=await fetch(C.url+'/auth/v1/user',{method:'PUT',headers:{apikey:C.key,Authorization:'Bearer '+recoveryToken,'Content-Type':'application/json'},body:JSON.stringify({password:$('new-password').value})});const d=await r.json().catch(()=>({}));if(!r.ok)throw Error(d.msg||d.message||'Não foi possível redefinir.');recoveryToken=null;$('new-password').value='';$('password-status').textContent='Senha atualizada. Feche esta janela e entre novamente.';}catch(err){$('password-status').textContent=err.message;}};
-$('logout').onclick=async()=>{const token=session?.access_token;generation++;session=null;D=null;editing=null;roster=null;contexts=[];sessionStorage.removeItem(SESSION_KEY);localStorage.removeItem(SESSION_KEY);localStorage.removeItem(REMEMBER_KEY);keepConnected=false;$('remember-login').checked=false;for(const dialog of document.querySelectorAll('dialog[open]'))dialog.close();$('grades').querySelector('tbody').replaceChildren();for(const id of ['plans','calendar','import-preview','report-student','account'])$(id).textContent='';$('report-text').value='';$('teacher-grade').value='';show('login');try{if(token)await auth('logout?scope=local',{},token);}catch{}};
-$('additional-request-form').onsubmit=async e=>{e.preventDefault();const c=contexts[Number($('additional-context').value)];if(!c){$('additional-request-status').textContent='Selecione uma turma.';return;}const materias=[...new Set($('additional-subjects').value.split(/[;,\n]+/).map(x=>x.trim()).filter(Boolean))];if(materias.length<1||materias.length>12||materias.some(x=>x.length>120)){$('additional-request-status').textContent='Informe de 1 a 12 matérias válidas.';return;}const btn=$('additional-request-form').querySelector('button');btn.disabled=true;let done=[];try{for(const componente of materias){await api({acao:'solicitar',escola_id:c.escola_id,turma_id:c.turma_id,ano_letivo:c.ano_letivo,componente});done.push(componente);}$('additional-request-status').textContent='Solicitações enviadas: '+done.join(', ')+'. Aguarde aprovação individual.';}catch(err){$('additional-request-status').textContent='Registradas: '+(done.join(', ')||'nenhuma')+'. '+err.message;}finally{btn.disabled=false;}};
-$('request-form').onsubmit=async e=>{e.preventDefault();const c=contexts[Number($('request-context').value)];if(!c)return;const materias=[...new Set($('request-subject').value.split(/[;,\n]+/).map(s=>s.trim()).filter(Boolean))];if(!materias.length||materias.length>12||materias.some(x=>x.length>120)){$('pending-status').textContent='Informe de 1 a 12 disciplinas válidas, separadas por vírgula ou ponto e vírgula.';return;}const btn=$('request-form').querySelector('button');btn.disabled=true;let ok=[];try{for(const componente of materias){await api({acao:'solicitar',escola_id:c.escola_id,turma_id:c.turma_id,ano_letivo:c.ano_letivo,componente});ok.push(componente);}$('pending-status').textContent='Solicitações registradas para: '+ok.join(', ')+'. A aprovação de cada vínculo é individual.';}catch(e){$('pending-status').textContent='Registradas: '+(ok.join(', ')||'nenhuma')+'. Erro: '+e.message;}finally{btn.disabled=false;}};
-$('report-form').onsubmit=async e=>{e.preventDefault();try{const d=await api({acao:'parecer',aula_id:editing.a.id,matricula_id:editing.r.matricula_id,texto:$('report-text').value,nota_docente:$('teacher-grade').value===''?null:Number($('teacher-grade').value),revisado:$('reviewed').checked});$('report-status').textContent=d.mensagem;await load();}catch(e){$('report-status').textContent=e.message;}};
-$('print').onclick=()=>{document.body.classList.remove('print-report');window.print();};$('print-report').onclick=()=>{document.body.classList.add('print-report');$('report-text').style.height=$('report-text').scrollHeight+'px';window.print();document.body.classList.remove('print-report');};$('reload').onclick=load;for(const id of ['school','year','class','subject','lesson'])$(id).onchange=render;
-document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$(b.dataset.close).close());
-$('plan-open').onclick=()=>{const a=selectedLesson();if(!a)return;$('plan-title').value=a.titulo;$('plan-date').value=a.data_planejada.slice(0,10);$('plan-status').textContent='';$('plan-dialog').showModal();};$('plan-form').onsubmit=async e=>{e.preventDefault();const a=selectedLesson();try{const d=await api({acao:'planejamento',aula_id:a.id,titulo:$('plan-title').value,data_prevista:$('plan-date').value,objetivos:$('plan-objectives').value,metodologia:$('plan-method').value,avaliacao:$('plan-evaluation').value});$('plan-status').textContent=d.mensagem;await load();}catch(e){$('plan-status').textContent=e.message;}};
-function csv(text){let rows=[],row=[],cell='',quote=false;for(let i=0;i<text.length;i++){const c=text[i];if(c==='"'){if(quote&&text[i+1]==='"'){cell+='"';i++;}else quote=!quote;}else if(!quote&&(c===','||c===';'||c==='\n'||c==='\r')){row.push(cell.trim());cell='';if(c==='\n'||c==='\r'){if(row.some(Boolean))rows.push(row);row=[];if(c==='\r'&&text[i+1]==='\n')i++;}}else cell+=c;}if(quote)throw Error('Aspas não fechadas no CSV.');row.push(cell.trim());if(row.some(Boolean))rows.push(row);const head=rows.shift()?.map(h=>h.replace(/^\uFEFF/,'').toLowerCase());if(!head?.includes('nome')||!head.includes('codigo'))throw Error('Use cabeçalhos nome,codigo e aluno_id opcional.');return rows.map(r=>({nome:r[head.indexOf('nome')],codigo:r[head.indexOf('codigo')],...(head.includes('aluno_id')&&r[head.indexOf('aluno_id')]?{aluno_id:r[head.indexOf('aluno_id')]}:{})}));}
-$('import-open').onclick=()=>{$('import-status').textContent='Selecione um CSV para conferir.';$('import-preview').textContent='';$('import-confirm').disabled=true;roster=null;$('import-dialog').showModal();};$('roster-file').onchange=async()=>{try{const f=$('roster-file').files[0];if(!f||f.size>160000)throw Error('Use um CSV de até 160 KB.');roster=csv(await f.text());const d=await api({acao:'prever_chamada',aula_id:selectedLesson().id,alunos:roster});$('import-preview').textContent=d.previa.map(x=>x.codigo+' | '+x.nome+' | '+x.estado).join('\n');$('import-confirm').disabled=!d.pode_confirmar;$('import-status').textContent=d.pode_confirmar?'Confira nomes, códigos e identidades antes de confirmar.':'Há identidade anterior a revisar. Peça à escola o aluno_id confirmado.';}catch(e){$('import-status').textContent=e.message;$('import-confirm').disabled=true;}};
-$('import-confirm').onclick=async()=>{try{$('import-confirm').disabled=true;const d=await api({acao:'importar_chamada',aula_id:selectedLesson().id,alunos:roster,confirmado:true});$('import-status').textContent=d.mensagem;await load();}catch(e){$('import-status').textContent=e.message;}};
-if(session)load();else show('login');
+(() => {
+  "use strict";
+  const C = window.DocenteConfig,
+    $ = (id) => document.getElementById(id),
+    make = (tag, text) => {
+      const n = document.createElement(tag);
+      if (text !== undefined) n.textContent = text;
+      return n;
+    };
+  let session = null,
+    D = null,
+    editing = null,
+    roster = null,
+    contexts = [],
+    generation = 0;
+  const SESSION_KEY = "aa:docente:auth",
+    REMEMBER_KEY = "aa:docente:remember";
+  let keepConnected = false;
+  try {
+    keepConnected = localStorage.getItem(REMEMBER_KEY) === "yes";
+    session = JSON.parse(
+      (keepConnected ? localStorage : sessionStorage).getItem(SESSION_KEY) ||
+        "null",
+    );
+  } catch {
+    session = null;
+    keepConnected = false;
+  }
+  function persistSession() {
+    if (!session) return;
+    const target = keepConnected ? localStorage : sessionStorage,
+      other = keepConnected ? sessionStorage : localStorage;
+    other.removeItem(SESSION_KEY);
+    target.setItem(SESSION_KEY, JSON.stringify(session));
+    if (keepConnected) localStorage.setItem(REMEMBER_KEY, "yes");
+    else localStorage.removeItem(REMEMBER_KEY);
+  }
+  $("remember-login").checked = keepConnected;
+  const date = (v) =>
+    v
+      ? new Intl.DateTimeFormat("pt-BR", {
+          timeZone: "America/Sao_Paulo",
+        }).format(new Date(v))
+      : "";
+  async function auth(path, body, token) {
+    const r = await fetch(C.url + "/auth/v1/" + path, {
+      method: "POST",
+      headers: {
+        apikey: C.key,
+        "Content-Type": "application/json",
+        ...(token ? { Authorization: "Bearer " + token } : {}),
+      },
+      body: JSON.stringify(body),
+    });
+    const d = await r.json().catch(() => ({}));
+    if (d.access_token && !d.expires_at)
+      d.expires_at = Math.floor(Date.now() / 1000) + (d.expires_in || 3600);
+    if (!r.ok)
+      throw Error(
+        d.msg ||
+          d.error_description ||
+          d.message ||
+          "Não foi possível autenticar.",
+      );
+    return d;
+  }
+  async function refresh() {
+    const version = generation,
+      current = session;
+    if (!current) throw Error("Sessão encerrada.");
+    if (current.expires_at * 1000 > Date.now() + 30000) return;
+    const d = await auth("token?grant_type=refresh_token", {
+      refresh_token: current.refresh_token,
+    });
+    if (version !== generation || session !== current)
+      throw Error("Sessão encerrada.");
+    session = d;
+    persistSession();
+  }
+  async function api(body) {
+    await refresh();
+    const r = await fetch(C.endpoint, {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + session.access_token,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    });
+    const d = await r.json();
+    if (!r.ok || !d.ok) throw Error(d.mensagem || "Operação sem confirmação.");
+    return d;
+  }
+  function show(id) {
+    for (const k of ["login", "pending", "dashboard"]) $(k).hidden = k !== id;
+    $("logout").hidden = id === "login";
+  }
+  function oauthReturn() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    if (!p.get("access_token")) return false;
+    session = {
+      access_token: p.get("access_token"),
+      refresh_token: p.get("refresh_token"),
+      expires_at:
+        Math.floor(Date.now() / 1000) + Number(p.get("expires_in") || 3600),
+    };
+    history.replaceState(null, "", location.pathname + location.search);
+    keepConnected = true;
+    persistSession();
+    return true;
+  }
+  $("google-login").onclick = () => {
+    const redirect = location.origin + location.pathname;
+    location.href =
+      C.url +
+      "/auth/v1/authorize?provider=google&redirect_to=" +
+      encodeURIComponent(redirect);
+  };
+  async function load() {
+    const version = generation;
+    try {
+      const d = await api({ acao: "painel" });
+      if (version !== generation || !session) return;
+      $("account").textContent = d.email || "";
+      if (d.estado === "aguardando_autorizacao") {
+        show("pending");
+        $("pending-message").textContent =
+          d.mensagem || "O responsável precisa autorizar seu vínculo.";
+        const c = await api({ acao: "contextos" });
+        contexts = c.contextos;
+        $("request-context").replaceChildren(
+          new Option("Selecione o contexto", ""),
+          ...contexts.map(
+            (x, i) =>
+              new Option(
+                x.escola + " · " + x.ano_letivo + " · turma " + x.turma,
+                String(i),
+              ),
+          ),
+        );
+        return;
+      }
+      D = d;
+      show("dashboard");
+      fillFilters();
+      renderScopes();
+      render();
+      api({ acao: "contextos" })
+        .then((v) => {
+          contexts = v.contextos;
+          $("additional-context").replaceChildren(
+            new Option("Selecione", ""),
+            ...contexts.map(
+              (c, i) =>
+                new Option(
+                  c.escola + " · " + c.ano_letivo + " · turma " + c.turma,
+                  String(i),
+                ),
+            ),
+          );
+        })
+        .catch(() => {
+          $("additional-request-status").textContent =
+            "Não foi possível listar as turmas.";
+        });
+    } catch (e) {
+      if (version !== generation) return;
+      if (!D) {
+        show("login");
+        $("login-status").textContent = e.message;
+      } else $("dashboard-status").textContent = e.message;
+    }
+  }
+  function renderScopes() {
+    const root = $("scope-list");
+    root.replaceChildren();
+    for (const s of D.escopos || []) {
+      const row = make(
+        "p",
+        `${s.escola || "Escola"} · ${s.ano_letivo} · ${s.papel === "gestor" ? "Gestão escolar" : "Turma " + (D.aulas.find((a) => a.turma_id === s.turma_id)?.turma || "vinculada") + " · " + s.componente}`,
+      );
+      row.className = "scope-item";
+      root.append(row);
+    }
+    if (!root.childNodes.length) root.textContent = "Nenhum vínculo ativo.";
+  }
+  function fill(id, values, label) {
+    const old = $(id).value;
+    $(id).replaceChildren(
+      new Option(label, ""),
+      ...[...new Set(values)]
+        .sort((a, b) =>
+          String(a).localeCompare(String(b), "pt-BR", { numeric: true }),
+        )
+        .map((v) => new Option(v, v)),
+    );
+    if ([...$(id).options].some((o) => o.value === old)) $(id).value = old;
+  }
+  function fillFilters() {
+    fill(
+      "school",
+      D.aulas.map((a) => a.escola),
+      "Todas as escolas",
+    );
+    fill(
+      "year",
+      D.aulas.map((a) => a.ano_letivo),
+      "Todos os anos",
+    );
+    fill(
+      "class",
+      D.aulas.map((a) => a.turma),
+      "Todas as turmas",
+    );
+    fill(
+      "subject",
+      D.aulas.map((a) => a.componente),
+      "Todas as matérias",
+    );
+    const old = $("lesson").value;
+    $("lesson").replaceChildren(
+      new Option("Todas as aulas", ""),
+      ...D.aulas.map(
+        (a) =>
+          new Option(a.titulo + " · " + a.turma + " · " + a.ano_letivo, a.id),
+      ),
+    );
+    $("lesson").value = old;
+  }
+  function lessons() {
+    return D.aulas.filter(
+      (a) =>
+        (!$("school").value || a.escola === $("school").value) &&
+        (!$("year").value || String(a.ano_letivo) === $("year").value) &&
+        (!$("class").value || a.turma === $("class").value) &&
+        (!$("subject").value || a.componente === $("subject").value) &&
+        (!$("lesson").value || a.id === $("lesson").value),
+    );
+  }
+  function latest(r) {
+    return D.pareceres
+      .filter(
+        (p) => p.aula_id === r.aula_id && p.matricula_id === r.matricula_id,
+      )
+      .sort(
+        (a, b) =>
+          Number(D.escopos.some((s) => s.professor_id === b.professor_id)) -
+            Number(D.escopos.some((s) => s.professor_id === a.professor_id)) ||
+          String(b.criado_em).localeCompare(String(a.criado_em)),
+      )[0];
+  }
+  function situation(r) {
+    return r.situacao !== "previsto"
+      ? r.situacao
+      : r.relatorio_id
+        ? "Concluído com relatório"
+        : r.tentativas > 0
+          ? "Em andamento"
+          : r.sessoes > 0
+            ? "Entrada recebida · sem tentativa"
+            : "Sem registro recebido";
+  }
+  function pref(r) {
+    const f = r.preferencias?.font;
+    return (
+      [
+        f
+          ? "Fonte selecionada: " +
+            ({
+              dyslexic: "OpenDyslexic",
+              system: "padrão",
+              serif: "serifada",
+              mono: "monoespaçada",
+            }[f] || f)
+          : null,
+        r.experiencia?.answers?.fonte,
+      ]
+        .filter(Boolean)
+        .join(" · ") || "Não coletada"
+    );
+  }
+  function canEdit(a) {
+    return D.escopos.some(
+      (s) =>
+        s.papel === "professor" &&
+        s.escola_id === a.escola_id &&
+        s.ano_letivo === a.ano_letivo &&
+        s.turma_id === a.turma_id &&
+        s.componente === a.componente,
+    );
+  }
+  function selectedLesson() {
+    return D.aulas.find((a) => a.id === $("lesson").value);
+  }
+  function render() {
+    const aulas = lessons(),
+      ids = new Set(aulas.map((a) => a.id));
+    const free = (D.sessoes_livres || []).filter((s) => ids.has(s.aula_id));
+    $("free-rows").replaceChildren();
+    for (const s of free) {
+      const tr = make("tr");
+      const aula = D.aulas.find((a) => a.id === s.aula_id);
+      for (const value of [
+        s.nome_declarado,
+        s.turma_declarada,
+        aula?.titulo || "Aula",
+        date(s.iniciada_em),
+        date(s.ultima_interacao_em),
+        s.eventos,
+        s.percursos_concluidos === null
+          ? s.estado === "concluida"
+            ? "Encerrada sem relatório de percursos"
+            : "Em andamento — sem relatório de percursos"
+          : `${s.percursos_concluidos}/${s.percursos_total} percursos`,
+      ])
+        tr.append(make("td", String(value ?? "—")));
+      $("free-rows").append(tr);
+    }
+    $("free-empty").textContent = free.length
+      ? "Verifique a identificação declarada antes de associar a uma matrícula."
+      : "Nenhuma entrada sem login recebida neste recorte.";
+    const rows = D.registros.filter((r) => ids.has(r.aula_id)),
+      expected = rows.filter((r) => r.situacao === "previsto"),
+      done = expected.filter((r) => r.relatorio_id).length,
+      started = expected.filter(
+        (r) => r.tentativas > 0 || r.relatorio_id,
+      ).length,
+      missing = expected.filter(
+        (r) => r.sessoes === 0 && !r.relatorio_id,
+      ).length;
+    $("m-expected").textContent = expected.length;
+    $("m-started").textContent = started;
+    $("m-done").textContent = done;
+    $("m-pending").textContent = missing;
+    $("print-context").textContent =
+      [
+        ...new Set(
+          aulas.map(
+            (a) =>
+              a.escola +
+              " · " +
+              a.ano_letivo +
+              " · turma " +
+              a.turma +
+              " · " +
+              a.componente,
+          ),
+        ),
+      ].join(" | ") +
+      " · consulta em " +
+      date(new Date());
+    const bars = $("progress-chart");
+    bars.replaceChildren();
+    for (const [label, n] of [
+      ["Concluídos", done],
+      ["Em andamento / entrada", expected.length - done - missing],
+      ["Sem registro", missing],
+    ])
+      if (n) {
+        const x = make("span", label + ": " + n);
+        x.style.flex = String(n);
+        bars.append(x);
+      }
+    const tbody = $("grades").querySelector("tbody");
+    tbody.replaceChildren();
+    for (const r of rows) {
+      const a = D.aulas.find((a) => a.id === r.aula_id),
+        tr = make("tr"),
+        name = make("td", r.nome);
+      name.append(make("small", r.codigo_interno + " · " + a.titulo));
+      const p = latest(r);
+      tr.append(
+        name,
+        make("td", situation(r)),
+        make("td", r.tentativas + " / " + r.pistas),
+        make(
+          "td",
+          r.nota_indicador === null
+            ? "—"
+            : Number(r.nota_indicador).toLocaleString("pt-BR") + " / 10",
+        ),
+        make(
+          "td",
+          p?.revisado && p.nota_docente !== null
+            ? Number(p.nota_docente).toLocaleString("pt-BR")
+            : "—",
+        ),
+        make("td", pref(r)),
+      );
+      const td = make("td"),
+        button = make("button", p ? "Ver / editar" : "Preparar parecer");
+      td.className = "no-print";
+      button.onclick = () => openReport(r, a, p);
+      td.append(button);
+      tr.append(td);
+      tbody.append(tr);
+    }
+    $("empty-records").textContent = rows.length
+      ? "Notas docentes dependem da revisão do professor. Pareceres preservam versões anteriores."
+      : "Nenhuma lista de participantes neste recorte. Selecione uma aula e importe a chamada; ausência de lista não é turma sem alunos.";
+    $("plans").replaceChildren();
+    for (const a of aulas) {
+      const row = make("article");
+      row.className = "plan-row";
+      row.append(
+        make("strong", a.titulo),
+        make(
+          "small",
+          a.ano_letivo +
+            " · " +
+            a.turma +
+            " · " +
+            a.componente +
+            " · prevista: " +
+            date(a.data_planejada),
+        ),
+        make(
+          "p",
+          a.aplicada_em
+            ? "Aula dada · " +
+                (a.origem_aplicacao === "execucao_estudante"
+                  ? "execução de estudante recebida em "
+                  : "confirmada em ") +
+                date(a.aplicada_em)
+            : "Aplicação ainda não confirmada",
+        ),
+      );
+      for (const plan of D.planos.filter((p) => p.aula_id === a.id))
+        row.append(
+          make(
+            "p",
+            plan.titulo +
+              " · " +
+              date(plan.data_prevista) +
+              " · " +
+              plan.estado,
+          ),
+        );
+      $("plans").append(row);
+    }
+    if (!aulas.length)
+      $("plans").textContent =
+        "Não há aulas cadastradas nos vínculos autorizados.";
+    $("calendar").replaceChildren();
+    const calendar = D.calendarios.filter((c) =>
+      aulas.some(
+        (a) => a.escola_id === c.escola_id && a.ano_letivo === c.ano_letivo,
+      ),
+    );
+    for (const c of calendar)
+      $("calendar").append(
+        make(
+          "p",
+          c.titulo +
+            " · " +
+            c.ano_letivo +
+            " · v" +
+            c.versao +
+            (c.data ? " · " + date(c.data) + " · " + c.descricao : ""),
+        ),
+      );
+    if (!calendar.length)
+      $("calendar").textContent =
+        "Calendário escolar ainda não importado e confirmado para este recorte.";
+    const target = selectedLesson();
+    $("import-open").disabled = !target || !canEdit(target);
+    $("plan-open").disabled = !target || !canEdit(target);
+    $("dashboard-status").textContent = target
+      ? "Aula selecionada: " + target.titulo
+      : "Para importar uma chamada ou adicionar um plano, selecione uma aula específica.";
+  }
+  function draft(r, a) {
+    return `${r.nome} — ${a.componente}, turma ${a.turma}, ano letivo ${a.ano_letivo}.\n\nNo recorte da aula “${a.titulo}”, a situação registrada é: ${situation(r)}. ${r.relatorio_id ? `O relatório informa ${r.acertos_iniciais} primeiras respostas corretas em ${r.percursos_total} percursos, com indicador de ${r.nota_indicador}/10.` : "Ainda não há relatório final recebido; isso não permite concluir ausência ou não realização."}\n\nForam recebidos ${r.tentativas} registros de tentativas e ${r.pistas} de pistas. ${pref(r)}. Essas informações são descritivas e devem ser relacionadas à observação do professor.\n\nAcompanhamento proposto pelo professor: [editar conforme as evidências da aula].`;
+  }
+  function openReport(r, a, p) {
+    editing = { r, a };
+    $("report-student").textContent =
+      r.nome + " · " + a.componente + " · " + a.ano_letivo;
+    $("report-text").value = p?.texto || draft(r, a);
+    $("teacher-grade").value = p?.nota_docente ?? "";
+    $("reviewed").checked = p?.revisado || false;
+    $("report-status").textContent = "";
+    const editable = canEdit(a);
+    $("report-form").querySelector(
+      "button[type=submit],button:not([type])",
+    ).disabled = !editable;
+    $("report-text").readOnly = !editable;
+    $("teacher-grade").disabled = !editable;
+    $("reviewed").disabled = !editable;
+    $("report-editor").showModal();
+  }
+  $("login-form").onsubmit = async (e) => {
+    e.preventDefault();
+    $("login-status").textContent = "Entrando…";
+    try {
+      const d = await auth("token?grant_type=password", {
+        email: $("email").value.trim(),
+        password: $("password").value,
+      });
+      generation++;
+      session = d;
+      keepConnected = $("remember-login").checked;
+      persistSession();
+      $("password").value = "";
+      await load();
+    } catch (e) {
+      $("login-status").textContent = e.message;
+    }
+  };
+  $("activate").onclick = async () => {
+    if (!$("login-form").reportValidity()) return;
+    const codigo = $("activation-code").value.trim();
+    if (!/^[0-9a-f]{64}$/.test(codigo)) {
+      $("login-status").textContent =
+        "Informe o convite individual recebido do responsável.";
+      return;
+    }
+    $("login-status").textContent = "Ativando acesso autorizado…";
+    try {
+      const r = await fetch(C.endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          acao: "ativar",
+          email: $("email").value.trim(),
+          password: $("password").value,
+          codigo,
+        }),
+      });
+      const d = await r.json();
+      $("login-status").textContent = d.mensagem || "Ativação sem confirmação.";
+      if (d.ok) {
+        $("password").value = "";
+        $("activation-code").value = "";
+      }
+    } catch (e) {
+      $("login-status").textContent =
+        "Não foi possível confirmar a ativação. Contate o responsável antes de repetir.";
+    }
+  };
+  let recoveryToken = null;
+  $("forgot-password").onclick = async () => {
+    const email = $("email").value.trim();
+    if (!email || !$("email").checkValidity()) {
+      $("login-status").textContent = "Digite primeiro seu e-mail cadastrado.";
+      return;
+    }
+    const button = $("forgot-password");
+    button.disabled = true;
+    try {
+      await auth(
+        "recover?redirect_to=" +
+          encodeURIComponent(location.origin + location.pathname),
+        { email },
+      );
+      $("login-status").textContent =
+        "Se o e-mail estiver cadastrado, você receberá instruções para redefinir sua senha. Confira também a caixa de spam.";
+    } catch {
+      $("login-status").textContent =
+        "Não foi possível concluir a solicitação. Confira a conexão ou procure o responsável.";
+    } finally {
+      button.disabled = false;
+    }
+  };
+  (function detectRecovery() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    if (p.get("type") !== "recovery" || !p.get("access_token")) return;
+    recoveryToken = p.get("access_token");
+    history.replaceState(null, "", location.pathname + location.search);
+    $("password-dialog").showModal();
+  })();
+  $("password-form").onsubmit = async (e) => {
+    e.preventDefault();
+    if (!recoveryToken) return;
+    $("password-status").textContent = "Atualizando senha…";
+    try {
+      const r = await fetch(C.url + "/auth/v1/user", {
+        method: "PUT",
+        headers: {
+          apikey: C.key,
+          Authorization: "Bearer " + recoveryToken,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ password: $("new-password").value }),
+      });
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok)
+        throw Error(d.msg || d.message || "Não foi possível redefinir.");
+      recoveryToken = null;
+      $("new-password").value = "";
+      $("password-status").textContent =
+        "Senha atualizada. Feche esta janela e entre novamente.";
+    } catch (err) {
+      $("password-status").textContent = err.message;
+    }
+  };
+  $("logout").onclick = async () => {
+    const token = session?.access_token;
+    generation++;
+    session = null;
+    D = null;
+    editing = null;
+    roster = null;
+    contexts = [];
+    sessionStorage.removeItem(SESSION_KEY);
+    localStorage.removeItem(SESSION_KEY);
+    localStorage.removeItem(REMEMBER_KEY);
+    keepConnected = false;
+    $("remember-login").checked = false;
+    for (const dialog of document.querySelectorAll("dialog[open]"))
+      dialog.close();
+    $("grades").querySelector("tbody").replaceChildren();
+    for (const id of [
+      "plans",
+      "calendar",
+      "import-preview",
+      "report-student",
+      "account",
+    ])
+      $(id).textContent = "";
+    $("report-text").value = "";
+    $("teacher-grade").value = "";
+    show("login");
+    try {
+      if (token) await auth("logout?scope=local", {}, token);
+    } catch {}
+  };
+  $("additional-request-form").onsubmit = async (e) => {
+    e.preventDefault();
+    const c = contexts[Number($("additional-context").value)];
+    if (!c) {
+      $("additional-request-status").textContent = "Selecione uma turma.";
+      return;
+    }
+    const materias = [
+      ...new Set(
+        $("additional-subjects")
+          .value.split(/[;,\n]+/)
+          .map((x) => x.trim())
+          .filter(Boolean),
+      ),
+    ];
+    if (
+      materias.length < 1 ||
+      materias.length > 12 ||
+      materias.some((x) => x.length > 120)
+    ) {
+      $("additional-request-status").textContent =
+        "Informe de 1 a 12 matérias válidas.";
+      return;
+    }
+    const btn = $("additional-request-form").querySelector("button");
+    btn.disabled = true;
+    let done = [];
+    try {
+      for (const componente of materias) {
+        await api({
+          acao: "solicitar",
+          escola_id: c.escola_id,
+          turma_id: c.turma_id,
+          ano_letivo: c.ano_letivo,
+          componente,
+        });
+        done.push(componente);
+      }
+      $("additional-request-status").textContent =
+        "Solicitações enviadas: " +
+        done.join(", ") +
+        ". Aguarde aprovação individual.";
+    } catch (err) {
+      $("additional-request-status").textContent =
+        "Registradas: " + (done.join(", ") || "nenhuma") + ". " + err.message;
+    } finally {
+      btn.disabled = false;
+    }
+  };
+  $("request-form").onsubmit = async (e) => {
+    e.preventDefault();
+    const c = contexts[Number($("request-context").value)];
+    if (!c) return;
+    const materias = [
+      ...new Set(
+        $("request-subject")
+          .value.split(/[;,\n]+/)
+          .map((s) => s.trim())
+          .filter(Boolean),
+      ),
+    ];
+    if (
+      !materias.length ||
+      materias.length > 12 ||
+      materias.some((x) => x.length > 120)
+    ) {
+      $("pending-status").textContent =
+        "Informe de 1 a 12 disciplinas válidas, separadas por vírgula ou ponto e vírgula.";
+      return;
+    }
+    const btn = $("request-form").querySelector("button");
+    btn.disabled = true;
+    let ok = [];
+    try {
+      for (const componente of materias) {
+        await api({
+          acao: "solicitar",
+          escola_id: c.escola_id,
+          turma_id: c.turma_id,
+          ano_letivo: c.ano_letivo,
+          componente,
+        });
+        ok.push(componente);
+      }
+      $("pending-status").textContent =
+        "Solicitações registradas para: " +
+        ok.join(", ") +
+        ". A aprovação de cada vínculo é individual.";
+    } catch (e) {
+      $("pending-status").textContent =
+        "Registradas: " + (ok.join(", ") || "nenhuma") + ". Erro: " + e.message;
+    } finally {
+      btn.disabled = false;
+    }
+  };
+  $("report-form").onsubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const d = await api({
+        acao: "parecer",
+        aula_id: editing.a.id,
+        matricula_id: editing.r.matricula_id,
+        texto: $("report-text").value,
+        nota_docente:
+          $("teacher-grade").value === ""
+            ? null
+            : Number($("teacher-grade").value),
+        revisado: $("reviewed").checked,
+      });
+      $("report-status").textContent = d.mensagem;
+      await load();
+    } catch (e) {
+      $("report-status").textContent = e.message;
+    }
+  };
+  $("print").onclick = () => {
+    document.body.classList.remove("print-report");
+    window.print();
+  };
+  $("print-report").onclick = () => {
+    document.body.classList.add("print-report");
+    $("report-text").style.height = $("report-text").scrollHeight + "px";
+    window.print();
+    document.body.classList.remove("print-report");
+  };
+  $("reload").onclick = load;
+  for (const id of ["school", "year", "class", "subject", "lesson"])
+    $(id).onchange = render;
+  document
+    .querySelectorAll("[data-close]")
+    .forEach((b) => (b.onclick = () => $(b.dataset.close).close()));
+  $("plan-open").onclick = () => {
+    const a = selectedLesson();
+    if (!a) return;
+    $("plan-title").value = a.titulo;
+    $("plan-date").value = a.data_planejada.slice(0, 10);
+    $("plan-status").textContent = "";
+    $("plan-dialog").showModal();
+  };
+  $("plan-form").onsubmit = async (e) => {
+    e.preventDefault();
+    const a = selectedLesson();
+    try {
+      const d = await api({
+        acao: "planejamento",
+        aula_id: a.id,
+        titulo: $("plan-title").value,
+        data_prevista: $("plan-date").value,
+        objetivos: $("plan-objectives").value,
+        metodologia: $("plan-method").value,
+        avaliacao: $("plan-evaluation").value,
+      });
+      $("plan-status").textContent = d.mensagem;
+      await load();
+    } catch (e) {
+      $("plan-status").textContent = e.message;
+    }
+  };
+  function csv(text) {
+    let rows = [],
+      row = [],
+      cell = "",
+      quote = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (c === '"') {
+        if (quote && text[i + 1] === '"') {
+          cell += '"';
+          i++;
+        } else quote = !quote;
+      } else if (
+        !quote &&
+        (c === "," || c === ";" || c === "\n" || c === "\r")
+      ) {
+        row.push(cell.trim());
+        cell = "";
+        if (c === "\n" || c === "\r") {
+          if (row.some(Boolean)) rows.push(row);
+          row = [];
+          if (c === "\r" && text[i + 1] === "\n") i++;
+        }
+      } else cell += c;
+    }
+    if (quote) throw Error("Aspas não fechadas no CSV.");
+    row.push(cell.trim());
+    if (row.some(Boolean)) rows.push(row);
+    const head = rows
+      .shift()
+      ?.map((h) => h.replace(/^\uFEFF/, "").toLowerCase());
+    if (!head?.includes("nome") || !head.includes("codigo"))
+      throw Error("Use cabeçalhos nome,codigo e aluno_id opcional.");
+    return rows.map((r) => ({
+      nome: r[head.indexOf("nome")],
+      codigo: r[head.indexOf("codigo")],
+      ...(head.includes("aluno_id") && r[head.indexOf("aluno_id")]
+        ? { aluno_id: r[head.indexOf("aluno_id")] }
+        : {}),
+    }));
+  }
+  $("import-open").onclick = () => {
+    $("import-status").textContent = "Selecione um CSV para conferir.";
+    $("import-preview").textContent = "";
+    $("import-confirm").disabled = true;
+    roster = null;
+    $("import-dialog").showModal();
+  };
+  $("roster-file").onchange = async () => {
+    try {
+      const f = $("roster-file").files[0];
+      if (!f || f.size > 160000) throw Error("Use um CSV de até 160 KB.");
+      roster = csv(await f.text());
+      const d = await api({
+        acao: "prever_chamada",
+        aula_id: selectedLesson().id,
+        alunos: roster,
+      });
+      $("import-preview").textContent = d.previa
+        .map((x) => x.codigo + " | " + x.nome + " | " + x.estado)
+        .join("\n");
+      $("import-confirm").disabled = !d.pode_confirmar;
+      $("import-status").textContent = d.pode_confirmar
+        ? "Confira nomes, códigos e identidades antes de confirmar."
+        : "Há identidade anterior a revisar. Peça à escola o aluno_id confirmado.";
+    } catch (e) {
+      $("import-status").textContent = e.message;
+      $("import-confirm").disabled = true;
+    }
+  };
+  $("import-confirm").onclick = async () => {
+    try {
+      $("import-confirm").disabled = true;
+      const d = await api({
+        acao: "importar_chamada",
+        aula_id: selectedLesson().id,
+        alunos: roster,
+        confirmado: true,
+      });
+      $("import-status").textContent = d.mensagem;
+      await load();
+    } catch (e) {
+      $("import-status").textContent = e.message;
+    }
+  };
+  if (session) load();
+  else show("login");
 })();

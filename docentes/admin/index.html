@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Administração · Arquiteturas da Aprendizagem</title>
+    <link rel="stylesheet" href="admin.css?v=1" />
+    <script defer src="../area/config.js"></script>
+    <script defer src="admin.js?v=1"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../../">← Escola de caminhos</a
+      ><strong>Administração sênior</strong><span id="account"></span
+      ><button id="logout" class="ghost" hidden>Sair</button>
+    </header>
+    <main>
+      <section id="login" class="card login">
+        <p class="eyebrow">ACESSO PRIVADO</p>
+        <h1>Administração da escola</h1>
+        <p>
+          Entre com um dos e-mails administrativos autorizados. Toda ação é
+          verificada no servidor e registrada em auditoria.
+        </p>
+        <form id="login-form">
+          <label
+            >E-mail<input
+              id="email"
+              type="email"
+              required
+              autocomplete="username" /></label
+          ><label
+            >Senha<input
+              id="password"
+              type="password"
+              minlength="12"
+              required
+              autocomplete="current-password" /></label
+          ><label class="check"
+            ><input id="remember" type="checkbox" /> Manter sessão neste
+            dispositivo</label
+          ><button>Entrar na administração</button>
+        </form>
+        <button type="button" id="google-login" class="secondary">
+          Entrar com Google
+        </button>
+        <p id="login-status" class="status" role="status"></p>
+        <p class="muted">
+          A conta Google precisa ser um dos e-mails administrativos autorizados.
+          Não use esta página em computador compartilhado. A área não publica
+          listas, senhas ou dados de estudantes.
+        </p>
+      </section>
+      <section id="denied" class="card login" hidden>
+        <p class="eyebrow">SEM AUTORIZAÇÃO</p>
+        <h1>Conta autenticada, mas sem papel administrativo.</h1>
+        <p id="denied-status">
+          Solicite ao administrador sênior a inclusão do seu e-mail.
+        </p>
+      </section>
+      <section id="app" hidden>
+        <div class="intro">
+          <div>
+            <p class="eyebrow">CONTROLE E ACOMPANHAMENTO</p>
+            <h1>Painel administrativo</h1>
+            <p>
+              Visão global de acesso, escolas, turmas e uso pedagógico. Os
+              indicadores de interação são descritivos; não são diagnóstico
+              cognitivo nem ranking.
+            </p>
+          </div>
+          <button id="reload" class="secondary">Atualizar dados</button>
+        </div>
+        <div id="metrics" class="metrics"></div>
+        <section class="grid">
+          <article class="card">
+            <h2>Atividade registrada</h2>
+            <p class="muted">
+              Tempo é tempo entre início e último recebimento no servidor, não
+              tempo de atenção.
+            </p>
+            <div id="activity" class="activity"></div>
+          </article>
+          <article class="card">
+            <h2>Ações rápidas</h2>
+            <div class="actions">
+              <button id="show-invite">Emitir convite docente</button
+              ><button id="show-reset" class="secondary">
+                Gerar recuperação de acesso
+              </button>
+            </div>
+            <p id="action-status" class="status" role="status"></p>
+            <pre id="secret-output" class="secret" hidden></pre>
+          </article>
+        </section>
+        <section class="card">
+          <div class="section-head">
+            <h2>Solicitações pendentes</h2>
+            <span id="request-count" class="pill"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Professor</th>
+                  <th>Escola / turma</th>
+                  <th>Ano</th>
+                  <th>Componente</th>
+                  <th>Ação</th>
+                </tr>
+              </thead>
+              <tbody id="requests"></tbody>
+            </table>
+          </div>
+          <p id="requests-empty" class="muted"></p>
+        </section>
+        <section class="grid">
+          <article class="card">
+            <div class="section-head">
+              <h2>Convites e autorizações</h2>
+              <span id="invite-count" class="pill"></span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>E-mail</th>
+                    <th>Escopo</th>
+                    <th>Estado</th>
+                    <th>Ação</th>
+                  </tr>
+                </thead>
+                <tbody id="invites"></tbody>
+              </table>
+            </div>
+          </article>
+          <article class="card">
+            <h2>Auditoria recente</h2>
+            <div id="audit" class="audit"></div>
+          </article>
+        </section>
+        <section class="card">
+          <div class="section-head">
+            <h2>Escolas e turmas</h2>
+            <div>
+              <select id="school-filter">
+                <option value="">Todas as escolas</option>
+              </select>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Escola</th>
+                  <th>Turma</th>
+                  <th>Ano</th>
+                  <th>Etapa / série</th>
+                  <th>Alunos</th>
+                </tr>
+              </thead>
+              <tbody id="classes"></tbody>
+            </table>
+          </div>
+        </section>
+        <dialog id="invite-dialog">
+          <form id="invite-form">
+            <h2>Emitir convite docente</h2>
+            <p class="muted">
+              O código aparece uma única vez. Envie-o por canal privado; nunca
+              coloque em GitHub ou chat público.
+            </p>
+            <label
+              >E-mail do professor<input
+                id="invite-email"
+                type="email"
+                required /></label
+            ><label
+              >Professor cadastrado<select
+                id="invite-professor"
+                required
+              ></select></label
+            ><label>Escola<select id="invite-school" required></select></label
+            ><label>Turma<select id="invite-class" required></select></label
+            ><label
+              >Componente<input
+                id="invite-subject"
+                maxlength="120"
+                required
+                placeholder="Ex.: História"
+            /></label>
+            <p id="invite-status" class="status"></p>
+            <div class="actions">
+              <button>Gerar código</button
+              ><button
+                type="button"
+                data-close="invite-dialog"
+                class="secondary"
+              >
+                Fechar
+              </button>
+            </div>
+          </form>
+        </dialog>
+        <dialog id="reset-dialog">
+          <form id="reset-form">
+            <h2>Recuperar acesso</h2>
+            <p class="muted">
+              Gera um link de recuperação para envio por canal privado. Não
+              altera a senha diretamente.
+            </p>
+            <label
+              >E-mail da conta<input id="reset-email" type="email" required
+            /></label>
+            <p id="reset-status" class="status"></p>
+            <div class="actions">
+              <button>Gerar link</button
+              ><button
+                type="button"
+                data-close="reset-dialog"
+                class="secondary"
+              >
+                Fechar
+              </button>
+            </div>
+          </form>
+        </dialog>
+      </section>
+    </main>
+  </body>
+</html>
