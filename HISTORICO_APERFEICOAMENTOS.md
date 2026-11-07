@@ -3,6 +3,14 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.7.0 — 07/11/2026 — Circuitos de descobertas, perfis etários e retorno rastreável
+O professor solicitou implantação concreta da exposição em circuitos, com aparência adaptada à idade: aventura acolhedora no 5º–6º, transição RPG no 7º, RPG contemporâneo no 8º–9º e investigação/simulação madura no Ensino Médio. A mesma maturidade visual deve ser preservada nos três caminhos; referências a Roblox e RPGs são apenas linguagem, sem cópia de marcas ou ativos.
+
+Implementado na fábrica: `automacoes/aulas/circuitos.py` constrói e valida contrato versionado com estações, cartões, perguntas, evidências e três pistas. A última pista contém alvos explícitos de estação e cartão; a validação rejeita IDs duplicados, referências inexistentes e retorno incoerente. `gerar.py` anexa o circuito ao HTML gerado e exibe estação/cartão essenciais e retorno contextual; `validar_gerados.py` e CI aplicam o contrato. O teste sintético do gerador demonstra pedido → circuito → HTML → catálogo; `testar_circuitos.py` rejeita alvo inválido.
+
+O motor público 2D/2.5D já existente nos pilotos 161 e 211 foi preservado. Não foi copiado motor privado, não foi criada coleta nova, não foram declarados testes de leitor de tela em dispositivo real e não se afirma publicação/Vercel até os workflows e URLs responderem após o commit.
+
+
 ## 3.6.0 — 06/11/2026 — Instruções, imagens didáticas, identidade visual e relatório dos apoios
 O professor solicitou relatório nas três alternativas e relatou que as páginas alternativas e de alfabetização estavam sem orientação, imagens didáticas ou apelo visual. Seção 36 torna explícitos exemplo resolvido, três passos, representação próxima da atividade, fundo temático removível, leitura breve e preservação de respostas. Duas ilustrações novas (oficina de frações e arquivo de pesquisa contemporâneo) são recursos de ambientação; modelos matemáticos e esquemas históricos são representações autorais distintas, sem apresentar ilustração como fonte histórica.
 
@@ -352,7 +360,6 @@ Solicitação do Prof. André Rodrigues: receber interações da página automat
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
-
 
 
 

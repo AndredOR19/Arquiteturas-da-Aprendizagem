@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.6.0**
-Atualização: **06/11/2026**
+Versão vigente: **3.7.0**
+Atualização: **07/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -248,7 +248,7 @@ Oferecer alternativa “Leitura simples”, reversível e sem apagar conteúdo, 
 Aplicação inicial: revisão visual das aulas de História 192 de 21/10 e 29/10/2026. Recursos em publicacao/lettering; ver conferência em aulas/VERIFICACAO_LETTERING_192.md. Essa alteração não amplia os percursos do legado de 21/10 nem implementa retroativamente funcionalidades de coleta/avaliação ausentes.
 
 ### 6.4. AACI — Território de Experiências, padrão de produção de 04/11/2026
-**Nome:** Arquitetura de Ambientes Cognitivos Interativos (AACI), versão documental 1.0.0, domínio pedagógico/interface. **Estado:** diretriz adotada para novas aulas por solicitação do autor; motor, conectores e eficácia permanecem sujeitos a implementação e validação. Não confundir adoção documental com homologação técnica.
+**Nome:** Arquitetura de Ambientes Cognitivos Interativos (AACI), versão documental 1.1.0, domínio pedagógico/interface. **Estado:** diretriz adotada; o contrato executável de circuito foi implementado na fábrica em `automacoes/aulas/circuitos.py` e é validado no fluxo de geração. Os pilotos 161 e 211 já possuem motor público 2D/2.5D de território; integração completa de conteúdo, coleta e publicação de cada nova aula ainda exige os testes e a conferência definidos abaixo. Não confundir contrato implementado com homologação pedagógica ou publicação.
 
 **Âncora:** a aula organiza operações de aprendizagem em ambientes conectados, com linguagem original de jogos de exploração. A unidade é a operação mental, não a página. Cada ambiente oferece uma experiência pertinente: observatório, laboratório, mapa, fonte histórica, painel de dados, narrativa, associação ou síntese. AEE permanece a estrutura explicativa; AIES orienta composição e ações; MACI, ARN e EPC orientam relações, retomada e transferência. Não criar siglas adicionais sem definição e registro.
 
@@ -262,6 +262,8 @@ Aplicação inicial: revisão visual das aulas de História 192 de 21/10 e 29/10
 - Conexão nomeada com outro ambiente e justificativa por evidência.
 - Pré-requisitos, condição de avanço, apoios graduados e alternativa equivalente.
 - Eventos realmente instrumentados e versão da aula/componente/rubrica.
+
+**Contrato mínimo da fábrica:** `schemaVersion`, `lessonId`, `contentVersion`, `visualProfile`, `route`, estações com cartões essenciais e IDs estáveis, perguntas com `evidenceCardIds` e três pistas graduadas. A última pista deve apontar explicitamente para uma estação e um cartão existentes; o retorno não pode ser escolhido por coincidência textual. A fábrica deriva o contrato a partir dos 32 percursos, valida referências e registra a faixa visual: 5º–6º aventura acolhedora, 7º transição RPG, 8º–9º RPG contemporâneo e Ensino Médio investigação madura. Apoio à leitura e Aprender de outro jeito mantêm a mesma maturidade visual, embora mudem a mediação.
 
 Conexão declarada não é automaticamente correta. Validar relações estruturadas por critérios verificáveis; respostas abertas ficam como evidência pendente de revisão docente, sem simular avaliação semântica. Oferecer seleção de evidência/explicação, imagem, teclado e apoio oral quando pertinente; texto livre não pode ser a única resposta. Uma visita, dois conectores preenchidos ou tempo de tela não liberam síntese por si. Preservar acerto para avanço nos percursos objetivos e avaliação final confirmada; exploração opcional não contorna pré-requisitos. Ações abertas devem ter estado de revisão explícito e não receber acerto automático.
 

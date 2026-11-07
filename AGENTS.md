@@ -33,6 +33,7 @@ Este é o repositório de referência pedagógica do Prof. André de Oliveira Ro
 - Integração estético-semântica: cumprir seção 6.2 do prompt. A linguagem do objeto participa da composição e das ações; sketchnote é uma possibilidade. Fundamentar escolhas, manter acesso e D/R/E/L, diferenciar produção didática e documento e conferir transferência além do estilo. Levar o briefing ao HTML, aos slides e aos demais suportes.
 - AEE + MACI + ARN + SVS + EPC + SSS, integradas em ASA.
 - 32 percursos curriculares; pistas graduadas; glossário e dicionário.
+- Circuitos de descobertas: novas aulas geradas devem carregar `circuito` versionado, com perfis 5º–6º acolhedor, 7º transição RPG, 8º–9º RPG contemporâneo ou Ensino Médio investigação madura; estações, cartões, IDs estáveis e última pista com retorno explícito. Validar com `python3 automacoes/aulas/testar_circuitos.py` e `validar_gerados.py`; não confundir contrato com homologação ou publicação.
 - Próximo percurso liberado somente após acerto; preservar tentativas e apoios.
 - Relatório completo, não somente nota; prévia, cópia e download. Ao final, botão “Enviar relatório ao professor” abre o aplicativo de e-mail com destinatário confirmado do solicitante, assunto e relatório completo preenchidos; o estudante confere e envia. Não exige backend de e-mail e não confirmar envio pelo simples clique. Consulte a seção 13 do prompt para limites e alternativas.
 - Guias e gabaritos docentes separados do material público; não usar senha no JavaScript como proteção.

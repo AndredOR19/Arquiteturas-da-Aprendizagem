@@ -6,6 +6,9 @@ import subprocess
 import tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
+import sys
+sys.path.insert(0, str(ROOT / 'automacoes/aulas'))
+from circuitos import validate_circuit
 manifest=json.loads((ROOT/'automacoes/aulas/ultima-geracao.json').read_text())
 catalog=json.loads((ROOT/'publicacao/catalogo.json').read_text())['materiais']
 assert manifest['estado']=='pronto_para_revisao' and manifest['artefatos']
@@ -18,6 +21,7 @@ for rel in manifest['artefatos']:
     data=json.loads(m.group(1))
     assert len(data['percursos'])==32
     assert all(len(p['alternativas'])==4 and 0<=p['correta']<4 for p in data['percursos'])
+    validate_circuit(data['circuito'], 32)
     with tempfile.TemporaryDirectory() as tmp:
         scripts=re.findall(r'<script>(.*?)</script>',html,re.S)
         assert scripts

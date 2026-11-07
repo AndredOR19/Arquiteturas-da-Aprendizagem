@@ -1,5 +1,5 @@
 # Prompt para outra IA — implantação do Território de Experiências
-Versão 1.0.0 — 04/11/2026 — Prof. André de Oliveira Rodrigues
+Versão 1.1.0 — 07/11/2026 — Prof. André de Oliveira Rodrigues
 
 Copie o texto deste documento para a IA que realizará a implementação.
 
@@ -17,6 +17,8 @@ Registre por capacidade: arquivo/versão, estado documentado/implementado/testad
 Separe schemas de conteúdo, renderização, skins, navegação, avaliação, armazenamento e conectores. Preserve URLs e aulas antigas. Use branch de trabalho com commits reversíveis; não force-push nem apague dados. Não publique aluno real em fixture, log, issue ou repositório. Confira licença de distribuição do motor privado antes de empacotar qualquer ativo público; produza somente bundle discente autorizado, sem material reservado.
 
 ## 3. Circuito de execução e critérios de aceite
+
+Na fábrica pública, o contrato mínimo está implementado em `automacoes/aulas/circuitos.py`. O comando `python automacoes/aulas/testar_circuitos.py` valida perfis etários, IDs, referências de cartões e o retorno da última pista; `validar_gerados.py` aplica a mesma validação a cada lote. Isso não substitui a conferência de interação dos pilotos nem homologa o motor privado.
 
 ### A. Contratos, catálogo e compilação
 Implemente schemas versionados e validação de aula, ambiente, skin, portal, rubrica e eventos. Ambientes exigem ID/versão, objetivo, entrada, ação, evidência/rubrica/feedback, conexão justificada, pré-requisitos, apoios e fallback. Valide unicidade, referências, ciclos indevidos de pré-requisitos, operações e requisitos. Diferencie links de relações conceituais de dependências de desbloqueio: relações podem ter ciclos; bloqueios não podem impedir conclusão. Inclua manifest com hash/versões da aula e componentes. Falha deve informar campo e motivo. Adapte o esquema existente; documente migração e compatibilidade. Crie comando único que valida dados e monta aula sem reescrever motor.

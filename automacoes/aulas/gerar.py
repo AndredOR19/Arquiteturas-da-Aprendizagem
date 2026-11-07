@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from exemplos import validar as validar_exemplos, renderizar as renderizar_exemplos
+from circuitos import build_circuit, validate_circuit
 
 def read(path):
     p=Path(path)
@@ -65,6 +66,7 @@ button{background:#ffe279;cursor:pointer;margin:5px}button:focus-visible,input:f
 <section id="entrada"><p>A atividade não registra presença nem envia dados automaticamente. O relatório será baixado ao final.</p>
 <label>Nome para o relatório <input id="nome" maxlength="100"></label><button id="iniciar">Iniciar</button></section>
 <section id="aula" class="esconder"><p><strong>Entender → Observar → Percursos → Explicar</strong></p>
+<section id="circuito" aria-label="Mapa de descobertas"><h2>Mapa de descobertas</h2><p id="estacao"></p><div id="estacoes"></div><p id="cartao" role="status"></p></section>
 <h2 id="contador"></h2><p id="contexto"></p><button id="voz">Ouvir</button>
 <fieldset><legend id="pergunta"></legend><div id="alternativas"></div></fieldset>
 <p id="feedback" role="status" aria-live="polite"></p><button id="seguir" disabled>Próximo percurso</button></section>
@@ -73,11 +75,11 @@ button{background:#ffe279;cursor:pointer;margin:5px}button:focus-visible,input:f
 <button id="baixar">Baixar relatório</button><p id="aviso" role="status"></p></section>
 </main><script id="dados" type="application/json">__DADOS__</script><script>
 (()=>{'use strict';const doc=JSON.parse(document.querySelector('#dados').textContent),$=id=>document.getElementById(id);
-let pos=0,erros=0,acertos=0,registros=[],nome='',inicio=0;
-function mostrar(){const q=doc.percursos[pos];$('contador').textContent='Percurso '+(pos+1)+' de 32';$('contexto').textContent=q.contexto;$('pergunta').textContent=q.pergunta;
+ let pos=0,erros=0,acertos=0,registros=[],nome='',inicio=0;
+ function mostrar(){const q=doc.percursos[pos],link=doc.circuito.questions[pos],station=doc.circuito.stations.find(s=>s.id===link.hints.at(-1).targetStationId),card=station.cards.find(c=>c.id===link.hints.at(-1).targetCardId);$('contador').textContent='Percurso '+(pos+1)+' de 32';$('contexto').textContent=q.contexto;$('pergunta').textContent=q.pergunta;$('estacao').textContent='Estação atual: '+station.title+' · ação: '+station.action;$('cartao').textContent='Cartão essencial: '+card.essential;
 $('alternativas').replaceChildren();$('seguir').disabled=true;$('feedback').textContent='Analise a situação antes de responder.';
 q.alternativas.forEach((o,i)=>{const b=document.createElement('button');b.className='opcao';b.textContent=String.fromCharCode(65+i)+'. '+o.texto;b.onclick=()=>{
-const certo=i===q.correta;registros.push({percurso:pos+1,alternativa:i+1,acerto:certo});$('feedback').textContent=o.feedback+(certo?' '+q.explicacao:' Relacione a evidência com outra possibilidade.');
+ const certo=i===q.correta;registros.push({percurso:pos+1,alternativa:i+1,acerto:certo});$('feedback').textContent=o.feedback+(certo?' '+q.explicacao:' Relacione a evidência com outra possibilidade. Pista disponível: volte à estação '+station.title+'.');
 if(certo){acertos++;$('seguir').disabled=false;[...$('alternativas').children].forEach(x=>x.disabled=true)}else{erros++;}
 };$('alternativas').appendChild(b)})}
 $('iniciar').onclick=()=>{nome=$('nome').value.trim();if(!nome){$('nome').focus();return}inicio=Date.now();$('entrada').classList.add('esconder');$('aula').classList.remove('esconder');mostrar()};
@@ -128,10 +130,16 @@ def main():
                 'A publicação integra o recurso compartilhado com no mínimo 57 percursos de apoio: '
                 'imagem-palavra, palavra-imagem, sílabas e frases em contexto, com áudio e mediação. '
                 'Nunca conte telas de instrução, tentativas ou repetição idêntica como novos percursos. '
+                'A aparência deve acompanhar a série: 5º-6º aventura acolhedora, 7º transição RPG, '
+                '8º-9º RPG contemporâneo e Ensino Médio investigação madura; os três caminhos mantêm a mesma maturidade. '
+                'O gerador anexará um circuito com estações, cartões essenciais, IDs estáveis e três pistas; '
+                'não copie Roblox ou ativos protegidos. '
                 'ERER: diferencie analogia fílmica de racismo real e não copie personagens protegidos.\n'
                 +json.dumps(aula,ensure_ascii=False)+'\n'+roteiro+'\n'+protocolo+'\n'+fluxo+
                 '\nReferência versionada da Biblioteca de Diagramação (não copiar motor): '+guia)
         doc=check(ask(prompt))
+        doc['circuito']=build_circuit(doc,aula)
+        validate_circuit(doc['circuito'],32)
         total_exemplos=aula.get('percursos_exemplos',96)
         if type(total_exemplos) is not int or total_exemplos < max(64,2*len(doc['percursos'])):
             raise ValueError('Solicitar pelo menos o dobro dos percursos curriculares; mínimo 64')

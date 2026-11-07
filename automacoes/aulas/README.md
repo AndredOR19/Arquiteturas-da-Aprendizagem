@@ -66,6 +66,11 @@ O fluxo `Validar pedidos e aulas AEE` roda em PR e também manualmente. A checag
 ## Apoio opcional de leitura — regra de 06/11/2026
 O mínimo de 57 percursos de apoio é independente dos 32 curriculares, sem mudar a nota ou exigir conclusão do apoio. O gerador inclui essa regra na solicitação ao modelo; o empacotador integra `publicacao/alfabetizacao/index.html` e executa `publicacao/alfabetizacao/validar.py` antes de publicar. O banco compartilhado atual oferece 57 percursos por área (oito operações sobre sete palavras e aplicação final). Banco menor que 57, IDs/atividades duplicados ou referências inexistentes interrompem o build; não basta anunciar 57 no texto. Execute `python3 publicacao/alfabetizacao/testar.py`. A geração por API continua dependente das credenciais configuradas e de revisão docente.
 
+## Circuitos de descobertas — contrato 1.0
+Cada nova aula gerada recebe um objeto `circuito` derivado dos 32 percursos. O contrato separa conteúdo e motor e contém perfil visual por faixa, estações, cartões essenciais e perguntas com evidências. A terceira pista de cada pergunta aponta por IDs estáveis para a estação e o cartão que explicam a questão; visita, tempo de tela ou clique não equivalem a compreensão. O validador está em `circuitos.py` e o comando único de verificação é `python3 automacoes/aulas/testar_circuitos.py`.
+
+O gerador mantém os três caminhos independentes: principal, apoio à leitura e Aprender de outro jeito. A pele visual é escolhida pela série informada, não por diagnóstico: 5º–6º aventura acolhedora, 7º transição RPG, 8º–9º RPG contemporâneo e Ensino Médio investigação madura. O template da fábrica demonstra o mapa e o retorno; os pilotos 161 e 211 continuam sendo as referências funcionais de território e devem ser conferidos em navegador antes de qualquer anúncio de homologação.
+
 
 ## Opção Aprender de outro jeito — exemplos e relações — 06/11/2026
 Além da aula principal de 32 percursos e do apoio à leitura de 57, cada geração cria `exemplos/index.html`. O gerador faz uma segunda chamada de conteúdo ao modelo, usando o mesmo objetivo curricular. Padrão 96 exemplos (triplo); `percursos_exemplos` permite adaptação de no mínimo 64 (dobro). São opções independentes, sem soma de carga obrigatória ou nota automática.

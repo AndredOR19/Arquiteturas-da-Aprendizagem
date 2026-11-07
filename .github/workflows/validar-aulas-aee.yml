@@ -22,7 +22,9 @@ jobs:
       - name: Validar pedidos e referência da biblioteca privada
         run: python automacoes/aulas/validar_pedidos.py
       - name: Testar gerador sem API e conferir JavaScript
-        run: python automacoes/aulas/testar_gerador.py
+        run: |
+          python automacoes/aulas/testar_circuitos.py
+          python automacoes/aulas/testar_gerador.py
       - name: Validar catálogo de arquiteturas
         run: python biblioteca-arquiteturas/validar_catalogo.py
       - name: Validar fonte dos JavaScripts novos (checagem sintática básica)
