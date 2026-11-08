@@ -1,5 +1,5 @@
 {
-  "versao": "3.8.0",
+  "versao": "3.8.1",
   "vigencia": "2026-11-08",
   "rotas": {
     "principal": 32,
@@ -14,7 +14,7 @@
     "jogos_apoio": "Game acessível com cenas específicas, imagem-palavra-som, montagem, contexto e mediação; sem infantilização nem nota curricular",
     "visual_tema_idade": "Cenários, personagens e imagens que explicam o tema e a idade; não reutilizar a mesma cidade genérica como se personalizasse todas as disciplinas",
     "pdf_discente": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual",
-    "pdf_docente": "Plano diário, mediação, tempos previstos, critérios e gabarito fundamentado; arquivo privado separado",
+    "pdf_docente": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado.",
     "acessibilidade_tres_rotas": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas",
     "avaliacao_recuperacao": "32 originais e primeira confirmação preservados; regra 1/2/4 e teto 128 informados; apoios livres; experiência obrigatória antes de nota final",
     "relatorios_tres_rotas": "Prévia/cópia/TXT/JSON integrais, tentativas e apoios reais separados; entrega manual explícita ou recibo real; sem envio fictício",

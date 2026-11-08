@@ -181,3 +181,6 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 - Preserve legados/sessões; as cinco aulas de 09/11 ainda precisam de revisão, não ficam conformes por atualização documental.
 
 - Seção 37.7: materiais e acervo por série/tema, sem turma/data/horário de aplicação. Contexto real apenas no relatório/painel interno; preservar datas do conteúdo histórico. Separar conteúdo e aplicações.
+
+## PDF docente — diretriz expressa 3.8.1
+O PDF do professor contém exclusivamente a aula expositiva pronta para ser falada antes de os estudantes entrarem nos percursos. Desenvolver conceitos, relações de causa e efeito e exemplos em texto contínuo e progressivo, adequado à série. AEE orienta internamente a clareza da explicação; não transformar o texto em checklist ou comandos ao professor. Não incluir planejamento por etapas/minutos, orientações do tipo ‘primeiro faça’, objetivos administrativos, metodologia, relatório dos jogos, métricas, gabarito ou avaliação. Relatórios, registros operacionais e gabaritos, quando necessários, são arquivos separados e não integram esse PDF. Identificar apenas série, componente e tema; sem turma ou data de aplicação. Nome padrão: Aula_Expositiva_Professor.pdf (ou Aulas_Expositivas_Professor.pdf em um lote).

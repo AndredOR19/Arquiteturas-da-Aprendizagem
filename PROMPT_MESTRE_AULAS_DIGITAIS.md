@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.8.0**
+Versão vigente: **3.8.1**
 Atualização: **08/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -925,7 +925,7 @@ Fluxo 03/GEI é o padrão das novas aulas. Se faltar componente, cenário ou int
 | Imagens, palavras e áudio | Pelo menos 57 atividades significativas; game com cenas específicas, palavra/som/letra/sílaba/frase/contexto e mediação; sem infantilização |
 | Visual das três rotas | Cenários, personagens, NPCs, missões encadeadas, inventário e consequências pertinentes; teclado/toque e alternativa equivalente |
 | PDF discente | Diagramação temática consistente com a aula, representações didáticas, espaço de resposta e jogos/atividades imprimíveis dos caminhos; adaptar ao papel sem simular interatividade |
-| PDF do professor | Plano diário, explicação de mediação, duração prevista, adaptações, critérios e gabarito fundamentado; separado e privado |
+| PDF do professor | Somente a aula expositiva pronta: conceitos, explicações encadeadas e exemplos que o professor ensinará antes do percurso; texto de fala, sem plano cronometrado, relatório ou gabarito |
 | Acesso e avaliação | Fontes/layout reversíveis, menos estímulos, voz com falha informada, alternativa sem áudio, contraste, foco, recarga e preservação de dados |
 | Registro e relatórios | Escola RS igual no acervo e aula; relatórios integrais e separados nas três rotas; primeira confirmação e apoios preservados |
 | Publicação e QR | Mesmo material discente no Pages e Vercel, cada endereço verificado; QR somente para endereço confirmado; guias e dados privados excluídos |
@@ -963,3 +963,11 @@ Separar `conteudo_id` e versão (estáveis, preferencialmente sem data/turma no 
 Ao reutilizar, criar uma aplicação nova sem sobrescrever a anterior nem trocar a versão/denominador de uma realização iniciada. Data do relatório é a data real do registro; não usar uma data planejada fixa no conteúdo. Se offline, preservar relatório/fila com origem clara e sincronizar somente após recibo real. Ausência de integração não pode ser descrita como relatório recebido no painel. Não expor listas de turmas, matrículas ou datas individuais no acervo aberto.
 
 O teste de reutilização deve abrir o mesmo conteúdo em duas aplicações de turmas/datas distintas: capa e conteúdo iguais por série, relatórios/contextos independentes. Não apagar datas históricas de História nem comprometer referências bibliográficas ao remover metadados de aplicação.
+
+
+### 37.8. PDF docente é a aula expositiva, não relatório ou plano de condução
+Diretriz expressa do Prof. André, incorporada à versão 3.8.1. Esta especificação prevalece sobre qualquer descrição anterior incompatível do PDF docente.
+
+O PDF do professor contém exclusivamente a aula expositiva pronta para ser falada antes de os estudantes entrarem nos percursos. Desenvolver conceitos, relações de causa e efeito e exemplos em texto contínuo e progressivo, adequado à série. AEE orienta internamente a clareza da explicação; não transformar o texto em checklist ou comandos ao professor. Não incluir planejamento por etapas/minutos, orientações do tipo ‘primeiro faça’, objetivos administrativos, metodologia, relatório dos jogos, métricas, gabarito ou avaliação. Relatórios, registros operacionais e gabaritos, quando necessários, são arquivos separados e não integram esse PDF. Identificar apenas série, componente e tema; sem turma ou data de aplicação. Nome padrão: Aula_Expositiva_Professor.pdf (ou Aulas_Expositivas_Professor.pdf em um lote).
+
+Critério de conferência: ao abrir o arquivo, o professor encontra o conteúdo que vai explicar aos alunos, com os raciocínios já desenvolvidos. Um documento que apenas diz o que fazer, quanto tempo dedicar ou como avaliar não atende. A explicação precede o percurso; não remeter ao jogo para suprir o texto que deveria estar escrito.

@@ -1,0 +1,5 @@
+# PDF docente corrigido
+
+O PDF do professor contém exclusivamente a aula expositiva pronta para ser falada antes de os estudantes entrarem nos percursos. Desenvolver conceitos, relações de causa e efeito e exemplos em texto contínuo e progressivo, adequado à série. AEE orienta internamente a clareza da explicação; não transformar o texto em checklist ou comandos ao professor. Não incluir planejamento por etapas/minutos, orientações do tipo ‘primeiro faça’, objetivos administrativos, metodologia, relatório dos jogos, métricas, gabarito ou avaliação. Relatórios, registros operacionais e gabaritos, quando necessários, são arquivos separados e não integram esse PDF. Identificar apenas série, componente e tema; sem turma ou data de aplicação. Nome padrão: Aula_Expositiva_Professor.pdf (ou Aulas_Expositivas_Professor.pdf em um lote).
+
+As cinco explicações atuais foram recompostas e renderizadas em cinco páginas. O arquivo docente foi substituído no pacote entregue; não inclui relatório, plano de condução ou gabarito. Esta mudança não comprova publicação dos jogos ou integração do painel.
