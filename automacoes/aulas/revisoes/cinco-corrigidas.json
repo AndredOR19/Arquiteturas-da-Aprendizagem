@@ -1,0 +1,31 @@
+{
+  "estado": "compilado_e_entregue_offline",
+  "biblioteca_commit": "fff15d035e4ba619241a7d914bf948bc19b555ae",
+  "aulas": [
+    "estrategias-de-estudo-8ano",
+    "pesquisa-e-dados-7ano",
+    "laboratorio-teste-justo-9ano",
+    "arquivo-independencias-9ano",
+    "convivencia-e-dialogo-9ano"
+  ],
+  "rotas_por_aula": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 57
+  },
+  "verificacoes": {
+    "tarefas_completadas": 925,
+    "recuperacoes_testadas": 15,
+    "pdf_discente_paginas_por_aula": 46,
+    "pdf_docente_paginas": 15,
+    "inspecao": "Renderização integral e revisão visual; teste de navegação real em navegador, incluindo viewport estreita. Não comprova aparelhos físicos."
+  },
+  "pendencias": [
+    "publicação das cinco correções em Pages e Vercel",
+    "QR das URLs novas após verificação",
+    "sincronização automática dos relatórios com painel",
+    "continuidade de Práticas Experimentais: planejamento específico de Herbert não localizado"
+  ],
+  "relatorios": "Exportação local TXT/JSON e e-mail manual; sem recibo automático de servidor.",
+  "conteudo_reutilizavel": "Série/componente/tema nos materiais; turma/data real apenas na aplicação e relatório."
+}
