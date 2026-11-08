@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.2",
+  "versao": "3.8.3",
   "aula": "arquivo-independencias-9ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "c05ae4c25830501dfec16d91ea34394f0cf3de6cbe827a09ccf8e29b77a64393",
-  "pacote_sha256": "a0235f6a978681c7c6604c9677e0ae92f75232afdca6ea2a761302d114bfbac7",
+  "prompt_sha256": "8cf9cbfc4285c058f361639e0ac37fa9ad8bdd95db657ea94c7f9b61a4f4b6f7",
+  "pacote_sha256": "b4bf3c5202dabece1a68c7b9feb2311deb2472b13c30bcb7d2ea1fc453c42c96",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",

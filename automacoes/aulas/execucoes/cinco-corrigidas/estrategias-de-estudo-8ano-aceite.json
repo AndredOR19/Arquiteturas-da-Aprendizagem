@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.2",
+  "versao": "3.8.3",
   "aula": "estrategias-de-estudo-8ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "c05ae4c25830501dfec16d91ea34394f0cf3de6cbe827a09ccf8e29b77a64393",
-  "pacote_sha256": "781f9daf5ad0afb54519c77c0d7d1b393fe8c6fe63f3032838267d8d812a6b9e",
+  "prompt_sha256": "8cf9cbfc4285c058f361639e0ac37fa9ad8bdd95db657ea94c7f9b61a4f4b6f7",
+  "pacote_sha256": "9af4eb7a1fc66812a321620877db67f0f21927de1b37a86696095de21156def4",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",

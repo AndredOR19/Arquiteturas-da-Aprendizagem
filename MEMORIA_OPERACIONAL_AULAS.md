@@ -1,6 +1,6 @@
 # Memória operacional — produção de aulas
 
-Prof. André de Oliveira Rodrigues · atualização 08/11/2026 · Prompt Mestre 3.8.2.
+Prof. André de Oliveira Rodrigues · atualização 08/11/2026 · Prompt Mestre 3.8.3.
 
 Antes de qualquer aula, ler integralmente `PROMPT_MESTRE_AULAS_DIGITAIS.md`, a seção 37 e `AGENTS.md`; consultar planejamentos, currículo e última aula confirmada. A fonte oficial é o repositório `AndredOR19/Arquiteturas-da-Aprendizagem`; conferir versão e hash. Não depender da conversa anterior para saber o padrão.
 
@@ -19,3 +19,5 @@ PDF do professor — regra expressa: O PDF do professor contém exclusivamente a
 Publicação permanente: entregar aulas inclui publicá-las tanto no Vercel quanto no GitHub Pages e verificar ambas as versões. ZIP/PDF local não encerra a entrega. A autorização para publicação das aulas já foi dada; não pedir confirmação rotineira. Falha em um destino deve ser corrigida, mantendo o outro como contingência e o estado real explícito.
 
 Apoio não leitor — correção prioritária: Para estudantes que ainda não leem, preservar a aula associativa anterior, seu banco, sequência e relações entre imagens, objetos, palavras, letras, sílabas, montagem e frases/contextos. Pedir melhoria visual significa alterar somente apresentação: desenhos pertinentes, cores, textura, tipografia, composição e feedback visual, sem substituir a atividade por RPG ou aumentar a exigência de leitura. Acesso direto, uma relação por tela, botões grandes, escuta/repetição e mediação. Não exigir personagem, caminhada, NPC, mapa, inventário, leitura de missão ou memorização de controles para realizar esse apoio. A estética deve respeitar a idade, sem infantilização; atividade associativa é a mecânica adequada deste caminho. Jogos exploratórios continuam pertinentes às outras rotas, mas não são obrigação do apoio não leitor. Alteração de objetivo, palavras, banco, sequência ou mecânica requer pedido pedagógico explícito; não inferir tal autorização de ‘melhorar o layout’. Preservar registros anteriores em seu formato e identificar versões diferentes, sem reinterpretar respostas antigas.
+
+Variação visual do apoio: cada tema recebe fundo/composição própria e desenhos claros dos objetos já usados. Não cumprir apenas recolorindo a mesma cena. A variação é visual, sem alterar banco, sequência, critérios ou acessibilidade.

@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.2",
+  "versao": "3.8.3",
   "aula": "laboratorio-teste-justo-9ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "c05ae4c25830501dfec16d91ea34394f0cf3de6cbe827a09ccf8e29b77a64393",
-  "pacote_sha256": "58495e1e77d8b3604270e227e922f6df9e5bb73e826d05e35b37784be943e185",
+  "prompt_sha256": "8cf9cbfc4285c058f361639e0ac37fa9ad8bdd95db657ea94c7f9b61a4f4b6f7",
+  "pacote_sha256": "5e3745ef89140841f0ed52d1e2d5ce14007e89258ce4515a59fe17214c70b6c7",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",

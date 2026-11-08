@@ -1,0 +1,13 @@
+{
+  "versao": "3.8.3",
+  "temas": [
+    "arquivo",
+    "dados",
+    "natureza",
+    "praca",
+    "estudo"
+  ],
+  "ilustracoes": "Objetos concretos do banco anterior em SVG: escola, casa, livro, mapa, água, planta e demais termos.",
+  "verificacao": "285 associações, mesmo banco/ordem/critério; imagem presente nas atividades sem alterar as opções ou respostas.",
+  "banco_sha256": "9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95"
+}

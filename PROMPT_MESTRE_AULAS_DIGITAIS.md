@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.8.2**
+Versão vigente: **3.8.3**
 Atualização: **08/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -979,3 +979,7 @@ Correção expressa do Prof. André na versão 3.8.2. Esta seção prevalece sob
 Para estudantes que ainda não leem, preservar a aula associativa anterior, seu banco, sequência e relações entre imagens, objetos, palavras, letras, sílabas, montagem e frases/contextos. Pedir melhoria visual significa alterar somente apresentação: desenhos pertinentes, cores, textura, tipografia, composição e feedback visual, sem substituir a atividade por RPG ou aumentar a exigência de leitura. Acesso direto, uma relação por tela, botões grandes, escuta/repetição e mediação. Não exigir personagem, caminhada, NPC, mapa, inventário, leitura de missão ou memorização de controles para realizar esse apoio. A estética deve respeitar a idade, sem infantilização; atividade associativa é a mecânica adequada deste caminho. Jogos exploratórios continuam pertinentes às outras rotas, mas não são obrigação do apoio não leitor. Alteração de objetivo, palavras, banco, sequência ou mecânica requer pedido pedagógico explícito; não inferir tal autorização de ‘melhorar o layout’. Preservar registros anteriores em seu formato e identificar versões diferentes, sem reinterpretar respostas antigas.
 
 Conferência obrigatória: comparar banco e sequência com a versão anterior, registrar igualdade dos dados e testar as mesmas associações com o novo visual. Validação de aparência não autoriza mudança pedagógica. A entrada ‘Imagens, palavras e áudio’ deve abrir diretamente o apoio restaurado e permitir retornar à aula. Reutilizar o modelo associativo na Biblioteca de Diagramação, sem produção independente nem substituir o banco por uma nova lista de palavras. O PDF do professor continua sendo somente a aula expositiva anterior aos percursos, conforme 37.8.
+
+
+### 37.10. Variação visual do apoio sem mudar as relações
+Aprimoramento solicitado pelo professor: variar fundos e desenhos de acordo com o tema de cada aula, evitando repetir a mesma cena ou só recolorir um modelo genérico. Usar composição ilustrada própria, textura discreta, paleta coerente e desenhos claros dos objetos concretos do banco existente. As ilustrações devem representar fielmente escola, casa, livro, mapa, água, planta e os demais itens já trabalhados; não substituir o vocabulário para adequá-lo à imagem. Preservar as mesmas palavras, letras, sílabas, opções, respostas, ordem e critérios. No apoio não leitor, variar a apresentação mantém acesso direto às associações; não introduzir exploração RPG nem exigir mais leitura. A variação visual deve ser configurável no modelo central para as próximas aulas.

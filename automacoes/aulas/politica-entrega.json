@@ -1,5 +1,5 @@
 {
-  "versao": "3.8.2",
+  "versao": "3.8.3",
   "vigencia": "2026-11-08",
   "rotas": {
     "principal": 32,
@@ -12,7 +12,7 @@
     "jogos_principal": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado",
     "jogos_exemplos": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio",
     "jogos_apoio": "Apoio associativo anterior preservado: banco, sequência, imagens/objetos, palavras, letras, sílabas, montagem e contexto; acesso direto, áudio e mediação, sem RPG obrigatório nem leitura de missões. Alterar somente layout conforme pedido.",
-    "visual_tema_idade": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura.",
+    "visual_tema_idade": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura. Fundos/composições específicos por tema e ilustrações claras dos objetos existentes, sem repetir a mesma cena genérica.",
     "pdf_discente": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual",
     "pdf_docente": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado.",
     "acessibilidade_tres_rotas": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas",

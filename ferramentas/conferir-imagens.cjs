@@ -24,7 +24,7 @@ process.on('exit',()=>srv.kill());
    }
    // Apoio não leitor mantém o modelo associativo anterior e abre sem caminhada.
    if(await p.locator('script[src="assets/apoio-relacional.js"]').count()){
-    await p.locator('[data-rota="apoio"]').click();await p.waitForSelector('#apoio-dados');
+    await p.locator('[data-rota="apoio"]').click();await p.waitForSelector('#apoio-dados',{state:'attached'});
     if(await p.locator('canvas').count())throw Error('Apoio exige cenário de jogo');
     await p.locator('#hearIntro').click();if(!await p.evaluate(()=>__imageSpeech.length>0))throw Error('Instrução oral ausente');
     const word=await p.locator('#word').innerText();await p.locator('#choices button').filter({has:p.getByText(word,{exact:true})}).first().click();

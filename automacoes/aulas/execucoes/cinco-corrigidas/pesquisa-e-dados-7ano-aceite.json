@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.2",
+  "versao": "3.8.3",
   "aula": "pesquisa-e-dados-7ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "c05ae4c25830501dfec16d91ea34394f0cf3de6cbe827a09ccf8e29b77a64393",
-  "pacote_sha256": "8f24f0d16a4c5724b55bf231fe0776a34f28b51243aa152f81fa6d17a2e96403",
+  "prompt_sha256": "8cf9cbfc4285c058f361639e0ac37fa9ad8bdd95db657ea94c7f9b61a4f4b6f7",
+  "pacote_sha256": "338d6157270de5157299cac00e105a973cb8d5b559cbb2b48b9bd009449791d4",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
