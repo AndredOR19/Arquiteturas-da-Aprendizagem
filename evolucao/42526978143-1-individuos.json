@@ -1,0 +1,16 @@
+{
+  "execucao": "42526978143",
+  "tentativa": "1",
+  "cenario": "individuos",
+  "commit_fonte": "701e1f1fa3d592d29cccd02c4d8bd610dc3f8d32",
+  "pasta": "execucoes/42526978143-1-individuos",
+  "experimento": "d8bfbeb217c97c4aece7e0e258916cf723204292f0ee40c22ef7fdfc37377cb1",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "biblioteca-arquiteturas/catalogo.json"
+    ]
+  }
+}
