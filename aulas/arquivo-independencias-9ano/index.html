@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#183334"><title>Arquivo das Independências</title><link rel="stylesheet" href="assets/gei.css"><link rel="stylesheet" href="assets/cidade.css"><link rel="stylesheet" href="assets/aula.css"></head>
+<body><main id="jogo" class="gei" aria-label="Arquivo das Independências">
+<header class="gei-barra">
+  <div class="marca"><span class="marca-simbolo" aria-hidden="true">✣</span><span><small>ARQUITETURAS DA APRENDIZAGEM</small><strong>Arquivo das Independências</strong></span></div>
+  <details class="gei-missao" open><summary>Missão</summary><span data-gei-missao aria-live="polite">Carregando...</span></details>
+  <nav class="ferramentas" aria-label="Ferramentas do jogo"><button type="button" data-abrir-mapa>Mapa e capítulos</button><button type="button" data-abrir-relatorio>Caderno de bordo</button><button type="button" data-inventario>Inventário <span data-contagem>0</span></button><button type="button" data-gei-narrar aria-label="Repetir instruções da missão">▶ <span>Instruções</span></button><button type="button" data-gei-pausa>Pausar</button><button type="button" data-gei-tela>Tela cheia</button><button type="button" data-gei-ajustes aria-expanded="false" aria-controls="gei-config">Ajustes</button></nav>
+  <span data-save-status hidden role="status">Sem salvamento neste navegador.</span>
+  <span data-gei-voz-status hidden role="status">Voz indisponível neste navegador. O texto permanece visível.</span>
+</header>
+<p class="gei-girar">Gire o aparelho para ampliar a visão, ou continue na vertical.</p>
+<section class="gei-arena" tabindex="0" aria-label="Cenário. Use setas ou W A S D para andar, E, Enter ou Espaço para interagir. Escape pausa.">
+ <canvas data-gei-canvas aria-label="Ambiente ilustrado de Arquivo das Independências. Use também o mapa e as descrições."></canvas>
+ <div class="gei-direcional" aria-label="Movimentação"><button type="button" data-gei-move="up" aria-label="Mover para cima">▲</button><button type="button" data-gei-move="left" aria-label="Mover para a esquerda">◀</button><button type="button" data-gei-move="down" aria-label="Mover para baixo">▼</button><button type="button" data-gei-move="right" aria-label="Mover para a direita">▶</button></div>
+ <div class="gei-acoes"><button type="button" data-gei-interagir>✦ Interagir</button></div>
+ <p class="gei-pausado" data-gei-pausado hidden>Jogo pausado</p>
+ <div class="area-info"><span data-area-label>Praça do Relógio</span><span data-progresso>1 / 5</span></div>
+ <p class="mural" data-mural hidden></p>
+ <p class="dica-contexto" data-dica aria-live="polite">Aproxime-se de Lia para conversar.</p>
+</section>
+<aside id="gei-config" class="gei-config" hidden aria-label="Ajustes do jogo"><h2>Ajustes</h2>
+ <label>Tamanho dos controles <input data-gei-tamanho type="range" min="44" max="68" value="48"><output data-gei-tamanho-valor>48 px</output></label>
+ <label>Opacidade <input data-gei-opacidade type="range" min="60" max="100" value="90"><output data-gei-opacidade-valor>90%</output></label>
+ <label>Lado dos controles <select data-gei-lado><option value="normal">Movimento à esquerda</option><option value="invertido">Movimento à direita</option></select></label>
+ <label>Tecla para narração <select data-gei-tecla><option value="r">R</option><option value="n">N</option><option value="t">T</option></select></label>
+ <label><input data-gei-reduzir type="checkbox"> Reduzir animações</label>
+ <label><input data-narracao-auto type="checkbox"> Modo não leitor: narração automática</label>
+ <label><input data-baixa-estimulacao type="checkbox"> Modo de baixa estimulação</label>
+ <label>Tamanho do texto <select data-aula-tamanho><option value="16">Padrão</option><option value="18">Maior</option><option value="21">Ampliado</option></select></label><label>Fonte de leitura <select data-aula-fonte><option value="system-ui,sans-serif">Sem serifa</option><option value="Georgia,serif">Com serifa</option></select></label><p>Setas ou W A S D: mover. E, Enter ou Espaço: interagir. Esc: pausar.</p><button type="button" data-gei-fechar>Fechar ajustes</button>
+</aside>
+<section class="painel painel-inicio" data-inicio aria-labelledby="inicio-titulo"><div class="inicio-card"><p class="eyebrow">HISTÓRIA · 9º ANO</p><h1 id="inicio-titulo">Arquivo das Independências</h1><p><span data-registro-inicial></span></p><p class="inicio-explica"><span data-objetivo-inicial></span></p>
+ <p class="controles-intro">No teclado: setas ou W A S D para andar; E, Enter ou Espaço para interagir. No celular, use os botões na tela.</p><p data-inicio-voz-status hidden role="status">Voz indisponível neste navegador; a narração automática não funcionará.</p>
+ <div class="rota-botoes" data-escolher-rotas aria-label="Escolha o caminho de aprendizagem"></div><div class="acessibilidade"><label><input type="checkbox" data-inicio-leitor> ▶ Modo não leitor · narração automática</label><label><input type="checkbox" data-inicio-calmo> ◌ Baixa estimulação · menos movimento</label></div>
+ <div class="inicio-acoes"><button type="button" data-ouvir-inicio>▶ Ouvir introdução</button><button class="primario" type="button" data-comecar>Entrar na missão →</button></div><p class="nota">Caminhos independentes; combine um capítulo para hoje. O progresso fica neste navegador. Voz depende do dispositivo.</p><p class="creditos-cenario">Cenário ficcional contemporâneo criado para esta aula. As ilustrações ambientam a exploração; gráficos, relações e fontes são examinados nas atividades.</p></div></section>
+<section class="painel painel-dialogo" data-dialogo hidden role="dialog" aria-modal="true" aria-labelledby="dialogo-titulo"><div class="dialogo-card"><div class="dialogo-top"><span class="selo" aria-hidden="true">✦</span><div><small data-dialogo-tipo>CONVERSA</small><h2 id="dialogo-titulo" data-dialogo-titulo></h2></div></div><p data-dialogo-texto></p><div class="escolhas" data-dialogo-escolhas hidden></div><div class="dialogo-acoes"><button type="button" data-dialogo-ouvir>▶ Ouvir novamente</button><button type="button" class="primario" data-dialogo-fechar>Continuar →</button></div></div></section>
+<section class="painel painel-dialogo" data-bolsa hidden role="dialog" aria-modal="true" aria-labelledby="bolsa-titulo"><div class="dialogo-card"><div class="dialogo-top"><span class="selo" aria-hidden="true">▣</span><div><small>REGISTROS DA VIAGEM</small><h2 id="bolsa-titulo">Seu inventário</h2></div></div><ul data-itens></ul><p data-evidencias></p><div class="dialogo-acoes"><button type="button" data-bolsa-ouvir>▶ Ouvir</button><button type="button" data-exportar>Baixar evidências</button><button type="button" class="primario" data-bolsa-fechar>Voltar ao jogo →</button></div></div></section>
+</main><script src="assets/gei.js"></script><script src="assets/missoes.js"></script><script src="assets/conteudo.js"></script><script src="assets/representacoes.js"></script><script src="assets/aula.js"></script><script src="assets/complementos.js"></script></body></html>
+

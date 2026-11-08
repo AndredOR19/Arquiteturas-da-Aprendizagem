@@ -21,7 +21,7 @@ def verify(root,site,bases,output,fetcher=fetch):
     registry=root/'automacoes/aulas/entregas.json'
     rows=json.loads(registry.read_text())['aulas'] if registry.exists() else []
     items=json.loads((root/'publicacao/catalogo.json').read_text())['materiais']
-    published={i.get('destino') for i in items if i.get('contrato_entrega')=='3.8.0'}
+    published={i.get('destino') for i in items if bool(i.get('contrato_entrega'))}
     results=[]
     for row in rows:
         dest=row['destino']

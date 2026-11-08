@@ -123,7 +123,8 @@ def main():
             for page in dest.rglob('*.html'):
                 text = decorar_apoios(page.read_text(encoding='utf-8'), page, support_assets)
                 page.write_text(text, encoding='utf-8')
-                if page == dest / 'index.html' and 'data-apoio-local' not in text:
+                integrated_gei = 'data-escolher-rotas' in text and 'assets/aula.js' in text
+                if page == dest / 'index.html' and 'data-apoio-local' not in text and not integrated_gei:
                     materia = ', '.join(item.get('portal', {}).get('componentes', [])) or 'Aula'
                     params = urlencode({'materia': materia, 'tema': item.get('titulo', ''), 'voltar': './'})
                     support_path = os.path.relpath(literacy / 'index.html', page.parent).replace(os.sep, '/')
@@ -138,7 +139,7 @@ def main():
                     prefix = os.path.relpath(lettering, page.parent).replace(os.sep, '/') + '/'
                     text = text.replace('../../publicacao/lettering/', prefix)
                     page.write_text(text, encoding='utf-8')
-                if page == dest / 'index.html' and 'data-image-learning' not in text:
+                if page == dest / 'index.html' and 'data-image-learning' not in text and not integrated_gei:
                     prefix = os.path.relpath(image_learning, page.parent).replace(os.sep, '/') + '/'
                     learning = '<link rel="stylesheet" href="' + prefix + 'estilo.css?v=1.0.0">'
                     for name in ['conteudos.js', 'cenas.js', 'aplicar.js']:

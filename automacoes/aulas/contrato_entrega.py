@@ -99,14 +99,14 @@ def catalog_gate(root):
             if not bundle.is_relative_to(root.resolve()):raise ValueError('Destino fora da raiz')
             if not validate(receipt,policy,root,bundle,root/'PROMPT_MESTRE_AULAS_DIGITAIS.md'):
                 candidate=record.get('catalogo')
-                if not candidate or candidate.get('destino')!=record['destino'] or candidate.get('contrato_entrega')!='3.8.0':
+                if not candidate or candidate.get('destino')!=record['destino'] or candidate.get('contrato_entrega')!=policy['versao']:
                     raise ValueError('Metadados de publicação ausentes/divergentes')
                 catalog['materiais'].append(candidate);known.add(record['destino'])
         except (ValueError,KeyError) as exc:
             errors.append(record['destino']+': '+str(exc))
     for item in catalog['materiais']:
         dest=item.get('destino')
-        required=item.get('contrato_entrega')=='3.8.0' or dest in by_dest or (item.get('tipo')=='html' and str(item.get('origem','')).startswith('aulas/') and dest not in legacy)
+        required=bool(item.get('contrato_entrega')) or dest in by_dest or (item.get('tipo')=='html' and str(item.get('origem','')).startswith('aulas/') and dest not in legacy)
         if not required:continue
         try:
             r=by_dest[dest]

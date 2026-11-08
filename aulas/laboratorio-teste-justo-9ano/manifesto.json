@@ -1,0 +1,84 @@
+{
+  "projeto": "laboratorio-teste-justo-9ano",
+  "titulo": "Estação do Teste Justo",
+  "status": "adaptada_testes_em_revisao",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "31482a4dbc40a907ff28f96cdc2c49fb992eb752",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 57
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 424,
+      "sha256": "991b5d73096f79f3777abd680bf316d95e40f2bb05e28cff54fb2545140ab61e"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 10453,
+      "sha256": "e8809546fd66e96fd92f5f668ffcec34253e6ac2cc60ba807ede0b9144cfbba0"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 34851,
+      "sha256": "ddb963fdf25ebe4774fdd296d679abb5d4bd56b2db1476cd17c8ff9f578cc05b"
+    },
+    {
+      "arquivo": "assets/cenario.jpg",
+      "bytes": 323111,
+      "sha256": "510b2bb4fe3818a074c1890e38a48d0006514146d2021336cd771f15bb1125f6"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 10905,
+      "sha256": "71d7466b01543c0b1642208a3dfc09e392263b4ad3d33c63eeb575834b0c5165"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 380339,
+      "sha256": "e93b41ab8d2500ffa1c3a3a7153bc1870edbd2de59e1565d8864ee6de8049476"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8791,
+      "sha256": "db4a9273a3885ee1377a5b48872b4a8630a7009f7b745314d1b5bfac5529720f"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5360,
+      "sha256": "dc25ad69d2ec795515d9fb093f3aa940be60d5433ebd1b8a0bf085147f7a638c"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 581425,
+      "sha256": "884476234104c43001fd981e92b8dc4d29ffe6c97b87dcbd1c03da9bbc7b052d"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7260,
+      "sha256": "3101f700cee087c3a82a83db85db0b8bc01e39876f03bd619305eb6af007ec21"
+    }
+  ]
+}

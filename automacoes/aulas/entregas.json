@@ -1,0 +1,264 @@
+{
+  "aulas": [
+    {
+      "id": "arquivo-independencias-9ano",
+      "destino": "aulas/arquivo-independencias-9ano",
+      "recibo": "automacoes/aulas/execucoes/cinco-corrigidas/arquivo-independencias-9ano-aceite.json",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/arquivo-independencias-9ano",
+        "destino": "aulas/arquivo-independencias-9ano",
+        "titulo": "Arquivo das Independências",
+        "contrato_entrega": "3.8.1",
+        "versao_visual": "gei-tematico-2.0.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "História"
+          ],
+          "series": [
+            "9º ano · EF"
+          ],
+          "turmas": [],
+          "escola": "Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "palavras_chave": [
+            "História",
+            "9º ano",
+            "Arquivo das Independências"
+          ],
+          "descricao": "Comparar processos de descolonização e organizar uma fala curta com caso, evidência, relação com a Guerra Fria e limite da conclusão.",
+          "titulo_exibicao": "Arquivo das Independências",
+          "periodo": "3º trimestre",
+          "registro_escola_rs": {
+            "titulo": "Arquivo das Independências",
+            "resumo": "Comparar processos de descolonização e organizar uma fala curta com caso, evidência, relação com a Guerra Fria e limite da conclusão.",
+            "habilidades": [
+              "EF09HI31 — Descrever e avaliar os processos de descolonização na África e na Ásia. Articulação com EF09HI28: análise das disputas da Guerra Fria. Redação do plano recebida diverge em alguns códigos; usada correspondência oficial conferida."
+            ]
+          },
+          "apoio_leitura_url": "aulas/arquivo-independencias-9ano/",
+          "rotas": [
+            {
+              "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+              "url": "aulas/arquivo-independencias-9ano/"
+            },
+            {
+              "titulo": "Caderno completo em PDF",
+              "url": "aulas/arquivo-independencias-9ano/aula-impressa.pdf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "convivencia-e-dialogo-9ano",
+      "destino": "aulas/convivencia-e-dialogo-9ano",
+      "recibo": "automacoes/aulas/execucoes/cinco-corrigidas/convivencia-e-dialogo-9ano-aceite.json",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/convivencia-e-dialogo-9ano",
+        "destino": "aulas/convivencia-e-dialogo-9ano",
+        "titulo": "Praça do Diálogo",
+        "contrato_entrega": "3.8.1",
+        "versao_visual": "gei-tematico-2.0.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Ensino Religioso"
+          ],
+          "series": [
+            "9º ano · EF"
+          ],
+          "turmas": [],
+          "escola": "Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "palavras_chave": [
+            "Ensino Religioso",
+            "9º ano",
+            "Praça do Diálogo"
+          ],
+          "descricao": "Reconhecer a coexistência como atitude ética, construindo respostas a situações de diferença que preservem dignidade, liberdade de consciência e participação.",
+          "titulo_exibicao": "Praça do Diálogo",
+          "periodo": "3º trimestre",
+          "registro_escola_rs": {
+            "titulo": "Praça do Diálogo",
+            "resumo": "Reconhecer a coexistência como atitude ética, construindo respostas a situações de diferença que preservem dignidade, liberdade de consciência e participação.",
+            "habilidades": [
+              "EF09ER06 - Reconhecer a coexistência como uma atitude ética de respeito à vida e à dignidade humana. BNCC oficial, página impressa 459. Ensino não confessional; a aula não exige declarar nem adotar crença."
+            ]
+          },
+          "apoio_leitura_url": "aulas/convivencia-e-dialogo-9ano/",
+          "rotas": [
+            {
+              "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+              "url": "aulas/convivencia-e-dialogo-9ano/"
+            },
+            {
+              "titulo": "Caderno completo em PDF",
+              "url": "aulas/convivencia-e-dialogo-9ano/aula-impressa.pdf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "estrategias-de-estudo-8ano",
+      "destino": "aulas/estrategias-de-estudo-8ano",
+      "recibo": "automacoes/aulas/execucoes/cinco-corrigidas/estrategias-de-estudo-8ano-aceite.json",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/estrategias-de-estudo-8ano",
+        "destino": "aulas/estrategias-de-estudo-8ano",
+        "titulo": "Distrito das Estratégias",
+        "contrato_entrega": "3.8.1",
+        "versao_visual": "gei-tematico-2.0.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Estudos Orientados"
+          ],
+          "series": [
+            "8º ano · EF"
+          ],
+          "turmas": [],
+          "escola": "Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "palavras_chave": [
+            "Estudos Orientados",
+            "8º ano",
+            "Distrito das Estratégias"
+          ],
+          "descricao": "Planejar uma tarefa, recuperar uma explicação e revisá-la usando evidência, aplicando o método em outro conteúdo.",
+          "titulo_exibicao": "Distrito das Estratégias",
+          "periodo": "3º trimestre",
+          "registro_escola_rs": {
+            "titulo": "Distrito das Estratégias",
+            "resumo": "Planejar uma tarefa, recuperar uma explicação e revisá-la usando evidência, aplicando o método em outro conteúdo.",
+            "habilidades": [
+              "Competências gerais BNCC 2 e 10: investigação, reflexão, autonomia e responsabilidade. Recorte transversal de Estudos Orientados; sem código específico atribuído."
+            ]
+          },
+          "apoio_leitura_url": "aulas/estrategias-de-estudo-8ano/",
+          "rotas": [
+            {
+              "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+              "url": "aulas/estrategias-de-estudo-8ano/"
+            },
+            {
+              "titulo": "Caderno completo em PDF",
+              "url": "aulas/estrategias-de-estudo-8ano/aula-impressa.pdf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "laboratorio-teste-justo-9ano",
+      "destino": "aulas/laboratorio-teste-justo-9ano",
+      "recibo": "automacoes/aulas/execucoes/cinco-corrigidas/laboratorio-teste-justo-9ano-aceite.json",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/laboratorio-teste-justo-9ano",
+        "destino": "aulas/laboratorio-teste-justo-9ano",
+        "titulo": "Estação do Teste Justo",
+        "contrato_entrega": "3.8.1",
+        "versao_visual": "gei-tematico-2.0.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Práticas Experimentais"
+          ],
+          "series": [
+            "9º ano · EF"
+          ],
+          "turmas": [],
+          "escola": "Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "palavras_chave": [
+            "Práticas Experimentais",
+            "9º ano",
+            "Estação do Teste Justo"
+          ],
+          "descricao": "Montar uma comparação controlada sobre agitação e dissolução, registrar condições e distinguir dado simulado de observação experimental.",
+          "titulo_exibicao": "Estação do Teste Justo",
+          "periodo": "3º trimestre",
+          "registro_escola_rs": {
+            "titulo": "Estação do Teste Justo",
+            "resumo": "Montar uma comparação controlada sobre agitação e dissolução, registrar condições e distinguir dado simulado de observação experimental.",
+            "habilidades": [
+              "Competência geral BNCC 2: investigação, análise crítica, formulação e teste de hipóteses. Objetivo metodológico de Ciências; sem código específico não conferido."
+            ]
+          },
+          "apoio_leitura_url": "aulas/laboratorio-teste-justo-9ano/",
+          "rotas": [
+            {
+              "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+              "url": "aulas/laboratorio-teste-justo-9ano/"
+            },
+            {
+              "titulo": "Caderno completo em PDF",
+              "url": "aulas/laboratorio-teste-justo-9ano/aula-impressa.pdf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pesquisa-e-dados-7ano",
+      "destino": "aulas/pesquisa-e-dados-7ano",
+      "recibo": "automacoes/aulas/execucoes/cinco-corrigidas/pesquisa-e-dados-7ano-aceite.json",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/pesquisa-e-dados-7ano",
+        "destino": "aulas/pesquisa-e-dados-7ano",
+        "titulo": "Agência dos Dados",
+        "contrato_entrega": "3.8.1",
+        "versao_visual": "gei-tematico-2.0.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Estudos Orientados"
+          ],
+          "series": [
+            "7º ano · EF"
+          ],
+          "turmas": [],
+          "escola": "Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "palavras_chave": [
+            "Estudos Orientados",
+            "7º ano",
+            "Agência dos Dados"
+          ],
+          "descricao": "Usar uma rotina de estudo para organizar dados de pesquisa, conferir totais e justificar uma conclusão limitada ao grupo observado.",
+          "titulo_exibicao": "Agência dos Dados",
+          "periodo": "3º trimestre",
+          "registro_escola_rs": {
+            "titulo": "Agência dos Dados",
+            "resumo": "Usar uma rotina de estudo para organizar dados de pesquisa, conferir totais e justificar uma conclusão limitada ao grupo observado.",
+            "habilidades": [
+              "EF07MA36, em síntese: planejar pesquisa social, decidir entre censo e amostra e comunicar os dados em relatório, tabelas e gráficos. Estudos Orientados trabalha o procedimento de estudo articulado à Matemática."
+            ]
+          },
+          "apoio_leitura_url": "aulas/pesquisa-e-dados-7ano/",
+          "rotas": [
+            {
+              "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+              "url": "aulas/pesquisa-e-dados-7ano/"
+            },
+            {
+              "titulo": "Caderno completo em PDF",
+              "url": "aulas/pesquisa-e-dados-7ano/aula-impressa.pdf"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+PASS arquivo-independencias-9ano: três rotas, recuperação 1/2/4, teto, nota, inventário, recarga, nova aplicação e voz ausente
+PASS convivencia-e-dialogo-9ano: três rotas, recuperação 1/2/4, teto, nota, inventário, recarga, nova aplicação e voz ausente
+PASS estrategias-de-estudo-8ano: três rotas, recuperação 1/2/4, teto, nota, inventário, recarga, nova aplicação e voz ausente
+PASS laboratorio-teste-justo-9ano: três rotas, recuperação 1/2/4, teto, nota, inventário, recarga, nova aplicação e voz ausente
+PASS pesquisa-e-dados-7ano: três rotas, recuperação 1/2/4, teto, nota, inventário, recarga, nova aplicação e voz ausente
+PASS 925 atividades + 15 recuperações completas; todas as cinco aulas.

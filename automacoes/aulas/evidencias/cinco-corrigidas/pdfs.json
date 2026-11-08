@@ -1,0 +1,32 @@
+[
+  {
+    "aula": "arquivo-independencias-9ano",
+    "paginas": 46,
+    "sha256": "347f1974bde9db23497175f83940cd185af11711bf9f49e008651573bfd5d1d6",
+    "texto_sem_cortes": true
+  },
+  {
+    "aula": "convivencia-e-dialogo-9ano",
+    "paginas": 46,
+    "sha256": "771575f98d50b918934da7916a80883b5be29370192827ca37b42c01a72da570",
+    "texto_sem_cortes": true
+  },
+  {
+    "aula": "estrategias-de-estudo-8ano",
+    "paginas": 46,
+    "sha256": "09565bfe3320d2218a9d5ab8c01e0600a6dcd511581c891d289899f4625ddd75",
+    "texto_sem_cortes": true
+  },
+  {
+    "aula": "laboratorio-teste-justo-9ano",
+    "paginas": 46,
+    "sha256": "884476234104c43001fd981e92b8dc4d29ffe6c97b87dcbd1c03da9bbc7b052d",
+    "texto_sem_cortes": true
+  },
+  {
+    "aula": "pesquisa-e-dados-7ano",
+    "paginas": 46,
+    "sha256": "6be024bda81601b5e6240c868a1d9efac8ae7859b93d666fbf2beecebe986f27",
+    "texto_sem_cortes": true
+  }
+]
