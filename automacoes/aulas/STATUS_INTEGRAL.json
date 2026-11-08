@@ -1,5 +1,5 @@
 {
-  "versao": "3.8.0",
+  "versao": "3.8.1",
   "atualizado_em": "2026-11-08",
   "fonte": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
   "implementado": [
@@ -21,8 +21,17 @@
   "pendente": [
     "execução remota do novo orquestrador",
     "conferir segredos BIBLIOTECA_EXEC_TOKEN e APRENDIZAGEM_WRITE_TOKEN e provedor de autoria",
-    "revisão temática/editorial e conformidade integral das cinco aulas anteriores",
     "recebimento real no painel para aulas ainda locais"
   ],
-  "nao_afirmar": "Memória universal, n8n ativo, implantação completa, publicação das cinco aulas ou aceite visual automático."
+  "nao_afirmar": "Memória universal, n8n ativo, recebimento automático no painel ou planejamento específico de Herbert confirmado.",
+  "publicacao_cinco_aulas": {
+    "estado": "concluido",
+    "commit": "701e1f1fa3d592d29cccd02c4d8bd610dc3f8d32",
+    "destinos": [
+      "pages",
+      "vercel"
+    ],
+    "arquivos_comparados": 140,
+    "recibo": "automacoes/aulas/revisoes/publicacao-cinco-corrigidas.json"
+  }
 }

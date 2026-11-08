@@ -1,7 +1,7 @@
 {
   "versao": "3.8.1",
   "aula": "arquivo-independencias-9ano",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "f6c4f4aa101d5382ea9ce9a70fce7453cd383f8ee4a645a38e4495f9580ec78d",
   "pacote_sha256": "12a970e74afb3b6fecc0b504f737a3100be24ba5a34b331582be343cbdff4dde",
   "requisitos": {
@@ -220,11 +220,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "arquivo-independencias-9ano",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/arquivo-independencias-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 14,
+      "qr_arquivo": "verificacao-publicacao/627a7ecd9581afb0d5b1.png",
+      "qr_sha256": "2f6902d9b9743fedab6974d8ff94b81962f7a11b8ce11075716d263d82d31403",
+      "verificado_em": "2026-11-08T21:50:57.967331+00:00",
+      "pacote_sha256": "12a970e74afb3b6fecc0b504f737a3100be24ba5a34b331582be343cbdff4dde"
     },
     "vercel": {
-      "estado": "pendente"
+      "aula": "arquivo-independencias-9ano",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/arquivo-independencias-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 14,
+      "qr_arquivo": "verificacao-publicacao/c3986619f68e29f00591.png",
+      "qr_sha256": "78b2a3e19d3f96012b564fb34ac657774da53de6a5bcb98a1971a7542c435231",
+      "verificado_em": "2026-11-08T21:50:57.973513+00:00",
+      "pacote_sha256": "12a970e74afb3b6fecc0b504f737a3100be24ba5a34b331582be343cbdff4dde"
     }
   },
-  "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento."
+  "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
+  "pendencias_finais": []
 }
