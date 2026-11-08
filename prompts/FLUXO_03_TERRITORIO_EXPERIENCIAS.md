@@ -20,3 +20,6 @@ Risco: trocar rolagem por portais decorativos. Resolução: evidência validada,
 ## Entrega integral e reutilização — 3.8.0
 A seção 37 do Prompt Mestre e MEMORIA_OPERACIONAL_AULAS.md são obrigatórias: produção central, games nos três caminhos, PDFs diagramados, evidências e publicação dupla. Materiais e acervo mostram série/tema; turma/data de aplicação ficam somente no relatório e painel interno. Nenhum fluxo complementar dispensa o contrato. Fluxos 01/02 preservam seu desenho quando escolhidos expressamente; o padrão novo permanece 03.
 
+
+### Apoio não leitor — prioridade da seção 37.9
+Melhoria de layout preserva a aula associativa anterior, seus dados e sequência. Aplicar desenhos, textura, composição e áudio sem impor o jogo exploratório deste fluxo. Não exigir leitura de missão, personagem, mapa ou caminhada para o apoio.

@@ -373,3 +373,6 @@ Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais.
 
 
 
+
+## Correção 3.8.2 — apoio não leitor preservado
+O professor esclareceu que a solicitação era somente de aparência. O apoio anterior de 57 relações e nove operações foi restaurado como modelo central, com acesso direto, desenhos, cores e textura; não exige personagem, caminhada ou leitura de missão. Banco e sequência comparados por igualdade literal; teste completou 285 associações nas cinco aulas. A regra prevalece sobre RPG obrigatório nas três rotas.

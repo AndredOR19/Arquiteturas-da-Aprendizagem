@@ -184,3 +184,6 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 
 ## PDF docente — diretriz expressa 3.8.1
 O PDF do professor contém exclusivamente a aula expositiva pronta para ser falada antes de os estudantes entrarem nos percursos. Desenvolver conceitos, relações de causa e efeito e exemplos em texto contínuo e progressivo, adequado à série. AEE orienta internamente a clareza da explicação; não transformar o texto em checklist ou comandos ao professor. Não incluir planejamento por etapas/minutos, orientações do tipo ‘primeiro faça’, objetivos administrativos, metodologia, relatório dos jogos, métricas, gabarito ou avaliação. Relatórios, registros operacionais e gabaritos, quando necessários, são arquivos separados e não integram esse PDF. Identificar apenas série, componente e tema; sem turma ou data de aplicação. Nome padrão: Aula_Expositiva_Professor.pdf (ou Aulas_Expositivas_Professor.pdf em um lote).
+
+## Correção prioritária — apoio não leitor (Prompt Mestre 3.8.2)
+Preservar o modelo associativo anterior, seus dados, ordem e relações. Pedido de melhoria visual altera somente desenhos, cores, textura e composição. Não substituir esse caminho por RPG nem exigir leitura, personagem, caminhada, mapa ou NPC para realizar associações. Ler a seção 37.9, que prevalece sobre exigências anteriores de mesmo jogo nas três rotas.

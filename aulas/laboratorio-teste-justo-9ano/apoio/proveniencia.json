@@ -1,0 +1,17 @@
+{
+  "modelo": "apoio-associativo-anterior",
+  "banco_sha256": "9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95",
+  "atividades": 57,
+  "operacoes": [
+    "aplicar",
+    "contexto",
+    "final",
+    "frase",
+    "imagem",
+    "letra",
+    "montagem",
+    "palavra",
+    "silaba"
+  ],
+  "alteracao": "Somente layout e acesso direto; sem RPG obrigatório; banco, ordem e critérios preservados."
+}

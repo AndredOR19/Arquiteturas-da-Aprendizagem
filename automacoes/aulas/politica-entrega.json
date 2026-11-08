@@ -1,5 +1,5 @@
 {
-  "versao": "3.8.1",
+  "versao": "3.8.2",
   "vigencia": "2026-11-08",
   "rotas": {
     "principal": 32,
@@ -11,8 +11,8 @@
     "curriculo_aee": "Plano recebido, continuidade, BNCC/RCG conferidos; AEE, D/R/E/L, recuperação e transferência; sem inventar aplicação",
     "jogos_principal": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado",
     "jogos_exemplos": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio",
-    "jogos_apoio": "Game acessível com cenas específicas, imagem-palavra-som, montagem, contexto e mediação; sem infantilização nem nota curricular",
-    "visual_tema_idade": "Cenários, personagens e imagens que explicam o tema e a idade; não reutilizar a mesma cidade genérica como se personalizasse todas as disciplinas",
+    "jogos_apoio": "Apoio associativo anterior preservado: banco, sequência, imagens/objetos, palavras, letras, sílabas, montagem e contexto; acesso direto, áudio e mediação, sem RPG obrigatório nem leitura de missões. Alterar somente layout conforme pedido.",
+    "visual_tema_idade": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura.",
     "pdf_discente": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual",
     "pdf_docente": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado.",
     "acessibilidade_tres_rotas": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas",

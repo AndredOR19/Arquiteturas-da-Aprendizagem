@@ -1119,7 +1119,7 @@
       "origem": "aulas/arquivo-independencias-9ano",
       "destino": "aulas/arquivo-independencias-9ano",
       "titulo": "Arquivo das Independências",
-      "contrato_entrega": "3.8.1",
+      "contrato_entrega": "3.8.2",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1148,14 +1148,18 @@
             "EF09HI31 — Descrever e avaliar os processos de descolonização na África e na Ásia. Articulação com EF09HI28: análise das disputas da Guerra Fria. Redação do plano recebida diverge em alguns códigos; usada correspondência oficial conferida."
           ]
         },
-        "apoio_leitura_url": "aulas/arquivo-independencias-9ano/",
+        "apoio_leitura_url": "aulas/arquivo-independencias-9ano/apoio/?materia=Hist%C3%B3ria&tema=Arquivo+das+Independ%C3%AAncias&voltar=..%2F",
         "rotas": [
           {
-            "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+            "titulo": "Apoio: imagens, palavras, letras e objetos",
+            "url": "aulas/arquivo-independencias-9ano/apoio/?materia=Hist%C3%B3ria&tema=Arquivo+das+Independ%C3%AAncias&voltar=..%2F"
+          },
+          {
+            "titulo": "Aula principal e exemplos",
             "url": "aulas/arquivo-independencias-9ano/"
           },
           {
-            "titulo": "Caderno completo em PDF",
+            "titulo": "Caderno em PDF",
             "url": "aulas/arquivo-independencias-9ano/aula-impressa.pdf"
           }
         ]
@@ -1166,7 +1170,7 @@
       "origem": "aulas/convivencia-e-dialogo-9ano",
       "destino": "aulas/convivencia-e-dialogo-9ano",
       "titulo": "Praça do Diálogo",
-      "contrato_entrega": "3.8.1",
+      "contrato_entrega": "3.8.2",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1195,14 +1199,18 @@
             "EF09ER06 - Reconhecer a coexistência como uma atitude ética de respeito à vida e à dignidade humana. BNCC oficial, página impressa 459. Ensino não confessional; a aula não exige declarar nem adotar crença."
           ]
         },
-        "apoio_leitura_url": "aulas/convivencia-e-dialogo-9ano/",
+        "apoio_leitura_url": "aulas/convivencia-e-dialogo-9ano/apoio/?materia=Ensino+Religioso&tema=Pra%C3%A7a+do+Di%C3%A1logo&voltar=..%2F",
         "rotas": [
           {
-            "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+            "titulo": "Apoio: imagens, palavras, letras e objetos",
+            "url": "aulas/convivencia-e-dialogo-9ano/apoio/?materia=Ensino+Religioso&tema=Pra%C3%A7a+do+Di%C3%A1logo&voltar=..%2F"
+          },
+          {
+            "titulo": "Aula principal e exemplos",
             "url": "aulas/convivencia-e-dialogo-9ano/"
           },
           {
-            "titulo": "Caderno completo em PDF",
+            "titulo": "Caderno em PDF",
             "url": "aulas/convivencia-e-dialogo-9ano/aula-impressa.pdf"
           }
         ]
@@ -1213,7 +1221,7 @@
       "origem": "aulas/estrategias-de-estudo-8ano",
       "destino": "aulas/estrategias-de-estudo-8ano",
       "titulo": "Distrito das Estratégias",
-      "contrato_entrega": "3.8.1",
+      "contrato_entrega": "3.8.2",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1242,14 +1250,18 @@
             "Competências gerais BNCC 2 e 10: investigação, reflexão, autonomia e responsabilidade. Recorte transversal de Estudos Orientados; sem código específico atribuído."
           ]
         },
-        "apoio_leitura_url": "aulas/estrategias-de-estudo-8ano/",
+        "apoio_leitura_url": "aulas/estrategias-de-estudo-8ano/apoio/?materia=Estudos+Orientados&tema=Distrito+das+Estrat%C3%A9gias&voltar=..%2F",
         "rotas": [
           {
-            "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+            "titulo": "Apoio: imagens, palavras, letras e objetos",
+            "url": "aulas/estrategias-de-estudo-8ano/apoio/?materia=Estudos+Orientados&tema=Distrito+das+Estrat%C3%A9gias&voltar=..%2F"
+          },
+          {
+            "titulo": "Aula principal e exemplos",
             "url": "aulas/estrategias-de-estudo-8ano/"
           },
           {
-            "titulo": "Caderno completo em PDF",
+            "titulo": "Caderno em PDF",
             "url": "aulas/estrategias-de-estudo-8ano/aula-impressa.pdf"
           }
         ]
@@ -1260,7 +1272,7 @@
       "origem": "aulas/laboratorio-teste-justo-9ano",
       "destino": "aulas/laboratorio-teste-justo-9ano",
       "titulo": "Estação do Teste Justo",
-      "contrato_entrega": "3.8.1",
+      "contrato_entrega": "3.8.2",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1289,14 +1301,18 @@
             "Competência geral BNCC 2: investigação, análise crítica, formulação e teste de hipóteses. Objetivo metodológico de Ciências; sem código específico não conferido."
           ]
         },
-        "apoio_leitura_url": "aulas/laboratorio-teste-justo-9ano/",
+        "apoio_leitura_url": "aulas/laboratorio-teste-justo-9ano/apoio/?materia=Pr%C3%A1ticas+Experimentais&tema=Esta%C3%A7%C3%A3o+do+Teste+Justo&voltar=..%2F",
         "rotas": [
           {
-            "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+            "titulo": "Apoio: imagens, palavras, letras e objetos",
+            "url": "aulas/laboratorio-teste-justo-9ano/apoio/?materia=Pr%C3%A1ticas+Experimentais&tema=Esta%C3%A7%C3%A3o+do+Teste+Justo&voltar=..%2F"
+          },
+          {
+            "titulo": "Aula principal e exemplos",
             "url": "aulas/laboratorio-teste-justo-9ano/"
           },
           {
-            "titulo": "Caderno completo em PDF",
+            "titulo": "Caderno em PDF",
             "url": "aulas/laboratorio-teste-justo-9ano/aula-impressa.pdf"
           }
         ]
@@ -1307,7 +1323,7 @@
       "origem": "aulas/pesquisa-e-dados-7ano",
       "destino": "aulas/pesquisa-e-dados-7ano",
       "titulo": "Agência dos Dados",
-      "contrato_entrega": "3.8.1",
+      "contrato_entrega": "3.8.2",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1336,14 +1352,18 @@
             "EF07MA36, em síntese: planejar pesquisa social, decidir entre censo e amostra e comunicar os dados em relatório, tabelas e gráficos. Estudos Orientados trabalha o procedimento de estudo articulado à Matemática."
           ]
         },
-        "apoio_leitura_url": "aulas/pesquisa-e-dados-7ano/",
+        "apoio_leitura_url": "aulas/pesquisa-e-dados-7ano/apoio/?materia=Estudos+Orientados&tema=Ag%C3%AAncia+dos+Dados&voltar=..%2F",
         "rotas": [
           {
-            "titulo": "Três percursos jogáveis: principal, exemplos e apoio à leitura",
+            "titulo": "Apoio: imagens, palavras, letras e objetos",
+            "url": "aulas/pesquisa-e-dados-7ano/apoio/?materia=Estudos+Orientados&tema=Ag%C3%AAncia+dos+Dados&voltar=..%2F"
+          },
+          {
+            "titulo": "Aula principal e exemplos",
             "url": "aulas/pesquisa-e-dados-7ano/"
           },
           {
-            "titulo": "Caderno completo em PDF",
+            "titulo": "Caderno em PDF",
             "url": "aulas/pesquisa-e-dados-7ano/aula-impressa.pdf"
           }
         ]

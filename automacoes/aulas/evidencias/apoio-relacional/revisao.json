@@ -1,0 +1,10 @@
+{
+  "alteracao": "Apoio anterior restaurado; somente apresentação e acesso alterados.",
+  "atividades_por_area": 57,
+  "operacoes": 9,
+  "associacoes_testadas": 285,
+  "banco_preservado_sha256": "9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95",
+  "fonte_anterior": "publicacao/alfabetizacao/index.html",
+  "sem_exigencia": "Personagem, caminhada, NPC, mapa, inventário ou leitura de missão",
+  "limite": "Revisão desta mudança não reavalia todo o banco principal nem comprova uso em dispositivo físico."
+}

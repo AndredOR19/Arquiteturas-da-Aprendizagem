@@ -22,20 +22,15 @@ process.on('exit',()=>srv.kill());
     if(await p.locator('#image-learning-open').isVisible())throw Error('Apoio acessível antes da identificação');
     await p.close();continue; // Apoio após identificação: ensaio específico do piloto.
    }
-   // GEI possui o apoio no próprio motor: testar o percurso real em vez de exigir o painel legado.
-   if(await p.locator('[data-escolher-rotas]').count()){
-    await p.waitForFunction(()=>!!window.AulaCentralGEI);
-    await p.locator('[data-rota="apoio"]').click();await p.locator('[data-regra-confirmar]').check();await p.locator('[data-comecar]').click();
-    if(await p.locator('.painel-entender').isVisible())await p.locator('[data-entender-voltar]').click();
-    await p.locator('[data-abrir-mapa]').click();await p.locator('[data-mapa-locais] button').first().click();
-    if(!await p.locator('[data-tarefa-tabuleiro] svg').count())throw Error('Representação nativa ausente: '+item.destino);
-    await p.locator('[data-tarefa-voz]').click();if(!await p.evaluate(()=>__imageSpeech.length>0))throw Error('Narração nativa não solicitada');
-    const word=await p.evaluate(()=>AulaCentralGEI.current().data.word);
-    await p.locator('[data-tarefa-tabuleiro] button').filter({hasText:word}).first().click();await p.locator('[data-tarefa-conferir]').click();
-    if(!await p.locator('[data-tarefa-seguir]').isVisible())throw Error('Associação nativa não foi conferida');
-    if(await p.evaluate(()=>Object.keys(AulaCentralGEI.getState().routes.principal.records).length))throw Error('Apoio alterou a rota principal');
-    await p.locator('[data-tarefa-seguir]').click();await p.reload();await p.waitForFunction(()=>!!window.AulaCentralGEI);
-    if(!await p.evaluate(()=>Object.values(AulaCentralGEI.getState().routes.apoio.records).some(r=>r.done)))throw Error('Apoio nativo não persistiu');
+   // Apoio não leitor mantém o modelo associativo anterior e abre sem caminhada.
+   if(await p.locator('script[src="assets/apoio-relacional.js"]').count()){
+    await p.locator('[data-rota="apoio"]').click();await p.waitForSelector('#apoio-dados');
+    if(await p.locator('canvas').count())throw Error('Apoio exige cenário de jogo');
+    await p.locator('#hearIntro').click();if(!await p.evaluate(()=>__imageSpeech.length>0))throw Error('Instrução oral ausente');
+    const word=await p.locator('#word').innerText();await p.locator('#choices button').filter({has:p.getByText(word,{exact:true})}).first().click();
+    if(!await p.locator('#next').isEnabled())throw Error('Associação anterior não foi mantida');
+    await p.locator('#next').click();if(!await p.locator('#step').innerText().then(s=>s.includes('2 de 57')))throw Error('Sequência do apoio alterada');
+    if(!await p.locator('#back').getAttribute('href').then(s=>s.includes(item.destino)))throw Error('Retorno à aula ausente');
     if(errors.length)throw Error(errors.join(';'));await p.close();continue;
    }
    await p.waitForSelector('#image-learning-open').catch(e=>{throw Error(item.destino+' | '+errors.join(';')+' | '+e.message)});

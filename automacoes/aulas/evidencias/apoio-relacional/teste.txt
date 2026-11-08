@@ -1,0 +1,2 @@
+PASS 285 associações nas cinco aulas; dados e sequência idênticos à fonte anterior. Nove operações; voz, erro, nova tentativa, avanço e conclusão.
+Banco SHA256 9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95

@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.1",
+  "versao": "3.8.2",
   "aula": "pesquisa-e-dados-7ano",
-  "estado": "concluido",
-  "prompt_sha256": "f6c4f4aa101d5382ea9ce9a70fce7453cd383f8ee4a645a38e4495f9580ec78d",
-  "pacote_sha256": "814d588703270d4b8795704562532f5189662234fe707e9c796f6f832178866d",
+  "estado": "pronto_para_publicar",
+  "prompt_sha256": "c05ae4c25830501dfec16d91ea34394f0cf3de6cbe827a09ccf8e29b77a64393",
+  "pacote_sha256": "8f24f0d16a4c5724b55bf231fe0776a34f28b51243aa152f81fa6d17a2e96403",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -53,15 +53,11 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/revisao.json",
-          "sha256": "03acd17da354dffe849a9480346f84d5b510d4915436de4466ffe0dc1bc19bde"
-        },
-        {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/interacoes.txt",
-          "sha256": "f7980fd6fa7c1d0c2dac24838884c3556e259ad7aca3e71a0c10a030aa610685"
+          "arquivo": "automacoes/aulas/evidencias/apoio-relacional/revisao.json",
+          "sha256": "f53e283e0a9fb4e3e531f3117aaa316adfafc6f405036db16fb2bd620466cb6e"
         }
       ],
-      "observacao": "285 atividades opcionais executadas: representações vetoriais compartilhadas, associação imagem/termo/significado, montagem de letras, narração opcional e mediação. Cada aula mantém cenário e personagens de maturidade visual equivalente.",
+      "observacao": "Correção 3.8.2: apoio relacional anterior com 57 atividades, sem RPG obrigatório; banco, ordem e critérios iguais à fonte anterior. Teste DOM de 285 associações; navegador real será conferido após publicação, sem alegar teste físico.",
       "responsavel": "Codex - conferência executada, com limites registrados",
       "verificado_em": "2026-11-08T21:45:10.311811+00:00"
     },
@@ -69,11 +65,11 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/revisao.json",
-          "sha256": "03acd17da354dffe849a9480346f84d5b510d4915436de4466ffe0dc1bc19bde"
+          "arquivo": "automacoes/aulas/evidencias/apoio-relacional/revisao.json",
+          "sha256": "f53e283e0a9fb4e3e531f3117aaa316adfafc6f405036db16fb2bd620466cb6e"
         }
       ],
-      "observacao": "Cinco ilustrações temáticas distintas, adequadas ao 7º-9º ano: arquivo, praça de diálogo, sala de estudo, laboratório, estação de pesquisa. Personagens vetoriais originais. Cenários ficcionais identificados, não fontes históricas. Inspeção de telas em navegador já realizada nesta produção; sem afirmação de homologação física.",
+      "observacao": "Correção 3.8.2: apoio relacional anterior com 57 atividades, sem RPG obrigatório; banco, ordem e critérios iguais à fonte anterior. Teste DOM de 285 associações; navegador real será conferido após publicação, sem alegar teste físico.",
       "responsavel": "Codex - conferência executada, com limites registrados",
       "verificado_em": "2026-11-08T21:45:10.311811+00:00"
     },
@@ -141,15 +137,11 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/revisao.json",
-          "sha256": "03acd17da354dffe849a9480346f84d5b510d4915436de4466ffe0dc1bc19bde"
-        },
-        {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/interacoes.txt",
-          "sha256": "f7980fd6fa7c1d0c2dac24838884c3556e259ad7aca3e71a0c10a030aa610685"
+          "arquivo": "automacoes/aulas/evidencias/apoio-relacional/revisao.json",
+          "sha256": "f53e283e0a9fb4e3e531f3117aaa316adfafc6f405036db16fb2bd620466cb6e"
         }
       ],
-      "observacao": "Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
+      "observacao": "Correção 3.8.2: apoio relacional anterior com 57 atividades, sem RPG obrigatório; banco, ordem e critérios iguais à fonte anterior. Relatório próprio do apoio pelo adaptador existente; não há sincronização automática com painel.",
       "responsavel": "Codex - conferência executada, com limites registrados",
       "verificado_em": "2026-11-08T21:45:10.311811+00:00"
     },
@@ -181,11 +173,11 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/revisao.json",
-          "sha256": "03acd17da354dffe849a9480346f84d5b510d4915436de4466ffe0dc1bc19bde"
+          "arquivo": "automacoes/aulas/evidencias/apoio-relacional/revisao.json",
+          "sha256": "f53e283e0a9fb4e3e531f3117aaa316adfafc6f405036db16fb2bd620466cb6e"
         }
       ],
-      "observacao": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas.",
+      "observacao": "Correção 3.8.2: apoio relacional anterior com 57 atividades, sem RPG obrigatório; banco, ordem e critérios iguais à fonte anterior. Teste DOM de 285 associações; navegador real será conferido após publicação, sem alegar teste físico.",
       "responsavel": "Codex - conferência executada, com limites registrados",
       "verificado_em": "2026-11-08T21:45:10.311811+00:00"
     },
@@ -220,26 +212,10 @@
   },
   "publicacao": {
     "pages": {
-      "aula": "pesquisa-e-dados-7ano",
-      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/pesquisa-e-dados-7ano/",
-      "estado": "verificado",
-      "http": 200,
-      "arquivos": 14,
-      "qr_arquivo": "verificacao-publicacao/db13583548d2b21d7a85.png",
-      "qr_sha256": "dbb4858331e4fcdfae859501db447105bc5c8f6a04bb1d28f576650db6e8ea5b",
-      "verificado_em": "2026-11-08T21:50:58.022720+00:00",
-      "pacote_sha256": "814d588703270d4b8795704562532f5189662234fe707e9c796f6f832178866d"
+      "estado": "pendente"
     },
     "vercel": {
-      "aula": "pesquisa-e-dados-7ano",
-      "url": "https://arquiteturas-aulas.vercel.app/aulas/pesquisa-e-dados-7ano/",
-      "estado": "verificado",
-      "http": 200,
-      "arquivos": 14,
-      "qr_arquivo": "verificacao-publicacao/6c8e30cc7189138be16d.png",
-      "qr_sha256": "591e898b25af12e8e596a78511aaad844411b5a5e44ae8588c33f260679fd123",
-      "verificado_em": "2026-11-08T21:50:58.028827+00:00",
-      "pacote_sha256": "814d588703270d4b8795704562532f5189662234fe707e9c796f6f832178866d"
+      "estado": "pendente"
     }
   },
   "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
