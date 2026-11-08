@@ -1113,6 +1113,134 @@
       },
       "atualizado_em": "2026-11-06",
       "versao_visual": "tres-alternativas-1.0"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/09-11-2026-estudos-orientados-182",
+      "destino": "aulas/09-11-2026-estudos-orientados-182",
+      "titulo": "Distrito das Estratégias",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [
+          "182"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "jogo",
+          "09/11/2026",
+          "Estudos Orientados"
+        ],
+        "descricao": "Planejar uma tarefa, recuperar uma explicação e revisá-la usando evidência, aplicando o método em outro conteúdo.",
+        "titulo_exibicao": "Distrito das Estratégias",
+        "metadados_fonte": "Horário informado em 08/11/2026; plano História 192 consultado; continuidade específica das demais propostas não confirmada.",
+        "habilidades": [
+          "Competências gerais BNCC 2 e 10: investigação, reflexão, autonomia e responsabilidade. Recorte transversal de Estudos Orientados; sem código específico atribuído."
+        ]
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/09-11-2026-praticas-experimentais-191",
+      "destino": "aulas/09-11-2026-praticas-experimentais-191",
+      "titulo": "Estação do Teste Justo",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "191"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "jogo",
+          "09/11/2026",
+          "Práticas Experimentais"
+        ],
+        "descricao": "Montar uma comparação controlada sobre agitação e dissolução, registrar condições e distinguir dado simulado de observação experimental.",
+        "titulo_exibicao": "Estação do Teste Justo",
+        "metadados_fonte": "Horário informado em 08/11/2026; plano História 192 consultado; continuidade específica das demais propostas não confirmada.",
+        "habilidades": [
+          "Competência geral BNCC 2: investigação, análise crítica, formulação e teste de hipóteses. Objetivo metodológico de Ciências; sem código específico não conferido."
+        ]
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/09-11-2026-historia-192",
+      "destino": "aulas/09-11-2026-historia-192",
+      "titulo": "Arquivo das Independências",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "192"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "jogo",
+          "09/11/2026",
+          "História"
+        ],
+        "descricao": "Comparar processos de descolonização e organizar uma fala curta com caso, evidência, relação com a Guerra Fria e limite da conclusão.",
+        "titulo_exibicao": "Arquivo das Independências",
+        "metadados_fonte": "Horário informado em 08/11/2026; plano História 192 consultado; continuidade específica das demais propostas não confirmada.",
+        "habilidades": [
+          "EF09HI31 — Descrever e avaliar os processos de descolonização na África e na Ásia. Articulação com EF09HI28: análise das disputas da Guerra Fria. Redação do plano recebida diverge em alguns códigos; usada correspondência oficial conferida."
+        ]
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/09-11-2026-estudos-orientados-172",
+      "destino": "aulas/09-11-2026-estudos-orientados-172",
+      "titulo": "Agência dos Dados",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [
+          "172"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "jogo",
+          "09/11/2026",
+          "Estudos Orientados"
+        ],
+        "descricao": "Usar uma rotina de estudo para organizar dados de pesquisa, conferir totais e justificar uma conclusão limitada ao grupo observado.",
+        "titulo_exibicao": "Agência dos Dados",
+        "metadados_fonte": "Horário informado em 08/11/2026; plano História 192 consultado; continuidade específica das demais propostas não confirmada.",
+        "habilidades": [
+          "EF07MA36, em síntese: planejar pesquisa social, decidir entre censo e amostra e comunicar os dados em relatório, tabelas e gráficos. Estudos Orientados trabalha o procedimento de estudo articulado à Matemática."
+        ]
+      }
     }
   ]
 }
