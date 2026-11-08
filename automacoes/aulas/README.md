@@ -1,3 +1,18 @@
+# Produção integral — versão 3.8.0
+
+A entrada atual é gerar.py → Biblioteca de Diagramação/estacao/orquestrar_aulas.py. Leia o Prompt Mestre integral e MEMORIA_OPERACIONAL_AULAS.md. A interface independente do gerador foi retirada. O workflow público encaminha ao workflow privado; guias permanecem privados. Consulte STATUS_INTEGRAL.json para limites reais.
+
+O orquestrador aceita qualquer pedido com id/data internos e aulas com ID estável, série e tema. Use conteudo apontando para JSON curricular ou --gerar-dados com provedor configurado; documentos_base aponta a fontes locais efetivamente recebidas. A série é pública, a turma e a data de aplicação pertencem apenas ao relatório interno. Não use uma data planejada como data real da sessão.
+
+politica-entrega.json: 32 principais, mínimo 64/padrão 96 de exemplos e pelo menos 57 de apoio. Todos têm games, cenários por tema/série, acesso e relatório separados. PDFs discentes diagramados incluindo apoios e plano diário privado são exigidos; compilar não os homologa. O motor atual ainda precisa ser ampliado/revisado onde faltar requisito.
+
+Cada produção fica em revisão_pendente. Complete o trabalho e registre evidências reais em execucoes/ID/ID-aceite.json; não marque aprovado por existir um arquivo. contrato_entrega.py valida versões, hashes e evidências. Novos destinos fora da lista legada não podem ser publicados sem registro. Após aceite completo, preparar.py cadastra o material discente no catálogo de build, e os deploys existentes usam a mesma política. O workflow Pages confere ambos os destinos e gera QR só após identidade dos arquivos. Sem versão nos dois destinos, a entrega permanece parcial.
+
+Para conferir: python -m unittest discover -s automacoes/aulas -p test_entrega.py -v; python automacoes/aulas/testar_gerador.py. Migração de legados é explícita. Segredos/serviços não são criados por documentação; o estado remoto deve ser verificado.
+
+---
+## Histórico técnico anterior (não é o caminho atual de geração)
+
 # Fábrica AEE — pedido/roteiro → IA → biblioteca → aula → PR → Pages → conferência
 
 ## Estado implementado (04/11/2026)
@@ -78,3 +93,4 @@ Além da aula principal de 32 percursos e do apoio à leitura de 57, cada geraç
 `exemplos.py` valida banco, IDs, duplicações literais, campos breves e respostas. O template mostra exemplo, elementos relacionados, relação explicada, resposta e feedback, com áudio opcional, retorno e progresso na aba. O template atual representa relações por cartões textuais: cenas/imagens específicas e diversidade pedagógica exigem revisão e enriquecimento antes da publicação. Não anunciar que todas as operações cognitivas sugeridas foram implementadas por este template de seleção. Não há coleta nominal ou diagnóstico.
 
 O empacotador rejeita página ausente ou contagem divergente nas aulas com metadado `rota_exemplos`. A revisão docente continua obrigatória, inclusive para relações repetidas com outra redação, precisão e adequação etária. Teste sintético sem API: `python3 automacoes/aulas/testar_gerador.py`. A rotina continua dependente de credenciais/modelo e biblioteca privada configurados; esta atualização não executa geração real por API nem migra o acervo antigo.
+

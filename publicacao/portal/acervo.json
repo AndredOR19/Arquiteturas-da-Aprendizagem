@@ -2,7 +2,7 @@
   "versao": "1.0.0",
   "materiais": [
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -10,9 +10,7 @@
       "series": [
         "9º ano · EF"
       ],
-      "turmas": [
-        "192"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -24,7 +22,7 @@
       "titulo": "Democracia não termina no voto",
       "descricao": "Investigue como direitos escritos se tornam direitos vividos, relacionando Constituição, informação e participação da sociedade.",
       "url": "aulas/21-10-2026-historia-192/",
-      "data_catalogo": "2026-10-21",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
@@ -92,7 +90,7 @@
       "formato": "SLIDES"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -100,9 +98,7 @@
       "series": [
         "3ª série · EM"
       ],
-      "turmas": [
-        "231"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -114,12 +110,12 @@
       "titulo": "Ditadura e redemocratização no Brasil",
       "descricao": "Análise dos mecanismos de concentração do poder, das resistências e da transição democrática, distinguindo 1984, 1985, 1988 e 1989.",
       "url": "aulas/27-10-2026-historia-231/",
-      "data_catalogo": "2026-10-27",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Ensino Religioso"
@@ -127,9 +123,7 @@
       "series": [
         "9º ano · EF"
       ],
-      "turmas": [
-        "192"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -141,7 +135,7 @@
       "titulo": "Conviver com quem pensa diferente",
       "descricao": "Estudo da coexistência ética, distinguindo discordância e discriminação, com análise de situações fictícias e intervenções para garantir dignidade e participação.",
       "url": "aulas/27-10-2026-ensino-religioso-192/",
-      "data_catalogo": "2026-10-27",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
@@ -170,7 +164,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -178,9 +172,7 @@
       "series": [
         "9º ano · EF"
       ],
-      "turmas": [
-        "192"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -192,12 +184,12 @@
       "titulo": "Da informação à participação",
       "descricao": "Brasil após 1989: participação da sociedade civil, orçamento participativo no Rio Grande do Sul e análise de fontes para acompanhar direitos e decisões públicas.",
       "url": "aulas/29-10-2026-historia-192/",
-      "data_catalogo": "2026-10-29",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Práticas Experimentais",
@@ -219,12 +211,12 @@
       "titulo": "Missão Ponte · 6º ano",
       "descricao": "Investigação da resistência de pontes de papel no 6º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
       "url": "aulas/29-10-2026-missao-ponte-6/",
-      "data_catalogo": "2026-10-29",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Práticas Experimentais",
@@ -246,12 +238,12 @@
       "titulo": "Missão Ponte · 7º ano",
       "descricao": "Investigação da resistência de pontes de papel no 7º ano, com comparação de formatos, controle de condições, registro de evidências e organização do estudo.",
       "url": "aulas/29-10-2026-missao-ponte-7/",
-      "data_catalogo": "2026-10-29",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "demonstracao",
       "componentes": [
         "Matemática"
@@ -302,7 +294,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -322,12 +314,12 @@
       "titulo": "Quem trabalha e quem controla?",
       "descricao": "Trabalho, escravidão, hierarquias e resistência na sociedade colonial, com leitura crítica de fontes.",
       "url": "aulas/30-10-2026-historia-1em/",
-      "data_catalogo": "2026-10-30",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -347,12 +339,12 @@
       "titulo": "Democracia além da escolha",
       "descricao": "Democracia, cidadania, direitos e participação social em perspectiva histórica e em situações-problema.",
       "url": "aulas/30-10-2026-historia-2em/",
-      "data_catalogo": "2026-10-30",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Cultura Digital"
@@ -373,12 +365,12 @@
       "titulo": "Antes de compartilhar",
       "descricao": "Investigação de informações digitais, contexto e fontes; decisões seguras e éticas antes de compartilhar.",
       "url": "aulas/30-10-2026-cultura-digital-8ano/",
-      "data_catalogo": "2026-10-30",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Espanhol"
@@ -398,12 +390,12 @@
       "titulo": "¡Hola! Vamos falar espanhol",
       "descricao": "Primeiros contatos com o espanhol: saudações, nome, cortesia e objetos da sala, com modelagem e associações.",
       "url": "aulas/30-10-2026-espanhol-6ano/",
-      "data_catalogo": "2026-10-30",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Ensino Religioso"
@@ -423,12 +415,12 @@
       "titulo": "Memórias, histórias e respeito",
       "descricao": "Memórias e ensinamentos em tradições orais e escritas; diversidade religiosa e respeito às pessoas com ou sem religião.",
       "url": "aulas/30-10-2026-ensino-religioso-6ano/",
-      "data_catalogo": "2026-10-30",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "piloto",
       "componentes": [
         "História"
@@ -436,9 +428,7 @@
       "series": [
         "9º ano · EF"
       ],
-      "turmas": [
-        "192"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -455,7 +445,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -463,9 +453,7 @@
       "series": [
         "3º ano · EM"
       ],
-      "turmas": [
-        "231"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -477,12 +465,12 @@
       "titulo": "Autoritarismo sem tanques",
       "descricao": "Entrada identificada, sem login e com registro de abertura/tempo. A atividade completa é hospedada no Vercel; questões e nota ainda não são sincronizadas com este registro.",
       "url": "aulas/03-11-2026-historia-231-entrada/",
-      "data_catalogo": "2026-11-03",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Eletiva de Base"
@@ -490,9 +478,7 @@
       "series": [
         "9º ano · EF"
       ],
-      "turmas": [
-        "192"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -501,15 +487,15 @@
         "03/11/2026"
       ],
       "id": "apresentacao-19",
-      "titulo": "Eletiva de Base — turma 192",
+      "titulo": "Eletiva de Base",
       "descricao": "Atividade digital de Eletiva de Base para a turma 192, em 3 de novembro de 2026.",
       "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-eletiva-192/",
-      "data_catalogo": "2026-11-03",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Estudos Orientados"
@@ -517,9 +503,7 @@
       "series": [
         "8º ano · EF"
       ],
-      "turmas": [
-        "182"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -528,15 +512,15 @@
         "03/11/2026"
       ],
       "id": "apresentacao-20",
-      "titulo": "Estudos Orientados — turma 182",
+      "titulo": "Estudos Orientados",
       "descricao": "Atividade digital de Estudos Orientados para a turma 182, em 3 de novembro de 2026.",
       "url": "https://aulas-03-11-2026.vercel.app/aulas/03-11-2026-estudos-orientados-182/",
-      "data_catalogo": "2026-11-03",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "treinamento",
       "componentes": [
         "Estudos Orientados",
@@ -545,9 +529,7 @@
       "series": [
         "8º ano · EF"
       ],
-      "turmas": [
-        "182"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -565,12 +547,12 @@
       "titulo": "Sala 01 · Imagem, Palavra e Som",
       "descricao": "Laboratório inclusivo de Estudos Orientados: associar imagens, ouvir palavras, observar sílabas e transferir para outras situações. Sem login, sem diagnóstico, sem nota curricular; progresso local.",
       "url": "aulas/sala-01-alfabetizacao-182/",
-      "data_catalogo": "2026-11-03",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Estudos Orientados"
@@ -578,9 +560,7 @@
       "series": [
         "7º ano · EF"
       ],
-      "turmas": [
-        "172"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -593,12 +573,12 @@
       "titulo": "Missão: Aprender Melhor",
       "descricao": "Organização de tarefas, compreensão, recuperação sem consulta, revisão e aplicação de estratégias de estudo em outros componentes.",
       "url": "aulas/04-11-2026-estudos-orientados-172/",
-      "data_catalogo": "2026-11-04",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Matemática"
@@ -606,9 +586,7 @@
       "series": [
         "7º ano · EF"
       ],
-      "turmas": [
-        "172"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -622,12 +600,12 @@
       "titulo": "Probabilidade: do acaso à evidência",
       "descricao": "Experimentos de probabilidade, frequência relativa e análise de gráficos de setores com dado do IBGE. Seis ambientes, 26 percursos e recuperação adaptativa até 104 atividades. Registros locais e relatório por arquivo/e-mail.",
       "url": "aulas/04-11-2026-matematica-172/",
-      "data_catalogo": "2026-11-04",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -655,7 +633,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Matemática"
@@ -682,7 +660,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Práticas Experimentais"
@@ -709,7 +687,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "ERER"
@@ -736,7 +714,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Estudos Orientados"
@@ -757,12 +735,12 @@
       "titulo": "Missão: Detetives do Estudo",
       "descricao": "Missão investigativa sobre como estudar: observar o caso, explicar sem consultar, identificar dificuldades e revisar. Oito questões comentadas, acessibilidade, cadastro direto e relatório exportável.",
       "url": "aulas/05-11-2026-estudos-orientados-7/",
-      "data_catalogo": "2026-11-05",
+      "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Estudos Orientados"
@@ -770,9 +748,7 @@
       "series": [
         "7º ano · EF"
       ],
-      "turmas": [
-        "172"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -791,7 +767,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Práticas Experimentais"
@@ -799,9 +775,7 @@
       "series": [
         "9º ano · EF"
       ],
-      "turmas": [
-        "192"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -820,7 +794,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -828,9 +802,7 @@
       "series": [
         "2ª série · EM"
       ],
-      "turmas": [
-        "221"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -849,7 +821,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Cultura Digital"
@@ -857,9 +829,7 @@
       "series": [
         "8º ano · EF"
       ],
-      "turmas": [
-        "182"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -878,7 +848,7 @@
       "formato": "AULA DIGITAL"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "Práticas Experimentais"
@@ -886,9 +856,7 @@
       "series": [
         "6º ano · EF"
       ],
-      "turmas": [
-        "161"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [
@@ -925,7 +893,7 @@
       "apoio_leitura_url": "aulas/praticas-experimentais-161-fracoes/apoio/"
     },
     {
-      "ano_letivo": 2026,
+      "ano_letivo": null,
       "categoria": "aula",
       "componentes": [
         "História"
@@ -933,9 +901,7 @@
       "series": [
         "1ª série · EM"
       ],
-      "turmas": [
-        "211"
-      ],
+      "turmas": [],
       "escola": "Bernardina Rodrigues Padilha",
       "escola_curta": "Bernardina",
       "palavras_chave": [

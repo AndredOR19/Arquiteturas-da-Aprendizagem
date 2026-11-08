@@ -16,3 +16,7 @@ O contrato mínimo usa IDs estáveis para `stations`, `cards` e `questions`; cad
 
 ## Dialética
 Risco: trocar rolagem por portais decorativos. Resolução: evidência validada, conexão justificada, aplicação diferente e testes de acesso/retomada. Se o motor não estiver pronto, implementar e testar ou declarar alternativa e pendência, sem afirmar implantação. Preservar Fluxos 01/02 e aulas existentes. Consultar [prompt de implantação](PROMPT_IMPLANTACAO_FLUXO_03.md).
+
+## Entrega integral e reutilização — 3.8.0
+A seção 37 do Prompt Mestre e MEMORIA_OPERACIONAL_AULAS.md são obrigatórias: produção central, games nos três caminhos, PDFs diagramados, evidências e publicação dupla. Materiais e acervo mostram série/tema; turma/data de aplicação ficam somente no relatório e painel interno. Nenhum fluxo complementar dispensa o contrato. Fluxos 01/02 preservam seu desenho quando escolhidos expressamente; o padrão novo permanece 03.
+

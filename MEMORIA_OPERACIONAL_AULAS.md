@@ -1,0 +1,15 @@
+# Memória operacional — produção de aulas
+
+Prof. André de Oliveira Rodrigues · atualização 08/11/2026 · Prompt Mestre 3.8.0.
+
+Antes de qualquer aula, ler integralmente `PROMPT_MESTRE_AULAS_DIGITAIS.md`, a seção 37 e `AGENTS.md`; consultar planejamentos, currículo e última aula confirmada. A fonte oficial é o repositório `AndredOR19/Arquiteturas-da-Aprendizagem`; conferir versão e hash. Não depender da conversa anterior para saber o padrão.
+
+“Criar aulas” significa produzir pela Biblioteca de Diagramação e seus motores: aula principal, exemplos e apoio à leitura, todos com games e visual temático adequado à série; PDFs discentes com os apoios/jogos imprimíveis e plano diário privado; testes, relatórios próprios, publicação Pages + Vercel e QR verificado. O professor não precisa repetir esses requisitos. Quantidades: 32, mínimo 64/padrão 96 e pelo menos 57, com avaliação separada.
+
+Não aceitar produção independente, formulário como interface principal, mesmo cenário genérico em todas as matérias, PDF apenas textual ou opcionais sem games. Usar as quatro etapas AEE, D/R/E/L, fontes conferidas, pistas, recuperação limitada, transferência e acesso sem diagnóstico. Dados de alunos e guias permanecem privados.
+
+Executar a ponte `automacoes/aulas/gerar.py` e o orquestrador privado `estacao/orquestrar_aulas.py`. Validar `politica-entrega.json` e o recibo com `contrato_entrega.py`. Não chamar compilado de concluído. Uma revisão do prompt não migra aulas antigas. Não inventar publicação, coleta, envio ou memória universal.
+
+Estado inicial desta atualização: automação e bloqueios versionados; implantação remota depende da revisão configurada e das credenciais existentes. As cinco aulas de 09/11 exigem revisão temática/editorial adicional. Consultar os recibos reais, não este texto, para o estado de uma aula.
+
+Conteúdo reutilizável: exibir somente série/componente/tema no acervo, aula, apoios e PDFs. Turma e data real de aplicação ficam apenas no relatório e painel interno. Não embutir uma data planejada na aula; preservar datas históricas e fontes. Separar conteúdo estável de aplicações independentes.

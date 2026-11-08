@@ -56,3 +56,7 @@ Sons de fundo: aplicar seção 5.2 do núcleo comum; seletor branco/rosa/marrom 
 
 ## Leitura breve e formas alternativas de explicar
 Aplicar seção 3.1 do [Prompt Mestre](../PROMPT_MESTRE_AULAS_DIGITAIS.md): uma ideia e explicação essencial curta por vez; reformulação opcional em linguagem direta, cotidiana/popular ou informal adolescente, exemplo, áudio e aprofundamento. Não empilhar versões nem obrigar leitura de todas. Preservar precisão, termos do componente e linguagem natural, sem infantilização. Manter alternativas curtas e verificar aplicação em outra situação com apoio menor. A escolha da linguagem não muda nota, bloqueios ou progresso; conferir controles e registro realmente implementados antes de declarar migração de aulas.
+
+## Entrega integral e reutilização — 3.8.0
+A seção 37 do Prompt Mestre e MEMORIA_OPERACIONAL_AULAS.md são obrigatórias: produção central, games nos três caminhos, PDFs diagramados, evidências e publicação dupla. Materiais e acervo mostram série/tema; turma/data de aplicação ficam somente no relatório e painel interno. Nenhum fluxo complementar dispensa o contrato. Fluxos 01/02 preservam seu desenho quando escolhidos expressamente; o padrão novo permanece 03.
+

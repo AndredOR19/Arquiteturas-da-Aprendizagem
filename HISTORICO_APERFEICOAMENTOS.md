@@ -3,6 +3,11 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.8.0 — 08/11/2026 — Entrega integral e bloqueios na produção central
+O professor determinou que aulas, games nas três rotas, cenários adequados à idade/tema, PDFs diagramados, plano diário privado, publicação dupla e QR integrem o padrão sem repetição do pedido. Seção 37 e memória operacional consolidam a obrigação. A atualização adicional organiza materiais e acervo por série: turma, data e horário de aplicação ficam no relatório/painel interno, com conteúdo e aplicação separados. A ponte pública passa a chamar o orquestrador privado; política e recibos por hash bloqueiam novas entregas sem evidências. O gerador independente foi retirado do caminho padrão.
+
+Testes distinguem contagens, duplicação, revisão ausente, pacote/prompt alterado e publicação parcial. O compilador pode operar em raiz externa e a orquestração deixa de depender de data fixa. A atualização não homologa as cinco aulas já compiladas nem cria credenciais, n8n ativo, revisão visual automática ou migração de legados. Conferir implantação e URLs reais antes de declarar automação completa.
+
 ## 3.7.0 — 07/11/2026 — Circuitos de descobertas, perfis etários e retorno rastreável
 O professor solicitou implantação concreta da exposição em circuitos, com aparência adaptada à idade: aventura acolhedora no 5º–6º, transição RPG no 7º, RPG contemporâneo no 8º–9º e investigação/simulação madura no Ensino Médio. A mesma maturidade visual deve ser preservada nos três caminhos; referências a Roblox e RPGs são apenas linguagem, sem cópia de marcas ou ativos.
 
@@ -360,6 +365,7 @@ Solicitação do Prof. André Rodrigues: receber interações da página automat
 
 ## Aplicação das diretrizes 2.13.0 — Conectar e investigar, 28/10/2026
 Pedido do autor: refazer treinamento diante das arquiteturas e do visual atuais. Revisão do artefato 2.0.0: caderno/bancada, 28 percursos preservados, leitura ajustável, questionário e bloqueio de finalização, relatório ampliado. Sem nova regra geral do prompt. Conferência em laboratorios/conectar-investigar/VERIFICACAO.md; teste técnico não é aplicação escolar.
+
 
 
 

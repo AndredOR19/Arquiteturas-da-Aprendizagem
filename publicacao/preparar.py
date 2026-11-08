@@ -14,7 +14,7 @@ from alfabetizacao.validar import validar_apoio
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '_site'
-ALLOWED = {'.html', '.css', '.js', '.json', '.svg', '.png', '.jpg', '.jpeg', '.webp', '.gif', '.mp3', '.wav', '.ogg', '.woff', '.woff2', '.ico'}
+ALLOWED = {'.html', '.css', '.js', '.json', '.svg', '.png', '.jpg', '.jpeg', '.webp', '.gif', '.mp3', '.wav', '.ogg', '.woff', '.woff2', '.ico', '.pdf'}
 
 def safe_path(base, name):
     p = (base / name).resolve()
@@ -35,6 +35,10 @@ def decorar_apoios(text, page, assets):
     return text[:at] + scripts + text[at:] if at >= 0 else text + scripts
 
 def main():
+    import sys
+    sys.path.insert(0, str(ROOT / "automacoes/aulas"))
+    from contrato_entrega import catalog_gate
+    catalog_gate(ROOT)
     apoio = validar_apoio(ROOT / "publicacao/alfabetizacao/index.html")
     print("Apoio opcional:", len(apoio["percursos"]), "percursos por área; mínimo 57")
     items = json.loads((ROOT / 'publicacao/catalogo.json').read_text())['materiais']
@@ -111,6 +115,8 @@ def main():
                 if any(part.lower() in {'professor', 'gabarito', 'privado'} or part.startswith('.') for part in relative.parts):
                     continue
                 if p.is_file() and p.suffix.lower() in ALLOWED:
+                    if p.suffix.lower()=='.pdf' and p.name not in {'aula-impressa.pdf','apoio-leitura.pdf','exemplos.pdf'}:
+                        raise ValueError('PDF não autorizado como discente: '+str(p))
                     target = dest / relative
                     target.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copyfile(p, target)
@@ -183,6 +189,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 

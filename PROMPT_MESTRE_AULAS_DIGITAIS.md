@@ -1,6 +1,6 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.7.0**
-Atualização: **07/11/2026**
+Versão vigente: **3.8.0**
+Atualização: **08/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
 
@@ -20,7 +20,7 @@ Antes de criar ou revisar uma aula:
 5. Confira os modelos de interface indicados pelo professor. Em caso de divergência, a instrução atual do professor prevalece; registre a alteração pertinente neste prompt e no histórico.
 6. Consulte biblioteca-arquiteturas/PROTOCOLO_IA.md e catalogo.json; leia o núcleo transversal, suas dependências e o ramo pertinente. Preencha o briefing de composição e confira compatibilidade com este prompt. A biblioteca operacionaliza as arquiteturas para uso por diferentes IAs, sem depender de histórico de conversa.
 
-**Interpretação padrão de “aula”:** quando o professor pedir uma aula, produzir a aula digital completa em HTML, seguindo este fluxo de produção, conferência, cadastro e publicação no GitHub Pages. Documento editável é complemento quando pertinente ou quando solicitado; sua entrega isolada não encerra o pedido de aula. Consultar memória e este repositório a cada pedido, sem exigir que o professor repita o padrão. Quando solicitado QR Code, gerar um por aula somente após conferir o endereço publicado.
+**Interpretação padrão de “aula”:** quando o professor pedir uma aula, produzir a aula digital completa em HTML, seguindo este fluxo de produção, conferência, cadastro e publicação no GitHub Pages. Documento editável é complemento quando pertinente ou quando solicitado; sua entrega isolada não encerra o pedido de aula. Consultar memória e este repositório a cada pedido, sem exigir que o professor repita o padrão. PDFs discentes e plano diário privado, jogos nas três rotas, publicação Pages e Vercel e QR verificados integram o padrão integral da seção 37; gerar QR somente após conferir cada endereço publicado.
 
 Para continuar a produção intelectual, consultar pesquisa/MEMORIA.md, registros.json, producoes.json e o diário pertinente. Esse procedimento se soma à consulta pedagógica, sem carregar automaticamente conversas ou bases privadas.
 
@@ -44,7 +44,7 @@ O Fluxo 01 preserva a organização anterior de entrada, dados, hierarquia e nav
 MHTML é uma captura de referência, que pode não conter a lógica interativa completa. Analise a captura e, quando disponível, o código funcional correspondente; reconstrua e teste as interações necessárias.
 
 A entrada deve exibir:
-- Escola, turma, componente e data.
+- Série, componente, título e objetivo. Turma, data e horário de aplicação não aparecem na aula nem no acervo (seção 37.7).
 - Título e objetivo; pergunta geradora quando pertinente à modalidade.
 - Resumo de uma ou duas frases para registro administrativo.
 - Códigos e descrições breves das habilidades.
@@ -900,3 +900,66 @@ O empacotador integra `publicacao/apoios/` às páginas com banco `apoio-dados` 
 
 ### 36.4. Dialética prática
 **Ponto cego:** acrescentar um fundo bonito sem ensinar o procedimento, confundir desenho com evidência ou mostrar “enviado” sem confirmação. **Ação de maestria:** testar a primeira atividade sem instrução oral externa, pedir que o aluno explique a relação mostrada e conferir os dados exportados em cada caminho. Validação técnica de interface não substitui uso com mediação e avaliação docente.
+
+
+
+## 37. Produção integral obrigatória, memória operacional e automação — 08/11/2026
+
+### 37.1. Âncora e autoridade
+Determinação do Prof. André: o professor não deve repetir, a cada pedido, jogos, opcionais, layout, PDFs e publicação. “Crie as aulas” aciona o pacote integral abaixo, salvo redução expressa de escopo pelo professor. Vale para todas as disciplinas, turmas, aulas adicionais e caminhos opcionais. Esta seção consolida e amplia as anteriores; não retira acessibilidade, rigor curricular, registros ou proteção de dados.
+
+A fonte oficial é este Prompt Mestre versionado no repositório pedagógico. `MEMORIA_OPERACIONAL_AULAS.md` e `AGENTS.md` indicam a consulta obrigatória; `automacoes/aulas/politica-entrega.json` contém os requisitos executáveis, não substitui a leitura. Cópias no Drive ou no acervo de arquivos são espelhos identificados por versão/hash. Antes de produzir, conferir a fonte vigente e recuperar planejamentos/últimas aulas; memória de conversa não substitui consulta nem garante carregamento em outra sessão. Não existe autorização para fingir que todas as IAs receberam a atualização automaticamente.
+
+### 37.2. Mecânica de produção pela biblioteca
+O pedido deve ingressar no orquestrador da **Biblioteca de Diagramação**, consumir o conteúdo e as arquiteturas do repositório pedagógico e chamar seu compilador e motores versionados. É vedado gerar um HTML próprio no assistente ou no gerador público e depois empacotá-lo como se tivesse sido produzido pela biblioteca. A autoria dos dados pedagógicos pode usar IA; desenho, games, componentes e exportadores pertencem à arquitetura central. Preservar fontes e versões, sem reconstruir motores por aula.
+
+O orquestrador deve ler o Prompt Mestre **integral**, a política e os arquivos pedagógicos pertinentes, registrar hashes e preparar um briefing por aula. Nenhum recorte arbitrário de caracteres pode omitir requisitos. Conferir duração real, componente, turma, continuidade e fonte curricular. Buscar primeiro os registros; perguntar apenas o dado essencial que continuar ausente. Informação provisória permanece marcada e impede declarar conformidade integral quando afetar objetivo/planejamento.
+
+Fluxo 03/GEI é o padrão das novas aulas. Se faltar componente, cenário ou integração, desenvolver/adaptar na biblioteca e testar; deixar bloqueio explícito enquanto isso. Não substituir a arquitetura por um formulário nem afirmar que um quiz recebeu game só porque há um cenário atrás dele.
+
+### 37.3. Matriz obrigatória de entregas
+| Entrega | Requisito de produção e conferência |
+|---|---|
+| Aula principal | 32 originais, exposição AEE, âncoras que ensinam, D/R/E/L, pistas, transferência e operações curriculares no jogo |
+| Aprender de outro jeito | Mínimo 64, padrão 96; jogo com exemplos, modelagem, leitura breve, relações e nova aplicação; progresso/relatório próprios |
+| Imagens, palavras e áudio | Pelo menos 57 atividades significativas; game com cenas específicas, palavra/som/letra/sílaba/frase/contexto e mediação; sem infantilização |
+| Visual das três rotas | Cenários, personagens, NPCs, missões encadeadas, inventário e consequências pertinentes; teclado/toque e alternativa equivalente |
+| PDF discente | Diagramação temática consistente com a aula, representações didáticas, espaço de resposta e jogos/atividades imprimíveis dos caminhos; adaptar ao papel sem simular interatividade |
+| PDF do professor | Plano diário, explicação de mediação, duração prevista, adaptações, critérios e gabarito fundamentado; separado e privado |
+| Acesso e avaliação | Fontes/layout reversíveis, menos estímulos, voz com falha informada, alternativa sem áudio, contraste, foco, recarga e preservação de dados |
+| Registro e relatórios | Escola RS igual no acervo e aula; relatórios integrais e separados nas três rotas; primeira confirmação e apoios preservados |
+| Publicação e QR | Mesmo material discente no Pages e Vercel, cada endereço verificado; QR somente para endereço confirmado; guias e dados privados excluídos |
+
+Opcional significa liberdade de escolha do estudante; não dispensa a produção do caminho nem seu jogo, qualidade visual, acessibilidade ou relatório. Não exigir que todos concluam os três bancos. A nota principal mantém denominador 32; apoios e recuperação ficam separados. Aplicar a regra informada 1/2/4, teto 128, preservando realizações anteriores. Não bloquear apoios por erro nem impor espera universal sem finalidade didática.
+
+### 37.4. Estética e qualidade editorial
+5º–6º: aventura acolhedora; 7º: transição para RPG; 8º–9º: RPG contemporâneo; Ensino Médio: investigação e simulação com linguagem madura. Referências de jogos atuais orientam linguagem, sem copiar marcas/ativos. Ajustar a série confirmada, sem deduzi-la apenas do número da turma.
+
+O tema deve orientar cenário, objetos, imagens explicativas e ações. Pode haver motor comum e ativos reutilizados com pertinência, mas não aplicar a mesma cidade industrial genérica a todas as matérias e chamar isso de personalização. Uma ilustração de fundo não substitui mapa, gráfico, comparação ou representação que explique a relação. Identificar ficção, esquema, reconstrução e fonte histórica. Conferir direitos de cada ativo antes da saída pública.
+
+Propagar o briefing visual ao HTML, aos dois apoios e aos PDFs; slides quando solicitados. PDF do aluno não pode ser apenas formulário textual com cabeçalho colorido. Inspecionar todas as páginas renderizadas e corrigir cortes, fontes, sobreposições, imagens e espaços. Controles e leitura preservam prioridade sobre ornamento; modo simples não perde conteúdo nem progresso. Não anunciar acabamento visual completo por compilação ou teste de DOM.
+
+### 37.5. Circuito executável e bloqueios
+Pedido → consulta e briefing com hashes → autoria de dados → validação dos três bancos → compilação pela biblioteca → PDFs e renderizações → testes funcionais/visuais das três rotas → registro de aceite por requisito → pacote público → Pages e Vercel → verificação das URLs da versão → QR → entrega e diário como planejada.
+
+`gerar.py` é ponte para `estacao/orquestrar_aulas.py`; não contém um template alternativo de produção. O orquestrador suporta qualquer lote com ID/data, não apenas 09/11. Pode consumir dados já preparados ou o provedor de autoria configurado. Provedor indisponível gera briefing pendente, nunca aula inventada. A chamada de IA não confere automaticamente fontes, imagens ou qualidade.
+
+Cada versão recebe recibo com hash do prompt e do pacote, estado de cada requisito, responsável, data e evidência existente com hash. Ausência, pendência ou alteração posterior invalida o aceite. `contrato_entrega.py` bloqueia publicação de novas aulas registradas sob esta política sem aceite completo. Evidências devem resultar de testes/revisão realmente realizados; preenchimento do recibo não prova, sozinho, a qualidade pedagógica. Não marcar campos aprovados automaticamente por haver um arquivo.
+
+Estados distintos: rascunho, compilado, revisão pendente, pronto para publicar, publicado parcialmente e concluído. Publicar automaticamente após os critérios e a autorização vigente, sem pedir novamente confirmação rotineira; publicação bloqueada por falha real continua pendente. Um destino funcional é contingência, não prova de entrega nos dois. Serviço sem credencial, quota ou permissão exige estado explícito e preservação da fila, sem expor segredo ou declarar implantação.
+
+### 37.6. Dialética prática e continuidade
+**Ponto cego:** registrar uma regra no prompt, gerar saída parcial e dizer “está tudo pronto”. **Ação de maestria:** conferir a matriz por aula/rota/suporte e a versão efetivamente publicada; corrigir o que faltar pela arquitetura central. A lista serve ao produtor, não como formulário obrigatório para o professor.
+
+Cada aperfeiçoamento atualiza prompt, versão, histórico, contrato, testes e pontos de entrada pertinentes na mesma entrega. Espelhos são verificados por hash; divergência deve ser resolvida pela fonte oficial. O projeto armazena memória documental consultável, não instala memória universal dos chats, treinamento automático ou n8n ativo sem implantação. Não alterar livros/projetos de outros domínios nem invalidar sessões legadas indiscriminadamente.
+
+As cinco aulas de 09/11 anteriormente compiladas não ficam conformes por esta atualização. Elas exigem migração/revisão explícita: cenários temáticos, PDFs dos apoios, recuperação e demais requisitos não comprovados continuam pendentes até correção e testes. Não sobrescrever respostas de estudantes nem tratar planejado como aplicado.
+
+### 37.7. Conteúdo reutilizável por série; aplicação somente interna
+Atualização do professor na mesma sessão: a aula é um conteúdo reutilizável, não um evento datado de uma turma. Acervo, filtros, cards, capa, entrada, cenários, apoios, PDF discente e demais layouts mostram série/etapa, componente e tema; não exibem turma, data, horário ou ano de aplicação. Essa regra atualiza as exigências anteriores de identificação pública. Datas históricas, datas de fontes e outros objetos curriculares permanecem quando fazem parte do conteúdo; não confundir com data de aplicação.
+
+Separar `conteudo_id` e versão (estáveis, preferencialmente sem data/turma no novo ID) de `aplicacao_id`, estudante, turma/matrícula, escola/docente, início/fim e data real. O contexto de aplicação aparece somente no relatório e no painel interno autorizado, com origem autodeclarada ou conferida; não transportar turma/data em URL, QR, tags públicas ou título. Links legados ficam preservados como compatibilidade, sem usá-los como nome visível do material. A série é informada pela fonte, não deduzida do código da turma.
+
+Ao reutilizar, criar uma aplicação nova sem sobrescrever a anterior nem trocar a versão/denominador de uma realização iniciada. Data do relatório é a data real do registro; não usar uma data planejada fixa no conteúdo. Se offline, preservar relatório/fila com origem clara e sincronizar somente após recibo real. Ausência de integração não pode ser descrita como relatório recebido no painel. Não expor listas de turmas, matrículas ou datas individuais no acervo aberto.
+
+O teste de reutilização deve abrir o mesmo conteúdo em duas aplicações de turmas/datas distintas: capa e conteúdo iguais por série, relatórios/contextos independentes. Não apagar datas históricas de História nem comprometer referências bibliográficas ao remover metadados de aplicação.

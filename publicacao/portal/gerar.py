@@ -19,9 +19,17 @@ def acervo_publico(root,items):
             m=re.search(r'(\d{2})-(\d{2})-(\d{4})',item.get('origem',''))
             if m:date=f'{m[3]}-{m[2]}-{m[1]}'
         out={k:p[k] for k in ['ano_letivo','categoria','componentes','series','turmas','escola','escola_curta','palavras_chave']}
+        # Turma/ano/data são contexto de aplicação, nunca tags do acervo reutilizável.
+        application_date=date
+        out['turmas']=[];out['ano_letivo']=None;date=''
         out.update(id=item.get('destino') or 'apresentacao-'+str(i),titulo=p.get('titulo_exibicao',item['titulo']),descricao=p['descricao'],url=item.get('url') if item['tipo']=='link' else item['destino']+'/',data_catalogo=date,acesso=p.get('acesso','aberto'),formato=('GAMMA' if 'gamma.app' in item.get('url','') else 'AULA DIGITAL') if item['tipo']=='link' else 'SLIDES' if item['tipo']=='slides' else 'AULA DIGITAL')
         for key in ['registro_escola_rs','rotas','apoio_leitura_url']:
             if key in p:out[key]=p[key]
+        out['titulo']=re.sub(r'(?i)\s*(?:[|·—–-]\s*)?turma\s+\d+[A-Za-z]?','',out['titulo']).strip()
+        if re.fullmatch(r'\d{4}-\d{2}-\d{2}',application_date):
+            yy,mm,dd=application_date.split('-')
+            for stamp in (application_date,f'{dd}/{mm}/{yy}',f'{dd}-{mm}-{yy}'):
+                out['titulo']=out['titulo'].replace(stamp,'').strip(' |·—–-')
         saida.append(out)
     return {'versao':'1.0.0','materiais':saida}
 
@@ -40,3 +48,4 @@ def atualizar_fonte(root):
 if __name__=='__main__':
     atualizar_fonte(Path(__file__).resolve().parents[2])
     print('Índice público atualizado a partir do catálogo; nenhum dado individual consultado.')
+

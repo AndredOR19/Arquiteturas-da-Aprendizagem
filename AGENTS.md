@@ -3,7 +3,7 @@
 Este é o repositório de referência pedagógica do Prof. André de Oliveira Rodrigues.
 
 ## Antes de produzir ou revisar aulas
-1. Leia PROMPT_MESTRE_AULAS_DIGITAIS.md integralmente.
+1. Leia PROMPT_MESTRE_AULAS_DIGITAIS.md integralmente e MEMORIA_OPERACIONAL_AULAS.md. A seção 37 e a política 3.8.0 consolidam a entrega integral.
 2. Leia as últimas entradas de HISTORICO_APERFEICOAMENTOS.md.
 3. Consulte banco-pedagogico/catalogo.json por turma/componente/período, originais e alertas; depois base-curricular/catalogo.json e as fontes curriculares disponíveis.
 4. Confira horário, escola, turma, componente e continuidade no registro mais recente, sem tratar aula planejada como aplicada.
@@ -170,3 +170,14 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 ## Orientação, imagens e relatório de cada alternativa
 - Aplicar seção 36 do Prompt Mestre 3.6.0: três passos claros, exemplo resolvido, representação que ensina e fundo temático removível nas páginas de apoio e de leitura breve. Preservar dados, contraste, teclado e alternativa ao áudio.
 - As três opções devem ter relatório próprio e exportação integral; integração local não é envio automático nem recebimento no painel. Conferir tentativas, apoios, identidade declarada, estado e alternativa manual de entrega, sem dados reais no Git público.
+
+
+## Entrega integral — 3.8.0
+- Aplicar seção 37 do Prompt Mestre e automacoes/aulas/politica-entrega.json a todas as aulas e rotas opcionais.
+- Usar gerar.py somente como ponte para o orquestrador privado; nenhum HTML independente.
+- Games, cenário temático adequado à idade, PDFs diagramados dos três caminhos e plano diário privado integram o padrão.
+- Exigir evidências reais por requisito e hash de versão; contrato_entrega.py bloqueia novas publicações incompletas.
+- Pages e Vercel verificados, QR depois da URL; compilação não encerra pedido. Não pedir que o professor repita o padrão.
+- Preserve legados/sessões; as cinco aulas de 09/11 ainda precisam de revisão, não ficam conformes por atualização documental.
+
+- Seção 37.7: materiais e acervo por série/tema, sem turma/data/horário de aplicação. Contexto real apenas no relatório/painel interno; preservar datas do conteúdo histórico. Separar conteúdo e aplicações.

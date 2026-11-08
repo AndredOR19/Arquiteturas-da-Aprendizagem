@@ -17,3 +17,7 @@ Aplicar a seção 5.1 do Prompt Mestre e consultar [repertórios por componente]
 
 ## Implantação técnica pendente
 [Prompt completo para outra IA](PROMPT_IMPLANTACAO_FLUXO_03.md): contratos, componentes, skins, portais, coleta, testes e piloto. Documento preparado não equivale a implantação.
+
+## Entrega integral e reutilização — 3.8.0
+A seção 37 do Prompt Mestre e MEMORIA_OPERACIONAL_AULAS.md são obrigatórias: produção central, games nos três caminhos, PDFs diagramados, evidências e publicação dupla. Materiais e acervo mostram série/tema; turma/data de aplicação ficam somente no relatório e painel interno. Nenhum fluxo complementar dispensa o contrato. Fluxos 01/02 preservam seu desenho quando escolhidos expressamente; o padrão novo permanece 03.
+

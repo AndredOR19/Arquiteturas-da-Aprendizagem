@@ -105,3 +105,4 @@ jobs:
                       raise SystemExit('Material não empacotado: '+str(path))
           print('Todos os materiais locais constam do pacote público.')
           PY
+

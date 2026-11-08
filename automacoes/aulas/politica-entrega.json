@@ -1,0 +1,43 @@
+{
+  "versao": "3.8.0",
+  "vigencia": "2026-11-08",
+  "rotas": {
+    "principal": 32,
+    "exemplos_minimo": 64,
+    "exemplos_padrao": 96,
+    "apoio_minimo": 57
+  },
+  "requisitos": {
+    "curriculo_aee": "Plano recebido, continuidade, BNCC/RCG conferidos; AEE, D/R/E/L, recuperação e transferência; sem inventar aplicação",
+    "jogos_principal": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado",
+    "jogos_exemplos": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio",
+    "jogos_apoio": "Game acessível com cenas específicas, imagem-palavra-som, montagem, contexto e mediação; sem infantilização nem nota curricular",
+    "visual_tema_idade": "Cenários, personagens e imagens que explicam o tema e a idade; não reutilizar a mesma cidade genérica como se personalizasse todas as disciplinas",
+    "pdf_discente": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual",
+    "pdf_docente": "Plano diário, mediação, tempos previstos, critérios e gabarito fundamentado; arquivo privado separado",
+    "acessibilidade_tres_rotas": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas",
+    "avaliacao_recuperacao": "32 originais e primeira confirmação preservados; regra 1/2/4 e teto 128 informados; apoios livres; experiência obrigatória antes de nota final",
+    "relatorios_tres_rotas": "Prévia/cópia/TXT/JSON integrais, tentativas e apoios reais separados; entrega manual explícita ou recibo real; sem envio fictício",
+    "registro_escola_rs": "Mesmo título/resumo/habilidades no acervo e aula, cópia integral; sem afirmar envio ao Escola RS",
+    "privacidade_licencas": "Sem dados de estudantes, segredos ou guias no pacote discente; direitos de todos os ativos conferidos",
+    "navegador_multiplataforma": "Evidências por rota em desktop, Chromebook e celular; toque e teclado, recarga, erro/acerto, progresso e exportações",
+    "pdf_renderizado": "Todas as páginas de PDFs renderizadas e inspecionadas; sem cortes, sobreposições, fontes ausentes ou imagens ilegíveis",
+    "conteudo_reutilizavel": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas"
+  },
+  "publicacao": {
+    "destinos": [
+      "pages",
+      "vercel"
+    ],
+    "qrcode": "apenas_depois_da_url_verificada",
+    "automatico_apos_aceite": true
+  },
+  "estados": [
+    "rascunho",
+    "compilado",
+    "revisao_pendente",
+    "pronto_para_publicar",
+    "publicado_parcial",
+    "concluido"
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "repositorio": "AndredOR19/Biblioteca-de-Diagramacao",
-  "commit": "d10a9a45ab2b06ef1d9b51383947f6dcc13502b8",
-  "versao_integracao": 1,
-  "quarto": "1.10.19"
+  "commit": "6d77e7087641c622e749f828fd370cf55f07fa0b",
+  "versao_integracao": 2,
+  "quarto": "1.10.19",
+  "contrato_aulas": "3.8.0"
 }

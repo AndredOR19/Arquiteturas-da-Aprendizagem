@@ -1,0 +1,28 @@
+{
+  "versao": "3.8.0",
+  "atualizado_em": "2026-11-08",
+  "fonte": "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+  "implementado": [
+    "ponte exclusiva para biblioteca",
+    "orquestração genérica e contexto integral",
+    "contrato por requisito/hash",
+    "bloqueio comum Pages/Vercel",
+    "acervo por série",
+    "relatório com aplicação independente",
+    "conferência dupla e QR após URLs"
+  ],
+  "verificacao_local": [
+    "13 testes do contrato",
+    "ponte sem template independente",
+    "925 atividades GEI e separação de aplicações",
+    "compilação real em raiz externa",
+    "PDF/payload sem turma e data de aplicação"
+  ],
+  "pendente": [
+    "execução remota do novo orquestrador",
+    "conferir segredos BIBLIOTECA_EXEC_TOKEN e APRENDIZAGEM_WRITE_TOKEN e provedor de autoria",
+    "revisão temática/editorial e conformidade integral das cinco aulas anteriores",
+    "recebimento real no painel para aulas ainda locais"
+  ],
+  "nao_afirmar": "Memória universal, n8n ativo, implantação completa, publicação das cinco aulas ou aceite visual automático."
+}

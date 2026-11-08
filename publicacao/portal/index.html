@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       name="description"
-      content="Uma escola de caminhos: aulas digitais, treinamento cognitivo e percursos de aprendizagem organizados por ano, série, turma e matéria."
+      content="Uma escola de caminhos: aulas digitais, treinamento cognitivo e percursos de aprendizagem organizados por série e matéria."
     />
     <meta name="theme-color" content="#173f38" />
     <title>Escola de caminhos · Arquiteturas da Aprendizagem</title>
@@ -15,7 +15,7 @@
       src="__ASSETS__/portal.js?v=1.0.2"
       data-acervo="__ASSETS__/acervo.json"
     ></script>
-  </head>
+  <style>[hidden]{display:none!important}</style></head>
   <body>
     <a class="skip" href="#acervo">Ir ao acervo de aulas</a>
     <aside class="sidebar" id="navigation">
@@ -94,7 +94,7 @@
             </h1>
             <p class="hero-description">
               Aulas, experiências e ideias para construir relações. Escolha sua
-              matéria, encontre sua turma e siga no seu ritmo.
+              matéria, encontre sua série e siga no seu ritmo.
             </p>
             <a class="primary-button" href="#acervo"
               >Encontrar uma aula <span aria-hidden="true">↗</span></a
@@ -203,7 +203,7 @@
                   autocomplete="off" /></span
             ></label>
             <div class="filter-grid">
-              <label
+              <label hidden
                 ><span class="field-label">Ano letivo</span
                 ><select id="filter-year">
                   <option value="">Todos os anos</option>
@@ -213,7 +213,7 @@
                 ><select id="filter-grade">
                   <option value="">Todas as séries</option>
                 </select></label
-              ><label
+              ><label hidden
                 ><span class="field-label">Turma</span
                 ><select id="filter-class">
                   <option value="">Todas as turmas</option>
@@ -239,7 +239,7 @@
               <label class="sort-label"
                 >Ordenar
                 <select id="sort">
-                  <option value="recentes">Mais recentes</option>
+                  <option value="titulo">Por título</option>
                   <option value="titulo">Título A–Z</option>
                   <option value="materia">Matéria</option>
                 </select></label
@@ -253,7 +253,7 @@
             <span aria-hidden="true">◎</span>
             <h3>Ainda não há materiais neste caminho.</h3>
             <p>
-              Experimente outra turma ou matéria, ou limpe os filtros para
+              Experimente outra série ou matéria, ou limpe os filtros para
               explorar o acervo.
             </p>
             <button class="primary-button" id="empty-reset">
@@ -272,7 +272,7 @@
             <p class="eyebrow">CONSTRUIR ESTA ESCOLA, JUNTOS</p>
             <h2>Cada professor traz<br />um novo caminho.</h2>
             <p>
-              Organize suas aulas por escola, ano, turma e matéria. Use as
+              Organize os conteúdos por série e matéria; as aplicações ficam nos relatórios internos. Use as
               arquiteturas e os modelos para criar com sua IA, preservando sua
               autoria.
             </p>
@@ -346,3 +346,4 @@
     </div>
   </body>
 </html>
+

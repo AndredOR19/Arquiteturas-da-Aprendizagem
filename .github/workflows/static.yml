@@ -92,3 +92,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Conferir versão nos dois destinos e gerar QR verificado
+        env:
+          PAGES_BASE: ${{ steps.deployment.outputs.page_url }}
+          VERCEL_BASE: ${{ vars.VERCEL_BASE_URL || 'https://arquiteturas-aulas.vercel.app' }}
+        run: python automacoes/aulas/conferir_publicacao_integral.py --pages "$PAGES_BASE" --vercel "$VERCEL_BASE"
+      - name: Preservar recibos públicos e QR
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publicacao-integral-${{ github.sha }}
+          path: verificacao-publicacao/
+          if-no-files-found: ignore
+          retention-days: 30
