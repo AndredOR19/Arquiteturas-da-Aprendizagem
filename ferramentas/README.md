@@ -6,6 +6,10 @@ A Biblioteca de Diagramação fornece o motor e os modelos. Este repositório fo
 
 Abra [Produzir Arquiteturas da Aprendizagem](https://github.com/AndredOR19/Biblioteca-de-Diagramacao/actions/workflows/produzir-aprendizagem.yml), clique em Run workflow e informe `todos` ou `projetos/demonstracao-slides`. Baixe `materiais-aprendizagem` na execução concluída. O fluxo roda na biblioteca privada e requer acesso a ela. Geração não publica sites.
 
+## Produzir pelo GitHub a partir deste repositório (biblioteca lida no runner)
+
+Actions → **Produzir com a Biblioteca de Diagramação (leitura no runner)** (`.github/workflows/producao-biblioteca.yml`, apoio `producao_ci.py`). O runner clona a biblioteca no commit do lock usando um segredo de leitura (`BIBLIOTECA_DEPLOY_KEY` ou `BIBLIOTECA_READ_TOKEN`), produz pela ponte existente, apaga o clone, roda os validadores e abre PR em rascunho com a saída. Configuração dos segredos e limites: `automacoes/aulas/README.md`. Teste local sem rede: `python3 ferramentas/testar_producao_ci.py` (biblioteca sintética; não comprova o motor real).
+
 ## Produzir com os dois clones locais
 
 Instale Python 3.11+, as dependências da biblioteca e Quarto 1.10.19. Faça checkout do commit indicado no lock em um clone limpo da biblioteca.

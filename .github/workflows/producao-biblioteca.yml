@@ -1,0 +1,159 @@
+name: Produzir com a Biblioteca de Diagramação (leitura no runner)
+# A biblioteca privada é lida apenas dentro do runner, no commit fixado por ferramentas/biblioteca.lock.json.
+# Nenhum arquivo dela entra no repositório público; a saída discente vai para um PR em rascunho.
+# Requer UM segredo de leitura: BIBLIOTECA_DEPLOY_KEY (deploy key somente leitura) ou BIBLIOTECA_READ_TOKEN
+# (fine-grained PAT restrito à biblioteca, Contents: read). Passo a passo: automacoes/aulas/README.md.
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: orquestrar = pedido → estacao/orquestrar_aulas.py (ponte gerar.py); validar/compilar/novo = estacao/produzir.py
+        type: choice
+        default: orquestrar
+        options: [orquestrar, validar, compilar, novo]
+      pedido:
+        description: Pedido JSON (modo orquestrar), relativo à raiz
+        type: string
+        default: automacoes/aulas/pedidos/2026-11-10-terca.json
+      roteiro:
+        description: Roteiro .md opcional (modo orquestrar)
+        type: string
+        default: automacoes/aulas/roteiros/2026-11-10-terca.md
+      gerar_dados:
+        description: Usar o provedor de autoria (AULA_LLM_*) quando não houver dados preparados
+        type: boolean
+        default: false
+      argumentos:
+        description: Argumentos para produzir.py (modos validar/compilar/novo), separados por espaço
+        type: string
+        default: ''
+      abrir_pr:
+        description: Abrir PR em rascunho com a saída (nunca mescla nem publica)
+        type: boolean
+        default: true
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: producao-biblioteca
+  cancel-in-progress: false
+jobs:
+  produzir:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - name: Checkout do repositório pedagógico
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Conferir credencial de leitura (falha com orientação se não houver segredo)
+        id: credencial
+        env:
+          BIBLIOTECA_DEPLOY_KEY: ${{ secrets.BIBLIOTECA_DEPLOY_KEY }}
+          BIBLIOTECA_READ_TOKEN: ${{ secrets.BIBLIOTECA_READ_TOKEN }}
+        run: python3 ferramentas/producao_ci.py credencial
+      - name: Clonar a biblioteca privada no commit fixado (deploy key)
+        if: steps.credencial.outputs.modo == 'ssh'
+        uses: actions/checkout@v4
+        with:
+          repository: AndredOR19/Biblioteca-de-Diagramacao
+          ref: ${{ steps.credencial.outputs.commit }}
+          ssh-key: ${{ secrets.BIBLIOTECA_DEPLOY_KEY }}
+          path: _biblioteca_privada
+          persist-credentials: false
+      - name: Clonar a biblioteca privada no commit fixado (token de leitura)
+        if: steps.credencial.outputs.modo == 'token'
+        uses: actions/checkout@v4
+        with:
+          repository: AndredOR19/Biblioteca-de-Diagramacao
+          ref: ${{ steps.credencial.outputs.commit }}
+          token: ${{ secrets.BIBLIOTECA_READ_TOKEN }}
+          path: _biblioteca_privada
+          persist-credentials: false
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Quarto (versão do lock)
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.10.19'
+      - name: Dependências
+        run: |
+          python -m pip install --disable-pip-version-check "qrcode[pil]==8.2" "reportlab==4.4.4" "pypdf==6.3.0"
+          if test -f _biblioteca_privada/requirements.txt; then python -m pip install --disable-pip-version-check -r _biblioteca_privada/requirements.txt; fi
+      - name: Conferir o clone (commit do lock, limpo, motor presente)
+        run: python3 ferramentas/producao_ci.py conferir
+      - name: Produzir pela ponte existente
+        env:
+          AULA_LLM_API_KEY: ${{ secrets.AULA_LLM_API_KEY }}
+          AULA_LLM_MODEL: ${{ vars.AULA_LLM_MODEL }}
+          AULA_LLM_BASE_URL: ${{ vars.AULA_LLM_BASE_URL }}
+          MODO: ${{ inputs.modo }}
+          PEDIDO: ${{ inputs.pedido }}
+          ROTEIRO: ${{ inputs.roteiro }}
+          GERAR: ${{ inputs.gerar_dados && '--gerar-dados' || '' }}
+          ARGUMENTOS: ${{ inputs.argumentos }}
+        run: |
+          # shellcheck disable=SC2086
+          python3 ferramentas/producao_ci.py produzir --modo "$MODO" --pedido "$PEDIDO" --roteiro "$ROTEIRO" $GERAR -- $ARGUMENTOS
+      - name: Remover o clone privado antes de qualquer registro
+        if: always()
+        run: rm -rf _biblioteca_privada
+      - name: Validadores do repositório
+        id: validacao
+        continue-on-error: true
+        run: python3 ferramentas/producao_ci.py validar
+      - name: Listar mudanças e bloquear caminhos proibidos
+        id: mudancas
+        run: python3 ferramentas/producao_ci.py mudancas --lista "$RUNNER_TEMP/producao-mudancas.txt"
+      - name: Guardar saída como artefato (14 dias)
+        if: steps.mudancas.outputs.total != '0'
+        run: |
+          mkdir -p "$RUNNER_TEMP/saida"
+          tar --ignore-failed-read -czf "$RUNNER_TEMP/saida/producao-${{ github.run_id }}.tgz" -T "$RUNNER_TEMP/producao-mudancas.txt"
+          cp "$RUNNER_TEMP/producao-mudancas.txt" "$RUNNER_TEMP/saida/"
+      - uses: actions/upload-artifact@v4
+        if: steps.mudancas.outputs.total != '0'
+        with:
+          name: producao-${{ github.run_id }}
+          path: ${{ runner.temp }}/saida/
+          retention-days: 14
+      - name: Abrir PR em rascunho (sem merge, sem publicação)
+        if: inputs.abrir_pr && steps.mudancas.outputs.total != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VALIDACAO: ${{ steps.validacao.outcome }}
+          MODO: ${{ inputs.modo }}
+          PEDIDO: ${{ inputs.pedido }}
+          ROTEIRO: ${{ inputs.roteiro }}
+          GERAR: ${{ inputs.gerar_dados }}
+          COMMIT_BIBLIOTECA: ${{ steps.credencial.outputs.commit }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          ramo="producao/$(date -u +%Y%m%d)-$RUN_ID"
+          git config user.name "producao-biblioteca[bot]"
+          git config user.email "producao-biblioteca@users.noreply.github.com"
+          git checkout -b "$ramo"
+          git add -A -- . ':!_biblioteca_privada'
+          git commit -m "producao: $MODO $PEDIDO (Biblioteca ${COMMIT_BIBLIOTECA:0:12}; run $RUN_ID)"
+          git push origin "$ramo"
+          if [ "$VALIDACAO" = "success" ]; then estado="✅ validadores sem falhas"; else estado="❌ validadores com falha — não mesclar antes de corrigir (ver resumo do run)"; fi
+          corpo=$(printf '%s\n' \
+            "Saída da Biblioteca de Diagramação lida no runner (commit \`$COMMIT_BIBLIOTECA\`, lock conferido; nenhum arquivo privado versionado)." "" \
+            "- Modo: \`$MODO\` · pedido: \`$PEDIDO\` · roteiro: \`$ROTEIRO\` · gerar_dados: \`$GERAR\`" \
+            "- $estado" \
+            "- Run: $RUN_URL (artefato \`producao-$RUN_ID\`)" "" \
+            "Contrato: PR em rascunho não é aula aprovada. Antes do merge: revisão pedagógica e curricular, teste em navegador (Chromebook/celular), recibo em \`automacoes/aulas/execucoes/<id>/<id>-aceite.json\` com evidências e \`pacote_sha256\`; a publicação ocorre só pelos fluxos existentes após o merge e é conferida nos dois destinos.")
+          gh pr create --draft --base main --head "$ramo" --title "Produção: $MODO — $PEDIDO (run $RUN_ID)" --body "$corpo"
+      - name: Resultado
+        if: always()
+        env:
+          VALIDACAO: ${{ steps.validacao.outcome }}
+        run: |
+          case "$VALIDACAO" in
+            success) echo "Produção e validadores concluídos. PR em rascunho (se aberto) ainda depende de revisão pedagógica, teste em navegador e recibo." ;;
+            skipped) echo "A produção foi interrompida antes dos validadores — veja o passo que falhou (credencial, clone, conferência ou ponte)."; exit 1 ;;
+            *) echo "Validadores com falha; a saída foi preservada (artefato/PR em rascunho) para correção. Não mesclar."; exit 1 ;;
+          esac

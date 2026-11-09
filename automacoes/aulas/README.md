@@ -10,6 +10,32 @@ Cada produção fica em revisão_pendente. Complete o trabalho e registre evidê
 
 Para conferir: python -m unittest discover -s automacoes/aulas -p test_entrega.py -v; python automacoes/aulas/testar_gerador.py. Migração de legados é explícita. Segredos/serviços não são criados por documentação; o estado remoto deve ser verificado.
 
+## Produzir com a Biblioteca lida no runner (complemento 09/11/2026)
+
+Workflow: **Actions → "Produzir com a Biblioteca de Diagramação (leitura no runner)" → Run workflow** (`.github/workflows/producao-biblioteca.yml`, apoio em `ferramentas/producao_ci.py`). Ele clona a biblioteca privada **dentro do runner**, no commit fixado por `ferramentas/biblioteca.lock.json`, produz pela ponte existente (`gerar.py` → `estacao/orquestrar_aulas.py`; ou `ferramentas/produzir.py` para `validar/compilar/novo`), apaga o clone antes de qualquer registro, roda os validadores do repositório e abre **PR em rascunho** com a saída (também guardada como artefato por 14 dias). Nenhum arquivo privado é versionado: `_biblioteca_privada/` está no `.gitignore` e o passo de mudanças bloqueia qualquer caminho desse tipo. Nada é mesclado nem publicado pelo workflow; o merge continua sendo decisão docente após revisão, teste em navegador e recibo.
+
+Entradas: `modo` (padrão `orquestrar`), `pedido` (padrão `automacoes/aulas/pedidos/2026-11-10-terca.json`), `roteiro` (padrão `automacoes/aulas/roteiros/2026-11-10-terca.md`), `gerar_dados` (só com provedor configurado), `argumentos` (para `produzir.py`) e `abrir_pr`.
+
+Requer **um** segredo de leitura da biblioteca, criado pelo professor em **Settings → Secrets and variables → Actions** do repositório Arquiteturas-da-Aprendizagem (nunca colado em conversa, prompt ou arquivo):
+
+| Nome | Tipo | Uso |
+|---|---|---|
+| `BIBLIOTECA_DEPLOY_KEY` | Secret (**recomendado**) | Chave privada de uma *deploy key* **somente leitura** cadastrada na Biblioteca de Diagramação; vale só para esse repositório e não expira |
+| `BIBLIOTECA_READ_TOKEN` | Secret (alternativa) | *Fine-grained PAT* restrito à Biblioteca, permissão **Contents: read** (Metadata: read vem junto), validade curta; renovar ao vencer |
+
+Deploy key, passo a passo (no computador do professor):
+
+1. `ssh-keygen -t ed25519 -C "arquiteturas-leitura" -f biblioteca_deploy -N ""` — gera `biblioteca_deploy` (privada) e `biblioteca_deploy.pub` (pública).
+2. Na **Biblioteca de Diagramacao** → Settings → Deploy keys → Add deploy key: cole o conteúdo de `biblioteca_deploy.pub`, **sem** marcar "Allow write access".
+3. Em **Arquiteturas-da-Aprendizagem** → Settings → Secrets and variables → Actions → New repository secret: nome `BIBLIOTECA_DEPLOY_KEY`, valor = conteúdo completo de `biblioteca_deploy` (incluindo as linhas BEGIN/END).
+4. Apague os dois arquivos locais depois de cadastrar.
+
+Alternativa por token: GitHub → Settings → Developer settings → Fine-grained tokens → Generate: *Resource owner* `AndredOR19`, *Only select repositories* → `Biblioteca-de-Diagramacao`, *Repository permissions* → Contents: Read-only; validade de até 90 dias; cadastre como segredo `BIBLIOTECA_READ_TOKEN`. Os dois segredos podem coexistir; a deploy key tem prioridade.
+
+Permissão para abrir o PR: **Settings → Actions → General → Workflow permissions** = *Read and write permissions* e marque *Allow GitHub Actions to create and approve pull requests*. Sem isso, a produção e o artefato ficam disponíveis, mas o passo do PR falha.
+
+Sem segredo, o workflow para no primeiro passo com a mensagem que nomeia os dois segredos e aponta para este README; nada é produzido. O teste local `python3 ferramentas/testar_producao_ci.py` cobre credencial, lock, clone sujo, ponte e bloqueio de caminhos privados com uma biblioteca sintética — **não comprova o motor real**, que só roda no GitHub com o segredo cadastrado. A primeira execução real é a confirmação pendente das opções de linha de comando do orquestrador privado (`--raiz --pedido --roteiro --gerar-dados`, as mesmas já usadas por `gerar.py`).
+
 ---
 ## Histórico técnico anterior (não é o caminho atual de geração)
 

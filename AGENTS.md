@@ -175,6 +175,7 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 ## Entrega integral — 3.8.0
 - Aplicar seção 37 do Prompt Mestre e automacoes/aulas/politica-entrega.json a todas as aulas e rotas opcionais.
 - Usar gerar.py somente como ponte para o orquestrador privado; nenhum HTML independente.
+- Para produzir pelo GitHub sem copiar o motor: workflow `producao-biblioteca.yml` (biblioteca lida no runner com segredo de leitura, commit do lock, PR em rascunho). Nunca versionar `_biblioteca_privada/`; nunca pedir o segredo em conversa; não afirmar produção real antes de uma execução com o segredo cadastrado.
 - Games, cenário temático adequado à idade, PDFs diagramados dos três caminhos e plano diário privado integram o padrão.
 - Exigir evidências reais por requisito e hash de versão; contrato_entrega.py bloqueia novas publicações incompletas.
 - Pages e Vercel verificados, QR depois da URL; compilação não encerra pedido. Não pedir que o professor repita o padrão.

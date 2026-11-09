@@ -3,6 +3,14 @@
 O prompt vigente é [PROMPT_MESTRE_AULAS_DIGITAIS.md](PROMPT_MESTRE_AULAS_DIGITAIS.md). O histórico do Git preserva o conteúdo anterior.
 
 
+## 3.9.0 — complemento de 09/11/2026 — Produção com a Biblioteca de Diagramação lida no runner (não executado; aguarda credencial)
+Pedido do professor: produzir as aulas de terça 10/11 (`pedidos/2026-11-10-terca.json`: História 231, Estudos Orientados 182, Eletiva 192) pela Biblioteca de Diagramação a partir deste repositório, sem copiar o motor privado nem usar submódulo. Decisão: opção de leitura no runner.
+
+Produzido: `.github/workflows/producao-biblioteca.yml` (workflow manual "Produzir com a Biblioteca de Diagramação (leitura no runner)") e `ferramentas/producao_ci.py`. O runner confere o segredo (`BIBLIOTECA_DEPLOY_KEY` ou `BIBLIOTECA_READ_TOKEN`; sem ele, para com orientação e nada é produzido), clona a biblioteca em `_biblioteca_privada/` (ignorado pelo Git) exatamente no commit de `ferramentas/biblioteca.lock.json`, recusa clone sujo ou commit divergente, produz pela ponte já existente (`gerar.py` → `estacao/orquestrar_aulas.py`, ou `ferramentas/produzir.py`), apaga o clone antes de qualquer registro, roda os validadores do repositório, bloqueia qualquer caminho privado na lista de mudanças, guarda a saída como artefato (14 dias) e abre PR **em rascunho**. Não mescla, não publica, não homologa; o job falha se algum validador falhar. Teste local `ferramentas/testar_producao_ci.py` com biblioteca sintética. Documentação dos segredos (deploy key recomendada) em `automacoes/aulas/README.md`.
+
+Limites: nenhuma execução real ocorreu (segredo ainda não cadastrado pelo professor); as opções de linha de comando do orquestrador privado são as mesmas já usadas por `gerar.py` e só serão confirmadas na primeira execução. `CONTRATO_GERADOR.md` §5 continua aberto. Versão da política permanece 3.9.0.
+
+
 ## 3.9.0 — complemento de 09/11/2026 — Cenários visuais e segunda sessão de alfabetização (piloto no 8º ano, seção 34.4.2)
 Pedido do professor: melhorar ambientação e compreensão visual das aulas inclusivas sem trocar a metodologia, preservar integralmente as atividades originais de associação e oferecer, ao fim delas, um convite opcional para uma nova sessão de formação de frases. Esclarecimento registrado: o pedido cita "96 atividades originais", mas o banco publicado tem **57** percursos por área (96 é a rota de exemplos); o convite usa a contagem real.
 

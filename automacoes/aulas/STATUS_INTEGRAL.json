@@ -20,10 +20,11 @@
   ],
   "pendente": [
     "execução remota do novo orquestrador",
-    "conferir segredos BIBLIOTECA_EXEC_TOKEN e APRENDIZAGEM_WRITE_TOKEN e provedor de autoria",
+    "conferir segredos BIBLIOTECA_EXEC_TOKEN e APRENDIZAGEM_WRITE_TOKEN e provedor de autoria (fluxo gerar-aulas-aee)",
+    "cadastrar BIBLIOTECA_DEPLOY_KEY (ou BIBLIOTECA_READ_TOKEN) e executar uma vez o workflow producao-biblioteca.yml com o pedido 2026-11-10-terca; até lá a leitura no runner está escrita e testada só com biblioteca sintética",
     "recebimento real no painel para aulas ainda locais"
   ],
-  "nao_afirmar": "Memória universal, n8n ativo, recebimento automático no painel ou planejamento específico de Herbert confirmado.",
+  "nao_afirmar": "Memória universal, n8n ativo, recebimento automático no painel ou planejamento específico de Herbert confirmado; nem que o workflow producao-biblioteca.yml já produziu alguma aula real (nenhuma execução sem o segredo).",
   "publicacao_cinco_aulas": {
     "estado": "concluido",
     "commit": "701e1f1fa3d592d29cccd02c4d8bd610dc3f8d32",
