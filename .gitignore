@@ -19,3 +19,6 @@ node_modules/
 
 # Documentos individuais devem existir somente em ambiente realmente restrito
 /banco-pedagogico/restrito/
+
+# Clone temporário da Biblioteca de Diagramação (workflow producao-biblioteca.yml); nunca versionar
+/_biblioteca_privada/
