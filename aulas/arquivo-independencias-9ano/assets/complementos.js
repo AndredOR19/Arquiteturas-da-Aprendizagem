@@ -66,12 +66,18 @@ if(C.guidedClarity){
  root.addEventListener('aula:tarefa',e=>{const t=e.detail.task,o=operation[t.kind]||['Observe a figura e escolha.','Você pode ouvir e comparar.'],first=t.case===0&&S.route!=='apoio';guide.replaceChildren();
   const label=make('p','Atividade '+((S.routes[S.route].index%4)+1)+' de 4 deste bloco · uma de cada vez.');guide.append(label,make('h3','O que fazer'),make('p',o[0]));
   const alternate=make('details');alternate.append(make('summary','Diga de outro jeito'),make('p',o[1]));guide.append(alternate);
-  const example=make('details');example.open=first;example.append(make('summary',first?'Ver exemplo resolvido · é assim que fica pronto':'Ver exemplo resolvido, se precisar'),make('p',model(t)),make('p','Ideia para guardar: '+t.relation));guide.append(example);
+  const ex=C.plain?.example?.(t,C.routes[S.route]),example=make('details');example.open=first&&!!ex;example.dataset.exemplo=ex?'outro-caso':'proprio';
+  if(ex)example.append(make('summary','2 · Ver exemplo com outro caso: «'+ex.caso+'»'),make('p',ex.texto),make('p','Mesma tarefa, outros dados. Agora faça com os dados deste caso.','nota'));
+  else example.append(make('summary','Ver exemplo resolvido, se precisar'),make('p',model(t)),make('p','Ideia para guardar: '+t.relation));
+  guide.append(example);
+  const reveal=make('details',undefined,'gabarito-proprio');reveal.hidden=true;reveal.append(make('summary','Ver como fica este caso'),make('p',model(t)),make('p','Ideia para guardar: '+t.relation));guide.append(reveal);
   const hear=make('button','Ouvir a orientação');hear.onclick=()=>A.speak(o.join('. ')+'. '+t.explain+'. '+t.command);guide.append(hear);
   $('[data-tarefa-capitulo]').textContent=t.context+' · Bloco '+(t.case+1);
   $('[data-tarefa-feedback]').textContent='Leia a situação e faça a atividade. Se errar, você vê a resposta certa e tenta de novo. Pode consultar o exemplo.';
   root.dispatchEvent(new CustomEvent('aula:guia',{detail:{task:t,guide,example,alternate,hear}}));
  });
+ // O resultado do próprio caso só aparece depois da primeira tentativa (escolha incorreta ou conferência).
+ root.addEventListener('aula:evento',e=>{const type=e.detail?.type;if(type!=='construcao_conferida'&&type!=='escolha_incorreta')return;const t=A.current();if(!t||e.detail.id!==t.id)return;const reveal=guide.querySelector('.gabarito-proprio');if(reveal){reveal.hidden=false;reveal.open=true;}});
  function clearProgress(){progress.textContent='Bloco atual: '+(Math.min(4,S.routes[S.route].index%4+1))+' de 4 atividades · Os outros blocos podem ficar para outro encontro.';}
  root.addEventListener('aula:evento',clearProgress);root.addEventListener('aula:progresso',clearProgress);clearProgress();
  // O conteúdo do apoio relacional continua sendo aberto pelo adaptador específico.

@@ -936,6 +936,241 @@
         }
       ],
       "apoio_leitura_url": "aulas/historia-211-cultura-resistencia/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "História",
+        "9º ano",
+        "Arquivo das Independências"
+      ],
+      "id": "aulas/arquivo-independencias-9ano",
+      "titulo": "Arquivo das Independências",
+      "descricao": "Comparar processos de descolonização e organizar uma fala curta com caso, evidência, relação com a Guerra Fria e limite da conclusão.",
+      "url": "aulas/arquivo-independencias-9ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Arquivo das Independências",
+        "resumo": "Comparar processos de descolonização e organizar uma fala curta com caso, evidência, relação com a Guerra Fria e limite da conclusão.",
+        "habilidades": [
+          "EF09HI31 — Descrever e avaliar os processos de descolonização na África e na Ásia. Articulação com EF09HI28: análise das disputas da Guerra Fria. Redação do plano recebida diverge em alguns códigos; usada correspondência oficial conferida."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio: imagens, palavras, letras e objetos",
+          "url": "aulas/arquivo-independencias-9ano/apoio/?materia=Hist%C3%B3ria&tema=Arquivo+das+Independ%C3%AAncias&voltar=..%2F"
+        },
+        {
+          "titulo": "Aula principal e exemplos",
+          "url": "aulas/arquivo-independencias-9ano/"
+        },
+        {
+          "titulo": "Caderno em PDF",
+          "url": "aulas/arquivo-independencias-9ano/aula-impressa.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/arquivo-independencias-9ano/apoio/?materia=Hist%C3%B3ria&tema=Arquivo+das+Independ%C3%AAncias&voltar=..%2F"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Ensino Religioso"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Ensino Religioso",
+        "9º ano",
+        "Praça do Diálogo"
+      ],
+      "id": "aulas/convivencia-e-dialogo-9ano",
+      "titulo": "Praça do Diálogo",
+      "descricao": "Reconhecer a coexistência como atitude ética, construindo respostas a situações de diferença que preservem dignidade, liberdade de consciência e participação.",
+      "url": "aulas/convivencia-e-dialogo-9ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Praça do Diálogo",
+        "resumo": "Reconhecer a coexistência como atitude ética, construindo respostas a situações de diferença que preservem dignidade, liberdade de consciência e participação.",
+        "habilidades": [
+          "EF09ER06 - Reconhecer a coexistência como uma atitude ética de respeito à vida e à dignidade humana. BNCC oficial, página impressa 459. Ensino não confessional; a aula não exige declarar nem adotar crença."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio: imagens, palavras, letras e objetos",
+          "url": "aulas/convivencia-e-dialogo-9ano/apoio/?materia=Ensino+Religioso&tema=Pra%C3%A7a+do+Di%C3%A1logo&voltar=..%2F"
+        },
+        {
+          "titulo": "Aula principal e exemplos",
+          "url": "aulas/convivencia-e-dialogo-9ano/"
+        },
+        {
+          "titulo": "Caderno em PDF",
+          "url": "aulas/convivencia-e-dialogo-9ano/aula-impressa.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/convivencia-e-dialogo-9ano/apoio/?materia=Ensino+Religioso&tema=Pra%C3%A7a+do+Di%C3%A1logo&voltar=..%2F"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Estudos Orientados"
+      ],
+      "series": [
+        "8º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Estudos Orientados",
+        "8º ano",
+        "Distrito das Estratégias"
+      ],
+      "id": "aulas/estrategias-de-estudo-8ano",
+      "titulo": "Distrito das Estratégias",
+      "descricao": "Planejar uma tarefa, recuperar uma explicação e revisá-la usando evidência, aplicando o método em outro conteúdo.",
+      "url": "aulas/estrategias-de-estudo-8ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Distrito das Estratégias",
+        "resumo": "Planejar uma tarefa, recuperar uma explicação e revisá-la usando evidência, aplicando o método em outro conteúdo.",
+        "habilidades": [
+          "Competências gerais BNCC 2 e 10: investigação, reflexão, autonomia e responsabilidade. Recorte transversal de Estudos Orientados; sem código específico atribuído."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio: imagens, palavras, letras e objetos",
+          "url": "aulas/estrategias-de-estudo-8ano/apoio/?materia=Estudos+Orientados&tema=Distrito+das+Estrat%C3%A9gias&voltar=..%2F"
+        },
+        {
+          "titulo": "Aula principal e exemplos",
+          "url": "aulas/estrategias-de-estudo-8ano/"
+        },
+        {
+          "titulo": "Caderno em PDF",
+          "url": "aulas/estrategias-de-estudo-8ano/aula-impressa.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/estrategias-de-estudo-8ano/apoio/?materia=Estudos+Orientados&tema=Distrito+das+Estrat%C3%A9gias&voltar=..%2F"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "9º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Práticas Experimentais",
+        "9º ano",
+        "Estação do Teste Justo"
+      ],
+      "id": "aulas/laboratorio-teste-justo-9ano",
+      "titulo": "Estação do Teste Justo",
+      "descricao": "Montar uma comparação controlada sobre agitação e dissolução, registrar condições e distinguir dado simulado de observação experimental.",
+      "url": "aulas/laboratorio-teste-justo-9ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Estação do Teste Justo",
+        "resumo": "Montar uma comparação controlada sobre agitação e dissolução, registrar condições e distinguir dado simulado de observação experimental.",
+        "habilidades": [
+          "Competência geral BNCC 2: investigação, análise crítica, formulação e teste de hipóteses. Objetivo metodológico de Ciências; sem código específico não conferido."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio: imagens, palavras, letras e objetos",
+          "url": "aulas/laboratorio-teste-justo-9ano/apoio/?materia=Pr%C3%A1ticas+Experimentais&tema=Esta%C3%A7%C3%A3o+do+Teste+Justo&voltar=..%2F"
+        },
+        {
+          "titulo": "Aula principal e exemplos",
+          "url": "aulas/laboratorio-teste-justo-9ano/"
+        },
+        {
+          "titulo": "Caderno em PDF",
+          "url": "aulas/laboratorio-teste-justo-9ano/aula-impressa.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/laboratorio-teste-justo-9ano/apoio/?materia=Pr%C3%A1ticas+Experimentais&tema=Esta%C3%A7%C3%A3o+do+Teste+Justo&voltar=..%2F"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Estudos Orientados"
+      ],
+      "series": [
+        "7º ano · EF"
+      ],
+      "turmas": [],
+      "escola": "Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Estudos Orientados",
+        "7º ano",
+        "Agência dos Dados"
+      ],
+      "id": "aulas/pesquisa-e-dados-7ano",
+      "titulo": "Agência dos Dados",
+      "descricao": "Usar uma rotina de estudo para organizar dados de pesquisa, conferir totais e justificar uma conclusão limitada ao grupo observado.",
+      "url": "aulas/pesquisa-e-dados-7ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Agência dos Dados",
+        "resumo": "Usar uma rotina de estudo para organizar dados de pesquisa, conferir totais e justificar uma conclusão limitada ao grupo observado.",
+        "habilidades": [
+          "EF07MA36, em síntese: planejar pesquisa social, decidir entre censo e amostra e comunicar os dados em relatório, tabelas e gráficos. Estudos Orientados trabalha o procedimento de estudo articulado à Matemática."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Apoio: imagens, palavras, letras e objetos",
+          "url": "aulas/pesquisa-e-dados-7ano/apoio/?materia=Estudos+Orientados&tema=Ag%C3%AAncia+dos+Dados&voltar=..%2F"
+        },
+        {
+          "titulo": "Aula principal e exemplos",
+          "url": "aulas/pesquisa-e-dados-7ano/"
+        },
+        {
+          "titulo": "Caderno em PDF",
+          "url": "aulas/pesquisa-e-dados-7ano/aula-impressa.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/pesquisa-e-dados-7ano/apoio/?materia=Estudos+Orientados&tema=Ag%C3%AAncia+dos+Dados&voltar=..%2F"
     }
   ]
 }

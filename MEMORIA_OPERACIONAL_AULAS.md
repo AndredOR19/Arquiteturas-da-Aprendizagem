@@ -1,8 +1,8 @@
 # Memória operacional — produção de aulas
 
-Prof. André de Oliveira Rodrigues · atualização 08/11/2026 · Prompt Mestre 3.8.4.
+Prof. André de Oliveira Rodrigues · atualização 09/11/2026 · Prompt Mestre 3.9.0.
 
-Antes de qualquer aula, ler integralmente `PROMPT_MESTRE_AULAS_DIGITAIS.md`, a seção 37 e `AGENTS.md`; consultar planejamentos, currículo e última aula confirmada. A fonte oficial é o repositório `AndredOR19/Arquiteturas-da-Aprendizagem`; conferir versão e hash. Não depender da conversa anterior para saber o padrão.
+Antes de qualquer aula, ler integralmente `PROMPT_MESTRE_AULAS_DIGITAIS.md`, as seções 37 e 38 e `AGENTS.md`; consultar planejamentos, currículo e última aula confirmada. A fonte oficial é o repositório `AndredOR19/Arquiteturas-da-Aprendizagem`; conferir versão e hash. Não depender da conversa anterior para saber o padrão.
 
 “Criar aulas” significa produzir pela Biblioteca de Diagramação e seus motores: aula principal, exemplos e apoio à leitura, todos com games e visual temático adequado à série; PDFs discentes com os apoios/jogos imprimíveis e aula expositiva docente pronta; testes, relatórios próprios, publicação Pages + Vercel e QR verificado. O professor não precisa repetir esses requisitos. Quantidades: 32, mínimo 64/padrão 96 e pelo menos 57, com avaliação separada.
 
@@ -22,6 +22,8 @@ Apoio não leitor — correção prioritária: Para estudantes que ainda não le
 
 Variação visual do apoio: cada tema recebe fundo/composição própria e desenhos claros dos objetos já usados. Não cumprir apenas recolorindo a mesma cena. A variação é visual, sem alterar banco, sequência, critérios ou acessibilidade.
 
+
+Linguagem clara (seção 38, transversal): toda atividade segue VEJA → ENTENDA → VEJA UM EXEMPLO (outro caso) → AGORA É SUA VEZ → CONFERIR. Nenhum rótulo interno (Dado/Relação/Efeito/Limite, sustentado, alcance, extrapolar) chega à tela; comando com ação concreta e dados do caso; exemplo sempre com outros dados; resultado do próprio item só depois da primeira tentativa; primeiro erro em linha conta como tentativa. Rodar `python3 automacoes/aulas/validar_linguagem.py` antes de entregar: bloqueio objetivo impede a entrega; aviso exige revisão humana; zero alertas não prova compreensão — validar com um estudante ("Olhe esta atividade e me diga: o que você precisa fazer?") e registrar em `automacoes/aulas/linguagem-clara/OBSERVACAO_EM_SALA.md`. A produção é da Biblioteca de Diagramação; a clareza deve nascer no gerador conforme `linguagem-clara/CONTRATO_GERADOR.md`; `assets/clareza.js` é compatibilidade e a fábrica continua pendente até a integração ser implementada e testada.
 
 ## Revisão de clareza didática — prioridade de aplicação
 Quando a turma compreendia o modelo anterior e encontra barreiras no percurso novo, reduzir a complexidade da interface antes de aumentar a cobrança. Nas cinco aulas reutilizáveis, ativar guidedClarity: entrada direta na atividade; uma associação por vez; comando em linguagem direta e reformulação cotidiana; modelo resolvido consultável; leitura em voz alta; blocos de quatro atividades, sem exigir o banco todo no encontro. Suspender tarefas extras por erro neste modo. Preservar as respostas já registradas, as fontes curriculares, os fundos temáticos e o apoio relacional antigo de imagens, palavras, letras e sílabas. O modelo é apoio, não atividade avaliada separadamente. A validação técnica não substitui observar se a turma passou a compreender. Esta diretriz prevalece sobre a recuperação automática e a navegação obrigatória no modo guiado. PDF docente permanece somente a exposição pronta.

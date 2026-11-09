@@ -1,6 +1,6 @@
 {
-  "versao": "3.8.4",
-  "vigencia": "2026-11-08",
+  "versao": "3.9.0",
+  "vigencia": "2026-11-09",
   "rotas": {
     "principal": 32,
     "exemplos_minimo": 64,
@@ -22,7 +22,8 @@
     "privacidade_licencas": "Sem dados de estudantes, segredos ou guias no pacote discente; direitos de todos os ativos conferidos",
     "navegador_multiplataforma": "Evidências por rota em desktop, Chromebook e celular; toque e teclado, recarga, erro/acerto, progresso e exportações",
     "pdf_renderizado": "Todas as páginas de PDFs renderizadas e inspecionadas; sem cortes, sobreposições, fontes ausentes ou imagens ilegíveis",
-    "conteudo_reutilizavel": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas"
+    "conteudo_reutilizavel": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas",
+    "linguagem_clara": "Seção 38: VEJA → ENTENDA → EXEMPLO (outro caso) → AGORA É SUA VEZ → CONFERIR em toda atividade; sem rótulo interno visível; comando com ação concreta; exemplo com outros dados; resultado do próprio item só após a primeira tentativa. Entrega exige validador sem bloqueios, lista dos itens em revisão humana e roteiro de observação em sala; o resultado da observação é registrado quando ocorrer e fica como pendência explícita até lá — zero alertas não comprova compreensão."
   },
   "publicacao": {
     "destinos": [
@@ -46,6 +47,24 @@
     "exemplo_consultavel": true,
     "tarefas_extras_por_erro": false,
     "bloco_sugerido": 4,
-    "preservar_apoio_relacional": true
+    "preservar_apoio_relacional": true,
+    "sequencia": [
+      "veja",
+      "entenda",
+      "exemplo_outro_caso",
+      "agora_e_sua_vez",
+      "conferir"
+    ],
+    "exemplo_com_outros_dados": true,
+    "resultado_proprio_apos_primeira_tentativa": true,
+    "erro_inline_conta_como_tentativa": true,
+    "rotulos_internos_visiveis": false
+  },
+  "linguagem_clara": {
+    "protocolo": "linguagem-clara-3.9",
+    "relatorio": "automacoes/aulas/evidencias/linguagem/relatorio.json",
+    "bloqueios_maximos": 0,
+    "validador": "automacoes/aulas/validar_linguagem.py",
+    "observacao": "Zero bloqueios é filtro preliminar; a aprovação pedagógica exige revisão humana (OBSERVACAO_EM_SALA.md) e nunca é inferida da ausência de alertas."
   }
 }

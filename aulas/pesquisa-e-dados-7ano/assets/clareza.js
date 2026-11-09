@@ -41,6 +41,8 @@ const caseOf=t=>C.cases[t.case]?.title||t.context||'';
 const numbersOf=t=>[...(t.explain||'').matchAll(/([^,=.;]+?) = (\d+)/g)].map(m=>[m[1].trim(),+m[2]]);
 const ensaio=t=>(t.command.match(/ensaio (\d+)/)||[])[1];
 const VAR={agitacao:'a agitação (mexer ou não)',temperatura:'a temperatura inicial',sal:'a quantidade de sal',agua:'o volume de água'};
+const FRASE={Caminhada:'vão a pé',Ônibus:'vão de ônibus',Bicicleta:'vão de bicicleta',Conto:'preferem conto',HQ:'preferem HQ',Reportagem:'preferem reportagem',Esporte:'usam o pátio para esporte',Conversa:'usam o pátio para conversar',Leitura:'usam o pátio para ler',Reciclável:'separam resíduo reciclável',Orgânico:'separam resíduo orgânico',Rejeito:'separam rejeito',Caderno:'estudam pelo caderno',Livro:'estudam pelo livro',Digital:'estudam no digital',Bebedouro:'bebem água no bebedouro',Garrafa:'trazem garrafa de água',Outro:'bebem água de outro jeito',Semanal:'vão à biblioteca toda semana',Mensal:'vão à biblioteca todo mês',Raro:'quase não vão à biblioteca',Praça:'querem uma praça',Biblioteca:'querem uma biblioteca',Ciclovia:'querem uma ciclovia'};
+const frase=l=>FRASE[l]||('escolheram «'+l+'»');const dupla=(a,b)=>{const fa=frase(a),fb=frase(b),w=fa.split(' ')[0];return fa+' ou '+(fb.startsWith(w+' ')?fb.slice(w.length+1):fb);};
 const TITLE={
  'Reconstruir o percurso':['Coloque os passos na ordem',t=>'Coloque os passos de «'+caseOf(t)+'» na ordem certa, um de cada vez.'],
  'Conectar dado e explicação':['Ligue cada pergunta à sua resposta',t=>'Para cada pergunta sobre «'+caseOf(t)+'», escolha a frase que responde.'],
@@ -48,12 +50,12 @@ const TITLE={
  'Preparar uma explicação':['Monte sua explicação em 4 passos',t=>'Monte, na ordem, a sua explicação sobre «'+caseOf(t)+'».'],
  'Conferir a coleta':['Conte as respostas',()=>'Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.'],
  'Construir a representação':['Monte o gráfico de barras',()=>'Deixe cada barra do tamanho do número de respostas daquela opção.'],
- 'Recuperar o total':['Some tudo: qual é o total?',()=>'Some as respostas das três opções. Quantas pessoas responderam no total?'],
+ 'Recuperar o total':['Some tudo: qual é o total?',t=>{const n=numbersOf(t);return n.length===3?'Quantos alunos responderam no total? Some os três grupos: os que '+frase(n[0][0])+', os que '+frase(n[1][0])+' e os que '+frase(n[2][0])+'.':'Some as respostas das três opções. Quantas pessoas responderam no total?';}],
  'Comunicar sem extrapolar':['O que dá para afirmar com esses dados?',()=>'Para cada frase, decida: os dados mostram isso ou não?'],
  'Montar uma comparação controlada':['Mude só uma coisa',t=>'Entre o copo A e o copo B, mude somente '+(VAR[t.data?.variable]||t.data?.variable)+'. Deixe todo o resto igual.'],
  'Descrever as repetições':['Calcule a média',t=>'Calcule a média dos três tempos do ensaio '+ensaio(t)+': some os três e divida por 3.'],
  'Conferir a variação':['Veja a diferença entre as medidas',t=>'Qual é a diferença entre o maior e o menor tempo do ensaio '+ensaio(t)+'?'],
- 'Aplicar a contagem em outro problema':['Conte de outro jeito',t=>{const n=numbersOf(t),c=t.command;if(/duas primeiras/.test(c)&&n.length>=2)return 'Some só as respostas de '+n[0][0]+' e de '+n[1][0]+'. Quantas dá?';if(/diferença/.test(c))return 'Qual é a diferença entre a maior e a menor quantidade de respostas? Faça: maior menos menor.';if(/mais três/.test(c))return 'Some todas as respostas. Agora imagine que mais 3 pessoas responderam: qual é o novo total?';return c;}],
+ 'Aplicar a contagem em outro problema':['Conte de outro jeito',t=>{const n=numbersOf(t),c=t.command;if(/duas primeiras/.test(c)&&n.length>=2)return 'Quantos alunos '+dupla(n[0][0],n[1][0])+'? Some os dois grupos.';if(/diferença/.test(c))return 'Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.';if(/mais três/.test(c))return 'Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.';return c;}],
  'Reconhecer a explicação':['Que pergunta esta frase responde?',()=>'Leia a frase. Depois escolha a pergunta que ela responde.'],
  'Separar informação e alcance':['Qual é o fato e qual é o limite?',()=>'Para cada pergunta, escolha a frase que responde: o que aconteceu, ou até onde vale.'],
  'Conferir duas leituras':['Combina com o caso ou precisa corrigir?',()=>'Cada frase combina com o caso ou precisa ser corrigida?'],
@@ -113,6 +115,21 @@ function story(i){const c=C.cases[i];if(!c)return null;const fixed=HISTORIAS[C.i
  if(C.kind==='lab'){const m=c.facts.dado.match(/(\d+), (\d+), (\d+) segundos/),media=(c.facts.efeito.match(/é (\d+) segundos/)||[])[1];if(m)return{icones:'🧪 ⏱️ 🧂',texto:'Caso «'+c.title+'»: o copo A foi medido três vezes: '+m[1]+', '+m[2]+' e '+m[3]+' segundos. A média é '+media+' segundos (somamos os três tempos e dividimos por 3). A média resume as medidas, mas elas não são todas iguais. Atenção: esses tempos são simulados — não foram medidos de verdade na bancada.'};}
  return{icones:'📌 💡 ⚠️',texto:c.facts.dado+' '+c.facts.relacao+' '+c.facts.limite};}
 
+/* ---------- 6b. Exemplo resolvido com OUTRO caso: mesma operação, outros dados; o resultado do caso atual só aparece depois da primeira tentativa ---------- */
+const stripCases=s=>C.cases.reduce((x,c)=>x.split(c.title).join('<caso>'),String(s||''));
+const variantKey=t=>t.kind==='lab'?'lab|'+(t.original?.title||t.title):t.kind+'|'+(t.original?.title||t.title)+'|'+(t.data?.operation||'')+'|'+stripCases(t.original?.command||t.command).replace(/ensaio \d+/,'ensaio').replace(/Pesquisa: .*$/,'');
+function sibling(t,bank){const n=C.cases.length,key=variantKey(t);const same=(bank||[]).filter(x=>x!==t&&x.case!==t.case&&variantKey(x)===key&&(t.kind!=='lab'||x.data?.variable!==t.data?.variable));for(let k=1;k<n;k++){const s=same.find(x=>x.case===(t.case+k)%n);if(s)return s;}return same[0]||null;}
+function formulaResult(d){const ops=Array.isArray(d.operands)?d.operands:[];if(!ops.length)return '';if(d.operation==='media')return '('+ops.join(' + ')+') ÷ '+ops.length+' = '+d.answer;if(ops.reduce((a,b)=>a+b,0)===d.answer)return ops.join(' + ')+' = '+d.answer;if(Math.max(...ops)-Math.min(...ops)===d.answer)return 'maior − menor: '+Math.max(...ops)+' − '+Math.min(...ops)+' = '+d.answer;return '';}
+function example(t,bank){const s=sibling(t,bank);if(!s)return null;const d=s.data||{},caso=C.cases[s.case]?.title||s.context;let texto='';
+ if(t.kind==='order')texto=d.parts.map((p,i)=>(i+1)+'º '+p).join('\n');
+ else if(t.kind==='match')texto=d.pairs.map(p=>p[0]+'\n   → '+p[1]).join('\n');
+ else if(t.kind==='sort')texto=d.labels[0]+': '+d.yes[0]+'\n'+d.labels[1]+': '+d.no[0];
+ else if(t.kind==='number')texto=formulaResult(d)?'Como fazer a conta: '+formulaResult(d)+' '+(d.unit||''):'Naquele caso a resposta foi '+d.answer+' '+(d.unit||'');
+ else if(t.kind==='bars'||t.kind==='tally')texto=d.labels.map((l,i)=>l+': '+d.values[i]).join(' · ')+'\nCada barra fica com o número de respostas daquela opção.';
+ else if(t.kind==='lab')texto='Naquele caso a pergunta era sobre '+(VAR[d.variable]||d.variable)+'. Os dois copos ficaram iguais em tudo; só '+(VAR[d.variable]||d.variable)+' mudou no copo B.';
+ else return null;
+ return{caso,texto,id:s.id};}
+
 /* ---------- 7. Frase de abertura e glossário ---------- */
 const INICIO={'pesquisa-e-dados-7ano':'Hoje você vai ser um pesquisador: contar respostas, montar um gráfico de barras e dizer o que os números mostram — e o que eles não mostram.',
  'estrategias-de-estudo-8ano':'Hoje você vai treinar jeitos de estudar que funcionam: planejar, explicar sem olhar e conferir com evidência. Cada bloco é uma situação de estudo diferente.',
@@ -135,27 +152,33 @@ const GLOSSARIO=[
  [/\bsujeitos?\b/i,'sujeitos','as pessoas ou grupos que agem numa situação.'],[/estrat[ée]gias?/i,'estratégia','o jeito planejado de fazer algo.'],[/s[íi]ntese/i,'síntese','resumo com as ideias principais.'],[/interpreta[çc][ãa]o/i,'interpretação','o sentido que damos ao que lemos ou observamos.'],[/transfer\w*/i,'transferir','usar o que aprendeu em outra situação.'],
  [/procedimento/i,'procedimento','sequência de passos para fazer algo.'],[/delimit\w*/i,'delimitar','marcar até onde vale.'],[/hip[óo]tese/i,'hipótese','uma explicação provisória que ainda vai ser testada.'],[/\bunidades?\b/i,'unidade','a medida que acompanha o número: segundos, mililitros, graus.']];
 const words=(C.words||[]).map(w=>[new RegExp('\\b'+w.word.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),w.word.toLowerCase(),w.meaning]);
-function glossary(text){const out=[],seen=new Set();for(const [re,term,meaning] of GLOSSARIO.concat(words)){if(seen.has(term))continue;const m=text.match(re);if(m){seen.add(term);out.push({term,meaning,at:m.index});}}return out.filter(a=>!out.some(b=>b!==a&&b.term.length>a.term.length&&b.term.includes(a.term))).sort((a,b)=>a.at-b.at).slice(0,6);}
+function glossaryAll(text){const out=[],seen=new Set();for(const [re,term,meaning] of GLOSSARIO.concat(words)){if(seen.has(term))continue;const m=text.match(re);if(m){seen.add(term);out.push({term,meaning,at:m.index});}}return out.filter(a=>!out.some(b=>b!==a&&b.term.length>a.term.length&&b.term.includes(a.term))).sort((a,b)=>a.at-b.at);}
+function glossary(text){return glossaryAll(text).slice(0,6);}
 
-C.plain={revision:'clareza-2',story,inicio:INICIO[C.id]||C.objective,glossary,question:Q,label};
+C.plain={revision:'clareza-2',story,example,glossaryAll,inicio:INICIO[C.id]||C.objective,glossary,question:Q,label,frase,dicionario:{perguntas:Q,rotulos:LABEL,grupos:{porTitulo:SORT,porRotulo:SORT_GENERIC},prefixos:PREFIX,titulos:Object.fromEntries(Object.entries(TITLE).map(([k,v])=>[k,v[0]])),frases:FRASE,situacoes:HISTORIAS[C.id]||null,abertura:INICIO[C.id]||null,glossario:GLOSSARIO.map(g=>({termo:g[1],significado:g[2]}))}};
 C.didacticRevision='clareza-2';
 
 /* ---------- 8. Camada de tela: situação em palavras simples, glossário, fala informal e passagem de bloco ---------- */
 const root=document.getElementById('jogo');let booted=false;
 const INFORMAL={order:'Pensa assim: é como contar uma história. O que rolou primeiro vem primeiro.',match:'É um jogo de pares: cada pergunta tem uma frase que é a resposta dela.',sort:'Separe em dois montinhos: o que o caso mostra de verdade e o que é exagero ou erro.',number:'Pegue os números do caso e faça a conta. Só isso.',bars:'Puxe cada barra até o número de respostas daquela opção.',tally:'Conte quantos cartões têm cada nome. Toque neles para não se perder.',lab:'Dois copos iguais. Mude só uma coisa em um deles. Assim dá para saber o que causou a diferença.'};
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
+function drawVisual(fig,i){const c=C.cases[i];fig.replaceChildren();fig.hidden=true;if(!c)return;
+ if(C.kind==='data'){const n=[...c.facts.dado.matchAll(/([^,=.;]+?) = (\d+)/g)].map(m=>[m[1].trim(),+m[2]]);if(!n.length)return;const max=Math.max(...n.map(x=>x[1]));fig.setAttribute('aria-label','Respostas da pesquisa: '+n.map(x=>x[0]+' '+x[1]).join(', '));for(const [l,v] of n){const row=el('div',undefined,'barra-caso'),bar=el('i');bar.style.width=Math.round(v/max*100)+'%';row.append(el('span',l),bar,el('b',String(v)));fig.append(row);}fig.append(el('figcaption','Cada barra mostra quantas pessoas deram aquela resposta.'));fig.hidden=false;}
+ else if(C.kind==='history'&&Array.isArray(c.steps)){const ol=el('ol',undefined,'linha-caso');for(const s of c.steps){const m=String(s).match(/^(\d{4})\s*[-–]\s*(.+)$/),li=el('li');li.append(el('b',m?m[1]:''),el('span',m?m[2]:s));ol.append(li);}fig.append(ol,el('figcaption','Linha do tempo do caso: o que veio antes e o que veio depois.'));fig.hidden=false;}
+ else if(C.kind==='lab'){const m=c.facts.dado.match(/(\d+), (\d+), (\d+) segundos/),media=(c.facts.efeito.match(/é (\d+) segundos/)||[])[1];if(!m)return;const row=el('div',undefined,'medidas-caso');[m[1],m[2],m[3]].forEach((v,k)=>row.append(el('span','ensaio '+(k+1)+': '+v+' s')));row.append(el('b','média: '+media+' s'));fig.append(row,el('figcaption','Três medidas do copo A e a média delas (soma dos três ÷ 3).'));fig.hidden=false;}}
 function boot(){if(booted||!root)return;const A=window.AulaCentralGEI;if(!A||!A.content.guidedClarity)return;booted=true;const $=s=>root.querySelector(s),S=A.getState();
  /* Tela inicial: o que vai acontecer hoje, em linguagem direta; o objetivo formal fica disponível. */
  const objective=$('[data-objetivo-inicial]');if(objective){objective.textContent=C.plain.inicio;const det=el('details',undefined,'objetivo-formal');det.append(el('summary','Objetivo da aula (texto para o professor)'),el('p',C.objective));objective.parentElement.after(det);}
  const start=$('[data-ouvir-inicio]');if(start)start.onclick=()=>A.speak(C.title+'. '+C.plain.inicio+'. Toque em Começar a atividade. Você vai ver a situação, um exemplo resolvido e uma atividade de cada vez.');
  /* Situação de cada caso junto da atividade. */
  const explain=$('[data-tarefa-explica]');if(!explain)return;
- const icons=el('p',undefined,'situacao-icones');icons.setAttribute('aria-hidden','true');const tag=el('p','Situação','situacao-rotulo');explain.before(tag,icons);
+ const icons=el('p',undefined,'situacao-icones');icons.setAttribute('aria-hidden','true');const tag=el('p','1 · Veja e entenda','situacao-rotulo');const visual=el('figure',undefined,'caso-visual');explain.before(tag,icons,visual);
+ const command=$('[data-tarefa-comando]');const turn=el('p','3 · Agora é sua vez','etapa-rotulo');if(command)command.before(turn);const check=$('[data-tarefa-conferir]');if(check)check.textContent='4 · Conferir minha resposta';
  const original=el('details',undefined,'situacao-original');const originalBody=el('p');original.append(el('summary','Ler com as palavras do texto original'),originalBody);explain.after(original);
  const hearStory=el('button','Ouvir a situação');hearStory.type='button';original.after(hearStory);
  root.addEventListener('aula:guia',e=>{const t=e.detail.task,guide=e.detail.guide,route=A.getState().route,st=route==='apoio'?null:story(t.case);
-  if(st){tag.hidden=false;icons.hidden=false;original.hidden=false;hearStory.hidden=false;icons.textContent=st.icones;explain.textContent=st.texto;originalBody.textContent=t.explain;hearStory.onclick=()=>A.speak(st.texto);}
-  else{tag.hidden=true;icons.hidden=true;original.hidden=true;hearStory.hidden=true;}
+  if(st){tag.hidden=false;icons.hidden=false;original.hidden=false;hearStory.hidden=false;turn.hidden=false;icons.textContent=st.icones;explain.textContent=st.texto;originalBody.textContent=t.explain;hearStory.onclick=()=>A.speak(st.texto);drawVisual(visual,t.case);}
+  else{tag.hidden=true;icons.hidden=true;original.hidden=true;hearStory.hidden=true;turn.hidden=true;visual.hidden=true;}
   const informal=INFORMAL[t.kind];if(informal&&e.detail.alternate)e.detail.alternate.append(el('p',informal,'informal'));
   const d=t.data||{},text=[t.title,t.command,t.explain,t.relation,...(d.parts||[]),...(d.yes||[]),...(d.no||[]),...(d.pairs||[]).flat()].join(' '),terms=route==='apoio'?[]:glossary(text);
   if(terms.length){const g=el('details',undefined,'glossario-atividade'),dl=el('dl');g.append(el('summary','Palavras desta atividade'),dl);for(const w of terms)dl.append(el('dt',w.term),el('dd',w.meaning));(e.detail.hear||guide.lastElementChild).before(g);}

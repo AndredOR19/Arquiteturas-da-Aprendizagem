@@ -1,7 +1,7 @@
 /* Verificação da revisão clareza-2 nas cinco aulas-gei.
    Carrega os scripts na ordem real do index.html (clareza.js logo após conteudo.js), resolve as
    640 atividades curriculares usando os textos exibidos (t.data vivo) e confere os apoios novos:
-   situação em palavras simples, exemplo resolvido aberto no primeiro bloco, pergunta por pergunta
+   situação em palavras simples, exemplo de OUTRO caso aberto no primeiro bloco (resultado do próprio caso só após a primeira tentativa), pergunta por pergunta
    com opções restantes, resposta certa destacada após erro, conta visível, cartões marcáveis,
    variável-alvo marcada e passagem de bloco com botão único.
    Uso: CLAREZA_ROOT=aulas node automacoes/aulas/evidencias/clareza-2/teste.cjs */
@@ -23,8 +23,8 @@ function solve(w,t){const $=s=>w.document.querySelector(s),box=$('[data-tarefa-t
  case'match':{for(let i=0;i<d.pairs.length;i++){const buttons=[...box.querySelectorAll('.pecas button')];assert.equal(buttons.length,d.pairs.length-i,'só as opções restantes');assert(box.textContent.includes(d.pairs[i][0]));const wrong=buttons.find(b=>b.textContent!==d.pairs[i][1]);if(wrong){click(wrong);assert(fb().includes('A resposta para «'+d.pairs[i][0]+'» é: «'+d.pairs[i][1]+'»'),fb());assert(buttons.find(b=>b.textContent===d.pairs[i][1]).classList.contains('pista-certa'));}click(buttons.find(b=>b.textContent===d.pairs[i][1]));}break;}
  case'sort':{const n=d.yes.length+d.no.length;for(let i=0;i<n;i++){const row=box.querySelector('.classificar'),text=row.querySelector('p').textContent,yes=d.yes.includes(text);assert(yes||d.no.includes(text),'frase exibida pertence ao banco: '+text);assert(row.textContent.includes('Frase '+(i+1)+' de '+n));const buttons=row.querySelectorAll('button');assert.equal(buttons.length,2);click(buttons[yes?1:0]);assert(fb().startsWith('Não foi essa. Esta frase fica em «'+d.labels[yes?0:1]+'»'),fb());assert(buttons[yes?0:1].classList.contains('pista-certa'));click(buttons[yes?0:1]);}break;}
  case'number':{assert(box.querySelector('.conta'),'conta visível: '+t.title);box.querySelector('input').value=d.answer-1;click($('[data-tarefa-conferir]'));assert(fb().includes('pequeno demais'),fb());box.querySelector('input').value=d.answer;break;}
- case'bars':case'tally':{if(t.kind==='tally'){const cards=box.querySelectorAll('button.registro');assert.equal(cards.length,d.tokens.length);click(cards[0]);assert(cards[0].classList.contains('contado'));}box.querySelectorAll('input').forEach((r,i)=>{r.value=d.values[i];r.dispatchEvent(new w.Event('input'));});break;}
- case'lab':{const fields=box.querySelectorAll('fieldset'),keys=['agua','sal','temperatura','agitacao'],index=keys.indexOf(d.variable);assert.equal(fields[1].querySelectorAll('label')[index].className,'variavel-alvo');assert(box.textContent.includes('mude esta'));fields[1].querySelectorAll('select')[index].selectedIndex=1;break;}
+ case'bars':case'tally':{if(t.kind==='tally'){const cards=box.querySelectorAll('button.registro');assert.equal(cards.length,d.tokens.length);click(cards[0]);assert(cards[0].classList.contains('contado'));}box.querySelectorAll('input').forEach((r,i)=>{r.value=d.values[i]+(i===0?1:0);r.dispatchEvent(new w.Event('input'));});click($('[data-tarefa-conferir]'));assert(fb().startsWith('Ainda não está certo'),fb());box.querySelectorAll('input').forEach((r,i)=>{r.value=d.values[i];r.dispatchEvent(new w.Event('input'));});break;}
+ case'lab':{const fields=box.querySelectorAll('fieldset'),keys=['agua','sal','temperatura','agitacao'],index=keys.indexOf(d.variable);assert.equal(fields[1].querySelectorAll('label')[index].className,'variavel-alvo');assert(box.textContent.includes('mude esta'));fields[1].querySelectorAll('select')[(index+1)%4].selectedIndex=1;click($('[data-tarefa-conferir]'));assert(fb().startsWith('Ainda não está certo'),fb());fields[1].querySelectorAll('select')[(index+1)%4].selectedIndex=0;fields[1].querySelectorAll('select')[index].selectedIndex=1;break;}
  default:throw Error('Mecânica sem teste '+t.kind);
  }click($('[data-tarefa-conferir]'));assert(fb().startsWith('✔ Muito bem!'),t.id+': '+fb());}
 let count=0,glossaries=0;
@@ -41,11 +41,17 @@ for(const name of LESSONS){
  for(const route of ['principal','exemplos']){
   if(route==='exemplos'){A.closeModal();A.openMap();click([...$('[data-mapa-rotas]').children].find(b=>b.textContent==='Aprender de outro jeito'));A.closeModal();}
   for(const t of C.routes[route]){A.closeModal();A.showTask();assert.equal(A.current().id,t.id);
-   const guide=$('.guia-claro');assert(guide.textContent.includes('Diga de outro jeito')&&guide.textContent.includes('Ver exemplo resolvido'));
-   const example=guide.querySelectorAll('details')[1];assert.equal(example.open,t.case===0,t.id+': exemplo aberto só no primeiro bloco');
+   const guide=$('.guia-claro');assert(guide.textContent.includes('Diga de outro jeito')&&guide.textContent.includes('Ver exemplo com outro caso'));
+   const example=guide.querySelectorAll('details')[1],ex=C.plain.example(t,C.routes[route]);assert(ex&&ex.caso!==C.cases[t.case].title,t.id+': exemplo precisa vir de outro caso');assert.equal(example.dataset.exemplo,'outro-caso');assert(example.textContent.includes(ex.caso));
+   if(t.kind==='number'){const sib=C.routes[route].find(x=>x.id===ex.id);assert.notDeepEqual(sib.data.operands,t.data.operands,t.id+': exemplo com os mesmos números');}
+   assert.equal(example.open,t.case===0,t.id+': exemplo aberto só no primeiro bloco');
+   const reveal=guide.querySelector('.gabarito-proprio');assert(reveal&&reveal.hidden,t.id+': resultado do próprio caso escondido antes da primeira tentativa');
+   assert(guide.textContent.includes('3 · Agora é sua vez')===false&&$('.tarefa-card').textContent.includes('3 · Agora é sua vez'));
    assert.equal($('[data-tarefa-explica]').textContent,C.plain.story(t.case).texto,'situação em palavras simples');assert.equal($('.situacao-original p').textContent,t.explain);
    if(guide.querySelector('.glossario-atividade'))glossaries++;
-   solve(w,t);assert(!$('[data-tarefa-seguir]').hidden,name+' '+t.id);click($('[data-tarefa-seguir]'));count++;
+   solve(w,t);assert(!$('[data-tarefa-seguir]').hidden,name+' '+t.id);
+   const rec=A.getState().routes[route].records[t.id];assert.equal(rec.first,false,t.id+': a primeira tentativa errada precisa contar como primeira tentativa');assert(!reveal.hidden,t.id+': resultado do próprio caso visível depois da tentativa');
+   click($('[data-tarefa-seguir]'));count++;
    const idx=A.getState().routes[route].index,size=route==='principal'?4:12;
    if(idx%size===0&&idx<C.routes[route].length){assert(!$('.painel-mapa').hidden,'mapa após o bloco');const banner=$('.bloco-feito');assert(!banner.hidden&&banner.textContent.includes('Bloco '+(idx/size)+' concluído'),banner.textContent);click(banner.querySelector('button'));assert(!$('.painel-tarefa').hidden);assert.equal(A.current().id,C.routes[route][idx].id);}
   }

@@ -191,5 +191,11 @@ Preservar o modelo associativo anterior, seus dados, ordem e relações. Pedido 
 ## Variação visual do apoio — 3.8.4
 Seguir 37.10: cada tema recebe fundo/composição e textura próprios, com ilustrações claras dos objetos existentes; não repetir uma mesma cena genérica. Preservar banco, sequência e critérios.
 
+## Protocolo de linguagem clara — 3.9.0 (seção 38, transversal)
+- Em toda disciplina, rota (curricular, exemplos, apoio, inclusiva, games, recuperação), instrução falada e retorno de erro: VEJA → ENTENDA → VEJA UM EXEMPLO → AGORA É SUA VEZ → CONFERIR. Não trocar atividade associativa/inclusiva por quiz ou game para padronizar; não infantilizar; termos curriculares entram por exemplo e glossário.
+- Nunca expor rótulo interno (D/R/E/L, sustentado, alcance, extrapolar, procedimento). Comando começa com ação ou pergunta e cita os dados. Exemplo sempre com outros dados; resultado do próprio item só após a primeira tentativa; primeiro erro em linha conta como tentativa (`escolha_incorreta`); pistas não ampliam nem alteram nota.
+- Antes de entregar: `python3 automacoes/aulas/validar_linguagem.py` (bloqueios objetivos impedem; avisos exigem revisão humana). `contrato_entrega.py` e o CI exigem relatório atual com zero bloqueios. Ausência de alerta não é prova de compreensão: validar com estudante ("Olhe esta atividade e me diga: o que você precisa fazer?") e registrar em `automacoes/aulas/linguagem-clara/OBSERVACAO_EM_SALA.md`.
+- Produzir pela Biblioteca de Diagramação com a clareza nascendo no gerador (`linguagem-clara/CONTRATO_GERADOR.md`). `assets/clareza.js` é compatibilidade; não declarar a fábrica corrigida antes da integração testada no repositório privado.
+
 ## Linguagem para a idade — clareza-2
 Quando o professor relatar que a turma não entende as atividades, conferir primeiro o que está escrito na tela, não a quantidade de cliques. Rótulos e títulos do banco (Dado observado, Relação explicada, Sustentado, "registre a operação") não podem chegar ao estudante: usar a camada assets/clareza.js (pergunta com ícone, situação contada em frases simples, exemplo resolvido aberto no primeiro bloco, conta montada, resposta certa destacada após erro). Ler "Revisão de clareza didática — clareza-2" no prompt mestre. O banco, os PDFs e o apoio relacional não mudam; a eficácia em sala é observada pelo professor, não presumida pelo teste.

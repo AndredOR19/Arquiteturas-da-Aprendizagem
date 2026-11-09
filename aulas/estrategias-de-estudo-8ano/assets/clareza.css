@@ -25,3 +25,16 @@
 .aula-guiada .objetivo-formal{font-size:.9em;opacity:.85;margin:4px 0 10px}.aula-guiada .objetivo-formal summary{cursor:pointer}
 .aula-guiada .retorno{font-size:1.05em;line-height:1.55}
 @media(max-width:600px){.aula-guiada .situacao-icones{font-size:1.6em}.aula-guiada .conta{font-size:1.15em}.aula-guiada .glossario-atividade dl{grid-template-columns:1fr}}
+.aula-guiada .etapa-rotulo{margin:18px 0 0;font-size:.8em;letter-spacing:.08em;text-transform:uppercase;color:#5a4a2c;font-weight:700}
+.aula-guiada .caso-visual{margin:0 0 10px;padding:12px 14px;background:#fffdf7;border:1px solid #d9c9a6;border-radius:10px}
+.aula-guiada .caso-visual figcaption{font-size:.85em;opacity:.8;margin-top:6px}
+.aula-guiada .barra-caso{display:grid;grid-template-columns:minmax(90px,max-content) 1fr 2.5em;align-items:center;gap:10px;margin:4px 0}
+.aula-guiada .barra-caso i{display:block;height:18px;background:var(--accent,#bc8254);border-radius:4px;min-width:6px}
+.aula-guiada .barra-caso b{text-align:right}
+.aula-guiada .linha-caso{list-style:none;margin:0;padding:0;display:flex;gap:8px;flex-wrap:wrap}
+.aula-guiada .linha-caso li{flex:1 1 150px;border-left:4px solid var(--accent,#bc8254);padding:4px 8px;background:#f6f1e4;border-radius:6px}
+.aula-guiada .linha-caso b{display:block;font-size:1.2em}
+.aula-guiada .medidas-caso{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.aula-guiada .medidas-caso span,.aula-guiada .medidas-caso b{padding:8px 12px;border-radius:8px;background:#e8f0ea;border:1px solid #9fbba8}
+.aula-guiada .medidas-caso b{background:#fff1cf;border-color:#e0a24a}
+.aula-guiada .gabarito-proprio{border-top:1px dashed #b99b76;margin-top:8px}
