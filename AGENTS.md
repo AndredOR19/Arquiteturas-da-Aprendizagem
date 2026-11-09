@@ -190,3 +190,6 @@ Preservar o modelo associativo anterior, seus dados, ordem e relações. Pedido 
 
 ## Variação visual do apoio — 3.8.4
 Seguir 37.10: cada tema recebe fundo/composição e textura próprios, com ilustrações claras dos objetos existentes; não repetir uma mesma cena genérica. Preservar banco, sequência e critérios.
+
+## Linguagem para a idade — clareza-2
+Quando o professor relatar que a turma não entende as atividades, conferir primeiro o que está escrito na tela, não a quantidade de cliques. Rótulos e títulos do banco (Dado observado, Relação explicada, Sustentado, "registre a operação") não podem chegar ao estudante: usar a camada assets/clareza.js (pergunta com ícone, situação contada em frases simples, exemplo resolvido aberto no primeiro bloco, conta montada, resposta certa destacada após erro). Ler "Revisão de clareza didática — clareza-2" no prompt mestre. O banco, os PDFs e o apoio relacional não mudam; a eficácia em sala é observada pelo professor, não presumida pelo teste.

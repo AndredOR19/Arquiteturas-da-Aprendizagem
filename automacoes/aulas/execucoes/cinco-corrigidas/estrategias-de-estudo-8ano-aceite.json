@@ -2,8 +2,8 @@
   "versao": "3.8.4",
   "aula": "estrategias-de-estudo-8ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "002a0f3a180d044409928e7a99478e1a4aa1e4bf75691da327d0e7a16fc76109",
+  "prompt_sha256": "cc3267a1e45cdd60a7c975073657028d5c70df472f0a417b8d444cd2a5adc620",
+  "pacote_sha256": "84ccfc6484e33efd68d711cff3e1c613dd318c4b95da7f5bf1770a4acc4314a4",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -21,33 +21,41 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/revisao.json",
+          "sha256": "cbf46cd32e79f86dec633bf0a5742202a242ba490bd4d89d23873b6f9de52425"
         },
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/interacoes.txt",
+          "sha256": "8470f07e276512bdc31f99e9342dd063a0a89cec49b0424d28b9fb18cf16c9e7"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/compatibilidade-clareza-1.txt",
           "sha256": "c0a53eb46287ebeb1d2df4a5a72015503dc6ab7ee493a42e971866083ad8d4ff"
         }
       ],
-      "observacao": "Revisão clareza-1: entrada direta, instruções reformuladas e modelo consultável; associações uma por vez. Suspensa recuperação automática por erro neste modo. Banco curricular e registros mantidos. Evidências antigas descrevem a revisão anterior; a execução atual dos 640 itens está em clareza/interacoes.txt.",
+      "observacao": "Revisão clareza-2 após relato de sala: linguagem do banco retirada da tela (títulos como pergunta/ação, rótulos D/R/E/L como perguntas com ícone, grupos diretos, passos numerados), situação do caso em frases simples com áudio, exemplo resolvido aberto no primeiro bloco, três registros de linguagem, glossário por atividade, resposta certa destacada após erro, conta montada nas atividades numéricas, passagem de bloco com um botão. Banco curricular, respostas e registros mantidos. 640 atividades verificadas com erro provocado em DOM (clareza-2/interacoes.txt); teste clareza-1 mantido. Eficácia em sala a observar.",
       "responsavel": "Codex - conferência executada, com limites registrados",
-      "verificado_em": "2026-11-09T13:05:59.350393+00:00"
+      "verificado_em": "2026-11-09T18:58:17.262610+00:00"
     },
     "jogos_exemplos": {
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/revisao.json",
+          "sha256": "cbf46cd32e79f86dec633bf0a5742202a242ba490bd4d89d23873b6f9de52425"
         },
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/interacoes.txt",
+          "sha256": "8470f07e276512bdc31f99e9342dd063a0a89cec49b0424d28b9fb18cf16c9e7"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/compatibilidade-clareza-1.txt",
           "sha256": "c0a53eb46287ebeb1d2df4a5a72015503dc6ab7ee493a42e971866083ad8d4ff"
         }
       ],
-      "observacao": "Revisão clareza-1: entrada direta, instruções reformuladas e modelo consultável; associações uma por vez. Suspensa recuperação automática por erro neste modo. Banco curricular e registros mantidos. Evidências antigas descrevem a revisão anterior; a execução atual dos 640 itens está em clareza/interacoes.txt.",
+      "observacao": "Revisão clareza-2 após relato de sala: linguagem do banco retirada da tela (títulos como pergunta/ação, rótulos D/R/E/L como perguntas com ícone, grupos diretos, passos numerados), situação do caso em frases simples com áudio, exemplo resolvido aberto no primeiro bloco, três registros de linguagem, glossário por atividade, resposta certa destacada após erro, conta montada nas atividades numéricas, passagem de bloco com um botão. Banco curricular, respostas e registros mantidos. 640 atividades verificadas com erro provocado em DOM (clareza-2/interacoes.txt); teste clareza-1 mantido. Eficácia em sala a observar.",
       "responsavel": "Codex - conferência executada, com limites registrados",
-      "verificado_em": "2026-11-09T13:05:59.350417+00:00"
+      "verificado_em": "2026-11-09T18:58:17.262610+00:00"
     },
     "jogos_apoio": {
       "estado": "aprovado",
@@ -220,5 +228,5 @@
   },
   "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
   "pendencias_finais": [],
-  "revisao_didatica": "clareza-1"
+  "revisao_didatica": "clareza-2"
 }

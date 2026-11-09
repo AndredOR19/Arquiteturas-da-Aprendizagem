@@ -22,8 +22,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 38291,
-      "sha256": "7b908b00c0ab12dbd9575e92447fddea6eef4be5185acdbd6f75ef8baca724e6"
+      "bytes": 41930,
+      "sha256": "1d4546a655605cc74cfa12a20b641b930b0670dad78150e5cfdf3c5019879d2d"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -36,9 +36,19 @@
       "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
     },
     {
+      "arquivo": "assets/clareza.css",
+      "bytes": 3367,
+      "sha256": "035067c740f11a352eb948b80202d8ef238a34f6d6c4adbf79b0fff2bff52bb3"
+    },
+    {
+      "arquivo": "assets/clareza.js",
+      "bytes": 32427,
+      "sha256": "a33cb6d4773aea3fb0864f64ad8f04c42bf5ec7b72e35bdf228aa96962f7e4f9"
+    },
+    {
       "arquivo": "assets/complementos.js",
-      "bytes": 15296,
-      "sha256": "019ffb6362c334b84f409da984765644348420efc50db059115f9a1507d675e9"
+      "bytes": 16272,
+      "sha256": "6f4f7e12c01a32536af831a4e572c0bc74e8201fa9e1e6f963b569664efd7143"
     },
     {
       "arquivo": "assets/conteudo.js",
@@ -77,9 +87,9 @@
     },
     {
       "arquivo": "index.html",
-      "bytes": 7310,
-      "sha256": "7836d7bafe21c1e9c73f5d13c1f520e181f08f9e7106990eeb745399b379513d"
+      "bytes": 7402,
+      "sha256": "a1adb5fe0c5840d482f4734251948ee71e3300b5b982aee2a836fdf62cdab9f6"
     }
   ],
-  "revisao_didatica": "clareza-1"
+  "revisao_didatica": "clareza-2"
 }

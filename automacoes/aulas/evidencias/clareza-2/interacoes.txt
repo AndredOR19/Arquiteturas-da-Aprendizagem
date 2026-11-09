@@ -1,0 +1,6 @@
+PASS pesquisa-e-dados-7ano: situação simples, exemplo resolvido, correção visível e passagem de bloco em 128 atividades.
+PASS estrategias-de-estudo-8ano: situação simples, exemplo resolvido, correção visível e passagem de bloco em 128 atividades.
+PASS arquivo-independencias-9ano: situação simples, exemplo resolvido, correção visível e passagem de bloco em 128 atividades.
+PASS convivencia-e-dialogo-9ano: situação simples, exemplo resolvido, correção visível e passagem de bloco em 128 atividades.
+PASS laboratorio-teste-justo-9ano: situação simples, exemplo resolvido, correção visível e passagem de bloco em 128 atividades.
+PASS 640 atividades verificadas com clareza-2; glossário em 633.
