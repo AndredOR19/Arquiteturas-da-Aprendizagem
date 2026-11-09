@@ -1,5 +1,5 @@
 # Prompt mestre — Aulas digitais e materiais pedagógicos
-Versão vigente: **3.8.3**
+Versão vigente: **3.8.4**
 Atualização: **08/11/2026**
 Autor da metodologia e responsável pedagógico: **Prof. André de Oliveira Rodrigues**
 Repositório de referência: **AndredOR19/Arquiteturas-da-Aprendizagem**
@@ -983,3 +983,7 @@ Conferência obrigatória: comparar banco e sequência com a versão anterior, r
 
 ### 37.10. Variação visual do apoio sem mudar as relações
 Aprimoramento solicitado pelo professor: variar fundos e desenhos de acordo com o tema de cada aula, evitando repetir a mesma cena ou só recolorir um modelo genérico. Usar composição ilustrada própria, textura discreta, paleta coerente e desenhos claros dos objetos concretos do banco existente. As ilustrações devem representar fielmente escola, casa, livro, mapa, água, planta e os demais itens já trabalhados; não substituir o vocabulário para adequá-lo à imagem. Preservar as mesmas palavras, letras, sílabas, opções, respostas, ordem e critérios. No apoio não leitor, variar a apresentação mantém acesso direto às associações; não introduzir exploração RPG nem exigir mais leitura. A variação visual deve ser configurável no modelo central para as próximas aulas.
+
+
+## Revisão de clareza didática — prioridade de aplicação
+Quando a turma compreendia o modelo anterior e encontra barreiras no percurso novo, reduzir a complexidade da interface antes de aumentar a cobrança. Nas cinco aulas reutilizáveis, ativar guidedClarity: entrada direta na atividade; uma associação por vez; comando em linguagem direta e reformulação cotidiana; modelo resolvido consultável; leitura em voz alta; blocos de quatro atividades, sem exigir o banco todo no encontro. Suspender tarefas extras por erro neste modo. Preservar as respostas já registradas, as fontes curriculares, os fundos temáticos e o apoio relacional antigo de imagens, palavras, letras e sílabas. O modelo é apoio, não atividade avaliada separadamente. A validação técnica não substitui observar se a turma passou a compreender. Esta diretriz prevalece sobre a recuperação automática e a navegação obrigatória no modo guiado. PDF docente permanece somente a exposição pronta.

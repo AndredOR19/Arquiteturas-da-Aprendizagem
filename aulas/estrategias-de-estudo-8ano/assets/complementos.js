@@ -18,12 +18,12 @@ intro.querySelector('[data-entender-ouvir]').onclick=()=>A.speak((C.exposition||
 // Representações do caso ficam junto da ação, sem confundir fundo com fonte.
 const representation=make('div',undefined,'relacao-visual');$('[data-tarefa-explica]').after(representation);
 root.addEventListener('aula:tarefa',e=>{const t=e.detail.task;representation.replaceChildren();
- if(t.kind==='wordmatch'||t.kind==='letters')return;
+ if(C.guidedClarity||t.kind==='wordmatch'||t.kind==='letters')return;
  const c=C.cases[t.case];if(!c)return;
  for(const [code,key]of [['D','dado'],['R','relacao'],['E','efeito'],['L','limite']]){const item=make('details');item.className='relacao-'+code;const title=make('summary',code+' · '+({D:'Dado',R:'Relação',E:'Efeito',L:'Limite'})[code]);item.append(title,make('p',c.facts[key]));representation.append(item);}
  if(t.kind==='order'&&C.kind==='history'){const line=make('figure',undefined,'linha-tempo');line.setAttribute('aria-label','Sequência explicada do caso');c.steps.forEach(v=>line.append(make('span',v)));representation.prepend(line);}
  });
-const previousStart=$('[data-comecar]').onclick;$('[data-comecar]').onclick=()=>{previousStart();if($('[data-inicio]').hidden&&!S.introSeen){S.introSeen=true;A.save();worldIntro.click();}};
+const previousStart=$('[data-comecar]').onclick;$('[data-comecar]').onclick=()=>{previousStart();if(C.guidedClarity&&$('[data-inicio]').hidden)A.showTask();if(!C.guidedClarity&&$('[data-inicio]').hidden&&!S.introSeen){S.introSeen=true;A.save();worldIntro.click();}};
 const progress=make('p',undefined,'progresso-complementar');progress.setAttribute('role','status');$('.gei-arena').append(progress);
 function updateProgress(){const r=A.report(),ex=A.extraProgress();progress.textContent=(S.route==='principal'?'Principal '+r.rotas.principal.concluidos+'/32 · Recuperação '+ex.done+'/'+ex.required+' · Total exigido '+(32+ex.required)+'/128':({exemplos:'Exemplos',apoio:'Apoio à leitura'})[S.route]+' · '+r.rotas[S.route].concluidos+'/'+r.rotas[S.route].total);}
 root.addEventListener('aula:evento',updateProgress);root.addEventListener('aula:progresso',updateProgress);updateProgress();
@@ -47,4 +47,34 @@ email.onclick=async()=>{const text=A.reportText(),r=A.report();if(r.estado!=='co
 root.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const modal=[...root.querySelectorAll('.painel')].reverse().find(x=>!x.hidden);if(!modal)return;const els=[...modal.querySelectorAll('button,input,select,textarea,summary,a[href]')].filter(x=>!x.disabled&&!x.hidden&&!x.closest('[hidden]'));if(!els.length)return;const first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
 // Resumo administrativo não revela turma ou data de aplicação.
 const record=make('details',undefined,'registro-publico');record.innerHTML='<summary>Registro para Escola RS</summary>';const recordText=C.title+'\n'+C.grade+' · '+C.subject+'\n'+C.objective+'\nHabilidades: '+C.skills;record.append(make('p',recordText));const copy=make('button','Copiar registro');copy.onclick=async()=>{try{await navigator.clipboard.writeText(recordText);copy.textContent='Registro copiado';}catch{copy.textContent='Selecione o texto acima para copiar';}};record.append(copy);$('.inicio-card').append(record);
+// Revisão didática compartilhada: uma ação por vez, modelo visível e avanço direto.
+if(C.guidedClarity){
+ root.classList.add('aula-guiada');
+ how.innerHTML='<p><strong>Observe</strong> a situação e o exemplo.</p><p><strong>Responda</strong> uma atividade por vez. Pode ouvir ou pedir ajuda.</p><p><strong>Explique</strong> sua escolha ao professor.</p>';
+ rule.hidden=true;$('.controles-intro').hidden=true;
+ $('[data-comecar]').textContent='Começar a atividade';
+ $('[data-ouvir-inicio]').onclick=()=>A.speak(C.title+'. '+C.objective+'. Veja o exemplo, escolha sua resposta e confira. Pode pedir ajuda sem ganhar tarefas extras.');
+ $('[data-tarefa-voltar]').textContent='Pausar / ver cenário';
+ $('[data-tarefa-conferir]').textContent='Conferir minha resposta';
+ $('[data-tarefa-seguir]').textContent='Continuar';
+ const direct=make('button','Continuar minha atividade');direct.onclick=()=>{A.closeModal();A.showTask();};$('.ferramentas').prepend(direct);
+ const guide=make('section',undefined,'guia-claro');$('[data-tarefa-explica]').after(guide);
+ const operation={order:['Coloque os acontecimentos na ordem.','O que acontece antes? Depois escolha o que vem em seguida.'],match:['Ligue uma ideia à frase que a explica.','Leia uma ideia de cada vez. Escolha a frase que fala dela.'],sort:['Leia uma frase e escolha um dos dois grupos.','Pergunte: esta frase combina com as informações do caso?'],number:['Encontre o número pedido.','Use os valores mostrados. Faça uma conta de cada vez.'],bars:['Faça cada barra chegar ao número indicado.','Cada barra mostra quantas respostas aquela categoria recebeu.'],tally:['Conte as respostas de cada categoria.','Separe os cartões pelo nome. Conte um grupo de cada vez.'],lab:['Mude uma coisa e mantenha as outras iguais.','Para descobrir o efeito de uma mudança, não mude tudo ao mesmo tempo.']};
+ function model(t){const d=t.data;if(t.kind==='order')return d.parts.join(' → ');if(t.kind==='match')return d.pairs.map(p=>p.join(' → ')).join('\n');if(t.kind==='sort')return d.labels[0]+': '+d.yes[0]+'\n'+d.labels[1]+': '+d.no[0];if(t.kind==='number')return 'Resultado para conferir depois da tentativa: '+d.answer+' '+(d.unit||'');if(t.kind==='bars'||t.kind==='tally')return d.labels.map((l,i)=>l+': '+d.values[i]).join(' · ');if(t.kind==='lab')return 'Exemplo: para testar agitação, use a mesma água, a mesma quantidade de sal e a mesma temperatura nos dois copos. Mexa somente um deles. Outros ensaios podem estudar outra mudança.';return t.explain;}
+ root.addEventListener('aula:tarefa',e=>{const t=e.detail.task,o=operation[t.kind]||['Observe a figura e escolha.','Você pode ouvir e comparar.'];guide.replaceChildren();
+  const label=make('p','Uma atividade de cada vez · '+((S.routes[S.route].index%4)+1)+' de 4 neste bloco.');guide.append(label,make('h3','O que fazer'),make('p',o[0]));
+  const alternate=make('details');alternate.append(make('summary','Diga de outro jeito'),make('p',o[1]));guide.append(alternate);
+  const example=make('details');example.append(make('summary','Ver exemplo explicado / conferir o modelo'),make('p',model(t)),make('p',t.relation));guide.append(example);
+  const hear=make('button','Ouvir a orientação');hear.onclick=()=>A.speak(o.join('. ')+'. '+t.explain+'. '+t.command);guide.append(hear);
+  $('[data-tarefa-capitulo]').textContent=t.context+' · Bloco '+(t.case+1);
+  $('[data-tarefa-feedback]').textContent='Pode consultar o exemplo. Errar não acrescenta atividades. Se não entender, peça outra explicação.';
+ });
+ function clearProgress(){progress.textContent='Bloco atual: '+(Math.min(4,S.routes[S.route].index%4+1))+' de 4 atividades · Os outros blocos podem ficar para outro encontro.';}
+ root.addEventListener('aula:evento',clearProgress);root.addEventListener('aula:progresso',clearProgress);clearProgress();
+ // O conteúdo do apoio relacional continua sendo aberto pelo adaptador específico.
+ const oldMap=A.openMap;
+ const mapObserver=new MutationObserver(()=>{const m=$('.painel-mapa');if(!m||m.hidden)return;const p=m.querySelector('p');if(p)p.textContent='Conclua um bloco por vez, no ritmo combinado com o professor. Para retomar, use Continuar minha atividade.';});
+ mapObserver.observe($('.painel-mapa'),{attributes:true,attributeFilter:['hidden']});
+}
+
 })();

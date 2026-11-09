@@ -1,5 +1,5 @@
 {
-  "versao": "3.8.3",
+  "versao": "3.8.4",
   "vigencia": "2026-11-08",
   "rotas": {
     "principal": 32,
@@ -39,5 +39,13 @@
     "pronto_para_publicar",
     "publicado_parcial",
     "concluido"
-  ]
+  ],
+  "modo_clareza": {
+    "entrada_direta": true,
+    "associacao_por_vez": true,
+    "exemplo_consultavel": true,
+    "tarefas_extras_por_erro": false,
+    "bloco_sugerido": 4,
+    "preservar_apoio_relacional": true
+  }
 }

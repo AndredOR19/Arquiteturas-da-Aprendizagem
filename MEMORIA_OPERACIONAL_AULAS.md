@@ -1,6 +1,6 @@
 # Memória operacional — produção de aulas
 
-Prof. André de Oliveira Rodrigues · atualização 08/11/2026 · Prompt Mestre 3.8.3.
+Prof. André de Oliveira Rodrigues · atualização 08/11/2026 · Prompt Mestre 3.8.4.
 
 Antes de qualquer aula, ler integralmente `PROMPT_MESTRE_AULAS_DIGITAIS.md`, a seção 37 e `AGENTS.md`; consultar planejamentos, currículo e última aula confirmada. A fonte oficial é o repositório `AndredOR19/Arquiteturas-da-Aprendizagem`; conferir versão e hash. Não depender da conversa anterior para saber o padrão.
 
@@ -21,3 +21,7 @@ Publicação permanente: entregar aulas inclui publicá-las tanto no Vercel quan
 Apoio não leitor — correção prioritária: Para estudantes que ainda não leem, preservar a aula associativa anterior, seu banco, sequência e relações entre imagens, objetos, palavras, letras, sílabas, montagem e frases/contextos. Pedir melhoria visual significa alterar somente apresentação: desenhos pertinentes, cores, textura, tipografia, composição e feedback visual, sem substituir a atividade por RPG ou aumentar a exigência de leitura. Acesso direto, uma relação por tela, botões grandes, escuta/repetição e mediação. Não exigir personagem, caminhada, NPC, mapa, inventário, leitura de missão ou memorização de controles para realizar esse apoio. A estética deve respeitar a idade, sem infantilização; atividade associativa é a mecânica adequada deste caminho. Jogos exploratórios continuam pertinentes às outras rotas, mas não são obrigação do apoio não leitor. Alteração de objetivo, palavras, banco, sequência ou mecânica requer pedido pedagógico explícito; não inferir tal autorização de ‘melhorar o layout’. Preservar registros anteriores em seu formato e identificar versões diferentes, sem reinterpretar respostas antigas.
 
 Variação visual do apoio: cada tema recebe fundo/composição própria e desenhos claros dos objetos já usados. Não cumprir apenas recolorindo a mesma cena. A variação é visual, sem alterar banco, sequência, critérios ou acessibilidade.
+
+
+## Revisão de clareza didática — prioridade de aplicação
+Quando a turma compreendia o modelo anterior e encontra barreiras no percurso novo, reduzir a complexidade da interface antes de aumentar a cobrança. Nas cinco aulas reutilizáveis, ativar guidedClarity: entrada direta na atividade; uma associação por vez; comando em linguagem direta e reformulação cotidiana; modelo resolvido consultável; leitura em voz alta; blocos de quatro atividades, sem exigir o banco todo no encontro. Suspender tarefas extras por erro neste modo. Preservar as respostas já registradas, as fontes curriculares, os fundos temáticos e o apoio relacional antigo de imagens, palavras, letras e sílabas. O modelo é apoio, não atividade avaliada separadamente. A validação técnica não substitui observar se a turma passou a compreender. Esta diretriz prevalece sobre a recuperação automática e a navegação obrigatória no modo guiado. PDF docente permanece somente a exposição pronta.

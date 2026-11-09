@@ -11,3 +11,8 @@
 
 .gei .gei-arena canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:none;max-height:none;margin:0;object-fit:initial;aspect-ratio:auto}.gei .gei-arena{background:#254552}
 @media(max-width:800px){.gei .gei-direcional{display:grid}.gei .gei-acoes{display:block}}
+
+/* Clareza: fundo temático discreto e leitura em primeiro plano. */
+.aula-guiada .guia-claro{background:#fff4d8;color:#182d36;border-left:6px solid var(--accent);padding:18px;border-radius:12px;margin:16px 0;line-height:1.6}
+.aula-guiada .guia-claro details{margin:12px 0}.aula-guiada .guia-claro summary{font-weight:700;cursor:pointer;padding:10px}.aula-guiada .guia-claro p{white-space:pre-line}
+.aula-guiada .tarefa-card{max-width:850px;font-size:19px;line-height:1.6}.aula-guiada .pecas{display:grid;grid-template-columns:1fr;gap:12px}.aula-guiada .pecas button{padding:16px;text-align:left;white-space:normal}.aula-guiada .relacao-visual{display:none}

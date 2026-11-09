@@ -1119,7 +1119,7 @@
       "origem": "aulas/arquivo-independencias-9ano",
       "destino": "aulas/arquivo-independencias-9ano",
       "titulo": "Arquivo das Independências",
-      "contrato_entrega": "3.8.3",
+      "contrato_entrega": "3.8.4",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1170,7 +1170,7 @@
       "origem": "aulas/convivencia-e-dialogo-9ano",
       "destino": "aulas/convivencia-e-dialogo-9ano",
       "titulo": "Praça do Diálogo",
-      "contrato_entrega": "3.8.3",
+      "contrato_entrega": "3.8.4",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1221,7 +1221,7 @@
       "origem": "aulas/estrategias-de-estudo-8ano",
       "destino": "aulas/estrategias-de-estudo-8ano",
       "titulo": "Distrito das Estratégias",
-      "contrato_entrega": "3.8.3",
+      "contrato_entrega": "3.8.4",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1272,7 +1272,7 @@
       "origem": "aulas/laboratorio-teste-justo-9ano",
       "destino": "aulas/laboratorio-teste-justo-9ano",
       "titulo": "Estação do Teste Justo",
-      "contrato_entrega": "3.8.3",
+      "contrato_entrega": "3.8.4",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,
@@ -1323,7 +1323,7 @@
       "origem": "aulas/pesquisa-e-dados-7ano",
       "destino": "aulas/pesquisa-e-dados-7ano",
       "titulo": "Agência dos Dados",
-      "contrato_entrega": "3.8.3",
+      "contrato_entrega": "3.8.4",
       "versao_visual": "gei-tematico-2.0.0",
       "portal": {
         "ano_letivo": null,

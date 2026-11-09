@@ -3,7 +3,7 @@
   "titulo": "Distrito das Estratégias",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "31482a4dbc40a907ff28f96cdc2c49fb992eb752",
+  "biblioteca_origem": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -17,13 +17,13 @@
     },
     {
       "arquivo": "assets/aula.css",
-      "bytes": 10453,
-      "sha256": "e8809546fd66e96fd92f5f668ffcec34253e6ac2cc60ba807ede0b9144cfbba0"
+      "bytes": 11112,
+      "sha256": "c494a74d724181efe3cba0c3bab4cfeb062c5889c69da3ff4ef9082ebdb84a2d"
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 34851,
-      "sha256": "ddb963fdf25ebe4774fdd296d679abb5d4bd56b2db1476cd17c8ff9f578cc05b"
+      "bytes": 36179,
+      "sha256": "d233ae25d7942a2436c21f9e2ae06de0679da8c530a2470f3cc45eba7b456998"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -37,13 +37,13 @@
     },
     {
       "arquivo": "assets/complementos.js",
-      "bytes": 10905,
-      "sha256": "71d7466b01543c0b1642208a3dfc09e392263b4ad3d33c63eeb575834b0c5165"
+      "bytes": 15296,
+      "sha256": "019ffb6362c334b84f409da984765644348420efc50db059115f9a1507d675e9"
     },
     {
       "arquivo": "assets/conteudo.js",
-      "bytes": 384198,
-      "sha256": "3f9582be303527deaf8648ca136413a6544882602ecfe3377147a0d9cad82aa8"
+      "bytes": 384250,
+      "sha256": "63ce6ae99e52bf2595d336549cc9aac2c4f9436b948ea7498eb433e942985c20"
     },
     {
       "arquivo": "assets/gei.css",
@@ -77,8 +77,9 @@
     },
     {
       "arquivo": "index.html",
-      "bytes": 7260,
-      "sha256": "f8805da940c0bfea2a06283520ac05241aa95a2077628377063041fa949914aa"
+      "bytes": 7310,
+      "sha256": "8a9fd0ee1c0901e751de58d7e0ee839a8fb55c9ac0838476481b845ebb287e70"
     }
-  ]
+  ],
+  "revisao_didatica": "clareza-1"
 }

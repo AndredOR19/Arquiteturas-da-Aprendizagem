@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.3",
+  "versao": "3.8.4",
   "aula": "estrategias-de-estudo-8ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "8cf9cbfc4285c058f361639e0ac37fa9ad8bdd95db657ea94c7f9b61a4f4b6f7",
-  "pacote_sha256": "9af4eb7a1fc66812a321620877db67f0f21927de1b37a86696095de21156def4",
+  "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
+  "pacote_sha256": "6e362d121681382463f19a2b89bdab12e71338727edcd9424d83e04140f6d05e",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -21,33 +21,33 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/revisao.json",
-          "sha256": "03acd17da354dffe849a9480346f84d5b510d4915436de4466ffe0dc1bc19bde"
+          "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
+          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
         },
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/interacoes.txt",
-          "sha256": "f7980fd6fa7c1d0c2dac24838884c3556e259ad7aca3e71a0c10a030aa610685"
+          "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
+          "sha256": "c0a53eb46287ebeb1d2df4a5a72015503dc6ab7ee493a42e971866083ad8d4ff"
         }
       ],
-      "observacao": "Revisados núcleo GEI e adaptador comum: personagem controlável, quatro estações/NPCs, cenário temático por aula, encadeamento, peças/relações manipuláveis, inventário de evidências e efeitos de erros na recuperação. Teste executou todas as 160 atividades principais, além dos apoios.",
+      "observacao": "Revisão clareza-1: entrada direta, instruções reformuladas e modelo consultável; associações uma por vez. Suspensa recuperação automática por erro neste modo. Banco curricular e registros mantidos. Evidências antigas descrevem a revisão anterior; a execução atual dos 640 itens está em clareza/interacoes.txt.",
       "responsavel": "Codex - conferência executada, com limites registrados",
-      "verificado_em": "2026-11-08T21:45:10.311811+00:00"
+      "verificado_em": "2026-11-09T13:05:59.350393+00:00"
     },
     "jogos_exemplos": {
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/revisao.json",
-          "sha256": "03acd17da354dffe849a9480346f84d5b510d4915436de4466ffe0dc1bc19bde"
+          "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
+          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
         },
         {
-          "arquivo": "automacoes/aulas/evidencias/cinco-corrigidas/interacoes.txt",
-          "sha256": "f7980fd6fa7c1d0c2dac24838884c3556e259ad7aca3e71a0c10a030aa610685"
+          "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
+          "sha256": "c0a53eb46287ebeb1d2df4a5a72015503dc6ab7ee493a42e971866083ad8d4ff"
         }
       ],
-      "observacao": "480 atividades opcionais executadas, com operações de ordem, associação, classificação e cálculo conforme o tema, no mesmo mundo navegável. Progresso independente da nota principal. Recuperação reutiliza atividades modeladas desse banco, sem alegar banco adicional inteiramente distinto.",
+      "observacao": "Revisão clareza-1: entrada direta, instruções reformuladas e modelo consultável; associações uma por vez. Suspensa recuperação automática por erro neste modo. Banco curricular e registros mantidos. Evidências antigas descrevem a revisão anterior; a execução atual dos 640 itens está em clareza/interacoes.txt.",
       "responsavel": "Codex - conferência executada, com limites registrados",
-      "verificado_em": "2026-11-08T21:45:10.311811+00:00"
+      "verificado_em": "2026-11-09T13:05:59.350417+00:00"
     },
     "jogos_apoio": {
       "estado": "aprovado",
@@ -219,5 +219,6 @@
     }
   },
   "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
-  "pendencias_finais": []
+  "pendencias_finais": [],
+  "revisao_didatica": "clareza-1"
 }

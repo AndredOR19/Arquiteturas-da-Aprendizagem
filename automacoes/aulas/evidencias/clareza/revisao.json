@@ -1,0 +1,15 @@
+{
+  "revisao": "clareza-1",
+  "biblioteca": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
+  "escopo": "Interface digital das cinco aulas principais e opcionais; conteúdo e PDFs existentes preservados.",
+  "mudancas": [
+    "entrada direta",
+    "orientação reformulada",
+    "modelo resolvido consultável",
+    "associação sequencial",
+    "blocos de quatro",
+    "sem tarefas extras por erro"
+  ],
+  "testes": "640 atividades principais/opcionais e 285 associações do apoio em DOM simulado.",
+  "limites": "Sem afirmar eficácia em sala, homologação física ou revalidação dos PDFs. Verificação pública será feita após deploy."
+}

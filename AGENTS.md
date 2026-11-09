@@ -188,5 +188,5 @@ O PDF do professor contém exclusivamente a aula expositiva pronta para ser fala
 ## Correção prioritária — apoio não leitor (Prompt Mestre 3.8.2)
 Preservar o modelo associativo anterior, seus dados, ordem e relações. Pedido de melhoria visual altera somente desenhos, cores, textura e composição. Não substituir esse caminho por RPG nem exigir leitura, personagem, caminhada, mapa ou NPC para realizar associações. Ler a seção 37.9, que prevalece sobre exigências anteriores de mesmo jogo nas três rotas.
 
-## Variação visual do apoio — 3.8.3
+## Variação visual do apoio — 3.8.4
 Seguir 37.10: cada tema recebe fundo/composição e textura próprios, com ilustrações claras dos objetos existentes; não repetir uma mesma cena genérica. Preservar banco, sequência e critérios.

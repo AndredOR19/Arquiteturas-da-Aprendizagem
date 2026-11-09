@@ -1,0 +1,6 @@
+PASS arquivo-independencias-9ano principal e opcionais: instruções, modelo, avanço e nenhuma tarefa adicional.
+PASS convivencia-e-dialogo-9ano principal e opcionais: instruções, modelo, avanço e nenhuma tarefa adicional.
+PASS estrategias-de-estudo-8ano principal e opcionais: instruções, modelo, avanço e nenhuma tarefa adicional.
+PASS laboratorio-teste-justo-9ano principal e opcionais: instruções, modelo, avanço e nenhuma tarefa adicional.
+PASS pesquisa-e-dados-7ano principal e opcionais: instruções, modelo, avanço e nenhuma tarefa adicional.
+PASS 640 atividades verificadas.

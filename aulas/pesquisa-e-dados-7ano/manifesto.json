@@ -3,7 +3,7 @@
   "titulo": "Agência dos Dados",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "31482a4dbc40a907ff28f96cdc2c49fb992eb752",
+  "biblioteca_origem": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -17,13 +17,13 @@
     },
     {
       "arquivo": "assets/aula.css",
-      "bytes": 10453,
-      "sha256": "e8809546fd66e96fd92f5f668ffcec34253e6ac2cc60ba807ede0b9144cfbba0"
+      "bytes": 11112,
+      "sha256": "c494a74d724181efe3cba0c3bab4cfeb062c5889c69da3ff4ef9082ebdb84a2d"
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 34851,
-      "sha256": "ddb963fdf25ebe4774fdd296d679abb5d4bd56b2db1476cd17c8ff9f578cc05b"
+      "bytes": 36179,
+      "sha256": "d233ae25d7942a2436c21f9e2ae06de0679da8c530a2470f3cc45eba7b456998"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -37,13 +37,13 @@
     },
     {
       "arquivo": "assets/complementos.js",
-      "bytes": 10905,
-      "sha256": "71d7466b01543c0b1642208a3dfc09e392263b4ad3d33c63eeb575834b0c5165"
+      "bytes": 15296,
+      "sha256": "019ffb6362c334b84f409da984765644348420efc50db059115f9a1507d675e9"
     },
     {
       "arquivo": "assets/conteudo.js",
-      "bytes": 367042,
-      "sha256": "edbdcd7a02f2d99f744e47a0cd81ea4b39edd5de9d06af6031405b832829135b"
+      "bytes": 367094,
+      "sha256": "f04625bc7a684e28bf37960b07f355e0ab66017108d0dbf8736d0192f6011c23"
     },
     {
       "arquivo": "assets/gei.css",
@@ -77,8 +77,9 @@
     },
     {
       "arquivo": "index.html",
-      "bytes": 7225,
-      "sha256": "f7a9dea8630f70803d2bf600b43946f47dcf87a6bf0c163c028fc15d8c7f872a"
+      "bytes": 7275,
+      "sha256": "4affdecd66b39865f91ae24f1147c83b589ff64a514589997137cd35b923cf80"
     }
-  ]
+  ],
+  "revisao_didatica": "clareza-1"
 }

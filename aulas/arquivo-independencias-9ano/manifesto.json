@@ -3,7 +3,7 @@
   "titulo": "Arquivo das Independências",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "31482a4dbc40a907ff28f96cdc2c49fb992eb752",
+  "biblioteca_origem": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -17,13 +17,13 @@
     },
     {
       "arquivo": "assets/aula.css",
-      "bytes": 10453,
-      "sha256": "e8809546fd66e96fd92f5f668ffcec34253e6ac2cc60ba807ede0b9144cfbba0"
+      "bytes": 11112,
+      "sha256": "c494a74d724181efe3cba0c3bab4cfeb062c5889c69da3ff4ef9082ebdb84a2d"
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 34851,
-      "sha256": "ddb963fdf25ebe4774fdd296d679abb5d4bd56b2db1476cd17c8ff9f578cc05b"
+      "bytes": 36179,
+      "sha256": "d233ae25d7942a2436c21f9e2ae06de0679da8c530a2470f3cc45eba7b456998"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -37,13 +37,13 @@
     },
     {
       "arquivo": "assets/complementos.js",
-      "bytes": 10905,
-      "sha256": "71d7466b01543c0b1642208a3dfc09e392263b4ad3d33c63eeb575834b0c5165"
+      "bytes": 15296,
+      "sha256": "019ffb6362c334b84f409da984765644348420efc50db059115f9a1507d675e9"
     },
     {
       "arquivo": "assets/conteudo.js",
-      "bytes": 449881,
-      "sha256": "28b6cc85c2e178504e0220be25ac3466c882137c29193f023a3eeb3ac773e6ee"
+      "bytes": 449933,
+      "sha256": "d1a4823746eb88bcbe18f77db447bc0e9c8137498755b850599b5c2ac6c851ee"
     },
     {
       "arquivo": "assets/gei.css",
@@ -77,8 +77,9 @@
     },
     {
       "arquivo": "index.html",
-      "bytes": 7261,
-      "sha256": "5dc7b092b06d08b7f26733e480ed3f2f5697aec38b711fc644c542e2190c46ed"
+      "bytes": 7311,
+      "sha256": "eb44e255548bc00108c55d3054eaf023a6d56785eecde6e52ddf18cebc329a80"
     }
-  ]
+  ],
+  "revisao_didatica": "clareza-1"
 }
