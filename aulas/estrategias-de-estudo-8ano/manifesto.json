@@ -3,7 +3,7 @@
   "titulo": "Distrito das Estratégias",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
+  "biblioteca_origem": "03724bc8c8be9b5f9daf61764f81a7fa4eb18d86",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -22,8 +22,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 36179,
-      "sha256": "d233ae25d7942a2436c21f9e2ae06de0679da8c530a2470f3cc45eba7b456998"
+      "bytes": 38028,
+      "sha256": "90dec3019c30eb97b450ef33cc913e2c1bcef797911d33710ce90fd3c4e6d2c4"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -43,7 +43,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 384250,
-      "sha256": "63ce6ae99e52bf2595d336549cc9aac2c4f9436b948ea7498eb433e942985c20"
+      "sha256": "77c39e7ab4f6678fc10979e6484df10cd1b74eb31121aed1bf8bf0b4b6cec3e3"
     },
     {
       "arquivo": "assets/gei.css",

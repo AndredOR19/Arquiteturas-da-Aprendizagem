@@ -3,7 +3,7 @@
   "aula": "laboratorio-teste-justo-9ano",
   "estado": "pronto_para_publicar",
   "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "d5ff1afec2fe83e0272aac443e2f4ffd4889db5450584913decc2ea1b5b9558d",
+  "pacote_sha256": "ff8a8f5f40c385a5ca9ee670bb30398338d12e68d4a504cd472e20bf22252c6e",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -22,7 +22,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
+          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
@@ -38,7 +38,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
+          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",

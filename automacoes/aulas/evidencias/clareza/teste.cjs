@@ -9,7 +9,7 @@ function taskOpen(w,t){const $=s=>w.document.querySelector(s);w.AulaCentralGEI.o
 function solve(w,t,wrong=false){const $=s=>w.document.querySelector(s),box=$('[data-tarefa-tabuleiro]'),d=t.data;switch(t.kind){
  case'order':case'letters':{const parts=t.kind==='letters'?[...d.word]:d.parts,goal=wrong?[...parts].reverse():parts;for(const text of goal)click([...box.querySelectorAll('.pecas button')].find(b=>b.textContent===text&&!b.disabled));break;}
  case'match':{for(const pair of d.pairs)click([...box.querySelectorAll('button')].find(b=>b.textContent===pair[1]));break;}
- case'sort':for(const row of box.querySelectorAll('.classificar')){const yes=d.yes.includes(row.querySelector('p').textContent);click(row.querySelectorAll('button')[wrong?(yes?1:0):(yes?0:1)]);}break;
+ case'sort':{for(let i=0;i<d.yes.length+d.no.length;i++){const row=box.querySelector('.classificar'),yes=d.yes.includes(row.querySelector('p').textContent);click(row.querySelectorAll('button')[yes?0:1]);}break;}
  case'number':box.querySelector('input').value=wrong?d.answer+1:d.answer;break;
  case'bars':case'tally':box.querySelectorAll('input').forEach((r,i)=>{r.value=d.values[i]+(wrong&&i===0?1:0);r.dispatchEvent(new w.Event('input'));});break;
  case'lab':{const fields=box.querySelectorAll('fieldset');for(const f of fields)f.querySelectorAll('select').forEach(s=>s.selectedIndex=0);const keys=['agua','sal','temperatura','agitacao'],index=keys.indexOf(d.variable);fields[1].querySelectorAll('select')[index].selectedIndex=wrong?0:1;break;}

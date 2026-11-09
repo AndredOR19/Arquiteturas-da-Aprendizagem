@@ -3,7 +3,7 @@
   "titulo": "Arquivo das Independências",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
+  "biblioteca_origem": "03724bc8c8be9b5f9daf61764f81a7fa4eb18d86",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -22,8 +22,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 36179,
-      "sha256": "d233ae25d7942a2436c21f9e2ae06de0679da8c530a2470f3cc45eba7b456998"
+      "bytes": 38028,
+      "sha256": "90dec3019c30eb97b450ef33cc913e2c1bcef797911d33710ce90fd3c4e6d2c4"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -43,7 +43,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 449933,
-      "sha256": "d1a4823746eb88bcbe18f77db447bc0e9c8137498755b850599b5c2ac6c851ee"
+      "sha256": "1ebc657682bf431dfbd46fa7f3d233a106c50efa49dbcc03e11c62c85d17b4d3"
     },
     {
       "arquivo": "assets/gei.css",

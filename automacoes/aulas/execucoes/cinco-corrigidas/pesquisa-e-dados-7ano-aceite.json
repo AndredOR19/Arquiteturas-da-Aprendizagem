@@ -3,7 +3,7 @@
   "aula": "pesquisa-e-dados-7ano",
   "estado": "pronto_para_publicar",
   "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "e3ff87af8ed4b02351555f46dbeea6fe99ee38c091bfa1f126f223aa7f64a105",
+  "pacote_sha256": "3a3d0d15db1e46001c10aa55bb5a6b4e1affcac1eeb1878406a9518840ed30a1",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -22,7 +22,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
+          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
@@ -38,7 +38,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
+          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",

@@ -3,7 +3,7 @@
   "titulo": "Praça do Diálogo",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "9db2a9d907143b8e9e9f08b08a7af3e7f819385b",
+  "biblioteca_origem": "03724bc8c8be9b5f9daf61764f81a7fa4eb18d86",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -22,8 +22,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 36179,
-      "sha256": "d233ae25d7942a2436c21f9e2ae06de0679da8c530a2470f3cc45eba7b456998"
+      "bytes": 38028,
+      "sha256": "90dec3019c30eb97b450ef33cc913e2c1bcef797911d33710ce90fd3c4e6d2c4"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -43,7 +43,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 410198,
-      "sha256": "794463dfb35186001abd335b2a35bdc9feeb907748b56876cc87074bb4e2d7c3"
+      "sha256": "9d7761ddfe0864891b0d95042f9724b3b54d44d6fcff75411ea67b5a2ff71f43"
     },
     {
       "arquivo": "assets/gei.css",

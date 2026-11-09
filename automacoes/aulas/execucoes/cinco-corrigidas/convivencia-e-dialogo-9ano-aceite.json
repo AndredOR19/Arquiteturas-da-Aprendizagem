@@ -3,7 +3,7 @@
   "aula": "convivencia-e-dialogo-9ano",
   "estado": "pronto_para_publicar",
   "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "4c57b6e1c811df0e3d48ff89d866218eb2dc6ac01afa7adf095bea5692f70abc",
+  "pacote_sha256": "e20a11623393f4e8b6403ad4a14c25b33d72937e45bdd953c60c9e19460f1d75",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -22,7 +22,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
+          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
@@ -38,7 +38,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "c8f7627404b7daefe92992a5c5ef72976359e46c8442347a7dcf9f093f95e267"
+          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
