@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "estrategias-de-estudo-8ano",
-  "estado": "publicado_parcial",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "a0597d2f4b0ee2b391dc49e763ecb4757e7e732590beba44508402446177690c",
   "requisitos": {
@@ -261,20 +261,34 @@
   "publicacao": {
     "pages": {
       "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/estrategias-de-estudo-8ano/",
-      "estado": "pendente",
-      "observacao": "Piloto de cenários e sessão 2 (34.4.2) aguardando deploy de main e conferência integral nos dois destinos (conferir_publicacao_integral.py)."
+      "estado": "verificado",
+      "http": 200,
+      "arquivos_manifesto": 16,
+      "arquivos_publicos": 29,
+      "pacote_sha256": "a0597d2f4b0ee2b391dc49e763ecb4757e7e732590beba44508402446177690c",
+      "qr_arquivo": "verificacao-publicacao/df15f3148adf24ab1063.png",
+      "qr_sha256": "bd73472d9fe30007d9dbc199d86e23759d54d92cb1472de1e48325e75bfbfaf0",
+      "verificado_em": "2026-11-09T22:40:00+00:00",
+      "fonte": "Deploy de main 88f3b71 (static.yml, https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/actions/runs/42712058447): etapa \"Conferir versão nos dois destinos e gerar QR verificado\" concluída com sucesso (conferir_publicacao_integral.py compara o hash de cada arquivo do pacote público nos dois destinos e falha em divergência; artefato publicacao-integral-88f3b7137040e0a01fc1f6d501b4bb35e723b820, 30 dias). Conferência adicional desta sessão por leitura HTTP pública: manifesto.json em Pages com o bloco cenarios/apoio_cenarios (hashes do piloto), catalogo.json do apoio em Pages e frases.js (1.0.0, com sinalizar/aria-expanded) na Vercel. Fluxo \"Validar aulas antes da publicação\" (run 42712058409) verde no mesmo commit, incluindo o ensaio Playwright do apoio em 390x844 e o testar-email corrigido. O ambiente desta sessão não baixa artefatos do Actions; o relatório integral é o da etapa de CI."
     },
     "vercel": {
       "url": "https://arquiteturas-aulas.vercel.app/aulas/estrategias-de-estudo-8ano/",
-      "estado": "pendente",
-      "observacao": "Piloto de cenários e sessão 2 (34.4.2) aguardando deploy de main e conferência integral nos dois destinos (conferir_publicacao_integral.py)."
+      "estado": "verificado",
+      "http": 200,
+      "arquivos_manifesto": 16,
+      "arquivos_publicos": 29,
+      "pacote_sha256": "a0597d2f4b0ee2b391dc49e763ecb4757e7e732590beba44508402446177690c",
+      "qr_arquivo": "verificacao-publicacao/38fa196bc8c5897bffac.png",
+      "qr_sha256": "c0211bd90d7c233e3ade6cc5d631db09ecab97acc3874e0c6fe62880c563aa86",
+      "verificado_em": "2026-11-09T22:40:00+00:00",
+      "fonte": "Deploy de main 88f3b71 (static.yml, https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/actions/runs/42712058447): etapa \"Conferir versão nos dois destinos e gerar QR verificado\" concluída com sucesso (conferir_publicacao_integral.py compara o hash de cada arquivo do pacote público nos dois destinos e falha em divergência; artefato publicacao-integral-88f3b7137040e0a01fc1f6d501b4bb35e723b820, 30 dias). Conferência adicional desta sessão por leitura HTTP pública: manifesto.json em Pages com o bloco cenarios/apoio_cenarios (hashes do piloto), catalogo.json do apoio em Pages e frases.js (1.0.0, com sinalizar/aria-expanded) na Vercel. Fluxo \"Validar aulas antes da publicação\" (run 42712058409) verde no mesmo commit, incluindo o ensaio Playwright do apoio em 390x844 e o testar-email corrigido. O ambiente desta sessão não baixa artefatos do Actions; o relatório integral é o da etapa de CI."
     }
   },
   "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
   "pendencias_finais": [
     "3.9.0 — observação em sala (seção 38.9) ainda não realizada; 58 atividades em revisão humana (avisos do validador).",
     "3.9.0 — fábrica privada (estacao/produzir.py) não integrada ao protocolo: assets/clareza.js é camada de compatibilidade; ver automacoes/aulas/linguagem-clara/CONTRATO_GERADOR.md.",
-    "34.4.2 — publicação do piloto de cenários/sessão 2 ainda não conferida nos dois destinos; originais das quatro imagens, cenários B–D e conjuntos 2–8 pendentes."
+    "34.4.2 — piloto publicado e conferido nos dois destinos; pendentes: originais das quatro imagens (≥1920 px, 16:9) e ferramenta de geração para LICENCAS, cenários B–D, conjuntos 2–8 da sessão 2 (84 atividades), observação em sala do piloto antes de ampliar às demais aulas."
   ],
   "revisao_didatica": "clareza-2",
   "protocolo_linguagem_clara": "3.9.0"

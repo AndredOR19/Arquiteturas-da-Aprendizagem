@@ -62,7 +62,9 @@
       "pacote_sha256": "1890ffde055f57b2138fded2749b8eb7fd2f125cf697b7a8cdc13330a7284264",
       "qr_arquivo": "df15f3148adf24ab1063.png",
       "qr_sha256": "bd73472d9fe30007d9dbc199d86e23759d54d92cb1472de1e48325e75bfbfaf0",
-      "verificado_em": "2026-11-09T19:30:40.885089+00:00"
+      "verificado_em": "2026-11-09T22:40:00+00:00",
+      "arquivos": 29,
+      "fonte": "run 42712058447 (main 88f3b71), etapa integral concluída; ver recibo da aula."
     },
     {
       "aula": "estrategias-de-estudo-8ano",
@@ -74,7 +76,9 @@
       "pacote_sha256": "1890ffde055f57b2138fded2749b8eb7fd2f125cf697b7a8cdc13330a7284264",
       "qr_arquivo": "38fa196bc8c5897bffac.png",
       "qr_sha256": "c0211bd90d7c233e3ade6cc5d631db09ecab97acc3874e0c6fe62880c563aa86",
-      "verificado_em": "2026-11-09T19:30:40.885089+00:00"
+      "verificado_em": "2026-11-09T22:40:00+00:00",
+      "arquivos": 29,
+      "fonte": "run 42712058447 (main 88f3b71), etapa integral concluída; ver recibo da aula."
     },
     {
       "aula": "laboratorio-teste-justo-9ano",
