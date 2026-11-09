@@ -1,0 +1,72 @@
+{
+  "id": "lote-2026-11-10-terca",
+  "data": "2026-11-10",
+  "turma": "231,182,192",
+  "disciplina": "História / Estudos Orientados / Eletiva de Base",
+  "tema": "Terça-feira: 231 História; 182 Estudos Orientados; 192 Eletiva — refeições temáticas, planejamento e análise de ingredientes",
+  "fonte_curricular": "Eletiva 192: banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md, semana 7 (09/11); História 231: continuidade da aula de 27/10 sobre ditadura e redemocratização, sem plano original 231 confirmado; Estudos Orientados 182: plano específico não localizado; recorte provisório de estudo orientado com validação curricular pendente",
+  "habilidades": [
+    "192: código EM13CNT102RS consta no plano de 9º ano, incompatibilidade de etapa sinalizada para revisão; 231 e 182: códigos somente após fonte conferida"
+  ],
+  "design": {
+    "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+    "revisao": "ferramentas/biblioteca.lock.json",
+    "modelo": "Fluxo 03 — Território de Experiências; motores versionados da biblioteca, sem produção independente",
+    "politica": "automacoes/aulas/politica-entrega.json 3.9.0",
+    "visual": "cenários temáticos distintos por componente e série"
+  },
+  "estado": "rascunho",
+  "observacao": "Pedido de autoria, não aula compilada. Dia 10/11 é data planejada e fica só no cadastro/relatório, jamais no material público. Não publicar antes de recibos, aceites, validação e URL dupla confirmada.",
+  "aulas": [
+    {
+      "id": "2026-11-10-historia-231",
+      "turma": "231",
+      "serie": "3ª série · EM",
+      "disciplina": "História",
+      "tema": "Da Constituição de 1988 à cidadania praticada: direitos, participação e limites",
+      "fonte_curricular": "Continuidade temática da aula 27-10-2026-historia-231; plano original da turma 231 não verificado — revisar recorte antes da publicação",
+      "habilidades": [
+        "Competências e habilidades de CHS a cotejar com plano 231 e matriz RS, sem inventar código"
+      ],
+      "periodos": 2,
+      "experiencia": "Arquivo da democracia: explorar documentos históricos, montar linha do tempo 1984-1985-1988-1989, comparar direitos escritos e efetividade, examinar evidências e consequências; ambientação contemporânea de centro de memória com arquivos, mapa de decisões e NPC arquivista"
+    },
+    {
+      "id": "2026-11-10-estudos-182",
+      "turma": "182",
+      "serie": "8º ano · EF",
+      "disciplina": "Estudos Orientados",
+      "tema": "Detetives das ideias: identificar informação, fazer relações e explicar uma conclusão",
+      "fonte_curricular": "Recorte preparatório de organização dos estudos; plano específico de Estudos Orientados 182 não localizado; não atribuir habilidades não conferidas",
+      "habilidades": [
+        "A definir conforme plano curricular efetivamente recebido"
+      ],
+      "periodos": 2,
+      "experiencia": "Cidade de pistas: estudante observa um quadro, identifica a pergunta, distingue fato e hipótese, compara duas fontes fictícias rotuladas e monta síntese com evidência; narrativa investigativa adolescente de RPG, sem exigir leitura longa"
+    },
+    {
+      "id": "2026-11-10-eletiva-192",
+      "turma": "192",
+      "serie": "9º ano · EF",
+      "disciplina": "Eletiva de Base",
+      "tema": "Cozinha temática: planejamento de uma refeição, ingredientes, quantidades e escolhas alimentares",
+      "fonte_curricular": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md, Semana 7 — 09/11 — Montando refeições que envolvem o dia das bruxas",
+      "habilidades": [
+        "No plano: EM13CNT102RS; discrepância com 9º ano deve ser resolvida pela matriz correspondente"
+      ],
+      "periodos": 2,
+      "experiencia": "Laboratório culinário virtual com bancada, inventário, comparação de ingredientes, porções, ficha técnica, escolhas responsáveis e montagem de cardápio; sem estimular preparo real sem supervisão"
+    }
+  ],
+  "contrato_adicional": {
+    "aula_principal": 32,
+    "exemplos": 96,
+    "apoio_nao_leitor_minimo": 57,
+    "apoio_nao_leitor_alvo": 96,
+    "apoio_avanco_frases": "Sugestão opcional depois da associação, nunca requisito",
+    "linguagem": "VEJA → ENTENDA → EXEMPLO COM OUTRO CASO → AGORA É SUA VEZ → CONFERIR",
+    "correcao": "Não revelar gabarito do próprio caso antes da primeira tentativa",
+    "rotas": "três independentes; apoio não leitor associativo sem RPG obrigatório",
+    "entregas": "HTML principal, HTML 96 exemplos, apoio associativo, PDF discente diagramado, PDF expositivo docente reservado, testes, relato de revisão, Pages+Vercel e QR após conferir ambas URLs"
+  }
+}
