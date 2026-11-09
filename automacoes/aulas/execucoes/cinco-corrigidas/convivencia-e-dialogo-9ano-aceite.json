@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "convivencia-e-dialogo-9ano",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "42ab33328758c5b137ecd5dec67a8dda5d033a21546b5fddf74edb32acf396c0",
   "pacote_sha256": "f5421bb951edfc4d1fe07598633189b56ccf8144a2e32338501509c0d788fa3c",
   "requisitos": {
@@ -244,10 +244,26 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/convivencia-e-dialogo-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos_manifesto": 16,
+      "pacote_sha256": "f5421bb951edfc4d1fe07598633189b56ccf8144a2e32338501509c0d788fa3c",
+      "qr_arquivo": "verificacao-publicacao/82dd491acc6f6ce2d1cd.png",
+      "qr_sha256": "fe7eaa62b06172a2126f6e03eef4a36c5353cdcbfee2bf19d4da8b5b135ed137",
+      "verificado_em": "2026-11-09T19:30:40.885089+00:00",
+      "fonte": "Deploy de main 3f0ce4a (static.yml, https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/actions/runs/42683417634): etapa \"Conferir versão nos dois destinos e gerar QR verificado\" concluída com sucesso (conferir_publicacao_integral.py compara o hash de cada arquivo do pacote público nos dois destinos e falha em divergência; artefato publicacao-integral-3f0ce4a597aa81a7b4d867e42aab60f6a25e3880, 30 dias). Conferência adicional a partir desta sessão: manifesto.json publicado em Pages (7º ano) e Vercel (teste justo) com protocolo_linguagem_clara 3.9.0 e clareza.js a487da0b…; assets/clareza.js servido pela Vercel contém o código 3.9.0. O ambiente desta sessão não alcança os domínios publicados por HTTP direto; o relatório integral é o da etapa de CI."
     },
     "vercel": {
-      "estado": "pendente"
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/convivencia-e-dialogo-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos_manifesto": 16,
+      "pacote_sha256": "f5421bb951edfc4d1fe07598633189b56ccf8144a2e32338501509c0d788fa3c",
+      "qr_arquivo": "verificacao-publicacao/f6f58f9046f051c9f92c.png",
+      "qr_sha256": "bd1e65f2afd017549b77e2e6a9f38c922b70c6e79018d6eafccaa09143c47c48",
+      "verificado_em": "2026-11-09T19:30:40.885089+00:00",
+      "fonte": "Deploy de main 3f0ce4a (static.yml, https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/actions/runs/42683417634): etapa \"Conferir versão nos dois destinos e gerar QR verificado\" concluída com sucesso (conferir_publicacao_integral.py compara o hash de cada arquivo do pacote público nos dois destinos e falha em divergência; artefato publicacao-integral-3f0ce4a597aa81a7b4d867e42aab60f6a25e3880, 30 dias). Conferência adicional a partir desta sessão: manifesto.json publicado em Pages (7º ano) e Vercel (teste justo) com protocolo_linguagem_clara 3.9.0 e clareza.js a487da0b…; assets/clareza.js servido pela Vercel contém o código 3.9.0. O ambiente desta sessão não alcança os domínios publicados por HTTP direto; o relatório integral é o da etapa de CI."
     }
   },
   "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
