@@ -3,7 +3,7 @@
   "titulo": "Estação do Teste Justo",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "03724bc8c8be9b5f9daf61764f81a7fa4eb18d86",
+  "biblioteca_origem": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -22,8 +22,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 38028,
-      "sha256": "90dec3019c30eb97b450ef33cc913e2c1bcef797911d33710ce90fd3c4e6d2c4"
+      "bytes": 38291,
+      "sha256": "7b908b00c0ab12dbd9575e92447fddea6eef4be5185acdbd6f75ef8baca724e6"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -43,7 +43,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 380391,
-      "sha256": "2267e1b75b0aff7a4768a493baf9619d712d409710445a7c7acceb3e73094400"
+      "sha256": "f616cb4593c240a07405ccc9e4e0666402f89a9fcbb02d74c220b713e19517f0"
     },
     {
       "arquivo": "assets/gei.css",

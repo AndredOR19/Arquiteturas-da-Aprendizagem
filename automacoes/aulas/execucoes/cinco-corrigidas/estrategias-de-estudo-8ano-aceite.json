@@ -3,7 +3,7 @@
   "aula": "estrategias-de-estudo-8ano",
   "estado": "pronto_para_publicar",
   "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "4980aa3416e9e7fafc6a1723540434406456ae474262bfc5000a4710e5bd73c7",
+  "pacote_sha256": "002a0f3a180d044409928e7a99478e1a4aa1e4bf75691da327d0e7a16fc76109",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -22,7 +22,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
+          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
@@ -38,7 +38,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
+          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",

@@ -3,7 +3,7 @@
   "titulo": "Agência dos Dados",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "03724bc8c8be9b5f9daf61764f81a7fa4eb18d86",
+  "biblioteca_origem": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -22,8 +22,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 38028,
-      "sha256": "90dec3019c30eb97b450ef33cc913e2c1bcef797911d33710ce90fd3c4e6d2c4"
+      "bytes": 38291,
+      "sha256": "7b908b00c0ab12dbd9575e92447fddea6eef4be5185acdbd6f75ef8baca724e6"
     },
     {
       "arquivo": "assets/cenario.jpg",
@@ -43,7 +43,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 367094,
-      "sha256": "79a79216fc55b04edee0f0ce381d4e24193d35510b52e28aef53a4e17f3780fb"
+      "sha256": "f19c024191fd1a55199cf65664aadbff10e5d44242cc373209b16f6a8ddefeac"
     },
     {
       "arquivo": "assets/gei.css",

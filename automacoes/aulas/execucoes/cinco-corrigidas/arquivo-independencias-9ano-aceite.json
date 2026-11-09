@@ -3,7 +3,7 @@
   "aula": "arquivo-independencias-9ano",
   "estado": "pronto_para_publicar",
   "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "669323177bd8991f6e9cab3fffa7b6d1244e2a225f046e9e2308b56e26a756ed",
+  "pacote_sha256": "1104104cf1b0cbb17f8b45889d9682e595ff68bd9e171f585f7872d391d1d2ae",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -22,7 +22,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
+          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
@@ -38,7 +38,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "fe87378e0cf2c68b059e53c8464cd5688401ab3db4ba1b1b172f577845a839cf"
+          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",

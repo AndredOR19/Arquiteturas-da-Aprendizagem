@@ -1,6 +1,6 @@
 {
   "revisao": "clareza-1",
-  "biblioteca": "03724bc8c8be9b5f9daf61764f81a7fa4eb18d86",
+  "biblioteca": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
   "escopo": "Interface digital das cinco aulas principais e opcionais; conteúdo e PDFs existentes preservados.",
   "mudancas": [
     "entrada direta",
@@ -13,5 +13,6 @@
     "classificação com uma frase por vez"
   ],
   "testes": "640 atividades principais/opcionais e 285 associações do apoio em DOM simulado.",
-  "limites": "Sem afirmar eficácia em sala, homologação física ou revalidação dos PDFs. Verificação pública será feita após deploy."
+  "limites": "Sem afirmar eficácia em sala, homologação física ou revalidação dos PDFs. Verificação pública será feita após deploy.",
+  "verificacao_navegador": "Vercel: entrada direta, modelo aberto, reformulação e tentativa incorreta mantida no mesmo passo; ajuste do feedback após acerto."
 }
