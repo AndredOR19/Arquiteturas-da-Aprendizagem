@@ -6,6 +6,7 @@ on:
       - 'aulas/**'
       - 'laboratorios/**'
       - 'publicacao/catalogo.json'
+      - 'publicacao/cenarios/**'
       - '.github/workflows/validar-aulas-aee.yml'
   workflow_dispatch:
 permissions:
@@ -27,6 +28,8 @@ jobs:
           python automacoes/aulas/testar_gerador.py
       - name: Validar catálogo de arquiteturas
         run: python biblioteca-arquiteturas/validar_catalogo.py
+      - name: Validar biblioteca de cenários e sessão 2 de frases (seção 34.4.2; banco da sessão 1 preservado)
+        run: python publicacao/cenarios/validar_cenarios.py
       - name: Validar linguagem clara das aulas publicadas (seção 38; bloqueios objetivos, avisos para revisão humana)
         run: |
           python automacoes/aulas/validar_linguagem.py --saida "$RUNNER_TEMP/linguagem"

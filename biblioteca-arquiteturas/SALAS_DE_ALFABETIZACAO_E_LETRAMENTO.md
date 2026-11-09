@@ -58,6 +58,9 @@ Registros possíveis (quando instrumentados): tarefa, objetivo, resposta/produç
 ## Privacidade
 Nome, turma e professor da coleta livre são dados autodeclarados. Evitar coleta excessiva, identificar institucionalmente responsáveis, autorizar tratamento conforme LGPD e proteger dados de menores. Nunca publicar PEI, nome ou situação individual no código público.
 
+## Cenários visuais e sessão 2 de frases (piloto 09/11/2026)
+Biblioteca reutilizável em `publicacao/cenarios/` (ver README): catálogo de quatro ambientes com direitos, resolução e relação com a interface; gerenciador de fundos; placa com "Reduzir estímulos"; perfis etários; motor de frases (convite + conjunto 1 de 12, de 96 previstas em 8 conjuntos); registro de progresso separado. Fundo separado da lógica pedagógica: as 57 associações de cada apoio permanecem idênticas (hash conferido). Piloto: `aulas/estrategias-de-estudo-8ano/apoio/`. Cenários B–D e conjuntos 2–8 são previsão, não implementação.
+
 ## Próximo passo técnico
 1. Publicar rotas de salas no GitHub Pages e verificar links.
 2. Criar jogos específicos por conteúdo/competência, com testes automáticos e avaliação de contraste.

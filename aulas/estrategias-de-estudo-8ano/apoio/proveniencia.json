@@ -13,5 +13,10 @@
     "palavra",
     "silaba"
   ],
-  "alteracao": "Somente layout e acesso direto; sem RPG obrigatório; banco, ordem e critérios preservados."
+  "alteracao": "Somente layout e acesso direto; sem RPG obrigatório; banco, ordem e critérios preservados.",
+  "camadas_de_apresentacao": [
+    "visuais.js (ilustração)",
+    "cenarios/cenarios.js + cenarios.css (fundo, placa, estímulos; biblioteca 1.0.0)",
+    "cenarios/frases.js (convite e sessão 2 opcional; fora da contagem de 57, progresso próprio)"
+  ]
 }
