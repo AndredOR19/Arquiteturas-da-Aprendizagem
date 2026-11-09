@@ -27,6 +27,19 @@ jobs:
           python automacoes/aulas/testar_gerador.py
       - name: Validar catálogo de arquiteturas
         run: python biblioteca-arquiteturas/validar_catalogo.py
+      - name: Validar linguagem clara das aulas publicadas (seção 38; bloqueios objetivos, avisos para revisão humana)
+        run: |
+          python automacoes/aulas/validar_linguagem.py --saida "$RUNNER_TEMP/linguagem"
+          python - <<'PY'
+          import json, os, pathlib
+          novo = json.loads(pathlib.Path(os.environ['RUNNER_TEMP'], 'linguagem/relatorio.json').read_text())
+          versionado = json.loads(pathlib.Path('automacoes/aulas/evidencias/linguagem/relatorio.json').read_text())
+          for aula, dados in novo['aulas'].items():
+              antigo = versionado['aulas'].get(aula) or {}
+              for chave in ('conteudo_sha256', 'clareza_sha256', 'bloqueado', 'revisao_humana', 'aprovado_automatico'):
+                  assert antigo.get(chave) == dados[chave], f'{aula}: relatório versionado desatualizado em {chave}; reexecutar validar_linguagem.py'
+          print('relatório versionado coincide com a execução atual')
+          PY
       - name: Validar fonte dos JavaScripts novos (checagem sintática básica)
         run: |
           node --version

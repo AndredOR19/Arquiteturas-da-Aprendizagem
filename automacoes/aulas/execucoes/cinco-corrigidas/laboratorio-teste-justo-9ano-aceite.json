@@ -1,9 +1,9 @@
 {
-  "versao": "3.8.4",
+  "versao": "3.9.0",
   "aula": "laboratorio-teste-justo-9ano",
   "estado": "pronto_para_publicar",
-  "prompt_sha256": "4522e0245d2bd62a9a6365a2bb47e50406119360f239bf10a6cfbc7564b886d9",
-  "pacote_sha256": "430afe0b8ddf6ee96b5a2764a7974a0e870b114e64b458d33309944f42b29de5",
+  "prompt_sha256": "42ab33328758c5b137ecd5dec67a8dda5d033a21546b5fddf74edb32acf396c0",
+  "pacote_sha256": "d3ef814a7c28d9713733f981cd1970f3d01db1fbf3817113840c6d2053fc01ba",
   "requisitos": {
     "curriculo_aee": {
       "estado": "aprovado",
@@ -21,33 +21,41 @@
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/revisao.json",
+          "sha256": "360be5c91e9ef4e9cf55b59a4cd3f6ff9fcf37290fd1b0a83bf4529e62f2b9ca"
         },
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/interacoes.txt",
+          "sha256": "8470f07e276512bdc31f99e9342dd063a0a89cec49b0424d28b9fb18cf16c9e7"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/compatibilidade-clareza-1.txt",
           "sha256": "c0a53eb46287ebeb1d2df4a5a72015503dc6ab7ee493a42e971866083ad8d4ff"
         }
       ],
-      "observacao": "Revisão clareza-1: entrada direta, instruções reformuladas e modelo consultável; associações uma por vez. Suspensa recuperação automática por erro neste modo. Banco curricular e registros mantidos. Evidências antigas descrevem a revisão anterior; a execução atual dos 640 itens está em clareza/interacoes.txt.",
+      "observacao": "Complemento 3.9.0 (seção 38): exemplo sempre de outro caso, resultado próprio oculto até a primeira tentativa, primeiro erro em linha conta como tentativa (escolha_incorreta), cabeçalhos numerados, figura do caso, pistas em três passos; 640 atividades em DOM com erro provocado. Revisão clareza-2 após relato de sala: linguagem do banco retirada da tela (títulos como pergunta/ação, rótulos D/R/E/L como perguntas com ícone, grupos diretos, passos numerados), situação do caso em frases simples com áudio, exemplo resolvido aberto no primeiro bloco, três registros de linguagem, glossário por atividade, resposta certa destacada após erro, conta montada nas atividades numéricas, passagem de bloco com um botão. Banco curricular, respostas e registros mantidos. 640 atividades verificadas com erro provocado em DOM (clareza-2/interacoes.txt); teste clareza-1 mantido. Eficácia em sala a observar.",
       "responsavel": "Codex - conferência executada, com limites registrados",
-      "verificado_em": "2026-11-09T13:05:59.355764+00:00"
+      "verificado_em": "2026-11-09T19:24:04.677200+00:00"
     },
     "jogos_exemplos": {
       "estado": "aprovado",
       "evidencias": [
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/revisao.json",
-          "sha256": "64e4c2aff65a76cea110587ffdaf9c7be1af2bcf9ca38c459cdba458388c7b1a"
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/revisao.json",
+          "sha256": "360be5c91e9ef4e9cf55b59a4cd3f6ff9fcf37290fd1b0a83bf4529e62f2b9ca"
         },
         {
-          "arquivo": "automacoes/aulas/evidencias/clareza/interacoes.txt",
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/interacoes.txt",
+          "sha256": "8470f07e276512bdc31f99e9342dd063a0a89cec49b0424d28b9fb18cf16c9e7"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clareza-2/compatibilidade-clareza-1.txt",
           "sha256": "c0a53eb46287ebeb1d2df4a5a72015503dc6ab7ee493a42e971866083ad8d4ff"
         }
       ],
-      "observacao": "Revisão clareza-1: entrada direta, instruções reformuladas e modelo consultável; associações uma por vez. Suspensa recuperação automática por erro neste modo. Banco curricular e registros mantidos. Evidências antigas descrevem a revisão anterior; a execução atual dos 640 itens está em clareza/interacoes.txt.",
+      "observacao": "Complemento 3.9.0 (seção 38): exemplo sempre de outro caso, resultado próprio oculto até a primeira tentativa, primeiro erro em linha conta como tentativa (escolha_incorreta), cabeçalhos numerados, figura do caso, pistas em três passos; 640 atividades em DOM com erro provocado. Revisão clareza-2 após relato de sala: linguagem do banco retirada da tela (títulos como pergunta/ação, rótulos D/R/E/L como perguntas com ícone, grupos diretos, passos numerados), situação do caso em frases simples com áudio, exemplo resolvido aberto no primeiro bloco, três registros de linguagem, glossário por atividade, resposta certa destacada após erro, conta montada nas atividades numéricas, passagem de bloco com um botão. Banco curricular, respostas e registros mantidos. 640 atividades verificadas com erro provocado em DOM (clareza-2/interacoes.txt); teste clareza-1 mantido. Eficácia em sala a observar.",
       "responsavel": "Codex - conferência executada, com limites registrados",
-      "verificado_em": "2026-11-09T13:05:59.355781+00:00"
+      "verificado_em": "2026-11-09T19:24:04.677200+00:00"
     },
     "jogos_apoio": {
       "estado": "aprovado",
@@ -129,7 +137,7 @@
           "sha256": "f7980fd6fa7c1d0c2dac24838884c3556e259ad7aca3e71a0c10a030aa610685"
         }
       ],
-      "observacao": "Teste executou primeiro erro, erro na extra e erros repetidos, ampliação 1/2/4 e teto; originais preservados. Nota final 31/32*10 após 32, extras exigidas e experiência confirmada, mantendo opcionais separados. Quinze recuperações completadas no ensaio das cinco aulas.",
+      "observacao": "3.9.0: o primeiro erro em linha passa a contar como primeira tentativa (métrica \"primeiros acertos ÷ 32\" mais honesta); 32 originais, regra 1/2/4 e registros preservados. Teste executou primeiro erro, erro na extra e erros repetidos, ampliação 1/2/4 e teto; originais preservados. Nota final 31/32*10 após 32, extras exigidas e experiência confirmada, mantendo opcionais separados. Quinze recuperações completadas no ensaio das cinco aulas.",
       "responsavel": "Codex - conferência executada, com limites registrados",
       "verificado_em": "2026-11-08T21:45:10.311811+00:00"
     },
@@ -208,6 +216,30 @@
       "observacao": "Payload público não contém class/date/schedule/periods/continuity; série e tema preservados. Datas históricas permanecem. Testes verificam duas aplicações independentes, recarga e troca de estudante com novo ID sem turma anterior. Identificação real somente no relatório.",
       "responsavel": "Codex - conferência executada, com limites registrados",
       "verificado_em": "2026-11-08T21:45:10.311811+00:00"
+    },
+    "linguagem_clara": {
+      "estado": "aprovado",
+      "responsavel": "Arena Agent Mode - conferência automatizada executada (validar_linguagem.py) e leitura das telas; revisão humana e observação em sala PENDENTES",
+      "verificado_em": "2026-11-09T19:24:04.677200+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/linguagem/relatorio.json",
+          "sha256": "92792975840faf08d1216f2f796e5b88aaefc846acdb145d3d4a44d9d64fddb9"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/linguagem/resumo.md",
+          "sha256": "22ef2c15269a48d26ab45e8a695cd5f17d55cc42bf3c8ed2f8b4f0d762d4e2bb"
+        },
+        {
+          "arquivo": "automacoes/aulas/linguagem-clara/OBSERVACAO_EM_SALA.md",
+          "sha256": "07d224b8baf9a5d2bcdbb64425b8679c9235ac66add3eff384f70373aec70093"
+        },
+        {
+          "arquivo": "automacoes/aulas/linguagem-clara/CONTRATO_GERADOR.md",
+          "sha256": "1c8dfa6d869c03a65f62819c24be6120885555da4a425143ef6dff13cd386f82"
+        }
+      ],
+      "observacao": "Validador seção 38: 128 atividades, 0 bloqueadas, 106 em revisão humana, 22 aprovadas automaticamente (regras: {\"aviso:jargao_no_conteudo\": 84, \"aviso:palavra_dificil_alem_do_glossario\": 90}). Zero bloqueios é filtro preliminar e não comprova compreensão; a observação em sala (OBSERVACAO_EM_SALA.md) ainda não foi realizada e permanece como pendência explícita."
     }
   },
   "publicacao": {
@@ -219,6 +251,10 @@
     }
   },
   "limites": "Navegador Chromium real: motor comum e três rotas da Agência dos Dados abertos em 390x844, 1024x768 e 1366x768. Nove painéis de atividades sem overflow horizontal (larguras de conteúdo iguais às de painel). Arquivo das Independências também explorado em tela estreita com controles na tela. As cinco aulas passaram pelos 925 fluxos de interação e recarga em teste DOM. Trata-se de emulação de viewports representativos de celular/Chromebook/desktop, não teste físico nem cobertura de todos os sistemas. Revisão das cinco fontes curriculares e das exposições AEE/DREL. História: descolonização e socialização, EF09HI31 articulada a EF09HI28; Estudos Orientados 7º: EF07MA36; Ensino Religioso: EF09ER06, sem proselitismo; 8º: rotina de estudo e transferência. Práticas Experimentais é proposta de teste justo, não sequência de Herbert confirmada: o planejamento específico não foi localizado. A liberação solicitada pelo professor não transforma essa proposta em continuidade curricular comprovada. Dados numéricos das simulações são identificados como fictícios. Testados relatório integral, estado das três rotas, tentativas, extras, identidade de aplicação e troca de estudante sem reaproveitar contexto. TXT/JSON e cópia manuais; e-mail exige ação do professor. Sem sincronização automática com painel e sem alegação de recebimento.",
-  "pendencias_finais": [],
-  "revisao_didatica": "clareza-1"
+  "pendencias_finais": [
+    "3.9.0 — observação em sala (seção 38.9) ainda não realizada; 106 atividades em revisão humana (avisos do validador).",
+    "3.9.0 — fábrica privada (estacao/produzir.py) não integrada ao protocolo: assets/clareza.js é camada de compatibilidade; ver automacoes/aulas/linguagem-clara/CONTRATO_GERADOR.md."
+  ],
+  "revisao_didatica": "clareza-2",
+  "protocolo_linguagem_clara": "3.9.0"
 }

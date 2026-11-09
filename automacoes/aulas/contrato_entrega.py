@@ -50,12 +50,33 @@ def pending(policy, lesson_id, bundle, master):
                           for key,label in policy['requisitos'].items()},
             'publicacao':{target:{'estado':'pendente'} for target in policy['publicacao']['destinos']}}
 
+def clear_language_gate(receipt, policy, root, bundle):
+    """Seção 38 do Prompt Mestre: relatório do validador de linguagem para esta aula, atual e sem bloqueios.
+    Não substitui a revisão humana: zero bloqueios não comprova compreensão pelo estudante."""
+    rule=policy.get('linguagem_clara')
+    if not rule:return []
+    try:
+        report=json.loads(inside(root,rule['relatorio']).read_text())
+    except (ValueError,KeyError) as exc:
+        return ['linguagem_clara: relatório ausente ('+str(exc)+'); executar automacoes/aulas/validar_linguagem.py']
+    entry=report.get('aulas',{}).get(receipt.get('aula'))
+    if not entry:return ['linguagem_clara: aula sem auditoria de linguagem no relatório']
+    errors=[]
+    if int(entry.get('bloqueado',1)) > int(rule.get('bloqueios_maximos',0)):
+        errors.append('linguagem_clara: '+str(entry.get('bloqueado'))+' atividade(s) bloqueada(s); corrigir antes de entregar')
+    for name,key in (('assets/conteudo.js','conteudo_sha256'),('assets/clareza.js','clareza_sha256')):
+        f=bundle/name
+        if (sha(f) if f.is_file() else None)!=entry.get(key):
+            errors.append('linguagem_clara: relatório desatualizado para '+name+'; reexecutar validar_linguagem.py')
+    return errors
+
 def validate(receipt, policy, root, bundle, master, stage='publicar'):
     errors=[]
     if receipt.get('versao') != policy['versao'] or receipt.get('prompt_sha256') != sha(master):
         errors.append('Prompt/contrato desatualizado; reler e revisar a produção')
     if receipt.get('pacote_sha256') != digest(bundle):
         errors.append('Pacote alterado depois da revisão')
+    errors.extend(clear_language_gate(receipt,policy,root,bundle))
     for key in policy['requisitos']:
         entry=receipt.get('requisitos',{}).get(key,{})
         if entry.get('estado') != 'aprovado' or not entry.get('responsavel') or not entry.get('verificado_em') or not entry.get('evidencias'):

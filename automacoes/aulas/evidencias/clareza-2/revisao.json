@@ -1,0 +1,49 @@
+{
+  "revisao": "clareza-2",
+  "biblioteca": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
+  "motivo": "Relato docente após aplicação em sala: estudantes não compreendiam relações e sequências; os mais rápidos chegaram só à missão 4 em dois períodos; no modelo anterior conseguiam. A camada clareza-1 reduziu a navegação, mas manteve a linguagem do banco (Dado observado, Relação explicada, Sustentado, registre a operação e confira a unidade).",
+  "escopo": "Interface digital das cinco aulas reutilizáveis (rotas principal e exemplos). Banco curricular (conteudo.js), PDFs, apoio relacional, ids, respostas e relatórios preservados.",
+  "arquivos": [
+    "assets/clareza.js (novo): reescrita de exibição de títulos, comandos, rótulos D/R/E/L, grupos de classificação e prefixos de passos; situação de cada caso em palavras simples; glossário por atividade; fala informal; passagem de bloco",
+    "assets/clareza.css (novo)",
+    "assets/aula.js: contagem de passos, só opções restantes na associação, resposta certa destacada após erro, conta visível nas atividades numéricas, cartões marcáveis na contagem, variável-alvo marcada no teste justo, retorno em linguagem direta, pistas em três níveis simples",
+    "assets/complementos.js: exemplo resolvido aberto no primeiro bloco, modelo numérico como conta, evento aula:guia",
+    "index.html: clareza.css e clareza.js (após conteudo.js)",
+    "manifesto.json: revisao_didatica clareza-2 e hashes"
+  ],
+  "mudancas": [
+    "títulos como pergunta ou ação (Ligue cada pergunta à sua resposta; Some tudo: qual é o total?; Mude só uma coisa)",
+    "rótulos Dado/Relação/Efeito/Limite substituídos por perguntas com ícone, específicas do componente (📌 O que aconteceu? 💡 Que ideia esse caso ensina? ➡️ O que veio depois? ⚠️ O que NÃO dá para concluir?)",
+    "grupos de classificação em linguagem direta (É verdade neste caso / Não dá para afirmar; Os dados mostram isso / Os dados não mostram isso)",
+    "passos de sequência em primeira pessoa e numerados (1º — Apresento o caso; 2º — Digo o que aconteceu; ...)",
+    "situação do caso contada em 2 a 4 frases simples, com ícones, áudio e o texto original disponível em Ler com as palavras do texto original (24 textos escritos para 8º, História e Ensino Religioso; 7º e teste justo gerados a partir dos números do caso)",
+    "exemplo resolvido aberto em todas as atividades do primeiro bloco; nos demais, disponível com um toque",
+    "três registros de linguagem por atividade: instrução, reformulação cotidiana e fala informal",
+    "glossário Palavras desta atividade a partir das palavras difíceis presentes no texto exibido",
+    "associação: Pergunta n de N, apenas opções restantes, resposta certa destacada após erro e nomeada no retorno",
+    "sequência: Passo n de N, duas opções, opção certa destacada após erro",
+    "classificação: Frase n de N, grupo certo destacado após erro com o limite do caso",
+    "atividades numéricas: a conta aparece montada (8 + 7 + 5 = ?; (35 + 38 + 35) ÷ 3 = ?; maior − menor: 38 − 35 = ?) e o retorno diz se o número ficou pequeno ou grande demais",
+    "contagem: cartões marcáveis ao toque; teste justo: variável que deve mudar marcada com ★ e nome em português",
+    "passagem de bloco: ✔ Bloco n concluído! com um único botão Continuar para o bloco n+1",
+    "abertura: Hoje você vai... em linguagem direta; objetivo formal preservado em detalhe"
+  ],
+  "testes": "automacoes/aulas/evidencias/clareza-2/teste.cjs: 640 atividades das cinco aulas resolvidas em DOM simulado com a ordem real dos scripts, cada uma com um erro provocado e conferência da resposta destacada, da situação simples, do exemplo aberto no primeiro bloco, da conta visível e da passagem de bloco (interacoes.txt). automacoes/aulas/evidencias/clareza/teste.cjs continua passando com o motor novo sem a camada (compatibilidade-clareza-1.txt).",
+  "limites": "Sem afirmar eficácia em sala: a medida é a observação da turma. Sem homologação em navegador físico nesta entrega. PDFs e caderno docente não foram revalidados porque não mudaram. Frases do banco que não seguem padrão reconhecível continuam com a redação original, visíveis ao lado da situação simples. Complemento 3.9.0: ver complemento_3_9_0.",
+  "complemento_3_9_0": {
+    "data": "2026-11-09",
+    "motivo": "Protocolo de linguagem clara (Prompt Mestre 3.9.0, seção 38) autorizado pelo professor após novo relato de sala.",
+    "mudancas": [
+      "exemplo aberto é sempre de OUTRO caso/outros dados (2 · Ver exemplo com outro caso: «X»); variável diferente no laboratório, operandos diferentes nas contas, outro caso nas associações",
+      "resultado do próprio item (Ver como fica este caso) oculto até a primeira tentativa confirmada (construcao_conferida ou escolha_incorreta)",
+      "primeiro erro em linha (associação, sequência, classificação, barras, contagem) conta como primeira tentativa, registra escolha_incorreta e passa a compor a métrica de primeiros acertos",
+      "comandos numéricos do 7º ano citam os grupos somados (Quantos alunos vão a pé ou de ônibus? Some os dois grupos.)",
+      "cabeçalhos 1 · Veja e entenda / 2 · Ver exemplo com outro caso / 3 · Agora é sua vez / 4 · Conferir minha resposta",
+      "figura do caso antes da pergunta: barras (7º), linha do tempo (História), medidas e média (teste justo)",
+      "pistas em três passos: onde olhar, o que fazer, exemplo de outro caso",
+      "glossário completo exportado (glossaryAll) para auditoria; tela continua mostrando até seis termos"
+    ],
+    "testes": "teste.cjs amplia as asserções: exemplo de outro caso em todas as atividades, gabarito próprio oculto antes da tentativa, first=false após erro provocado (inclusive laboratório, barras e contagem), cabeçalho 3 · Agora é sua vez no cartão; validar_linguagem.py: 640 atividades, 0 bloqueadas, 203 em revisão humana, 437 aprovadas automaticamente (automacoes/aulas/evidencias/linguagem).",
+    "limites": "A camada continua sendo compatibilidade: a fábrica privada (estacao/produzir.py) não foi integrada (acesso 403) e não é declarada corrigida. Observação em sala com estudantes ainda não realizada; 203 itens aguardam revisão humana."
+  }
+}
