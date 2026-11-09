@@ -1,0 +1,82 @@
+{
+ "versao": "1.0.0",
+ "ensaio": "cenarios-piloto",
+ "pagina": "aulas/estrategias-de-estudo-8ano/apoio/index.html",
+ "gerado_em": "2026-11-09T22:25:35.763Z",
+ "verificacoes": {
+  "banco_preservado": {
+   "sha256": "9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95",
+   "percursos": 57,
+   "motor_inline_igual_fonte": true
+  },
+  "copias_identicas": [
+   "catalogo.json",
+   "cenarios.js",
+   "cenarios.css",
+   "frases.js",
+   "frases-conjunto-1.json",
+   "sala-das-palavras-1365.webp",
+   "sala-das-palavras-960.webp",
+   "sala-das-palavras-miniatura.webp"
+  ],
+  "ambiente_repositorio": {
+   "erros": 0,
+   "fundo": "sala-das-palavras-1365.webp / 960.webp",
+   "perfil": "8-9",
+   "placa": true,
+   "sincronia_ap_calm": true
+  },
+  "conclusao_repositorio": {
+   "percursos": 57,
+   "convite": [
+    "Sessão 1 concluída",
+    "Parabéns! Você terminou as 57 atividades!",
+    "Quer aprender a formar frases?",
+    "Agora você pode juntar palavras para contar o que acontece nas imagens.",
+    "Quero aprender a formar frases"
+   ],
+   "relatorio_sessao1": null
+  },
+  "sessao2_repositorio": {
+   "frases": 12,
+   "tipos": {
+    "imagem_frase": 7,
+    "frase_imagem": 5
+   },
+   "erros_provocados": 3,
+   "falas": 89,
+   "retomada": "frase 4 após recarga",
+   "relatorio_sessao1_tentativas": null
+  },
+  "ambiente_publicado": {
+   "erros": 0,
+   "fundo": "sala-das-palavras-1365.webp / 960.webp",
+   "perfil": "8-9",
+   "placa": true,
+   "sincronia_ap_calm": true
+  },
+  "conclusao_publicado": {
+   "percursos": 57,
+   "convite": [
+    "Sessão 1 concluída",
+    "Parabéns! Você terminou as 57 atividades!",
+    "Quer aprender a formar frases?",
+    "Agora você pode juntar palavras para contar o que acontece nas imagens.",
+    "Quero aprender a formar frases"
+   ],
+   "relatorio_sessao1": 57
+  },
+  "sessao2_publicado": {
+   "frases": 12,
+   "tipos": {
+    "imagem_frase": 7,
+    "frase_imagem": 5
+   },
+   "erros_provocados": 3,
+   "falas": 89,
+   "retomada": "frase 4 após recarga",
+   "relatorio_sessao1_tentativas": 57
+  }
+ },
+ "limites": "Emulação DOM (jsdom): não mede legibilidade, contraste renderizado, toque físico, voz real nem desempenho em Chromebook/celular. Teclado: controles são <button>/<a> nativos com foco gerenciado; eventos de tecla não são sintetizados. A conferência visual real continua necessária em sala."
+}

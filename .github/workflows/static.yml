@@ -35,6 +35,7 @@ jobs:
       - name: Validar catalogo e preparar acervo publico
         run: |
           python biblioteca-arquiteturas/validar_catalogo.py
+          python publicacao/cenarios/validar_cenarios.py
           python publicacao/preparar.py
       - name: Construir e incluir Gincana ERER nos caminhos originais
         run: |

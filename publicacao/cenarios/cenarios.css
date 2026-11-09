@@ -1,0 +1,52 @@
+/* Biblioteca de cenários 1.0.0 — apresentação do fundo, do painel do ambiente e da sessão 2.
+   Somente apresentação: banco, sequência, respostas e critérios do apoio permanecem os do motor. */
+:root{--cen-ink:#15303a;--cen-papel:#fffefa;--cen-acento:#0f6b72;--cen-ambar:#e0a93c;--cen-hud:rgba(16,34,44,.90);--cen-hud-texto:#f4f8f8;--cen-veu-topo:rgba(255,255,255,.12);--cen-veu-base:rgba(255,255,255,.22)}
+.cen-fundo{position:fixed;left:0;right:0;top:-8vh;height:116vh;z-index:-1;pointer-events:none;background:var(--cen-img) center/cover no-repeat;will-change:transform}
+.cen-fundo::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,var(--cen-veu-topo),var(--cen-veu-base))}
+@media(max-width:720px){.cen-fundo{background-image:var(--cen-img-movel);top:0;height:100vh;transform:none!important}}
+@media(prefers-reduced-motion:reduce){.cen-fundo{transform:none!important}}
+body.cen-reduzido .cen-fundo{display:none}
+body.cen-reduzido[data-cenario]{background:#eef3f2!important}
+/* Painéis sempre opacos sobre o cenário. */
+body[data-cenario] .card,body[data-cenario] .ap-how,body[data-cenario] .ap-demo,body[data-cenario] #ap-report,body[data-cenario] .ap-switch{background-color:var(--cen-papel)}
+body[data-cenario] main.wrap{position:relative}
+body[data-cenario] #activity{border:3px solid #2d4c57;box-shadow:0 10px 0 -4px #6e5b4a,8px 12px 0 #c7b79a}
+body[data-cenario-perfil="8-9"] #activity,body[data-cenario-perfil="medio"] #activity{box-shadow:0 10px 0 -4px #3a4a52,8px 12px 0 #b7c8c4}
+/* Placa do cenário. */
+.cen-placa{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;margin:16px 0;padding:12px 16px;border-radius:16px;border:2px solid #294c55;background:var(--cen-papel);color:var(--cen-ink);box-shadow:5px 5px 0 #b4d1c5}
+.cen-local{margin:0;font-size:17px;line-height:1.4}.cen-local strong{font-size:19px}
+.cen-pino{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--cen-ambar);margin-right:8px;box-shadow:0 0 0 3px rgba(224,169,60,.25)}
+.cen-acoes{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.cen-botao{min-height:48px;padding:10px 14px;border-radius:12px;border:2px solid #173d44;background:#e5f5ff;color:#102e3a;font:inherit;font-weight:700;cursor:pointer}
+.cen-botao[aria-pressed="true"]{background:#173d44;color:white}
+body[data-cenario-perfil="8-9"] .cen-placa,body[data-cenario-perfil="medio"] .cen-placa{background:var(--cen-hud);color:var(--cen-hud-texto);border-color:#0b1a21;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+body[data-cenario-perfil="8-9"] .cen-placa .cen-botao,body[data-cenario-perfil="medio"] .cen-placa .cen-botao{background:#f1f6f6;border-color:#f1f6f6;color:#10242c}
+body[data-cenario-perfil="8-9"] .cen-placa .cen-botao[aria-pressed="true"],body[data-cenario-perfil="medio"] .cen-placa .cen-botao[aria-pressed="true"]{background:var(--cen-ambar);border-color:var(--cen-ambar);color:#10242c}
+body[data-cenario-perfil="8-9"] .cen-placa .cen-local strong{letter-spacing:.02em;text-transform:uppercase;font-size:17px}
+body[data-cenario-perfil="5-6"] .cen-placa{border-radius:24px;background:#fff6dd;border-color:#b9743a;box-shadow:5px 5px 0 #f0c98a}
+body[data-cenario-perfil="7"] .cen-placa{border-width:3px;border-color:#4b3a6b;box-shadow:5px 5px 0 #c3b1dc}
+.cen-placa button:focus-visible,.cen-frases button:focus-visible,.cen-convite button:focus-visible{outline:4px solid #f0a52c;outline-offset:3px}
+body[data-cenario-perfil="8-9"] .cen-placa button:focus-visible{outline-color:#ffd166}
+.cen-visualmente-oculto{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+/* Convite e sessão 2. */
+.cen-convite,.cen-frases{border-top:8px solid var(--cen-acento)}
+.cen-frases[hidden],.cen-convite[hidden],.cen-frases [hidden],.cen-exemplo [hidden]{display:none!important}
+.cen-selo{display:inline-block;margin:0 0 6px;padding:5px 11px;border-radius:8px;background:var(--cen-acento);color:white;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.cen-pergunta{font-size:clamp(22px,3vw,28px);font-weight:800;margin:10px 0 4px}
+.cen-principal{background:#ffe1a2;box-shadow:3px 4px 0 #c6a76c;font-weight:800}
+.cen-frase-grande{font-size:clamp(26px,4.4vw,38px);font-weight:800;line-height:1.3;margin:12px 0;color:#1d4d56}
+.cen-figura{display:flex;justify-content:center;margin:12px auto;padding:12px;border-radius:18px;background:linear-gradient(#eef8f4,#e0efed);max-width:620px}
+.cen-cena{width:100%;height:auto;max-height:200px}
+.cen-exemplo{padding:16px;border-radius:16px;border:2px dashed #5a8c8f;background:#f4fbf9;margin:12px 0}
+.cen-exemplo h3,.cen-exemplo h4{margin:0 0 8px}.cen-exemplo ol{padding-left:22px;line-height:1.5}
+.cen-pista{border-left:6px solid var(--cen-ambar);background:#fff6dd;padding:12px 14px;border-radius:0 12px 12px 0;font-weight:650}
+.cen-opcoes .cen-opcao{display:grid;align-content:center;justify-items:center;gap:8px;min-height:120px;padding:14px;font-size:clamp(18px,2.6vw,24px);font-weight:700;line-height:1.35;text-align:center}
+.cen-opcao-imagem{display:block;width:100%}.cen-opcao-imagem .cen-cena{max-height:120px}
+.cen-opcao-legenda{font-size:16px;font-weight:650;color:#37555c}
+.cen-opcao.cen-certa{background:#dff5e7;border-color:#1f7a4c;box-shadow:4px 5px 0 #8fc7a7}
+.cen-opcao.cen-errada{background:#fbeaea;border-color:#9d3b3b}
+.cen-opcao.cen-indicada{outline:5px solid var(--cen-ambar);outline-offset:3px}
+.cen-rodape{margin-top:14px;padding-top:12px;border-top:1px solid #cfe0dc}
+body.cen-sessao2-ativa #activity,body.cen-sessao2-ativa .ap-guide{display:none!important}
+@media(max-width:600px){.cen-placa{padding:10px 12px}.cen-local{font-size:15px}.cen-opcoes{grid-template-columns:1fr}.cen-opcoes .cen-opcao{min-height:96px}.cen-figura{padding:8px}}
+@media(prefers-reduced-motion:reduce){.cen-fundo,.cen-opcao{transition:none}}

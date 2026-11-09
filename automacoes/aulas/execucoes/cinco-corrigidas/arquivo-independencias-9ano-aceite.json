@@ -2,7 +2,7 @@
   "versao": "3.9.0",
   "aula": "arquivo-independencias-9ano",
   "estado": "concluido",
-  "prompt_sha256": "42ab33328758c5b137ecd5dec67a8dda5d033a21546b5fddf74edb32acf396c0",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "402b2c21f1bfcb20a5b36b86444b121bc0068954d49b45f77bc2eb50a3225af5",
   "requisitos": {
     "curriculo_aee": {

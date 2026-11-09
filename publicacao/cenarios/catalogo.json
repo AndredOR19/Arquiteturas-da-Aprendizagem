@@ -1,0 +1,100 @@
+{
+  "biblioteca": "Biblioteca de cenários — Arquiteturas da Aprendizagem",
+  "versao": "1.0.0",
+  "atualizado_em": "2026-11-09",
+  "regra": "Cenário é fundo de interface. Toda atividade, texto e botão fica em painel HTML legível sobre o fundo; a decoração não é interativa nem exigida. Trocar ou remover o cenário não altera banco, sequência, respostas, critérios, nota ou progresso.",
+  "perfis_etarios": {
+    "5-6": {"nome": "Aventura ilustrada", "series": ["5º ano", "6º ano"], "tracos": "cores quentes, cantos arredondados, selos simples"},
+    "7": {"nome": "RPG moderno", "series": ["7º ano"], "tracos": "painéis com moldura, ícones de missão, contraste alto"},
+    "8-9": {"nome": "Videogame contemporâneo", "series": ["8º ano", "9º ano"], "tracos": "painel HUD escuro translúcido, tipografia firme, acento âmbar/teal; sem linguagem infantil"},
+    "medio": {"nome": "Realista estilizado", "series": ["Ensino Médio"], "tracos": "painéis sóbrios, tipografia editorial, cores neutras"}
+  },
+  "componentes": {
+    "gerenciador_de_fundos": "cenarios.js — aplica o cenário do catálogo como camada fixa atrás dos painéis, com versão desktop/mobile, parallax discreto opcional (desligado com prefers-reduced-motion) e modo de menos estímulos sincronizado com body.ap-calm da experiência publicada.",
+    "painel_do_cenario": "cenarios.js — barra .cen-placa com nome do ambiente, descrição da sessão e controles (Reduzir estímulos; ações registradas por outros motores).",
+    "paineis_acessiveis": "cenarios.css — cartões opacos (.card/#activity/.cen-frases) com contraste mínimo 4.5:1, foco visível e alvos de toque de 48px.",
+    "cartoes_de_palavras": "reutiliza a arte vetorial de visuais.js (mesmo desenho visto na sessão 1); frases-conjunto-1.json leva as mesmas formas.",
+    "motor_de_frases": "frases.js — convite ao fim da sessão 1, conjunto 1 (imagem ↔ frase), exemplo resolvido, pistas, narração opcional, retomada.",
+    "controles_de_audio_e_animacao": "botões Ouvir/Parar herdados do apoio; narração via speechSynthesis pt-BR; animação só com movimento permitido e estímulos normais.",
+    "registro_de_progresso": "localStorage arquiteturas:frases:v1:<caminho> (sessão 2) e arquiteturas:cenarios:estimulos:v1 (preferência). A sessão 1 continua somente em memória, como antes.",
+    "camada_de_objetos_interativos": "não usada no piloto; prevista para cenários B–D com objetos opcionais que só repetem áudio/palavra (nunca exigidos)."
+  },
+  "cenarios": [
+    {
+      "id": "sala-das-palavras",
+      "versao": "1.0.0-provisoria",
+      "nome": "Sala das Palavras",
+      "sessao": "Sessão 1 — reconhecimento e associação de palavras (e piloto da sessão 2)",
+      "descricao": "Sala de aula moderna e clara: paredes azul-claras, janelas à esquerda, quadro branco central vazio, estantes com livros e caixas coloridas, mesa e cadeiras em primeiro plano. O quadro central é a área onde a atividade aparece.",
+      "estado": "disponivel",
+      "perfis": ["8-9", "7", "medio"],
+      "arquivos": {
+        "desktop": "sala-das-palavras-1365.webp",
+        "movel": "sala-das-palavras-960.webp",
+        "miniatura": "sala-das-palavras-miniatura.webp"
+      },
+      "resolucao": {"desktop": "1365×768", "movel": "960×540", "formato": "WebP, qualidade 82/80"},
+      "proporcao": "16:9",
+      "direitos": {
+        "origem": "Imagem provisória gerada pela ferramenta integrada de imagens (09/11/2026) a partir da miniatura de referência enviada pelo professor; ambientação ficcional, não registro de escola real.",
+        "uso": "Pedagógico, dentro das aulas do projeto; sem logotipos, textos ou pessoas.",
+        "substituicao": "Deve ser substituída pelo arquivo original do professor (≥1920 px de largura, 16:9) assim que for anexado; registrar ferramenta de geração em LICENCAS.md."
+      },
+      "interface": {
+        "quadro_central": {"seletor": "#activity", "papel": "painel da atividade; não é a imagem do quadro, é um cartão HTML sobre ela"},
+        "painel_superior": {"seletor": ".cen-placa", "papel": "nome do ambiente e controles"},
+        "areas_livres": [
+          {"x": 0.27, "y": 0.05, "largura": 0.46, "altura": 0.42, "uso": "quadro branco (área calma para o painel da atividade)"},
+          {"x": 0.0, "y": 0.72, "largura": 1.0, "altura": 0.28, "uso": "piso e mesa (fica atrás do rodapé/relatório)"}
+        ],
+        "veu": "gradiente claro de 12% a 22% para manter contraste dos painéis"
+      },
+      "animacao": {"tipo": "parallax vertical de 6%", "condicoes": "somente sem prefers-reduced-motion e sem modo de menos estímulos"}
+    },
+    {
+      "id": "patio-das-descobertas",
+      "versao": "0.1.0-planejado",
+      "nome": "Pátio das Descobertas",
+      "sessao": "Palavras, objetos, lugares e ações (conjuntos 2–3 da sessão 2)",
+      "descricao": "Pátio escolar arborizado, bancos de madeira, estante de livros ao ar livre, muro ao fundo; área calma no centro do gramado.",
+      "estado": "planejado",
+      "perfis": ["5-6", "7", "8-9"],
+      "arquivos": null,
+      "resolucao": null,
+      "proporcao": "16:9",
+      "direitos": {"origem": "aguardando o arquivo original do professor (miniatura recebida em 09/11/2026)", "uso": "pedagógico"},
+      "interface": {"quadro_central": {"seletor": "#activity"}, "areas_livres": []},
+      "animacao": {"tipo": "folhas ao vento (opcional)", "condicoes": "idem"}
+    },
+    {
+      "id": "casa-das-frases",
+      "versao": "0.1.0-planejado",
+      "nome": "Casa das Frases",
+      "sessao": "Completar e organizar frases (conjuntos 4–6 da sessão 2)",
+      "descricao": "Sala de estar com sofás azuis, almofadas amarelas, estante, janela e tapete; parede lisa ao fundo para os painéis.",
+      "estado": "planejado",
+      "perfis": ["7", "8-9", "medio"],
+      "arquivos": null,
+      "resolucao": null,
+      "proporcao": "16:9",
+      "direitos": {"origem": "aguardando o arquivo original do professor (miniatura recebida em 09/11/2026)", "uso": "pedagógico"},
+      "interface": {"quadro_central": {"seletor": "#activity"}, "areas_livres": []},
+      "animacao": {"tipo": "luz da janela (opcional)", "condicoes": "idem"}
+    },
+    {
+      "id": "cidade-das-historias",
+      "versao": "0.1.0-planejado",
+      "nome": "Cidade das Histórias",
+      "sessao": "Frases em sequência e em novas situações (conjuntos 7–8 da sessão 2)",
+      "descricao": "Praça urbana com prédios claros, árvores, mesas com guarda-sóis e faixas de pedestres; céu com área calma para os painéis.",
+      "estado": "planejado",
+      "perfis": ["8-9", "medio"],
+      "arquivos": null,
+      "resolucao": null,
+      "proporcao": "16:9",
+      "direitos": {"origem": "aguardando o arquivo original do professor (miniatura recebida em 09/11/2026)", "uso": "pedagógico"},
+      "interface": {"quadro_central": {"seletor": "#activity"}, "areas_livres": []},
+      "animacao": {"tipo": "nuvens lentas (opcional)", "condicoes": "idem"}
+    }
+  ]
+}

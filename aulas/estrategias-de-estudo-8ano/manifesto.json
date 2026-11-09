@@ -12,8 +12,8 @@
   "arquivos": [
     {
       "arquivo": "LICENCAS.md",
-      "bytes": 424,
-      "sha256": "991b5d73096f79f3777abd680bf316d95e40f2bb05e28cff54fb2545140ab61e"
+      "bytes": 771,
+      "sha256": "822d73767fb12b490b64b0bbf6a0c3b5cf2bd270cd00a3a03ef37e695f35e91d"
     },
     {
       "arquivo": "assets/aula.css",
@@ -92,5 +92,70 @@
     }
   ],
   "revisao_didatica": "clareza-2",
-  "protocolo_linguagem_clara": "3.9.0"
+  "protocolo_linguagem_clara": "3.9.0",
+  "cenarios": {
+    "biblioteca": "publicacao/cenarios 1.0.0",
+    "sessao_1": {
+      "cenario": "sala-das-palavras",
+      "versao": "1.0.0-provisoria",
+      "perfil": "8-9",
+      "atividades": 57,
+      "banco_sha256": "9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95"
+    },
+    "sessao_2": {
+      "conjunto": 1,
+      "titulo": "Imagem e frase",
+      "atividades": 12,
+      "previstas": 96,
+      "opcional": true,
+      "progresso": "localStorage próprio; não altera a sessão 1"
+    }
+  },
+  "apoio_cenarios": [
+    {
+      "arquivo": "apoio/cenarios/catalogo.json",
+      "bytes": 7067,
+      "sha256": "37ac5faa7e740acc776d02ee4f0b6e1ee0d5e23ee058471ec647fb70d6b97f6d"
+    },
+    {
+      "arquivo": "apoio/cenarios/cenarios.css",
+      "bytes": 5921,
+      "sha256": "2c7318b89c5da57b82ebd3889e9e9ddacbf306893ea3a3f454d0067310a7544b"
+    },
+    {
+      "arquivo": "apoio/cenarios/cenarios.js",
+      "bytes": 6874,
+      "sha256": "0b64171631e5b7a262dd4189536465a4a0a21474e06b5bdfbb5469ae48f846eb"
+    },
+    {
+      "arquivo": "apoio/cenarios/frases-conjunto-1.json",
+      "bytes": 10977,
+      "sha256": "e0d88e0084fe0aaae6cd248da87a8381e2e73c393e1ec9dd289268d51a4c67d8"
+    },
+    {
+      "arquivo": "apoio/cenarios/frases.js",
+      "bytes": 18401,
+      "sha256": "4af2aff25ed2d14d4d6b5e875b6605518a5f5472ddfe13b8c2cdcc1352b5028a"
+    },
+    {
+      "arquivo": "apoio/cenarios/sala-das-palavras-1365.webp",
+      "bytes": 64056,
+      "sha256": "b360042c0bcf073996fd21a4e5d989c00c02cd436089cec5125748830b616494"
+    },
+    {
+      "arquivo": "apoio/cenarios/sala-das-palavras-960.webp",
+      "bytes": 38250,
+      "sha256": "eed8438bbc6bf92edd7e675d3eb32105f751361a1d138d07b05a5cfd634473a9"
+    },
+    {
+      "arquivo": "apoio/cenarios/sala-das-palavras-miniatura.webp",
+      "bytes": 256,
+      "sha256": "82aaf51d1650f80806620447081581c1ce6d0cf9f7182c0d5d3851fac64d2292"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 18981,
+      "sha256": "475dedb1f2516a70493fc6267a5600b5966bcd4ed27e9337d2d8ff2b4d35a748"
+    }
+  ]
 }

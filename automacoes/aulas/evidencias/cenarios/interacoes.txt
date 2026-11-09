@@ -1,0 +1,13 @@
+OK banco apoio-dados preservado 9b0acc60b432 · 57 percursos · motor inline igual à fonte
+OK 8 arquivos da biblioteca idênticos entre publicacao/cenarios e a aula
+OK ambiente (repositorio): fundo decorativo aria-hidden sem foco, placa antes da atividade, perfil 8-9, estímulos ↔ ap-calm sincronizados, 57 percursos intactos
+OK (repositorio) 57 percursos concluídos → convite com os textos exatos; feedback/next/progress da sessão 1 inalterados
+OK (repositorio) interrupção após 3 frases, recarga e retomada na frase 4; sessão 1 reiniciada em memória como antes
+OK (repositorio) conjunto 1: 12 frases, 3 opções nomeadas, pista após erro, indicação após segundo erro, narração em cada etapa, progresso próprio em localStorage; relatório da sessão 1 sem tentativas da sessão 2
+OK ambiente (publicado): fundo decorativo aria-hidden sem foco, placa antes da atividade, perfil 8-9, estímulos ↔ ap-calm sincronizados, 57 percursos intactos
+OK (publicado) 57 percursos concluídos → convite com os textos exatos; feedback/next/progress da sessão 1 inalterados
+OK (publicado) interrupção após 3 frases, recarga e retomada na frase 4; sessão 1 reiniciada em memória como antes
+OK (publicado) conjunto 1: 12 frases, 3 opções nomeadas, pista após erro, indicação após segundo erro, narração em cada etapa, progresso próprio em localStorage; relatório da sessão 1 sem tentativas da sessão 2
+OK prefers-reduced-motion → sem parallax; preferência "reduzir estímulos" restaurada da sessão anterior
+OK sem speechSynthesis → aviso escrito "Áudio indisponível", sem erro de script
+OK cenário ausente no catálogo → sem fundo, sem erro, atividades intactas

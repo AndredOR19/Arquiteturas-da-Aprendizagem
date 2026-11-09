@@ -2,7 +2,7 @@
   "versao": "3.9.0",
   "aula": "convivencia-e-dialogo-9ano",
   "estado": "concluido",
-  "prompt_sha256": "42ab33328758c5b137ecd5dec67a8dda5d033a21546b5fddf74edb32acf396c0",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "f5421bb951edfc4d1fe07598633189b56ccf8144a2e32338501509c0d788fa3c",
   "requisitos": {
     "curriculo_aee": {

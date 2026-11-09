@@ -191,6 +191,11 @@ Preservar o modelo associativo anterior, seus dados, ordem e relações. Pedido 
 ## Variação visual do apoio — 3.8.4
 Seguir 37.10: cada tema recebe fundo/composição e textura próprios, com ilustrações claras dos objetos existentes; não repetir uma mesma cena genérica. Preservar banco, sequência e critérios.
 
+## Cenários visuais e sessão 2 de frases — piloto 34.4.2 (09/11/2026)
+- Biblioteca em `publicacao/cenarios/` (catálogo, gerenciador de fundos, placa com "Reduzir estímulos", motor de frases, conjunto 1). Cada aula que adota recebe cópia idêntica em `apoio/cenarios/` e só duas linhas no `apoio/index.html`; o bloco `apoio-dados` e o motor inline não mudam (hash conferido contra `apoio/proveniencia.json`).
+- Antes de entregar: `python3 publicacao/cenarios/validar_cenarios.py` e `NODE_PATH=<jsdom> node publicacao/cenarios/testar-cenarios.cjs --evidencias automacoes/aulas/evidencias/cenarios`. Sessão 2 nunca entra em `#choices/#step/#next` (o relatório da sessão 1 não pode registrá-la); convite só após o texto de conclusão do motor; contagem do convite é a real do banco (57), não a nominal do pedido (96).
+- Imagens de referência do professor: receber, catalogar (direitos, resolução, proporção) e gerar versões desktop/móvel; arte provisória fica marcada `provisoria` no catálogo. Não declarar cenários B–D nem conjuntos 2–8 implantados antes de existirem e serem verificados nos links reais.
+
 ## Protocolo de linguagem clara — 3.9.0 (seção 38, transversal)
 - Em toda disciplina, rota (curricular, exemplos, apoio, inclusiva, games, recuperação), instrução falada e retorno de erro: VEJA → ENTENDA → VEJA UM EXEMPLO → AGORA É SUA VEZ → CONFERIR. Não trocar atividade associativa/inclusiva por quiz ou game para padronizar; não infantilizar; termos curriculares entram por exemplo e glossário.
 - Nunca expor rótulo interno (D/R/E/L, sustentado, alcance, extrapolar, procedimento). Comando começa com ação ou pergunta e cita os dados. Exemplo sempre com outros dados; resultado do próprio item só após a primeira tentativa; primeiro erro em linha conta como tentativa (`escolha_incorreta`); pistas não ampliam nem alteram nota.
