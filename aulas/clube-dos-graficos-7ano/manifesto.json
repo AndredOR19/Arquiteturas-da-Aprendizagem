@@ -1,0 +1,114 @@
+{
+  "projeto": "clube-dos-graficos-7ano",
+  "titulo": "Clube dos Gráficos — escolhas da escola",
+  "status": "adaptada_testes_em_revisao",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 57
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 424,
+      "sha256": "991b5d73096f79f3777abd680bf316d95e40f2bb05e28cff54fb2545140ab61e"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 18676,
+      "sha256": "fa90a0d011bef4e0a1ef393708c2ef2103f34d1595f19ed0494c7152ce9c1b96"
+    },
+    {
+      "arquivo": "apoio/proveniencia.json",
+      "bytes": 412,
+      "sha256": "4b07c30d2ab09a6f6371298e9d7cccc50f288bc1f132fee5338ff00424139bd4"
+    },
+    {
+      "arquivo": "apoio/visuais.js",
+      "bytes": 12518,
+      "sha256": "cb011b059f2f8d71dded21391988a1a5aa22d2ffef0b998ef904efd59372fae5"
+    },
+    {
+      "arquivo": "apoio/visual.css",
+      "bytes": 2135,
+      "sha256": "43cf326cacc1310e4640c23ee3b307171d2c2a8e978fb19b6841b63a5c609996"
+    },
+    {
+      "arquivo": "assets/apoio-relacional.js",
+      "bytes": 1041,
+      "sha256": "59ceac5effb070f96c516e869a452af278c2852f6c7443503ea52a8af02ea01f"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 11113,
+      "sha256": "ae5937ac753a1f5e0cbf4167a79ba6dff4537726d3755ec3f81b424431eef6a8"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 38292,
+      "sha256": "384020691e0554e476e109177571571de72ba4d1628df6d1f2c1f99b614067c6"
+    },
+    {
+      "arquivo": "assets/cenario.jpg",
+      "bytes": 410953,
+      "sha256": "d9490ee4d4c09b80d23a93431652552248ee4b744ba994b7f7ae4e8ea8ec881f"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 15297,
+      "sha256": "1f4dfcecc3803cfe0e7a4967708dbfc528ae954edc0598d0bf7bfb0c3f42a57d"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 370153,
+      "sha256": "8565220e1fe6c53f080fd3ae40a210e0f9bf84e2f2a66465ee931ddd09026d7e"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8792,
+      "sha256": "3fbf05aedd44cd01b4f75f3961717107460519b926d7b4b3ff93aa825f2910ce"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5361,
+      "sha256": "2abfade2644d120c2ec6b039d2fcec1057d83b40d0fe23d4a14b910fdfe8b058"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 688629,
+      "sha256": "0f32fe0ffeb37f989d8ed16875a3222bb9044d582d23df4644f40e7e0c0b751e"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7395,
+      "sha256": "fa6ee107d2ddfa594711c8cadf8eaa2bcaf64985827ff186bfddde212e5b7507"
+    }
+  ],
+  "revisao_didatica": "clareza-2",
+  "pendencias": [
+    "Observação em sala não realizada",
+    "Fábrica com camada de compatibilidade; integração definitiva pendente"
+  ]
+}

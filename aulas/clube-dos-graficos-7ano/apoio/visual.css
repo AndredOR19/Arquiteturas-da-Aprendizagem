@@ -1,0 +1,13 @@
+/* Somente apresentação: banco, sequência e operações do apoio anterior preservados. */
+:root{--rel-ink:#183f48;--rel-paper:#fffefa;--rel-line:#b8d6d3;background:#edf5f3;color:var(--rel-ink)}
+body{background-color:#edf5f3;background-image:radial-gradient(#a8c4c0 1px,transparent 1px),linear-gradient(135deg,#e4eeee,#fff8e9);background-size:23px 23px,100% 100%;min-height:100vh}
+.wrap{max-width:1080px}.card{border-color:#234e59;border-radius:24px;background:var(--rel-paper);box-shadow:7px 7px 0 #b9d4ca;padding:clamp(18px,3vw,30px)}
+header.card{border-top:9px solid #318b86;background:linear-gradient(105deg,#fffefa 60%,#d8eeea);position:relative;overflow:hidden}
+header.card:after{content:'Aa · B b · C c';display:block;position:absolute;right:22px;top:13px;font:bold 22px Georgia;color:#4c7777;opacity:.25;pointer-events:none}
+.card h1{font:800 clamp(25px,4vw,38px)/1.2 ui-rounded,'Trebuchet MS',system-ui}.card h2{font:800 clamp(23px,3vw,31px)/1.25 ui-rounded,'Trebuchet MS',system-ui}
+#activity{border-top:8px solid #deae5c}#symbol{text-align:center;padding:14px;margin:14px auto;border-radius:20px;background:linear-gradient(#eef8f4,#e0efed);max-width:420px;min-height:96px}#symbol svg{max-width:100%;height:auto;max-height:190px}
+.choices{gap:17px}.choice{background:linear-gradient(#fffefa,#eff7f2);border:3px solid #426e78;border-radius:19px;box-shadow:4px 5px 0 #b7d2cc;transition:box-shadow .12s ease}.choice:focus-visible{outline:5px solid #d99521;outline-offset:4px}.choice:hover:not(:disabled){box-shadow:4px 5px 0 #7eafa3}.choice svg{width:100%;max-width:180px;height:120px}.syllable{box-shadow:3px 3px 0 #d0b782;border-radius:13px}.word{color:#205f65}
+#feedback{border-left:6px solid #2f8579;background:#e7f5ed;padding:16px;border-radius:0 16px 16px 0}#next{background:#ffe1a2;box-shadow:3px 4px 0 #c6a76c;font-weight:800}
+@media(max-width:600px){.wrap{padding:12px}.card{padding:17px;border-radius:18px;box-shadow:4px 4px 0 #b9d4ca}.choices{gap:11px}.choice{min-height:140px;padding:12px}.choice svg{height:100px}header.card:after{display:none}}
+@media(prefers-reduced-motion:reduce){.choice{transition:none}}
+
