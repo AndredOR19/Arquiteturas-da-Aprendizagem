@@ -21,3 +21,7 @@ Aplicar a seção 5.1 do Prompt Mestre e consultar [repertórios por componente]
 ## Entrega integral e reutilização — 3.8.0
 A seção 37 do Prompt Mestre e MEMORIA_OPERACIONAL_AULAS.md são obrigatórias: produção central, games nos três caminhos, PDFs diagramados, evidências e publicação dupla. Materiais e acervo mostram série/tema; turma/data de aplicação ficam somente no relatório e painel interno. Nenhum fluxo complementar dispensa o contrato. Fluxos 01/02 preservam seu desenho quando escolhidos expressamente; o padrão novo permanece 03.
 
+
+
+## Diretriz vigente — 96 associações variadas e fase 2 opcional (11/11/2026)
+Ler obrigatoriamente [o adendo pedagógico 3.9.1 do Prompt Mestre](ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md). O pedido expresso autoriza ampliar de 57 para 96 e variar bancos/situações em uma versão nova, preservando a metodologia associativa e as sessões anteriores. Depois das 96, oferecer fase 2 opcional de frases: 96 atividades em oito conjuntos de 12, com imagens, voz, exemplos e progresso/relatório próprios. Não confundir com as 96 do caminho curricular por exemplos. Variedade pedagógica e visual; não repetir o mesmo banco só para atingir contagem. A regra antiga de não alterar dados ao melhorar layout não proíbe esta alteração pedagógica explicitamente solicitada. Legados de 57 continuam identificados como legados; a instrução não migra a aula publicada. Estado: diretriz registrada; implementação e conferência de 96 + 96 pendentes.
