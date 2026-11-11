@@ -1368,6 +1368,34 @@
           }
         ]
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/estudos-orientados-7ano-desafios-de-raciocinio",
+      "destino": "aulas/estudos-orientados-7ano-desafios-de-raciocinio",
+      "titulo": "Estudos Orientados — Desafios do cotidiano",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "raciocínio",
+          "interpretação",
+          "matemática",
+          "alfabetização"
+        ],
+        "descricao": "Desafios do cotidiano com percursos curriculares, relações visuais e progressão opcional de frases.",
+        "titulo_exibicao": "Desafios do cotidiano",
+        "metadados_fonte": "Aula produzida para o 7º ano; turma não exibida no material."
+      }
     }
   ]
 }
