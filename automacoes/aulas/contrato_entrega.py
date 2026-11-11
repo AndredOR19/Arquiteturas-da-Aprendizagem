@@ -56,7 +56,7 @@ def clear_language_gate(receipt, policy, root, bundle):
     rule=policy.get('linguagem_clara')
     if not rule:return []
     try:
-        report=json.loads(inside(root,rule['relatorio']).read_text())
+        report=json.loads(inside(root,receipt.get('linguagem_relatorio',rule['relatorio'])).read_text())
     except (ValueError,KeyError) as exc:
         return ['linguagem_clara: relatório ausente ('+str(exc)+'); executar automacoes/aulas/validar_linguagem.py']
     entry=report.get('aulas',{}).get(receipt.get('aula'))

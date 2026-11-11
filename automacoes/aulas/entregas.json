@@ -279,6 +279,37 @@
           ]
         }
       }
+    },
+    {
+      "id": "clube-dos-graficos-7ano",
+      "destino": "aulas/clube-dos-graficos-7ano",
+      "recibo": "automacoes/aulas/execucoes/estudos-orientados-11-novembro/clube-dos-graficos-7ano-aceite.json",
+      "estado": "pronto_para_publicar",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/clube-dos-graficos-7ano",
+        "destino": "aulas/clube-dos-graficos-7ano",
+        "titulo": "Clube dos Gráficos — escolhas da escola",
+        "contrato_entrega": "3.9.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Estudos Orientados"
+          ],
+          "series": [
+            "7º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Hoje você vai contar respostas, montar gráficos e conferir o que uma pesquisa sobre a escola permite dizer.",
+          "titulo_exibicao": "Clube dos Gráficos — escolhas da escola",
+          "palavras_chave": [
+            "Clube dos Gráficos — escolhas da escola"
+          ]
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,2 @@
+PASS clube-dos-graficos-7ano: situação simples, exemplo resolvido, correção visível e passagem de bloco em 128 atividades.
+PASS 128 atividades verificadas com clareza-2; glossário em 128.

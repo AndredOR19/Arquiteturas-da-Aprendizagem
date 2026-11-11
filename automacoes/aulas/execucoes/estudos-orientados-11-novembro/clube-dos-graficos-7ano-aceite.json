@@ -1,0 +1,338 @@
+{
+  "versao": "3.9.0",
+  "aula": "clube-dos-graficos-7ano",
+  "estado": "pronto_para_publicar",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "pacote_sha256": "b4f8bdc0373d115e41c4bb6e9e2cb83cfe62f3d0f0101acbd5e454b2a9fd155a",
+  "requisitos": {
+    "curriculo_aee": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Plano recebido, continuidade, BNCC/RCG conferidos; AEE, D/R/E/L, recuperação e transferência; sem inventar aplicação Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "jogos_principal": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "jogos_exemplos": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "jogos_apoio": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Apoio associativo anterior preservado: banco, sequência, imagens/objetos, palavras, letras, sílabas, montagem e contexto; acesso direto, áudio e mediação, sem RPG obrigatório nem leitura de missões. Alterar somente layout conforme pedido. Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "visual_tema_idade": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura. Fundos/composições específicos por tema e ilustrações claras dos objetos existentes, sem repetir a mesma cena genérica. Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "pdf_discente": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "pdf_docente": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado. Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "acessibilidade_tres_rotas": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "avaliacao_recuperacao": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "32 originais e primeira confirmação preservados; regra 1/2/4 e teto 128 informados; apoios livres; experiência obrigatória antes de nota final Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "relatorios_tres_rotas": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Prévia/cópia/TXT/JSON integrais, tentativas e apoios reais separados; entrega manual explícita ou recibo real; sem envio fictício Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "registro_escola_rs": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Mesmo título/resumo/habilidades no acervo e aula, cópia integral; sem afirmar envio ao Escola RS Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "privacidade_licencas": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Sem dados de estudantes, segredos ou guias no pacote discente; direitos de todos os ativos conferidos Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "navegador_multiplataforma": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Evidências por rota em desktop, Chromebook e celular; toque e teclado, recarga, erro/acerto, progresso e exportações Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "pdf_renderizado": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Todas as páginas de PDFs renderizadas e inspecionadas; sem cortes, sobreposições, fontes ausentes ou imagens ilegíveis Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "conteudo_reutilizavel": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    },
+    "linguagem_clara": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/revisao.json",
+          "sha256": "c062cc4c10b7d500aae2341ddc030b10ffbc6859226506dbc35fc89c41cac427"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/interacoes.txt",
+          "sha256": "a33974063e1746cac2e4c2b9f4345042fea1ea59e47e02a28fc6a06531d69139"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/clube-graficos/apoio.txt",
+          "sha256": "fdaf17a4fc187d62d23c848edc2b2b02fc672e4784ef91f505bac8154ce227d0"
+        }
+      ],
+      "observacao": "Seção 38: VEJA → ENTENDA → EXEMPLO (outro caso) → AGORA É SUA VEZ → CONFERIR em toda atividade; sem rótulo interno visível; comando com ação concreta; exemplo com outros dados; resultado do próprio item só após a primeira tentativa. Entrega exige validador sem bloqueios, lista dos itens em revisão humana e roteiro de observação em sala; o resultado da observação é registrado quando ocorrer e fica como pendência explícita até lá — zero alertas não comprova compreensão. Conferências e limites em revisao.json; não declara testes em aparelhos físicos, aplicação ou compreensão observada.",
+      "responsavel": "Codex — revisão técnica e editorial com limites explícitos",
+      "verificado_em": "2026-11-11T18:05:27.022771+00:00"
+    }
+  },
+  "publicacao": {
+    "pages": {
+      "estado": "pendente"
+    },
+    "vercel": {
+      "estado": "pendente"
+    }
+  },
+  "linguagem_relatorio": "automacoes/aulas/evidencias/clube-graficos/linguagem/relatorio.json"
+}

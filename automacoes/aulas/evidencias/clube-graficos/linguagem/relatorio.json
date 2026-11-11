@@ -1,0 +1,1967 @@
+{
+ "protocolo": "linguagem-clara-3.9",
+ "gerado_em": "2026-11-11T18:04:48.379948+00:00",
+ "criterios": {
+  "bloqueios": [
+   "rotulo_interno_visivel",
+   "jargao_no_comando",
+   "pergunta_vazia",
+   "comando_sem_acao",
+   "exemplo_ausente",
+   "exemplo_do_proprio_caso",
+   "situacao_ausente"
+  ],
+  "avisos": [
+   "frase_longa",
+   "jargao_no_conteudo",
+   "palavra_dificil_alem_do_glossario",
+   "muitas_opcoes",
+   "opcao_longa"
+  ]
+ },
+ "limite": "Filtro preliminar. Ausência de alerta não comprova compreensão; exige revisão humana e observação com estudantes.",
+ "aulas": {
+  "clube-dos-graficos-7ano": {
+   "titulo": "Clube dos Gráficos — escolhas da escola",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "f0f7b56e4ef770f4ebd31acbc836a215f001fe6aab7d8fdf067938571096fd78",
+   "clareza_sha256": "18f5162044418a8922f59faefc70f79164c0bf48425c886737bac8cce0fc8182",
+   "abertura": "Hoje você vai contar respostas, montar gráficos e conferir o que uma pesquisa sobre a escola permite dizer.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 0,
+   "bloqueado": 0,
+   "revisao_humana": 0,
+   "aprovado_automatico": 128,
+   "regras": {},
+   "itens": [
+    {
+     "id": "p-1-1",
+     "rota": "principal",
+     "caso": "Esporte para o recreio",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-2",
+     "rota": "principal",
+     "caso": "Esporte para o recreio",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-3",
+     "rota": "principal",
+     "caso": "Esporte para o recreio",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Futebol», os que escolheram «Vôlei» e os que escolheram «Basquete».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Esporte para o recreio."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-4",
+     "rota": "principal",
+     "caso": "Esporte para o recreio",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Esporte para o recreio."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-1",
+     "rota": "principal",
+     "caso": "Oficina de leitura",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-2",
+     "rota": "principal",
+     "caso": "Oficina de leitura",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-3",
+     "rota": "principal",
+     "caso": "Oficina de leitura",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Aventura», os que escolheram «Mistério» e os que escolheram «Poesia».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Oficina de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-4",
+     "rota": "principal",
+     "caso": "Oficina de leitura",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Oficina de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-1",
+     "rota": "principal",
+     "caso": "Atividade de integração",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-2",
+     "rota": "principal",
+     "caso": "Atividade de integração",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-3",
+     "rota": "principal",
+     "caso": "Atividade de integração",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Dança», os que escolheram «Teatro» e os que escolheram «Música».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Atividade de integração."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-4",
+     "rota": "principal",
+     "caso": "Atividade de integração",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Atividade de integração."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-1",
+     "rota": "principal",
+     "caso": "Materiais recolhidos",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-2",
+     "rota": "principal",
+     "caso": "Materiais recolhidos",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-3",
+     "rota": "principal",
+     "caso": "Materiais recolhidos",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Papel», os que escolheram «Plástico» e os que escolheram «Metal».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Materiais recolhidos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-4",
+     "rota": "principal",
+     "caso": "Materiais recolhidos",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Materiais recolhidos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-1",
+     "rota": "principal",
+     "caso": "Recurso para estudar",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-2",
+     "rota": "principal",
+     "caso": "Recurso para estudar",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-3",
+     "rota": "principal",
+     "caso": "Recurso para estudar",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Resumo», os que escolheram «Desenho» e os que escolheram «Áudio».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Recurso para estudar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-4",
+     "rota": "principal",
+     "caso": "Recurso para estudar",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Recurso para estudar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-1",
+     "rota": "principal",
+     "caso": "Bebida no lanche",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-2",
+     "rota": "principal",
+     "caso": "Bebida no lanche",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-3",
+     "rota": "principal",
+     "caso": "Bebida no lanche",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Água», os que escolheram «Suco» e os que escolheram «Leite».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Bebida no lanche."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-4",
+     "rota": "principal",
+     "caso": "Bebida no lanche",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Bebida no lanche."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-1",
+     "rota": "principal",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-2",
+     "rota": "principal",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-3",
+     "rota": "principal",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Toda semana», os que escolheram «Todo mês» e os que escolheram «Poucas vezes».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Visitas ao espaço de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-4",
+     "rota": "principal",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Visitas ao espaço de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-1",
+     "rota": "principal",
+     "caso": "Melhoria para a escola",
+     "kind": "tally",
+     "titulo": "Conte as respostas",
+     "comando": "Conte quantos cartões há de cada resposta. Toque nos cartões enquanto conta.",
+     "antes": {
+      "title": "Conferir a coleta",
+      "command": "Conte os cartões por categoria nesta pesquisa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-2",
+     "rota": "principal",
+     "caso": "Melhoria para a escola",
+     "kind": "bars",
+     "titulo": "Monte o gráfico de barras",
+     "comando": "Deixe cada barra do tamanho do número de respostas daquela opção.",
+     "antes": {
+      "title": "Construir a representação",
+      "command": "Ajuste as barras para conservar as frequências do banco."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-3",
+     "rota": "principal",
+     "caso": "Melhoria para a escola",
+     "kind": "number",
+     "titulo": "Some tudo: qual é o total?",
+     "comando": "Quantos alunos responderam no total? Some os três grupos: os que escolheram «Horta», os que escolheram «Sala de leitura» e os que escolheram «Quadra».",
+     "antes": {
+      "title": "Recuperar o total",
+      "command": "Some as frequências da pesquisa Melhoria para a escola."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-4",
+     "rota": "principal",
+     "caso": "Melhoria para a escola",
+     "kind": "sort",
+     "titulo": "O que dá para afirmar com esses dados?",
+     "comando": "Para cada frase, decida: os dados mostram isso ou não?",
+     "antes": {
+      "title": "Comunicar sem extrapolar",
+      "command": "Classifique as conclusões sobre Melhoria para a escola."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Futebol» ou «Vôlei»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Esporte para o recreio."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-4",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Esporte para o recreio."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-5",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-6",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-7",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Esporte para o recreio."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-8",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-9",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-10",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Esporte para o recreio» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Esporte para o recreio."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-11",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-12",
+     "rota": "exemplos",
+     "caso": "Esporte para o recreio",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Aventura» ou «Mistério»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Oficina de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-4",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Oficina de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-5",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-6",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-7",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Oficina de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-8",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-9",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-10",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Oficina de leitura» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Oficina de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-11",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-12",
+     "rota": "exemplos",
+     "caso": "Oficina de leitura",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Dança» ou «Teatro»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Atividade de integração."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-4",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Atividade de integração."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-5",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-6",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-7",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Atividade de integração."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-8",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-9",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-10",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Atividade de integração» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Atividade de integração."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-11",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-12",
+     "rota": "exemplos",
+     "caso": "Atividade de integração",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Papel» ou «Plástico»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Materiais recolhidos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-4",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Materiais recolhidos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-5",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-6",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-7",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Materiais recolhidos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-8",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-9",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-10",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Materiais recolhidos» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Materiais recolhidos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-11",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-12",
+     "rota": "exemplos",
+     "caso": "Materiais recolhidos",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Resumo» ou «Desenho»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Recurso para estudar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-4",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Recurso para estudar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-5",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-6",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-7",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Recurso para estudar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-8",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-9",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-10",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Recurso para estudar» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Recurso para estudar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-11",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-12",
+     "rota": "exemplos",
+     "caso": "Recurso para estudar",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Água» ou «Suco»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Bebida no lanche."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-4",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Bebida no lanche."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-5",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-6",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-7",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Bebida no lanche."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-8",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-9",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-10",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Bebida no lanche» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Bebida no lanche."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-11",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-12",
+     "rota": "exemplos",
+     "caso": "Bebida no lanche",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Toda semana» ou «Todo mês»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Visitas ao espaço de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-4",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Visitas ao espaço de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-5",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-6",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-7",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Visitas ao espaço de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-8",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-9",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-10",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Visitas ao espaço de leitura» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Visitas ao espaço de leitura."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-11",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-12",
+     "rota": "exemplos",
+     "caso": "Visitas ao espaço de leitura",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Quantos alunos escolheram «Horta» ou «Sala de leitura»? Some os dois grupos.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Quantas respostas há nas duas primeiras categorias? Pesquisa: Melhoria para a escola."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "match",
+     "titulo": "Que pergunta esta frase responde?",
+     "comando": "Leia a frase. Depois escolha a pergunta que ela responde.",
+     "antes": {
+      "title": "Reconhecer a explicação",
+      "command": "Relacione as informações às funções que cumprem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "sort",
+     "titulo": "Combina com o caso ou precisa corrigir?",
+     "comando": "Cada frase combina com o caso ou precisa ser corrigida?",
+     "antes": {
+      "title": "Conferir duas leituras",
+      "command": "Classifique estas leituras do caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-4",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Qual é a diferença entre o grupo maior e o grupo menor? Faça: maior menos menor.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Qual a diferença entre maior e menor frequência? Pesquisa: Melhoria para a escola."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-5",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "match",
+     "titulo": "Qual trecho responde à pergunta?",
+     "comando": "Para cada pergunta, escolha o trecho que a responde.",
+     "antes": {
+      "title": "Escolher a pergunta certa",
+      "command": "Ligue a pergunta ao trecho que a responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-6",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "sort",
+     "titulo": "Está dentro do que sabemos?",
+     "comando": "Cada frase fica dentro do que sabemos ou exagera sem prova?",
+     "antes": {
+      "title": "Reconhecer uma extrapolação",
+      "command": "Separe o alcance permitido de uma ampliação sem base."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-7",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "number",
+     "titulo": "Conte de outro jeito",
+     "comando": "Já temos todas as respostas. Se mais 3 alunos responderem, qual será o novo total? Some tudo e mais 3.",
+     "antes": {
+      "title": "Aplicar a contagem em outro problema",
+      "command": "Se mais três pessoas responderem, qual será o novo total? Pesquisa: Melhoria para a escola."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-8",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "match",
+     "titulo": "Qual ação resolve a dúvida?",
+     "comando": "Para cada dúvida, escolha a ação que ajuda a resolver.",
+     "antes": {
+      "title": "Produzir um roteiro de revisão",
+      "command": "Ligue cada dúvida a uma ação de conferência."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-9",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "sort",
+     "titulo": "Isso é observar ou inventar?",
+     "comando": "Cada ação é observar com cuidado ou inventar?",
+     "antes": {
+      "title": "Distinguir observar e inventar",
+      "command": "Classifique registros responsáveis neste contexto."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-10",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "order",
+     "titulo": "Use o mesmo jeito em outra situação",
+     "comando": "Coloque na ordem o que você faria se visse «Melhoria para a escola» contado de outro jeito.",
+     "antes": {
+      "title": "Transferir o procedimento",
+      "command": "Use o critério em uma nova apresentação sobre Melhoria para a escola."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-11",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "match",
+     "titulo": "O que falta na fala?",
+     "comando": "Para cada problema da fala, escolha o que precisa ser acrescentado.",
+     "antes": {
+      "title": "Revisar uma fala pública",
+      "command": "Associe o problema da fala ao ajuste necessário."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-12",
+     "rota": "exemplos",
+     "caso": "Melhoria para a escola",
+     "kind": "sort",
+     "titulo": "Isso mostra que entendi o caso?",
+     "comando": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?",
+     "antes": {
+      "title": "Validar a síntese do caso",
+      "command": "Separe uma síntese verificável de critérios insuficientes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    }
+   ]
+  }
+ },
+ "total": {
+  "atividades": 128,
+  "bloqueado": 0,
+  "revisao_humana": 0,
+  "aprovado_automatico": 128
+ }
+}

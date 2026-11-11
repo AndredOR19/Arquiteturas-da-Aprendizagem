@@ -1371,30 +1371,27 @@
     },
     {
       "tipo": "html",
-      "origem": "aulas/estudos-orientados-7ano-desafios-de-raciocinio",
-      "destino": "aulas/estudos-orientados-7ano-desafios-de-raciocinio",
-      "titulo": "Estudos Orientados — Desafios do cotidiano",
+      "origem": "aulas/clube-dos-graficos-7ano",
+      "destino": "aulas/clube-dos-graficos-7ano",
+      "titulo": "Clube dos Gráficos — escolhas da escola",
+      "contrato_entrega": "3.9.0",
       "portal": {
-        "ano_letivo": 2026,
+        "ano_letivo": null,
         "categoria": "aula",
         "componentes": [
           "Estudos Orientados"
         ],
         "series": [
-          "7º ano · EF"
+          "7º ano"
         ],
         "turmas": [],
-        "escola": "Bernardina Rodrigues Padilha",
+        "escola": "ETE Bernardina Rodrigues Padilha",
         "escola_curta": "Bernardina",
+        "descricao": "Hoje você vai contar respostas, montar gráficos e conferir o que uma pesquisa sobre a escola permite dizer.",
+        "titulo_exibicao": "Clube dos Gráficos — escolhas da escola",
         "palavras_chave": [
-          "raciocínio",
-          "interpretação",
-          "matemática",
-          "alfabetização"
-        ],
-        "descricao": "Desafios do cotidiano com percursos curriculares, relações visuais e progressão opcional de frases.",
-        "titulo_exibicao": "Desafios do cotidiano",
-        "metadados_fonte": "Aula produzida para o 7º ano; turma não exibida no material."
+          "Clube dos Gráficos — escolhas da escola"
+        ]
       }
     }
   ]

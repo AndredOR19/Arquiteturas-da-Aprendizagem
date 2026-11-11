@@ -1,0 +1,18 @@
+{
+  "id": "estudos-orientados-11-novembro",
+  "data": "2026-11-11",
+  "aulas": [
+    {
+      "id": "clube-dos-graficos-7ano",
+      "serie": "7º ano",
+      "componente": "Estudos Orientados",
+      "tema": "Clube dos Gráficos — escolhas da escola",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "conteudo": "projetos/conteudos/clube-dos-graficos-7ano/aula.json",
+      "documentos_base": [
+        "base-curricular/PLANOS_DE_TURMA.md",
+        "MEMORIA_OPERACIONAL_AULAS.md"
+      ]
+    }
+  ]
+}

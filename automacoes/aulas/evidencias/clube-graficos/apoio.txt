@@ -1,0 +1,2 @@
+PASS 57 associações na nova aula; mesmos dados, ordem e critérios, nove operações, voz, erro/repetição e acesso sem RPG.
+Banco SHA256 9b0acc60b432963caa2330ee1c29a96da50670fa6a6052da978c7b85aed63e95

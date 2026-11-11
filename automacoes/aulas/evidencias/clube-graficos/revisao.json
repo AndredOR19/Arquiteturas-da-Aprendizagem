@@ -1,0 +1,26 @@
+{
+  "aula": "clube-dos-graficos-7ano",
+  "fontes": [
+    "PROMPT_MESTRE_AULAS_DIGITAIS.md 3.9.0",
+    "aulas/pesquisa-e-dados-7ano",
+    "BNCC MEC EF07MA36"
+  ],
+  "planejamento": "Proposta diária de continuidade. Plano específico 172 não localizado no catálogo; não se presume aplicação anterior.",
+  "producao": "Ponte gerar.py e orquestrador central no commit do lock; adaptadores de clareza-2 do material anterior reutilizados.",
+  "testes": [
+    "128 atividades de principal e exemplos resolvidas em DOM, com erros provocados e correção",
+    "57 relações de apoio verificadas; banco preservado",
+    "Prévia remota em Chromium: entrada, principal, exemplos, erro, acerto, retorno e recarga",
+    "Apoio remoto: imagem, toque, feedback e falha de voz informada",
+    "PDF aluno 46 páginas renderizadas; PDF docente 1 página renderizada e conferida"
+  ],
+  "limites": [
+    "Não houve ensaio em aparelho Chromebook ou celular físico; validação de CSS responsivo e teclado não equivale a teste desses aparelhos.",
+    "Voz depende do aparelho; falha comunicada na prévia remota.",
+    "Observação de compreensão em sala e aplicação anterior não confirmadas.",
+    "Integração definitiva da clareza no gerador continua pendente; camada de compatibilidade reutilizada."
+  ],
+  "curriculo": "EF07MA36 em síntese didática, articulada a Estudos Orientados; RCG específico não conferido.",
+  "aee": "Pergunta e grupo; contagem e tabela; gráfico com escala; conclusão limitada aos participantes.",
+  "sessao": "Dois períodos: exposição curta, blocos de quatro atividades, síntese oral; bancos opcionais não cumulativos."
+}
