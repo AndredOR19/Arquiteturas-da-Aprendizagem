@@ -1,0 +1,17 @@
+{
+  "id": "historia-12-novembro",
+  "data": "2026-11-12",
+  "aulas": [
+    {
+      "id": "racismo-autoritarismo-e-democracia-9ano",
+      "serie": "9º ano",
+      "componente": "História",
+      "tema": "Vozes, direitos e democracia",
+      "conteudo": "projetos/conteudos/racismo-autoritarismo-e-democracia-9ano/aula.json",
+      "documentos_base": [
+        "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/historia/turma-192/conteudo.md",
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    }
+  ]
+}

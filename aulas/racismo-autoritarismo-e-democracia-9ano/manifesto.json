@@ -1,0 +1,137 @@
+{
+  "projeto": "racismo-autoritarismo-e-democracia-9ano",
+  "titulo": "Vozes, direitos e democracia",
+  "status": "revisado_para_publicacao",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 96
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 480,
+      "sha256": "40d8e8aa60fa447fee4066bec471198a5c2dfedbffa6c17523994b395f1cc723"
+    },
+    {
+      "arquivo": "apoio/apoio.css",
+      "bytes": 2678,
+      "sha256": "622c899e9a19894e69b285c99c681ff4cdf1f333fe99aaaab23c75767a6983ae"
+    },
+    {
+      "arquivo": "apoio/apoio.js",
+      "bytes": 9816,
+      "sha256": "76d6fa90ff2a691048aa61dc6519f0a26d00b6005237064400416f477c00b7c2"
+    },
+    {
+      "arquivo": "apoio/banco.json",
+      "bytes": 219132,
+      "sha256": "50bd20b3f3abad07c0c41830fb43497b49595df5d3907aba5be89f8c0d30a4b1"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 153624,
+      "sha256": "51fcee0245d11e067c996d4b6ee3787e4d97be5d56c71fcc135443d0b1e5f189"
+    },
+    {
+      "arquivo": "apoio/proveniencia.json",
+      "bytes": 274,
+      "sha256": "421b5d1261c92eaf7e575dd5d4efd1db864b6e7a76483ea4439ad0800cfaaa29"
+    },
+    {
+      "arquivo": "apoio-leitura.pdf",
+      "bytes": 262758,
+      "sha256": "bbf216f54697b683c0c3ee3c44a80c30f19025125a70ee9efd934f052914fa9e"
+    },
+    {
+      "arquivo": "assets/apoio-relacional.js",
+      "bytes": 1041,
+      "sha256": "59ceac5effb070f96c516e869a452af278c2852f6c7443503ea52a8af02ea01f"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 11113,
+      "sha256": "ae5937ac753a1f5e0cbf4167a79ba6dff4537726d3755ec3f81b424431eef6a8"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 42488,
+      "sha256": "5376859a5cd4e5fe48302f96cb2e0dd74620737140742214b46c230bc6f4bcc2"
+    },
+    {
+      "arquivo": "assets/cenario.jpg",
+      "bytes": 313577,
+      "sha256": "2611289d83635ad970cbeb56a88779e4480f4601e74cf59d8798ed28ea8d1fdd"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/clareza.css",
+      "bytes": 4674,
+      "sha256": "4e52efe782163878d6997446e96a9545616ff0dc8d2b2e5c177f424a24b31602"
+    },
+    {
+      "arquivo": "assets/clareza.js",
+      "bytes": 38634,
+      "sha256": "444adff7b92596d95231e68d707f54785942c89fb2cebad2dbf13e54422bebd2"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 17146,
+      "sha256": "9cd5827bf4a6f347a089af78f4b39b9e1f3680768470775f10ce777cf4061bc0"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 385576,
+      "sha256": "42f6195937196f6667e965e4fcd09650fc4bb7daf0c4a076d536c5c45d6de0eb"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8792,
+      "sha256": "3fbf05aedd44cd01b4f75f3961717107460519b926d7b4b3ff93aa825f2910ce"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5361,
+      "sha256": "2abfade2644d120c2ec6b039d2fcec1057d83b40d0fe23d4a14b910fdfe8b058"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 540052,
+      "sha256": "1d10e179df1aec7626c6a41d6f2d5f4d605d89b0e451789f6c2de7ec6064ea94"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7498,
+      "sha256": "00f27b9ba21028d6f73e49f897213ea4681a61177042213b9298819a55aa05fe"
+    }
+  ],
+  "revisao_didatica": "clareza-2",
+  "apoio_inclusivo": {
+    "versao": "2.0.0",
+    "fase1": 96,
+    "fase2_opcional": 96
+  },
+  "observacao_em_sala": "pendente",
+  "biblioteca_apoio_commit": "dd2d07d3c2555d5cba2a752a44278ce585791ece"
+}

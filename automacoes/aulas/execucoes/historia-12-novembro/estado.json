@@ -1,0 +1,39 @@
+{
+  "estado": "revisao_pendente",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "politica": "3.9.0",
+  "aulas": [
+    {
+      "id": "racismo-autoritarismo-e-democracia-9ano",
+      "destino": "aulas/racismo-autoritarismo-e-democracia-9ano",
+      "recibo": "automacoes/aulas/execucoes/historia-12-novembro/racismo-autoritarismo-e-democracia-9ano-aceite.json",
+      "estado": "revisao_pendente",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/racismo-autoritarismo-e-democracia-9ano",
+        "destino": "aulas/racismo-autoritarismo-e-democracia-9ano",
+        "titulo": "Vozes, direitos e democracia",
+        "contrato_entrega": "3.8.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "História"
+          ],
+          "series": [
+            "9º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Hoje você vai ligar racismo, autoritarismo e lutas por direitos, comparando períodos e fontes sem confundir suas diferenças.",
+          "titulo_exibicao": "Vozes, direitos e democracia",
+          "palavras_chave": [
+            "Vozes, direitos e democracia"
+          ]
+        }
+      }
+    }
+  ],
+  "publicacao": "bloqueada até evidências de todas as exigências; nenhum cadastro público automático"
+}

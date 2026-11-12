@@ -1,0 +1,47 @@
+{
+  "tema": "Vozes, direitos e democracia",
+  "solicitacao": "Aula de História do 9º ano e texto contínuo do professor, para leitura compartilhada.",
+  "planejamento": "Plano da 192 previa socialização de descolonização em 09–13/11. Recorte ERER/democracia adapta a sequência conforme conversa anterior; não se declara que era o tema exato já previsto.",
+  "curriculo": [
+    "EF09HI04",
+    "EF09HI20",
+    "EF09HI22",
+    "EF09HI23"
+  ],
+  "verificacao_curricular": "BNCC versão final, páginas impressas 429 e 431. RCG orienta contextualização; sem subcódigo estadual inventado.",
+  "aee": "Direitos escritos/vida cotidiana → relação poder/restrição e organização/conquista → comparação de fontes/períodos → transferência a convivência escolar fictícia.",
+  "cuidados_historicos": [
+    "Menino 23: fatos dos anos 1930, filme de 2016.",
+    "Integralismo com alcance nacional; fundado em 1932, dissolvido em 1937. Não se infere continuidade causal automática com 1964.",
+    "MNU: ato público em 7/7/1978, sem afirmar que essa foi a data formal de fundação.",
+    "Registros de repressão demonstram vigilância; acusações não são endossadas como descrição neutra."
+  ],
+  "testes": [
+    "128 atividades principal/exemplos exercitadas com erro, correção e exemplos distintos.",
+    "96 associações + 96 frases exercitadas integralmente, salvamento, retomada, convite opcional e relatórios separados.",
+    "Validador de linguagem: 128 sem bloqueios.",
+    "2 páginas do professor, 36 do caderno e 48 do apoio renderizadas e inspecionadas em páginas/contatos."
+  ],
+  "inclusao": "Associação direta sem RPG obrigatório; oito operações diferentes na fase1; fase2 opcional com oito blocos de frases; sem nota fictícia de alfabetização.",
+  "biblioteca": {
+    "nucleo": "4126924103c6426ac83e3f9a4acf5078b588f7d6",
+    "apoio_v2": "dd2d07d3c2555d5cba2a752a44278ce585791ece"
+  },
+  "limites": [
+    "Testes funcionais em JSDOM não equivalem a aplicação em sala nem certificam entendimento.",
+    "Não houve teste em Chromebook ou celular físicos.",
+    "Áudio depende de vozes disponíveis no dispositivo; há mensagem de falha.",
+    "Não há envio automático ao Escola RS.",
+    "Observação em sala pendente."
+  ],
+  "observacao_em_sala": {
+    "estado": "pendente",
+    "roteiro": [
+      "Pedir que um estudante diga com suas palavras a primeira ação.",
+      "Observar se distingue a época do filme da época investigada.",
+      "Verificar se a pista basta para nova tentativa.",
+      "Registrar tempo, confusões de vocabulário e ajuda utilizada, sem presumir autonomia."
+    ]
+  },
+  "browser": "Conferência da publicação em navegador será registrada após deploy; teste em aparelhos físicos pendente."
+}

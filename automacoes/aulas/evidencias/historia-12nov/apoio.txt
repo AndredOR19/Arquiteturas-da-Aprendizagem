@@ -1,0 +1,1 @@
+PASS 96 associações + 96 frases: erro/acerto, modelagem, convite, recusa, bloqueio de entrada antecipada, recarga, retomada, relatórios separados e persistência.

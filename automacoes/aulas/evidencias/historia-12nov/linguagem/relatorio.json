@@ -1,0 +1,1967 @@
+{
+ "protocolo": "linguagem-clara-3.9",
+ "gerado_em": "2026-11-12T02:26:38.389673+00:00",
+ "criterios": {
+  "bloqueios": [
+   "rotulo_interno_visivel",
+   "jargao_no_comando",
+   "pergunta_vazia",
+   "comando_sem_acao",
+   "exemplo_ausente",
+   "exemplo_do_proprio_caso",
+   "situacao_ausente"
+  ],
+  "avisos": [
+   "frase_longa",
+   "jargao_no_conteudo",
+   "palavra_dificil_alem_do_glossario",
+   "muitas_opcoes",
+   "opcao_longa"
+  ]
+ },
+ "limite": "Filtro preliminar. Ausência de alerta não comprova compreensão; exige revisão humana e observação com estudantes.",
+ "aulas": {
+  "racismo-autoritarismo-e-democracia-9ano": {
+   "titulo": "Vozes, direitos e democracia",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "42f6195937196f6667e965e4fcd09650fc4bb7daf0c4a076d536c5c45d6de0eb",
+   "clareza_sha256": "444adff7b92596d95231e68d707f54785942c89fb2cebad2dbf13e54422bebd2",
+   "abertura": "Hoje você vai ligar racismo, autoritarismo e lutas por direitos, comparando períodos e fontes sem confundir suas diferenças.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 0,
+   "bloqueado": 0,
+   "revisao_humana": 0,
+   "aprovado_automatico": 128,
+   "regras": {},
+   "itens": [
+    {
+     "id": "p-1-1",
+     "rota": "principal",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Menino 23 e os anos 1930» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Menino 23 e os anos 1930» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-2",
+     "rota": "principal",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Menino 23 e os anos 1930».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Menino 23 e os anos 1930»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-3",
+     "rota": "principal",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Menino 23 e os anos 1930», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Menino 23 e os anos 1930», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-4",
+     "rota": "principal",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Menino 23 e os anos 1930», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Menino 23 e os anos 1930», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-1",
+     "rota": "principal",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Integralismo e diferenças entre períodos» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Integralismo e diferenças entre períodos» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-2",
+     "rota": "principal",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Integralismo e diferenças entre períodos».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Integralismo e diferenças entre períodos»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-3",
+     "rota": "principal",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Integralismo e diferenças entre períodos», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Integralismo e diferenças entre períodos», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-4",
+     "rota": "principal",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Integralismo e diferenças entre períodos», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Integralismo e diferenças entre períodos», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-1",
+     "rota": "principal",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Golpe, ditadura e AI-5» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Golpe, ditadura e AI-5» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-2",
+     "rota": "principal",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Golpe, ditadura e AI-5».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Golpe, ditadura e AI-5»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-3",
+     "rota": "principal",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Golpe, ditadura e AI-5», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Golpe, ditadura e AI-5», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-4",
+     "rota": "principal",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Golpe, ditadura e AI-5», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Golpe, ditadura e AI-5», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-1",
+     "rota": "principal",
+     "caso": "Um documento do poder",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Um documento do poder» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Um documento do poder» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-2",
+     "rota": "principal",
+     "caso": "Um documento do poder",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Um documento do poder».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Um documento do poder»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-3",
+     "rota": "principal",
+     "caso": "Um documento do poder",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Um documento do poder», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Um documento do poder», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-4",
+     "rota": "principal",
+     "caso": "Um documento do poder",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Um documento do poder», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Um documento do poder», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-1",
+     "rota": "principal",
+     "caso": "Organização negra em 1978",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Organização negra em 1978» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Organização negra em 1978» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-2",
+     "rota": "principal",
+     "caso": "Organização negra em 1978",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Organização negra em 1978».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Organização negra em 1978»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-3",
+     "rota": "principal",
+     "caso": "Organização negra em 1978",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Organização negra em 1978», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Organização negra em 1978», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-4",
+     "rota": "principal",
+     "caso": "Organização negra em 1978",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Organização negra em 1978», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Organização negra em 1978», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-1",
+     "rota": "principal",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Vigilância e leitura crítica» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Vigilância e leitura crítica» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-2",
+     "rota": "principal",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Vigilância e leitura crítica».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Vigilância e leitura crítica»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-3",
+     "rota": "principal",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Vigilância e leitura crítica», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Vigilância e leitura crítica», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-4",
+     "rota": "principal",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Vigilância e leitura crítica», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Vigilância e leitura crítica», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-1",
+     "rota": "principal",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Direitos na Constituição de 1988» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Direitos na Constituição de 1988» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-2",
+     "rota": "principal",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Direitos na Constituição de 1988».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Direitos na Constituição de 1988»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-3",
+     "rota": "principal",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Direitos na Constituição de 1988», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Direitos na Constituição de 1988», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-4",
+     "rota": "principal",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Direitos na Constituição de 1988», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Direitos na Constituição de 1988», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-1",
+     "rota": "principal",
+     "caso": "Da regra para a convivência",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Da regra para a convivência» na ordem apresentada.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Da regra para a convivência» na ordem apresentada."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-2",
+     "rota": "principal",
+     "caso": "Da regra para a convivência",
+     "kind": "match",
+     "titulo": "Ligue as ideias do caso",
+     "comando": "Ligue cada pergunta à resposta sobre «Da regra para a convivência».",
+     "antes": {
+      "title": "Ligue as ideias do caso",
+      "command": "Ligue cada pergunta à resposta sobre «Da regra para a convivência»."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-3",
+     "rota": "principal",
+     "caso": "Da regra para a convivência",
+     "kind": "sort",
+     "titulo": "O que este caso permite dizer?",
+     "comando": "Para cada frase sobre «Da regra para a convivência», decida se combina com o caso.",
+     "antes": {
+      "title": "O que este caso permite dizer?",
+      "command": "Para cada frase sobre «Da regra para a convivência», decida se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-4",
+     "rota": "principal",
+     "caso": "Da regra para a convivência",
+     "kind": "order",
+     "titulo": "Monte uma explicação",
+     "comando": "Monte uma explicação de «Da regra para a convivência», começando pelo que aconteceu.",
+     "antes": {
+      "title": "Monte uma explicação",
+      "command": "Monte uma explicação de «Da regra para a convivência», começando pelo que aconteceu."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-1",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-2",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-3",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-4",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-5",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-6",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-7",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-8",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-9",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-10",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-11",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-1-12",
+     "rota": "exemplos",
+     "caso": "Menino 23 e os anos 1930",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-1",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-2",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-3",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-4",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-5",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-6",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-7",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-8",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-9",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-10",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-11",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-2-12",
+     "rota": "exemplos",
+     "caso": "Integralismo e diferenças entre períodos",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-1",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-2",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-3",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-4",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-5",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-6",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-7",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-8",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-9",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-10",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-11",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-3-12",
+     "rota": "exemplos",
+     "caso": "Golpe, ditadura e AI-5",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-1",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Um documento do poder» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-2",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Um documento do poder», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-3",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Um documento do poder» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-4",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Um documento do poder» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-5",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Um documento do poder», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-6",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Um documento do poder» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-7",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Um documento do poder» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-8",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Um documento do poder», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-9",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Um documento do poder» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-10",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Um documento do poder» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-11",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Um documento do poder», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-4-12",
+     "rota": "exemplos",
+     "caso": "Um documento do poder",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Um documento do poder» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-1",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-2",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-3",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Organização negra em 1978» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-4",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-5",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-6",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Organização negra em 1978» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-7",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-8",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-9",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Organização negra em 1978» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-10",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-11",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-5-12",
+     "rota": "exemplos",
+     "caso": "Organização negra em 1978",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Organização negra em 1978» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-1",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-2",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-3",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-4",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-5",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-6",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-7",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-8",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-9",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-10",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-11",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-6-12",
+     "rota": "exemplos",
+     "caso": "Vigilância e leitura crítica",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-1",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-2",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-3",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-4",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-5",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-6",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-7",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-8",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-9",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-10",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-11",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-7-12",
+     "rota": "exemplos",
+     "caso": "Direitos na Constituição de 1988",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-1",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-2",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-3",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Da regra para a convivência» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-4",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-5",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-6",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Da regra para a convivência» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-7",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-8",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-9",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Da regra para a convivência» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-10",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "match",
+     "titulo": "Ligue a informação à pergunta",
+     "comando": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde.",
+     "antes": {
+      "title": "Ligue a informação à pergunta",
+      "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-11",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "sort",
+     "titulo": "Confira duas afirmações",
+     "comando": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso.",
+     "antes": {
+      "title": "Confira duas afirmações",
+      "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "x-8-12",
+     "rota": "exemplos",
+     "caso": "Da regra para a convivência",
+     "kind": "order",
+     "titulo": "Organize a leitura",
+     "comando": "Coloque os passos para estudar «Da regra para a convivência» na ordem.",
+     "antes": {
+      "title": "Organize a leitura",
+      "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    }
+   ]
+  }
+ },
+ "total": {
+  "atividades": 128,
+  "bloqueado": 0,
+  "revisao_humana": 0,
+  "aprovado_automatico": 128
+ }
+}

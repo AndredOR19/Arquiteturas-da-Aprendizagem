@@ -1,0 +1,1831 @@
+{
+ "aula": "racismo-autoritarismo-e-democracia-9ano",
+ "kind": "history",
+ "dicionario": {
+  "perguntas": {
+   "dado": "📌 O que aconteceu? (fato e data)",
+   "relacao": "💡 Que ideia esse caso ensina?",
+   "efeito": "➡️ O que veio depois?",
+   "limite": "⚠️ O que NÃO dá para concluir?"
+  },
+  "rotulos": {
+   "Dado observado": "📌 O que aconteceu? (fato e data)",
+   "Relação explicada": "💡 Que ideia esse caso ensina?",
+   "Efeito ou resultado": "➡️ O que veio depois?",
+   "Limite da conclusão": "⚠️ O que NÃO dá para concluir?",
+   "O que não posso generalizar?": "⚠️ O que vale só para este caso?",
+   "Que conclusão cabe aqui?": "💡 O que dá para concluir?",
+   "Minha conclusão ficou ampla demais": "Minha conclusão foi longe demais",
+   "Não expliquei a ligação": "Não expliquei a ligação entre as ideias"
+  },
+  "grupos": {
+   "porTitulo": {
+    "Testar o alcance": [
+     "✔ É verdade neste caso",
+     "✘ Não dá para afirmar"
+    ],
+    "Comunicar sem extrapolar": [
+     "✔ Os dados mostram isso",
+     "✘ Os dados não mostram isso"
+    ],
+    "Distinguir observar e inventar": [
+     "✔ Observar com cuidado",
+     "✘ Inventar"
+    ],
+    "Validar a síntese do caso": [
+     "✔ Mostra que entendi",
+     "✘ Não mostra que entendi"
+    ],
+    "Conferir duas leituras": [
+     "✔ Combina com o caso",
+     "✘ Precisa corrigir"
+    ],
+    "Reconhecer uma extrapolação": [
+     "✔ Fica dentro do que sabemos",
+     "✘ Exagera, sem prova"
+    ]
+   },
+   "porRotulo": {
+    "Sustentado": "✔ Tem base nos dados",
+    "Não sustentado": "✘ Não dá para afirmar",
+    "Sustentado neste caso": "✔ É verdade neste caso",
+    "Compatível com o caso": "✔ Combina com o caso",
+    "Exige correção": "✘ Precisa corrigir",
+    "Mantém os limites": "✔ Fica dentro do que sabemos",
+    "Amplia sem evidência": "✘ Exagera, sem prova"
+   }
+  },
+  "prefixos": [
+   [
+    "Situar o caso ",
+    "1º — Apresento o caso: "
+   ],
+   [
+    "Apresentar o dado: ",
+    "2º — Digo o que aconteceu: "
+   ],
+   [
+    "Explicar a relação: ",
+    "3º — Explico a ideia: "
+   ],
+   [
+    "Delimitar a conclusão: ",
+    "4º — Digo até onde vale: "
+   ],
+   [
+    "Localizar a informação: ",
+    "Acho a informação: "
+   ],
+   [
+    "Conferir a ligação com a pergunta de ",
+    "Vejo se ela responde à pergunta de "
+   ],
+   [
+    "Comparar a interpretação com ",
+    "Comparo com a ideia: "
+   ],
+   [
+    "Registrar a restrição: ",
+    "Anoto o limite: "
+   ],
+   [
+    "Reconhecer a informação do caso: ",
+    "Começo pelo fato: "
+   ],
+   [
+    "Explicitar o critério de comparação de ",
+    "Digo como vou comparar "
+   ],
+   [
+    "Construir uma interpretação: ",
+    "Explico a ideia: "
+   ],
+   [
+    "Declarar o alcance: ",
+    "Digo até onde vale: "
+   ],
+   [
+    "Receber outra apresentação do mesmo caso",
+    "Vejo o mesmo caso contado de outro jeito"
+   ],
+   [
+    "Procurar nela uma informação equivalente a ",
+    "Procuro nela a mesma informação: "
+   ],
+   [
+    "Conferir se a relação ",
+    "Vejo se a ideia «"
+   ],
+   [
+    "Manter ou rever a conclusão explicitando ",
+    "Mantenho ou corrijo a conclusão, lembrando: "
+   ]
+  ],
+  "titulos": {
+   "Reconstruir o percurso": "Coloque os passos na ordem",
+   "Conectar dado e explicação": "Ligue cada pergunta à sua resposta",
+   "Testar o alcance": "Isso é verdade neste caso?",
+   "Preparar uma explicação": "Monte sua explicação em 4 passos",
+   "Conferir a coleta": "Conte as respostas",
+   "Construir a representação": "Monte o gráfico de barras",
+   "Recuperar o total": "Some tudo: qual é o total?",
+   "Comunicar sem extrapolar": "O que dá para afirmar com esses dados?",
+   "Montar uma comparação controlada": "Mude só uma coisa",
+   "Descrever as repetições": "Calcule a média",
+   "Conferir a variação": "Veja a diferença entre as medidas",
+   "Aplicar a contagem em outro problema": "Conte de outro jeito",
+   "Reconhecer a explicação": "Que pergunta esta frase responde?",
+   "Separar informação e alcance": "Qual é o fato e qual é o limite?",
+   "Conferir duas leituras": "Combina com o caso ou precisa corrigir?",
+   "Escolher a pergunta certa": "Qual trecho responde à pergunta?",
+   "Reconhecer uma extrapolação": "Está dentro do que sabemos?",
+   "Produzir um roteiro de revisão": "Qual ação resolve a dúvida?",
+   "Distinguir observar e inventar": "Isso é observar ou inventar?",
+   "Transferir o procedimento": "Use o mesmo jeito em outra situação",
+   "Revisar uma fala pública": "O que falta na fala?",
+   "Validar a síntese do caso": "Isso mostra que entendi o caso?",
+   "Preparar a conferência": "Monte o roteiro para conferir",
+   "Dado não é conclusão": "Do fato até a conclusão, passo a passo"
+  },
+  "frases": {
+   "Caminhada": "vão a pé",
+   "Ônibus": "vão de ônibus",
+   "Bicicleta": "vão de bicicleta",
+   "Conto": "preferem conto",
+   "HQ": "preferem HQ",
+   "Reportagem": "preferem reportagem",
+   "Esporte": "usam o pátio para esporte",
+   "Conversa": "usam o pátio para conversar",
+   "Leitura": "usam o pátio para ler",
+   "Reciclável": "separam resíduo reciclável",
+   "Orgânico": "separam resíduo orgânico",
+   "Rejeito": "separam rejeito",
+   "Caderno": "estudam pelo caderno",
+   "Livro": "estudam pelo livro",
+   "Digital": "estudam no digital",
+   "Bebedouro": "bebem água no bebedouro",
+   "Garrafa": "trazem garrafa de água",
+   "Outro": "bebem água de outro jeito",
+   "Semanal": "vão à biblioteca toda semana",
+   "Mensal": "vão à biblioteca todo mês",
+   "Raro": "quase não vão à biblioteca",
+   "Praça": "querem uma praça",
+   "Biblioteca": "querem uma biblioteca",
+   "Ciclovia": "querem uma ciclovia"
+  },
+  "situacoes": null,
+  "abertura": null,
+  "glossario": [
+   {
+    "termo": "integralismo",
+    "significado": "movimento político organizado na AIB em 1932, de inspiração fascista e projeto autoritário. Não se confunde automaticamente com outros regimes."
+   },
+   {
+    "termo": "autoritarismo",
+    "significado": "forma de exercer poder que reduz a participação e a possibilidade de discordar."
+   },
+   {
+    "termo": "racismo",
+    "significado": "tratamento desigual e inferiorização de pessoas e grupos por sua identificação racial."
+   },
+   {
+    "termo": "AI-5",
+    "significado": "ato de 1968 que ampliou os poderes da ditadura e restringiu garantias."
+   },
+   {
+    "termo": "redemocratização",
+    "significado": "processo de recuperação e construção da participação e dos direitos democráticos."
+   },
+   {
+    "termo": "frequência",
+    "significado": "quantas vezes algo aparece. Aqui: quantas pessoas deram cada resposta."
+   },
+   {
+    "termo": "censo",
+    "significado": "pesquisa que pergunta para TODAS as pessoas do grupo."
+   },
+   {
+    "termo": "amostra",
+    "significado": "pesquisa que pergunta só para uma parte do grupo, escolhida com critério."
+   },
+   {
+    "termo": "categoria",
+    "significado": "cada opção de resposta (por exemplo: caminhada, ônibus, bicicleta)."
+   },
+   {
+    "termo": "escala",
+    "significado": "os números marcados no gráfico; precisa ser a mesma para todas as barras."
+   },
+   {
+    "termo": "extrapolar",
+    "significado": "ir além do que os dados mostram; concluir mais do que dá para concluir."
+   },
+   {
+    "termo": "generalizar",
+    "significado": "pegar o que vale para um caso ou um grupo pequeno e dizer que vale para todos."
+   },
+   {
+    "termo": "sustentado",
+    "significado": "apoiado por dados ou provas. Afirmação sustentada = afirmação que tem base."
+   },
+   {
+    "termo": "alcance",
+    "significado": "até onde uma conclusão vale: para quem, para onde, quando."
+   },
+   {
+    "termo": "limite",
+    "significado": "o que o dado ou a fonte NÃO permite afirmar."
+   },
+   {
+    "termo": "evidência",
+    "significado": "informação que serve de prova para uma ideia."
+   },
+   {
+    "termo": "fonte",
+    "significado": "de onde vem uma informação: documento, jornal, pessoa, levantamento."
+   },
+   {
+    "termo": "critério",
+    "significado": "a regra usada para decidir ou comparar."
+   },
+   {
+    "termo": "média",
+    "significado": "soma de todos os valores dividida por quantos valores são."
+   },
+   {
+    "termo": "variação",
+    "significado": "quanto os valores mudam de uma medida para outra."
+   },
+   {
+    "termo": "controle",
+    "significado": "manter uma condição igual nos dois copos, para ela não atrapalhar a comparação."
+   },
+   {
+    "termo": "variável",
+    "significado": "a coisa que muda (ou que decidimos mudar) no teste."
+   },
+   {
+    "termo": "ensaio",
+    "significado": "cada teste feito no laboratório."
+   },
+   {
+    "termo": "repetição",
+    "significado": "fazer o mesmo teste de novo para ver se o resultado se repete."
+   },
+   {
+    "termo": "simulado",
+    "significado": "feito no computador ou inventado para treinar; não foi medido de verdade."
+   },
+   {
+    "termo": "bancada",
+    "significado": "a mesa do laboratório onde se faz o experimento de verdade."
+   },
+   {
+    "termo": "dissolução",
+    "significado": "quando o sal «some» na água, espalhando-se nela."
+   },
+   {
+    "termo": "partição",
+    "significado": "divisão de um território em partes ou países."
+   },
+   {
+    "termo": "descolonização",
+    "significado": "processo em que colônias deixam de ser controladas por outro país e ficam independentes."
+   },
+   {
+    "termo": "soberania",
+    "significado": "o poder de um país de governar a si mesmo."
+   },
+   {
+    "termo": "metrópole",
+    "significado": "o país que controla a colônia."
+   },
+   {
+    "termo": "resolução (ONU)",
+    "significado": "decisão escrita e aprovada pelos países da ONU."
+   },
+   {
+    "termo": "autodeterminação",
+    "significado": "direito de um povo de decidir o próprio destino."
+   },
+   {
+    "termo": "não alinhado",
+    "significado": "países que não queriam ficar do lado dos EUA nem da União Soviética na Guerra Fria."
+   },
+   {
+    "termo": "Guerra Fria",
+    "significado": "disputa entre EUA e União Soviética (1947–1991), sem guerra direta entre os dois, mas com conflitos em outros países."
+   },
+   {
+    "termo": "fonte normativa",
+    "significado": "documento que diz como as coisas DEVEM ser (uma regra), não como elas são de fato."
+   },
+   {
+    "termo": "agência local",
+    "significado": "a capacidade das próprias pessoas e grupos do lugar de agir e decidir."
+   },
+   {
+    "termo": "coexistir",
+    "significado": "existir ao mesmo tempo, lado a lado."
+   },
+   {
+    "termo": "liberdade de consciência",
+    "significado": "direito de cada pessoa acreditar (ou não) no que quiser, sem ser forçada."
+   },
+   {
+    "termo": "dignidade",
+    "significado": "o valor de toda pessoa; ninguém pode ser humilhado."
+   },
+   {
+    "termo": "adesão",
+    "significado": "concordar e entrar em algo. «Sem adesão» = participar sem precisar concordar."
+   },
+   {
+    "termo": "constrangimento",
+    "significado": "situação em que a pessoa se sente forçada ou envergonhada."
+   },
+   {
+    "termo": "coerção",
+    "significado": "forçar alguém a fazer algo."
+   },
+   {
+    "termo": "convicção",
+    "significado": "aquilo em que a pessoa acredita com firmeza."
+   },
+   {
+    "termo": "hierarquizar",
+    "significado": "colocar em ordem de «melhor» para «pior»; aqui, tratar uma crença como superior a outra."
+   },
+   {
+    "termo": "proselitismo",
+    "significado": "tentar convencer alguém a mudar de religião."
+   },
+   {
+    "termo": "lacuna",
+    "significado": "uma parte que ficou faltando."
+   },
+   {
+    "termo": "equivalente",
+    "significado": "que vale o mesmo (1/2 e 2/4 são equivalentes)."
+   },
+   {
+    "termo": "inteiro",
+    "significado": "o todo que foi dividido em partes."
+   },
+   {
+    "termo": "levantamento",
+    "significado": "pesquisa que reúne informações."
+   },
+   {
+    "termo": "seminário",
+    "significado": "apresentação oral de um tema para a turma."
+   },
+   {
+    "termo": "sujeitos",
+    "significado": "as pessoas ou grupos que agem numa situação."
+   },
+   {
+    "termo": "estratégia",
+    "significado": "o jeito planejado de fazer algo."
+   },
+   {
+    "termo": "síntese",
+    "significado": "resumo com as ideias principais."
+   },
+   {
+    "termo": "interpretação",
+    "significado": "o sentido que damos ao que lemos ou observamos."
+   },
+   {
+    "termo": "transferir",
+    "significado": "usar o que aprendeu em outra situação."
+   },
+   {
+    "termo": "procedimento",
+    "significado": "sequência de passos para fazer algo."
+   },
+   {
+    "termo": "delimitar",
+    "significado": "marcar até onde vale."
+   },
+   {
+    "termo": "hipótese",
+    "significado": "uma explicação provisória que ainda vai ser testada."
+   },
+   {
+    "termo": "unidade",
+    "significado": "a medida que acompanha o número: segundos, mililitros, graus."
+   }
+  ]
+ },
+ "antes_depois": [
+  {
+   "id": "p-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Menino 23 e os anos 1930» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Menino 23 e os anos 1930» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-1-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Menino 23 e os anos 1930»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Menino 23 e os anos 1930»."
+   }
+  },
+  {
+   "id": "p-1-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Menino 23 e os anos 1930», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Menino 23 e os anos 1930», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-1-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Menino 23 e os anos 1930», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Menino 23 e os anos 1930», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Integralismo e diferenças entre períodos» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Integralismo e diferenças entre períodos» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-2-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Integralismo e diferenças entre períodos»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Integralismo e diferenças entre períodos»."
+   }
+  },
+  {
+   "id": "p-2-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Integralismo e diferenças entre períodos», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Integralismo e diferenças entre períodos», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-2-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Integralismo e diferenças entre períodos», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Integralismo e diferenças entre períodos», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Golpe, ditadura e AI-5» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Golpe, ditadura e AI-5» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-3-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Golpe, ditadura e AI-5»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Golpe, ditadura e AI-5»."
+   }
+  },
+  {
+   "id": "p-3-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Golpe, ditadura e AI-5», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Golpe, ditadura e AI-5», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-3-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Golpe, ditadura e AI-5», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Golpe, ditadura e AI-5», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-4-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Um documento do poder» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Um documento do poder» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-4-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Um documento do poder»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Um documento do poder»."
+   }
+  },
+  {
+   "id": "p-4-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Um documento do poder», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Um documento do poder», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-4-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Um documento do poder», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Um documento do poder», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-5-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Organização negra em 1978» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Organização negra em 1978» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-5-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Organização negra em 1978»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Organização negra em 1978»."
+   }
+  },
+  {
+   "id": "p-5-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Organização negra em 1978», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Organização negra em 1978», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-5-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Organização negra em 1978», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Organização negra em 1978», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-6-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Vigilância e leitura crítica» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Vigilância e leitura crítica» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-6-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Vigilância e leitura crítica»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Vigilância e leitura crítica»."
+   }
+  },
+  {
+   "id": "p-6-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Vigilância e leitura crítica», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Vigilância e leitura crítica», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-6-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Vigilância e leitura crítica», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Vigilância e leitura crítica», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-7-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Direitos na Constituição de 1988» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Direitos na Constituição de 1988» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-7-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Direitos na Constituição de 1988»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Direitos na Constituição de 1988»."
+   }
+  },
+  {
+   "id": "p-7-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Direitos na Constituição de 1988», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Direitos na Constituição de 1988», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-7-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Direitos na Constituição de 1988», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Direitos na Constituição de 1988», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "p-8-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Da regra para a convivência» na ordem apresentada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Da regra para a convivência» na ordem apresentada."
+   }
+  },
+  {
+   "id": "p-8-2",
+   "antes": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Da regra para a convivência»."
+   },
+   "depois": {
+    "title": "Ligue as ideias do caso",
+    "command": "Ligue cada pergunta à resposta sobre «Da regra para a convivência»."
+   }
+  },
+  {
+   "id": "p-8-3",
+   "antes": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Da regra para a convivência», decida se combina com o caso."
+   },
+   "depois": {
+    "title": "O que este caso permite dizer?",
+    "command": "Para cada frase sobre «Da regra para a convivência», decida se combina com o caso."
+   }
+  },
+  {
+   "id": "p-8-4",
+   "antes": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Da regra para a convivência», começando pelo que aconteceu."
+   },
+   "depois": {
+    "title": "Monte uma explicação",
+    "command": "Monte uma explicação de «Da regra para a convivência», começando pelo que aconteceu."
+   }
+  },
+  {
+   "id": "x-1-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-1-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-1-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   }
+  },
+  {
+   "id": "x-1-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-1-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-1-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   }
+  },
+  {
+   "id": "x-1-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-1-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-1-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   }
+  },
+  {
+   "id": "x-1-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Menino 23 e os anos 1930» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-1-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Menino 23 e os anos 1930», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-1-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Menino 23 e os anos 1930» na ordem."
+   }
+  },
+  {
+   "id": "x-2-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-2-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-2-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   }
+  },
+  {
+   "id": "x-2-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-2-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-2-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   }
+  },
+  {
+   "id": "x-2-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-2-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-2-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   }
+  },
+  {
+   "id": "x-2-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Integralismo e diferenças entre períodos» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-2-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Integralismo e diferenças entre períodos», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-2-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Integralismo e diferenças entre períodos» na ordem."
+   }
+  },
+  {
+   "id": "x-3-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-3-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-3-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   }
+  },
+  {
+   "id": "x-3-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-3-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-3-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   }
+  },
+  {
+   "id": "x-3-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-3-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-3-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   }
+  },
+  {
+   "id": "x-3-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Golpe, ditadura e AI-5» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-3-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Golpe, ditadura e AI-5», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-3-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Golpe, ditadura e AI-5» na ordem."
+   }
+  },
+  {
+   "id": "x-4-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-4-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-4-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   }
+  },
+  {
+   "id": "x-4-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-4-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-4-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   }
+  },
+  {
+   "id": "x-4-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-4-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-4-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   }
+  },
+  {
+   "id": "x-4-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Um documento do poder» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-4-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Um documento do poder», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-4-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Um documento do poder» na ordem."
+   }
+  },
+  {
+   "id": "x-5-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-5-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-5-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   }
+  },
+  {
+   "id": "x-5-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-5-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-5-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   }
+  },
+  {
+   "id": "x-5-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-5-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-5-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   }
+  },
+  {
+   "id": "x-5-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Organização negra em 1978» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-5-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Organização negra em 1978», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-5-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Organização negra em 1978» na ordem."
+   }
+  },
+  {
+   "id": "x-6-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-6-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-6-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   }
+  },
+  {
+   "id": "x-6-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-6-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-6-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   }
+  },
+  {
+   "id": "x-6-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-6-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-6-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   }
+  },
+  {
+   "id": "x-6-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Vigilância e leitura crítica» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-6-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Vigilância e leitura crítica», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-6-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Vigilância e leitura crítica» na ordem."
+   }
+  },
+  {
+   "id": "x-7-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-7-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-7-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   }
+  },
+  {
+   "id": "x-7-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-7-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-7-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   }
+  },
+  {
+   "id": "x-7-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-7-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-7-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   }
+  },
+  {
+   "id": "x-7-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Direitos na Constituição de 1988» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-7-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Direitos na Constituição de 1988», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-7-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Direitos na Constituição de 1988» na ordem."
+   }
+  },
+  {
+   "id": "x-8-1",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-8-2",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-8-3",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   }
+  },
+  {
+   "id": "x-8-4",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-8-5",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-8-6",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   }
+  },
+  {
+   "id": "x-8-7",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-8-8",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-8-9",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   }
+  },
+  {
+   "id": "x-8-10",
+   "antes": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   },
+   "depois": {
+    "title": "Ligue a informação à pergunta",
+    "command": "Ligue a informação de «Da regra para a convivência» à pergunta que ela responde."
+   }
+  },
+  {
+   "id": "x-8-11",
+   "antes": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   },
+   "depois": {
+    "title": "Confira duas afirmações",
+    "command": "Para cada frase de «Da regra para a convivência», escolha se combina com o caso."
+   }
+  },
+  {
+   "id": "x-8-12",
+   "antes": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   },
+   "depois": {
+    "title": "Organize a leitura",
+    "command": "Coloque os passos para estudar «Da regra para a convivência» na ordem."
+   }
+  }
+ ]
+}

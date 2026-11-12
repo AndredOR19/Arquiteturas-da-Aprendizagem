@@ -1393,6 +1393,55 @@
           "Clube dos Gráficos — escolhas da escola"
         ]
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/racismo-autoritarismo-e-democracia-9ano",
+      "destino": "aulas/racismo-autoritarismo-e-democracia-9ano",
+      "titulo": "Vozes, direitos e democracia",
+      "contrato_entrega": "3.9.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Hoje você vai ligar racismo, autoritarismo e lutas por direitos, comparando períodos e fontes sem confundir suas diferenças.",
+        "titulo_exibicao": "Vozes, direitos e democracia",
+        "palavras_chave": [
+          "Vozes, direitos e democracia"
+        ],
+        "registro_escola_rs": {
+          "titulo": "Vozes, direitos e democracia",
+          "resumo": "Hoje você vai ligar racismo, autoritarismo e lutas por direitos, comparando períodos e fontes sem confundir suas diferenças.",
+          "habilidades": "BNCC, sínteses didáticas: EF09HI04 — participação da população negra na formação do Brasil; EF09HI20 — resistências durante a ditadura; EF09HI22 — mobilização até 1988; EF09HI23 — cidadania e combate ao racismo na Constituição. Fonte: MEC, BNCC final, páginas impressas 429 e 431."
+        },
+        "apoio_leitura_url": "aulas/racismo-autoritarismo-e-democracia-9ano/apoio/",
+        "rotas": [
+          {
+            "titulo": "Leitura, aula principal e exemplos",
+            "url": "aulas/racismo-autoritarismo-e-democracia-9ano/"
+          },
+          {
+            "titulo": "Imagens, palavras e frases opcionais",
+            "url": "aulas/racismo-autoritarismo-e-democracia-9ano/apoio/"
+          },
+          {
+            "titulo": "Caderno em PDF",
+            "url": "aulas/racismo-autoritarismo-e-democracia-9ano/aula-impressa.pdf"
+          },
+          {
+            "titulo": "Imagens e frases em PDF",
+            "url": "aulas/racismo-autoritarismo-e-democracia-9ano/apoio-leitura.pdf"
+          }
+        ]
+      }
     }
   ]
 }
