@@ -1,0 +1,1811 @@
+{
+ "aula": "erosao-solo-7ano-v2",
+ "kind": "lab",
+ "dicionario": {
+  "perguntas": {
+   "dado": "📌 Quais foram as medidas?",
+   "relacao": "💡 O que a média mostra?",
+   "efeito": "➡️ Qual foi o resultado (a média)?",
+   "limite": "⚠️ O que NÃO dá para afirmar?"
+  },
+  "rotulos": {
+   "Dado observado": "📌 Quais foram as medidas?",
+   "Relação explicada": "💡 O que a média mostra?",
+   "Efeito ou resultado": "➡️ Qual foi o resultado (a média)?",
+   "Limite da conclusão": "⚠️ O que NÃO dá para afirmar?",
+   "O que não posso generalizar?": "⚠️ O que vale só para este caso?",
+   "Que conclusão cabe aqui?": "💡 O que dá para concluir?",
+   "Minha conclusão ficou ampla demais": "Minha conclusão foi longe demais",
+   "Não expliquei a ligação": "Não expliquei a ligação entre as ideias"
+  },
+  "grupos": {
+   "porTitulo": {
+    "Testar o alcance": [
+     "✔ É verdade neste caso",
+     "✘ Não dá para afirmar"
+    ],
+    "Comunicar sem extrapolar": [
+     "✔ Os dados mostram isso",
+     "✘ Os dados não mostram isso"
+    ],
+    "Distinguir observar e inventar": [
+     "✔ Observar com cuidado",
+     "✘ Inventar"
+    ],
+    "Validar a síntese do caso": [
+     "✔ Mostra que entendi",
+     "✘ Não mostra que entendi"
+    ],
+    "Conferir duas leituras": [
+     "✔ Combina com o caso",
+     "✘ Precisa corrigir"
+    ],
+    "Reconhecer uma extrapolação": [
+     "✔ Fica dentro do que sabemos",
+     "✘ Exagera, sem prova"
+    ]
+   },
+   "porRotulo": {
+    "Sustentado": "✔ Tem base nos dados",
+    "Não sustentado": "✘ Não dá para afirmar",
+    "Sustentado neste caso": "✔ É verdade neste caso",
+    "Compatível com o caso": "✔ Combina com o caso",
+    "Exige correção": "✘ Precisa corrigir",
+    "Mantém os limites": "✔ Fica dentro do que sabemos",
+    "Amplia sem evidência": "✘ Exagera, sem prova"
+   }
+  },
+  "prefixos": [
+   [
+    "Situar o caso ",
+    "1º — Apresento o caso: "
+   ],
+   [
+    "Apresentar o dado: ",
+    "2º — Digo o que aconteceu: "
+   ],
+   [
+    "Explicar a relação: ",
+    "3º — Explico a ideia: "
+   ],
+   [
+    "Delimitar a conclusão: ",
+    "4º — Digo até onde vale: "
+   ],
+   [
+    "Localizar a informação: ",
+    "Acho a informação: "
+   ],
+   [
+    "Conferir a ligação com a pergunta de ",
+    "Vejo se ela responde à pergunta de "
+   ],
+   [
+    "Comparar a interpretação com ",
+    "Comparo com a ideia: "
+   ],
+   [
+    "Registrar a restrição: ",
+    "Anoto o limite: "
+   ],
+   [
+    "Reconhecer a informação do caso: ",
+    "Começo pelo fato: "
+   ],
+   [
+    "Explicitar o critério de comparação de ",
+    "Digo como vou comparar "
+   ],
+   [
+    "Construir uma interpretação: ",
+    "Explico a ideia: "
+   ],
+   [
+    "Declarar o alcance: ",
+    "Digo até onde vale: "
+   ],
+   [
+    "Receber outra apresentação do mesmo caso",
+    "Vejo o mesmo caso contado de outro jeito"
+   ],
+   [
+    "Procurar nela uma informação equivalente a ",
+    "Procuro nela a mesma informação: "
+   ],
+   [
+    "Conferir se a relação ",
+    "Vejo se a ideia «"
+   ],
+   [
+    "Manter ou rever a conclusão explicitando ",
+    "Mantenho ou corrijo a conclusão, lembrando: "
+   ]
+  ],
+  "titulos": {
+   "Reconstruir o percurso": "Coloque os passos na ordem",
+   "Conectar dado e explicação": "Ligue cada pergunta à sua resposta",
+   "Testar o alcance": "Isso é verdade neste caso?",
+   "Preparar uma explicação": "Monte sua explicação em 4 passos",
+   "Conferir a coleta": "Conte as respostas",
+   "Construir a representação": "Monte o gráfico de barras",
+   "Recuperar o total": "Some tudo: qual é o total?",
+   "Comunicar sem extrapolar": "O que dá para afirmar com esses dados?",
+   "Montar uma comparação controlada": "Mude só uma coisa",
+   "Descrever as repetições": "Calcule a média",
+   "Conferir a variação": "Veja a diferença entre as medidas",
+   "Aplicar a contagem em outro problema": "Conte de outro jeito",
+   "Reconhecer a explicação": "Que pergunta esta frase responde?",
+   "Separar informação e alcance": "Qual é o fato e qual é o limite?",
+   "Conferir duas leituras": "Combina com o caso ou precisa corrigir?",
+   "Escolher a pergunta certa": "Qual trecho responde à pergunta?",
+   "Reconhecer uma extrapolação": "Está dentro do que sabemos?",
+   "Produzir um roteiro de revisão": "Qual ação resolve a dúvida?",
+   "Distinguir observar e inventar": "Isso é observar ou inventar?",
+   "Transferir o procedimento": "Use o mesmo jeito em outra situação",
+   "Revisar uma fala pública": "O que falta na fala?",
+   "Validar a síntese do caso": "Isso mostra que entendi o caso?",
+   "Preparar a conferência": "Monte o roteiro para conferir",
+   "Dado não é conclusão": "Do fato até a conclusão, passo a passo"
+  },
+  "frases": {
+   "Caminhada": "vão a pé",
+   "Ônibus": "vão de ônibus",
+   "Bicicleta": "vão de bicicleta",
+   "Conto": "preferem conto",
+   "HQ": "preferem HQ",
+   "Reportagem": "preferem reportagem",
+   "Esporte": "usam o pátio para esporte",
+   "Conversa": "usam o pátio para conversar",
+   "Leitura": "usam o pátio para ler",
+   "Reciclável": "separam resíduo reciclável",
+   "Orgânico": "separam resíduo orgânico",
+   "Rejeito": "separam rejeito",
+   "Caderno": "estudam pelo caderno",
+   "Livro": "estudam pelo livro",
+   "Digital": "estudam no digital",
+   "Bebedouro": "bebem água no bebedouro",
+   "Garrafa": "trazem garrafa de água",
+   "Outro": "bebem água de outro jeito",
+   "Semanal": "vão à biblioteca toda semana",
+   "Mensal": "vão à biblioteca todo mês",
+   "Raro": "quase não vão à biblioteca",
+   "Praça": "querem uma praça",
+   "Biblioteca": "querem uma biblioteca",
+   "Ciclovia": "querem uma ciclovia"
+  },
+  "situacoes": null,
+  "abertura": null,
+  "glossario": [
+   {
+    "termo": "frequência",
+    "significado": "quantas vezes algo aparece. Aqui: quantas pessoas deram cada resposta."
+   },
+   {
+    "termo": "censo",
+    "significado": "pesquisa que pergunta para TODAS as pessoas do grupo."
+   },
+   {
+    "termo": "amostra",
+    "significado": "pesquisa que pergunta só para uma parte do grupo, escolhida com critério."
+   },
+   {
+    "termo": "categoria",
+    "significado": "cada opção de resposta (por exemplo: caminhada, ônibus, bicicleta)."
+   },
+   {
+    "termo": "escala",
+    "significado": "os números marcados no gráfico; precisa ser a mesma para todas as barras."
+   },
+   {
+    "termo": "extrapolar",
+    "significado": "ir além do que os dados mostram; concluir mais do que dá para concluir."
+   },
+   {
+    "termo": "generalizar",
+    "significado": "pegar o que vale para um caso ou um grupo pequeno e dizer que vale para todos."
+   },
+   {
+    "termo": "sustentado",
+    "significado": "apoiado por dados ou provas. Afirmação sustentada = afirmação que tem base."
+   },
+   {
+    "termo": "alcance",
+    "significado": "até onde uma conclusão vale: para quem, para onde, quando."
+   },
+   {
+    "termo": "limite",
+    "significado": "o que o dado ou a fonte NÃO permite afirmar."
+   },
+   {
+    "termo": "evidência",
+    "significado": "informação que serve de prova para uma ideia."
+   },
+   {
+    "termo": "fonte",
+    "significado": "de onde vem uma informação: documento, jornal, pessoa, levantamento."
+   },
+   {
+    "termo": "critério",
+    "significado": "a regra usada para decidir ou comparar."
+   },
+   {
+    "termo": "média",
+    "significado": "soma de todos os valores dividida por quantos valores são."
+   },
+   {
+    "termo": "variação",
+    "significado": "quanto os valores mudam de uma medida para outra."
+   },
+   {
+    "termo": "controle",
+    "significado": "manter uma condição igual nos dois copos, para ela não atrapalhar a comparação."
+   },
+   {
+    "termo": "variável",
+    "significado": "a coisa que muda (ou que decidimos mudar) no teste."
+   },
+   {
+    "termo": "ensaio",
+    "significado": "cada teste feito no laboratório."
+   },
+   {
+    "termo": "repetição",
+    "significado": "fazer o mesmo teste de novo para ver se o resultado se repete."
+   },
+   {
+    "termo": "simulado",
+    "significado": "feito no computador ou inventado para treinar; não foi medido de verdade."
+   },
+   {
+    "termo": "bancada",
+    "significado": "a mesa do laboratório onde se faz o experimento de verdade."
+   },
+   {
+    "termo": "dissolução",
+    "significado": "quando o sal «some» na água, espalhando-se nela."
+   },
+   {
+    "termo": "partição",
+    "significado": "divisão de um território em partes ou países."
+   },
+   {
+    "termo": "descolonização",
+    "significado": "processo em que colônias deixam de ser controladas por outro país e ficam independentes."
+   },
+   {
+    "termo": "soberania",
+    "significado": "o poder de um país de governar a si mesmo."
+   },
+   {
+    "termo": "metrópole",
+    "significado": "o país que controla a colônia."
+   },
+   {
+    "termo": "resolução (ONU)",
+    "significado": "decisão escrita e aprovada pelos países da ONU."
+   },
+   {
+    "termo": "autodeterminação",
+    "significado": "direito de um povo de decidir o próprio destino."
+   },
+   {
+    "termo": "não alinhado",
+    "significado": "países que não queriam ficar do lado dos EUA nem da União Soviética na Guerra Fria."
+   },
+   {
+    "termo": "Guerra Fria",
+    "significado": "disputa entre EUA e União Soviética (1947–1991), sem guerra direta entre os dois, mas com conflitos em outros países."
+   },
+   {
+    "termo": "fonte normativa",
+    "significado": "documento que diz como as coisas DEVEM ser (uma regra), não como elas são de fato."
+   },
+   {
+    "termo": "agência local",
+    "significado": "a capacidade das próprias pessoas e grupos do lugar de agir e decidir."
+   },
+   {
+    "termo": "coexistir",
+    "significado": "existir ao mesmo tempo, lado a lado."
+   },
+   {
+    "termo": "liberdade de consciência",
+    "significado": "direito de cada pessoa acreditar (ou não) no que quiser, sem ser forçada."
+   },
+   {
+    "termo": "dignidade",
+    "significado": "o valor de toda pessoa; ninguém pode ser humilhado."
+   },
+   {
+    "termo": "adesão",
+    "significado": "concordar e entrar em algo. «Sem adesão» = participar sem precisar concordar."
+   },
+   {
+    "termo": "constrangimento",
+    "significado": "situação em que a pessoa se sente forçada ou envergonhada."
+   },
+   {
+    "termo": "coerção",
+    "significado": "forçar alguém a fazer algo."
+   },
+   {
+    "termo": "convicção",
+    "significado": "aquilo em que a pessoa acredita com firmeza."
+   },
+   {
+    "termo": "hierarquizar",
+    "significado": "colocar em ordem de «melhor» para «pior»; aqui, tratar uma crença como superior a outra."
+   },
+   {
+    "termo": "proselitismo",
+    "significado": "tentar convencer alguém a mudar de religião."
+   },
+   {
+    "termo": "lacuna",
+    "significado": "uma parte que ficou faltando."
+   },
+   {
+    "termo": "equivalente",
+    "significado": "que vale o mesmo (1/2 e 2/4 são equivalentes)."
+   },
+   {
+    "termo": "inteiro",
+    "significado": "o todo que foi dividido em partes."
+   },
+   {
+    "termo": "levantamento",
+    "significado": "pesquisa que reúne informações."
+   },
+   {
+    "termo": "seminário",
+    "significado": "apresentação oral de um tema para a turma."
+   },
+   {
+    "termo": "sujeitos",
+    "significado": "as pessoas ou grupos que agem numa situação."
+   },
+   {
+    "termo": "estratégia",
+    "significado": "o jeito planejado de fazer algo."
+   },
+   {
+    "termo": "síntese",
+    "significado": "resumo com as ideias principais."
+   },
+   {
+    "termo": "interpretação",
+    "significado": "o sentido que damos ao que lemos ou observamos."
+   },
+   {
+    "termo": "transferir",
+    "significado": "usar o que aprendeu em outra situação."
+   },
+   {
+    "termo": "procedimento",
+    "significado": "sequência de passos para fazer algo."
+   },
+   {
+    "termo": "delimitar",
+    "significado": "marcar até onde vale."
+   },
+   {
+    "termo": "hipótese",
+    "significado": "uma explicação provisória que ainda vai ser testada."
+   },
+   {
+    "termo": "unidade",
+    "significado": "a medida que acompanha o número: segundos, mililitros, graus."
+   }
+  ]
+ },
+ "antes_depois": [
+  {
+   "id": "p-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Canteiro da escola» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Canteiro da escola» na ordem certa."
+   }
+  },
+  {
+   "id": "p-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Canteiro da escola» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Canteiro da escola» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Canteiro da escola» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Canteiro da escola» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Canteiro da escola» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Canteiro da escola» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Duas bandejas» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Duas bandejas» na ordem certa."
+   }
+  },
+  {
+   "id": "p-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Duas bandejas» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Duas bandejas» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Duas bandejas» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Duas bandejas» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Duas bandejas» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Duas bandejas» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Grama com raízes» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Grama com raízes» na ordem certa."
+   }
+  },
+  {
+   "id": "p-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Grama com raízes» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Grama com raízes» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Grama com raízes» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Grama com raízes» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Grama com raízes» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Grama com raízes» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-4-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «A mesma chuva» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «A mesma chuva» na ordem certa."
+   }
+  },
+  {
+   "id": "p-4-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «A mesma chuva» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «A mesma chuva» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-4-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «A mesma chuva» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «A mesma chuva» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-4-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «A mesma chuva» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «A mesma chuva» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-5-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Água turva» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Água turva» na ordem certa."
+   }
+  },
+  {
+   "id": "p-5-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Água turva» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Água turva» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-5-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Água turva» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Água turva» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-5-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Água turva» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Água turva» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-6-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rampas diferentes» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rampas diferentes» na ordem certa."
+   }
+  },
+  {
+   "id": "p-6-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rampas diferentes» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rampas diferentes» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-6-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rampas diferentes» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rampas diferentes» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-6-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rampas diferentes» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rampas diferentes» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-7-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Canal com sedimentos» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Canal com sedimentos» na ordem certa."
+   }
+  },
+  {
+   "id": "p-7-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Canal com sedimentos» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Canal com sedimentos» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-7-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Canal com sedimentos» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Canal com sedimentos» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-7-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Canal com sedimentos» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Canal com sedimentos» à resposta correspondente."
+   }
+  },
+  {
+   "id": "p-8-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Chuva na tela» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Chuva na tela» na ordem certa."
+   }
+  },
+  {
+   "id": "p-8-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Chuva na tela» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Chuva na tela» à explicação correspondente."
+   }
+  },
+  {
+   "id": "p-8-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Chuva na tela» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Chuva na tela» nos dois grupos."
+   }
+  },
+  {
+   "id": "p-8-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Chuva na tela» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Chuva na tela» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-1-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Vaso no pátio» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Vaso no pátio» na ordem certa."
+   }
+  },
+  {
+   "id": "e-1-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Vaso no pátio» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Vaso no pátio» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-1-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Vaso no pátio» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Vaso no pátio» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-1-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Vaso no pátio» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Vaso no pátio» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-1-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Trilha depois da chuva» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Trilha depois da chuva» na ordem certa."
+   }
+  },
+  {
+   "id": "e-1-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Trilha depois da chuva» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Trilha depois da chuva» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-1-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Trilha depois da chuva» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Trilha depois da chuva» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-1-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Trilha depois da chuva» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Trilha depois da chuva» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-1-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Bandeja com terra seca» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Bandeja com terra seca» na ordem certa."
+   }
+  },
+  {
+   "id": "e-1-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Bandeja com terra seca» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Bandeja com terra seca» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-1-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Bandeja com terra seca» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Bandeja com terra seca» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-1-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Bandeja com terra seca» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Bandeja com terra seca» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-2-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Horta com palha» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Horta com palha» na ordem certa."
+   }
+  },
+  {
+   "id": "e-2-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Horta com palha» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Horta com palha» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-2-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Horta com palha» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Horta com palha» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-2-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Horta com palha» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Horta com palha» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-2-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Folhas retiradas» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Folhas retiradas» na ordem certa."
+   }
+  },
+  {
+   "id": "e-2-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Folhas retiradas» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Folhas retiradas» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-2-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Folhas retiradas» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Folhas retiradas» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-2-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Folhas retiradas» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Folhas retiradas» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-2-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Cobertura incompleta» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Cobertura incompleta» na ordem certa."
+   }
+  },
+  {
+   "id": "e-2-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Cobertura incompleta» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Cobertura incompleta» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-2-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Cobertura incompleta» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Cobertura incompleta» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-2-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Cobertura incompleta» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Cobertura incompleta» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-3-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Muda no recipiente» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Muda no recipiente» na ordem certa."
+   }
+  },
+  {
+   "id": "e-3-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Muda no recipiente» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Muda no recipiente» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-3-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Muda no recipiente» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Muda no recipiente» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-3-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Muda no recipiente» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Muda no recipiente» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-3-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Grama arrancada» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Grama arrancada» na ordem certa."
+   }
+  },
+  {
+   "id": "e-3-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Grama arrancada» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Grama arrancada» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-3-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Grama arrancada» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Grama arrancada» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-3-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Grama arrancada» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Grama arrancada» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-3-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Folhas sobre terra sem plantas» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Folhas sobre terra sem plantas» na ordem certa."
+   }
+  },
+  {
+   "id": "e-3-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Folhas sobre terra sem plantas» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Folhas sobre terra sem plantas» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-3-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Folhas sobre terra sem plantas» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Folhas sobre terra sem plantas» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-3-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Folhas sobre terra sem plantas» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Folhas sobre terra sem plantas» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-4-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Volumes diferentes» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Volumes diferentes» na ordem certa."
+   }
+  },
+  {
+   "id": "e-4-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Volumes diferentes» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Volumes diferentes» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-4-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Volumes diferentes» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Volumes diferentes» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-4-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Volumes diferentes» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Volumes diferentes» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-4-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Solos diferentes» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Solos diferentes» na ordem certa."
+   }
+  },
+  {
+   "id": "e-4-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Solos diferentes» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Solos diferentes» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-4-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Solos diferentes» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Solos diferentes» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-4-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Solos diferentes» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Solos diferentes» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-4-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Regadores diferentes» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Regadores diferentes» na ordem certa."
+   }
+  },
+  {
+   "id": "e-4-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Regadores diferentes» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Regadores diferentes» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-4-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Regadores diferentes» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Regadores diferentes» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-4-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Regadores diferentes» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Regadores diferentes» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-5-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Material no fundo» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Material no fundo» na ordem certa."
+   }
+  },
+  {
+   "id": "e-5-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Material no fundo» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Material no fundo» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-5-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Material no fundo» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Material no fundo» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-5-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Material no fundo» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Material no fundo» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-5-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Copos de cores diferentes» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Copos de cores diferentes» na ordem certa."
+   }
+  },
+  {
+   "id": "e-5-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Copos de cores diferentes» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Copos de cores diferentes» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-5-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Copos de cores diferentes» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Copos de cores diferentes» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-5-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Copos de cores diferentes» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Copos de cores diferentes» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-5-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Volume recolhido» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Volume recolhido» na ordem certa."
+   }
+  },
+  {
+   "id": "e-5-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Volume recolhido» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Volume recolhido» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-5-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Volume recolhido» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Volume recolhido» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-5-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Volume recolhido» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Volume recolhido» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-6-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rampa igualada» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rampa igualada» na ordem certa."
+   }
+  },
+  {
+   "id": "e-6-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rampa igualada» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rampa igualada» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-6-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rampa igualada» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rampa igualada» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-6-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rampa igualada» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rampa igualada» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-6-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rampa mais comprida» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rampa mais comprida» na ordem certa."
+   }
+  },
+  {
+   "id": "e-6-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rampa mais comprida» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rampa mais comprida» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-6-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rampa mais comprida» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rampa mais comprida» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-6-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rampa mais comprida» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rampa mais comprida» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-6-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Barreira no caminho» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Barreira no caminho» na ordem certa."
+   }
+  },
+  {
+   "id": "e-6-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Barreira no caminho» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Barreira no caminho» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-6-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Barreira no caminho» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Barreira no caminho» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-6-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Barreira no caminho» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Barreira no caminho» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-7-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Parte baixa do quintal» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Parte baixa do quintal» na ordem certa."
+   }
+  },
+  {
+   "id": "e-7-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Parte baixa do quintal» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Parte baixa do quintal» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-7-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Parte baixa do quintal» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Parte baixa do quintal» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-7-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Parte baixa do quintal» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Parte baixa do quintal» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-7-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rio após a chuva» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Rio após a chuva» na ordem certa."
+   }
+  },
+  {
+   "id": "e-7-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rio após a chuva» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Rio após a chuva» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-7-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rio após a chuva» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Rio após a chuva» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-7-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rio após a chuva» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Rio após a chuva» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-7-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Solo coberto perto do canal» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Solo coberto perto do canal» na ordem certa."
+   }
+  },
+  {
+   "id": "e-7-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Solo coberto perto do canal» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Solo coberto perto do canal» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-7-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Solo coberto perto do canal» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Solo coberto perto do canal» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-7-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Solo coberto perto do canal» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Solo coberto perto do canal» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-8-1-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Teste com resultado diferente» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Teste com resultado diferente» na ordem certa."
+   }
+  },
+  {
+   "id": "e-8-1-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Teste com resultado diferente» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Teste com resultado diferente» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-8-1-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Teste com resultado diferente» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Teste com resultado diferente» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-8-1-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Teste com resultado diferente» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Teste com resultado diferente» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-8-2-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Repetição do teste» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Repetição do teste» na ordem certa."
+   }
+  },
+  {
+   "id": "e-8-2-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Repetição do teste» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Repetição do teste» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-8-2-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Repetição do teste» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Repetição do teste» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-8-2-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Repetição do teste» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Repetição do teste» à resposta correspondente."
+   }
+  },
+  {
+   "id": "e-8-3-1",
+   "antes": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Conclusão cuidadosa» na ordem certa."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Conclusão cuidadosa» na ordem certa."
+   }
+  },
+  {
+   "id": "e-8-3-2",
+   "antes": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Conclusão cuidadosa» à explicação correspondente."
+   },
+   "depois": {
+    "title": "Ligue cada expressão à explicação",
+    "command": "Ligue cada expressão de «Conclusão cuidadosa» à explicação correspondente."
+   }
+  },
+  {
+   "id": "e-8-3-3",
+   "antes": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Conclusão cuidadosa» nos dois grupos."
+   },
+   "depois": {
+    "title": "Separe o que podemos afirmar",
+    "command": "Separe as frases sobre «Conclusão cuidadosa» nos dois grupos."
+   }
+  },
+  {
+   "id": "e-8-3-4",
+   "antes": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Conclusão cuidadosa» à resposta correspondente."
+   },
+   "depois": {
+    "title": "Ligue a pergunta à resposta",
+    "command": "Ligue cada pergunta sobre «Conclusão cuidadosa» à resposta correspondente."
+   }
+  }
+ ]
+}

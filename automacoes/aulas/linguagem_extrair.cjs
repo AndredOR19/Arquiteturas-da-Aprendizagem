@@ -12,7 +12,7 @@ function extract(dir){const {C,clareza}=load(dir);const P=C.plain||null;const ou
  for(const rota of ['principal','exemplos'])for(const t of C.routes[rota]||[]){const d=t.data||{};
   const opcoes=t.kind==='match'?d.pairs.map(p=>p[1]):t.kind==='order'?d.parts.slice():t.kind==='sort'?[...d.yes,...d.no]:t.kind==='bars'||t.kind==='tally'?d.labels.slice():[];
   const perguntas=t.kind==='match'?d.pairs.map(p=>p[0]):t.kind==='sort'?d.labels.slice():[];
-  const situacao=P?P.story(t.case):null,exemplo=P?P.example(t,C.routes[rota]):null;
+  const situacao=P?(P.taskStory?.(t)||P.story(t.case)):null,exemplo=P?P.example(t,C.routes[rota]):null;
   const irmao=exemplo?C.routes[rota].find(x=>x.id===exemplo.id):null;
   const texto=[t.title,t.command,situacao?situacao.texto:t.explain,...perguntas,...opcoes].join(' ');
   out.itens.push({id:t.id,rota,caso:t.case,caso_titulo:C.cases[t.case]?.title||t.context,kind:t.kind,titulo:t.title,comando:t.command,original:t.original||{title:t.title,command:t.command},perguntas,opcoes,

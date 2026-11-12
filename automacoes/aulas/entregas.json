@@ -365,6 +365,64 @@
           ]
         }
       }
+    },
+    {
+      "id": "erosao-solo-7ano-v2",
+      "destino": "aulas/erosao-solo-7ano",
+      "recibo": "automacoes/aulas/execucoes/solo-vivo-integral/erosao-solo-7ano-v2-aceite.json",
+      "estado": "pronto_para_publicar",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/erosao-solo-7ano",
+        "destino": "aulas/erosao-solo-7ano",
+        "titulo": "Missão Solo Vivo",
+        "contrato_entrega": "3.9.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Práticas Experimentais"
+          ],
+          "series": [
+            "7º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Comparar a chuva em terrenos com e sem cobertura, manter as outras condições iguais e explicar o resultado observado.",
+          "titulo_exibicao": "Missão Solo Vivo",
+          "palavras_chave": [
+            "Chuva, erosão e proteção do solo"
+          ],
+          "registro_escola_rs": {
+            "titulo": "Missão Solo Vivo",
+            "resumo": "Comparar a chuva em terrenos com e sem cobertura, manter as outras condições iguais e explicar o resultado observado.",
+            "habilidades": [
+              "Competência geral 2 da BNCC: investigação, reflexão, análise crítica e teste de hipóteses. Recorte metodológico de Práticas Experimentais; não se atribui código específico de habilidade sem fonte curricular conferida."
+            ]
+          },
+          "apoio_leitura_url": "aulas/erosao-solo-7ano/apoio/",
+          "rotas": [
+            {
+              "titulo": "Imagens e palavras · 96 + 96 opcionais",
+              "url": "aulas/erosao-solo-7ano/apoio/"
+            },
+            {
+              "titulo": "Caderno da aula em PDF",
+              "url": "aulas/erosao-solo-7ano/aula-impressa.pdf"
+            },
+            {
+              "titulo": "Exemplos em PDF",
+              "url": "aulas/erosao-solo-7ano/exemplos.pdf"
+            },
+            {
+              "titulo": "Imagens e frases em PDF",
+              "url": "aulas/erosao-solo-7ano/apoio-leitura.pdf"
+            }
+          ]
+        },
+        "versao_visual": "solo-vivo-2.0.0"
+      }
     }
   ]
 }

@@ -1171,6 +1171,125 @@
         }
       ],
       "apoio_leitura_url": "aulas/pesquisa-e-dados-7ano/apoio/?materia=Estudos+Orientados&tema=Ag%C3%AAncia+dos+Dados&voltar=..%2F"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Estudos Orientados"
+      ],
+      "series": [
+        "7º ano"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Clube dos Gráficos — escolhas da escola"
+      ],
+      "id": "aulas/clube-dos-graficos-7ano",
+      "titulo": "Clube dos Gráficos — escolhas da escola",
+      "descricao": "Hoje você vai contar respostas, montar gráficos e conferir o que uma pesquisa sobre a escola permite dizer.",
+      "url": "aulas/clube-dos-graficos-7ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Vozes, direitos e democracia"
+      ],
+      "id": "aulas/racismo-autoritarismo-e-democracia-9ano",
+      "titulo": "Vozes, direitos e democracia",
+      "descricao": "Hoje você vai ligar racismo, autoritarismo e lutas por direitos, comparando períodos e fontes sem confundir suas diferenças.",
+      "url": "aulas/racismo-autoritarismo-e-democracia-9ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Vozes, direitos e democracia",
+        "resumo": "Hoje você vai ligar racismo, autoritarismo e lutas por direitos, comparando períodos e fontes sem confundir suas diferenças.",
+        "habilidades": "BNCC, sínteses didáticas: EF09HI04 — participação da população negra na formação do Brasil; EF09HI20 — resistências durante a ditadura; EF09HI22 — mobilização até 1988; EF09HI23 — cidadania e combate ao racismo na Constituição. Fonte: MEC, BNCC final, páginas impressas 429 e 431."
+      },
+      "rotas": [
+        {
+          "titulo": "Leitura, aula principal e exemplos",
+          "url": "aulas/racismo-autoritarismo-e-democracia-9ano/"
+        },
+        {
+          "titulo": "Imagens, palavras e frases opcionais",
+          "url": "aulas/racismo-autoritarismo-e-democracia-9ano/apoio/"
+        },
+        {
+          "titulo": "Caderno em PDF",
+          "url": "aulas/racismo-autoritarismo-e-democracia-9ano/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/racismo-autoritarismo-e-democracia-9ano/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/racismo-autoritarismo-e-democracia-9ano/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "7º ano"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Chuva, erosão e proteção do solo"
+      ],
+      "id": "aulas/erosao-solo-7ano",
+      "titulo": "Missão Solo Vivo",
+      "descricao": "Comparar a chuva em terrenos com e sem cobertura, manter as outras condições iguais e explicar o resultado observado.",
+      "url": "aulas/erosao-solo-7ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Missão Solo Vivo",
+        "resumo": "Comparar a chuva em terrenos com e sem cobertura, manter as outras condições iguais e explicar o resultado observado.",
+        "habilidades": [
+          "Competência geral 2 da BNCC: investigação, reflexão, análise crítica e teste de hipóteses. Recorte metodológico de Práticas Experimentais; não se atribui código específico de habilidade sem fonte curricular conferida."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Imagens e palavras · 96 + 96 opcionais",
+          "url": "aulas/erosao-solo-7ano/apoio/"
+        },
+        {
+          "titulo": "Caderno da aula em PDF",
+          "url": "aulas/erosao-solo-7ano/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Exemplos em PDF",
+          "url": "aulas/erosao-solo-7ano/exemplos.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/erosao-solo-7ano/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/erosao-solo-7ano/apoio/"
     }
   ]
 }

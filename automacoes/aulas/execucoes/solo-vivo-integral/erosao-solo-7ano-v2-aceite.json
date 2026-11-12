@@ -1,0 +1,215 @@
+{
+  "versao": "3.9.0",
+  "aula": "erosao-solo-7ano-v2",
+  "estado": "pronto_para_publicar",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "pacote_sha256": "cd3686ac4cf31162ed164e2390465b3c4ac2dbf8c7b6f8aa0b915e5300d8c2d9",
+  "requisitos": {
+    "curriculo_aee": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Tema e duração expressos no pedido; competência geral 2 conferida na BNCC, sem código específico inventado; AEE e comparação experimental. Ausência de plano específico e aplicação não confirmada registradas."
+    },
+    "jogos_principal": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Núcleo GEI com personagem, cenário temático, quatro locais e inventário; operações de sequência, ligação e classificação. Entrada direta guiada prevalece, conforme clareza-2."
+    },
+    "jogos_exemplos": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "96 construções com contextos próprios, cenários e modelo de outro caso; progresso independente."
+    },
+    "jogos_apoio": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Adendo 3.9.1 aplicado: 96 associações e 96 frases, oito conjuntos de 12 por fase; operação associativa direta, sem RPG obrigatório. Versão inicial preservada, sem conversão de registros."
+    },
+    "visual_tema_idade": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Esquema autoral de dois terrenos e objetos do solo; composição consistente, modo simples e imagens claras no apoio."
+    },
+    "pdf_discente": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Caderno com capa, tabuleiro e 128 cartas; apoio com 192 atividades ilustradas; exemplos extraídos em arquivo próprio."
+    },
+    "pdf_docente": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/pdf-docente.json",
+          "sha256": "976b85ffae2a05ff5a5f590ae7bd1ddefa7143e15750cadefff923844936c37e"
+        }
+      ],
+      "observacao": "Uma página de exposição contínua, pronta para leitura e explicação; arquivo privado separado."
+    },
+    "acessibilidade_tres_rotas": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Botões e foco, controles diretos, voz com alternativa textual, contraste, menos estímulos e ajustes reversíveis; 390/1366 px conferidos no Chrome."
+    },
+    "avaliacao_recuperacao": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Modo clareza-2: erros não ampliam carga. Primeiras tentativas preservadas; nota só após 32 originais e confirmação completa da experiência. Apoios separados."
+    },
+    "relatorios_tres_rotas": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Relatórios integrais de principal/exemplos e fases inclusivas; sem coleta ou envio fictício. JSON/TXT e cópia; aplicação local explícita."
+    },
+    "registro_escola_rs": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Título, resumo e competência iguais no cadastro e no componente de registro da aula; cópia e seleção manual disponíveis."
+    },
+    "privacidade_licencas": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Nenhum dado real de aluno, segredo ou PDF docente no pacote; imagens vetoriais autorais. Texto expositivo docente removido do conteúdo discente."
+    },
+    "navegador_multiplataforma": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Chrome real: erro/acerto, retenção após recarga, principal, exemplos, apoio e simulação. Emulação de larguras 390/1366; não se afirma teste em dispositivos físicos."
+    },
+    "pdf_renderizado": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Todas as páginas do caderno e apoio renderizadas e vistas em folhas de contato; exemplos são as mesmas páginas extraídas. Página docente inspecionada."
+    },
+    "conteudo_reutilizavel": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "Série/componente/tema sem data/turma de aplicação; identificação contextual somente nos relatórios. Legado tem chaves antigas separadas."
+    },
+    "linguagem_clara": {
+      "estado": "aprovado",
+      "responsavel": "revisao tecnica e pedagogica assistida",
+      "verificado_em": "2026-11-12T12:54:01.913296+00:00",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
+          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+        }
+      ],
+      "observacao": "128 atividades curriculares no validador: zero bloqueios e zero avisos; exemplo de outro caso. Observação real de compreensão em sala permanece pendente, explicitamente."
+    }
+  },
+  "publicacao": {
+    "pages": {
+      "estado": "pendente"
+    },
+    "vercel": {
+      "estado": "bloqueada",
+      "motivo": "403 forbidden no escopo conectado; projeto existente indisponível"
+    }
+  },
+  "linguagem_relatorio": "automacoes/aulas/evidencias/solo-linguagem/relatorio.json"
+}

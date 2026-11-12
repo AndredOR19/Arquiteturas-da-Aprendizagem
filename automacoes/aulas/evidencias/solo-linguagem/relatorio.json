@@ -1,0 +1,1967 @@
+{
+ "protocolo": "linguagem-clara-3.9",
+ "gerado_em": "2026-11-12T12:53:28.406156+00:00",
+ "criterios": {
+  "bloqueios": [
+   "rotulo_interno_visivel",
+   "jargao_no_comando",
+   "pergunta_vazia",
+   "comando_sem_acao",
+   "exemplo_ausente",
+   "exemplo_do_proprio_caso",
+   "situacao_ausente"
+  ],
+  "avisos": [
+   "frase_longa",
+   "jargao_no_conteudo",
+   "palavra_dificil_alem_do_glossario",
+   "muitas_opcoes",
+   "opcao_longa"
+  ]
+ },
+ "limite": "Filtro preliminar. Ausência de alerta não comprova compreensão; exige revisão humana e observação com estudantes.",
+ "aulas": {
+  "erosao-solo-7ano-v2": {
+   "titulo": "Missão Solo Vivo",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "62a1a38b4bed753872c3e723b5c73db6c14093bf19f12f61504f341103dac999",
+   "clareza_sha256": "42cc8060eb029a18729870fce8a81bb335baf8e3ef509f7777f793f2693ac887",
+   "abertura": "Comparar a chuva em terrenos com e sem cobertura, manter as outras condições iguais e explicar o resultado observado.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 0,
+   "bloqueado": 0,
+   "revisao_humana": 0,
+   "aprovado_automatico": 128,
+   "regras": {},
+   "itens": [
+    {
+     "id": "p-1-1",
+     "rota": "principal",
+     "caso": "Caminhos da chuva",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Canteiro da escola» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Canteiro da escola» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-2",
+     "rota": "principal",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Canteiro da escola» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Canteiro da escola» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-3",
+     "rota": "principal",
+     "caso": "Caminhos da chuva",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Canteiro da escola» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Canteiro da escola» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-4",
+     "rota": "principal",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Canteiro da escola» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Canteiro da escola» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-1",
+     "rota": "principal",
+     "caso": "Folhas como proteção",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Duas bandejas» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Duas bandejas» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-2",
+     "rota": "principal",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Duas bandejas» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Duas bandejas» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-3",
+     "rota": "principal",
+     "caso": "Folhas como proteção",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Duas bandejas» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Duas bandejas» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-4",
+     "rota": "principal",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Duas bandejas» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Duas bandejas» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-1",
+     "rota": "principal",
+     "caso": "Raízes e solo",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Grama com raízes» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Grama com raízes» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-2",
+     "rota": "principal",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Grama com raízes» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Grama com raízes» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-3",
+     "rota": "principal",
+     "caso": "Raízes e solo",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Grama com raízes» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Grama com raízes» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-4",
+     "rota": "principal",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Grama com raízes» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Grama com raízes» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-1",
+     "rota": "principal",
+     "caso": "Uma comparação justa",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «A mesma chuva» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «A mesma chuva» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-2",
+     "rota": "principal",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «A mesma chuva» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «A mesma chuva» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-3",
+     "rota": "principal",
+     "caso": "Uma comparação justa",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «A mesma chuva» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «A mesma chuva» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-4",
+     "rota": "principal",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «A mesma chuva» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «A mesma chuva» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-1",
+     "rota": "principal",
+     "caso": "O copo coletor",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Água turva» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Água turva» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-2",
+     "rota": "principal",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Água turva» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Água turva» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-3",
+     "rota": "principal",
+     "caso": "O copo coletor",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Água turva» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Água turva» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-4",
+     "rota": "principal",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Água turva» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Água turva» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-1",
+     "rota": "principal",
+     "caso": "Inclinação do terreno",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Rampas diferentes» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Rampas diferentes» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-2",
+     "rota": "principal",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Rampas diferentes» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Rampas diferentes» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-3",
+     "rota": "principal",
+     "caso": "Inclinação do terreno",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Rampas diferentes» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Rampas diferentes» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-4",
+     "rota": "principal",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Rampas diferentes» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Rampas diferentes» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-1",
+     "rota": "principal",
+     "caso": "Para onde vai a terra",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Canal com sedimentos» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Canal com sedimentos» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-2",
+     "rota": "principal",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Canal com sedimentos» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Canal com sedimentos» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-3",
+     "rota": "principal",
+     "caso": "Para onde vai a terra",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Canal com sedimentos» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Canal com sedimentos» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-4",
+     "rota": "principal",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Canal com sedimentos» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Canal com sedimentos» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-1",
+     "rota": "principal",
+     "caso": "Simulação e teste real",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Chuva na tela» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Chuva na tela» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-2",
+     "rota": "principal",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Chuva na tela» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Chuva na tela» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-3",
+     "rota": "principal",
+     "caso": "Simulação e teste real",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Chuva na tela» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Chuva na tela» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-4",
+     "rota": "principal",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Chuva na tela» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Chuva na tela» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-1",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Vaso no pátio» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Vaso no pátio» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-2",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Vaso no pátio» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Vaso no pátio» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-3",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Vaso no pátio» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Vaso no pátio» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-4",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Vaso no pátio» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Vaso no pátio» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-1",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Trilha depois da chuva» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Trilha depois da chuva» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-2",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Trilha depois da chuva» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Trilha depois da chuva» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-3",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Trilha depois da chuva» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Trilha depois da chuva» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-4",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Trilha depois da chuva» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Trilha depois da chuva» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-1",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Bandeja com terra seca» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Bandeja com terra seca» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-2",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Bandeja com terra seca» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Bandeja com terra seca» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-3",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Bandeja com terra seca» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Bandeja com terra seca» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-4",
+     "rota": "exemplos",
+     "caso": "Caminhos da chuva",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Bandeja com terra seca» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Bandeja com terra seca» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-1",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Horta com palha» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Horta com palha» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-2",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Horta com palha» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Horta com palha» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-3",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Horta com palha» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Horta com palha» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-4",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Horta com palha» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Horta com palha» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-1",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Folhas retiradas» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Folhas retiradas» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-2",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Folhas retiradas» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Folhas retiradas» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-3",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Folhas retiradas» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Folhas retiradas» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-4",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Folhas retiradas» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Folhas retiradas» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-1",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Cobertura incompleta» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Cobertura incompleta» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-2",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Cobertura incompleta» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Cobertura incompleta» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-3",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Cobertura incompleta» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Cobertura incompleta» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-4",
+     "rota": "exemplos",
+     "caso": "Folhas como proteção",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Cobertura incompleta» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Cobertura incompleta» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-1",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Muda no recipiente» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Muda no recipiente» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-2",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Muda no recipiente» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Muda no recipiente» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-3",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Muda no recipiente» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Muda no recipiente» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-4",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Muda no recipiente» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Muda no recipiente» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-1",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Grama arrancada» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Grama arrancada» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-2",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Grama arrancada» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Grama arrancada» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-3",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Grama arrancada» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Grama arrancada» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-4",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Grama arrancada» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Grama arrancada» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-1",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Folhas sobre terra sem plantas» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Folhas sobre terra sem plantas» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-2",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Folhas sobre terra sem plantas» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Folhas sobre terra sem plantas» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-3",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Folhas sobre terra sem plantas» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Folhas sobre terra sem plantas» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-4",
+     "rota": "exemplos",
+     "caso": "Raízes e solo",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Folhas sobre terra sem plantas» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Folhas sobre terra sem plantas» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-1",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Volumes diferentes» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Volumes diferentes» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-2",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Volumes diferentes» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Volumes diferentes» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-3",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Volumes diferentes» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Volumes diferentes» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-4",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Volumes diferentes» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Volumes diferentes» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-1",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Solos diferentes» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Solos diferentes» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-2",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Solos diferentes» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Solos diferentes» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-3",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Solos diferentes» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Solos diferentes» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-4",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Solos diferentes» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Solos diferentes» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-1",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Regadores diferentes» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Regadores diferentes» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-2",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Regadores diferentes» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Regadores diferentes» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-3",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Regadores diferentes» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Regadores diferentes» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-4",
+     "rota": "exemplos",
+     "caso": "Uma comparação justa",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Regadores diferentes» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Regadores diferentes» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-1",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Material no fundo» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Material no fundo» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-2",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Material no fundo» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Material no fundo» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-3",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Material no fundo» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Material no fundo» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-4",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Material no fundo» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Material no fundo» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-1",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Copos de cores diferentes» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Copos de cores diferentes» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-2",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Copos de cores diferentes» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Copos de cores diferentes» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-3",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Copos de cores diferentes» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Copos de cores diferentes» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-4",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Copos de cores diferentes» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Copos de cores diferentes» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-1",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Volume recolhido» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Volume recolhido» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-2",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Volume recolhido» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Volume recolhido» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-3",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Volume recolhido» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Volume recolhido» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-4",
+     "rota": "exemplos",
+     "caso": "O copo coletor",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Volume recolhido» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Volume recolhido» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-1",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Rampa igualada» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Rampa igualada» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-2",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Rampa igualada» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Rampa igualada» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-3",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Rampa igualada» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Rampa igualada» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-4",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Rampa igualada» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Rampa igualada» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-1",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Rampa mais comprida» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Rampa mais comprida» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-2",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Rampa mais comprida» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Rampa mais comprida» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-3",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Rampa mais comprida» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Rampa mais comprida» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-4",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Rampa mais comprida» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Rampa mais comprida» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-1",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Barreira no caminho» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Barreira no caminho» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-2",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Barreira no caminho» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Barreira no caminho» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-3",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Barreira no caminho» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Barreira no caminho» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-4",
+     "rota": "exemplos",
+     "caso": "Inclinação do terreno",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Barreira no caminho» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Barreira no caminho» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-1",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Parte baixa do quintal» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Parte baixa do quintal» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-2",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Parte baixa do quintal» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Parte baixa do quintal» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-3",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Parte baixa do quintal» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Parte baixa do quintal» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-4",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Parte baixa do quintal» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Parte baixa do quintal» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-1",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Rio após a chuva» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Rio após a chuva» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-2",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Rio após a chuva» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Rio após a chuva» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-3",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Rio após a chuva» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Rio após a chuva» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-4",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Rio após a chuva» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Rio após a chuva» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-1",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Solo coberto perto do canal» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Solo coberto perto do canal» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-2",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Solo coberto perto do canal» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Solo coberto perto do canal» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-3",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Solo coberto perto do canal» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Solo coberto perto do canal» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-4",
+     "rota": "exemplos",
+     "caso": "Para onde vai a terra",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Solo coberto perto do canal» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Solo coberto perto do canal» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-1",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Teste com resultado diferente» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Teste com resultado diferente» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-2",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Teste com resultado diferente» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Teste com resultado diferente» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-3",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Teste com resultado diferente» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Teste com resultado diferente» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-4",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Teste com resultado diferente» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Teste com resultado diferente» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-1",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Repetição do teste» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Repetição do teste» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-2",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Repetição do teste» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Repetição do teste» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-3",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Repetição do teste» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Repetição do teste» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-4",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Repetição do teste» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Repetição do teste» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-1",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "order",
+     "titulo": "Coloque os passos na ordem",
+     "comando": "Coloque os passos de «Conclusão cuidadosa» na ordem certa.",
+     "antes": {
+      "title": "Coloque os passos na ordem",
+      "command": "Coloque os passos de «Conclusão cuidadosa» na ordem certa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-2",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue cada expressão à explicação",
+     "comando": "Ligue cada expressão de «Conclusão cuidadosa» à explicação correspondente.",
+     "antes": {
+      "title": "Ligue cada expressão à explicação",
+      "command": "Ligue cada expressão de «Conclusão cuidadosa» à explicação correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-3",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "sort",
+     "titulo": "Separe o que podemos afirmar",
+     "comando": "Separe as frases sobre «Conclusão cuidadosa» nos dois grupos.",
+     "antes": {
+      "title": "Separe o que podemos afirmar",
+      "command": "Separe as frases sobre «Conclusão cuidadosa» nos dois grupos."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-4",
+     "rota": "exemplos",
+     "caso": "Simulação e teste real",
+     "kind": "match",
+     "titulo": "Ligue a pergunta à resposta",
+     "comando": "Ligue cada pergunta sobre «Conclusão cuidadosa» à resposta correspondente.",
+     "antes": {
+      "title": "Ligue a pergunta à resposta",
+      "command": "Ligue cada pergunta sobre «Conclusão cuidadosa» à resposta correspondente."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    }
+   ]
+  }
+ },
+ "total": {
+  "atividades": 128,
+  "bloqueado": 0,
+  "revisao_humana": 0,
+  "aprovado_automatico": 128
+ }
+}

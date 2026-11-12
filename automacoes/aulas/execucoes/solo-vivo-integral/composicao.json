@@ -1,0 +1,17 @@
+{
+  "aula": "erosao-solo-7ano-v2",
+  "url_preservada": "aulas/erosao-solo-7ano",
+  "tema": "Chuva, erosão e proteção do solo",
+  "serie": "7º ano",
+  "componente": "Práticas Experimentais",
+  "duracao": "2 períodos conforme pedido",
+  "estado_aplicacao": "planejada_nao_confirmada",
+  "motor_commit": "c267a67bc635abba6e52e782699014f320566368",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "fluxo": "03 com clareza-2 guiada",
+  "metodo": "exposição explicativa, demonstração e comparação controlada",
+  "inclusao": "96 associações + 96 frases opcionais, com registros próprios",
+  "sequencia": "Entender → Observar → Percursos → Explicar",
+  "fontes": "BNCC competência geral 2, Embrapa, pedido expresso do professor",
+  "limites": "sem plano específico recebido, sem aplicação confirmada, sem eficácia inferida; Vercel indisponível no escopo conectado"
+}
