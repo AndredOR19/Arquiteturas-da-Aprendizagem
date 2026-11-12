@@ -1,0 +1,18 @@
+{
+  "navegador": "Chrome em navegador remoto",
+  "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/",
+  "observado": [
+    "Página inicial e três rotas disponíveis.",
+    "Entender a aula abre os oito trechos de leitura compartilhada.",
+    "Começar a atividade abre comando, situação e exemplo de outro caso.",
+    "Erro na ordem temporal mostra correção e permite nova tentativa.",
+    "Apoio: erro não conclui item; acerto permite próximo; recarga retém 1/96 e item2.",
+    "Figuras e opções legíveis na captura."
+  ],
+  "nao_verificado": [
+    "Aparelhos físicos Chromebook/Android.",
+    "Voz real disponível em cada aparelho.",
+    "Compreensão com estudantes."
+  ],
+  "observacao_em_sala": "pendente"
+}

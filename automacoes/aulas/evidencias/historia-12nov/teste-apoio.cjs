@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');const {JSDOM,VirtualConsole}=require('jsdom');
-const root=path.resolve('historia-12nov/aulas/racismo-autoritarismo-e-democracia-9ano/apoio');const html=fs.readFileSync(root+'/index.html','utf8');let saved={},svgs={},errors=[];
+const root=path.resolve(process.env.APOIO_ROOT||'aulas/racismo-autoritarismo-e-democracia-9ano/apoio');const html=fs.readFileSync(root+'/index.html','utf8');let saved={},svgs={},errors=[];
 function open(){const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));const d=new JSDOM(html,{url:'https://teste.example/apoio/',runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){w.speechSynthesis={cancel(){},getVoices(){return[]},speak(){}};w.SpeechSynthesisUtterance=class{};w.URL.createObjectURL=()=> 'blob:teste';w.URL.revokeObjectURL=()=>{};w.HTMLAnchorElement.prototype.click=()=>{};}});for(const [k,v]of Object.entries(saved))d.window.localStorage.setItem(k,v);d.window.eval(fs.readFileSync(root+'/apoio.js','utf8'));return d;}
 let dom=open(),w=dom.window,$=id=>w.document.getElementById(id),A=w.ApoioInclusivoV2;
 assert.equal(A.content.phases.associacoes.length,96);assert.equal(A.content.phases.frases.length,96);assert($('example').textContent.includes('outra situação'));assert($('invite').closest('#finish').hidden);

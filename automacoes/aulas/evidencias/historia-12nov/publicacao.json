@@ -1,0 +1,110 @@
+[
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/",
+    "http": 200,
+    "bytes": 7678,
+    "sha256": "25fb3268eb212ef7366ef52ecf121ddf870ef6e2974a251895e9297f96ca7dda"
+  },
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/assets/conteudo.js",
+    "http": 200,
+    "bytes": 385576,
+    "sha256": "42f6195937196f6667e965e4fcd09650fc4bb7daf0c4a076d536c5c45d6de0eb",
+    "igual_local": true
+  },
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/apoio/",
+    "http": 200,
+    "bytes": 153717,
+    "sha256": "6bd2420b0b7571b0e523aac64adca77066aef2633473519aacca98c961f5a821"
+  },
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/apoio/apoio.js",
+    "http": 200,
+    "bytes": 9816,
+    "sha256": "76d6fa90ff2a691048aa61dc6519f0a26d00b6005237064400416f477c00b7c2",
+    "igual_local": true
+  },
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/apoio/banco.json",
+    "http": 200,
+    "bytes": 219132,
+    "sha256": "50bd20b3f3abad07c0c41830fb43497b49595df5d3907aba5be89f8c0d30a4b1",
+    "igual_local": true
+  },
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/aula-impressa.pdf",
+    "http": 200,
+    "bytes": 540052,
+    "sha256": "1d10e179df1aec7626c6a41d6f2d5f4d605d89b0e451789f6c2de7ec6064ea94",
+    "igual_local": true
+  },
+  {
+    "destino": "vercel",
+    "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/apoio-leitura.pdf",
+    "http": 200,
+    "bytes": 262758,
+    "sha256": "bbf216f54697b683c0c3ee3c44a80c30f19025125a70ee9efd934f052914fa9e",
+    "igual_local": true
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/",
+    "http": 200,
+    "bytes": 7678,
+    "sha256": "25fb3268eb212ef7366ef52ecf121ddf870ef6e2974a251895e9297f96ca7dda"
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/assets/conteudo.js",
+    "http": 200,
+    "bytes": 385576,
+    "sha256": "42f6195937196f6667e965e4fcd09650fc4bb7daf0c4a076d536c5c45d6de0eb",
+    "igual_local": true
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/apoio/",
+    "http": 200,
+    "bytes": 153717,
+    "sha256": "6bd2420b0b7571b0e523aac64adca77066aef2633473519aacca98c961f5a821"
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/apoio/apoio.js",
+    "http": 200,
+    "bytes": 9816,
+    "sha256": "76d6fa90ff2a691048aa61dc6519f0a26d00b6005237064400416f477c00b7c2",
+    "igual_local": true
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/apoio/banco.json",
+    "http": 200,
+    "bytes": 219132,
+    "sha256": "50bd20b3f3abad07c0c41830fb43497b49595df5d3907aba5be89f8c0d30a4b1",
+    "igual_local": true
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/aula-impressa.pdf",
+    "http": 200,
+    "bytes": 540052,
+    "sha256": "1d10e179df1aec7626c6a41d6f2d5f4d605d89b0e451789f6c2de7ec6064ea94",
+    "igual_local": true
+  },
+  {
+    "destino": "pages",
+    "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/apoio-leitura.pdf",
+    "http": 200,
+    "bytes": 262758,
+    "sha256": "bbf216f54697b683c0c3ee3c44a80c30f19025125a70ee9efd934f052914fa9e",
+    "igual_local": true
+  }
+]

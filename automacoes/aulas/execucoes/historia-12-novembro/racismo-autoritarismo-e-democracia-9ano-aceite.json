@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "racismo-autoritarismo-e-democracia-9ano",
-  "estado": "pronto_para_publicar",
+  "estado": "publicado_verificado",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "ab379ec71b623b3b20ba3a93035a6008d4b18f0729c3b6c18ead4a43bcba890c",
   "requisitos": {
@@ -19,6 +19,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Plano recebido, continuidade, BNCC/RCG conferidos; AEE, D/R/E/L, recuperação e transferência; sem inventar aplicação Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -39,6 +47,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -59,6 +75,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -79,6 +103,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Apoio associativo anterior preservado: banco, sequência, imagens/objetos, palavras, letras, sílabas, montagem e contexto; acesso direto, áudio e mediação, sem RPG obrigatório nem leitura de missões. Alterar somente layout conforme pedido. Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -99,6 +131,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura. Fundos/composições específicos por tema e ilustrações claras dos objetos existentes, sem repetir a mesma cena genérica. Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -119,6 +159,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -139,6 +187,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado. Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -159,6 +215,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -179,6 +243,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "32 originais e primeira confirmação preservados; regra 1/2/4 e teto 128 informados; apoios livres; experiência obrigatória antes de nota final Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -199,6 +271,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Prévia/cópia/TXT/JSON integrais, tentativas e apoios reais separados; entrega manual explícita ou recibo real; sem envio fictício Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -219,6 +299,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Mesmo título/resumo/habilidades no acervo e aula, cópia integral; sem afirmar envio ao Escola RS Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -239,6 +327,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Sem dados de estudantes, segredos ou guias no pacote discente; direitos de todos os ativos conferidos Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -259,6 +355,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Evidências por rota em desktop, Chromebook e celular; toque e teclado, recarga, erro/acerto, progresso e exportações Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -279,6 +383,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Todas as páginas de PDFs renderizadas e inspecionadas; sem cortes, sobreposições, fontes ausentes ou imagens ilegíveis Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -299,6 +411,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -319,6 +439,14 @@
         {
           "arquivo": "automacoes/aulas/evidencias/historia-12nov/apoio.txt",
           "sha256": "4a0eb7ae3aa825dad1c1771329c4fddb35d35100549fab59d19a98357ee661bd"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/navegador.json",
+          "sha256": "d284db6ee536ff4976d8e95a3c9418130bc90d3bd0fbc0592aa7d844feb90564"
+        },
+        {
+          "arquivo": "automacoes/aulas/evidencias/historia-12nov/publicacao.json",
+          "sha256": "f129bb0b0834429b91ccff1e4ead6e504df2124c8bbb8de7d6c207d65deb7262"
         }
       ],
       "observacao": "Seção 38: VEJA → ENTENDA → EXEMPLO (outro caso) → AGORA É SUA VEZ → CONFERIR em toda atividade; sem rótulo interno visível; comando com ação concreta; exemplo com outros dados; resultado do próprio item só após a primeira tentativa. Entrega exige validador sem bloqueios, lista dos itens em revisão humana e roteiro de observação em sala; o resultado da observação é registrado quando ocorrer e fica como pendência explícita até lá — zero alertas não comprova compreensão. Evidências e limites em revisao.json; validação assistida não equivale à aplicação com alunos ou teste em aparelhos físicos.",
@@ -328,10 +456,22 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "estado": "verificado",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/racismo-autoritarismo-e-democracia-9ano/",
+      "http": 200,
+      "pacote_sha256": "ab379ec71b623b3b20ba3a93035a6008d4b18f0729c3b6c18ead4a43bcba890c",
+      "verificado_em": "2026-11-12T02:37:12.938255+00:00",
+      "qr_arquivo": "automacoes/aulas/execucoes/historia-12-novembro/qr-pages.svg",
+      "qr_sha256": "1fd9146d7cc6b025fc8ca4e319b13e088e3da355702fa475ef8e286e7f606631"
     },
     "vercel": {
-      "estado": "pendente"
+      "estado": "verificado",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/racismo-autoritarismo-e-democracia-9ano/",
+      "http": 200,
+      "pacote_sha256": "ab379ec71b623b3b20ba3a93035a6008d4b18f0729c3b6c18ead4a43bcba890c",
+      "verificado_em": "2026-11-12T02:37:12.938255+00:00",
+      "qr_arquivo": "automacoes/aulas/execucoes/historia-12-novembro/qr-vercel.svg",
+      "qr_sha256": "8585f9b1f721e1da8d3d5c20e0e244d28d11a5916e5012246a3bd68513d672e9"
     }
   },
   "linguagem_relatorio": "automacoes/aulas/evidencias/historia-12nov/linguagem/relatorio.json"
