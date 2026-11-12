@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "erosao-solo-7ano-v2",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "cd3686ac4cf31162ed164e2390465b3c4ac2dbf8c7b6f8aa0b915e5300d8c2d9",
   "requisitos": {
@@ -12,7 +12,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Tema e duração expressos no pedido; competência geral 2 conferida na BNCC, sem código específico inventado; AEE e comparação experimental. Ausência de plano específico e aplicação não confirmada registradas."
@@ -24,7 +24,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Núcleo GEI com personagem, cenário temático, quatro locais e inventário; operações de sequência, ligação e classificação. Entrada direta guiada prevalece, conforme clareza-2."
@@ -36,7 +36,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "96 construções com contextos próprios, cenários e modelo de outro caso; progresso independente."
@@ -48,7 +48,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Adendo 3.9.1 aplicado: 96 associações e 96 frases, oito conjuntos de 12 por fase; operação associativa direta, sem RPG obrigatório. Versão inicial preservada, sem conversão de registros."
@@ -60,7 +60,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Esquema autoral de dois terrenos e objetos do solo; composição consistente, modo simples e imagens claras no apoio."
@@ -72,7 +72,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Caderno com capa, tabuleiro e 128 cartas; apoio com 192 atividades ilustradas; exemplos extraídos em arquivo próprio."
@@ -84,7 +84,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         },
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/pdf-docente.json",
@@ -100,7 +100,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Botões e foco, controles diretos, voz com alternativa textual, contraste, menos estímulos e ajustes reversíveis; 390/1366 px conferidos no Chrome."
@@ -112,7 +112,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Modo clareza-2: erros não ampliam carga. Primeiras tentativas preservadas; nota só após 32 originais e confirmação completa da experiência. Apoios separados."
@@ -124,7 +124,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Relatórios integrais de principal/exemplos e fases inclusivas; sem coleta ou envio fictício. JSON/TXT e cópia; aplicação local explícita."
@@ -136,7 +136,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Título, resumo e competência iguais no cadastro e no componente de registro da aula; cópia e seleção manual disponíveis."
@@ -148,7 +148,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Nenhum dado real de aluno, segredo ou PDF docente no pacote; imagens vetoriais autorais. Texto expositivo docente removido do conteúdo discente."
@@ -160,7 +160,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Chrome real: erro/acerto, retenção após recarga, principal, exemplos, apoio e simulação. Emulação de larguras 390/1366; não se afirma teste em dispositivos físicos."
@@ -172,7 +172,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Todas as páginas do caderno e apoio renderizadas e vistas em folhas de contato; exemplos são as mesmas páginas extraídas. Página docente inspecionada."
@@ -184,7 +184,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "Série/componente/tema sem data/turma de aplicação; identificação contextual somente nos relatórios. Legado tem chaves antigas separadas."
@@ -196,7 +196,7 @@
       "evidencias": [
         {
           "arquivo": "automacoes/aulas/evidencias/solo-vivo/revisao.md",
-          "sha256": "7b938c71ec8a550a86b659846964b7bbbdcb05849129b4b74a02bed053ce2f63"
+          "sha256": "db49e69e67e6ce77956242029f781d084aed3b9adb6cacab762c5ec6eadd6299"
         }
       ],
       "observacao": "128 atividades curriculares no validador: zero bloqueios e zero avisos; exemplo de outro caso. Observação real de compreensão em sala permanece pendente, explicitamente."
@@ -204,12 +204,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "erosao-solo-7ano-v2",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/erosao-solo-7ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/718c8f3de11e4127bb4f.png",
+      "qr_sha256": "5d088bd9f3bf33c348ca8341c0f6e2aff6bb9425cb7942bb82edde0f5c244af8",
+      "verificado_em": "2026-11-12T12:59:19.290339+00:00",
+      "pacote_sha256": "cd3686ac4cf31162ed164e2390465b3c4ac2dbf8c7b6f8aa0b915e5300d8c2d9"
     },
     "vercel": {
-      "estado": "bloqueada",
-      "motivo": "403 forbidden no escopo conectado; projeto existente indisponível"
+      "aula": "erosao-solo-7ano-v2",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/erosao-solo-7ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/07e78e7da6d101a72605.png",
+      "qr_sha256": "069fe66b643938d28e70ea16db41cff584a2ae020132298ce4803a72188d9e85",
+      "verificado_em": "2026-11-12T12:59:23.617988+00:00",
+      "pacote_sha256": "cd3686ac4cf31162ed164e2390465b3c4ac2dbf8c7b6f8aa0b915e5300d8c2d9"
     }
   },
-  "linguagem_relatorio": "automacoes/aulas/evidencias/solo-linguagem/relatorio.json"
+  "linguagem_relatorio": "automacoes/aulas/evidencias/solo-linguagem/relatorio.json",
+  "pendencias_finais": []
 }

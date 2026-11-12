@@ -1,0 +1,27 @@
+{
+  "estado": "concluido",
+  "verificacoes": [
+    {
+      "aula": "erosao-solo-7ano-v2",
+      "destino": "pages",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/erosao-solo-7ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "718c8f3de11e4127bb4f.png",
+      "qr_sha256": "5d088bd9f3bf33c348ca8341c0f6e2aff6bb9425cb7942bb82edde0f5c244af8",
+      "verificado_em": "2026-11-12T12:59:19.290339+00:00"
+    },
+    {
+      "aula": "erosao-solo-7ano-v2",
+      "destino": "vercel",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/erosao-solo-7ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "07e78e7da6d101a72605.png",
+      "qr_sha256": "069fe66b643938d28e70ea16db41cff584a2ae020132298ce4803a72188d9e85",
+      "verificado_em": "2026-11-12T12:59:23.617988+00:00"
+    }
+  ]
+}

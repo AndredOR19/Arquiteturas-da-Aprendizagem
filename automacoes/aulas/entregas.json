@@ -370,7 +370,7 @@
       "id": "erosao-solo-7ano-v2",
       "destino": "aulas/erosao-solo-7ano",
       "recibo": "automacoes/aulas/execucoes/solo-vivo-integral/erosao-solo-7ano-v2-aceite.json",
-      "estado": "pronto_para_publicar",
+      "estado": "concluido",
       "catalogo": {
         "tipo": "html",
         "origem": "aulas/erosao-solo-7ano",
