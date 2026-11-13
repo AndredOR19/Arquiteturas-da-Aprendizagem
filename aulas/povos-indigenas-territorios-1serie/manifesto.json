@@ -1,0 +1,140 @@
+{
+  "projeto": "povos-indigenas-territorios-1serie",
+  "titulo": "Povos indígenas e territórios vivos",
+  "status": "adaptada_testes_em_revisao",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "4429839a1fa9b68f02240a257e26b7ca3d3674fd",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 96
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 469,
+      "sha256": "4d0489e05013fe4ce1e446827edad589c9174bbf4f4644c6458e9d744cbcd325"
+    },
+    {
+      "arquivo": "apoio/apoio.css",
+      "bytes": 2679,
+      "sha256": "f745179ad721806f5eb524fd8c2ab49c8381ab6ab083eda9f1f46146a1556bd7"
+    },
+    {
+      "arquivo": "apoio/apoio.js",
+      "bytes": 9826,
+      "sha256": "9be8a37d7d27b1b3ad86cbe44f25c5fe88ef353e13e93f3b575999840f1491dd"
+    },
+    {
+      "arquivo": "apoio/banco.json",
+      "bytes": 172554,
+      "sha256": "34049aafa7f3722f43b21bdb3ba1fb5a2a196e216a9f49ba5567d82e6cfb04ae"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 127453,
+      "sha256": "b7728e46a373fa34d507a07e0809eae944d4aa4eaf3c4961ac9a218066a78f78"
+    },
+    {
+      "arquivo": "apoio-leitura.pdf",
+      "bytes": 195730,
+      "sha256": "3befaea36c6dba53bf15a1fc8518a2a6dcfc2cb3349bcec74463aafd685860b4"
+    },
+    {
+      "arquivo": "assets/apoio-relacional.js",
+      "bytes": 148,
+      "sha256": "9c0c9b2eb73fa6c5d621646104df29a930d1cd8d050912610ad1815f834340e9"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 11113,
+      "sha256": "ae5937ac753a1f5e0cbf4167a79ba6dff4537726d3755ec3f81b424431eef6a8"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 42515,
+      "sha256": "39fc8b00a1e91501466d03fe96ae02e46c2dd52de6ed3283309e24b1e8504016"
+    },
+    {
+      "arquivo": "assets/cenario.png",
+      "bytes": 50615,
+      "sha256": "99acc9d4bd21a5079e6b404f11533bc515a3a203f01c5fb8743c13f9cde9bb35"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/clareza.css",
+      "bytes": 4674,
+      "sha256": "4e52efe782163878d6997446e96a9545616ff0dc8d2b2e5c177f424a24b31602"
+    },
+    {
+      "arquivo": "assets/clareza.js",
+      "bytes": 38309,
+      "sha256": "96012a8775cdc05ec93b66d956dab0c23e35628bbf060f44069b4e2e412d83f0"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 17146,
+      "sha256": "9cd5827bf4a6f347a089af78f4b39b9e1f3680768470775f10ce777cf4061bc0"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 180840,
+      "sha256": "22235f4d2a62a7cbbbf65dc3cd70ed85acefae32f51baef376a7fe9c494bdacd"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8792,
+      "sha256": "3fbf05aedd44cd01b4f75f3961717107460519b926d7b4b3ff93aa825f2910ce"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5361,
+      "sha256": "2abfade2644d120c2ec6b039d2fcec1057d83b40d0fe23d4a14b910fdfe8b058"
+    },
+    {
+      "arquivo": "assets/solo-lab.js",
+      "bytes": 2656,
+      "sha256": "6d06a1eea3237f0269bd3b2501d76d47f13498061b5b146d05299995cef04734"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 207515,
+      "sha256": "ca765af9e008fd204162c7887d562ebc2f771a7a68896f484d6af640c4357afc"
+    },
+    {
+      "arquivo": "exemplos.pdf",
+      "bytes": 115448,
+      "sha256": "668b2fa7a1d008e082b6b75055e293cd64d99f422e2732bd6ae15b9b320bd699"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7669,
+      "sha256": "bdb3f7cf7548e19884052f610907f1b39456ceda3690aa89154d651984b15877"
+    }
+  ],
+  "revisao_didatica": "clareza-2",
+  "apoio_inclusivo": {
+    "associacoes": 96,
+    "frases_opcionais": 96,
+    "versao": "1.0.0"
+  }
+}

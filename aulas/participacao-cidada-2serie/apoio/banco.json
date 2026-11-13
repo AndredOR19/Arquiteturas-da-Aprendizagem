@@ -1,0 +1,5448 @@
+{
+  "id": "participacao-cidada-2serie",
+  "version": "1.0.0",
+  "title": "Conselho da cidadania",
+  "subject": "História",
+  "grade": "2ª série do Ensino Médio",
+  "art": {
+    "ESCOLA": "<path d=\"M27 75h186v95H27Z\" fill=\"#d0ded9\"/><path d=\"m15 76 105-62 105 62Z\" fill=\"#bb8c69\"/><path d=\"M96 111h47v59H96Z\" fill=\"#e9c66d\"/><path d=\"M45 98h31v31H45Zm119 0h31v31h-31Z\" fill=\"#8cb9d3\"/>",
+    "GRUPO": "<g fill=\"#86b8b1\"><circle cx=\"55\" cy=\"60\" r=\"18\"/><path d=\"M27 144v-35q0-29 28-29t28 29v35Z\"/></g><g fill=\"#d7b86d\"><circle cx=\"120\" cy=\"44\" r=\"20\"/><path d=\"M88 144v-47q0-30 32-30t32 30v47Z\"/></g><g fill=\"#9bb2d2\"><circle cx=\"185\" cy=\"60\" r=\"18\"/><path d=\"M157 144v-35q0-29 28-29t28 29v35Z\"/></g>",
+    "MAPA": "<path d=\"m22 39 65-17 65 17 65-17v133l-65 17-65-17-65 17Z\" fill=\"#e7d9ae\"/><path d=\"M87 22v133m65-116v133\" fill=\"none\"/><path d=\"m42 120 38-46 49 47 55-62\" stroke=\"#558a8a\" stroke-width=\"7\" fill=\"none\"/>",
+    "LIVRO": "<path d=\"M22 39q50-20 98 0 48-20 98 0v119q-48-18-98 0-50-18-98 0Z\" fill=\"#f2dbb5\"/><path d=\"M120 39v119m-79-89h59m-59 25h59m40-25h59m-59 25h59\" fill=\"none\"/>",
+    "CARTA": "<path d=\"M27 45h186v113H27Z\" fill=\"#f1dfb5\"/><path d=\"m27 45 93 70 93-70m-186 113 67-61m119 61-67-61\" fill=\"none\"/>",
+    "URNA": "<path d=\"M48 63h144v105H48Z\" fill=\"#adc5bd\"/><path d=\"m48 63 24-25h98l22 25Z\" fill=\"#dce5df\"/><path d=\"M94 52h52\" stroke-width=\"8\"/><path d=\"m93 15 54-6 5 40-55 7Z\" fill=\"#f2dc96\"/>",
+    "MICROFONE": "<rect x=\"95\" y=\"16\" width=\"50\" height=\"90\" rx=\"24\" fill=\"#8caab2\"/><path d=\"M78 69v16q0 43 42 43t42-43V69m-42 59v37m-31 0h62\" fill=\"none\" stroke-width=\"7\"/>",
+    "MESA": "<path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/>",
+    "PAPEL": "<path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/>",
+    "CANETA": "<path d=\"m73 142 75-116 22 15-75 116-23 12Z\" fill=\"#6b9db7\"/><path d=\"m73 142 22 15-23 12Z\" fill=\"#e2bb84\"/>",
+    "PLACA": "<path d=\"M31 35h178v82H31Z\" fill=\"#f0d38d\"/><path d=\"M111 117h18v57h-18Z\" fill=\"#a17e5e\"/><path d=\"M61 62h118m-118 26h90\" fill=\"none\"/>",
+    "PESSOA": "<circle cx=\"120\" cy=\"43\" r=\"24\" fill=\"#b57e5f\"/><path d=\"M75 161v-60q0-33 45-33t45 33v60Z\" fill=\"#77a9b3\"/>",
+    "DOCUMENTO": "<path d=\"M55 20h122v145H55Z\" fill=\"#fff4d6\"/><path d=\"M75 56h80m-80 25h80m-80 25h65\"/>"
+  },
+  "phases": {
+    "associacoes": [
+      {
+        "id": "ass-1-1",
+        "word": "ESCOLA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure escola.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          },
+          {
+            "label": "urna",
+            "image": "URNA"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        }
+      },
+      {
+        "id": "ass-1-2",
+        "word": "GRUPO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure grupo.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          },
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          },
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        }
+      },
+      {
+        "id": "ass-1-3",
+        "word": "MAPA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure mapa.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "placa",
+            "image": "PLACA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        }
+      },
+      {
+        "id": "ass-1-4",
+        "word": "LIVRO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure livro.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        }
+      },
+      {
+        "id": "ass-1-5",
+        "word": "CARTA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure carta.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "carta",
+            "image": "CARTA"
+          },
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          },
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        }
+      },
+      {
+        "id": "ass-1-6",
+        "word": "URNA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure urna.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "urna",
+            "image": "URNA"
+          },
+          {
+            "label": "placa",
+            "image": "PLACA"
+          },
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        }
+      },
+      {
+        "id": "ass-1-7",
+        "word": "MICROFONE",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure microfone.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          },
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          },
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        }
+      },
+      {
+        "id": "ass-1-8",
+        "word": "MESA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure mesa.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          },
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        }
+      },
+      {
+        "id": "ass-1-9",
+        "word": "PAPEL",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure papel.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          },
+          {
+            "label": "carta",
+            "image": "CARTA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        }
+      },
+      {
+        "id": "ass-1-10",
+        "word": "CANETA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure caneta.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          },
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          },
+          {
+            "label": "urna",
+            "image": "URNA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        }
+      },
+      {
+        "id": "ass-1-11",
+        "word": "PLACA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure placa.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "placa",
+            "image": "PLACA"
+          },
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          },
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        }
+      },
+      {
+        "id": "ass-1-12",
+        "word": "PESSOA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure pessoa.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          },
+          {
+            "label": "carta",
+            "image": "CARTA"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        }
+      },
+      {
+        "id": "ass-2-1",
+        "word": "ESCOLA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Lugar de estudar.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "ESCOLA"
+          },
+          {
+            "label": "URNA"
+          },
+          {
+            "label": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        }
+      },
+      {
+        "id": "ass-2-2",
+        "word": "GRUPO",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Pessoas reunidas.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "GRUPO"
+          },
+          {
+            "label": "MICROFONE"
+          },
+          {
+            "label": "CANETA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        }
+      },
+      {
+        "id": "ass-2-3",
+        "word": "MAPA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Representação de um espaço.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "MAPA"
+          },
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "PLACA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        }
+      },
+      {
+        "id": "ass-2-4",
+        "word": "LIVRO",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto com páginas para leitura.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "LIVRO"
+          },
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "PESSOA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        }
+      },
+      {
+        "id": "ass-2-5",
+        "word": "CARTA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Mensagem em um envelope.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "CARTA"
+          },
+          {
+            "label": "CANETA"
+          },
+          {
+            "label": "ESCOLA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        }
+      },
+      {
+        "id": "ass-2-6",
+        "word": "URNA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Caixa representada com um voto.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "URNA"
+          },
+          {
+            "label": "PLACA"
+          },
+          {
+            "label": "GRUPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        }
+      },
+      {
+        "id": "ass-2-7",
+        "word": "MICROFONE",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que pode ampliar a voz.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "MICROFONE"
+          },
+          {
+            "label": "PESSOA"
+          },
+          {
+            "label": "MAPA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        }
+      },
+      {
+        "id": "ass-2-8",
+        "word": "MESA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel com tampo e pernas.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "ESCOLA"
+          },
+          {
+            "label": "LIVRO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        }
+      },
+      {
+        "id": "ass-2-9",
+        "word": "PAPEL",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para registrar uma proposta.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "GRUPO"
+          },
+          {
+            "label": "CARTA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        }
+      },
+      {
+        "id": "ass-2-10",
+        "word": "CANETA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para escrever.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "CANETA"
+          },
+          {
+            "label": "MAPA"
+          },
+          {
+            "label": "URNA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        }
+      },
+      {
+        "id": "ass-2-11",
+        "word": "PLACA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que apresenta um aviso.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "PLACA"
+          },
+          {
+            "label": "LIVRO"
+          },
+          {
+            "label": "MICROFONE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        }
+      },
+      {
+        "id": "ass-2-12",
+        "word": "PESSOA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma pessoa representada.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "PESSOA"
+          },
+          {
+            "label": "CARTA"
+          },
+          {
+            "label": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        }
+      },
+      {
+        "id": "ass-3-1",
+        "word": "ESCOLA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Lugar de estudar.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "E"
+          },
+          {
+            "label": "U"
+          },
+          {
+            "label": "P"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        },
+        "showWord": "ESCOLA"
+      },
+      {
+        "id": "ass-3-2",
+        "word": "GRUPO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Pessoas reunidas.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "G"
+          },
+          {
+            "label": "M"
+          },
+          {
+            "label": "C"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        },
+        "showWord": "GRUPO"
+      },
+      {
+        "id": "ass-3-3",
+        "word": "MAPA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Representação de um espaço.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "M"
+          },
+          {
+            "label": "P"
+          },
+          {
+            "label": "B"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        },
+        "showWord": "MAPA"
+      },
+      {
+        "id": "ass-3-4",
+        "word": "LIVRO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto com páginas para leitura.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "L"
+          },
+          {
+            "label": "P"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        },
+        "showWord": "LIVRO"
+      },
+      {
+        "id": "ass-3-5",
+        "word": "CARTA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Mensagem em um envelope.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "C"
+          },
+          {
+            "label": "E"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        },
+        "showWord": "CARTA"
+      },
+      {
+        "id": "ass-3-6",
+        "word": "URNA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Caixa representada com um voto.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "U"
+          },
+          {
+            "label": "P"
+          },
+          {
+            "label": "G"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        },
+        "showWord": "URNA"
+      },
+      {
+        "id": "ass-3-7",
+        "word": "MICROFONE",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que pode ampliar a voz.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "M"
+          },
+          {
+            "label": "P"
+          },
+          {
+            "label": "B"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        },
+        "showWord": "MICROFONE"
+      },
+      {
+        "id": "ass-3-8",
+        "word": "MESA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel com tampo e pernas.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "M"
+          },
+          {
+            "label": "E"
+          },
+          {
+            "label": "L"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        },
+        "showWord": "MESA"
+      },
+      {
+        "id": "ass-3-9",
+        "word": "PAPEL",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para registrar uma proposta.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "P"
+          },
+          {
+            "label": "G"
+          },
+          {
+            "label": "C"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        },
+        "showWord": "PAPEL"
+      },
+      {
+        "id": "ass-3-10",
+        "word": "CANETA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para escrever.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "C"
+          },
+          {
+            "label": "M"
+          },
+          {
+            "label": "U"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        },
+        "showWord": "CANETA"
+      },
+      {
+        "id": "ass-3-11",
+        "word": "PLACA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que apresenta um aviso.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "P"
+          },
+          {
+            "label": "L"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        },
+        "showWord": "PLACA"
+      },
+      {
+        "id": "ass-3-12",
+        "word": "PESSOA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma pessoa representada.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "P"
+          },
+          {
+            "label": "C"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        },
+        "showWord": "PESSOA"
+      },
+      {
+        "id": "ass-4-1",
+        "word": "ESCOLA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Lugar de estudar.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "ES"
+          },
+          {
+            "label": "UR"
+          },
+          {
+            "label": "PA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        },
+        "showWord": "ESCOLA",
+        "parts": "ES - CO - LA"
+      },
+      {
+        "id": "ass-4-2",
+        "word": "GRUPO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Pessoas reunidas.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "GRU"
+          },
+          {
+            "label": "MI"
+          },
+          {
+            "label": "CA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        },
+        "showWord": "GRUPO",
+        "parts": "GRU - PO"
+      },
+      {
+        "id": "ass-4-3",
+        "word": "MAPA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Representação de um espaço.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "MA"
+          },
+          {
+            "label": "ME"
+          },
+          {
+            "label": "PLA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        },
+        "showWord": "MAPA",
+        "parts": "MA - PA"
+      },
+      {
+        "id": "ass-4-4",
+        "word": "LIVRO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto com páginas para leitura.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "LI"
+          },
+          {
+            "label": "PA"
+          },
+          {
+            "label": "PES"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        },
+        "showWord": "LIVRO",
+        "parts": "LI - VRO"
+      },
+      {
+        "id": "ass-4-5",
+        "word": "CARTA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Mensagem em um envelope.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "CAR"
+          },
+          {
+            "label": "CA"
+          },
+          {
+            "label": "ES"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        },
+        "showWord": "CARTA",
+        "parts": "CAR - TA"
+      },
+      {
+        "id": "ass-4-6",
+        "word": "URNA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Caixa representada com um voto.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "UR"
+          },
+          {
+            "label": "PLA"
+          },
+          {
+            "label": "GRU"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        },
+        "showWord": "URNA",
+        "parts": "UR - NA"
+      },
+      {
+        "id": "ass-4-7",
+        "word": "MICROFONE",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que pode ampliar a voz.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "MI"
+          },
+          {
+            "label": "PES"
+          },
+          {
+            "label": "MA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        },
+        "showWord": "MICROFONE",
+        "parts": "MI - CRO - FO - NE"
+      },
+      {
+        "id": "ass-4-8",
+        "word": "MESA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel com tampo e pernas.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "ME"
+          },
+          {
+            "label": "ES"
+          },
+          {
+            "label": "LI"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        },
+        "showWord": "MESA",
+        "parts": "ME - SA"
+      },
+      {
+        "id": "ass-4-9",
+        "word": "PAPEL",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para registrar uma proposta.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "PA"
+          },
+          {
+            "label": "GRU"
+          },
+          {
+            "label": "CAR"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        },
+        "showWord": "PAPEL",
+        "parts": "PA - PEL"
+      },
+      {
+        "id": "ass-4-10",
+        "word": "CANETA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para escrever.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "CA"
+          },
+          {
+            "label": "MA"
+          },
+          {
+            "label": "UR"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        },
+        "showWord": "CANETA",
+        "parts": "CA - NE - TA"
+      },
+      {
+        "id": "ass-4-11",
+        "word": "PLACA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que apresenta um aviso.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "PLA"
+          },
+          {
+            "label": "LI"
+          },
+          {
+            "label": "MI"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        },
+        "showWord": "PLACA",
+        "parts": "PLA - CA"
+      },
+      {
+        "id": "ass-4-12",
+        "word": "PESSOA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma pessoa representada.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "PES"
+          },
+          {
+            "label": "CAR"
+          },
+          {
+            "label": "ME"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        },
+        "showWord": "PESSOA",
+        "parts": "PES - SO - A"
+      },
+      {
+        "id": "ass-5-1",
+        "word": "ESCOLA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Lugar de estudar.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "ES"
+          },
+          {
+            "label": "CO"
+          },
+          {
+            "label": "LA"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "GRU + PO forma GRUPO."
+        },
+        "showWord": "ESCOLA",
+        "parts": "Modelo para consultar: ESCOLA"
+      },
+      {
+        "id": "ass-5-2",
+        "word": "GRUPO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Pessoas reunidas.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "GRU"
+          },
+          {
+            "label": "PO"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "MA + PA forma MAPA."
+        },
+        "showWord": "GRUPO",
+        "parts": "Modelo para consultar: GRUPO"
+      },
+      {
+        "id": "ass-5-3",
+        "word": "MAPA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Representação de um espaço.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "MA"
+          },
+          {
+            "label": "PA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "LI + VRO forma LIVRO."
+        },
+        "showWord": "MAPA",
+        "parts": "Modelo para consultar: MAPA"
+      },
+      {
+        "id": "ass-5-4",
+        "word": "LIVRO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Objeto com páginas para leitura.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "LI"
+          },
+          {
+            "label": "VRO"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "CAR + TA forma CARTA."
+        },
+        "showWord": "LIVRO",
+        "parts": "Modelo para consultar: LIVRO"
+      },
+      {
+        "id": "ass-5-5",
+        "word": "CARTA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Mensagem em um envelope.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "CAR"
+          },
+          {
+            "label": "TA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "UR + NA forma URNA."
+        },
+        "showWord": "CARTA",
+        "parts": "Modelo para consultar: CARTA"
+      },
+      {
+        "id": "ass-5-6",
+        "word": "URNA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Caixa representada com um voto.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "UR"
+          },
+          {
+            "label": "NA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "MI + CRO + FO + NE forma MICROFONE."
+        },
+        "showWord": "URNA",
+        "parts": "Modelo para consultar: URNA"
+      },
+      {
+        "id": "ass-5-7",
+        "word": "MICROFONE",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Objeto que pode ampliar a voz.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "MI"
+          },
+          {
+            "label": "CRO"
+          },
+          {
+            "label": "FO"
+          },
+          {
+            "label": "NE"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "ME + SA forma MESA."
+        },
+        "showWord": "MICROFONE",
+        "parts": "Modelo para consultar: MICROFONE"
+      },
+      {
+        "id": "ass-5-8",
+        "word": "MESA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Móvel com tampo e pernas.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "ME"
+          },
+          {
+            "label": "SA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "PA + PEL forma PAPEL."
+        },
+        "showWord": "MESA",
+        "parts": "Modelo para consultar: MESA"
+      },
+      {
+        "id": "ass-5-9",
+        "word": "PAPEL",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Folha para registrar uma proposta.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "PA"
+          },
+          {
+            "label": "PEL"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "CA + NE + TA forma CANETA."
+        },
+        "showWord": "PAPEL",
+        "parts": "Modelo para consultar: PAPEL"
+      },
+      {
+        "id": "ass-5-10",
+        "word": "CANETA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Objeto para escrever.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "CA"
+          },
+          {
+            "label": "NE"
+          },
+          {
+            "label": "TA"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "PLA + CA forma PLACA."
+        },
+        "showWord": "CANETA",
+        "parts": "Modelo para consultar: CANETA"
+      },
+      {
+        "id": "ass-5-11",
+        "word": "PLACA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Objeto que apresenta um aviso.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "PLA"
+          },
+          {
+            "label": "CA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "PES + SO + A forma PESSOA."
+        },
+        "showWord": "PLACA",
+        "parts": "Modelo para consultar: PLACA"
+      },
+      {
+        "id": "ass-5-12",
+        "word": "PESSOA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Uma pessoa representada.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "PES"
+          },
+          {
+            "label": "SO"
+          },
+          {
+            "label": "A"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "ES + CO + LA forma ESCOLA."
+        },
+        "showWord": "PESSOA",
+        "parts": "Modelo para consultar: PESSOA"
+      },
+      {
+        "id": "ass-6-1",
+        "word": "ESCOLA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Lugar de estudar.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A escola tem uma porta."
+          },
+          {
+            "label": "A urna recebe um voto."
+          },
+          {
+            "label": "O papel tem linhas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        }
+      },
+      {
+        "id": "ass-6-2",
+        "word": "GRUPO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Pessoas reunidas.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O grupo tem três pessoas."
+          },
+          {
+            "label": "O microfone está no suporte."
+          },
+          {
+            "label": "A caneta tem uma ponta."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        }
+      },
+      {
+        "id": "ass-6-3",
+        "word": "MAPA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Representação de um espaço.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O mapa mostra um caminho."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A placa está sobre um poste."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        }
+      },
+      {
+        "id": "ass-6-4",
+        "word": "LIVRO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto com páginas para leitura.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O livro está aberto."
+          },
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A pessoa está de frente."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        }
+      },
+      {
+        "id": "ass-6-5",
+        "word": "CARTA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Mensagem em um envelope.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A carta está no envelope."
+          },
+          {
+            "label": "A caneta tem uma ponta."
+          },
+          {
+            "label": "A escola tem uma porta."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        }
+      },
+      {
+        "id": "ass-6-6",
+        "word": "URNA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Caixa representada com um voto.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A urna recebe um voto."
+          },
+          {
+            "label": "A placa está sobre um poste."
+          },
+          {
+            "label": "O grupo tem três pessoas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        }
+      },
+      {
+        "id": "ass-6-7",
+        "word": "MICROFONE",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que pode ampliar a voz.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O microfone está no suporte."
+          },
+          {
+            "label": "A pessoa está de frente."
+          },
+          {
+            "label": "O mapa mostra um caminho."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        }
+      },
+      {
+        "id": "ass-6-8",
+        "word": "MESA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel com tampo e pernas.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A escola tem uma porta."
+          },
+          {
+            "label": "O livro está aberto."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        }
+      },
+      {
+        "id": "ass-6-9",
+        "word": "PAPEL",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para registrar uma proposta.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "O grupo tem três pessoas."
+          },
+          {
+            "label": "A carta está no envelope."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        }
+      },
+      {
+        "id": "ass-6-10",
+        "word": "CANETA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para escrever.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A caneta tem uma ponta."
+          },
+          {
+            "label": "O mapa mostra um caminho."
+          },
+          {
+            "label": "A urna recebe um voto."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        }
+      },
+      {
+        "id": "ass-6-11",
+        "word": "PLACA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que apresenta um aviso.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A placa está sobre um poste."
+          },
+          {
+            "label": "O livro está aberto."
+          },
+          {
+            "label": "O microfone está no suporte."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        }
+      },
+      {
+        "id": "ass-6-12",
+        "word": "PESSOA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma pessoa representada.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A pessoa está de frente."
+          },
+          {
+            "label": "A carta está no envelope."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        }
+      },
+      {
+        "id": "ass-7-1",
+        "word": "ESCOLA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Lugar de estudar.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          },
+          {
+            "label": "urna",
+            "image": "URNA"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        },
+        "showWord": "ESCOLA"
+      },
+      {
+        "id": "ass-7-2",
+        "word": "GRUPO",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Pessoas reunidas.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          },
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          },
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        },
+        "showWord": "GRUPO"
+      },
+      {
+        "id": "ass-7-3",
+        "word": "MAPA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Representação de um espaço.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "placa",
+            "image": "PLACA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        },
+        "showWord": "MAPA"
+      },
+      {
+        "id": "ass-7-4",
+        "word": "LIVRO",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto com páginas para leitura.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        },
+        "showWord": "LIVRO"
+      },
+      {
+        "id": "ass-7-5",
+        "word": "CARTA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Mensagem em um envelope.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "carta",
+            "image": "CARTA"
+          },
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          },
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        },
+        "showWord": "CARTA"
+      },
+      {
+        "id": "ass-7-6",
+        "word": "URNA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Caixa representada com um voto.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "urna",
+            "image": "URNA"
+          },
+          {
+            "label": "placa",
+            "image": "PLACA"
+          },
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        },
+        "showWord": "URNA"
+      },
+      {
+        "id": "ass-7-7",
+        "word": "MICROFONE",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que pode ampliar a voz.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          },
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          },
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        },
+        "showWord": "MICROFONE"
+      },
+      {
+        "id": "ass-7-8",
+        "word": "MESA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel com tampo e pernas.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          },
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        },
+        "showWord": "MESA"
+      },
+      {
+        "id": "ass-7-9",
+        "word": "PAPEL",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para registrar uma proposta.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          },
+          {
+            "label": "carta",
+            "image": "CARTA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        },
+        "showWord": "PAPEL"
+      },
+      {
+        "id": "ass-7-10",
+        "word": "CANETA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para escrever.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          },
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          },
+          {
+            "label": "urna",
+            "image": "URNA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        },
+        "showWord": "CANETA"
+      },
+      {
+        "id": "ass-7-11",
+        "word": "PLACA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto que apresenta um aviso.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "placa",
+            "image": "PLACA"
+          },
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          },
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        },
+        "showWord": "PLACA"
+      },
+      {
+        "id": "ass-7-12",
+        "word": "PESSOA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma pessoa representada.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          },
+          {
+            "label": "carta",
+            "image": "CARTA"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        },
+        "showWord": "PESSOA"
+      },
+      {
+        "id": "ass-8-1",
+        "word": "ESCOLA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "ESCOLA"
+          },
+          {
+            "label": "URNA"
+          },
+          {
+            "label": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: escola.",
+        "feedback": "Escola: Lugar de estudar.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Grupo combina com o desenho. Pessoas reunidas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ESCOLA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M27 75h186v95H27Z\" fill=\"#d0ded9\"/><path d=\"m15 76 105-62 105 62Z\" fill=\"#bb8c69\"/><path d=\"M96 111h47v59H96Z\" fill=\"#e9c66d\"/><path d=\"M45 98h31v31H45Zm119 0h31v31h-31Z\" fill=\"#8cb9d3\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-2",
+        "word": "GRUPO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "GRUPO"
+          },
+          {
+            "label": "MICROFONE"
+          },
+          {
+            "label": "CANETA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: grupo.",
+        "feedback": "Grupo: Pessoas reunidas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Mapa combina com o desenho. Representação de um espaço."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"GRUPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><g fill=\"#86b8b1\"><circle cx=\"55\" cy=\"60\" r=\"18\"/><path d=\"M27 144v-35q0-29 28-29t28 29v35Z\"/></g><g fill=\"#d7b86d\"><circle cx=\"120\" cy=\"44\" r=\"20\"/><path d=\"M88 144v-47q0-30 32-30t32 30v47Z\"/></g><g fill=\"#9bb2d2\"><circle cx=\"185\" cy=\"60\" r=\"18\"/><path d=\"M157 144v-35q0-29 28-29t28 29v35Z\"/></g></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-3",
+        "word": "MAPA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "MAPA"
+          },
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "PLACA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mapa.",
+        "feedback": "Mapa: Representação de um espaço.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Livro combina com o desenho. Objeto com páginas para leitura."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MAPA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"m22 39 65-17 65 17 65-17v133l-65 17-65-17-65 17Z\" fill=\"#e7d9ae\"/><path d=\"M87 22v133m65-116v133\" fill=\"none\"/><path d=\"m42 120 38-46 49 47 55-62\" stroke=\"#558a8a\" stroke-width=\"7\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-4",
+        "word": "LIVRO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "LIVRO"
+          },
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "PESSOA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: livro.",
+        "feedback": "Livro: Objeto com páginas para leitura.",
+        "example": {
+          "word": "CARTA",
+          "text": "Carta combina com o desenho. Mensagem em um envelope."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"LIVRO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M22 39q50-20 98 0 48-20 98 0v119q-48-18-98 0-50-18-98 0Z\" fill=\"#f2dbb5\"/><path d=\"M120 39v119m-79-89h59m-59 25h59m40-25h59m-59 25h59\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-5",
+        "word": "CARTA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "CARTA"
+          },
+          {
+            "label": "CANETA"
+          },
+          {
+            "label": "ESCOLA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: carta.",
+        "feedback": "Carta: Mensagem em um envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Urna combina com o desenho. Caixa representada com um voto."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CARTA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M27 45h186v113H27Z\" fill=\"#f1dfb5\"/><path d=\"m27 45 93 70 93-70m-186 113 67-61m119 61-67-61\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-6",
+        "word": "URNA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "URNA"
+          },
+          {
+            "label": "PLACA"
+          },
+          {
+            "label": "GRUPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: urna.",
+        "feedback": "Urna: Caixa representada com um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Microfone combina com o desenho. Objeto que pode ampliar a voz."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"URNA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M48 63h144v105H48Z\" fill=\"#adc5bd\"/><path d=\"m48 63 24-25h98l22 25Z\" fill=\"#dce5df\"/><path d=\"M94 52h52\" stroke-width=\"8\"/><path d=\"m93 15 54-6 5 40-55 7Z\" fill=\"#f2dc96\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-7",
+        "word": "MICROFONE",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "MICROFONE"
+          },
+          {
+            "label": "PESSOA"
+          },
+          {
+            "label": "MAPA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: microfone.",
+        "feedback": "Microfone: Objeto que pode ampliar a voz.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel com tampo e pernas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MICROFONE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><rect x=\"95\" y=\"16\" width=\"50\" height=\"90\" rx=\"24\" fill=\"#8caab2\"/><path d=\"M78 69v16q0 43 42 43t42-43V69m-42 59v37m-31 0h62\" fill=\"none\" stroke-width=\"7\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-8",
+        "word": "MESA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "ESCOLA"
+          },
+          {
+            "label": "LIVRO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel com tampo e pernas.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para registrar uma proposta."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-9",
+        "word": "PAPEL",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "GRUPO"
+          },
+          {
+            "label": "CARTA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para registrar uma proposta.",
+        "example": {
+          "word": "CANETA",
+          "text": "Caneta combina com o desenho. Objeto para escrever."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-10",
+        "word": "CANETA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "CANETA"
+          },
+          {
+            "label": "MAPA"
+          },
+          {
+            "label": "URNA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caneta.",
+        "feedback": "Caneta: Objeto para escrever.",
+        "example": {
+          "word": "PLACA",
+          "text": "Placa combina com o desenho. Objeto que apresenta um aviso."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CANETA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"m73 142 75-116 22 15-75 116-23 12Z\" fill=\"#6b9db7\"/><path d=\"m73 142 22 15-23 12Z\" fill=\"#e2bb84\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-11",
+        "word": "PLACA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "PLACA"
+          },
+          {
+            "label": "LIVRO"
+          },
+          {
+            "label": "MICROFONE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: placa.",
+        "feedback": "Placa: Objeto que apresenta um aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Pessoa combina com o desenho. Uma pessoa representada."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PLACA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M31 35h178v82H31Z\" fill=\"#f0d38d\"/><path d=\"M111 117h18v57h-18Z\" fill=\"#a17e5e\"/><path d=\"M61 62h118m-118 26h90\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-12",
+        "word": "PESSOA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "PESSOA"
+          },
+          {
+            "label": "CARTA"
+          },
+          {
+            "label": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: pessoa.",
+        "feedback": "Pessoa: Uma pessoa representada.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Escola combina com o desenho. Lugar de estudar."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PESSOA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"43\" r=\"24\" fill=\"#b57e5f\"/><path d=\"M75 161v-60q0-33 45-33t45 33v60Z\" fill=\"#77a9b3\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      }
+    ],
+    "frases": [
+      {
+        "id": "fra-1-1",
+        "word": "ESCOLA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Lugar de estudar.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A escola tem uma porta."
+          },
+          {
+            "label": "A urna recebe um voto."
+          },
+          {
+            "label": "O papel tem linhas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        }
+      },
+      {
+        "id": "fra-1-2",
+        "word": "GRUPO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Pessoas reunidas.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O grupo tem três pessoas."
+          },
+          {
+            "label": "O microfone está no suporte."
+          },
+          {
+            "label": "A caneta tem uma ponta."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        }
+      },
+      {
+        "id": "fra-1-3",
+        "word": "MAPA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Representação de um espaço.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O mapa mostra um caminho."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A placa está sobre um poste."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        }
+      },
+      {
+        "id": "fra-1-4",
+        "word": "LIVRO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O livro está aberto."
+          },
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A pessoa está de frente."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        }
+      },
+      {
+        "id": "fra-1-5",
+        "word": "CARTA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Mensagem em um envelope.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A carta está no envelope."
+          },
+          {
+            "label": "A caneta tem uma ponta."
+          },
+          {
+            "label": "A escola tem uma porta."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        }
+      },
+      {
+        "id": "fra-1-6",
+        "word": "URNA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Caixa representada com um voto.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A urna recebe um voto."
+          },
+          {
+            "label": "A placa está sobre um poste."
+          },
+          {
+            "label": "O grupo tem três pessoas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        }
+      },
+      {
+        "id": "fra-1-7",
+        "word": "MICROFONE",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O microfone está no suporte."
+          },
+          {
+            "label": "A pessoa está de frente."
+          },
+          {
+            "label": "O mapa mostra um caminho."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        }
+      },
+      {
+        "id": "fra-1-8",
+        "word": "MESA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A escola tem uma porta."
+          },
+          {
+            "label": "O livro está aberto."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        }
+      },
+      {
+        "id": "fra-1-9",
+        "word": "PAPEL",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "O grupo tem três pessoas."
+          },
+          {
+            "label": "A carta está no envelope."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        }
+      },
+      {
+        "id": "fra-1-10",
+        "word": "CANETA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Objeto para escrever.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A caneta tem uma ponta."
+          },
+          {
+            "label": "O mapa mostra um caminho."
+          },
+          {
+            "label": "A urna recebe um voto."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        }
+      },
+      {
+        "id": "fra-1-11",
+        "word": "PLACA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A placa está sobre um poste."
+          },
+          {
+            "label": "O livro está aberto."
+          },
+          {
+            "label": "O microfone está no suporte."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        }
+      },
+      {
+        "id": "fra-1-12",
+        "word": "PESSOA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Uma pessoa representada.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A pessoa está de frente."
+          },
+          {
+            "label": "A carta está no envelope."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        }
+      },
+      {
+        "id": "fra-2-1",
+        "word": "ESCOLA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Lugar de estudar.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "escola"
+          },
+          {
+            "label": "tem uma porta"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        },
+        "showWord": "Modelo: A escola tem uma porta."
+      },
+      {
+        "id": "fra-2-2",
+        "word": "GRUPO",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Pessoas reunidas.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "grupo"
+          },
+          {
+            "label": "tem três pessoas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        },
+        "showWord": "Modelo: O grupo tem três pessoas."
+      },
+      {
+        "id": "fra-2-3",
+        "word": "MAPA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Representação de um espaço.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "mapa"
+          },
+          {
+            "label": "mostra um caminho"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        },
+        "showWord": "Modelo: O mapa mostra um caminho."
+      },
+      {
+        "id": "fra-2-4",
+        "word": "LIVRO",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "livro"
+          },
+          {
+            "label": "está aberto"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        },
+        "showWord": "Modelo: O livro está aberto."
+      },
+      {
+        "id": "fra-2-5",
+        "word": "CARTA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Mensagem em um envelope.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "carta"
+          },
+          {
+            "label": "está no envelope"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        },
+        "showWord": "Modelo: A carta está no envelope."
+      },
+      {
+        "id": "fra-2-6",
+        "word": "URNA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Caixa representada com um voto.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "urna"
+          },
+          {
+            "label": "recebe um voto"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        },
+        "showWord": "Modelo: A urna recebe um voto."
+      },
+      {
+        "id": "fra-2-7",
+        "word": "MICROFONE",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "microfone"
+          },
+          {
+            "label": "está no suporte"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "showWord": "Modelo: O microfone está no suporte."
+      },
+      {
+        "id": "fra-2-8",
+        "word": "MESA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "tem duas pernas visíveis"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "showWord": "Modelo: A mesa tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-2-9",
+        "word": "PAPEL",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "tem linhas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        },
+        "showWord": "Modelo: O papel tem linhas."
+      },
+      {
+        "id": "fra-2-10",
+        "word": "CANETA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Objeto para escrever.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "caneta"
+          },
+          {
+            "label": "tem uma ponta"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        },
+        "showWord": "Modelo: A caneta tem uma ponta."
+      },
+      {
+        "id": "fra-2-11",
+        "word": "PLACA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "placa"
+          },
+          {
+            "label": "está sobre um poste"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        },
+        "showWord": "Modelo: A placa está sobre um poste."
+      },
+      {
+        "id": "fra-2-12",
+        "word": "PESSOA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Uma pessoa representada.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "pessoa"
+          },
+          {
+            "label": "está de frente"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        },
+        "showWord": "Modelo: A pessoa está de frente."
+      },
+      {
+        "id": "fra-3-1",
+        "word": "ESCOLA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Lugar de estudar.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          },
+          {
+            "label": "urna",
+            "image": "URNA"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        },
+        "showWord": "A escola tem uma porta."
+      },
+      {
+        "id": "fra-3-2",
+        "word": "GRUPO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Pessoas reunidas.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          },
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          },
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        },
+        "showWord": "O grupo tem três pessoas."
+      },
+      {
+        "id": "fra-3-3",
+        "word": "MAPA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Representação de um espaço.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "placa",
+            "image": "PLACA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        },
+        "showWord": "O mapa mostra um caminho."
+      },
+      {
+        "id": "fra-3-4",
+        "word": "LIVRO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        },
+        "showWord": "O livro está aberto."
+      },
+      {
+        "id": "fra-3-5",
+        "word": "CARTA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Mensagem em um envelope.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "carta",
+            "image": "CARTA"
+          },
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          },
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        },
+        "showWord": "A carta está no envelope."
+      },
+      {
+        "id": "fra-3-6",
+        "word": "URNA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Caixa representada com um voto.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "urna",
+            "image": "URNA"
+          },
+          {
+            "label": "placa",
+            "image": "PLACA"
+          },
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        },
+        "showWord": "A urna recebe um voto."
+      },
+      {
+        "id": "fra-3-7",
+        "word": "MICROFONE",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          },
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          },
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "showWord": "O microfone está no suporte."
+      },
+      {
+        "id": "fra-3-8",
+        "word": "MESA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "escola",
+            "image": "ESCOLA"
+          },
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "showWord": "A mesa tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-3-9",
+        "word": "PAPEL",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "grupo",
+            "image": "GRUPO"
+          },
+          {
+            "label": "carta",
+            "image": "CARTA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        },
+        "showWord": "O papel tem linhas."
+      },
+      {
+        "id": "fra-3-10",
+        "word": "CANETA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Objeto para escrever.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "caneta",
+            "image": "CANETA"
+          },
+          {
+            "label": "mapa",
+            "image": "MAPA"
+          },
+          {
+            "label": "urna",
+            "image": "URNA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        },
+        "showWord": "A caneta tem uma ponta."
+      },
+      {
+        "id": "fra-3-11",
+        "word": "PLACA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "placa",
+            "image": "PLACA"
+          },
+          {
+            "label": "livro",
+            "image": "LIVRO"
+          },
+          {
+            "label": "microfone",
+            "image": "MICROFONE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        },
+        "showWord": "A placa está sobre um poste."
+      },
+      {
+        "id": "fra-3-12",
+        "word": "PESSOA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Uma pessoa representada.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "pessoa",
+            "image": "PESSOA"
+          },
+          {
+            "label": "carta",
+            "image": "CARTA"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        },
+        "showWord": "A pessoa está de frente."
+      },
+      {
+        "id": "fra-4-1",
+        "word": "ESCOLA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Lugar de estudar.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "escola"
+          },
+          {
+            "label": "urna"
+          },
+          {
+            "label": "papel"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        },
+        "showWord": "A ______ tem uma porta."
+      },
+      {
+        "id": "fra-4-2",
+        "word": "GRUPO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Pessoas reunidas.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "grupo"
+          },
+          {
+            "label": "microfone"
+          },
+          {
+            "label": "caneta"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        },
+        "showWord": "O ______ tem três pessoas."
+      },
+      {
+        "id": "fra-4-3",
+        "word": "MAPA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Representação de um espaço.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "mapa"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "placa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        },
+        "showWord": "O ______ mostra um caminho."
+      },
+      {
+        "id": "fra-4-4",
+        "word": "LIVRO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "livro"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "pessoa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        },
+        "showWord": "O ______ está aberto."
+      },
+      {
+        "id": "fra-4-5",
+        "word": "CARTA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Mensagem em um envelope.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "carta"
+          },
+          {
+            "label": "caneta"
+          },
+          {
+            "label": "escola"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        },
+        "showWord": "A ______ está no envelope."
+      },
+      {
+        "id": "fra-4-6",
+        "word": "URNA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Caixa representada com um voto.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "urna"
+          },
+          {
+            "label": "placa"
+          },
+          {
+            "label": "grupo"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        },
+        "showWord": "A ______ recebe um voto."
+      },
+      {
+        "id": "fra-4-7",
+        "word": "MICROFONE",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "microfone"
+          },
+          {
+            "label": "pessoa"
+          },
+          {
+            "label": "mapa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "showWord": "O ______ está no suporte."
+      },
+      {
+        "id": "fra-4-8",
+        "word": "MESA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "escola"
+          },
+          {
+            "label": "livro"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "showWord": "A ______ tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-4-9",
+        "word": "PAPEL",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "papel"
+          },
+          {
+            "label": "grupo"
+          },
+          {
+            "label": "carta"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        },
+        "showWord": "O ______ tem linhas."
+      },
+      {
+        "id": "fra-4-10",
+        "word": "CANETA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Objeto para escrever.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "caneta"
+          },
+          {
+            "label": "mapa"
+          },
+          {
+            "label": "urna"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        },
+        "showWord": "A ______ tem uma ponta."
+      },
+      {
+        "id": "fra-4-11",
+        "word": "PLACA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "placa"
+          },
+          {
+            "label": "livro"
+          },
+          {
+            "label": "microfone"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        },
+        "showWord": "A ______ está sobre um poste."
+      },
+      {
+        "id": "fra-4-12",
+        "word": "PESSOA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Uma pessoa representada.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "pessoa"
+          },
+          {
+            "label": "carta"
+          },
+          {
+            "label": "mesa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        },
+        "showWord": "A ______ está de frente."
+      },
+      {
+        "id": "fra-5-1",
+        "word": "ESCOLA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Lugar de estudar.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "escola"
+          },
+          {
+            "label": "tem uma porta"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        }
+      },
+      {
+        "id": "fra-5-2",
+        "word": "GRUPO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Pessoas reunidas.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "grupo"
+          },
+          {
+            "label": "tem três pessoas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        }
+      },
+      {
+        "id": "fra-5-3",
+        "word": "MAPA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Representação de um espaço.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "mapa"
+          },
+          {
+            "label": "mostra um caminho"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        }
+      },
+      {
+        "id": "fra-5-4",
+        "word": "LIVRO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "livro"
+          },
+          {
+            "label": "está aberto"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        }
+      },
+      {
+        "id": "fra-5-5",
+        "word": "CARTA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Mensagem em um envelope.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "carta"
+          },
+          {
+            "label": "está no envelope"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        }
+      },
+      {
+        "id": "fra-5-6",
+        "word": "URNA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Caixa representada com um voto.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "urna"
+          },
+          {
+            "label": "recebe um voto"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        }
+      },
+      {
+        "id": "fra-5-7",
+        "word": "MICROFONE",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "microfone"
+          },
+          {
+            "label": "está no suporte"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        }
+      },
+      {
+        "id": "fra-5-8",
+        "word": "MESA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "tem duas pernas visíveis"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        }
+      },
+      {
+        "id": "fra-5-9",
+        "word": "PAPEL",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "tem linhas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        }
+      },
+      {
+        "id": "fra-5-10",
+        "word": "CANETA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Objeto para escrever.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "caneta"
+          },
+          {
+            "label": "tem uma ponta"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        }
+      },
+      {
+        "id": "fra-5-11",
+        "word": "PLACA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "placa"
+          },
+          {
+            "label": "está sobre um poste"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        }
+      },
+      {
+        "id": "fra-5-12",
+        "word": "PESSOA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Uma pessoa representada.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "pessoa"
+          },
+          {
+            "label": "está de frente"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        }
+      },
+      {
+        "id": "fra-6-1",
+        "word": "ESCOLA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Lugar de estudar.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A escola tem duas janelas visíveis."
+          },
+          {
+            "label": "A escola aparece em cinco cópias."
+          },
+          {
+            "label": "A escola tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem duas janelas visíveis.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        }
+      },
+      {
+        "id": "fra-6-2",
+        "word": "GRUPO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Pessoas reunidas.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "Há três cabeças no desenho."
+          },
+          {
+            "label": "O grupo aparece em cinco cópias."
+          },
+          {
+            "label": "O grupo tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "Há três cabeças no desenho.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        }
+      },
+      {
+        "id": "fra-6-3",
+        "word": "MAPA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Representação de um espaço.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O mapa tem três partes desenhadas."
+          },
+          {
+            "label": "O mapa aparece em cinco cópias."
+          },
+          {
+            "label": "O mapa tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa tem três partes desenhadas.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        }
+      },
+      {
+        "id": "fra-6-4",
+        "word": "LIVRO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O livro mostra duas páginas."
+          },
+          {
+            "label": "O livro aparece em cinco cópias."
+          },
+          {
+            "label": "O livro tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro mostra duas páginas.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        }
+      },
+      {
+        "id": "fra-6-5",
+        "word": "CARTA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Mensagem em um envelope.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O envelope tem forma retangular."
+          },
+          {
+            "label": "A carta aparece em cinco cópias."
+          },
+          {
+            "label": "A carta tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "O envelope tem forma retangular.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        }
+      },
+      {
+        "id": "fra-6-6",
+        "word": "URNA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Caixa representada com um voto.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "Há um cartão na abertura da urna."
+          },
+          {
+            "label": "A urna aparece em cinco cópias."
+          },
+          {
+            "label": "A urna tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "Há um cartão na abertura da urna.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        }
+      },
+      {
+        "id": "fra-6-7",
+        "word": "MICROFONE",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O microfone tem base no desenho."
+          },
+          {
+            "label": "O microfone aparece em cinco cópias."
+          },
+          {
+            "label": "O microfone tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone tem base no desenho.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        }
+      },
+      {
+        "id": "fra-6-8",
+        "word": "MESA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A mesa tem um tampo comprido."
+          },
+          {
+            "label": "A mesa aparece em cinco cópias."
+          },
+          {
+            "label": "A mesa tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem um tampo comprido.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        }
+      },
+      {
+        "id": "fra-6-9",
+        "word": "PAPEL",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O papel tem formato retangular."
+          },
+          {
+            "label": "O papel aparece em cinco cópias."
+          },
+          {
+            "label": "O papel tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem formato retangular.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        }
+      },
+      {
+        "id": "fra-6-10",
+        "word": "CANETA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Objeto para escrever.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A caneta está inclinada no desenho."
+          },
+          {
+            "label": "A caneta aparece em cinco cópias."
+          },
+          {
+            "label": "A caneta tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta está inclinada no desenho.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        }
+      },
+      {
+        "id": "fra-6-11",
+        "word": "PLACA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A placa tem linhas de aviso."
+          },
+          {
+            "label": "A placa aparece em cinco cópias."
+          },
+          {
+            "label": "A placa tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa tem linhas de aviso.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        }
+      },
+      {
+        "id": "fra-6-12",
+        "word": "PESSOA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Uma pessoa representada.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A pessoa tem roupa azul no desenho."
+          },
+          {
+            "label": "A pessoa aparece em cinco cópias."
+          },
+          {
+            "label": "A pessoa tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa tem roupa azul no desenho.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        }
+      },
+      {
+        "id": "fra-7-1",
+        "word": "ESCOLA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A escola tem uma porta."
+          },
+          {
+            "label": "A urna recebe um voto."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ESCOLA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M27 75h186v95H27Z\" fill=\"#d0ded9\"/><path d=\"m15 76 105-62 105 62Z\" fill=\"#bb8c69\"/><path d=\"M96 111h47v59H96Z\" fill=\"#e9c66d\"/><path d=\"M45 98h31v31H45Zm119 0h31v31h-31Z\" fill=\"#8cb9d3\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"URNA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M48 63h144v105H48Z\" fill=\"#adc5bd\"/><path d=\"m48 63 24-25h98l22 25Z\" fill=\"#dce5df\"/><path d=\"M94 52h52\" stroke-width=\"8\"/><path d=\"m93 15 54-6 5 40-55 7Z\" fill=\"#f2dc96\"/></g></svg></div>",
+        "imageWords": [
+          "ESCOLA",
+          "URNA"
+        ]
+      },
+      {
+        "id": "fra-7-2",
+        "word": "GRUPO",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O grupo tem três pessoas."
+          },
+          {
+            "label": "O microfone está no suporte."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"GRUPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g fill=\"#86b8b1\"><circle cx=\"55\" cy=\"60\" r=\"18\"/><path d=\"M27 144v-35q0-29 28-29t28 29v35Z\"/></g><g fill=\"#d7b86d\"><circle cx=\"120\" cy=\"44\" r=\"20\"/><path d=\"M88 144v-47q0-30 32-30t32 30v47Z\"/></g><g fill=\"#9bb2d2\"><circle cx=\"185\" cy=\"60\" r=\"18\"/><path d=\"M157 144v-35q0-29 28-29t28 29v35Z\"/></g></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MICROFONE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"95\" y=\"16\" width=\"50\" height=\"90\" rx=\"24\" fill=\"#8caab2\"/><path d=\"M78 69v16q0 43 42 43t42-43V69m-42 59v37m-31 0h62\" fill=\"none\" stroke-width=\"7\"/></g></svg></div>",
+        "imageWords": [
+          "GRUPO",
+          "MICROFONE"
+        ]
+      },
+      {
+        "id": "fra-7-3",
+        "word": "MAPA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O mapa mostra um caminho."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MAPA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m22 39 65-17 65 17 65-17v133l-65 17-65-17-65 17Z\" fill=\"#e7d9ae\"/><path d=\"M87 22v133m65-116v133\" fill=\"none\"/><path d=\"m42 120 38-46 49 47 55-62\" stroke=\"#558a8a\" stroke-width=\"7\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g></svg></div>",
+        "imageWords": [
+          "MAPA",
+          "MESA"
+        ]
+      },
+      {
+        "id": "fra-7-4",
+        "word": "LIVRO",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O livro está aberto."
+          },
+          {
+            "label": "O papel tem linhas."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"LIVRO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 39q50-20 98 0 48-20 98 0v119q-48-18-98 0-50-18-98 0Z\" fill=\"#f2dbb5\"/><path d=\"M120 39v119m-79-89h59m-59 25h59m40-25h59m-59 25h59\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "LIVRO",
+          "PAPEL"
+        ]
+      },
+      {
+        "id": "fra-7-5",
+        "word": "CARTA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A carta está no envelope."
+          },
+          {
+            "label": "A caneta tem uma ponta."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CARTA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M27 45h186v113H27Z\" fill=\"#f1dfb5\"/><path d=\"m27 45 93 70 93-70m-186 113 67-61m119 61-67-61\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CANETA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m73 142 75-116 22 15-75 116-23 12Z\" fill=\"#6b9db7\"/><path d=\"m73 142 22 15-23 12Z\" fill=\"#e2bb84\"/></g></svg></div>",
+        "imageWords": [
+          "CARTA",
+          "CANETA"
+        ]
+      },
+      {
+        "id": "fra-7-6",
+        "word": "URNA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A urna recebe um voto."
+          },
+          {
+            "label": "A placa está sobre um poste."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"URNA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M48 63h144v105H48Z\" fill=\"#adc5bd\"/><path d=\"m48 63 24-25h98l22 25Z\" fill=\"#dce5df\"/><path d=\"M94 52h52\" stroke-width=\"8\"/><path d=\"m93 15 54-6 5 40-55 7Z\" fill=\"#f2dc96\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PLACA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M31 35h178v82H31Z\" fill=\"#f0d38d\"/><path d=\"M111 117h18v57h-18Z\" fill=\"#a17e5e\"/><path d=\"M61 62h118m-118 26h90\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "URNA",
+          "PLACA"
+        ]
+      },
+      {
+        "id": "fra-7-7",
+        "word": "MICROFONE",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O microfone está no suporte."
+          },
+          {
+            "label": "A pessoa está de frente."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MICROFONE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"95\" y=\"16\" width=\"50\" height=\"90\" rx=\"24\" fill=\"#8caab2\"/><path d=\"M78 69v16q0 43 42 43t42-43V69m-42 59v37m-31 0h62\" fill=\"none\" stroke-width=\"7\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PESSOA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"43\" r=\"24\" fill=\"#b57e5f\"/><path d=\"M75 161v-60q0-33 45-33t45 33v60Z\" fill=\"#77a9b3\"/></g></svg></div>",
+        "imageWords": [
+          "MICROFONE",
+          "PESSOA"
+        ]
+      },
+      {
+        "id": "fra-7-8",
+        "word": "MESA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A escola tem uma porta."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ESCOLA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M27 75h186v95H27Z\" fill=\"#d0ded9\"/><path d=\"m15 76 105-62 105 62Z\" fill=\"#bb8c69\"/><path d=\"M96 111h47v59H96Z\" fill=\"#e9c66d\"/><path d=\"M45 98h31v31H45Zm119 0h31v31h-31Z\" fill=\"#8cb9d3\"/></g></svg></div>",
+        "imageWords": [
+          "MESA",
+          "ESCOLA"
+        ]
+      },
+      {
+        "id": "fra-7-9",
+        "word": "PAPEL",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "O grupo tem três pessoas."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"GRUPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g fill=\"#86b8b1\"><circle cx=\"55\" cy=\"60\" r=\"18\"/><path d=\"M27 144v-35q0-29 28-29t28 29v35Z\"/></g><g fill=\"#d7b86d\"><circle cx=\"120\" cy=\"44\" r=\"20\"/><path d=\"M88 144v-47q0-30 32-30t32 30v47Z\"/></g><g fill=\"#9bb2d2\"><circle cx=\"185\" cy=\"60\" r=\"18\"/><path d=\"M157 144v-35q0-29 28-29t28 29v35Z\"/></g></g></svg></div>",
+        "imageWords": [
+          "PAPEL",
+          "GRUPO"
+        ]
+      },
+      {
+        "id": "fra-7-10",
+        "word": "CANETA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A caneta tem uma ponta."
+          },
+          {
+            "label": "O mapa mostra um caminho."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CANETA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m73 142 75-116 22 15-75 116-23 12Z\" fill=\"#6b9db7\"/><path d=\"m73 142 22 15-23 12Z\" fill=\"#e2bb84\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MAPA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m22 39 65-17 65 17 65-17v133l-65 17-65-17-65 17Z\" fill=\"#e7d9ae\"/><path d=\"M87 22v133m65-116v133\" fill=\"none\"/><path d=\"m42 120 38-46 49 47 55-62\" stroke=\"#558a8a\" stroke-width=\"7\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "CANETA",
+          "MAPA"
+        ]
+      },
+      {
+        "id": "fra-7-11",
+        "word": "PLACA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A placa está sobre um poste."
+          },
+          {
+            "label": "O livro está aberto."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PLACA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M31 35h178v82H31Z\" fill=\"#f0d38d\"/><path d=\"M111 117h18v57h-18Z\" fill=\"#a17e5e\"/><path d=\"M61 62h118m-118 26h90\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"LIVRO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 39q50-20 98 0 48-20 98 0v119q-48-18-98 0-50-18-98 0Z\" fill=\"#f2dbb5\"/><path d=\"M120 39v119m-79-89h59m-59 25h59m40-25h59m-59 25h59\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "PLACA",
+          "LIVRO"
+        ]
+      },
+      {
+        "id": "fra-7-12",
+        "word": "PESSOA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A pessoa está de frente."
+          },
+          {
+            "label": "A carta está no envelope."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PESSOA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"43\" r=\"24\" fill=\"#b57e5f\"/><path d=\"M75 161v-60q0-33 45-33t45 33v60Z\" fill=\"#77a9b3\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CARTA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M27 45h186v113H27Z\" fill=\"#f1dfb5\"/><path d=\"m27 45 93 70 93-70m-186 113 67-61m119 61-67-61\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "PESSOA",
+          "CARTA"
+        ]
+      },
+      {
+        "id": "fra-8-1",
+        "word": "ESCOLA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Lugar de estudar.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "escola"
+          },
+          {
+            "label": "urna"
+          },
+          {
+            "label": "papel"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe escola e ouça a frase.",
+        "feedback": "A escola tem uma porta.",
+        "example": {
+          "word": "GRUPO",
+          "text": "O grupo tem três pessoas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ESCOLA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M27 75h186v95H27Z\" fill=\"#d0ded9\"/><path d=\"m15 76 105-62 105 62Z\" fill=\"#bb8c69\"/><path d=\"M96 111h47v59H96Z\" fill=\"#e9c66d\"/><path d=\"M45 98h31v31H45Zm119 0h31v31h-31Z\" fill=\"#8cb9d3\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem uma porta."
+      },
+      {
+        "id": "fra-8-2",
+        "word": "GRUPO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Pessoas reunidas.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "grupo"
+          },
+          {
+            "label": "microfone"
+          },
+          {
+            "label": "caneta"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe grupo e ouça a frase.",
+        "feedback": "O grupo tem três pessoas.",
+        "example": {
+          "word": "MAPA",
+          "text": "O mapa mostra um caminho."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"GRUPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><g fill=\"#86b8b1\"><circle cx=\"55\" cy=\"60\" r=\"18\"/><path d=\"M27 144v-35q0-29 28-29t28 29v35Z\"/></g><g fill=\"#d7b86d\"><circle cx=\"120\" cy=\"44\" r=\"20\"/><path d=\"M88 144v-47q0-30 32-30t32 30v47Z\"/></g><g fill=\"#9bb2d2\"><circle cx=\"185\" cy=\"60\" r=\"18\"/><path d=\"M157 144v-35q0-29 28-29t28 29v35Z\"/></g></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ tem três pessoas."
+      },
+      {
+        "id": "fra-8-3",
+        "word": "MAPA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Representação de um espaço.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "mapa"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "placa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mapa e ouça a frase.",
+        "feedback": "O mapa mostra um caminho.",
+        "example": {
+          "word": "LIVRO",
+          "text": "O livro está aberto."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MAPA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"m22 39 65-17 65 17 65-17v133l-65 17-65-17-65 17Z\" fill=\"#e7d9ae\"/><path d=\"M87 22v133m65-116v133\" fill=\"none\"/><path d=\"m42 120 38-46 49 47 55-62\" stroke=\"#558a8a\" stroke-width=\"7\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ mostra um caminho."
+      },
+      {
+        "id": "fra-8-4",
+        "word": "LIVRO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Objeto com páginas para leitura.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "livro"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "pessoa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe livro e ouça a frase.",
+        "feedback": "O livro está aberto.",
+        "example": {
+          "word": "CARTA",
+          "text": "A carta está no envelope."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"LIVRO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M22 39q50-20 98 0 48-20 98 0v119q-48-18-98 0-50-18-98 0Z\" fill=\"#f2dbb5\"/><path d=\"M120 39v119m-79-89h59m-59 25h59m40-25h59m-59 25h59\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ está aberto."
+      },
+      {
+        "id": "fra-8-5",
+        "word": "CARTA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Mensagem em um envelope.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "carta"
+          },
+          {
+            "label": "caneta"
+          },
+          {
+            "label": "escola"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe carta e ouça a frase.",
+        "feedback": "A carta está no envelope.",
+        "example": {
+          "word": "URNA",
+          "text": "A urna recebe um voto."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CARTA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M27 45h186v113H27Z\" fill=\"#f1dfb5\"/><path d=\"m27 45 93 70 93-70m-186 113 67-61m119 61-67-61\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ está no envelope."
+      },
+      {
+        "id": "fra-8-6",
+        "word": "URNA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Caixa representada com um voto.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "urna"
+          },
+          {
+            "label": "placa"
+          },
+          {
+            "label": "grupo"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe urna e ouça a frase.",
+        "feedback": "A urna recebe um voto.",
+        "example": {
+          "word": "MICROFONE",
+          "text": "O microfone está no suporte."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"URNA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M48 63h144v105H48Z\" fill=\"#adc5bd\"/><path d=\"m48 63 24-25h98l22 25Z\" fill=\"#dce5df\"/><path d=\"M94 52h52\" stroke-width=\"8\"/><path d=\"m93 15 54-6 5 40-55 7Z\" fill=\"#f2dc96\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ recebe um voto."
+      },
+      {
+        "id": "fra-8-7",
+        "word": "MICROFONE",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Objeto que pode ampliar a voz.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "microfone"
+          },
+          {
+            "label": "pessoa"
+          },
+          {
+            "label": "mapa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe microfone e ouça a frase.",
+        "feedback": "O microfone está no suporte.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MICROFONE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><rect x=\"95\" y=\"16\" width=\"50\" height=\"90\" rx=\"24\" fill=\"#8caab2\"/><path d=\"M78 69v16q0 43 42 43t42-43V69m-42 59v37m-31 0h62\" fill=\"none\" stroke-width=\"7\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ está no suporte."
+      },
+      {
+        "id": "fra-8-8",
+        "word": "MESA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Móvel com tampo e pernas.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "escola"
+          },
+          {
+            "label": "livro"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-8-9",
+        "word": "PAPEL",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Folha para registrar uma proposta.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "papel"
+          },
+          {
+            "label": "grupo"
+          },
+          {
+            "label": "carta"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "CANETA",
+          "text": "A caneta tem uma ponta."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ tem linhas."
+      },
+      {
+        "id": "fra-8-10",
+        "word": "CANETA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Objeto para escrever.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "caneta"
+          },
+          {
+            "label": "mapa"
+          },
+          {
+            "label": "urna"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caneta e ouça a frase.",
+        "feedback": "A caneta tem uma ponta.",
+        "example": {
+          "word": "PLACA",
+          "text": "A placa está sobre um poste."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CANETA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"m73 142 75-116 22 15-75 116-23 12Z\" fill=\"#6b9db7\"/><path d=\"m73 142 22 15-23 12Z\" fill=\"#e2bb84\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem uma ponta."
+      },
+      {
+        "id": "fra-8-11",
+        "word": "PLACA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Objeto que apresenta um aviso.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "placa"
+          },
+          {
+            "label": "livro"
+          },
+          {
+            "label": "microfone"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe placa e ouça a frase.",
+        "feedback": "A placa está sobre um poste.",
+        "example": {
+          "word": "PESSOA",
+          "text": "A pessoa está de frente."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PLACA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M31 35h178v82H31Z\" fill=\"#f0d38d\"/><path d=\"M111 117h18v57h-18Z\" fill=\"#a17e5e\"/><path d=\"M61 62h118m-118 26h90\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ está sobre um poste."
+      },
+      {
+        "id": "fra-8-12",
+        "word": "PESSOA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Uma pessoa representada.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "pessoa"
+          },
+          {
+            "label": "carta"
+          },
+          {
+            "label": "mesa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe pessoa e ouça a frase.",
+        "feedback": "A pessoa está de frente.",
+        "example": {
+          "word": "ESCOLA",
+          "text": "A escola tem uma porta."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PESSOA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"43\" r=\"24\" fill=\"#b57e5f\"/><path d=\"M75 161v-60q0-33 45-33t45 33v60Z\" fill=\"#77a9b3\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ está de frente."
+      }
+    ]
+  }
+}

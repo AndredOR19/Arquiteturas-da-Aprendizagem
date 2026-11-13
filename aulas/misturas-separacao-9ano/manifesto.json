@@ -1,0 +1,140 @@
+{
+  "projeto": "misturas-separacao-9ano",
+  "titulo": "Separar sem desaparecer",
+  "status": "adaptada_testes_em_revisao",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "4429839a1fa9b68f02240a257e26b7ca3d3674fd",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 96
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 469,
+      "sha256": "4d0489e05013fe4ce1e446827edad589c9174bbf4f4644c6458e9d744cbcd325"
+    },
+    {
+      "arquivo": "apoio/apoio.css",
+      "bytes": 2679,
+      "sha256": "f745179ad721806f5eb524fd8c2ab49c8381ab6ab083eda9f1f46146a1556bd7"
+    },
+    {
+      "arquivo": "apoio/apoio.js",
+      "bytes": 9826,
+      "sha256": "9be8a37d7d27b1b3ad86cbe44f25c5fe88ef353e13e93f3b575999840f1491dd"
+    },
+    {
+      "arquivo": "apoio/banco.json",
+      "bytes": 171965,
+      "sha256": "897f2a32890142f0b7af34f54c73c3243738415bd698f93c7b692d52aee70150"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 126622,
+      "sha256": "b601d722a2cefbec727e0e5feb1450f1676bb3937decf95e3ea37efa35e911a6"
+    },
+    {
+      "arquivo": "apoio-leitura.pdf",
+      "bytes": 186268,
+      "sha256": "059feeefc2886d306da566fc49a135a69a04c99ebf12b344a027fe80bf3a77d7"
+    },
+    {
+      "arquivo": "assets/apoio-relacional.js",
+      "bytes": 148,
+      "sha256": "9c0c9b2eb73fa6c5d621646104df29a930d1cd8d050912610ad1815f834340e9"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 11113,
+      "sha256": "ae5937ac753a1f5e0cbf4167a79ba6dff4537726d3755ec3f81b424431eef6a8"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 42515,
+      "sha256": "39fc8b00a1e91501466d03fe96ae02e46c2dd52de6ed3283309e24b1e8504016"
+    },
+    {
+      "arquivo": "assets/cenario.png",
+      "bytes": 46740,
+      "sha256": "0c72701d0753860628169c178afe68f17edf3c92b5389828bb1d881507cea022"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/clareza.css",
+      "bytes": 4674,
+      "sha256": "4e52efe782163878d6997446e96a9545616ff0dc8d2b2e5c177f424a24b31602"
+    },
+    {
+      "arquivo": "assets/clareza.js",
+      "bytes": 38309,
+      "sha256": "96012a8775cdc05ec93b66d956dab0c23e35628bbf060f44069b4e2e412d83f0"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 17146,
+      "sha256": "9cd5827bf4a6f347a089af78f4b39b9e1f3680768470775f10ce777cf4061bc0"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 166297,
+      "sha256": "c28e9c24910d27225e1a96f3bac3b2026e5adbdb63f97e4541421a91b6835cf3"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8792,
+      "sha256": "3fbf05aedd44cd01b4f75f3961717107460519b926d7b4b3ff93aa825f2910ce"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5361,
+      "sha256": "2abfade2644d120c2ec6b039d2fcec1057d83b40d0fe23d4a14b910fdfe8b058"
+    },
+    {
+      "arquivo": "assets/solo-lab.js",
+      "bytes": 2656,
+      "sha256": "6d06a1eea3237f0269bd3b2501d76d47f13498061b5b146d05299995cef04734"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 200540,
+      "sha256": "7101da47f1116db8f08d346042f700e081f750e5e17132e8989b22fb2994bbb5"
+    },
+    {
+      "arquivo": "exemplos.pdf",
+      "bytes": 114145,
+      "sha256": "e181d63b9fb1b88467c05d261247137c44fae2d8887166c8b9ede9da681331a2"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7593,
+      "sha256": "f43cee814b74be431324c8c1e6a0c5ed3b32391659c2e8f84a2d36a652048b5c"
+    }
+  ],
+  "revisao_didatica": "clareza-2",
+  "apoio_inclusivo": {
+    "associacoes": 96,
+    "frases_opcionais": 96,
+    "versao": "1.0.0"
+  }
+}

@@ -1,0 +1,5440 @@
+{
+  "id": "fracoes-medidas-6ano",
+  "version": "1.0.0",
+  "title": "A mesma medida, outras frações",
+  "subject": "Práticas Experimentais",
+  "grade": "6º ano",
+  "art": {
+    "TIRA": "<path d=\"M20 64h200v62H20Z\" fill=\"#f5e5bd\"/><path d=\"M20 64h100v62H20Z\" fill=\"#80b6a4\"/><path d=\"M70 64v62m50-62v62m50-62v62\" fill=\"none\"/>",
+    "METADE": "<circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 0 0 140Z\" fill=\"#77b2a8\"/><path d=\"M120 25v140\" fill=\"none\"/>",
+    "QUARTO": "<circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 1 70 70h-70Z\" fill=\"#77b2a8\"/><path d=\"M50 95h140m-70-70v140\" fill=\"none\"/>",
+    "BARRA": "<path d=\"M20 50h200v90H20Z\" fill=\"#eed9af\"/><path d=\"M20 50h150v90H20Z\" fill=\"#c5926e\"/><path d=\"M70 50v90m50-90v90m50-90v90\" fill=\"none\"/>",
+    "RÉGUA": "<path d=\"M17 65h206v66H17Z\" fill=\"#e9c46e\"/><path d=\"M37 66v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30\" fill=\"none\"/>",
+    "CÍRCULO": "<circle cx=\"120\" cy=\"95\" r=\"73\" fill=\"#b6d4c3\"/><path d=\"M47 95h146m-73-73v146\" fill=\"none\"/>",
+    "DOBRA": "<path d=\"M32 35h176v123H32Z\" fill=\"#e4d7ae\"/><path d=\"m120 35 88 123h-88Z\" fill=\"#a4cbbb\"/><path d=\"M120 35v123\" stroke-dasharray=\"7 6\" fill=\"none\"/>",
+    "PAPEL": "<path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/>",
+    "COPO": "<path d=\"M62 22h112l-15 143H78Z\" fill=\"#e6f4f8\"/><path d=\"m70 86 96 0-9 73H80Z\" fill=\"#7ac6e5\"/><path d=\"M150 49h18m-21 21h18m-20 22h17\" fill=\"none\"/>",
+    "ÁGUA": "<path d=\"M118 20C107 48 66 85 68 118a50 50 0 0 0 100 0c2-33-38-70-50-98Z\" fill=\"#68b9df\"/><path d=\"M90 119q0 25 24 29\" stroke=\"white\" stroke-width=\"6\" fill=\"none\"/>",
+    "MESA": "<path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/>",
+    "CADERNO": "<path d=\"M54 24h137v143H54Z\" fill=\"#b7d9cc\"/><path d=\"M78 24v143m15-108h77m-77 23h77m-77 23h77m-77 23h60M45 43h20m-20 30h20m-20 30h20m-20 30h20\" fill=\"none\"/>",
+    "DOCUMENTO": "<path d=\"M55 20h122v145H55Z\" fill=\"#fff4d6\"/><path d=\"M75 56h80m-80 25h80m-80 25h65\"/>"
+  },
+  "phases": {
+    "associacoes": [
+      {
+        "id": "ass-1-1",
+        "word": "TIRA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure tira.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "tira",
+            "image": "TIRA"
+          },
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          },
+          {
+            "label": "copo",
+            "image": "COPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        }
+      },
+      {
+        "id": "ass-1-2",
+        "word": "METADE",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure metade.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "metade",
+            "image": "METADE"
+          },
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          },
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        }
+      },
+      {
+        "id": "ass-1-3",
+        "word": "QUARTO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure quarto.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        }
+      },
+      {
+        "id": "ass-1-4",
+        "word": "BARRA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure barra.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "barra",
+            "image": "BARRA"
+          },
+          {
+            "label": "copo",
+            "image": "COPO"
+          },
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        }
+      },
+      {
+        "id": "ass-1-5",
+        "word": "RÉGUA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure régua.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          },
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          },
+          {
+            "label": "tira",
+            "image": "TIRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        }
+      },
+      {
+        "id": "ass-1-6",
+        "word": "CÍRCULO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure círculo.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "metade",
+            "image": "METADE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        }
+      },
+      {
+        "id": "ass-1-7",
+        "word": "DOBRA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure dobra.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          },
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          },
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        }
+      },
+      {
+        "id": "ass-1-8",
+        "word": "PAPEL",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure papel.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "tira",
+            "image": "TIRA"
+          },
+          {
+            "label": "barra",
+            "image": "BARRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        }
+      },
+      {
+        "id": "ass-1-9",
+        "word": "COPO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure copo.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "copo",
+            "image": "COPO"
+          },
+          {
+            "label": "metade",
+            "image": "METADE"
+          },
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        }
+      },
+      {
+        "id": "ass-1-10",
+        "word": "ÁGUA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure água.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          },
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          },
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        }
+      },
+      {
+        "id": "ass-1-11",
+        "word": "MESA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure mesa.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "barra",
+            "image": "BARRA"
+          },
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        }
+      },
+      {
+        "id": "ass-1-12",
+        "word": "CADERNO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Toque em Ouvir. Procure caderno.",
+        "command": "Ouça a palavra e toque no desenho.",
+        "options": [
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          },
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        }
+      },
+      {
+        "id": "ass-2-1",
+        "word": "TIRA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Faixa dividida em partes.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "TIRA"
+          },
+          {
+            "label": "CÍRCULO"
+          },
+          {
+            "label": "COPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        }
+      },
+      {
+        "id": "ass-2-2",
+        "word": "METADE",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de duas partes iguais do círculo.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "METADE"
+          },
+          {
+            "label": "DOBRA"
+          },
+          {
+            "label": "ÁGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        }
+      },
+      {
+        "id": "ass-2-3",
+        "word": "QUARTO",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de quatro partes iguais do círculo.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "QUARTO"
+          },
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        }
+      },
+      {
+        "id": "ass-2-4",
+        "word": "BARRA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Retângulo com partes marcadas.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "BARRA"
+          },
+          {
+            "label": "COPO"
+          },
+          {
+            "label": "CADERNO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        }
+      },
+      {
+        "id": "ass-2-5",
+        "word": "RÉGUA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Instrumento com marcas para medir.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "RÉGUA"
+          },
+          {
+            "label": "ÁGUA"
+          },
+          {
+            "label": "TIRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        }
+      },
+      {
+        "id": "ass-2-6",
+        "word": "CÍRCULO",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Figura redonda dividida em partes.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "CÍRCULO"
+          },
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "METADE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        }
+      },
+      {
+        "id": "ass-2-7",
+        "word": "DOBRA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Marca de dobrar o papel.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "DOBRA"
+          },
+          {
+            "label": "CADERNO"
+          },
+          {
+            "label": "QUARTO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        }
+      },
+      {
+        "id": "ass-2-8",
+        "word": "PAPEL",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para dobrar e marcar.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "TIRA"
+          },
+          {
+            "label": "BARRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        }
+      },
+      {
+        "id": "ass-2-9",
+        "word": "COPO",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Recipiente com marcas.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "COPO"
+          },
+          {
+            "label": "METADE"
+          },
+          {
+            "label": "RÉGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        }
+      },
+      {
+        "id": "ass-2-10",
+        "word": "ÁGUA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Líquido representado por gota.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "ÁGUA"
+          },
+          {
+            "label": "QUARTO"
+          },
+          {
+            "label": "CÍRCULO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        }
+      },
+      {
+        "id": "ass-2-11",
+        "word": "MESA",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel para apoiar as tiras.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "BARRA"
+          },
+          {
+            "label": "DOBRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        }
+      },
+      {
+        "id": "ass-2-12",
+        "word": "CADERNO",
+        "variant": 1,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para guardar medidas.",
+        "command": "Escolha a palavra do desenho.",
+        "options": [
+          {
+            "label": "CADERNO"
+          },
+          {
+            "label": "RÉGUA"
+          },
+          {
+            "label": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        }
+      },
+      {
+        "id": "ass-3-1",
+        "word": "TIRA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Faixa dividida em partes.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "T"
+          },
+          {
+            "label": "C"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        },
+        "showWord": "TIRA"
+      },
+      {
+        "id": "ass-3-2",
+        "word": "METADE",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de duas partes iguais do círculo.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "M"
+          },
+          {
+            "label": "D"
+          },
+          {
+            "label": "Á"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        },
+        "showWord": "METADE"
+      },
+      {
+        "id": "ass-3-3",
+        "word": "QUARTO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de quatro partes iguais do círculo.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "Q"
+          },
+          {
+            "label": "P"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        },
+        "showWord": "QUARTO"
+      },
+      {
+        "id": "ass-3-4",
+        "word": "BARRA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Retângulo com partes marcadas.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "B"
+          },
+          {
+            "label": "C"
+          },
+          {
+            "label": "M"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        },
+        "showWord": "BARRA"
+      },
+      {
+        "id": "ass-3-5",
+        "word": "RÉGUA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Instrumento com marcas para medir.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "R"
+          },
+          {
+            "label": "Á"
+          },
+          {
+            "label": "T"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        },
+        "showWord": "RÉGUA"
+      },
+      {
+        "id": "ass-3-6",
+        "word": "CÍRCULO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Figura redonda dividida em partes.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "C"
+          },
+          {
+            "label": "M"
+          },
+          {
+            "label": "B"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        },
+        "showWord": "CÍRCULO"
+      },
+      {
+        "id": "ass-3-7",
+        "word": "DOBRA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Marca de dobrar o papel.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "D"
+          },
+          {
+            "label": "C"
+          },
+          {
+            "label": "Q"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        },
+        "showWord": "DOBRA"
+      },
+      {
+        "id": "ass-3-8",
+        "word": "PAPEL",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para dobrar e marcar.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "P"
+          },
+          {
+            "label": "T"
+          },
+          {
+            "label": "B"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        },
+        "showWord": "PAPEL"
+      },
+      {
+        "id": "ass-3-9",
+        "word": "COPO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Recipiente com marcas.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "C"
+          },
+          {
+            "label": "M"
+          },
+          {
+            "label": "R"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        },
+        "showWord": "COPO"
+      },
+      {
+        "id": "ass-3-10",
+        "word": "ÁGUA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Líquido representado por gota.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "Á"
+          },
+          {
+            "label": "Q"
+          },
+          {
+            "label": "C"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        },
+        "showWord": "ÁGUA"
+      },
+      {
+        "id": "ass-3-11",
+        "word": "MESA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel para apoiar as tiras.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "M"
+          },
+          {
+            "label": "B"
+          },
+          {
+            "label": "D"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        },
+        "showWord": "MESA"
+      },
+      {
+        "id": "ass-3-12",
+        "word": "CADERNO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para guardar medidas.",
+        "command": "Toque na primeira letra da palavra.",
+        "options": [
+          {
+            "label": "C"
+          },
+          {
+            "label": "R"
+          },
+          {
+            "label": "P"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        },
+        "showWord": "CADERNO"
+      },
+      {
+        "id": "ass-4-1",
+        "word": "TIRA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Faixa dividida em partes.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "TI"
+          },
+          {
+            "label": "CÍR"
+          },
+          {
+            "label": "CO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        },
+        "showWord": "TIRA",
+        "parts": "TI - RA"
+      },
+      {
+        "id": "ass-4-2",
+        "word": "METADE",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de duas partes iguais do círculo.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "ME"
+          },
+          {
+            "label": "DO"
+          },
+          {
+            "label": "Á"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        },
+        "showWord": "METADE",
+        "parts": "ME - TA - DE"
+      },
+      {
+        "id": "ass-4-3",
+        "word": "QUARTO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de quatro partes iguais do círculo.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "QUAR"
+          },
+          {
+            "label": "PA"
+          },
+          {
+            "label": "ME"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        },
+        "showWord": "QUARTO",
+        "parts": "QUAR - TO"
+      },
+      {
+        "id": "ass-4-4",
+        "word": "BARRA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Retângulo com partes marcadas.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "BAR"
+          },
+          {
+            "label": "CO"
+          },
+          {
+            "label": "CA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        },
+        "showWord": "BARRA",
+        "parts": "BAR - RA"
+      },
+      {
+        "id": "ass-4-5",
+        "word": "RÉGUA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Instrumento com marcas para medir.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "RÉ"
+          },
+          {
+            "label": "Á"
+          },
+          {
+            "label": "TI"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        },
+        "showWord": "RÉGUA",
+        "parts": "RÉ - GUA"
+      },
+      {
+        "id": "ass-4-6",
+        "word": "CÍRCULO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Figura redonda dividida em partes.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "CÍR"
+          },
+          {
+            "label": "ME"
+          },
+          {
+            "label": "PA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        },
+        "showWord": "CÍRCULO",
+        "parts": "CÍR - CU - LO"
+      },
+      {
+        "id": "ass-4-7",
+        "word": "DOBRA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Marca de dobrar o papel.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "DO"
+          },
+          {
+            "label": "CA"
+          },
+          {
+            "label": "QUAR"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        },
+        "showWord": "DOBRA",
+        "parts": "DO - BRA"
+      },
+      {
+        "id": "ass-4-8",
+        "word": "PAPEL",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para dobrar e marcar.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "PA"
+          },
+          {
+            "label": "TI"
+          },
+          {
+            "label": "BAR"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        },
+        "showWord": "PAPEL",
+        "parts": "PA - PEL"
+      },
+      {
+        "id": "ass-4-9",
+        "word": "COPO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Recipiente com marcas.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "CO"
+          },
+          {
+            "label": "ME"
+          },
+          {
+            "label": "RÉ"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        },
+        "showWord": "COPO",
+        "parts": "CO - PO"
+      },
+      {
+        "id": "ass-4-10",
+        "word": "ÁGUA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Líquido representado por gota.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "Á"
+          },
+          {
+            "label": "QUAR"
+          },
+          {
+            "label": "CÍR"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        },
+        "showWord": "ÁGUA",
+        "parts": "Á - GUA"
+      },
+      {
+        "id": "ass-4-11",
+        "word": "MESA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel para apoiar as tiras.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "ME"
+          },
+          {
+            "label": "BAR"
+          },
+          {
+            "label": "DO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        },
+        "showWord": "MESA",
+        "parts": "ME - SA"
+      },
+      {
+        "id": "ass-4-12",
+        "word": "CADERNO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para guardar medidas.",
+        "command": "Ouça a palavra e escolha a primeira sílaba.",
+        "options": [
+          {
+            "label": "CA"
+          },
+          {
+            "label": "RÉ"
+          },
+          {
+            "label": "PA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        },
+        "showWord": "CADERNO",
+        "parts": "CA - DER - NO"
+      },
+      {
+        "id": "ass-5-1",
+        "word": "TIRA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Faixa dividida em partes.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "TI"
+          },
+          {
+            "label": "RA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "ME + TA + DE forma METADE."
+        },
+        "showWord": "TIRA",
+        "parts": "Modelo para consultar: TIRA"
+      },
+      {
+        "id": "ass-5-2",
+        "word": "METADE",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Uma de duas partes iguais do círculo.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "ME"
+          },
+          {
+            "label": "TA"
+          },
+          {
+            "label": "DE"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "QUAR + TO forma QUARTO."
+        },
+        "showWord": "METADE",
+        "parts": "Modelo para consultar: METADE"
+      },
+      {
+        "id": "ass-5-3",
+        "word": "QUARTO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Uma de quatro partes iguais do círculo.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "QUAR"
+          },
+          {
+            "label": "TO"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "BAR + RA forma BARRA."
+        },
+        "showWord": "QUARTO",
+        "parts": "Modelo para consultar: QUARTO"
+      },
+      {
+        "id": "ass-5-4",
+        "word": "BARRA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Retângulo com partes marcadas.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "BAR"
+          },
+          {
+            "label": "RA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "RÉ + GUA forma RÉGUA."
+        },
+        "showWord": "BARRA",
+        "parts": "Modelo para consultar: BARRA"
+      },
+      {
+        "id": "ass-5-5",
+        "word": "RÉGUA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Instrumento com marcas para medir.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "RÉ"
+          },
+          {
+            "label": "GUA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "CÍR + CU + LO forma CÍRCULO."
+        },
+        "showWord": "RÉGUA",
+        "parts": "Modelo para consultar: RÉGUA"
+      },
+      {
+        "id": "ass-5-6",
+        "word": "CÍRCULO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Figura redonda dividida em partes.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "CÍR"
+          },
+          {
+            "label": "CU"
+          },
+          {
+            "label": "LO"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "DO + BRA forma DOBRA."
+        },
+        "showWord": "CÍRCULO",
+        "parts": "Modelo para consultar: CÍRCULO"
+      },
+      {
+        "id": "ass-5-7",
+        "word": "DOBRA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Marca de dobrar o papel.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "DO"
+          },
+          {
+            "label": "BRA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "PA + PEL forma PAPEL."
+        },
+        "showWord": "DOBRA",
+        "parts": "Modelo para consultar: DOBRA"
+      },
+      {
+        "id": "ass-5-8",
+        "word": "PAPEL",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Folha para dobrar e marcar.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "PA"
+          },
+          {
+            "label": "PEL"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "CO + PO forma COPO."
+        },
+        "showWord": "PAPEL",
+        "parts": "Modelo para consultar: PAPEL"
+      },
+      {
+        "id": "ass-5-9",
+        "word": "COPO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Recipiente com marcas.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "CO"
+          },
+          {
+            "label": "PO"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Á + GUA forma ÁGUA."
+        },
+        "showWord": "COPO",
+        "parts": "Modelo para consultar: COPO"
+      },
+      {
+        "id": "ass-5-10",
+        "word": "ÁGUA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Líquido representado por gota.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "Á"
+          },
+          {
+            "label": "GUA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "ME + SA forma MESA."
+        },
+        "showWord": "ÁGUA",
+        "parts": "Modelo para consultar: ÁGUA"
+      },
+      {
+        "id": "ass-5-11",
+        "word": "MESA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Móvel para apoiar as tiras.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "ME"
+          },
+          {
+            "label": "SA"
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "CA + DER + NO forma CADERNO."
+        },
+        "showWord": "MESA",
+        "parts": "Modelo para consultar: MESA"
+      },
+      {
+        "id": "ass-5-12",
+        "word": "CADERNO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Observe o desenho. Objeto para guardar medidas.",
+        "command": "Monte a palavra tocando nas partes.",
+        "options": [
+          {
+            "label": "CA"
+          },
+          {
+            "label": "DER"
+          },
+          {
+            "label": "NO"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "TI + RA forma TIRA."
+        },
+        "showWord": "CADERNO",
+        "parts": "Modelo para consultar: CADERNO"
+      },
+      {
+        "id": "ass-6-1",
+        "word": "TIRA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Faixa dividida em partes.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A tira tem quatro partes."
+          },
+          {
+            "label": "O círculo tem quatro partes."
+          },
+          {
+            "label": "O copo contém água."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        }
+      },
+      {
+        "id": "ass-6-2",
+        "word": "METADE",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de duas partes iguais do círculo.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A metade ocupa um lado do círculo."
+          },
+          {
+            "label": "A dobra aparece no papel."
+          },
+          {
+            "label": "A água aparece em uma gota."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        }
+      },
+      {
+        "id": "ass-6-3",
+        "word": "QUARTO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de quatro partes iguais do círculo.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          },
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        }
+      },
+      {
+        "id": "ass-6-4",
+        "word": "BARRA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Retângulo com partes marcadas.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A barra tem quatro partes."
+          },
+          {
+            "label": "O copo contém água."
+          },
+          {
+            "label": "O caderno tem linhas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        }
+      },
+      {
+        "id": "ass-6-5",
+        "word": "RÉGUA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Instrumento com marcas para medir.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A régua tem marcas."
+          },
+          {
+            "label": "A água aparece em uma gota."
+          },
+          {
+            "label": "A tira tem quatro partes."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        }
+      },
+      {
+        "id": "ass-6-6",
+        "word": "CÍRCULO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Figura redonda dividida em partes.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O círculo tem quatro partes."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A metade ocupa um lado do círculo."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        }
+      },
+      {
+        "id": "ass-6-7",
+        "word": "DOBRA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Marca de dobrar o papel.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A dobra aparece no papel."
+          },
+          {
+            "label": "O caderno tem linhas."
+          },
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        }
+      },
+      {
+        "id": "ass-6-8",
+        "word": "PAPEL",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para dobrar e marcar.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A tira tem quatro partes."
+          },
+          {
+            "label": "A barra tem quatro partes."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        }
+      },
+      {
+        "id": "ass-6-9",
+        "word": "COPO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Recipiente com marcas.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O copo contém água."
+          },
+          {
+            "label": "A metade ocupa um lado do círculo."
+          },
+          {
+            "label": "A régua tem marcas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        }
+      },
+      {
+        "id": "ass-6-10",
+        "word": "ÁGUA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Líquido representado por gota.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A água aparece em uma gota."
+          },
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          },
+          {
+            "label": "O círculo tem quatro partes."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        }
+      },
+      {
+        "id": "ass-6-11",
+        "word": "MESA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel para apoiar as tiras.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A barra tem quatro partes."
+          },
+          {
+            "label": "A dobra aparece no papel."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        }
+      },
+      {
+        "id": "ass-6-12",
+        "word": "CADERNO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para guardar medidas.",
+        "command": "Escolha a frase que combina com o desenho.",
+        "options": [
+          {
+            "label": "O caderno tem linhas."
+          },
+          {
+            "label": "A régua tem marcas."
+          },
+          {
+            "label": "O papel tem linhas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        }
+      },
+      {
+        "id": "ass-7-1",
+        "word": "TIRA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Faixa dividida em partes.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "tira",
+            "image": "TIRA"
+          },
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          },
+          {
+            "label": "copo",
+            "image": "COPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        },
+        "showWord": "TIRA"
+      },
+      {
+        "id": "ass-7-2",
+        "word": "METADE",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de duas partes iguais do círculo.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "metade",
+            "image": "METADE"
+          },
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          },
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        },
+        "showWord": "METADE"
+      },
+      {
+        "id": "ass-7-3",
+        "word": "QUARTO",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Uma de quatro partes iguais do círculo.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        },
+        "showWord": "QUARTO"
+      },
+      {
+        "id": "ass-7-4",
+        "word": "BARRA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Retângulo com partes marcadas.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "barra",
+            "image": "BARRA"
+          },
+          {
+            "label": "copo",
+            "image": "COPO"
+          },
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        },
+        "showWord": "BARRA"
+      },
+      {
+        "id": "ass-7-5",
+        "word": "RÉGUA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Instrumento com marcas para medir.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          },
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          },
+          {
+            "label": "tira",
+            "image": "TIRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        },
+        "showWord": "RÉGUA"
+      },
+      {
+        "id": "ass-7-6",
+        "word": "CÍRCULO",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Figura redonda dividida em partes.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "metade",
+            "image": "METADE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        },
+        "showWord": "CÍRCULO"
+      },
+      {
+        "id": "ass-7-7",
+        "word": "DOBRA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Marca de dobrar o papel.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          },
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          },
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        },
+        "showWord": "DOBRA"
+      },
+      {
+        "id": "ass-7-8",
+        "word": "PAPEL",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Folha para dobrar e marcar.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "tira",
+            "image": "TIRA"
+          },
+          {
+            "label": "barra",
+            "image": "BARRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        },
+        "showWord": "PAPEL"
+      },
+      {
+        "id": "ass-7-9",
+        "word": "COPO",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Recipiente com marcas.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "copo",
+            "image": "COPO"
+          },
+          {
+            "label": "metade",
+            "image": "METADE"
+          },
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        },
+        "showWord": "COPO"
+      },
+      {
+        "id": "ass-7-10",
+        "word": "ÁGUA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Líquido representado por gota.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          },
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          },
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        },
+        "showWord": "ÁGUA"
+      },
+      {
+        "id": "ass-7-11",
+        "word": "MESA",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Móvel para apoiar as tiras.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "barra",
+            "image": "BARRA"
+          },
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        },
+        "showWord": "MESA"
+      },
+      {
+        "id": "ass-7-12",
+        "word": "CADERNO",
+        "variant": 6,
+        "kind": "choice",
+        "situation": "Observe o desenho. Objeto para guardar medidas.",
+        "command": "Ligue a palavra ao desenho correspondente.",
+        "options": [
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          },
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        },
+        "showWord": "CADERNO"
+      },
+      {
+        "id": "ass-8-1",
+        "word": "TIRA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "TIRA"
+          },
+          {
+            "label": "CÍRCULO"
+          },
+          {
+            "label": "COPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: tira.",
+        "feedback": "Tira: Faixa dividida em partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Metade combina com o desenho. Uma de duas partes iguais do círculo."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"TIRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M20 64h200v62H20Z\" fill=\"#f5e5bd\"/><path d=\"M20 64h100v62H20Z\" fill=\"#80b6a4\"/><path d=\"M70 64v62m50-62v62m50-62v62\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-2",
+        "word": "METADE",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "METADE"
+          },
+          {
+            "label": "DOBRA"
+          },
+          {
+            "label": "ÁGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: metade.",
+        "feedback": "Metade: Uma de duas partes iguais do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Quarto combina com o desenho. Uma de quatro partes iguais do círculo."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"METADE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 0 0 140Z\" fill=\"#77b2a8\"/><path d=\"M120 25v140\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-3",
+        "word": "QUARTO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "QUARTO"
+          },
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: quarto.",
+        "feedback": "Quarto: Uma de quatro partes iguais do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Barra combina com o desenho. Retângulo com partes marcadas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"QUARTO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 1 70 70h-70Z\" fill=\"#77b2a8\"/><path d=\"M50 95h140m-70-70v140\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-4",
+        "word": "BARRA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "BARRA"
+          },
+          {
+            "label": "COPO"
+          },
+          {
+            "label": "CADERNO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: barra.",
+        "feedback": "Barra: Retângulo com partes marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Régua combina com o desenho. Instrumento com marcas para medir."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"BARRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M20 50h200v90H20Z\" fill=\"#eed9af\"/><path d=\"M20 50h150v90H20Z\" fill=\"#c5926e\"/><path d=\"M70 50v90m50-90v90m50-90v90\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-5",
+        "word": "RÉGUA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "RÉGUA"
+          },
+          {
+            "label": "ÁGUA"
+          },
+          {
+            "label": "TIRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: régua.",
+        "feedback": "Régua: Instrumento com marcas para medir.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Círculo combina com o desenho. Figura redonda dividida em partes."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"RÉGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M17 65h206v66H17Z\" fill=\"#e9c46e\"/><path d=\"M37 66v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-6",
+        "word": "CÍRCULO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "CÍRCULO"
+          },
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "METADE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: círculo.",
+        "feedback": "Círculo: Figura redonda dividida em partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Dobra combina com o desenho. Marca de dobrar o papel."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CÍRCULO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"95\" r=\"73\" fill=\"#b6d4c3\"/><path d=\"M47 95h146m-73-73v146\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-7",
+        "word": "DOBRA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "DOBRA"
+          },
+          {
+            "label": "CADERNO"
+          },
+          {
+            "label": "QUARTO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: dobra.",
+        "feedback": "Dobra: Marca de dobrar o papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Papel combina com o desenho. Folha para dobrar e marcar."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"DOBRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M32 35h176v123H32Z\" fill=\"#e4d7ae\"/><path d=\"m120 35 88 123h-88Z\" fill=\"#a4cbbb\"/><path d=\"M120 35v123\" stroke-dasharray=\"7 6\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-8",
+        "word": "PAPEL",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "PAPEL"
+          },
+          {
+            "label": "TIRA"
+          },
+          {
+            "label": "BARRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: papel.",
+        "feedback": "Papel: Folha para dobrar e marcar.",
+        "example": {
+          "word": "COPO",
+          "text": "Copo combina com o desenho. Recipiente com marcas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-9",
+        "word": "COPO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "COPO"
+          },
+          {
+            "label": "METADE"
+          },
+          {
+            "label": "RÉGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: copo.",
+        "feedback": "Copo: Recipiente com marcas.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Água combina com o desenho. Líquido representado por gota."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"COPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M62 22h112l-15 143H78Z\" fill=\"#e6f4f8\"/><path d=\"m70 86 96 0-9 73H80Z\" fill=\"#7ac6e5\"/><path d=\"M150 49h18m-21 21h18m-20 22h17\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-10",
+        "word": "ÁGUA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "ÁGUA"
+          },
+          {
+            "label": "QUARTO"
+          },
+          {
+            "label": "CÍRCULO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: água.",
+        "feedback": "Água: Líquido representado por gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Mesa combina com o desenho. Móvel para apoiar as tiras."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ÁGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M118 20C107 48 66 85 68 118a50 50 0 0 0 100 0c2-33-38-70-50-98Z\" fill=\"#68b9df\"/><path d=\"M90 119q0 25 24 29\" stroke=\"white\" stroke-width=\"6\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-11",
+        "word": "MESA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "MESA"
+          },
+          {
+            "label": "BARRA"
+          },
+          {
+            "label": "DOBRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: mesa.",
+        "feedback": "Mesa: Móvel para apoiar as tiras.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Caderno combina com o desenho. Objeto para guardar medidas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "id": "ass-8-12",
+        "word": "CADERNO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "O objeto está menor e em outra posição. Observe seu contorno.",
+        "command": "Observe o objeto em outra posição e escolha a palavra.",
+        "options": [
+          {
+            "label": "CADERNO"
+          },
+          {
+            "label": "RÉGUA"
+          },
+          {
+            "label": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe a forma e ouça a palavra: caderno.",
+        "feedback": "Caderno: Objeto para guardar medidas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Tira combina com o desenho. Faixa dividida em partes."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CADERNO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#e7eef6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M54 24h137v143H54Z\" fill=\"#b7d9cc\"/><path d=\"M78 24v143m15-108h77m-77 23h77m-77 23h77m-77 23h60M45 43h20m-20 30h20m-20 30h20m-20 30h20\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>"
+      }
+    ],
+    "frases": [
+      {
+        "id": "fra-1-1",
+        "word": "TIRA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Faixa dividida em partes.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A tira tem quatro partes."
+          },
+          {
+            "label": "O círculo tem quatro partes."
+          },
+          {
+            "label": "O copo contém água."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        }
+      },
+      {
+        "id": "fra-1-2",
+        "word": "METADE",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A metade ocupa um lado do círculo."
+          },
+          {
+            "label": "A dobra aparece no papel."
+          },
+          {
+            "label": "A água aparece em uma gota."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        }
+      },
+      {
+        "id": "fra-1-3",
+        "word": "QUARTO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          },
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-1-4",
+        "word": "BARRA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A barra tem quatro partes."
+          },
+          {
+            "label": "O copo contém água."
+          },
+          {
+            "label": "O caderno tem linhas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        }
+      },
+      {
+        "id": "fra-1-5",
+        "word": "RÉGUA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A régua tem marcas."
+          },
+          {
+            "label": "A água aparece em uma gota."
+          },
+          {
+            "label": "A tira tem quatro partes."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-1-6",
+        "word": "CÍRCULO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O círculo tem quatro partes."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A metade ocupa um lado do círculo."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        }
+      },
+      {
+        "id": "fra-1-7",
+        "word": "DOBRA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A dobra aparece no papel."
+          },
+          {
+            "label": "O caderno tem linhas."
+          },
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        }
+      },
+      {
+        "id": "fra-1-8",
+        "word": "PAPEL",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A tira tem quatro partes."
+          },
+          {
+            "label": "A barra tem quatro partes."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        }
+      },
+      {
+        "id": "fra-1-9",
+        "word": "COPO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Recipiente com marcas.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O copo contém água."
+          },
+          {
+            "label": "A metade ocupa um lado do círculo."
+          },
+          {
+            "label": "A régua tem marcas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        }
+      },
+      {
+        "id": "fra-1-10",
+        "word": "ÁGUA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Líquido representado por gota.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A água aparece em uma gota."
+          },
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          },
+          {
+            "label": "O círculo tem quatro partes."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        }
+      },
+      {
+        "id": "fra-1-11",
+        "word": "MESA",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A barra tem quatro partes."
+          },
+          {
+            "label": "A dobra aparece no papel."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        }
+      },
+      {
+        "id": "fra-1-12",
+        "word": "CADERNO",
+        "variant": 0,
+        "kind": "choice",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Escolha a frase do desenho.",
+        "options": [
+          {
+            "label": "O caderno tem linhas."
+          },
+          {
+            "label": "A régua tem marcas."
+          },
+          {
+            "label": "O papel tem linhas."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-2-1",
+        "word": "TIRA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Faixa dividida em partes.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "tira"
+          },
+          {
+            "label": "tem quatro partes"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        },
+        "showWord": "Modelo: A tira tem quatro partes."
+      },
+      {
+        "id": "fra-2-2",
+        "word": "METADE",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "metade"
+          },
+          {
+            "label": "ocupa um lado do círculo"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        },
+        "showWord": "Modelo: A metade ocupa um lado do círculo."
+      },
+      {
+        "id": "fra-2-3",
+        "word": "QUARTO",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "quarto"
+          },
+          {
+            "label": "ocupa uma parte do círculo"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        },
+        "showWord": "Modelo: O quarto ocupa uma parte do círculo."
+      },
+      {
+        "id": "fra-2-4",
+        "word": "BARRA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "barra"
+          },
+          {
+            "label": "tem quatro partes"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        },
+        "showWord": "Modelo: A barra tem quatro partes."
+      },
+      {
+        "id": "fra-2-5",
+        "word": "RÉGUA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "régua"
+          },
+          {
+            "label": "tem marcas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        },
+        "showWord": "Modelo: A régua tem marcas."
+      },
+      {
+        "id": "fra-2-6",
+        "word": "CÍRCULO",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "círculo"
+          },
+          {
+            "label": "tem quatro partes"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        },
+        "showWord": "Modelo: O círculo tem quatro partes."
+      },
+      {
+        "id": "fra-2-7",
+        "word": "DOBRA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "dobra"
+          },
+          {
+            "label": "aparece no papel"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "showWord": "Modelo: A dobra aparece no papel."
+      },
+      {
+        "id": "fra-2-8",
+        "word": "PAPEL",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "tem linhas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        },
+        "showWord": "Modelo: O papel tem linhas."
+      },
+      {
+        "id": "fra-2-9",
+        "word": "COPO",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Recipiente com marcas.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "copo"
+          },
+          {
+            "label": "contém água"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        },
+        "showWord": "Modelo: O copo contém água."
+      },
+      {
+        "id": "fra-2-10",
+        "word": "ÁGUA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Líquido representado por gota.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "água"
+          },
+          {
+            "label": "aparece em uma gota"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "showWord": "Modelo: A água aparece em uma gota."
+      },
+      {
+        "id": "fra-2-11",
+        "word": "MESA",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "tem duas pernas visíveis"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        },
+        "showWord": "Modelo: A mesa tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-2-12",
+        "word": "CADERNO",
+        "variant": 1,
+        "kind": "order",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Junte os cartões para formar a frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "caderno"
+          },
+          {
+            "label": "tem linhas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        },
+        "showWord": "Modelo: O caderno tem linhas."
+      },
+      {
+        "id": "fra-3-1",
+        "word": "TIRA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Faixa dividida em partes.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "tira",
+            "image": "TIRA"
+          },
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          },
+          {
+            "label": "copo",
+            "image": "COPO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        },
+        "showWord": "A tira tem quatro partes."
+      },
+      {
+        "id": "fra-3-2",
+        "word": "METADE",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "metade",
+            "image": "METADE"
+          },
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          },
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        },
+        "showWord": "A metade ocupa um lado do círculo."
+      },
+      {
+        "id": "fra-3-3",
+        "word": "QUARTO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        },
+        "showWord": "O quarto ocupa uma parte do círculo."
+      },
+      {
+        "id": "fra-3-4",
+        "word": "BARRA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "barra",
+            "image": "BARRA"
+          },
+          {
+            "label": "copo",
+            "image": "COPO"
+          },
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        },
+        "showWord": "A barra tem quatro partes."
+      },
+      {
+        "id": "fra-3-5",
+        "word": "RÉGUA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          },
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          },
+          {
+            "label": "tira",
+            "image": "TIRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        },
+        "showWord": "A régua tem marcas."
+      },
+      {
+        "id": "fra-3-6",
+        "word": "CÍRCULO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          },
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "metade",
+            "image": "METADE"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        },
+        "showWord": "O círculo tem quatro partes."
+      },
+      {
+        "id": "fra-3-7",
+        "word": "DOBRA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          },
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          },
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "showWord": "A dobra aparece no papel."
+      },
+      {
+        "id": "fra-3-8",
+        "word": "PAPEL",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          },
+          {
+            "label": "tira",
+            "image": "TIRA"
+          },
+          {
+            "label": "barra",
+            "image": "BARRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        },
+        "showWord": "O papel tem linhas."
+      },
+      {
+        "id": "fra-3-9",
+        "word": "COPO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Recipiente com marcas.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "copo",
+            "image": "COPO"
+          },
+          {
+            "label": "metade",
+            "image": "METADE"
+          },
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        },
+        "showWord": "O copo contém água."
+      },
+      {
+        "id": "fra-3-10",
+        "word": "ÁGUA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Líquido representado por gota.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "água",
+            "image": "ÁGUA"
+          },
+          {
+            "label": "quarto",
+            "image": "QUARTO"
+          },
+          {
+            "label": "círculo",
+            "image": "CÍRCULO"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "showWord": "A água aparece em uma gota."
+      },
+      {
+        "id": "fra-3-11",
+        "word": "MESA",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "mesa",
+            "image": "MESA"
+          },
+          {
+            "label": "barra",
+            "image": "BARRA"
+          },
+          {
+            "label": "dobra",
+            "image": "DOBRA"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        },
+        "showWord": "A mesa tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-3-12",
+        "word": "CADERNO",
+        "variant": 2,
+        "kind": "choice",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Quem aparece nesta frase?",
+        "options": [
+          {
+            "label": "caderno",
+            "image": "CADERNO"
+          },
+          {
+            "label": "régua",
+            "image": "RÉGUA"
+          },
+          {
+            "label": "papel",
+            "image": "PAPEL"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        },
+        "showWord": "O caderno tem linhas."
+      },
+      {
+        "id": "fra-4-1",
+        "word": "TIRA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Faixa dividida em partes.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "tira"
+          },
+          {
+            "label": "círculo"
+          },
+          {
+            "label": "copo"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        },
+        "showWord": "A ______ tem quatro partes."
+      },
+      {
+        "id": "fra-4-2",
+        "word": "METADE",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "metade"
+          },
+          {
+            "label": "dobra"
+          },
+          {
+            "label": "água"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        },
+        "showWord": "A ______ ocupa um lado do círculo."
+      },
+      {
+        "id": "fra-4-3",
+        "word": "QUARTO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "quarto"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "mesa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        },
+        "showWord": "O ______ ocupa uma parte do círculo."
+      },
+      {
+        "id": "fra-4-4",
+        "word": "BARRA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "barra"
+          },
+          {
+            "label": "copo"
+          },
+          {
+            "label": "caderno"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        },
+        "showWord": "A ______ tem quatro partes."
+      },
+      {
+        "id": "fra-4-5",
+        "word": "RÉGUA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "régua"
+          },
+          {
+            "label": "água"
+          },
+          {
+            "label": "tira"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        },
+        "showWord": "A ______ tem marcas."
+      },
+      {
+        "id": "fra-4-6",
+        "word": "CÍRCULO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "círculo"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "metade"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        },
+        "showWord": "O ______ tem quatro partes."
+      },
+      {
+        "id": "fra-4-7",
+        "word": "DOBRA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "dobra"
+          },
+          {
+            "label": "caderno"
+          },
+          {
+            "label": "quarto"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "showWord": "A ______ aparece no papel."
+      },
+      {
+        "id": "fra-4-8",
+        "word": "PAPEL",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "papel"
+          },
+          {
+            "label": "tira"
+          },
+          {
+            "label": "barra"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        },
+        "showWord": "O ______ tem linhas."
+      },
+      {
+        "id": "fra-4-9",
+        "word": "COPO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Recipiente com marcas.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "copo"
+          },
+          {
+            "label": "metade"
+          },
+          {
+            "label": "régua"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        },
+        "showWord": "O ______ contém água."
+      },
+      {
+        "id": "fra-4-10",
+        "word": "ÁGUA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Líquido representado por gota.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "água"
+          },
+          {
+            "label": "quarto"
+          },
+          {
+            "label": "círculo"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "showWord": "A ______ aparece em uma gota."
+      },
+      {
+        "id": "fra-4-11",
+        "word": "MESA",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "barra"
+          },
+          {
+            "label": "dobra"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        },
+        "showWord": "A ______ tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-4-12",
+        "word": "CADERNO",
+        "variant": 3,
+        "kind": "choice",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Complete a frase com a palavra do desenho.",
+        "options": [
+          {
+            "label": "caderno"
+          },
+          {
+            "label": "régua"
+          },
+          {
+            "label": "papel"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        },
+        "showWord": "O ______ tem linhas."
+      },
+      {
+        "id": "fra-5-1",
+        "word": "TIRA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Faixa dividida em partes.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "tira"
+          },
+          {
+            "label": "tem quatro partes"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        }
+      },
+      {
+        "id": "fra-5-2",
+        "word": "METADE",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "metade"
+          },
+          {
+            "label": "ocupa um lado do círculo"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        }
+      },
+      {
+        "id": "fra-5-3",
+        "word": "QUARTO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "quarto"
+          },
+          {
+            "label": "ocupa uma parte do círculo"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-5-4",
+        "word": "BARRA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "barra"
+          },
+          {
+            "label": "tem quatro partes"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        }
+      },
+      {
+        "id": "fra-5-5",
+        "word": "RÉGUA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "régua"
+          },
+          {
+            "label": "tem marcas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-5-6",
+        "word": "CÍRCULO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "círculo"
+          },
+          {
+            "label": "tem quatro partes"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        }
+      },
+      {
+        "id": "fra-5-7",
+        "word": "DOBRA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "dobra"
+          },
+          {
+            "label": "aparece no papel"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        }
+      },
+      {
+        "id": "fra-5-8",
+        "word": "PAPEL",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "tem linhas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        }
+      },
+      {
+        "id": "fra-5-9",
+        "word": "COPO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Recipiente com marcas.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "copo"
+          },
+          {
+            "label": "contém água"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        }
+      },
+      {
+        "id": "fra-5-10",
+        "word": "ÁGUA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Líquido representado por gota.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "água"
+          },
+          {
+            "label": "aparece em uma gota"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        }
+      },
+      {
+        "id": "fra-5-11",
+        "word": "MESA",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "A"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "tem duas pernas visíveis"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        }
+      },
+      {
+        "id": "fra-5-12",
+        "word": "CADERNO",
+        "variant": 4,
+        "kind": "order",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Coloque os cartões na ordem da frase.",
+        "options": [
+          {
+            "label": "O"
+          },
+          {
+            "label": "caderno"
+          },
+          {
+            "label": "tem linhas"
+          }
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-6-1",
+        "word": "TIRA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Faixa dividida em partes.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "Duas partes da tira estão verdes."
+          },
+          {
+            "label": "A tira aparece em cinco cópias."
+          },
+          {
+            "label": "A tira tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "Duas partes da tira estão verdes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        }
+      },
+      {
+        "id": "fra-6-2",
+        "word": "METADE",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O círculo tem uma metade verde."
+          },
+          {
+            "label": "A metade aparece em cinco cópias."
+          },
+          {
+            "label": "A metade tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "O círculo tem uma metade verde.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        }
+      },
+      {
+        "id": "fra-6-3",
+        "word": "QUARTO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O círculo tem uma de quatro partes verde."
+          },
+          {
+            "label": "O quarto aparece em cinco cópias."
+          },
+          {
+            "label": "O quarto tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O círculo tem uma de quatro partes verde.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-6-4",
+        "word": "BARRA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "Três partes da barra estão marcadas."
+          },
+          {
+            "label": "A barra aparece em cinco cópias."
+          },
+          {
+            "label": "A barra tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "Três partes da barra estão marcadas.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        }
+      },
+      {
+        "id": "fra-6-5",
+        "word": "RÉGUA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A régua tem formato comprido."
+          },
+          {
+            "label": "A régua aparece em cinco cópias."
+          },
+          {
+            "label": "A régua tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem formato comprido.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-6-6",
+        "word": "CÍRCULO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "As linhas se cruzam no centro."
+          },
+          {
+            "label": "O círculo aparece em cinco cópias."
+          },
+          {
+            "label": "O círculo tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "As linhas se cruzam no centro.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        }
+      },
+      {
+        "id": "fra-6-7",
+        "word": "DOBRA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O papel tem uma parte triangular dobrada."
+          },
+          {
+            "label": "A dobra aparece em cinco cópias."
+          },
+          {
+            "label": "A dobra tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "O papel tem uma parte triangular dobrada.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        }
+      },
+      {
+        "id": "fra-6-8",
+        "word": "PAPEL",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O papel tem formato retangular."
+          },
+          {
+            "label": "O papel aparece em cinco cópias."
+          },
+          {
+            "label": "O papel tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem formato retangular.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        }
+      },
+      {
+        "id": "fra-6-9",
+        "word": "COPO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Recipiente com marcas.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O copo tem marcas na lateral."
+          },
+          {
+            "label": "O copo aparece em cinco cópias."
+          },
+          {
+            "label": "O copo tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo tem marcas na lateral.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        }
+      },
+      {
+        "id": "fra-6-10",
+        "word": "ÁGUA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Líquido representado por gota.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A gota tem uma ponta acima."
+          },
+          {
+            "label": "A água aparece em cinco cópias."
+          },
+          {
+            "label": "A água tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A gota tem uma ponta acima.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        }
+      },
+      {
+        "id": "fra-6-11",
+        "word": "MESA",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "A mesa tem um tampo comprido."
+          },
+          {
+            "label": "A mesa aparece em cinco cópias."
+          },
+          {
+            "label": "A mesa tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem um tampo comprido.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        }
+      },
+      {
+        "id": "fra-6-12",
+        "word": "CADERNO",
+        "variant": 5,
+        "kind": "choice",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Escolha a frase com um detalhe do desenho.",
+        "options": [
+          {
+            "label": "O caderno tem argolas na lateral."
+          },
+          {
+            "label": "O caderno aparece em cinco cópias."
+          },
+          {
+            "label": "O caderno tem uma estrela desenhada acima."
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem argolas na lateral.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        }
+      },
+      {
+        "id": "fra-7-1",
+        "word": "TIRA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A tira tem quatro partes."
+          },
+          {
+            "label": "O círculo tem quatro partes."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"TIRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 64h200v62H20Z\" fill=\"#f5e5bd\"/><path d=\"M20 64h100v62H20Z\" fill=\"#80b6a4\"/><path d=\"M70 64v62m50-62v62m50-62v62\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CÍRCULO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"95\" r=\"73\" fill=\"#b6d4c3\"/><path d=\"M47 95h146m-73-73v146\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "TIRA",
+          "CÍRCULO"
+        ]
+      },
+      {
+        "id": "fra-7-2",
+        "word": "METADE",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A metade ocupa um lado do círculo."
+          },
+          {
+            "label": "A dobra aparece no papel."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"METADE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 0 0 140Z\" fill=\"#77b2a8\"/><path d=\"M120 25v140\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"DOBRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 35h176v123H32Z\" fill=\"#e4d7ae\"/><path d=\"m120 35 88 123h-88Z\" fill=\"#a4cbbb\"/><path d=\"M120 35v123\" stroke-dasharray=\"7 6\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "METADE",
+          "DOBRA"
+        ]
+      },
+      {
+        "id": "fra-7-3",
+        "word": "QUARTO",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          },
+          {
+            "label": "O papel tem linhas."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"QUARTO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 1 70 70h-70Z\" fill=\"#77b2a8\"/><path d=\"M50 95h140m-70-70v140\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "QUARTO",
+          "PAPEL"
+        ]
+      },
+      {
+        "id": "fra-7-4",
+        "word": "BARRA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A barra tem quatro partes."
+          },
+          {
+            "label": "O copo contém água."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"BARRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 50h200v90H20Z\" fill=\"#eed9af\"/><path d=\"M20 50h150v90H20Z\" fill=\"#c5926e\"/><path d=\"M70 50v90m50-90v90m50-90v90\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"COPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 22h112l-15 143H78Z\" fill=\"#e6f4f8\"/><path d=\"m70 86 96 0-9 73H80Z\" fill=\"#7ac6e5\"/><path d=\"M150 49h18m-21 21h18m-20 22h17\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "BARRA",
+          "COPO"
+        ]
+      },
+      {
+        "id": "fra-7-5",
+        "word": "RÉGUA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A régua tem marcas."
+          },
+          {
+            "label": "A água aparece em uma gota."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"RÉGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 65h206v66H17Z\" fill=\"#e9c46e\"/><path d=\"M37 66v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ÁGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M118 20C107 48 66 85 68 118a50 50 0 0 0 100 0c2-33-38-70-50-98Z\" fill=\"#68b9df\"/><path d=\"M90 119q0 25 24 29\" stroke=\"white\" stroke-width=\"6\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "RÉGUA",
+          "ÁGUA"
+        ]
+      },
+      {
+        "id": "fra-7-6",
+        "word": "CÍRCULO",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O círculo tem quatro partes."
+          },
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CÍRCULO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"95\" r=\"73\" fill=\"#b6d4c3\"/><path d=\"M47 95h146m-73-73v146\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g></svg></div>",
+        "imageWords": [
+          "CÍRCULO",
+          "MESA"
+        ]
+      },
+      {
+        "id": "fra-7-7",
+        "word": "DOBRA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A dobra aparece no papel."
+          },
+          {
+            "label": "O caderno tem linhas."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"DOBRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 35h176v123H32Z\" fill=\"#e4d7ae\"/><path d=\"m120 35 88 123h-88Z\" fill=\"#a4cbbb\"/><path d=\"M120 35v123\" stroke-dasharray=\"7 6\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CADERNO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M54 24h137v143H54Z\" fill=\"#b7d9cc\"/><path d=\"M78 24v143m15-108h77m-77 23h77m-77 23h77m-77 23h60M45 43h20m-20 30h20m-20 30h20m-20 30h20\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "DOBRA",
+          "CADERNO"
+        ]
+      },
+      {
+        "id": "fra-7-8",
+        "word": "PAPEL",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O papel tem linhas."
+          },
+          {
+            "label": "A tira tem quatro partes."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"TIRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 64h200v62H20Z\" fill=\"#f5e5bd\"/><path d=\"M20 64h100v62H20Z\" fill=\"#80b6a4\"/><path d=\"M70 64v62m50-62v62m50-62v62\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "PAPEL",
+          "TIRA"
+        ]
+      },
+      {
+        "id": "fra-7-9",
+        "word": "COPO",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O copo contém água."
+          },
+          {
+            "label": "A metade ocupa um lado do círculo."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"COPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 22h112l-15 143H78Z\" fill=\"#e6f4f8\"/><path d=\"m70 86 96 0-9 73H80Z\" fill=\"#7ac6e5\"/><path d=\"M150 49h18m-21 21h18m-20 22h17\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"METADE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 0 0 140Z\" fill=\"#77b2a8\"/><path d=\"M120 25v140\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "COPO",
+          "METADE"
+        ]
+      },
+      {
+        "id": "fra-7-10",
+        "word": "ÁGUA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A água aparece em uma gota."
+          },
+          {
+            "label": "O quarto ocupa uma parte do círculo."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ÁGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M118 20C107 48 66 85 68 118a50 50 0 0 0 100 0c2-33-38-70-50-98Z\" fill=\"#68b9df\"/><path d=\"M90 119q0 25 24 29\" stroke=\"white\" stroke-width=\"6\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"QUARTO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 1 70 70h-70Z\" fill=\"#77b2a8\"/><path d=\"M50 95h140m-70-70v140\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "ÁGUA",
+          "QUARTO"
+        ]
+      },
+      {
+        "id": "fra-7-11",
+        "word": "MESA",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "A mesa tem duas pernas visíveis."
+          },
+          {
+            "label": "A barra tem quatro partes."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"BARRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 50h200v90H20Z\" fill=\"#eed9af\"/><path d=\"M20 50h150v90H20Z\" fill=\"#c5926e\"/><path d=\"M70 50v90m50-90v90m50-90v90\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "MESA",
+          "BARRA"
+        ]
+      },
+      {
+        "id": "fra-7-12",
+        "word": "CADERNO",
+        "variant": 6,
+        "kind": "order",
+        "situation": "Há dois desenhos lado a lado. Comece pelo da esquerda.",
+        "command": "Ordene as frases: desenho da esquerda, depois da direita.",
+        "options": [
+          {
+            "label": "O caderno tem linhas."
+          },
+          {
+            "label": "A régua tem marcas."
+          }
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "Descreva o desenho da esquerda. Depois descreva o da direita."
+        },
+        "svg": "<div class=\"sequence\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CADERNO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M54 24h137v143H54Z\" fill=\"#b7d9cc\"/><path d=\"M78 24v143m15-108h77m-77 23h77m-77 23h77m-77 23h60M45 43h20m-20 30h20m-20 30h20m-20 30h20\" fill=\"none\"/></g></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"RÉGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#edf3e6\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 65h206v66H17Z\" fill=\"#e9c46e\"/><path d=\"M37 66v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30\" fill=\"none\"/></g></svg></div>",
+        "imageWords": [
+          "CADERNO",
+          "RÉGUA"
+        ]
+      },
+      {
+        "id": "fra-8-1",
+        "word": "TIRA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Faixa dividida em partes.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "tira"
+          },
+          {
+            "label": "círculo"
+          },
+          {
+            "label": "copo"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe tira e ouça a frase.",
+        "feedback": "A tira tem quatro partes.",
+        "example": {
+          "word": "METADE",
+          "text": "A metade ocupa um lado do círculo."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"TIRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M20 64h200v62H20Z\" fill=\"#f5e5bd\"/><path d=\"M20 64h100v62H20Z\" fill=\"#80b6a4\"/><path d=\"M70 64v62m50-62v62m50-62v62\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem quatro partes."
+      },
+      {
+        "id": "fra-8-2",
+        "word": "METADE",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Uma de duas partes iguais do círculo.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "metade"
+          },
+          {
+            "label": "dobra"
+          },
+          {
+            "label": "água"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe metade e ouça a frase.",
+        "feedback": "A metade ocupa um lado do círculo.",
+        "example": {
+          "word": "QUARTO",
+          "text": "O quarto ocupa uma parte do círculo."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"METADE\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 0 0 140Z\" fill=\"#77b2a8\"/><path d=\"M120 25v140\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ ocupa um lado do círculo."
+      },
+      {
+        "id": "fra-8-3",
+        "word": "QUARTO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Uma de quatro partes iguais do círculo.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "quarto"
+          },
+          {
+            "label": "papel"
+          },
+          {
+            "label": "mesa"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe quarto e ouça a frase.",
+        "feedback": "O quarto ocupa uma parte do círculo.",
+        "example": {
+          "word": "BARRA",
+          "text": "A barra tem quatro partes."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"QUARTO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"95\" r=\"70\" fill=\"#f4e7c6\"/><path d=\"M120 25a70 70 0 0 1 70 70h-70Z\" fill=\"#77b2a8\"/><path d=\"M50 95h140m-70-70v140\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ ocupa uma parte do círculo."
+      },
+      {
+        "id": "fra-8-4",
+        "word": "BARRA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Retângulo com partes marcadas.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "barra"
+          },
+          {
+            "label": "copo"
+          },
+          {
+            "label": "caderno"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe barra e ouça a frase.",
+        "feedback": "A barra tem quatro partes.",
+        "example": {
+          "word": "RÉGUA",
+          "text": "A régua tem marcas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"BARRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M20 50h200v90H20Z\" fill=\"#eed9af\"/><path d=\"M20 50h150v90H20Z\" fill=\"#c5926e\"/><path d=\"M70 50v90m50-90v90m50-90v90\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem quatro partes."
+      },
+      {
+        "id": "fra-8-5",
+        "word": "RÉGUA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Instrumento com marcas para medir.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "régua"
+          },
+          {
+            "label": "água"
+          },
+          {
+            "label": "tira"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe régua e ouça a frase.",
+        "feedback": "A régua tem marcas.",
+        "example": {
+          "word": "CÍRCULO",
+          "text": "O círculo tem quatro partes."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"RÉGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M17 65h206v66H17Z\" fill=\"#e9c46e\"/><path d=\"M37 66v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30m20-30v20m20-20v30\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem marcas."
+      },
+      {
+        "id": "fra-8-6",
+        "word": "CÍRCULO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Figura redonda dividida em partes.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "círculo"
+          },
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "metade"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe círculo e ouça a frase.",
+        "feedback": "O círculo tem quatro partes.",
+        "example": {
+          "word": "DOBRA",
+          "text": "A dobra aparece no papel."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CÍRCULO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><circle cx=\"120\" cy=\"95\" r=\"73\" fill=\"#b6d4c3\"/><path d=\"M47 95h146m-73-73v146\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ tem quatro partes."
+      },
+      {
+        "id": "fra-8-7",
+        "word": "DOBRA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Marca de dobrar o papel.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "dobra"
+          },
+          {
+            "label": "caderno"
+          },
+          {
+            "label": "quarto"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe dobra e ouça a frase.",
+        "feedback": "A dobra aparece no papel.",
+        "example": {
+          "word": "PAPEL",
+          "text": "O papel tem linhas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"DOBRA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M32 35h176v123H32Z\" fill=\"#e4d7ae\"/><path d=\"m120 35 88 123h-88Z\" fill=\"#a4cbbb\"/><path d=\"M120 35v123\" stroke-dasharray=\"7 6\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ aparece no papel."
+      },
+      {
+        "id": "fra-8-8",
+        "word": "PAPEL",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Folha para dobrar e marcar.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "papel"
+          },
+          {
+            "label": "tira"
+          },
+          {
+            "label": "barra"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe papel e ouça a frase.",
+        "feedback": "O papel tem linhas.",
+        "example": {
+          "word": "COPO",
+          "text": "O copo contém água."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"PAPEL\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M55 20h130v150H55Z\" fill=\"#fff8e8\"/><path d=\"M75 53h90m-90 26h90m-90 26h75m-75 26h80\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ tem linhas."
+      },
+      {
+        "id": "fra-8-9",
+        "word": "COPO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Recipiente com marcas.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "copo"
+          },
+          {
+            "label": "metade"
+          },
+          {
+            "label": "régua"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe copo e ouça a frase.",
+        "feedback": "O copo contém água.",
+        "example": {
+          "word": "ÁGUA",
+          "text": "A água aparece em uma gota."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"COPO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M62 22h112l-15 143H78Z\" fill=\"#e6f4f8\"/><path d=\"m70 86 96 0-9 73H80Z\" fill=\"#7ac6e5\"/><path d=\"M150 49h18m-21 21h18m-20 22h17\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ contém água."
+      },
+      {
+        "id": "fra-8-10",
+        "word": "ÁGUA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Líquido representado por gota.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "água"
+          },
+          {
+            "label": "quarto"
+          },
+          {
+            "label": "círculo"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe água e ouça a frase.",
+        "feedback": "A água aparece em uma gota.",
+        "example": {
+          "word": "MESA",
+          "text": "A mesa tem duas pernas visíveis."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"ÁGUA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M118 20C107 48 66 85 68 118a50 50 0 0 0 100 0c2-33-38-70-50-98Z\" fill=\"#68b9df\"/><path d=\"M90 119q0 25 24 29\" stroke=\"white\" stroke-width=\"6\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ aparece em uma gota."
+      },
+      {
+        "id": "fra-8-11",
+        "word": "MESA",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Móvel para apoiar as tiras.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "mesa"
+          },
+          {
+            "label": "barra"
+          },
+          {
+            "label": "dobra"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe mesa e ouça a frase.",
+        "feedback": "A mesa tem duas pernas visíveis.",
+        "example": {
+          "word": "CADERNO",
+          "text": "O caderno tem linhas."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"MESA\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M29 65h182v24H29Zm15 24h16v76H44Zm139 0h16v76h-16Z\" fill=\"#ba8d61\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "A ______ tem duas pernas visíveis."
+      },
+      {
+        "id": "fra-8-12",
+        "word": "CADERNO",
+        "variant": 7,
+        "kind": "choice",
+        "situation": "Objeto para guardar medidas.",
+        "command": "Complete a frase sobre o objeto em outra posição.",
+        "options": [
+          {
+            "label": "caderno"
+          },
+          {
+            "label": "régua"
+          },
+          {
+            "label": "papel"
+          }
+        ],
+        "correct": 0,
+        "hint": "Observe caderno e ouça a frase.",
+        "feedback": "O caderno tem linhas.",
+        "example": {
+          "word": "TIRA",
+          "text": "A tira tem quatro partes."
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 190\" role=\"img\" aria-label=\"CADERNO\"><rect width=\"240\" height=\"190\" rx=\"16\" fill=\"#f8ecd4\"/><g stroke=\"#25483c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(20 8) scale(.83)\"><path d=\"M54 24h137v143H54Z\" fill=\"#b7d9cc\"/><path d=\"M78 24v143m15-108h77m-77 23h77m-77 23h77m-77 23h60M45 43h20m-20 30h20m-20 30h20m-20 30h20\" fill=\"none\"/></g><path d=\"M16 178h208\" stroke=\"#a4b2ae\" stroke-width=\"3\"/></g></svg>",
+        "showWord": "O ______ tem linhas."
+      }
+    ]
+  }
+}

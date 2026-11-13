@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-rota=apoio]').forEach(b=>{b.onclick=()=>location.href='apoio/';b.textContent='Imagens, palavras e áudio · 96';});
