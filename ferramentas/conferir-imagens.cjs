@@ -22,6 +22,30 @@ process.on('exit',()=>srv.kill());
     if(await p.locator('#image-learning-open').isVisible())throw Error('Apoio acessível antes da identificação');
     await p.close();continue; // Apoio após identificação: ensaio específico do piloto.
    }
+   // Apoio inclusivo v2 tem contrato próprio; o legado de 57 continua testado abaixo.
+   const supportFile='_site/'+item.destino+'/apoio/banco.json';
+   if(fs.existsSync(supportFile)&&JSON.parse(fs.readFileSync(supportFile,'utf8')).phases){
+    const route=p.locator('[data-rota="apoio"]'),link=p.locator('a[href="apoio/"]');
+    if(await route.count())await route.click();else{if(await link.count()!==1)throw Error('Entrada direta do apoio v2 ausente: '+item.destino);await link.click();}
+    await p.waitForSelector('#apoio-v2-dados',{state:'attached'});
+    if(await p.locator('canvas').count())throw Error('Apoio v2 exige caminhada');
+    const bank=await p.evaluate(()=>JSON.parse(document.querySelector('#apoio-v2-dados').textContent));
+    for(const phase of ['associacoes','frases']){if(bank.phases[phase].length!==96||new Set(bank.phases[phase].map(t=>t.id)).size!==96)throw Error('Banco v2 incompleto: '+phase);}
+    if(await p.locator('#figure svg').count()!==1)throw Error('Imagem inicial v2 ausente');
+    await p.locator('#hear').focus();await p.keyboard.press('Enter');if(!await p.evaluate(()=>__imageSpeech.length>0))throw Error('Orientação falada v2 ausente');
+    await p.locator('#phase2').click();if(!await p.locator('#status').innerText().then(s=>s.includes('Conclua')))throw Error('Frases liberadas antes das associações');
+    const t=bank.phases.associacoes[0];if(t.kind!=='choice')throw Error('Ensaio inicial requer associação direta');
+    const wrong=(t.correct+1)%t.options.length;await p.locator('[data-option="'+wrong+'"]').click();
+    if(await p.locator('#next').isEnabled())throw Error('Apoio v2 avança após erro');
+    await p.locator('#hint').click();await p.locator('[data-option="'+t.correct+'"]').click();
+    if(!await p.locator('#next').isEnabled())throw Error('Apoio v2 bloqueia acerto');
+    await p.locator('#next').click();if(!await p.locator('#step').innerText().then(s=>s.includes('atividade 2 de 96')))throw Error('Progresso v2 incorreto');
+    await p.reload();await p.waitForSelector('#step');if(!await p.locator('#progress').innerText().then(s=>s.includes('1 de 96')))throw Error('Apoio v2 perdeu progresso');
+    await p.locator('#preview').click();const report=JSON.parse(await p.locator('#report').innerText());
+    if(report.fase!=='associacoes'||report.concluidas!==1||report.total!==96)throw Error('Relatório v2 incorreto');
+    if(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw Error('Overflow no apoio v2: '+item.destino);
+    if(errors.length)throw Error(item.destino+': '+errors.join(';'));await p.close();continue;
+   }
    // Apoio não leitor mantém o modelo associativo anterior e abre sem caminhada.
    if(await p.locator('script[src="assets/apoio-relacional.js"]').count()){
     await p.locator('[data-rota="apoio"]').click();await p.waitForSelector('#apoio-dados',{state:'attached'});
