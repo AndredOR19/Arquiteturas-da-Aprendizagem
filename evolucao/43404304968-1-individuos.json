@@ -1,0 +1,16 @@
+{
+  "execucao": "43404304968",
+  "tentativa": "1",
+  "cenario": "individuos",
+  "commit_fonte": "edf929de68de78587160fc1ebf50967996d50cfd",
+  "pasta": "execucoes/43404304968-1-individuos",
+  "experimento": "22d51d30dbb7472cf161a9d9bcf34820822b9803fb7310fba5aac3dd551297b0",
+  "diferencas": {
+    "novas": [],
+    "removidas": [],
+    "alteradas": [],
+    "fontes_gerais_alteradas": [
+      "PROMPT_MESTRE_AULAS_DIGITAIS.md"
+    ]
+  }
+}
