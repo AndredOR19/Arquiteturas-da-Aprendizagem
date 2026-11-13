@@ -3,7 +3,7 @@
   "titulo": "Separar sem desaparecer",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "4429839a1fa9b68f02240a257e26b7ca3d3674fd",
+  "biblioteca_origem": "eadbfc5546fa1d0e272e9896b686588c2f3074d0",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -32,8 +32,13 @@
     },
     {
       "arquivo": "apoio/index.html",
-      "bytes": 126622,
-      "sha256": "b601d722a2cefbec727e0e5feb1450f1676bb3937decf95e3ea37efa35e911a6"
+      "bytes": 126661,
+      "sha256": "8f5320b2244717bbc6a4c9ceed885fdb9198c9c2b57c56d93f82b38413014c8d"
+    },
+    {
+      "arquivo": "apoio/tema.css",
+      "bytes": 1285,
+      "sha256": "0201a6960b287e2c020e681fde74e4fcec2baa2a65d2c43cbe901496f4c1581c"
     },
     {
       "arquivo": "apoio-leitura.pdf",
@@ -72,8 +77,8 @@
     },
     {
       "arquivo": "assets/clareza.js",
-      "bytes": 38309,
-      "sha256": "96012a8775cdc05ec93b66d956dab0c23e35628bbf060f44069b4e2e412d83f0"
+      "bytes": 38541,
+      "sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285"
     },
     {
       "arquivo": "assets/complementos.js",
@@ -83,7 +88,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 166297,
-      "sha256": "c28e9c24910d27225e1a96f3bac3b2026e5adbdb63f97e4541421a91b6835cf3"
+      "sha256": "9698424f7f02636e0efb48829725df14db97a6800799e3eeb4bf8f93330f9d99"
     },
     {
       "arquivo": "assets/gei.css",

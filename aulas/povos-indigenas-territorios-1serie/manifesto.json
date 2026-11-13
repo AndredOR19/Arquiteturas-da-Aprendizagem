@@ -3,7 +3,7 @@
   "titulo": "Povos indígenas e territórios vivos",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "4429839a1fa9b68f02240a257e26b7ca3d3674fd",
+  "biblioteca_origem": "eadbfc5546fa1d0e272e9896b686588c2f3074d0",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -32,8 +32,13 @@
     },
     {
       "arquivo": "apoio/index.html",
-      "bytes": 127453,
-      "sha256": "b7728e46a373fa34d507a07e0809eae944d4aa4eaf3c4961ac9a218066a78f78"
+      "bytes": 127492,
+      "sha256": "9c086ff4b3a384c88d688fa6612bfd8dd388930c159579a54912f1571e2fbc85"
+    },
+    {
+      "arquivo": "apoio/tema.css",
+      "bytes": 1557,
+      "sha256": "ebf9a6a5bb32773b2de7f40aecab0c385215de39e28f76f3ee59031cc53eab13"
     },
     {
       "arquivo": "apoio-leitura.pdf",
@@ -72,8 +77,8 @@
     },
     {
       "arquivo": "assets/clareza.js",
-      "bytes": 38309,
-      "sha256": "96012a8775cdc05ec93b66d956dab0c23e35628bbf060f44069b4e2e412d83f0"
+      "bytes": 38541,
+      "sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285"
     },
     {
       "arquivo": "assets/complementos.js",
@@ -83,7 +88,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 180840,
-      "sha256": "22235f4d2a62a7cbbbf65dc3cd70ed85acefae32f51baef376a7fe9c494bdacd"
+      "sha256": "4b4e3472cded438d63f50681a6e7b912ba95d7946515fff9aaaf95cc467ff8fb"
     },
     {
       "arquivo": "assets/gei.css",

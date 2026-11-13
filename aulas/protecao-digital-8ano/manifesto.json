@@ -3,7 +3,7 @@
   "titulo": "Escudo digital",
   "status": "adaptada_testes_em_revisao",
   "motor": "estacao/produzir.py - tipo aula-gei",
-  "biblioteca_origem": "4429839a1fa9b68f02240a257e26b7ca3d3674fd",
+  "biblioteca_origem": "eadbfc5546fa1d0e272e9896b686588c2f3074d0",
   "rotas": {
     "principal": 32,
     "exemplos": 96,
@@ -32,8 +32,13 @@
     },
     {
       "arquivo": "apoio/index.html",
-      "bytes": 129307,
-      "sha256": "fad1549807efd09144d070994caac760d7ba61de908b565b0b739966b09cc696"
+      "bytes": 129346,
+      "sha256": "9da3b13add76490d5a9cc14d81d4f5067e74927f62ba41c1cc0b8b281a4bfe3d"
+    },
+    {
+      "arquivo": "apoio/tema.css",
+      "bytes": 1249,
+      "sha256": "bbef9dece89be33e0271f2f9f558b49ef1366c794c9061cf12839dd43750d62b"
     },
     {
       "arquivo": "apoio-leitura.pdf",
@@ -72,8 +77,8 @@
     },
     {
       "arquivo": "assets/clareza.js",
-      "bytes": 38309,
-      "sha256": "96012a8775cdc05ec93b66d956dab0c23e35628bbf060f44069b4e2e412d83f0"
+      "bytes": 38541,
+      "sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285"
     },
     {
       "arquivo": "assets/complementos.js",
@@ -83,7 +88,7 @@
     {
       "arquivo": "assets/conteudo.js",
       "bytes": 175923,
-      "sha256": "60e3a97458601fb11ebb573bfa51560cfdeba89532ecd7e1650a1934dd8dc226"
+      "sha256": "9d8b34ceb450e3f59de0d92a05dd91fa744be3b5cd3ae974ded59839768d2c67"
     },
     {
       "arquivo": "assets/gei.css",
