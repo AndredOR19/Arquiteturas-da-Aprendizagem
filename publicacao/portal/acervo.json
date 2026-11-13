@@ -1535,6 +1535,41 @@
         }
       ],
       "apoio_leitura_url": "aulas/povos-indigenas-territorios-1serie/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "apresentacao",
+      "componentes": [
+        "História",
+        "Geografia",
+        "Ensino Religioso"
+      ],
+      "series": [
+        "Anos finais do Ensino Fundamental",
+        "Ensino Médio"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Povos indígenas",
+        "Museu 3D",
+        "ERER",
+        "Territórios",
+        "Kaingang",
+        "Guarani",
+        "Yanomami",
+        "Baniwa",
+        "Munduruku",
+        "Tikuna"
+      ],
+      "id": "laboratorios/museu-territorios-vivos",
+      "titulo": "Territórios Vivos — Museu dos Povos Indígenas",
+      "descricao": "Explore um museu 3D e um mapa com seis povos indígenas: modos de vida, espiritualidades, vozes próprias, territórios e direitos. Fotografias reais e fontes identificadas.",
+      "url": "laboratorios/museu-territorios-vivos/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
     }
   ]
 }

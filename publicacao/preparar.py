@@ -123,6 +123,11 @@ def main():
             for page in dest.rglob('*.html'):
                 text = decorar_apoios(page.read_text(encoding='utf-8'), page, support_assets)
                 page.write_text(text, encoding='utf-8')
+                # Exposições e mapas autônomos de laboratorios/ preservam a interface
+                # testada. Não recebem os apoios genéricos de uma aula avaliativa.
+                # O catalog_gate acima continua conferindo todas as aulas existentes.
+                if item.get('interface_autonoma') and item['origem'].startswith('laboratorios/'):
+                    continue
                 integrated_gei = 'data-escolher-rotas' in text and 'assets/aula.js' in text
                 if page == dest / 'index.html' and 'data-apoio-local' not in text and not integrated_gei:
                     materia = ', '.join(item.get('portal', {}).get('componentes', [])) or 'Aula'

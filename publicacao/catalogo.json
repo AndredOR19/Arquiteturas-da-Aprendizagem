@@ -1759,6 +1759,44 @@
       },
       "versao_visual": "clareza-2-inclusivo-96-1.0.0",
       "qrcode_final": true
+    },
+    {
+      "tipo": "html",
+      "origem": "laboratorios/museu-territorios-vivos",
+      "destino": "laboratorios/museu-territorios-vivos",
+      "titulo": "Territórios Vivos — Museu dos Povos Indígenas",
+      "interface_autonoma": true,
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [
+          "História",
+          "Geografia",
+          "Ensino Religioso"
+        ],
+        "series": [
+          "Anos finais do Ensino Fundamental",
+          "Ensino Médio"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Povos indígenas",
+          "Museu 3D",
+          "ERER",
+          "Territórios",
+          "Kaingang",
+          "Guarani",
+          "Yanomami",
+          "Baniwa",
+          "Munduruku",
+          "Tikuna"
+        ],
+        "descricao": "Explore um museu 3D e um mapa com seis povos indígenas: modos de vida, espiritualidades, vozes próprias, territórios e direitos. Fotografias reais e fontes identificadas.",
+        "titulo_exibicao": "Territórios Vivos — Museu dos Povos Indígenas",
+        "acesso": "aberto"
+      }
     }
   ]
 }

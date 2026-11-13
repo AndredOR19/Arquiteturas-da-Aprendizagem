@@ -1,3 +1,6 @@
+## 13/11/2026 — Compatibilidade dos registros e publicação do museu
+A alteração documental 3.9.2 no Prompt Mestre havia invalidado os hashes dos recibos existentes. A base foi restaurada byte a byte à revisão anterior e a nova regra foi preservada em prompts/ADENDO_REGISTRO_INCLUSIVO_3_9_2.md, AGENTS.md e no registro de inclusão. Não foram alterados os recibos, pacotes de aulas ou verificadores de aceite. Museu Territórios Vivos cadastrado como exposição interativa em laboratorios/, com conteúdo discente e fontes.
+
 ## 3.9.2 — 13/11/2026 — Registro de repetição no apoio inclusivo
 Pedido expresso: conferir repetições e criar registros para evitá-las. Inventário por aula/versão/fase/atividade, SHA-256 do banco e assinaturas exatas/de relação; comparação dos sete bancos JSON e inventário separado de oito configurações legadas inline. Auditoria das cinco aulas de sexta: História 1ª/2ª compartilham 4 associações e 12 frases integrais; ao ignorar distratores, 56 associações e 49 frases coincidem. Oito desenhos-alvo iguais. Não são cópias integrais. Reuso com progressão exige origem/finalidade/novidade registrada. Bancos e sessões preservados. Comparador por candidato retorna 2 para coincidências; execução obrigatória pelo produtor, integração ao CI/fábrica pendente. Sem alegar aplicação ou correção pedagógica já realizada.
 
