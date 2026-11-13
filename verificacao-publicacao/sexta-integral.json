@@ -1,0 +1,116 @@
+{
+  "estado": "concluido",
+  "verificacoes": [
+    {
+      "aula": "misturas-separacao-9ano",
+      "destino": "pages",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/misturas-separacao-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "d127335cc968e8c16c32.png",
+      "qr_sha256": "b0507488f3d98b8484550f3f75346e5ebd208f453c969527f1caebe215ea1513",
+      "verificado_em": "2026-11-13T00:45:08.895018+00:00"
+    },
+    {
+      "aula": "misturas-separacao-9ano",
+      "destino": "vercel",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/misturas-separacao-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "432c940c9ad93ec05073.png",
+      "qr_sha256": "9f39dc5a744120e718f7531e68ba6806e0d3c18eeecb5ef6a7da7b89b6a7dcc6",
+      "verificado_em": "2026-11-13T00:45:10.960538+00:00"
+    },
+    {
+      "aula": "participacao-cidada-2serie",
+      "destino": "pages",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/participacao-cidada-2serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "723ddb874e24f92dd468.png",
+      "qr_sha256": "8ef941bb9f78bb9ed935e933419beb07a28e396b41b4709346dd0c1e1a6c4d01",
+      "verificado_em": "2026-11-13T00:45:12.123688+00:00"
+    },
+    {
+      "aula": "participacao-cidada-2serie",
+      "destino": "vercel",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/participacao-cidada-2serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "17c2797ca9414893f1dd.png",
+      "qr_sha256": "90fa241eb3abbe52bb3567acb0bd9fdf4ccc77ea488100d0af3aafa33efad625",
+      "verificado_em": "2026-11-13T00:45:14.243615+00:00"
+    },
+    {
+      "aula": "protecao-digital-8ano",
+      "destino": "pages",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/protecao-digital-8ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "0623d6ff246cf8b99d0c.png",
+      "qr_sha256": "45c685ad57d40abcf2d92e3394cca3d840382774207c66716a06bcc38e7db6b6",
+      "verificado_em": "2026-11-13T00:45:15.415745+00:00"
+    },
+    {
+      "aula": "protecao-digital-8ano",
+      "destino": "vercel",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/protecao-digital-8ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "28f32c4afb42d2c68b68.png",
+      "qr_sha256": "93acebf4370d4421805de78a2eabe8c542e0b1298bb18fd8e8d84f1503774539",
+      "verificado_em": "2026-11-13T00:45:17.680723+00:00"
+    },
+    {
+      "aula": "fracoes-medidas-6ano",
+      "destino": "pages",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/fracoes-medidas-6ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "c7767fc0bc8a668aaa98.png",
+      "qr_sha256": "51db56ceb44eb3ebe6b46974ea8a293e53ff9c1786905a5ab7dc183888e2b3a4",
+      "verificado_em": "2026-11-13T00:45:18.999167+00:00"
+    },
+    {
+      "aula": "fracoes-medidas-6ano",
+      "destino": "vercel",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/fracoes-medidas-6ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "26bd48aad24a78bccb82.png",
+      "qr_sha256": "74eed777f758fe763d33585667c762e4780e758e41a02fc45819b457b575a188",
+      "verificado_em": "2026-11-13T00:45:20.924009+00:00"
+    },
+    {
+      "aula": "povos-indigenas-territorios-1serie",
+      "destino": "pages",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/povos-indigenas-territorios-1serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "8a984954d725daa972b4.png",
+      "qr_sha256": "0b57d000389855fd83d7cd1a6506cd6e614fef87256e619970f5ac02a7ddf9e9",
+      "verificado_em": "2026-11-13T00:45:22.186399+00:00"
+    },
+    {
+      "aula": "povos-indigenas-territorios-1serie",
+      "destino": "vercel",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/povos-indigenas-territorios-1serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "b1eb129d678b1f1dedec.png",
+      "qr_sha256": "607c02f15117cd1bb6f3db388bd2a77f93ac8d1bf9b952ed7ea6b1b6c0f63d5a",
+      "verificado_em": "2026-11-13T00:45:24.030089+00:00"
+    }
+  ],
+  "commit_conferido": "eb3fff6ffce0b32663526cc8de5c10f89fc54543"
+}

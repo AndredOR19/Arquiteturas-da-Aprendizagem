@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "participacao-cidada-2serie",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "9de4749ee761560d7475e9e8d4627ffe7c850e7e4b4049889b86d7cb413ebbc6",
   "requisitos": {
@@ -200,11 +200,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "participacao-cidada-2serie",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/participacao-cidada-2serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/723ddb874e24f92dd468.png",
+      "qr_sha256": "8ef941bb9f78bb9ed935e933419beb07a28e396b41b4709346dd0c1e1a6c4d01",
+      "verificado_em": "2026-11-13T00:45:12.123688+00:00",
+      "pacote_sha256": "9de4749ee761560d7475e9e8d4627ffe7c850e7e4b4049889b86d7cb413ebbc6"
     },
     "vercel": {
-      "estado": "pendente"
+      "aula": "participacao-cidada-2serie",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/participacao-cidada-2serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/17c2797ca9414893f1dd.png",
+      "qr_sha256": "90fa241eb3abbe52bb3567acb0bd9fdf4ccc77ea488100d0af3aafa33efad625",
+      "verificado_em": "2026-11-13T00:45:14.243615+00:00",
+      "pacote_sha256": "9de4749ee761560d7475e9e8d4627ffe7c850e7e4b4049889b86d7cb413ebbc6"
     }
   },
-  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json"
+  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json",
+  "pendencias_finais": []
 }

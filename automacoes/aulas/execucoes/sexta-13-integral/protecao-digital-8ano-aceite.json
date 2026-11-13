@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "protecao-digital-8ano",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "a90909bcf96da8bb3f24b344f592275728acdaa2f2ed2ddc981480c7260fa049",
   "requisitos": {
@@ -200,11 +200,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "protecao-digital-8ano",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/protecao-digital-8ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/0623d6ff246cf8b99d0c.png",
+      "qr_sha256": "45c685ad57d40abcf2d92e3394cca3d840382774207c66716a06bcc38e7db6b6",
+      "verificado_em": "2026-11-13T00:45:15.415745+00:00",
+      "pacote_sha256": "a90909bcf96da8bb3f24b344f592275728acdaa2f2ed2ddc981480c7260fa049"
     },
     "vercel": {
-      "estado": "pendente"
+      "aula": "protecao-digital-8ano",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/protecao-digital-8ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/28f32c4afb42d2c68b68.png",
+      "qr_sha256": "93acebf4370d4421805de78a2eabe8c542e0b1298bb18fd8e8d84f1503774539",
+      "verificado_em": "2026-11-13T00:45:17.680723+00:00",
+      "pacote_sha256": "a90909bcf96da8bb3f24b344f592275728acdaa2f2ed2ddc981480c7260fa049"
     }
   },
-  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json"
+  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json",
+  "pendencias_finais": []
 }

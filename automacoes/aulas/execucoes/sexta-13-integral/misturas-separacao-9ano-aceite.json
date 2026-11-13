@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "misturas-separacao-9ano",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "635f4a1a0c61525f387542978a3360b70ff6556a4925942bd99ea1a03308dad6",
   "requisitos": {
@@ -200,11 +200,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "misturas-separacao-9ano",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/misturas-separacao-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/d127335cc968e8c16c32.png",
+      "qr_sha256": "b0507488f3d98b8484550f3f75346e5ebd208f453c969527f1caebe215ea1513",
+      "verificado_em": "2026-11-13T00:45:08.895018+00:00",
+      "pacote_sha256": "635f4a1a0c61525f387542978a3360b70ff6556a4925942bd99ea1a03308dad6"
     },
     "vercel": {
-      "estado": "pendente"
+      "aula": "misturas-separacao-9ano",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/misturas-separacao-9ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/432c940c9ad93ec05073.png",
+      "qr_sha256": "9f39dc5a744120e718f7531e68ba6806e0d3c18eeecb5ef6a7da7b89b6a7dcc6",
+      "verificado_em": "2026-11-13T00:45:10.960538+00:00",
+      "pacote_sha256": "635f4a1a0c61525f387542978a3360b70ff6556a4925942bd99ea1a03308dad6"
     }
   },
-  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json"
+  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json",
+  "pendencias_finais": []
 }

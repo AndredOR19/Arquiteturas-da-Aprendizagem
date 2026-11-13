@@ -428,7 +428,7 @@
       "id": "misturas-separacao-9ano",
       "destino": "aulas/misturas-separacao-9ano",
       "recibo": "automacoes/aulas/execucoes/sexta-13-integral/misturas-separacao-9ano-aceite.json",
-      "estado": "pronto_para_publicar",
+      "estado": "concluido",
       "catalogo": {
         "tipo": "html",
         "origem": "aulas/misturas-separacao-9ano",
@@ -487,7 +487,7 @@
       "id": "participacao-cidada-2serie",
       "destino": "aulas/participacao-cidada-2serie",
       "recibo": "automacoes/aulas/execucoes/sexta-13-integral/participacao-cidada-2serie-aceite.json",
-      "estado": "pronto_para_publicar",
+      "estado": "concluido",
       "catalogo": {
         "tipo": "html",
         "origem": "aulas/participacao-cidada-2serie",
@@ -546,7 +546,7 @@
       "id": "protecao-digital-8ano",
       "destino": "aulas/protecao-digital-8ano",
       "recibo": "automacoes/aulas/execucoes/sexta-13-integral/protecao-digital-8ano-aceite.json",
-      "estado": "pronto_para_publicar",
+      "estado": "concluido",
       "catalogo": {
         "tipo": "html",
         "origem": "aulas/protecao-digital-8ano",
@@ -605,7 +605,7 @@
       "id": "fracoes-medidas-6ano",
       "destino": "aulas/fracoes-medidas-6ano",
       "recibo": "automacoes/aulas/execucoes/sexta-13-integral/fracoes-medidas-6ano-aceite.json",
-      "estado": "pronto_para_publicar",
+      "estado": "concluido",
       "catalogo": {
         "tipo": "html",
         "origem": "aulas/fracoes-medidas-6ano",
@@ -664,7 +664,7 @@
       "id": "povos-indigenas-territorios-1serie",
       "destino": "aulas/povos-indigenas-territorios-1serie",
       "recibo": "automacoes/aulas/execucoes/sexta-13-integral/povos-indigenas-territorios-1serie-aceite.json",
-      "estado": "pronto_para_publicar",
+      "estado": "concluido",
       "catalogo": {
         "tipo": "html",
         "origem": "aulas/povos-indigenas-territorios-1serie",

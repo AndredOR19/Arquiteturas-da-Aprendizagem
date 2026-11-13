@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "povos-indigenas-territorios-1serie",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "c32b74c7b19001e92029cd9032de6e20f3fa412c29c0e292559709991b8a08b7",
   "requisitos": {
@@ -200,11 +200,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "povos-indigenas-territorios-1serie",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/povos-indigenas-territorios-1serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/8a984954d725daa972b4.png",
+      "qr_sha256": "0b57d000389855fd83d7cd1a6506cd6e614fef87256e619970f5ac02a7ddf9e9",
+      "verificado_em": "2026-11-13T00:45:22.186399+00:00",
+      "pacote_sha256": "c32b74c7b19001e92029cd9032de6e20f3fa412c29c0e292559709991b8a08b7"
     },
     "vercel": {
-      "estado": "pendente"
+      "aula": "povos-indigenas-territorios-1serie",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/povos-indigenas-territorios-1serie/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/b1eb129d678b1f1dedec.png",
+      "qr_sha256": "607c02f15117cd1bb6f3db388bd2a77f93ac8d1bf9b952ed7ea6b1b6c0f63d5a",
+      "verificado_em": "2026-11-13T00:45:24.030089+00:00",
+      "pacote_sha256": "c32b74c7b19001e92029cd9032de6e20f3fa412c29c0e292559709991b8a08b7"
     }
   },
-  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json"
+  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json",
+  "pendencias_finais": []
 }

@@ -1,7 +1,7 @@
 {
   "versao": "3.9.0",
   "aula": "fracoes-medidas-6ano",
-  "estado": "pronto_para_publicar",
+  "estado": "concluido",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
   "pacote_sha256": "b2a2ae290d77455267ab3fbccb0c157aba7616006fd3a6b1315673dd1c1866d0",
   "requisitos": {
@@ -200,11 +200,28 @@
   },
   "publicacao": {
     "pages": {
-      "estado": "pendente"
+      "aula": "fracoes-medidas-6ano",
+      "url": "https://andredor19.github.io/Arquiteturas-da-Aprendizagem/aulas/fracoes-medidas-6ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/c7767fc0bc8a668aaa98.png",
+      "qr_sha256": "51db56ceb44eb3ebe6b46974ea8a293e53ff9c1786905a5ab7dc183888e2b3a4",
+      "verificado_em": "2026-11-13T00:45:18.999167+00:00",
+      "pacote_sha256": "b2a2ae290d77455267ab3fbccb0c157aba7616006fd3a6b1315673dd1c1866d0"
     },
     "vercel": {
-      "estado": "pendente"
+      "aula": "fracoes-medidas-6ano",
+      "url": "https://arquiteturas-aulas.vercel.app/aulas/fracoes-medidas-6ano/",
+      "estado": "verificado",
+      "http": 200,
+      "arquivos": 25,
+      "qr_arquivo": "verificacao-publicacao/26bd48aad24a78bccb82.png",
+      "qr_sha256": "74eed777f758fe763d33585667c762e4780e758e41a02fc45819b457b575a188",
+      "verificado_em": "2026-11-13T00:45:20.924009+00:00",
+      "pacote_sha256": "b2a2ae290d77455267ab3fbccb0c157aba7616006fd3a6b1315673dd1c1866d0"
     }
   },
-  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json"
+  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json",
+  "pendencias_finais": []
 }
