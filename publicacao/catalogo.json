@@ -1494,6 +1494,271 @@
         ]
       },
       "versao_visual": "solo-vivo-2.0.0"
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/misturas-separacao-9ano",
+      "destino": "aulas/misturas-separacao-9ano",
+      "titulo": "Separar sem desaparecer",
+      "contrato_entrega": "3.9.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "9º ano"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Escolher formas de separar misturas, observar o que fica em cada recipiente e explicar os limites de cada método.",
+        "titulo_exibicao": "Separar sem desaparecer",
+        "palavras_chave": [
+          "Separar sem desaparecer"
+        ],
+        "registro_escola_rs": {
+          "titulo": "Separar sem desaparecer",
+          "resumo": "Escolher formas de separar misturas, observar o que fica em cada recipiente e explicar os limites de cada método.",
+          "habilidades": [
+            "Competência geral 2 da BNCC: investigação, reflexão, análise crítica e teste de hipóteses. Recorte metodológico; sem código específico atribuído sem plano conferido."
+          ]
+        },
+        "apoio_leitura_url": "aulas/misturas-separacao-9ano/apoio/",
+        "rotas": [
+          {
+            "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+            "url": "aulas/misturas-separacao-9ano/apoio/"
+          },
+          {
+            "titulo": "Caderno da aula em PDF",
+            "url": "aulas/misturas-separacao-9ano/aula-impressa.pdf"
+          },
+          {
+            "titulo": "Exemplos em PDF",
+            "url": "aulas/misturas-separacao-9ano/exemplos.pdf"
+          },
+          {
+            "titulo": "Imagens e frases em PDF",
+            "url": "aulas/misturas-separacao-9ano/apoio-leitura.pdf"
+          }
+        ]
+      },
+      "versao_visual": "clareza-2-inclusivo-96-1.0.0",
+      "qrcode_final": true
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/participacao-cidada-2serie",
+      "destino": "aulas/participacao-cidada-2serie",
+      "titulo": "Conselho da cidadania",
+      "contrato_entrega": "3.9.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "2ª série do Ensino Médio"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Relacionar direitos, organização coletiva e canais de participação, construindo uma proposta apoiada em informações.",
+        "titulo_exibicao": "Conselho da cidadania",
+        "palavras_chave": [
+          "Conselho da cidadania"
+        ],
+        "registro_escola_rs": {
+          "titulo": "Conselho da cidadania",
+          "resumo": "Relacionar direitos, organização coletiva e canais de participação, construindo uma proposta apoiada em informações.",
+          "habilidades": [
+            "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas para compreender processos históricos, políticos, sociais e culturais (síntese do recorte; BNCC, p. 572)."
+          ]
+        },
+        "apoio_leitura_url": "aulas/participacao-cidada-2serie/apoio/",
+        "rotas": [
+          {
+            "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+            "url": "aulas/participacao-cidada-2serie/apoio/"
+          },
+          {
+            "titulo": "Caderno da aula em PDF",
+            "url": "aulas/participacao-cidada-2serie/aula-impressa.pdf"
+          },
+          {
+            "titulo": "Exemplos em PDF",
+            "url": "aulas/participacao-cidada-2serie/exemplos.pdf"
+          },
+          {
+            "titulo": "Imagens e frases em PDF",
+            "url": "aulas/participacao-cidada-2serie/apoio-leitura.pdf"
+          }
+        ]
+      },
+      "versao_visual": "clareza-2-inclusivo-96-1.0.0",
+      "qrcode_final": true
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/protecao-digital-8ano",
+      "destino": "aulas/protecao-digital-8ano",
+      "titulo": "Escudo digital",
+      "contrato_entrega": "3.9.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Cultura Digital"
+        ],
+        "series": [
+          "8º ano"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Reconhecer pedidos suspeitos, proteger dados pessoais e escolher ações seguras antes de clicar ou compartilhar.",
+        "titulo_exibicao": "Escudo digital",
+        "palavras_chave": [
+          "Escudo digital"
+        ],
+        "registro_escola_rs": {
+          "titulo": "Escudo digital",
+          "resumo": "Reconhecer pedidos suspeitos, proteger dados pessoais e escolher ações seguras antes de clicar ou compartilhar.",
+          "habilidades": [
+            "Competência geral 5 da BNCC: compreender, utilizar e criar tecnologias digitais de forma crítica, significativa, reflexiva e ética. Recorte em proteção de dados e comunicação responsável."
+          ]
+        },
+        "apoio_leitura_url": "aulas/protecao-digital-8ano/apoio/",
+        "rotas": [
+          {
+            "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+            "url": "aulas/protecao-digital-8ano/apoio/"
+          },
+          {
+            "titulo": "Caderno da aula em PDF",
+            "url": "aulas/protecao-digital-8ano/aula-impressa.pdf"
+          },
+          {
+            "titulo": "Exemplos em PDF",
+            "url": "aulas/protecao-digital-8ano/exemplos.pdf"
+          },
+          {
+            "titulo": "Imagens e frases em PDF",
+            "url": "aulas/protecao-digital-8ano/apoio-leitura.pdf"
+          }
+        ]
+      },
+      "versao_visual": "clareza-2-inclusivo-96-1.0.0",
+      "qrcode_final": true
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/fracoes-medidas-6ano",
+      "destino": "aulas/fracoes-medidas-6ano",
+      "titulo": "A mesma medida, outras frações",
+      "contrato_entrega": "3.9.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "6º ano"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Montar e comparar frações do mesmo inteiro, reconhecer escritas da mesma quantidade e explicar usando tiras e medidas.",
+        "titulo_exibicao": "A mesma medida, outras frações",
+        "palavras_chave": [
+          "A mesma medida, outras frações"
+        ],
+        "registro_escola_rs": {
+          "titulo": "A mesma medida, outras frações",
+          "resumo": "Montar e comparar frações do mesmo inteiro, reconhecer escritas da mesma quantidade e explicar usando tiras e medidas.",
+          "habilidades": [
+            "EF06MA07 — Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes. Fonte: BNCC, Matemática, 6º ano."
+          ]
+        },
+        "apoio_leitura_url": "aulas/fracoes-medidas-6ano/apoio/",
+        "rotas": [
+          {
+            "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+            "url": "aulas/fracoes-medidas-6ano/apoio/"
+          },
+          {
+            "titulo": "Caderno da aula em PDF",
+            "url": "aulas/fracoes-medidas-6ano/aula-impressa.pdf"
+          },
+          {
+            "titulo": "Exemplos em PDF",
+            "url": "aulas/fracoes-medidas-6ano/exemplos.pdf"
+          },
+          {
+            "titulo": "Imagens e frases em PDF",
+            "url": "aulas/fracoes-medidas-6ano/apoio-leitura.pdf"
+          }
+        ]
+      },
+      "versao_visual": "clareza-2-inclusivo-96-1.0.0",
+      "qrcode_final": true
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/povos-indigenas-territorios-1serie",
+      "destino": "aulas/povos-indigenas-territorios-1serie",
+      "titulo": "Povos indígenas e territórios vivos",
+      "contrato_entrega": "3.9.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "1ª série do Ensino Médio"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Reconhecer a diversidade dos povos indígenas, relacionar territórios e modos de vida e examinar fontes sobre dominação e resistência.",
+        "titulo_exibicao": "Povos indígenas e territórios vivos",
+        "palavras_chave": [
+          "Povos indígenas e territórios vivos"
+        ],
+        "registro_escola_rs": {
+          "titulo": "Povos indígenas e territórios vivos",
+          "resumo": "Reconhecer a diversidade dos povos indígenas, relacionar territórios e modos de vida e examinar fontes sobre dominação e resistência.",
+          "habilidades": [
+            "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas para compreender processos históricos, políticos, sociais e culturais (síntese do recorte; BNCC, p. 572)."
+          ]
+        },
+        "apoio_leitura_url": "aulas/povos-indigenas-territorios-1serie/apoio/",
+        "rotas": [
+          {
+            "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+            "url": "aulas/povos-indigenas-territorios-1serie/apoio/"
+          },
+          {
+            "titulo": "Caderno da aula em PDF",
+            "url": "aulas/povos-indigenas-territorios-1serie/aula-impressa.pdf"
+          },
+          {
+            "titulo": "Exemplos em PDF",
+            "url": "aulas/povos-indigenas-territorios-1serie/exemplos.pdf"
+          },
+          {
+            "titulo": "Imagens e frases em PDF",
+            "url": "aulas/povos-indigenas-territorios-1serie/apoio-leitura.pdf"
+          }
+        ]
+      },
+      "versao_visual": "clareza-2-inclusivo-96-1.0.0",
+      "qrcode_final": true
     }
   ]
 }

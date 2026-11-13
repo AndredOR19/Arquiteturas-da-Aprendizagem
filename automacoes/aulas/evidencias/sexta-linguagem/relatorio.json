@@ -1,0 +1,171 @@
+{
+  "protocolo": "linguagem-clara-3.9",
+  "gerado_em": "2026-11-13T00:34:42.489546+00:00",
+  "criterios": {
+    "bloqueios": [
+      "rotulo_interno_visivel",
+      "jargao_no_comando",
+      "pergunta_vazia",
+      "comando_sem_acao",
+      "exemplo_ausente",
+      "exemplo_do_proprio_caso",
+      "situacao_ausente"
+    ],
+    "avisos": [
+      "frase_longa",
+      "jargao_no_conteudo",
+      "palavra_dificil_alem_do_glossario",
+      "muitas_opcoes",
+      "opcao_longa"
+    ]
+  },
+  "limite": "Filtro preliminar. Ausência de alerta não comprova compreensão; exige revisão humana e observação com estudantes.",
+  "aulas": {
+    "misturas-separacao-9ano": {
+      "titulo": "Separar sem desaparecer",
+      "revisao": "clareza-2",
+      "conteudo_sha256": "9698424f7f02636e0efb48829725df14db97a6800799e3eeb4bf8f93330f9d99",
+      "clareza_sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285",
+      "abertura": "Escolher formas de separar misturas, observar o que fica em cada recipiente e explicar os limites de cada método.",
+      "atividades": 128,
+      "bloqueios": 0,
+      "avisos": 1,
+      "bloqueado": 0,
+      "revisao_humana": 1,
+      "aprovado_automatico": 127,
+      "regras": {
+        "aviso:jargao_no_conteudo": 1
+      },
+      "itens_revisao": [
+        {
+          "id": "e-7-2-4",
+          "avisos": [
+            {
+              "regra": "jargao_no_conteudo",
+              "detalhe": [
+                "unidade"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "participacao-cidada-2serie": {
+      "titulo": "Conselho da cidadania",
+      "revisao": "clareza-2",
+      "conteudo_sha256": "19f2cdd5d0004f844347f5143b792dc2238de15dbbf4fc1cb72116b53432a362",
+      "clareza_sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285",
+      "abertura": "Relacionar direitos, organização coletiva e canais de participação, construindo uma proposta apoiada em informações.",
+      "atividades": 128,
+      "bloqueios": 0,
+      "avisos": 2,
+      "bloqueado": 0,
+      "revisao_humana": 2,
+      "aprovado_automatico": 126,
+      "regras": {
+        "aviso:jargao_no_conteudo": 2
+      },
+      "itens_revisao": [
+        {
+          "id": "e-5-2-2",
+          "avisos": [
+            {
+              "regra": "jargao_no_conteudo",
+              "detalhe": [
+                "alcance"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e-5-2-3",
+          "avisos": [
+            {
+              "regra": "jargao_no_conteudo",
+              "detalhe": [
+                "alcance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "protecao-digital-8ano": {
+      "titulo": "Escudo digital",
+      "revisao": "clareza-2",
+      "conteudo_sha256": "9d8b34ceb450e3f59de0d92a05dd91fa744be3b5cd3ae974ded59839768d2c67",
+      "clareza_sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285",
+      "abertura": "Reconhecer pedidos suspeitos, proteger dados pessoais e escolher ações seguras antes de clicar ou compartilhar.",
+      "atividades": 128,
+      "bloqueios": 0,
+      "avisos": 0,
+      "bloqueado": 0,
+      "revisao_humana": 0,
+      "aprovado_automatico": 128,
+      "regras": {},
+      "itens_revisao": []
+    },
+    "fracoes-medidas-6ano": {
+      "titulo": "A mesma medida, outras frações",
+      "revisao": "clareza-2",
+      "conteudo_sha256": "eeaf2446cf98054884624d569b93bc70145bc69bc58551027180586f71855c6d",
+      "clareza_sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285",
+      "abertura": "Montar e comparar frações do mesmo inteiro, reconhecer escritas da mesma quantidade e explicar usando tiras e medidas.",
+      "atividades": 128,
+      "bloqueios": 0,
+      "avisos": 0,
+      "bloqueado": 0,
+      "revisao_humana": 0,
+      "aprovado_automatico": 128,
+      "regras": {},
+      "itens_revisao": []
+    },
+    "povos-indigenas-territorios-1serie": {
+      "titulo": "Povos indígenas e territórios vivos",
+      "revisao": "clareza-2",
+      "conteudo_sha256": "4b4e3472cded438d63f50681a6e7b912ba95d7946515fff9aaaf95cc467ff8fb",
+      "clareza_sha256": "9fa775abbd6c93543828d149b696d36044ddb976a060eb9c6c687b4ca5653285",
+      "abertura": "Reconhecer a diversidade dos povos indígenas, relacionar territórios e modos de vida e examinar fontes sobre dominação e resistência.",
+      "atividades": 128,
+      "bloqueios": 0,
+      "avisos": 2,
+      "bloqueado": 0,
+      "revisao_humana": 2,
+      "aprovado_automatico": 126,
+      "regras": {
+        "aviso:jargao_no_conteudo": 2
+      },
+      "itens_revisao": [
+        {
+          "id": "p-8-2",
+          "avisos": [
+            {
+              "regra": "jargao_no_conteudo",
+              "detalhe": [
+                "generalização"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p-8-3",
+          "avisos": [
+            {
+              "regra": "jargao_no_conteudo",
+              "detalhe": [
+                "generalização"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "total": {
+    "atividades": 640,
+    "bloqueado": 0,
+    "revisao_humana": 5,
+    "aprovado_automatico": 635
+  },
+  "formato": "Resumo fiel do relatório integral produzido pelo validador; contagens e hashes preservados."
+}

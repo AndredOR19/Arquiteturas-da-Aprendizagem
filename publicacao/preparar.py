@@ -162,6 +162,10 @@ def main():
                     else:
                         text += tag
                     page.write_text(text, encoding='utf-8')
+                if page == dest / 'index.html' and item.get('qrcode_final'):
+                    from qr_verificado import apply as apply_verified_qr
+                    text=apply_verified_qr(ROOT,dest,item,text)
+                    page.write_text(text,encoding='utf-8')
         elif item['tipo'] == 'slides':
             if source.parts[len(ROOT.parts)] != 'projetos':
                 raise ValueError('Slides devem vir de projetos/.')

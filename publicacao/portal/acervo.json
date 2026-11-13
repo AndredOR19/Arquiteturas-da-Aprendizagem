@@ -1290,6 +1290,251 @@
         }
       ],
       "apoio_leitura_url": "aulas/erosao-solo-7ano/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "9º ano"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Separar sem desaparecer"
+      ],
+      "id": "aulas/misturas-separacao-9ano",
+      "titulo": "Separar sem desaparecer",
+      "descricao": "Escolher formas de separar misturas, observar o que fica em cada recipiente e explicar os limites de cada método.",
+      "url": "aulas/misturas-separacao-9ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Separar sem desaparecer",
+        "resumo": "Escolher formas de separar misturas, observar o que fica em cada recipiente e explicar os limites de cada método.",
+        "habilidades": [
+          "Competência geral 2 da BNCC: investigação, reflexão, análise crítica e teste de hipóteses. Recorte metodológico; sem código específico atribuído sem plano conferido."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+          "url": "aulas/misturas-separacao-9ano/apoio/"
+        },
+        {
+          "titulo": "Caderno da aula em PDF",
+          "url": "aulas/misturas-separacao-9ano/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Exemplos em PDF",
+          "url": "aulas/misturas-separacao-9ano/exemplos.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/misturas-separacao-9ano/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/misturas-separacao-9ano/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "2ª série do Ensino Médio"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Conselho da cidadania"
+      ],
+      "id": "aulas/participacao-cidada-2serie",
+      "titulo": "Conselho da cidadania",
+      "descricao": "Relacionar direitos, organização coletiva e canais de participação, construindo uma proposta apoiada em informações.",
+      "url": "aulas/participacao-cidada-2serie/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Conselho da cidadania",
+        "resumo": "Relacionar direitos, organização coletiva e canais de participação, construindo uma proposta apoiada em informações.",
+        "habilidades": [
+          "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas para compreender processos históricos, políticos, sociais e culturais (síntese do recorte; BNCC, p. 572)."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+          "url": "aulas/participacao-cidada-2serie/apoio/"
+        },
+        {
+          "titulo": "Caderno da aula em PDF",
+          "url": "aulas/participacao-cidada-2serie/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Exemplos em PDF",
+          "url": "aulas/participacao-cidada-2serie/exemplos.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/participacao-cidada-2serie/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/participacao-cidada-2serie/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Cultura Digital"
+      ],
+      "series": [
+        "8º ano"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Escudo digital"
+      ],
+      "id": "aulas/protecao-digital-8ano",
+      "titulo": "Escudo digital",
+      "descricao": "Reconhecer pedidos suspeitos, proteger dados pessoais e escolher ações seguras antes de clicar ou compartilhar.",
+      "url": "aulas/protecao-digital-8ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Escudo digital",
+        "resumo": "Reconhecer pedidos suspeitos, proteger dados pessoais e escolher ações seguras antes de clicar ou compartilhar.",
+        "habilidades": [
+          "Competência geral 5 da BNCC: compreender, utilizar e criar tecnologias digitais de forma crítica, significativa, reflexiva e ética. Recorte em proteção de dados e comunicação responsável."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+          "url": "aulas/protecao-digital-8ano/apoio/"
+        },
+        {
+          "titulo": "Caderno da aula em PDF",
+          "url": "aulas/protecao-digital-8ano/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Exemplos em PDF",
+          "url": "aulas/protecao-digital-8ano/exemplos.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/protecao-digital-8ano/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/protecao-digital-8ano/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "Práticas Experimentais"
+      ],
+      "series": [
+        "6º ano"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "A mesma medida, outras frações"
+      ],
+      "id": "aulas/fracoes-medidas-6ano",
+      "titulo": "A mesma medida, outras frações",
+      "descricao": "Montar e comparar frações do mesmo inteiro, reconhecer escritas da mesma quantidade e explicar usando tiras e medidas.",
+      "url": "aulas/fracoes-medidas-6ano/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "A mesma medida, outras frações",
+        "resumo": "Montar e comparar frações do mesmo inteiro, reconhecer escritas da mesma quantidade e explicar usando tiras e medidas.",
+        "habilidades": [
+          "EF06MA07 — Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes. Fonte: BNCC, Matemática, 6º ano."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+          "url": "aulas/fracoes-medidas-6ano/apoio/"
+        },
+        {
+          "titulo": "Caderno da aula em PDF",
+          "url": "aulas/fracoes-medidas-6ano/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Exemplos em PDF",
+          "url": "aulas/fracoes-medidas-6ano/exemplos.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/fracoes-medidas-6ano/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/fracoes-medidas-6ano/apoio/"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "aula",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "1ª série do Ensino Médio"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "Povos indígenas e territórios vivos"
+      ],
+      "id": "aulas/povos-indigenas-territorios-1serie",
+      "titulo": "Povos indígenas e territórios vivos",
+      "descricao": "Reconhecer a diversidade dos povos indígenas, relacionar territórios e modos de vida e examinar fontes sobre dominação e resistência.",
+      "url": "aulas/povos-indigenas-territorios-1serie/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL",
+      "registro_escola_rs": {
+        "titulo": "Povos indígenas e territórios vivos",
+        "resumo": "Reconhecer a diversidade dos povos indígenas, relacionar territórios e modos de vida e examinar fontes sobre dominação e resistência.",
+        "habilidades": [
+          "EM13CHS101 — Identificar, analisar e comparar fontes e narrativas para compreender processos históricos, políticos, sociais e culturais (síntese do recorte; BNCC, p. 572)."
+        ]
+      },
+      "rotas": [
+        {
+          "titulo": "Imagens e palavras · 96 + 96 frases opcionais",
+          "url": "aulas/povos-indigenas-territorios-1serie/apoio/"
+        },
+        {
+          "titulo": "Caderno da aula em PDF",
+          "url": "aulas/povos-indigenas-territorios-1serie/aula-impressa.pdf"
+        },
+        {
+          "titulo": "Exemplos em PDF",
+          "url": "aulas/povos-indigenas-territorios-1serie/exemplos.pdf"
+        },
+        {
+          "titulo": "Imagens e frases em PDF",
+          "url": "aulas/povos-indigenas-territorios-1serie/apoio-leitura.pdf"
+        }
+      ],
+      "apoio_leitura_url": "aulas/povos-indigenas-territorios-1serie/apoio/"
     }
   ]
 }

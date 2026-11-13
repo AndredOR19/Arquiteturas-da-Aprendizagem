@@ -1,0 +1,210 @@
+{
+  "versao": "3.9.0",
+  "aula": "misturas-separacao-9ano",
+  "estado": "pronto_para_publicar",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "pacote_sha256": "635f4a1a0c61525f387542978a3360b70ff6556a4925942bd99ea1a03308dad6",
+  "requisitos": {
+    "curriculo_aee": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Plano recebido, continuidade, BNCC/RCG conferidos; AEE, D/R/E/L, recuperação e transferência; sem inventar aplicação",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "jogos_principal": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "jogos_exemplos": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "jogos_apoio": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Apoio associativo anterior preservado: banco, sequência, imagens/objetos, palavras, letras, sílabas, montagem e contexto; acesso direto, áudio e mediação, sem RPG obrigatório nem leitura de missões. Alterar somente layout conforme pedido.",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "visual_tema_idade": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura. Fundos/composições específicos por tema e ilustrações claras dos objetos existentes, sem repetir a mesma cena genérica.",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "pdf_discente": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "pdf_docente": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado.",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "acessibilidade_tres_rotas": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "avaliacao_recuperacao": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "32 originais e primeira confirmação preservados; regra 1/2/4 e teto 128 informados; apoios livres; experiência obrigatória antes de nota final",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "relatorios_tres_rotas": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Prévia/cópia/TXT/JSON integrais, tentativas e apoios reais separados; entrega manual explícita ou recibo real; sem envio fictício",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "registro_escola_rs": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Mesmo título/resumo/habilidades no acervo e aula, cópia integral; sem afirmar envio ao Escola RS",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "privacidade_licencas": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Sem dados de estudantes, segredos ou guias no pacote discente; direitos de todos os ativos conferidos",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "navegador_multiplataforma": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Evidências por rota em desktop, Chromebook e celular; toque e teclado, recarga, erro/acerto, progresso e exportações",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "pdf_renderizado": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Todas as páginas de PDFs renderizadas e inspecionadas; sem cortes, sobreposições, fontes ausentes ou imagens ilegíveis",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "conteudo_reutilizavel": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    },
+    "linguagem_clara": {
+      "estado": "aprovado",
+      "evidencias": [
+        {
+          "arquivo": "automacoes/aulas/evidencias/sexta-integral/revisao.md",
+          "sha256": "537f9ebc23d7ba2ccf8822b186853ed227c1f199eb6cb380fc484f2c35b26cd5"
+        }
+      ],
+      "observacao": "Seção 38: VEJA → ENTENDA → EXEMPLO (outro caso) → AGORA É SUA VEZ → CONFERIR em toda atividade; sem rótulo interno visível; comando com ação concreta; exemplo com outros dados; resultado do próprio item só após a primeira tentativa. Entrega exige validador sem bloqueios, lista dos itens em revisão humana e roteiro de observação em sala; o resultado da observação é registrado quando ocorrer e fica como pendência explícita até lá — zero alertas não comprova compreensão.",
+      "responsavel": "Codex · revisão de conteúdo e ensaios técnicos; aplicação em sala pendente",
+      "verificado_em": "2026-11-13T00:40:08.428635+00:00"
+    }
+  },
+  "publicacao": {
+    "pages": {
+      "estado": "pendente"
+    },
+    "vercel": {
+      "estado": "pendente"
+    }
+  },
+  "linguagem_relatorio": "automacoes/aulas/evidencias/sexta-linguagem/relatorio.json"
+}
