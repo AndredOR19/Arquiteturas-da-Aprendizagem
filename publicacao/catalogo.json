@@ -1797,6 +1797,38 @@
         "titulo_exibicao": "Territórios Vivos — Museu dos Povos Indígenas",
         "acesso": "aberto"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "laboratorios/museu-ditadura-redemocratizacao",
+      "destino": "laboratorios/museu-ditadura-redemocratizacao",
+      "titulo": "Museu da Ditadura e da Redemocratização",
+      "interface_autonoma": true,
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano",
+          "Ensino Médio"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "ditadura",
+          "redemocratização",
+          "museu",
+          "AI-5",
+          "Constituição",
+          "Bandidos de Farda"
+        ],
+        "descricao": "Museu 3D sobre ditadura, resistências, documentos e conquista de direitos.",
+        "titulo_exibicao": "Museu da Ditadura e da Redemocratização",
+        "acesso": "aberto"
+      }
     }
   ]
 }

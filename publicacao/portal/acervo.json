@@ -1570,6 +1570,35 @@
       "data_catalogo": "",
       "acesso": "aberto",
       "formato": "AULA DIGITAL"
+    },
+    {
+      "ano_letivo": null,
+      "categoria": "apresentacao",
+      "componentes": [
+        "História"
+      ],
+      "series": [
+        "9º ano",
+        "Ensino Médio"
+      ],
+      "turmas": [],
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "escola_curta": "Bernardina",
+      "palavras_chave": [
+        "ditadura",
+        "redemocratização",
+        "museu",
+        "AI-5",
+        "Constituição",
+        "Bandidos de Farda"
+      ],
+      "id": "laboratorios/museu-ditadura-redemocratizacao",
+      "titulo": "Museu da Ditadura e da Redemocratização",
+      "descricao": "Museu 3D sobre ditadura, resistências, documentos e conquista de direitos.",
+      "url": "laboratorios/museu-ditadura-redemocratizacao/",
+      "data_catalogo": "",
+      "acesso": "aberto",
+      "formato": "AULA DIGITAL"
     }
   ]
 }

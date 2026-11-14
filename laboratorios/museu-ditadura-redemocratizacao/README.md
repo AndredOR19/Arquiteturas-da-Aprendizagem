@@ -1,0 +1,13 @@
+# Museu da Ditadura e da Redemocratização
+
+Exposição educativa com seis salas, Three.js e renderizador de perspectiva em Canvas2D, linha do tempo, sete fichas documentais, fontes e caderno local. Autoria pedagógica: Prof. André de Oliveira Rodrigues. ETE Bernardina Rodrigues Padilha.
+
+## Proveniência
+As fontes e os créditos estão expostos na seção Fontes e créditos. As fichas ICL são sínteses de reportagens, não transcrições nem fac-símiles integrais do acervo. Cada ficha distingue data do documento, acesso, produtor, alegação sustentada e limite. A notícia oficial do MPF confirma incorporação do acervo em22/06/2026. Não há redistribuição de fac-símiles sem licença.
+
+Imagens: Agência Brasil (CC BY3.0 BR), Senado Federal (CC BY2.0), Arquivo Nacional (domínio público). Consulte URLs e contexto no HTML; arquivo de 1985 não foi rotulado como manifestação de1984. Data histórica da promulgação constitucional5/10/1988 difere do cadastro da foto. Derivadas WebP redimensionadas. Three.js0.160.1 MIT: assets/THREE-LICENSE.json.
+
+## Acessibilidade e dados
+Conteúdo equivalente na lista, teclado e toque, redução de movimento, texto e síntese de voz dependente do navegador. Sem formulários com dados pessoais. Caderno em localStorage com exportação TXT; nenhuma nota de aprendizagem é inferida das visitas. Ambiente arquitetônico fictício, sem reconstituição ou simulação de tortura.
+
+Revisão editorial: novembro2026. Publicação no GitHub Pages e projeto Vercel arquiteturas-aulas pelo fluxo existente do acervo.
