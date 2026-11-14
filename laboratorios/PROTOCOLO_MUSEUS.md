@@ -14,7 +14,7 @@ Implementado inicialmente nos museus Territórios Vivos e Ditadura/Redemocratiza
 
 ## Próxima etapa registrada — cenários realistas e museus conectados
 
-Pedido do Prof. André,14/11/2026: sobrepor imagens realistas ao cenário e criar portas que conectem salas históricas e salas de outros museus em construção. Estado: proposta registrada, ainda não implementada. A publicação atual acrescenta galerias cronológicas, não os portais ou novos cenários.
+Pedido do Prof. André,14/11/2026: sobrepor imagens realistas ao cenário e criar portas que conectem salas históricas e salas de outros museus em construção. Estado atualizado em14/11/2026: primeira implementação nos dois museus, com átrio, salas3D, murais de fotografias reais e portas entre salas/museus. Os cenários são arquiteturas educativas fictícias; não se trata de panorama documental360° ou reconstituição histórica de um edifício.
 
 ### Cenário como parte da aprendizagem
 - Usar fotografias reais licenciadas, panoramas e superfícies fotográficas no ambiente, preservando proporção e perspectiva. Textos, objetos e pontos de interesse devem continuar legíveis.
@@ -29,4 +29,9 @@ Pedido do Prof. André,14/11/2026: sobrepor imagens realistas ao cenário e cria
 - Guardar anotações e progresso existentes ao trocar de sala. Visitas não equivalem a aprendizagem ou nota.
 
 ### Critérios para a futura entrega
-Cenário identificado e com direitos confirmados; portas com destinos reais; retorno sem perda de anotações; conexões temáticas verificadas; navegação acessível; teste nos dois ambientes publicados. A implementação deve ser solicitada/retomada a partir deste registro.
+Cenário identificado e com direitos confirmados; portas com destinos reais; retorno sem perda de anotações; conexões temáticas verificadas; navegação acessível; teste nos dois ambientes publicados. A evolução deve preservar as rotas publicadas e ampliar o cenário a partir deste registro.
+
+### Verificação desta implementação inicial
+- Testados por navegador: clique na porta do átrio para a sala O poder se fecha; clique na porta3D para Territórios Vivos; passagem para Yanomami; retorno à mesma sala de origem. Cadernos e IDs existentes preservados.
+- Portas também disponíveis na lista, com indicação da sala atual, retorno ao átrio e acesso direto ao conteúdo. Animação de abertura desativada em movimento reduzido.
+- As rotas relativas mantêm Vercel e Pages independentes. Sem portais para projetos inexistentes, coleta nova ou inferência de aprendizagem por visita.

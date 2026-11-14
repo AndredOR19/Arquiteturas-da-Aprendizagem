@@ -24,3 +24,8 @@ Sem login, coleta de nomes, notas ou servidor de relatórios. Caderno somente no
 ## Galeria fotográfica — revisão de14/11/2026
 
 Todas as seis salas agora têm imagens reais. Galeria com ordem cronológica, filtro por sala, data do registro ou evento, contexto, autoria, licença, fonte e ampliação acessível. Dados em assets/photos.js; mesma proveniência no painel, sala e visualizador. Fotografias nos painéis3D com proporção preservada. A imagem SNI é contexto histórico, não fac-símile do novo acervo ICL. Povos vivos não são organizados numa suposta evolução cultural: a cronologia é dos registros. Padrão permanente em ../PROTOCOLO_MUSEUS.md.
+
+## Cenários e portas —14/11/2026
+Átrio com seis portas clicáveis, entrada em sala3D com mural fotográfico real, duas portas para outras salas e porta para o outro museu. A lista de portas dá os mesmos destinos por teclado/toque. Links profundos#sala-ID, retorno ao átrio, portal com relação temática e retorno à sala de origem. Fotografias mantêm fonte, data, autoria e contexto. Arquitetura fictícia; superfícies e mobiliário são criações3D, não fac-símiles de museus/aldeias.
+
+A posição no percurso usa sessionStorage por museu; cadernos existentes continuam em suas chaves locais, sem migração ou envio. O retorno mantém o endereço de origem na mesma hospedagem; não transfere anotações entre origens diferentes. Renderização WebGL com modo leveCanvas2D e ordenação das superfícies fotográficas.
