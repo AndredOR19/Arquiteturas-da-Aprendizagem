@@ -11,3 +11,7 @@ Imagens: Agência Brasil (CC BY3.0 BR), Senado Federal (CC BY2.0), Arquivo Nacio
 Conteúdo equivalente na lista, teclado e toque, redução de movimento, texto e síntese de voz dependente do navegador. Sem formulários com dados pessoais. Caderno em localStorage com exportação TXT; nenhuma nota de aprendizagem é inferida das visitas. Ambiente arquitetônico fictício, sem reconstituição ou simulação de tortura.
 
 Revisão editorial: novembro2026. Publicação no GitHub Pages e projeto Vercel arquiteturas-aulas pelo fluxo existente do acervo.
+
+## Galeria fotográfica — revisão de14/11/2026
+
+Todas as seis salas agora têm imagens reais. Galeria com ordem cronológica, filtro por sala, data do registro ou evento, contexto, autoria, licença, fonte e ampliação acessível. Dados em assets/photos.js; mesma proveniência no painel, sala e visualizador. Fotografias nos painéis3D com proporção preservada. A imagem SNI é contexto histórico, não fac-símile do novo acervo ICL. Povos vivos não são organizados numa suposta evolução cultural: a cronologia é dos registros. Padrão permanente em ../PROTOCOLO_MUSEUS.md.

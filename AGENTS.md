@@ -213,3 +213,7 @@ Ler obrigatoriamente [o adendo pedagógico 3.9.1 do Prompt Mestre](prompts/ADEND
 
 ## Prevenção de repetição inclusiva — 3.9.2
 Antes de novas produções inclusivas, consultar automacoes/aulas/inclusao/README.md e registro.json, executar auditar.py --candidate ID-DA-AULA e revisar coincidências. Registrar origem/finalidade/novidade das retomadas; não considerar troca de ID, fundo ou distratores como novidade. A auditoria não altera bancos nem sessões e ainda não integra o CI/gerador.
+
+## Museus: galeria com cronologia e contexto
+- Diretriz permanente do professor,14/11/2026: consultar laboratorios/PROTOCOLO_MUSEUS.md ao criar ou revisar qualquer museu. Todas as salas devem ter imagens reais pertinentes, com data/período, contexto, autoria, licença e fonte; galeria cronológica, ampliação e filtro por sala. Distinguir data do registro e evento; não generalizar povos ou inventar metadados. Conferir arquivos e interface após publicar.
+- Próxima etapa de museus registrada em14/11/2026: cenários com imagens realistas e portas entre salas históricas e diferentes museus. Consultar a seção correspondente de laboratorios/PROTOCOLO_MUSEUS.md. Proposta ainda não implementada; distinguir fotografia documental de reconstituição e oferecer caminhos acessíveis equivalentes.

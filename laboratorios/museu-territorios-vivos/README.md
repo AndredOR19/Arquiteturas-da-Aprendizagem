@@ -20,3 +20,7 @@ Sintaxe dos módulos: node --check. Chrome da prévia: WebGL desabilitado; alter
 
 ## Privacidade
 Sem login, coleta de nomes, notas ou servidor de relatórios. Caderno somente no navegador, com exportação TXT. Imagens e bibliotecas locais; iframe YouTube só inserido após clique. Links externos abrem por ação explícita do visitante. Publicação pública autorizada pelo professor no GitHub Pages e na Vercel. Os caminhos do museu não exigem login.
+
+## Galeria fotográfica — revisão de14/11/2026
+
+Todas as seis salas agora têm imagens reais. Galeria com ordem cronológica, filtro por sala, data do registro ou evento, contexto, autoria, licença, fonte e ampliação acessível. Dados em assets/photos.js; mesma proveniência no painel, sala e visualizador. Fotografias nos painéis3D com proporção preservada. A imagem SNI é contexto histórico, não fac-símile do novo acervo ICL. Povos vivos não são organizados numa suposta evolução cultural: a cronologia é dos registros. Padrão permanente em ../PROTOCOLO_MUSEUS.md.
