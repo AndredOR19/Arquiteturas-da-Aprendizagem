@@ -1,0 +1,73 @@
+{
+  "estado": "revisao_pendente",
+  "publicado": false,
+  "data_preparacao": "2026-11-15",
+  "aplicacao_planejada": "2026-11-16",
+  "fonte_horario": "Horario_Professor_Andre_Semana_02_a_06_Novembro_2026 (1).pdf — grade de 26/10, fonte mais recente localizada",
+  "testes": {
+    "curricular_e_exemplos": {
+      "atividades": 512,
+      "passaram": 512,
+      "ambiente": "jsdom; não é navegador físico"
+    },
+    "inclusao": {
+      "atividades": 768,
+      "passaram": 768,
+      "contagens_fase1": [
+        48,
+        24,
+        24
+      ],
+      "fase2_opcional": 96,
+      "testado": "erros, correção, áudio ausente, recarga e independência dos relatórios"
+    },
+    "linguagem": {
+      "bloqueios": 0,
+      "avisos_revisados": 24
+    },
+    "pdf": "340 páginas únicas discentes + 5 docentes renderizadas; inspeção por folhas de contato; PDFs de exemplos extraídos das mesmas páginas dos cadernos"
+  },
+  "pendencias": [
+    "Conferência visual em navegador em desktop/Chromebook e celular: prévias locais não acessíveis; navegação data: recusada pela política do navegador. Nenhum contorno utilizado.",
+    "Conexão Vercel atual não localizou projetos; não se criou projeto substituto nem se alterou domínio. Verificar acesso ao projeto existente e integração Git.",
+    "Plano específico de Estudos Orientados 182/172 e Práticas Experimentais 191 e Referencial Curricular Gaúcho não localizados nesta execução. Recortes baseados na BNCC e materiais de referência, para revisão docente.",
+    "Confirmar o que foi efetivamente aplicado antes: conteúdo publicado/preparado não foi contado como dado.",
+    "Revisão da diversidade semântica e dos exemplos de alfabetização com mediação em sala; não se afirma alfabetização por acertos.",
+    "Implantar no fluxo central a preferência por SVG completo no PDF de apoio, com versionamento e teste, antes de atualizar o lock; ajuste local preservado em patch.",
+    "Publicação Pages e Vercel e QR somente após validação e URLs verificadas; recibos mantidos pendentes."
+  ],
+  "aulas": [
+    {
+      "id": "media-e-diferencas-8ano",
+      "turma": "182",
+      "periodo": "Manhã, 1º e 2º",
+      "serie": "8º ano",
+      "componente": "Estudos Orientados",
+      "titulo": "A média conta tudo?"
+    },
+    {
+      "id": "investigar-filtros-9ano",
+      "turma": "191",
+      "periodo": "Manhã, 4º e 5º",
+      "serie": "9º ano",
+      "componente": "Práticas Experimentais",
+      "titulo": "Filtros sob investigação"
+    },
+    {
+      "id": "redemocratizacao-vozes-e-voto-9ano",
+      "turma": "192",
+      "periodo": "Tarde, 2º",
+      "serie": "9º ano",
+      "componente": "História",
+      "titulo": "Vozes nas ruas, voto em disputa"
+    },
+    {
+      "id": "pesquisa-quem-respondeu-7ano",
+      "turma": "172",
+      "periodo": "Tarde, 4º",
+      "serie": "7º ano",
+      "componente": "Estudos Orientados",
+      "titulo": "Quem respondeu à pesquisa?"
+    }
+  ]
+}

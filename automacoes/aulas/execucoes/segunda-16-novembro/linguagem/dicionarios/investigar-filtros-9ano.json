@@ -1,0 +1,1811 @@
+{
+ "aula": "investigar-filtros-9ano",
+ "kind": "lab",
+ "dicionario": {
+  "perguntas": {
+   "dado": "📌 Quais foram as medidas?",
+   "relacao": "💡 O que a média mostra?",
+   "efeito": "➡️ Qual foi o resultado (a média)?",
+   "limite": "⚠️ O que NÃO dá para afirmar?"
+  },
+  "rotulos": {
+   "Dado observado": "📌 Quais foram as medidas?",
+   "Relação explicada": "💡 O que a média mostra?",
+   "Efeito ou resultado": "➡️ Qual foi o resultado (a média)?",
+   "Limite da conclusão": "⚠️ O que NÃO dá para afirmar?",
+   "O que não posso generalizar?": "⚠️ O que vale só para este caso?",
+   "Que conclusão cabe aqui?": "💡 O que dá para concluir?",
+   "Minha conclusão ficou ampla demais": "Minha conclusão foi longe demais",
+   "Não expliquei a ligação": "Não expliquei a ligação entre as ideias"
+  },
+  "grupos": {
+   "porTitulo": {
+    "Testar o alcance": [
+     "✔ É verdade neste caso",
+     "✘ Não dá para afirmar"
+    ],
+    "Comunicar sem extrapolar": [
+     "✔ Os dados mostram isso",
+     "✘ Os dados não mostram isso"
+    ],
+    "Distinguir observar e inventar": [
+     "✔ Observar com cuidado",
+     "✘ Inventar"
+    ],
+    "Validar a síntese do caso": [
+     "✔ Mostra que entendi",
+     "✘ Não mostra que entendi"
+    ],
+    "Conferir duas leituras": [
+     "✔ Combina com o caso",
+     "✘ Precisa corrigir"
+    ],
+    "Reconhecer uma extrapolação": [
+     "✔ Fica dentro do que sabemos",
+     "✘ Exagera, sem prova"
+    ]
+   },
+   "porRotulo": {
+    "Sustentado": "✔ Tem base nos dados",
+    "Não sustentado": "✘ Não dá para afirmar",
+    "Sustentado neste caso": "✔ É verdade neste caso",
+    "Compatível com o caso": "✔ Combina com o caso",
+    "Exige correção": "✘ Precisa corrigir",
+    "Mantém os limites": "✔ Fica dentro do que sabemos",
+    "Amplia sem evidência": "✘ Exagera, sem prova"
+   }
+  },
+  "prefixos": [
+   [
+    "Situar o caso ",
+    "1º — Apresento o caso: "
+   ],
+   [
+    "Apresentar o dado: ",
+    "2º — Digo o que aconteceu: "
+   ],
+   [
+    "Explicar a relação: ",
+    "3º — Explico a ideia: "
+   ],
+   [
+    "Delimitar a conclusão: ",
+    "4º — Digo até onde vale: "
+   ],
+   [
+    "Localizar a informação: ",
+    "Acho a informação: "
+   ],
+   [
+    "Conferir a ligação com a pergunta de ",
+    "Vejo se ela responde à pergunta de "
+   ],
+   [
+    "Comparar a interpretação com ",
+    "Comparo com a ideia: "
+   ],
+   [
+    "Registrar a restrição: ",
+    "Anoto o limite: "
+   ],
+   [
+    "Reconhecer a informação do caso: ",
+    "Começo pelo fato: "
+   ],
+   [
+    "Explicitar o critério de comparação de ",
+    "Digo como vou comparar "
+   ],
+   [
+    "Construir uma interpretação: ",
+    "Explico a ideia: "
+   ],
+   [
+    "Declarar o alcance: ",
+    "Digo até onde vale: "
+   ],
+   [
+    "Receber outra apresentação do mesmo caso",
+    "Vejo o mesmo caso contado de outro jeito"
+   ],
+   [
+    "Procurar nela uma informação equivalente a ",
+    "Procuro nela a mesma informação: "
+   ],
+   [
+    "Conferir se a relação ",
+    "Vejo se a ideia «"
+   ],
+   [
+    "Manter ou rever a conclusão explicitando ",
+    "Mantenho ou corrijo a conclusão, lembrando: "
+   ]
+  ],
+  "titulos": {
+   "Reconstruir o percurso": "Coloque os passos na ordem",
+   "Conectar dado e explicação": "Ligue cada pergunta à sua resposta",
+   "Testar o alcance": "Isso é verdade neste caso?",
+   "Preparar uma explicação": "Monte sua explicação em 4 passos",
+   "Conferir a coleta": "Conte as respostas",
+   "Construir a representação": "Monte o gráfico de barras",
+   "Recuperar o total": "Some tudo: qual é o total?",
+   "Comunicar sem extrapolar": "O que dá para afirmar com esses dados?",
+   "Montar uma comparação controlada": "Mude só uma coisa",
+   "Descrever as repetições": "Calcule a média",
+   "Conferir a variação": "Veja a diferença entre as medidas",
+   "Aplicar a contagem em outro problema": "Conte de outro jeito",
+   "Reconhecer a explicação": "Que pergunta esta frase responde?",
+   "Separar informação e alcance": "Qual é o fato e qual é o limite?",
+   "Conferir duas leituras": "Combina com o caso ou precisa corrigir?",
+   "Escolher a pergunta certa": "Qual trecho responde à pergunta?",
+   "Reconhecer uma extrapolação": "Está dentro do que sabemos?",
+   "Produzir um roteiro de revisão": "Qual ação resolve a dúvida?",
+   "Distinguir observar e inventar": "Isso é observar ou inventar?",
+   "Transferir o procedimento": "Use o mesmo jeito em outra situação",
+   "Revisar uma fala pública": "O que falta na fala?",
+   "Validar a síntese do caso": "Isso mostra que entendi o caso?",
+   "Preparar a conferência": "Monte o roteiro para conferir",
+   "Dado não é conclusão": "Do fato até a conclusão, passo a passo"
+  },
+  "frases": {
+   "Caminhada": "vão a pé",
+   "Ônibus": "vão de ônibus",
+   "Bicicleta": "vão de bicicleta",
+   "Conto": "preferem conto",
+   "HQ": "preferem HQ",
+   "Reportagem": "preferem reportagem",
+   "Esporte": "usam o pátio para esporte",
+   "Conversa": "usam o pátio para conversar",
+   "Leitura": "usam o pátio para ler",
+   "Reciclável": "separam resíduo reciclável",
+   "Orgânico": "separam resíduo orgânico",
+   "Rejeito": "separam rejeito",
+   "Caderno": "estudam pelo caderno",
+   "Livro": "estudam pelo livro",
+   "Digital": "estudam no digital",
+   "Bebedouro": "bebem água no bebedouro",
+   "Garrafa": "trazem garrafa de água",
+   "Outro": "bebem água de outro jeito",
+   "Semanal": "vão à biblioteca toda semana",
+   "Mensal": "vão à biblioteca todo mês",
+   "Raro": "quase não vão à biblioteca",
+   "Praça": "querem uma praça",
+   "Biblioteca": "querem uma biblioteca",
+   "Ciclovia": "querem uma ciclovia"
+  },
+  "situacoes": null,
+  "abertura": null,
+  "glossario": [
+   {
+    "termo": "frequência",
+    "significado": "quantas vezes algo aparece. Aqui: quantas pessoas deram cada resposta."
+   },
+   {
+    "termo": "censo",
+    "significado": "pesquisa que pergunta para TODAS as pessoas do grupo."
+   },
+   {
+    "termo": "amostra",
+    "significado": "pesquisa que pergunta só para uma parte do grupo, escolhida com critério."
+   },
+   {
+    "termo": "categoria",
+    "significado": "cada opção de resposta (por exemplo: caminhada, ônibus, bicicleta)."
+   },
+   {
+    "termo": "escala",
+    "significado": "os números marcados no gráfico; precisa ser a mesma para todas as barras."
+   },
+   {
+    "termo": "extrapolar",
+    "significado": "ir além do que os dados mostram; concluir mais do que dá para concluir."
+   },
+   {
+    "termo": "generalizar",
+    "significado": "pegar o que vale para um caso ou um grupo pequeno e dizer que vale para todos."
+   },
+   {
+    "termo": "sustentado",
+    "significado": "apoiado por dados ou provas. Afirmação sustentada = afirmação que tem base."
+   },
+   {
+    "termo": "alcance",
+    "significado": "até onde uma conclusão vale: para quem, para onde, quando."
+   },
+   {
+    "termo": "limite",
+    "significado": "o que o dado ou a fonte NÃO permite afirmar."
+   },
+   {
+    "termo": "evidência",
+    "significado": "informação que serve de prova para uma ideia."
+   },
+   {
+    "termo": "fonte",
+    "significado": "de onde vem uma informação: documento, jornal, pessoa, levantamento."
+   },
+   {
+    "termo": "critério",
+    "significado": "a regra usada para decidir ou comparar."
+   },
+   {
+    "termo": "média",
+    "significado": "soma de todos os valores dividida por quantos valores são."
+   },
+   {
+    "termo": "variação",
+    "significado": "quanto os valores mudam de uma medida para outra."
+   },
+   {
+    "termo": "controle",
+    "significado": "manter uma condição igual nos dois copos, para ela não atrapalhar a comparação."
+   },
+   {
+    "termo": "variável",
+    "significado": "a coisa que muda (ou que decidimos mudar) no teste."
+   },
+   {
+    "termo": "ensaio",
+    "significado": "cada teste feito no laboratório."
+   },
+   {
+    "termo": "repetição",
+    "significado": "fazer o mesmo teste de novo para ver se o resultado se repete."
+   },
+   {
+    "termo": "simulado",
+    "significado": "feito no computador ou inventado para treinar; não foi medido de verdade."
+   },
+   {
+    "termo": "bancada",
+    "significado": "a mesa do laboratório onde se faz o experimento de verdade."
+   },
+   {
+    "termo": "dissolução",
+    "significado": "quando o sal «some» na água, espalhando-se nela."
+   },
+   {
+    "termo": "partição",
+    "significado": "divisão de um território em partes ou países."
+   },
+   {
+    "termo": "descolonização",
+    "significado": "processo em que colônias deixam de ser controladas por outro país e ficam independentes."
+   },
+   {
+    "termo": "soberania",
+    "significado": "o poder de um país de governar a si mesmo."
+   },
+   {
+    "termo": "metrópole",
+    "significado": "o país que controla a colônia."
+   },
+   {
+    "termo": "resolução (ONU)",
+    "significado": "decisão escrita e aprovada pelos países da ONU."
+   },
+   {
+    "termo": "autodeterminação",
+    "significado": "direito de um povo de decidir o próprio destino."
+   },
+   {
+    "termo": "não alinhado",
+    "significado": "países que não queriam ficar do lado dos EUA nem da União Soviética na Guerra Fria."
+   },
+   {
+    "termo": "Guerra Fria",
+    "significado": "disputa entre EUA e União Soviética (1947–1991), sem guerra direta entre os dois, mas com conflitos em outros países."
+   },
+   {
+    "termo": "fonte normativa",
+    "significado": "documento que diz como as coisas DEVEM ser (uma regra), não como elas são de fato."
+   },
+   {
+    "termo": "agência local",
+    "significado": "a capacidade das próprias pessoas e grupos do lugar de agir e decidir."
+   },
+   {
+    "termo": "coexistir",
+    "significado": "existir ao mesmo tempo, lado a lado."
+   },
+   {
+    "termo": "liberdade de consciência",
+    "significado": "direito de cada pessoa acreditar (ou não) no que quiser, sem ser forçada."
+   },
+   {
+    "termo": "dignidade",
+    "significado": "o valor de toda pessoa; ninguém pode ser humilhado."
+   },
+   {
+    "termo": "adesão",
+    "significado": "concordar e entrar em algo. «Sem adesão» = participar sem precisar concordar."
+   },
+   {
+    "termo": "constrangimento",
+    "significado": "situação em que a pessoa se sente forçada ou envergonhada."
+   },
+   {
+    "termo": "coerção",
+    "significado": "forçar alguém a fazer algo."
+   },
+   {
+    "termo": "convicção",
+    "significado": "aquilo em que a pessoa acredita com firmeza."
+   },
+   {
+    "termo": "hierarquizar",
+    "significado": "colocar em ordem de «melhor» para «pior»; aqui, tratar uma crença como superior a outra."
+   },
+   {
+    "termo": "proselitismo",
+    "significado": "tentar convencer alguém a mudar de religião."
+   },
+   {
+    "termo": "lacuna",
+    "significado": "uma parte que ficou faltando."
+   },
+   {
+    "termo": "equivalente",
+    "significado": "que vale o mesmo (1/2 e 2/4 são equivalentes)."
+   },
+   {
+    "termo": "inteiro",
+    "significado": "o todo que foi dividido em partes."
+   },
+   {
+    "termo": "levantamento",
+    "significado": "pesquisa que reúne informações."
+   },
+   {
+    "termo": "seminário",
+    "significado": "apresentação oral de um tema para a turma."
+   },
+   {
+    "termo": "sujeitos",
+    "significado": "as pessoas ou grupos que agem numa situação."
+   },
+   {
+    "termo": "estratégia",
+    "significado": "o jeito planejado de fazer algo."
+   },
+   {
+    "termo": "síntese",
+    "significado": "resumo com as ideias principais."
+   },
+   {
+    "termo": "interpretação",
+    "significado": "o sentido que damos ao que lemos ou observamos."
+   },
+   {
+    "termo": "transferir",
+    "significado": "usar o que aprendeu em outra situação."
+   },
+   {
+    "termo": "procedimento",
+    "significado": "sequência de passos para fazer algo."
+   },
+   {
+    "termo": "delimitar",
+    "significado": "marcar até onde vale."
+   },
+   {
+    "termo": "hipótese",
+    "significado": "uma explicação provisória que ainda vai ser testada."
+   },
+   {
+    "termo": "unidade",
+    "significado": "a medida que acompanha o número: segundos, mililitros, graus."
+   }
+  ]
+ },
+ "antes_depois": [
+  {
+   "id": "p-1-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar tipo de filtro."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar tipo de filtro."
+   }
+  },
+  {
+   "id": "p-1-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-1-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre tipo de filtro."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre tipo de filtro."
+   }
+  },
+  {
+   "id": "p-2-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar volume de mistura."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar volume de mistura."
+   }
+  },
+  {
+   "id": "p-2-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-2-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre volume de mistura."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre volume de mistura."
+   }
+  },
+  {
+   "id": "p-3-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar número de camadas."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar número de camadas."
+   }
+  },
+  {
+   "id": "p-3-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-3-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre número de camadas."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre número de camadas."
+   }
+  },
+  {
+   "id": "p-4-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar modo de despejar."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar modo de despejar."
+   }
+  },
+  {
+   "id": "p-4-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-4-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-4-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre modo de despejar."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre modo de despejar."
+   }
+  },
+  {
+   "id": "p-5-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar tamanho das partículas."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar tamanho das partículas."
+   }
+  },
+  {
+   "id": "p-5-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-5-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-5-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre tamanho das partículas."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre tamanho das partículas."
+   }
+  },
+  {
+   "id": "p-6-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar área do filtro."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar área do filtro."
+   }
+  },
+  {
+   "id": "p-6-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-6-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-6-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre área do filtro."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre área do filtro."
+   }
+  },
+  {
+   "id": "p-7-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar tempo de repouso."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar tempo de repouso."
+   }
+  },
+  {
+   "id": "p-7-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-7-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-7-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre tempo de repouso."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre tempo de repouso."
+   }
+  },
+  {
+   "id": "p-8-1",
+   "antes": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar quantidade de areia."
+   },
+   "depois": {
+    "title": "Prepare o teste",
+    "command": "Coloque os passos na ordem para investigar quantidade de areia."
+   }
+  },
+  {
+   "id": "p-8-2",
+   "antes": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média?"
+   }
+  },
+  {
+   "id": "p-8-3",
+   "antes": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   },
+   "depois": {
+    "title": "Ligue condição e função",
+    "command": "Ligue cada parte do teste à sua função."
+   }
+  },
+  {
+   "id": "p-8-4",
+   "antes": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre quantidade de areia."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero",
+    "command": "Separe as afirmações sobre quantidade de areia."
+   }
+  },
+  {
+   "id": "x-1-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-1-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-1-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-1-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-1-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-1-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-1-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-1-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-1-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-1-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-1-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-1-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-2-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-2-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-2-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-2-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-2-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-2-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-2-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-2-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-2-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-2-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-2-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-2-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-3-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-3-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-3-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-3-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-3-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-3-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-3-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-3-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-3-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-3-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-3-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-3-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-4-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-4-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-4-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-4-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-4-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-4-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-4-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-4-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-4-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-4-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-4-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-4-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-5-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-5-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-5-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-5-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-5-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-5-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-5-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-5-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-5-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-5-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-5-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-5-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-6-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-6-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-6-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-6-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-6-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-6-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-6-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-6-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-6-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-6-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-6-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-6-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-7-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-7-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-7-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-7-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-7-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-7-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-7-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-7-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-7-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-7-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-7-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-7-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-8-1-1",
+   "antes": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Prepare o teste · outro registro",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-8-1-2",
+   "antes": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Calcule a média · outro registro",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-8-1-3",
+   "antes": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Ligue condição e função · outro registro",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-8-1-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · outro registro",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar A."
+   }
+  },
+  {
+   "id": "x-8-2-1",
+   "antes": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Prepare o teste · conferência",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-8-2-2",
+   "antes": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Calcule a média · conferência",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-8-2-3",
+   "antes": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Ligue condição e função · conferência",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-8-2-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · conferência",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar B."
+   }
+  },
+  {
+   "id": "x-8-3-1",
+   "antes": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Prepare o teste · nova situação",
+    "command": "Coloque os passos do planejamento na ordem. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-8-3-2",
+   "antes": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Calcule a média · nova situação",
+    "command": "Some os três tempos simulados e divida por três. Qual é a média? Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-8-3-3",
+   "antes": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Ligue condição e função · nova situação",
+    "command": "Ligue cada parte do teste à sua função. Use o registro complementar C."
+   }
+  },
+  {
+   "id": "x-8-3-4",
+   "antes": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   },
+   "depois": {
+    "title": "Separe conclusão e exagero · nova situação",
+    "command": "Separe o que o teste permite afirmar do que não permite. Use o registro complementar C."
+   }
+  }
+ ]
+}

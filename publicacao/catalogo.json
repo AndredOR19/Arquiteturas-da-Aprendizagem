@@ -1829,6 +1829,154 @@
         "titulo_exibicao": "Museu da Ditadura e da Redemocratização",
         "acesso": "aberto"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/media-e-diferencas-8ano",
+      "destino": "aulas/media-e-diferencas-8ano",
+      "titulo": "A média conta tudo?",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Estudos Orientados",
+          "8º ano",
+          "A média conta tudo?"
+        ],
+        "descricao": "Calcule e compare média, mediana e amplitude para explicar o que um resumo dos dados mostra e o que deixa de fora.",
+        "titulo_exibicao": "A média conta tudo?",
+        "registro_escola_rs": {
+          "titulo": "A média conta tudo?",
+          "resumo": "Calcule e compare média, mediana e amplitude para explicar o que um resumo dos dados mostra e o que deixa de fora.",
+          "habilidades": "EF08MA25 — medidas de tendência central e relação com a amplitude. Síntese do código em currículo oficial; articulação de Estudos Orientados com Matemática."
+        },
+        "rotas": {
+          "principal": 32,
+          "exemplos": 96,
+          "apoio": 96
+        },
+        "apoio_leitura_url": "aulas/media-e-diferencas-8ano/apoio/"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/investigar-filtros-9ano",
+      "destino": "aulas/investigar-filtros-9ano",
+      "titulo": "Filtros sob investigação",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Práticas Experimentais",
+          "9º ano",
+          "Filtros sob investigação"
+        ],
+        "descricao": "Planeje uma comparação com uma mudança por vez, calcule médias e diferencie observação, simulação e conclusão.",
+        "titulo_exibicao": "Filtros sob investigação",
+        "registro_escola_rs": {
+          "titulo": "Filtros sob investigação",
+          "resumo": "Planeje uma comparação com uma mudança por vez, calcule médias e diferencie observação, simulação e conclusão.",
+          "habilidades": "Ciências da Natureza, competência específica 2 — conceitos, processos e práticas da investigação científica. Recorte de planejamento, comparação e comunicação de testes; BNCC, p. 324."
+        },
+        "rotas": {
+          "principal": 32,
+          "exemplos": 96,
+          "apoio": 96
+        },
+        "apoio_leitura_url": "aulas/investigar-filtros-9ano/apoio/"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/redemocratizacao-vozes-e-voto-9ano",
+      "destino": "aulas/redemocratizacao-vozes-e-voto-9ano",
+      "titulo": "Vozes nas ruas, voto em disputa",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "História",
+          "9º ano",
+          "Vozes nas ruas, voto em disputa"
+        ],
+        "descricao": "Relacione mobilização social, Diretas Já e os marcos de 1985, 1988 e 1989, distinguindo eleição direta e indireta.",
+        "titulo_exibicao": "Vozes nas ruas, voto em disputa",
+        "registro_escola_rs": {
+          "titulo": "Vozes nas ruas, voto em disputa",
+          "resumo": "Relacione mobilização social, Diretas Já e os marcos de 1985, 1988 e 1989, distinguindo eleição direta e indireta.",
+          "habilidades": "EF09HI22 — mobilização social no final da ditadura e no caminho até a Constituição de 1988. Síntese conferida na BNCC, p. 431."
+        },
+        "rotas": {
+          "principal": 32,
+          "exemplos": 96,
+          "apoio": 96
+        },
+        "apoio_leitura_url": "aulas/redemocratizacao-vozes-e-voto-9ano/apoio/"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/pesquisa-quem-respondeu-7ano",
+      "destino": "aulas/pesquisa-quem-respondeu-7ano",
+      "titulo": "Quem respondeu à pesquisa?",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Estudos Orientados",
+          "7º ano",
+          "Quem respondeu à pesquisa?"
+        ],
+        "descricao": "Confira quem respondeu, represente as respostas e escreva uma conclusão que respeite o grupo pesquisado.",
+        "titulo_exibicao": "Quem respondeu à pesquisa?",
+        "registro_escola_rs": {
+          "titulo": "Quem respondeu à pesquisa?",
+          "resumo": "Confira quem respondeu, represente as respostas e escreva uma conclusão que respeite o grupo pesquisado.",
+          "habilidades": "EF07MA36 — pesquisa censitária e amostral; organização e comunicação de dados. Articulação de Estudos Orientados com Matemática; síntese conferida em fonte oficial do MEC."
+        },
+        "rotas": {
+          "principal": 32,
+          "exemplos": 96,
+          "apoio": 96
+        },
+        "apoio_leitura_url": "aulas/pesquisa-quem-respondeu-7ano/apoio/"
+      }
     }
   ]
 }

@@ -112,6 +112,12 @@ def catalog_gate(root):
     legacy=set(json.loads(legacy_path.read_text())['destinos']) if legacy_path.exists() else set()
     # Um recibo completo promove apenas o discente; pendentes continuam fora do acervo.
     known={x.get('destino') for x in catalog['materiais']}
+    # Publicação expressamente solicitada de uma versão preparada, sem declarar
+    # homologação. Exceções são limitadas ao destino e hash revisados; não permitem
+    # concluir a entrega nem dispensam a auditoria de linguagem.
+    release_path=root/'automacoes/aulas/publicacoes-solicitadas.json'
+    releases=json.loads(release_path.read_text()).get('aulas',[]) if release_path.exists() else []
+    requested={r['destino']:r for r in releases}
     for record in registered:
         if record['destino'] in known:continue
         try:
@@ -129,6 +135,16 @@ def catalog_gate(root):
         dest=item.get('destino')
         required=bool(item.get('contrato_entrega')) or dest in by_dest or (item.get('tipo')=='html' and str(item.get('origem','')).startswith('aulas/') and dest not in legacy)
         if not required:continue
+        if dest in requested:
+            release=requested[dest]
+            bundle=(root/dest).resolve()
+            if not bundle.is_relative_to(root.resolve()):raise ValueError('Destino fora da raiz')
+            if release.get('pacote_sha256')!=digest(bundle) or not release.get('solicitacao_usuario'):
+                raise ValueError('Publicação solicitada sem autorização ou hash atual: '+dest)
+            errors.extend(dest+': '+e for e in clear_language_gate(release,policy,root,bundle))
+            if release.get('estado')!='publicacao_solicitada_com_revisoes_pendentes' or not release.get('pendencias'):
+                raise ValueError('Estado ou pendências da publicação solicitada ausentes: '+dest)
+            continue
         try:
             r=by_dest[dest]
             receipt=json.loads(inside(root,r['recibo']).read_text())

@@ -1,0 +1,55 @@
+{
+  "id": "aulas-segunda-16-novembro",
+  "data": "2026-11-16",
+  "horario_fonte": "Horario_Professor_Andre_Semana_02_a_06_Novembro_2026 (1).pdf, grade de 26/10; fonte mais recente localizada; aplicação ainda não confirmada",
+  "aulas": [
+    {
+      "id": "media-e-diferencas-8ano",
+      "serie": "8º ano",
+      "componente": "Estudos Orientados",
+      "tema": "A média conta tudo?",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "conteudo": "projetos/conteudos/media-e-diferencas-8ano/aula.json",
+      "documentos_base": [
+        "MEMORIA_OPERACIONAL_AULAS.md",
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    },
+    {
+      "id": "investigar-filtros-9ano",
+      "serie": "9º ano",
+      "componente": "Práticas Experimentais",
+      "tema": "Filtros sob investigação",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "conteudo": "projetos/conteudos/investigar-filtros-9ano/aula.json",
+      "documentos_base": [
+        "MEMORIA_OPERACIONAL_AULAS.md",
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    },
+    {
+      "id": "redemocratizacao-vozes-e-voto-9ano",
+      "serie": "9º ano",
+      "componente": "História",
+      "tema": "Vozes nas ruas, voto em disputa",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "conteudo": "projetos/conteudos/redemocratizacao-vozes-e-voto-9ano/aula.json",
+      "documentos_base": [
+        "MEMORIA_OPERACIONAL_AULAS.md",
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    },
+    {
+      "id": "pesquisa-quem-respondeu-7ano",
+      "serie": "7º ano",
+      "componente": "Estudos Orientados",
+      "tema": "Quem respondeu à pesquisa?",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "conteudo": "projetos/conteudos/pesquisa-quem-respondeu-7ano/aula.json",
+      "documentos_base": [
+        "MEMORIA_OPERACIONAL_AULAS.md",
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    }
+  ]
+}

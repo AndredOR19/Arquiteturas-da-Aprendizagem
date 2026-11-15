@@ -1,0 +1,76 @@
+{
+  "aulas": [
+    {
+      "aula": "media-e-diferencas-8ano",
+      "destino": "aulas/media-e-diferencas-8ano",
+      "pacote_sha256": "d61c641118df93c81fdc06a1e46ab9d3ad24d00384d559e77e93d1d30f26629c",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
+      "pendencias": [
+        "Conferência visual em navegador em desktop/Chromebook e celular: prévias locais não acessíveis; navegação data: recusada pela política do navegador. Nenhum contorno utilizado.",
+        "Conexão Vercel atual não localizou projetos; não se criou projeto substituto nem se alterou domínio. Verificar acesso ao projeto existente e integração Git.",
+        "Plano específico de Estudos Orientados 182/172 e Práticas Experimentais 191 e Referencial Curricular Gaúcho não localizados nesta execução. Recortes baseados na BNCC e materiais de referência, para revisão docente.",
+        "Confirmar o que foi efetivamente aplicado antes: conteúdo publicado/preparado não foi contado como dado.",
+        "Revisão da diversidade semântica e dos exemplos de alfabetização com mediação em sala; não se afirma alfabetização por acertos.",
+        "Implantar no fluxo central a preferência por SVG completo no PDF de apoio, com versionamento e teste, antes de atualizar o lock; ajuste local preservado em patch.",
+        "Publicação Pages e Vercel e QR somente após validação e URLs verificadas; recibos mantidos pendentes."
+      ],
+      "verificacao_tecnica": "512 atividades curriculares/exemplos e 768 inclusivas reexecutadas com sucesso em jsdom; não equivale a teste em aparelho real."
+    },
+    {
+      "aula": "investigar-filtros-9ano",
+      "destino": "aulas/investigar-filtros-9ano",
+      "pacote_sha256": "ee1b59b782f451ad14dd8e157b92d99d781a37fc84623c3465acafa7b3dc3ac6",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
+      "pendencias": [
+        "Conferência visual em navegador em desktop/Chromebook e celular: prévias locais não acessíveis; navegação data: recusada pela política do navegador. Nenhum contorno utilizado.",
+        "Conexão Vercel atual não localizou projetos; não se criou projeto substituto nem se alterou domínio. Verificar acesso ao projeto existente e integração Git.",
+        "Plano específico de Estudos Orientados 182/172 e Práticas Experimentais 191 e Referencial Curricular Gaúcho não localizados nesta execução. Recortes baseados na BNCC e materiais de referência, para revisão docente.",
+        "Confirmar o que foi efetivamente aplicado antes: conteúdo publicado/preparado não foi contado como dado.",
+        "Revisão da diversidade semântica e dos exemplos de alfabetização com mediação em sala; não se afirma alfabetização por acertos.",
+        "Implantar no fluxo central a preferência por SVG completo no PDF de apoio, com versionamento e teste, antes de atualizar o lock; ajuste local preservado em patch.",
+        "Publicação Pages e Vercel e QR somente após validação e URLs verificadas; recibos mantidos pendentes."
+      ],
+      "verificacao_tecnica": "512 atividades curriculares/exemplos e 768 inclusivas reexecutadas com sucesso em jsdom; não equivale a teste em aparelho real."
+    },
+    {
+      "aula": "redemocratizacao-vozes-e-voto-9ano",
+      "destino": "aulas/redemocratizacao-vozes-e-voto-9ano",
+      "pacote_sha256": "5e673fe30d73d99e37a2f8466208a16bd7ddb5145ee590a70e80ec586e9cba52",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
+      "pendencias": [
+        "Conferência visual em navegador em desktop/Chromebook e celular: prévias locais não acessíveis; navegação data: recusada pela política do navegador. Nenhum contorno utilizado.",
+        "Conexão Vercel atual não localizou projetos; não se criou projeto substituto nem se alterou domínio. Verificar acesso ao projeto existente e integração Git.",
+        "Plano específico de Estudos Orientados 182/172 e Práticas Experimentais 191 e Referencial Curricular Gaúcho não localizados nesta execução. Recortes baseados na BNCC e materiais de referência, para revisão docente.",
+        "Confirmar o que foi efetivamente aplicado antes: conteúdo publicado/preparado não foi contado como dado.",
+        "Revisão da diversidade semântica e dos exemplos de alfabetização com mediação em sala; não se afirma alfabetização por acertos.",
+        "Implantar no fluxo central a preferência por SVG completo no PDF de apoio, com versionamento e teste, antes de atualizar o lock; ajuste local preservado em patch.",
+        "Publicação Pages e Vercel e QR somente após validação e URLs verificadas; recibos mantidos pendentes."
+      ],
+      "verificacao_tecnica": "512 atividades curriculares/exemplos e 768 inclusivas reexecutadas com sucesso em jsdom; não equivale a teste em aparelho real."
+    },
+    {
+      "aula": "pesquisa-quem-respondeu-7ano",
+      "destino": "aulas/pesquisa-quem-respondeu-7ano",
+      "pacote_sha256": "da1ff4d49c9d2089fce98bef2a61e661899d3aa4330122b6fa48ac29fa8a0676",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
+      "pendencias": [
+        "Conferência visual em navegador em desktop/Chromebook e celular: prévias locais não acessíveis; navegação data: recusada pela política do navegador. Nenhum contorno utilizado.",
+        "Conexão Vercel atual não localizou projetos; não se criou projeto substituto nem se alterou domínio. Verificar acesso ao projeto existente e integração Git.",
+        "Plano específico de Estudos Orientados 182/172 e Práticas Experimentais 191 e Referencial Curricular Gaúcho não localizados nesta execução. Recortes baseados na BNCC e materiais de referência, para revisão docente.",
+        "Confirmar o que foi efetivamente aplicado antes: conteúdo publicado/preparado não foi contado como dado.",
+        "Revisão da diversidade semântica e dos exemplos de alfabetização com mediação em sala; não se afirma alfabetização por acertos.",
+        "Implantar no fluxo central a preferência por SVG completo no PDF de apoio, com versionamento e teste, antes de atualizar o lock; ajuste local preservado em patch.",
+        "Publicação Pages e Vercel e QR somente após validação e URLs verificadas; recibos mantidos pendentes."
+      ],
+      "verificacao_tecnica": "512 atividades curriculares/exemplos e 768 inclusivas reexecutadas com sucesso em jsdom; não equivale a teste em aparelho real."
+    }
+  ]
+}

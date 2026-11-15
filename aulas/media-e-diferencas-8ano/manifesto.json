@@ -1,0 +1,140 @@
+{
+  "projeto": "media-e-diferencas-8ano",
+  "titulo": "A média conta tudo?",
+  "status": "revisao_pendente",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "eadbfc5546fa1d0e272e9896b686588c2f3074d0",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 96
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 469,
+      "sha256": "4d0489e05013fe4ce1e446827edad589c9174bbf4f4644c6458e9d744cbcd325"
+    },
+    {
+      "arquivo": "apoio/apoio.css",
+      "bytes": 2680,
+      "sha256": "e606cffbf5734faea07f1ae624303b74f7c843772aeddcf4c84fceb429783b02"
+    },
+    {
+      "arquivo": "apoio/apoio.js",
+      "bytes": 9827,
+      "sha256": "33795be83497a5580d1b58b5a42f1dd253220fce3dcfb53d9c0a2c9cb6833d78"
+    },
+    {
+      "arquivo": "apoio/banco.json",
+      "bytes": 356010,
+      "sha256": "9a8debbf2da09ff8ad3e53cba66cc346fa7133a1508fe8ba8e17eea7a68f7a92"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 300608,
+      "sha256": "55a113ec31e320bd26403d1df18fcdd04a146058f0340bc83873fd5f75969b6c"
+    },
+    {
+      "arquivo": "apoio/tema.css",
+      "bytes": 1553,
+      "sha256": "7a539bb8e9a6a365509de7c10f2f04342d0544d7b8643a76bcfaec3645d966f6"
+    },
+    {
+      "arquivo": "apoio-leitura.pdf",
+      "bytes": 223673,
+      "sha256": "9f271440343a9ddab801e602e695b3087180431ce867a5ae806e9fbc32c42685"
+    },
+    {
+      "arquivo": "assets/apoio-relacional.js",
+      "bytes": 148,
+      "sha256": "9c0c9b2eb73fa6c5d621646104df29a930d1cd8d050912610ad1815f834340e9"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 11113,
+      "sha256": "ae5937ac753a1f5e0cbf4167a79ba6dff4537726d3755ec3f81b424431eef6a8"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 42516,
+      "sha256": "59ef121ceb5996505f8c67d03b8dcbb5e82256bc20a8327b52c5cb3753f96767"
+    },
+    {
+      "arquivo": "assets/cenario.jpg",
+      "bytes": 374829,
+      "sha256": "93d29f323e26cbbf34fecd64fd68b703e7a9152b2c069b1d1df796073f699c01"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/clareza.css",
+      "bytes": 4675,
+      "sha256": "21568bf80112d9971376681d77a752f9fda5bc0037b4266f75054f2dc4c636c4"
+    },
+    {
+      "arquivo": "assets/clareza.js",
+      "bytes": 38542,
+      "sha256": "6e96d20447d1253e2df601ad21ecba2b00f2caf83f63b185afb50a708e85c03a"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 17147,
+      "sha256": "9640510cde64b8c8ec76142df9ea447c74e7a07d782f037c208a861a840a4685"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 363412,
+      "sha256": "a21ba9cb83fc43c620f379fb7b8ab7e8139a722264af9e544ae877e183bb03a3"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8792,
+      "sha256": "3fbf05aedd44cd01b4f75f3961717107460519b926d7b4b3ff93aa825f2910ce"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5361,
+      "sha256": "2abfade2644d120c2ec6b039d2fcec1057d83b40d0fe23d4a14b910fdfe8b058"
+    },
+    {
+      "arquivo": "assets/solo-lab.js",
+      "bytes": 2657,
+      "sha256": "7118f6327d91c423e0c7120f1ca2a1b048bb17c22ef54c479b51db856ced2c0a"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 611542,
+      "sha256": "12d8ad2c5a4b7b053087f7a0e63e2838d0f1f645f94e76fb5087f5a90bb09a7f"
+    },
+    {
+      "arquivo": "exemplos.pdf",
+      "bytes": 107922,
+      "sha256": "80699e98939b486eed04e295b3c505ae8e3452ee5c0cca17fe4156c553181512"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7588,
+      "sha256": "5d85dfb1c31a2e03502fde6db694f2421cca4f49d3b9aa2464ad471466a190ed"
+    }
+  ],
+  "progressao_inclusiva": "3.9.3"
+}
