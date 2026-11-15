@@ -1,6 +1,43 @@
 # Adendo obrigatório ao Prompt Mestre — percurso inclusivo em duas fases
-Versão pedagógica: **3.9.1** · decisão do Prof. André em **11/11/2026**.
+Versão pedagógica vigente: **3.9.3** · atualização do Prof. André em **15/11/2026**; base 3.9.1 de 11/11/2026.
 Aplica-se à produção de novas aulas e à revisão explicitamente autorizada dos apoios existentes. Integra o Prompt Mestre 3.9.0: prevalece sobre as referências a 57 como padrão de produção, sobre o piloto de apenas 12 frases e sobre a proibição de variar bancos quando o professor solicita expressamente essa variação.
+
+## Atualização prevalente 3.9.3 — 15/11/2026 — progressão letras → palavras → frases
+
+**Pedido expresso do Prof. André:** metade do percurso inclusivo deve dedicar-se à alfabetização inicial; começar com letras e correspondências, depois palavras e correspondências e, por fim, frases e correspondências. Esta especificação substitui a distribuição anterior da fase 1 para novas produções. Não basta distribuir as operações de modo intercalado nem deixar todas as frases exclusivamente na fase opcional.
+
+### Âncora conceitual
+A fase 1 mantém **96 atividades**. A primeira metade trabalha reconhecimento de letras e suas correspondências visuais e sonoras, com imagens concretas. A segunda metade avança para palavras e depois frases. A fase 2 de 96 atividades permanece como aprofundamento opcional, com registro separado.
+
+### Mecânica explicativa
+Passar do reconhecimento da unidade escrita para a palavra com significado e desta para uma frase que corresponde a uma cena. Reutilizar vocabulário de forma intencional, mudando a relação e reduzindo os apoios gradualmente. Nome da letra e som na palavra são distintos; não apresentar uma equivalência universal entre letra e som nem exigir leitura de uma palavra para iniciar. Sílabas funcionam como ponte apoiada para formar palavras.
+
+### Circuito obrigatório nas novas versões
+| Trecho da fase 1 | Quantidade | Operações e correspondências |
+|---|---:|---|
+| 1–12 | 12 | Letra ↔ mesma letra, com modelo e discriminação visual |
+| 13–24 | 12 | Letra maiúscula ↔ minúscula, com par modelado e voz |
+| 25–36 | 12 | Letra ↔ nome ouvido; som inicial contextualizado em palavras narradas |
+| 37–48 | 12 | Imagem/palavra narrada ↔ letra inicial; localizar a letra em palavras apoiadas |
+| 49–60 | 12 | Palavra ↔ imagem/objeto e palavra narrada, com modelo consultável |
+| 61–72 | 12 | Letras/sílabas ↔ palavra; montagem e reconhecimento em outra representação |
+| 73–84 | 12 | Frase curta narrada ↔ cena; reconhecer quem faz e qual ação acontece |
+| 85–96 | 12 | Completar/ordenar frase ↔ cena, usando o vocabulário já apresentado |
+
+**Distribuição editorial:** 48 letras/correspondências + 24 palavras/correspondências + 24 frases/correspondências = 96. Os dois últimos blocos de frases pertencem à fase 1; não substituem nem tornam obrigatória a fase 2. Para outro tamanho expressamente autorizado, preservar a primeira metade inicial e documentar a divisão restante. Não reduzir as 96 atuais por iniciativa do gerador.
+
+### Dialética prática
+**Ponto cego:** pedir frases antes de ensinar suas palavras, exigir leitura para usar o áudio ou atingir 96 repetindo o mesmo item com outro fundo.
+**Ação de maestria:** mostrar um modelo com outro caso; uma ação por tela; imagem e áudio acionáveis sem leitura; correspondência verificável; pistas e mediação; aplicação em nova representação. Pausa e retomada não exigem concluir os 96 em uma aula. Avançar no banco não certifica alfabetização nem substitui observação docente.
+
+### Contrato de implementação e preservação
+- Todo item novo deve identificar etapa (`letras`, `palavras`, `frases`), objetivo, relação, alvo, cena, exemplo de outro caso e apoios. O manifesto declara `progressao_inclusiva: 3.9.3` e contagens reais.
+- Conferir ordem e contagens por inspeção dos bancos; testar um item de cada operação, erro/correção, narração/falha de voz, teclado/toque, pausa/retomada e relatório. A implementação central e o PDF devem manter a mesma sequência.
+- Comparar com o registro de repetição; toda retomada informa origem, finalidade e novidade. Sem dados individuais nos repositórios.
+- Preservar versões e sessões iniciadas: não reordenar respostas antigas nem converter um banco legado em 3.9.3 por trocar seu rótulo.
+- Estado desta atualização: **regra documental registrada; aplicação nas aulas e homologação técnica exigem evidências próprias**. Não declarar bancos ou publicações atualizados apenas por esta alteração.
+
+---
 
 ## 1. Âncora conceitual — dois objetivos, dois registros
 O percurso inclusivo passa de 57 para **96 atividades de associação**, com imagens, palavras, letras, sílabas, áudio e situações concretas. Depois de concluir essas 96, o estudante recebe o convite para uma **fase 2 opcional de formação de frases**, com **96 atividades próprias**, em oito conjuntos de 12. Não confundir nenhuma dessas fases com as 96 atividades do caminho curricular “Aprender de outro jeito”.
