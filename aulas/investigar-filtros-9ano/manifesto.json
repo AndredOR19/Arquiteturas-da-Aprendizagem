@@ -132,8 +132,13 @@
     },
     {
       "arquivo": "index.html",
-      "bytes": 7623,
-      "sha256": "a161be445d0c978b726202dc7d4da6c7fe4e0ff11dd06f2690a917b396ff75ef"
+      "bytes": 7960,
+      "sha256": "df792582c8bdd1fc6b79ed0cd2c53305c9ed3ffd03f1ec66bb7cb6cd51c8507d"
+    },
+    {
+      "arquivo": "qrcode.png",
+      "bytes": 1021,
+      "sha256": "54ca0796368ca08e6243954eb8ada04686c65133096c16eff9b4db72ca04628d"
     }
   ],
   "progressao_inclusiva": "3.9.3"

@@ -3,7 +3,7 @@
     {
       "aula": "media-e-diferencas-8ano",
       "destino": "aulas/media-e-diferencas-8ano",
-      "pacote_sha256": "d61c641118df93c81fdc06a1e46ab9d3ad24d00384d559e77e93d1d30f26629c",
+      "pacote_sha256": "9cb3ae6925a55c5adf82e4f3f16338ae16861c399d5300f307a683e87731cc3d",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
       "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
@@ -21,7 +21,7 @@
     {
       "aula": "investigar-filtros-9ano",
       "destino": "aulas/investigar-filtros-9ano",
-      "pacote_sha256": "ee1b59b782f451ad14dd8e157b92d99d781a37fc84623c3465acafa7b3dc3ac6",
+      "pacote_sha256": "8ba5705982eb13c86b93f3726ac8e6db08f48ecc1f6b798a463e01b3ad9d8cfd",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
       "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
@@ -39,7 +39,7 @@
     {
       "aula": "redemocratizacao-vozes-e-voto-9ano",
       "destino": "aulas/redemocratizacao-vozes-e-voto-9ano",
-      "pacote_sha256": "5e673fe30d73d99e37a2f8466208a16bd7ddb5145ee590a70e80ec586e9cba52",
+      "pacote_sha256": "12877ac732ca95a2300665f9ca54b3335ab978e62ef1c0a7ed06be3e79a6e80b",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
       "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
@@ -57,7 +57,7 @@
     {
       "aula": "pesquisa-quem-respondeu-7ano",
       "destino": "aulas/pesquisa-quem-respondeu-7ano",
-      "pacote_sha256": "da1ff4d49c9d2089fce98bef2a61e661899d3aa4330122b6fa48ac29fa8a0676",
+      "pacote_sha256": "525dbc8d6d313382db73d450070f3278c15a9692550e49f70e9f524c45c7ea5e",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "15/11/2026: eu pedi as aulas de amanha, podes criar e publicar no vercel/github",
       "linguagem_relatorio": "automacoes/aulas/execucoes/segunda-16-novembro/linguagem/relatorio.json",
