@@ -75,8 +75,9 @@ def main():
         if item['tipo'] == 'link':
             url = item.get('url', '')
             parsed = urlparse(url)
-            if parsed.scheme != 'https' or parsed.netloc not in {'gamma.app', 'aulas-03-11-2026.vercel.app'}:
-                raise ValueError('Link externo deve usar HTTPS no Gamma ou no Vercel de aulas.')
+            # Mapa público já publicado pelo professor no Sites; permitir só este host.
+            if parsed.scheme != 'https' or parsed.netloc not in {'gamma.app', 'aulas-03-11-2026.vercel.app', 'mapa-estudo-povos-indigenas-211.andre-orodrigues.chatgpt.site'}:
+                raise ValueError('Link externo deve usar HTTPS em um endereço aprovado do acervo.')
             links.append('<li><a href="' + html.escape(url, quote=True) + '">' + html.escape(item['titulo']) + '</a></li>')
             continue
         source = safe_path(ROOT, item['origem'])
