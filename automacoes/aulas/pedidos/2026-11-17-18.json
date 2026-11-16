@@ -1,0 +1,194 @@
+{
+  "id": "lote-2026-11-17-18",
+  "data": "2026-11-17",
+  "turma": "231,182,192,172",
+  "disciplina": "História / Estudos Orientados / Eletiva de Base",
+  "tema": "Quatro aulas: cidadania; leitura de tabelas; heranças africanas; problemas de tempo e frações",
+  "fonte_curricular": "Fontes e lacunas por aula e no roteiro; Eletiva usa semana 8 de 16/11 do plano recebido. Não transformar aula planejada em aplicada.",
+  "habilidades": [
+    "Usar somente códigos e redações conferidos em fonte oficial; há incompatibilidade no código da Eletiva do plano recebido."
+  ],
+  "design": {
+    "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+    "revisao": "ferramentas/biblioteca.lock.json",
+    "modelo": "Fluxo 03 por componentes centrais; apoio inclusivo associativo direto",
+    "politica": "automacoes/aulas/politica-entrega.json",
+    "visual": "Quatro composições distintas por tema e série; preservar maturidade visual."
+  },
+  "estado": "rascunho",
+  "documentos_base": [
+    "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+    "MEMORIA_OPERACIONAL_AULAS.md",
+    "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md",
+    "automacoes/aulas/inclusao/README.md",
+    "automacoes/aulas/inclusao/registro.json",
+    "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md"
+  ],
+  "aulas": [
+    {
+      "key": "historia-231",
+      "id": "cidadania-direitos-e-participacao-3serie",
+      "turma": "231",
+      "serie": "3ª série · EM",
+      "disciplina": "História",
+      "data": "2026-11-17",
+      "turno": "Manhã",
+      "periodos_horario": "2º e 3º",
+      "tema": "Da Constituição à vida cotidiana: direitos, participação e democracia",
+      "fonte_curricular": "Continuidade temática dos materiais de História da 231 e do Museu da Ditadura. Plano original atual da 231 não localizado no catálogo; não afirmar aplicação da aula anterior.",
+      "habilidades": [
+        "Analisar direitos e participação democrática; correspondência de códigos BNCC/RCG depende de documento curricular verificado."
+      ],
+      "objetivo": "Distinguir direito escrito, condição de acesso e ação coletiva; explicar uma conquista democrática com uma fonte e reconhecer limites.",
+      "vocabulario": [
+        "ASSEMBLEIA",
+        "BIBLIOTECA",
+        "CONSELHO",
+        "DOCUMENTO",
+        "ESCOLA",
+        "FOLHA",
+        "JORNAL",
+        "LIVRO",
+        "MAPA",
+        "PRAÇA",
+        "RÁDIO",
+        "URNA"
+      ],
+      "experiencia": "Centro de memória e praça pública: comparar marcos históricos, ler documentos em paráfrase identificada, examinar barreiras de participação e produzir uma proposta com evidência.",
+      "periodos": 2,
+      "conteudo_id": "cidadania-direitos-e-participacao-3serie",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    },
+    {
+      "key": "estudos-182",
+      "id": "leitura-tabelas-e-sintese-8ano",
+      "turma": "182",
+      "serie": "8º ano · EF",
+      "disciplina": "Estudos Orientados",
+      "data": "2026-11-17",
+      "turno": "Manhã",
+      "periodos_horario": "4º e 5º",
+      "tema": "Ler tabelas, comparar informações e explicar uma conclusão",
+      "fonte_curricular": "Organização de estudos e leitura de informações; recorte proposto a partir dos materiais de Estudos Orientados e Cultura Digital da 182. Plano específico atual não localizado.",
+      "habilidades": [
+        "Localizar informação explícita, comparar dados e redigir síntese apoiada na tabela; sem código curricular presumido."
+      ],
+      "objetivo": "Ler título, colunas e unidades de uma tabela, fazer comparações e escrever uma conclusão que os dados permitem.",
+      "vocabulario": [
+        "AGENDA",
+        "BOLSA",
+        "CADERNO",
+        "DADO",
+        "ESTOJO",
+        "FICHA",
+        "GRÁFICO",
+        "HORÁRIO",
+        "LIVRO",
+        "MAPA",
+        "PAPEL",
+        "RELÓGIO"
+      ],
+      "experiencia": "Sala de estudos e painel de planejamento: casos fictícios com tabelas curtas, comparação por critério e síntese em duas frases, com exemplo resolvido usando outros números.",
+      "periodos": 2,
+      "conteudo_id": "leitura-tabelas-e-sintese-8ano",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    },
+    {
+      "key": "eletiva-192",
+      "id": "herancas-africanas-cotidiano-9ano",
+      "turma": "192",
+      "serie": "9º ano · EF",
+      "disciplina": "Eletiva de Base",
+      "data": "2026-11-17",
+      "turno": "Tarde",
+      "periodos_horario": "3º e 4º",
+      "referencia_horario": "Isac, conforme informado pelo professor",
+      "tema": "Heranças africanas no cotidiano: saberes, autoria e cultura viva",
+      "fonte_curricular": "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md — semana 8, data de referência 16/11: Como a cultura africana influenciou nos nossos costumes.",
+      "habilidades": [
+        "Reconhecer saberes e práticas culturais afro-brasileiras, localizar autoria e contexto. O plano traz EM13CNT102RS para 9º ano; discrepância de etapa/redação preservada para revisão, sem apresentar esse código como validado."
+      ],
+      "objetivo": "Relacionar uma prática afro-brasileira a pessoas, saberes, transmissão e contexto, evitando tratar África como uma cultura única.",
+      "vocabulario": [
+        "ATABAQUE",
+        "BERIMBAU",
+        "CARTAZ",
+        "DANÇA",
+        "FEIRA",
+        "INSTRUMENTO",
+        "LIVRO",
+        "MAPA",
+        "PANDEIRO",
+        "RODA",
+        "TABULEIRO",
+        "VIOLA"
+      ],
+      "experiencia": "Feira de saberes e oficina de curadoria: localizar África como continente, ler fichas IPHAN, construir mapa de influências com autoria e distinguir origem de ingrediente de história de uma prática.",
+      "periodos": 2,
+      "conteudo_id": "herancas-africanas-cotidiano-9ano",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    },
+    {
+      "key": "estudos-172",
+      "id": "planejar-resolver-conferir-7ano",
+      "turma": "172",
+      "serie": "7º ano · EF",
+      "disciplina": "Estudos Orientados",
+      "data": "2026-11-18",
+      "turno": "Tarde",
+      "periodos_horario": "3º e 4º",
+      "tema": "Planejar, resolver e conferir: problemas de tempo e frações",
+      "fonte_curricular": "Continuidade metodológica dos materiais Estudos Orientados 172 — Missão Aprender Melhor e Detetives do estudo. Plano específico atual não localizado; recorte preparatório, não afirmação de última aula aplicada.",
+      "habilidades": [
+        "Ler o pedido de um problema, representar frações de uma duração, justificar uma operação e conferir por outro caminho; sem código presumido."
+      ],
+      "objetivo": "Separar pergunta e dados, representar partes de uma duração e conferir se uma resposta é coerente com o total.",
+      "vocabulario": [
+        "AGENDA",
+        "BORRACHA",
+        "CADERNO",
+        "ESTOJO",
+        "FICHA",
+        "GRUPO",
+        "HORÁRIO",
+        "LÁPIS",
+        "MAPA",
+        "PAPEL",
+        "RELÓGIO",
+        "TABELA"
+      ],
+      "experiencia": "Oficina do tempo: barra dividida em partes iguais, cartões de tarefa, roteiro de resolução e retomada sem consulta; raciocínio antes da escolha.",
+      "periodos": 2,
+      "conteudo_id": "planejar-resolver-conferir-7ano",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    }
+  ],
+  "contrato_adicional": {
+    "aula_principal": 32,
+    "exemplos": 96,
+    "apoio_nao_leitor_alvo": 96,
+    "progressao_inclusiva": "3.9.3",
+    "distribuicao_inclusiva": {
+      "letras": 48,
+      "palavras": 24,
+      "frases": 24
+    },
+    "fase_2_frases": 96,
+    "fase_2_obrigatoria": false,
+    "quantidades_sao_requisitos_nao_evidencias": true,
+    "linguagem": "VEJA → ENTENDA → EXEMPLO COM OUTROS DADOS → SUA VEZ → CONFERIR",
+    "bloqueios": [
+      "não declarar 3.9.3 sem inspecionar bancos reais e testar",
+      "não declarar aulas concluídas sem textos, PDFs, testes e publicação dupla",
+      "não criar motor HTML independente",
+      "não marcar recibos aprovados automaticamente",
+      "não publicar guia docente, respostas reservadas ou dados individuais"
+    ],
+    "entregas": "HTML principal, exemplos, apoio associativo, PDFs discentes diagramados, exposição docente reservada, relatórios, auditoria de repetição, recibos reais, Pages e Vercel, QR após URLs"
+  },
+  "observacao": "17/11: 231 História manhã 2º–3º, 182 Estudos Orientados manhã 4º–5º, 192 Eletiva (Isac) tarde 3º–4º. 18/11: 172 Estudos Orientados tarde 3º–4º. Datas são planejadas; material público somente série/componente/tema. A execução remota deve produzir revisão pendente, nunca aprovação fictícia."
+}
