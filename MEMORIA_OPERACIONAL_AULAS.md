@@ -38,3 +38,6 @@ Ler obrigatoriamente [o adendo pedagógico 3.9.1 do Prompt Mestre](prompts/ADEND
 
 ## Progressão inclusiva vigente — 3.9.3 (15/11/2026)
 Ler a atualização prevalente no [adendo inclusivo](prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md): nas novas versões, fase 1 com 96 atividades em ordem: 48 de letras e correspondências (primeira metade), 24 de palavras e correspondências e 24 de frases e correspondências. Imagens, voz, exemplos de outro caso, mediação e apoio gradual. Frases já aparecem no fim da fase 1; a fase 2 de 96 continua opcional e independente. Preservar versões/sessões antigas e registrar retomadas; documentação não comprova implantação. Esta distribuição prevalece sobre a tabela anterior do adendo 3.9.1.
+
+## Áudio dos museus — adendo 3.9.4 (15/11/2026)
+Ler o [adendo de áudio do Prompt Mestre](prompts/ADENDO_AUDIO_MUSEUS_3_9_4.md) e laboratorios/PROTOCOLO_MUSEUS.md ao criar ou revisar museus. Passos opcionais, início mudo, deslocamento real e alternância L/R. Madeira implementada inicialmente nos dois museus; materiais automáticos e surround 3D são futuros. Separar testes automatizados, navegador, celular físico e confirmação de publicação.
