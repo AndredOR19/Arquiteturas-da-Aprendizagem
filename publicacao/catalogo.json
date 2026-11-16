@@ -2039,6 +2039,39 @@
         "titulo_exibicao": "Mapa de estudo — Ditadura e redemocratização",
         "acesso": "aberto"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "laboratorios/mapa-estudo-ditadura-9ano",
+      "destino": "laboratorios/mapa-estudo-ditadura-9ano",
+      "titulo": "Mapa de estudo — Ditadura no Brasil · 9º ano",
+      "interface_autonoma": true,
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Mapa mental",
+          "Mapa conceitual",
+          "Cola autorizada",
+          "Consulta autorizada",
+          "Ditadura",
+          "Censura",
+          "Resistência",
+          "Redemocratização"
+        ],
+        "descricao": "Mapa em linguagem direta para organizar a cola autorizada: ditadura, censura, resistências, abertura e conquista de direitos. Linha do tempo e rascunho próprio.",
+        "titulo_exibicao": "Mapa de estudo — Ditadura no Brasil · 9º ano",
+        "acesso": "aberto"
+      }
     }
   ]
 }
