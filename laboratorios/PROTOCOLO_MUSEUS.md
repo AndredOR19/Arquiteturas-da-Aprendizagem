@@ -35,3 +35,6 @@ Cenário identificado e com direitos confirmados; portas com destinos reais; ret
 - Testados por navegador: clique na porta do átrio para a sala O poder se fecha; clique na porta3D para Territórios Vivos; passagem para Yanomami; retorno à mesma sala de origem. Cadernos e IDs existentes preservados.
 - Portas também disponíveis na lista, com indicação da sala atual, retorno ao átrio e acesso direto ao conteúdo. Animação de abertura desativada em movimento reduzido.
 - As rotas relativas mantêm Vercel e Pages independentes. Sem portais para projetos inexistentes, coleta nova ou inferência de aprendizagem por visita.
+
+## Áudio de passos — padrão permanente 3.9.4
+Aplicar o [adendo de áudio do Prompt Mestre](../prompts/ADENDO_AUDIO_MUSEUS_3_9_4.md): síntese local opcional, início mudo, botão acessível, passos por distância real e alternância estéreo L/R. A primeira versão nos dois museus usa madeira; materiais por sala e surround 3D completo continuam futuros. Não exigir áudio para aprender ou navegar. Verificar teclado/toque, parada/giro/limites, página oculta, diálogo e fallback; confirmar cada destino de publicação separadamente.
