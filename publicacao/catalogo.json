@@ -1977,6 +1977,68 @@
         },
         "apoio_leitura_url": "aulas/pesquisa-quem-respondeu-7ano/apoio/"
       }
+    },
+    {
+      "tipo": "link",
+      "titulo": "Mapa de estudo — Povos indígenas e territórios vivos · 1ª série",
+      "url": "https://mapa-estudo-povos-indigenas-211.andre-orodrigues.chatgpt.site",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "1ª série · EM"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Mapa mental",
+          "Mapa conceitual",
+          "Consulta autorizada",
+          "Revisão",
+          "Povos indígenas",
+          "Territórios vivos"
+        ],
+        "descricao": "Mapa publicado pelo GPT para orientar a consulta autorizada: diversidade, territórios, colonização, resistências, conhecimentos e fontes.",
+        "titulo_exibicao": "Mapa de estudo — Povos indígenas e territórios vivos",
+        "acesso": "aberto"
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "laboratorios/mapa-estudo-ditadura-redemocratizacao",
+      "destino": "laboratorios/mapa-estudo-ditadura-redemocratizacao",
+      "titulo": "Mapa de estudo — Ditadura e redemocratização · 3º ano",
+      "interface_autonoma": true,
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "apresentacao",
+        "componentes": [
+          "História"
+        ],
+        "series": [
+          "3ª série · EM"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "Mapa mental",
+          "Mapa conceitual",
+          "Consulta autorizada",
+          "Revisão",
+          "Ditadura",
+          "Redemocratização",
+          "Diretas Já",
+          "Constituição"
+        ],
+        "descricao": "Seis núcleos, cronologia e rascunho para construir a consulta autorizada de História. Guia de revisão temática baseado na aula e no museu.",
+        "titulo_exibicao": "Mapa de estudo — Ditadura e redemocratização",
+        "acesso": "aberto"
+      }
     }
   ]
 }
