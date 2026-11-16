@@ -38,6 +38,6 @@ async function drawMap(){try{const g=await fetch('assets/brasil.json').then(r=>{
 installPhotoCollection(peoples,photos,{host:'#museu',kind:'indigena',onOpen:openPerson});
 renderLists();drawMap();
 if(location.hash.startsWith('#povo-'))openPerson(location.hash.slice(6));else if(['#mapa','#presente'].includes(location.hash))setView(location.hash.slice(1));
-import('./museum.js').then(m=>{museumScene=m.initMuseum(peoples,openPerson,toast,{kind:'indigena'})}).catch(()=>{$('#scene-status').textContent='O 3D não está disponível neste aparelho. Explore os mesmos povos pela lista ou pelo mapa.';$('#walk-mode').disabled=true;$('#reset-camera').disabled=true;$('#motion').disabled=true});
+import('./museum.js?v=veludo-2').then(m=>{museumScene=m.initMuseum(peoples,openPerson,toast,{kind:'indigena'})}).catch(()=>{$('#scene-status').textContent='O 3D não está disponível neste aparelho. Explore os mesmos povos pela lista ou pelo mapa.';$('#walk-mode').disabled=true;$('#reset-camera').disabled=true;$('#motion').disabled=true});
 
 $('#photo-navigation').onclick=()=>{setView('museu');$('#galeria-fotos').scrollIntoView({block:'start'});$('#photo-room-filter').focus({preventScroll:true})};
