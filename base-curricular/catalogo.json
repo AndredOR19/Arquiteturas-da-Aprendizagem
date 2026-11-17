@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "atualizado_em": "2026-10-26",
+  "atualizado_em": "2026-11-17",
   "documentos": [
     {
       "id": "bncc",
@@ -47,6 +47,87 @@
       "caminho": null,
       "url_oficial_verificada": null,
       "sha256": null
+    },
+    {
+      "id": "rcgem-jul-2022",
+      "titulo": "Referencial Curricular Gaúcho — Ensino Médio",
+      "orgao": "SEDUC-RS",
+      "status": "disponivel",
+      "etapa": "Ensino Médio",
+      "versao": "arquivo de julho de 2022; metadados PDF: 11/07/2022",
+      "caminho": "base-curricular/seduc-rs/RCGEM_Jul_22.pdf",
+      "url_oficial_verificada": "https://ensinomediogaucho.educacao.rs.gov.br/doctos/RCGEM_Jul_22.pdf",
+      "sha256": "f94a06b36f95eec20a9ac363221d96fe412566bb8acf87cb6f0161dfb0f45d02",
+      "incorporado_em": "2026-11-17",
+      "verificado_em": "2026-11-17",
+      "paginas_pdf": 287,
+      "texto_consulta": "base-curricular/extracoes/RCGEM_Jul_22.txt",
+      "sha256_texto": "28d9c6486adc16cb59a63b973a89379eb65dc0dcf4fe5767abc74973e9add629",
+      "vigencia_2026": "nao_confirmada",
+      "observacao": "Disponível significa arquivo preservado e legível, não homologação para a matriz de 2026. Extração automática para busca; conferir tabelas, códigos e paginação no PDF original."
+    },
+    {
+      "id": "eletivas-complementares-2023",
+      "titulo": "Unidades Curriculares Eletivas Complementares",
+      "orgao": "SEDUC-RS",
+      "status": "disponivel",
+      "etapa": "Ensino Médio",
+      "versao": "2023; atualizado em 04/04/2023, conforme folha de rosto",
+      "caminho": "base-curricular/seduc-rs/cadernos_eletivas.pdf",
+      "url_oficial_verificada": "https://ensinomediogaucho.educacao.rs.gov.br/doctos/cadernos_eletivas.pdf",
+      "sha256": "5facca0e05258f982f5f89fd7f5367602c9d62f8e5a63c187236817b280ab655",
+      "incorporado_em": "2026-11-17",
+      "verificado_em": "2026-11-17",
+      "paginas_pdf": 43,
+      "texto_consulta": "base-curricular/extracoes/cadernos_eletivas.txt",
+      "sha256_texto": "13177d70f11b4f56965d7dcc3dd0537d5c222d8f1fe4a0ff8cefd84dd2e2c14a",
+      "vigencia_2026": "nao_confirmada",
+      "observacao": "Disponível significa arquivo preservado e legível, não homologação para a matriz de 2026. Extração automática para busca; conferir tabelas, códigos e paginação no PDF original."
+    },
+    {
+      "id": "eletivas-2024",
+      "titulo": "Unidades Curriculares Eletivas 2024",
+      "orgao": "SEDUC-RS",
+      "status": "aguardando_documento",
+      "etapa": "Ensino Médio",
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null,
+      "url_informada": "https://ensinomediogaucho.educacao.rs.gov.br/doctos/eletivas_2024.pdf",
+      "verificado_em": "2026-11-17",
+      "resultado_consulta": "HTTP 404",
+      "observacao": "Endereço informado retornou 404 no download direto. Resultado indexado de busca não comprova disponibilidade do original. Não substituir silenciosamente por outra edição."
+    },
+    {
+      "id": "redacao-enem",
+      "titulo": "Caderno de Redação",
+      "orgao": "SEDUC-RS",
+      "status": "aguardando_documento",
+      "etapa": "Ensino Médio",
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null,
+      "url_informada": "https://ensinomediogaucho.educacao.rs.gov.br/doctos/caderno_redacao.pdf",
+      "verificado_em": "2026-11-17",
+      "resultado_consulta": "HTTP 404",
+      "observacao": "Endereço informado retornou 404 no download direto. Resultado indexado de busca não comprova disponibilidade do original. Não substituir silenciosamente por outra edição."
+    },
+    {
+      "id": "resolucao-problemas-enem",
+      "titulo": "Caderno de Resolução de Problemas",
+      "orgao": "SEDUC-RS",
+      "status": "aguardando_documento",
+      "etapa": "Ensino Médio",
+      "versao": null,
+      "caminho": null,
+      "url_oficial_verificada": null,
+      "sha256": null,
+      "url_informada": "https://ensinomediogaucho.educacao.rs.gov.br/doctos/caderno_resolucao.pdf",
+      "verificado_em": "2026-11-17",
+      "resultado_consulta": "HTTP 404",
+      "observacao": "Endereço informado retornou 404 no download direto. Resultado indexado de busca não comprova disponibilidade do original. Não substituir silenciosamente por outra edição."
     }
   ]
 }

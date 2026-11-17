@@ -2,8 +2,10 @@
 
 Este diretório é o ponto de entrada para BNCC, Referencial Curricular Gaúcho (RCG), orientações SEDUC-RS, EJA/EJATEC e documentos institucionais. Consulte [catalogo.json](catalogo.json) antes de usar uma fonte.
 
-## Situação inicial — 26/10/2026
-A estrutura está preparada. Os arquivos oficiais ainda não foram incorporados nesta atualização. Não confundir pastas previstas e metadados com conteúdo disponível para consulta.
+## Situação — 17/11/2026
+RCG do Ensino Médio (arquivo de julho/2022) e Eletivas Complementares (2023) incorporados, com originais, SHA-256 e texto pesquisável. Consulte o [registro do portal](seduc-rs/PORTAL_ENSINO_MEDIO_GAUCHO.md) e o catálogo para disponibilidade e pendências. Vigência para 2026 não confirmada; os demais espaços reservados continuam pendentes.
+
+Validação local: `python3 base-curricular/validar.py`. A conferência verifica integridade, caminhos e extrações; não certifica vigência curricular.
 
 ## Organização prevista
 | Caminho | Conteúdo |
