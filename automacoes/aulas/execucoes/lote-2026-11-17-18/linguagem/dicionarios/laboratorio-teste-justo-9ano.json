@@ -1,0 +1,1811 @@
+{
+ "aula": "laboratorio-teste-justo-9ano",
+ "kind": "lab",
+ "dicionario": {
+  "perguntas": {
+   "dado": "📌 Quais foram as medidas?",
+   "relacao": "💡 O que a média mostra?",
+   "efeito": "➡️ Qual foi o resultado (a média)?",
+   "limite": "⚠️ O que NÃO dá para afirmar?"
+  },
+  "rotulos": {
+   "Dado observado": "📌 Quais foram as medidas?",
+   "Relação explicada": "💡 O que a média mostra?",
+   "Efeito ou resultado": "➡️ Qual foi o resultado (a média)?",
+   "Limite da conclusão": "⚠️ O que NÃO dá para afirmar?",
+   "O que não posso generalizar?": "⚠️ O que vale só para este caso?",
+   "Que conclusão cabe aqui?": "💡 O que dá para concluir?",
+   "Minha conclusão ficou ampla demais": "Minha conclusão foi longe demais",
+   "Não expliquei a ligação": "Não expliquei a ligação entre as ideias"
+  },
+  "grupos": {
+   "porTitulo": {
+    "Testar o alcance": [
+     "✔ É verdade neste caso",
+     "✘ Não dá para afirmar"
+    ],
+    "Comunicar sem extrapolar": [
+     "✔ Os dados mostram isso",
+     "✘ Os dados não mostram isso"
+    ],
+    "Distinguir observar e inventar": [
+     "✔ Observar com cuidado",
+     "✘ Inventar"
+    ],
+    "Validar a síntese do caso": [
+     "✔ Mostra que entendi",
+     "✘ Não mostra que entendi"
+    ],
+    "Conferir duas leituras": [
+     "✔ Combina com o caso",
+     "✘ Precisa corrigir"
+    ],
+    "Reconhecer uma extrapolação": [
+     "✔ Fica dentro do que sabemos",
+     "✘ Exagera, sem prova"
+    ]
+   },
+   "porRotulo": {
+    "Sustentado": "✔ Tem base nos dados",
+    "Não sustentado": "✘ Não dá para afirmar",
+    "Sustentado neste caso": "✔ É verdade neste caso",
+    "Compatível com o caso": "✔ Combina com o caso",
+    "Exige correção": "✘ Precisa corrigir",
+    "Mantém os limites": "✔ Fica dentro do que sabemos",
+    "Amplia sem evidência": "✘ Exagera, sem prova"
+   }
+  },
+  "prefixos": [
+   [
+    "Situar o caso ",
+    "1º — Apresento o caso: "
+   ],
+   [
+    "Apresentar o dado: ",
+    "2º — Digo o que aconteceu: "
+   ],
+   [
+    "Explicar a relação: ",
+    "3º — Explico a ideia: "
+   ],
+   [
+    "Delimitar a conclusão: ",
+    "4º — Digo até onde vale: "
+   ],
+   [
+    "Localizar a informação: ",
+    "Acho a informação: "
+   ],
+   [
+    "Conferir a ligação com a pergunta de ",
+    "Vejo se ela responde à pergunta de "
+   ],
+   [
+    "Comparar a interpretação com ",
+    "Comparo com a ideia: "
+   ],
+   [
+    "Registrar a restrição: ",
+    "Anoto o limite: "
+   ],
+   [
+    "Reconhecer a informação do caso: ",
+    "Começo pelo fato: "
+   ],
+   [
+    "Explicitar o critério de comparação de ",
+    "Digo como vou comparar "
+   ],
+   [
+    "Construir uma interpretação: ",
+    "Explico a ideia: "
+   ],
+   [
+    "Declarar o alcance: ",
+    "Digo até onde vale: "
+   ],
+   [
+    "Receber outra apresentação do mesmo caso",
+    "Vejo o mesmo caso contado de outro jeito"
+   ],
+   [
+    "Procurar nela uma informação equivalente a ",
+    "Procuro nela a mesma informação: "
+   ],
+   [
+    "Conferir se a relação ",
+    "Vejo se a ideia «"
+   ],
+   [
+    "Manter ou rever a conclusão explicitando ",
+    "Mantenho ou corrijo a conclusão, lembrando: "
+   ]
+  ],
+  "titulos": {
+   "Reconstruir o percurso": "Coloque os passos na ordem",
+   "Conectar dado e explicação": "Ligue cada pergunta à sua resposta",
+   "Testar o alcance": "Isso é verdade neste caso?",
+   "Preparar uma explicação": "Monte sua explicação em 4 passos",
+   "Conferir a coleta": "Conte as respostas",
+   "Construir a representação": "Monte o gráfico de barras",
+   "Recuperar o total": "Some tudo: qual é o total?",
+   "Comunicar sem extrapolar": "O que dá para afirmar com esses dados?",
+   "Montar uma comparação controlada": "Mude só uma coisa",
+   "Descrever as repetições": "Calcule a média",
+   "Conferir a variação": "Veja a diferença entre as medidas",
+   "Aplicar a contagem em outro problema": "Conte de outro jeito",
+   "Reconhecer a explicação": "Que pergunta esta frase responde?",
+   "Separar informação e alcance": "Qual é o fato e qual é o limite?",
+   "Conferir duas leituras": "Combina com o caso ou precisa corrigir?",
+   "Escolher a pergunta certa": "Qual trecho responde à pergunta?",
+   "Reconhecer uma extrapolação": "Está dentro do que sabemos?",
+   "Produzir um roteiro de revisão": "Qual ação resolve a dúvida?",
+   "Distinguir observar e inventar": "Isso é observar ou inventar?",
+   "Transferir o procedimento": "Use o mesmo jeito em outra situação",
+   "Revisar uma fala pública": "O que falta na fala?",
+   "Validar a síntese do caso": "Isso mostra que entendi o caso?",
+   "Preparar a conferência": "Monte o roteiro para conferir",
+   "Dado não é conclusão": "Do fato até a conclusão, passo a passo"
+  },
+  "frases": {
+   "Caminhada": "vão a pé",
+   "Ônibus": "vão de ônibus",
+   "Bicicleta": "vão de bicicleta",
+   "Conto": "preferem conto",
+   "HQ": "preferem HQ",
+   "Reportagem": "preferem reportagem",
+   "Esporte": "usam o pátio para esporte",
+   "Conversa": "usam o pátio para conversar",
+   "Leitura": "usam o pátio para ler",
+   "Reciclável": "separam resíduo reciclável",
+   "Orgânico": "separam resíduo orgânico",
+   "Rejeito": "separam rejeito",
+   "Caderno": "estudam pelo caderno",
+   "Livro": "estudam pelo livro",
+   "Digital": "estudam no digital",
+   "Bebedouro": "bebem água no bebedouro",
+   "Garrafa": "trazem garrafa de água",
+   "Outro": "bebem água de outro jeito",
+   "Semanal": "vão à biblioteca toda semana",
+   "Mensal": "vão à biblioteca todo mês",
+   "Raro": "quase não vão à biblioteca",
+   "Praça": "querem uma praça",
+   "Biblioteca": "querem uma biblioteca",
+   "Ciclovia": "querem uma ciclovia"
+  },
+  "situacoes": null,
+  "abertura": "Hoje você vai montar um teste justo: mudar só uma coisa de cada vez, calcular a média das medidas e separar o que foi simulado do que foi medido de verdade.",
+  "glossario": [
+   {
+    "termo": "frequência",
+    "significado": "quantas vezes algo aparece. Aqui: quantas pessoas deram cada resposta."
+   },
+   {
+    "termo": "censo",
+    "significado": "pesquisa que pergunta para TODAS as pessoas do grupo."
+   },
+   {
+    "termo": "amostra",
+    "significado": "pesquisa que pergunta só para uma parte do grupo, escolhida com critério."
+   },
+   {
+    "termo": "categoria",
+    "significado": "cada opção de resposta (por exemplo: caminhada, ônibus, bicicleta)."
+   },
+   {
+    "termo": "escala",
+    "significado": "os números marcados no gráfico; precisa ser a mesma para todas as barras."
+   },
+   {
+    "termo": "extrapolar",
+    "significado": "ir além do que os dados mostram; concluir mais do que dá para concluir."
+   },
+   {
+    "termo": "generalizar",
+    "significado": "pegar o que vale para um caso ou um grupo pequeno e dizer que vale para todos."
+   },
+   {
+    "termo": "sustentado",
+    "significado": "apoiado por dados ou provas. Afirmação sustentada = afirmação que tem base."
+   },
+   {
+    "termo": "alcance",
+    "significado": "até onde uma conclusão vale: para quem, para onde, quando."
+   },
+   {
+    "termo": "limite",
+    "significado": "o que o dado ou a fonte NÃO permite afirmar."
+   },
+   {
+    "termo": "evidência",
+    "significado": "informação que serve de prova para uma ideia."
+   },
+   {
+    "termo": "fonte",
+    "significado": "de onde vem uma informação: documento, jornal, pessoa, levantamento."
+   },
+   {
+    "termo": "critério",
+    "significado": "a regra usada para decidir ou comparar."
+   },
+   {
+    "termo": "média",
+    "significado": "soma de todos os valores dividida por quantos valores são."
+   },
+   {
+    "termo": "variação",
+    "significado": "quanto os valores mudam de uma medida para outra."
+   },
+   {
+    "termo": "controle",
+    "significado": "manter uma condição igual nos dois copos, para ela não atrapalhar a comparação."
+   },
+   {
+    "termo": "variável",
+    "significado": "a coisa que muda (ou que decidimos mudar) no teste."
+   },
+   {
+    "termo": "ensaio",
+    "significado": "cada teste feito no laboratório."
+   },
+   {
+    "termo": "repetição",
+    "significado": "fazer o mesmo teste de novo para ver se o resultado se repete."
+   },
+   {
+    "termo": "simulado",
+    "significado": "feito no computador ou inventado para treinar; não foi medido de verdade."
+   },
+   {
+    "termo": "bancada",
+    "significado": "a mesa do laboratório onde se faz o experimento de verdade."
+   },
+   {
+    "termo": "dissolução",
+    "significado": "quando o sal «some» na água, espalhando-se nela."
+   },
+   {
+    "termo": "partição",
+    "significado": "divisão de um território em partes ou países."
+   },
+   {
+    "termo": "descolonização",
+    "significado": "processo em que colônias deixam de ser controladas por outro país e ficam independentes."
+   },
+   {
+    "termo": "soberania",
+    "significado": "o poder de um país de governar a si mesmo."
+   },
+   {
+    "termo": "metrópole",
+    "significado": "o país que controla a colônia."
+   },
+   {
+    "termo": "resolução (ONU)",
+    "significado": "decisão escrita e aprovada pelos países da ONU."
+   },
+   {
+    "termo": "autodeterminação",
+    "significado": "direito de um povo de decidir o próprio destino."
+   },
+   {
+    "termo": "não alinhado",
+    "significado": "países que não queriam ficar do lado dos EUA nem da União Soviética na Guerra Fria."
+   },
+   {
+    "termo": "Guerra Fria",
+    "significado": "disputa entre EUA e União Soviética (1947–1991), sem guerra direta entre os dois, mas com conflitos em outros países."
+   },
+   {
+    "termo": "fonte normativa",
+    "significado": "documento que diz como as coisas DEVEM ser (uma regra), não como elas são de fato."
+   },
+   {
+    "termo": "agência local",
+    "significado": "a capacidade das próprias pessoas e grupos do lugar de agir e decidir."
+   },
+   {
+    "termo": "coexistir",
+    "significado": "existir ao mesmo tempo, lado a lado."
+   },
+   {
+    "termo": "liberdade de consciência",
+    "significado": "direito de cada pessoa acreditar (ou não) no que quiser, sem ser forçada."
+   },
+   {
+    "termo": "dignidade",
+    "significado": "o valor de toda pessoa; ninguém pode ser humilhado."
+   },
+   {
+    "termo": "adesão",
+    "significado": "concordar e entrar em algo. «Sem adesão» = participar sem precisar concordar."
+   },
+   {
+    "termo": "constrangimento",
+    "significado": "situação em que a pessoa se sente forçada ou envergonhada."
+   },
+   {
+    "termo": "coerção",
+    "significado": "forçar alguém a fazer algo."
+   },
+   {
+    "termo": "convicção",
+    "significado": "aquilo em que a pessoa acredita com firmeza."
+   },
+   {
+    "termo": "hierarquizar",
+    "significado": "colocar em ordem de «melhor» para «pior»; aqui, tratar uma crença como superior a outra."
+   },
+   {
+    "termo": "proselitismo",
+    "significado": "tentar convencer alguém a mudar de religião."
+   },
+   {
+    "termo": "lacuna",
+    "significado": "uma parte que ficou faltando."
+   },
+   {
+    "termo": "equivalente",
+    "significado": "que vale o mesmo (1/2 e 2/4 são equivalentes)."
+   },
+   {
+    "termo": "inteiro",
+    "significado": "o todo que foi dividido em partes."
+   },
+   {
+    "termo": "levantamento",
+    "significado": "pesquisa que reúne informações."
+   },
+   {
+    "termo": "seminário",
+    "significado": "apresentação oral de um tema para a turma."
+   },
+   {
+    "termo": "sujeitos",
+    "significado": "as pessoas ou grupos que agem numa situação."
+   },
+   {
+    "termo": "estratégia",
+    "significado": "o jeito planejado de fazer algo."
+   },
+   {
+    "termo": "síntese",
+    "significado": "resumo com as ideias principais."
+   },
+   {
+    "termo": "interpretação",
+    "significado": "o sentido que damos ao que lemos ou observamos."
+   },
+   {
+    "termo": "transferir",
+    "significado": "usar o que aprendeu em outra situação."
+   },
+   {
+    "termo": "procedimento",
+    "significado": "sequência de passos para fazer algo."
+   },
+   {
+    "termo": "delimitar",
+    "significado": "marcar até onde vale."
+   },
+   {
+    "termo": "hipótese",
+    "significado": "uma explicação provisória que ainda vai ser testada."
+   },
+   {
+    "termo": "unidade",
+    "significado": "a medida que acompanha o número: segundos, mililitros, graus."
+   }
+  ]
+ },
+ "antes_depois": [
+  {
+   "id": "p-1-1",
+   "antes": {
+    "title": "Montar uma comparação controlada",
+    "command": "Mude somente agitacao; conserve as outras condições."
+   },
+   "depois": {
+    "title": "Mude só uma coisa",
+    "command": "Entre o copo A e o copo B, mude somente a agitação (mexer ou não). Deixe todo o resto igual."
+   }
+  },
+  {
+   "id": "p-1-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Agitação e dissolução», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-1-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 1."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 1: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-1-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Agitação e dissolução»."
+   }
+  },
+  {
+   "id": "p-2-1",
+   "antes": {
+    "title": "Montar uma comparação controlada",
+    "command": "Mude somente temperatura; conserve as outras condições."
+   },
+   "depois": {
+    "title": "Mude só uma coisa",
+    "command": "Entre o copo A e o copo B, mude somente a temperatura inicial. Deixe todo o resto igual."
+   }
+  },
+  {
+   "id": "p-2-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Temperatura inicial», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-2-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 2."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 2: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-2-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Temperatura inicial»."
+   }
+  },
+  {
+   "id": "p-3-1",
+   "antes": {
+    "title": "Montar uma comparação controlada",
+    "command": "Mude somente sal; conserve as outras condições."
+   },
+   "depois": {
+    "title": "Mude só uma coisa",
+    "command": "Entre o copo A e o copo B, mude somente a quantidade de sal. Deixe todo o resto igual."
+   }
+  },
+  {
+   "id": "p-3-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Quantidade de sal», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-3-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 3."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 3: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-3-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Quantidade de sal»."
+   }
+  },
+  {
+   "id": "p-4-1",
+   "antes": {
+    "title": "Montar uma comparação controlada",
+    "command": "Mude somente agua; conserve as outras condições."
+   },
+   "depois": {
+    "title": "Mude só uma coisa",
+    "command": "Entre o copo A e o copo B, mude somente o volume de água. Deixe todo o resto igual."
+   }
+  },
+  {
+   "id": "p-4-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Volume de água», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-4-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 4."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 4: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-4-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Volume de água»."
+   }
+  },
+  {
+   "id": "p-5-1",
+   "antes": {
+    "title": "Reconstruir o percurso",
+    "command": "Organize a sequência do caso Repetição do ensaio."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Repetição do ensaio» na ordem certa, um de cada vez."
+   }
+  },
+  {
+   "id": "p-5-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Repetição do ensaio», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-5-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 5."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 5: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-5-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Repetição do ensaio»."
+   }
+  },
+  {
+   "id": "p-6-1",
+   "antes": {
+    "title": "Reconstruir o percurso",
+    "command": "Organize a sequência do caso Registro com unidades."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Registro com unidades» na ordem certa, um de cada vez."
+   }
+  },
+  {
+   "id": "p-6-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Registro com unidades», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-6-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 6."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 6: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-6-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Registro com unidades»."
+   }
+  },
+  {
+   "id": "p-7-1",
+   "antes": {
+    "title": "Reconstruir o percurso",
+    "command": "Organize a sequência do caso Diferença pequena entre resultados."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Diferença pequena entre resultados» na ordem certa, um de cada vez."
+   }
+  },
+  {
+   "id": "p-7-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Diferença pequena entre resultados», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-7-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 7."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 7: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-7-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Diferença pequena entre resultados»."
+   }
+  },
+  {
+   "id": "p-8-1",
+   "antes": {
+    "title": "Reconstruir o percurso",
+    "command": "Organize a sequência do caso Separar modelo e bancada."
+   },
+   "depois": {
+    "title": "Coloque os passos na ordem",
+    "command": "Coloque os passos de «Separar modelo e bancada» na ordem certa, um de cada vez."
+   }
+  },
+  {
+   "id": "p-8-2",
+   "antes": {
+    "title": "Conectar dado e explicação",
+    "command": "Ligue cada parte ao seu papel neste caso."
+   },
+   "depois": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "command": "Para cada pergunta sobre «Separar modelo e bancada», escolha a frase que responde."
+   }
+  },
+  {
+   "id": "p-8-3",
+   "antes": {
+    "title": "Descrever as repetições",
+    "command": "Calcule a média dos três registros do ensaio 8."
+   },
+   "depois": {
+    "title": "Calcule a média",
+    "command": "Calcule a média dos três tempos do ensaio 8: some os três e divida por 3."
+   }
+  },
+  {
+   "id": "p-8-4",
+   "antes": {
+    "title": "Preparar uma explicação",
+    "command": "Construa uma fala com dado, relação e limite."
+   },
+   "depois": {
+    "title": "Monte sua explicação em 4 passos",
+    "command": "Monte, na ordem, a sua explicação sobre «Separar modelo e bancada»."
+   }
+  },
+  {
+   "id": "e-1-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 1?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 1?"
+   }
+  },
+  {
+   "id": "e-1-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-1-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-1-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Agitação e dissolução»."
+   }
+  },
+  {
+   "id": "e-1-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-1-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-1-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-1-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-1-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-1-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Agitação e dissolução."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Agitação e dissolução» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-1-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-1-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-2-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 2?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 2?"
+   }
+  },
+  {
+   "id": "e-2-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-2-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-2-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Temperatura inicial»."
+   }
+  },
+  {
+   "id": "e-2-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-2-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-2-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-2-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-2-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-2-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Temperatura inicial."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Temperatura inicial» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-2-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-2-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-3-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 3?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 3?"
+   }
+  },
+  {
+   "id": "e-3-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-3-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-3-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Quantidade de sal»."
+   }
+  },
+  {
+   "id": "e-3-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-3-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-3-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-3-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-3-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-3-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Quantidade de sal."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Quantidade de sal» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-3-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-3-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-4-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 4?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 4?"
+   }
+  },
+  {
+   "id": "e-4-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-4-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-4-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Volume de água»."
+   }
+  },
+  {
+   "id": "e-4-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-4-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-4-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-4-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-4-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-4-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Volume de água."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Volume de água» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-4-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-4-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-5-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 5?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 5?"
+   }
+  },
+  {
+   "id": "e-5-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-5-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-5-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Repetição do ensaio»."
+   }
+  },
+  {
+   "id": "e-5-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-5-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-5-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-5-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-5-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-5-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Repetição do ensaio."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Repetição do ensaio» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-5-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-5-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-6-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 6?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 6?"
+   }
+  },
+  {
+   "id": "e-6-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-6-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-6-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Registro com unidades»."
+   }
+  },
+  {
+   "id": "e-6-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-6-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-6-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-6-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-6-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-6-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Registro com unidades."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Registro com unidades» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-6-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-6-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-7-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 7?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 7?"
+   }
+  },
+  {
+   "id": "e-7-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-7-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-7-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Diferença pequena entre resultados»."
+   }
+  },
+  {
+   "id": "e-7-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-7-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-7-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-7-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-7-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-7-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Diferença pequena entre resultados."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Diferença pequena entre resultados» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-7-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-7-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  },
+  {
+   "id": "e-8-1",
+   "antes": {
+    "title": "Conferir a variação",
+    "command": "Qual a diferença entre maior e menor tempo no ensaio 8?"
+   },
+   "depois": {
+    "title": "Veja a diferença entre as medidas",
+    "command": "Qual é a diferença entre o maior e o menor tempo do ensaio 8?"
+   }
+  },
+  {
+   "id": "e-8-2",
+   "antes": {
+    "title": "Reconhecer a explicação",
+    "command": "Relacione as informações às funções que cumprem."
+   },
+   "depois": {
+    "title": "Que pergunta esta frase responde?",
+    "command": "Leia a frase. Depois escolha a pergunta que ela responde."
+   }
+  },
+  {
+   "id": "e-8-3",
+   "antes": {
+    "title": "Conferir duas leituras",
+    "command": "Classifique estas leituras do caso."
+   },
+   "depois": {
+    "title": "Combina com o caso ou precisa corrigir?",
+    "command": "Cada frase combina com o caso ou precisa ser corrigida?"
+   }
+  },
+  {
+   "id": "e-8-4",
+   "antes": {
+    "title": "Preparar a conferência",
+    "command": "Organize um procedimento para revisar este caso."
+   },
+   "depois": {
+    "title": "Monte o roteiro para conferir",
+    "command": "Coloque na ordem os passos para conferir «Separar modelo e bancada»."
+   }
+  },
+  {
+   "id": "e-8-5",
+   "antes": {
+    "title": "Escolher a pergunta certa",
+    "command": "Ligue a pergunta ao trecho que a responde."
+   },
+   "depois": {
+    "title": "Qual trecho responde à pergunta?",
+    "command": "Para cada pergunta, escolha o trecho que a responde."
+   }
+  },
+  {
+   "id": "e-8-6",
+   "antes": {
+    "title": "Reconhecer uma extrapolação",
+    "command": "Separe o alcance permitido de uma ampliação sem base."
+   },
+   "depois": {
+    "title": "Está dentro do que sabemos?",
+    "command": "Cada frase fica dentro do que sabemos ou exagera sem prova?"
+   }
+  },
+  {
+   "id": "e-8-7",
+   "antes": {
+    "title": "Dado não é conclusão",
+    "command": "Monte a passagem da observação à explicação."
+   },
+   "depois": {
+    "title": "Do fato até a conclusão, passo a passo",
+    "command": "Monte o caminho do fato até a conclusão, passo a passo."
+   }
+  },
+  {
+   "id": "e-8-8",
+   "antes": {
+    "title": "Produzir um roteiro de revisão",
+    "command": "Ligue cada dúvida a uma ação de conferência."
+   },
+   "depois": {
+    "title": "Qual ação resolve a dúvida?",
+    "command": "Para cada dúvida, escolha a ação que ajuda a resolver."
+   }
+  },
+  {
+   "id": "e-8-9",
+   "antes": {
+    "title": "Distinguir observar e inventar",
+    "command": "Classifique registros responsáveis neste contexto."
+   },
+   "depois": {
+    "title": "Isso é observar ou inventar?",
+    "command": "Cada ação é observar com cuidado ou inventar?"
+   }
+  },
+  {
+   "id": "e-8-10",
+   "antes": {
+    "title": "Transferir o procedimento",
+    "command": "Use o critério em uma nova apresentação sobre Separar modelo e bancada."
+   },
+   "depois": {
+    "title": "Use o mesmo jeito em outra situação",
+    "command": "Coloque na ordem o que você faria se visse «Separar modelo e bancada» contado de outro jeito."
+   }
+  },
+  {
+   "id": "e-8-11",
+   "antes": {
+    "title": "Revisar uma fala pública",
+    "command": "Associe o problema da fala ao ajuste necessário."
+   },
+   "depois": {
+    "title": "O que falta na fala?",
+    "command": "Para cada problema da fala, escolha o que precisa ser acrescentado."
+   }
+  },
+  {
+   "id": "e-8-12",
+   "antes": {
+    "title": "Validar a síntese do caso",
+    "command": "Separe uma síntese verificável de critérios insuficientes."
+   },
+   "depois": {
+    "title": "Isso mostra que entendi o caso?",
+    "command": "Cada frase mostra que a pessoa entendeu o caso, ou não mostra?"
+   }
+  }
+ ]
+}

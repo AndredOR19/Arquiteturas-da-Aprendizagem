@@ -1,0 +1,354 @@
+{
+  "bancos": 15,
+  "legados": 8,
+  "pares_com_coincidencias": 3,
+  "pares": [
+    {
+      "a": "cidadania-direitos-e-participacao-3serie",
+      "b": "herancas-africanas-cotidiano-9ano",
+      "fases": {
+        "associacoes": {
+          "hash_exato": {
+            "assinaturas_comuns": 6,
+            "atividades_a": [
+              "a-1-8",
+              "a-1-12",
+              "a-4-8",
+              "a-4-12",
+              "a-6-8",
+              "a-6-12"
+            ],
+            "atividades_b": [
+              "a-1-5",
+              "a-1-9",
+              "a-4-5",
+              "a-4-9",
+              "a-6-5",
+              "a-6-9"
+            ]
+          },
+          "hash_relacao": {
+            "assinaturas_comuns": 35,
+            "atividades_a": [
+              "a-1-1",
+              "a-1-2",
+              "a-1-3",
+              "a-1-7",
+              "a-1-8",
+              "a-1-9",
+              "a-1-12",
+              "a-2-1",
+              "a-2-2",
+              "a-2-3",
+              "a-2-7",
+              "a-2-8",
+              "a-2-9",
+              "a-2-12",
+              "a-4-1",
+              "a-4-2",
+              "a-4-3",
+              "a-4-7",
+              "a-4-8",
+              "a-4-9",
+              "a-4-12",
+              "a-5-1",
+              "a-5-2",
+              "a-5-3",
+              "a-5-7",
+              "a-5-8",
+              "a-5-9",
+              "a-5-12",
+              "a-6-1",
+              "a-6-2",
+              "a-6-3",
+              "a-6-7",
+              "a-6-8",
+              "a-6-9",
+              "a-6-12"
+            ],
+            "atividades_b": [
+              "a-1-1",
+              "a-1-4",
+              "a-1-5",
+              "a-1-6",
+              "a-1-8",
+              "a-1-9",
+              "a-1-10",
+              "a-2-1",
+              "a-2-4",
+              "a-2-5",
+              "a-2-6",
+              "a-2-8",
+              "a-2-9",
+              "a-2-10",
+              "a-4-1",
+              "a-4-4",
+              "a-4-5",
+              "a-4-6",
+              "a-4-8",
+              "a-4-9",
+              "a-4-10",
+              "a-5-1",
+              "a-5-4",
+              "a-5-5",
+              "a-5-6",
+              "a-5-8",
+              "a-5-9",
+              "a-5-10",
+              "a-6-1",
+              "a-6-4",
+              "a-6-5",
+              "a-6-6",
+              "a-6-8",
+              "a-6-9",
+              "a-6-10"
+            ]
+          }
+        },
+        "frases": {
+          "hash_exato": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          },
+          "hash_relacao": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          }
+        }
+      },
+      "desenhos_identicos": [
+        "AGENDA",
+        "ARTE",
+        "BANDEIRA",
+        "BOLA",
+        "BOLSA",
+        "BORRACHA",
+        "CADERNO",
+        "CARTA",
+        "CASA",
+        "COR",
+        "DADO",
+        "DOCUMENTO",
+        "ESCOLA",
+        "ESTOJO",
+        "FICHA",
+        "FOTO",
+        "GRUPO",
+        "JORNAL",
+        "LEI",
+        "LIVRO",
+        "LUA",
+        "LÁPIS",
+        "MAPA",
+        "MESA",
+        "MOEDA",
+        "MÃO",
+        "MÚSICA",
+        "NOME",
+        "NÚMERO",
+        "PAPEL",
+        "PEIXE",
+        "PESSOA",
+        "PINCEL",
+        "PLANTA",
+        "PONTE",
+        "PORTA",
+        "PRAÇA",
+        "RELÓGIO",
+        "RETRATO",
+        "RUA",
+        "RÉGUA",
+        "SOL",
+        "TABELA",
+        "TEMPO",
+        "TERRA",
+        "VOTO",
+        "ÁGUA"
+      ]
+    },
+    {
+      "a": "cidadania-direitos-e-participacao-3serie",
+      "b": "leitura-tabelas-e-sintese-8ano",
+      "fases": {
+        "associacoes": {
+          "hash_exato": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          },
+          "hash_relacao": {
+            "assinaturas_comuns": 5,
+            "atividades_a": [
+              "a-1-2",
+              "a-2-2",
+              "a-4-2",
+              "a-5-2",
+              "a-6-2"
+            ],
+            "atividades_b": [
+              "a-1-8",
+              "a-2-8",
+              "a-4-8",
+              "a-5-8",
+              "a-6-8"
+            ]
+          }
+        },
+        "frases": {
+          "hash_exato": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          },
+          "hash_relacao": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          }
+        }
+      },
+      "desenhos_identicos": [
+        "AGENDA",
+        "ARTE",
+        "BANDEIRA",
+        "BOLA",
+        "BOLSA",
+        "BORRACHA",
+        "CADERNO",
+        "CARTA",
+        "CASA",
+        "COR",
+        "DADO",
+        "DOCUMENTO",
+        "ESCOLA",
+        "ESTOJO",
+        "FICHA",
+        "FOTO",
+        "GRUPO",
+        "JORNAL",
+        "LEI",
+        "LIVRO",
+        "LUA",
+        "LÁPIS",
+        "MAPA",
+        "MESA",
+        "MOEDA",
+        "MÃO",
+        "MÚSICA",
+        "NOME",
+        "NÚMERO",
+        "PAPEL",
+        "PEIXE",
+        "PESSOA",
+        "PINCEL",
+        "PLANTA",
+        "PONTE",
+        "PORTA",
+        "PRAÇA",
+        "RELÓGIO",
+        "RETRATO",
+        "RUA",
+        "RÉGUA",
+        "SOL",
+        "TABELA",
+        "TEMPO",
+        "TERRA",
+        "VOTO",
+        "ÁGUA"
+      ]
+    },
+    {
+      "a": "cidadania-direitos-e-participacao-3serie",
+      "b": "planejar-resolver-conferir-7ano",
+      "fases": {
+        "associacoes": {
+          "hash_exato": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          },
+          "hash_relacao": {
+            "assinaturas_comuns": 5,
+            "atividades_a": [
+              "a-1-1",
+              "a-2-1",
+              "a-4-1",
+              "a-5-1",
+              "a-6-1"
+            ],
+            "atividades_b": [
+              "a-1-9",
+              "a-2-9",
+              "a-4-9",
+              "a-5-9",
+              "a-6-9"
+            ]
+          }
+        },
+        "frases": {
+          "hash_exato": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          },
+          "hash_relacao": {
+            "assinaturas_comuns": 0,
+            "atividades_a": [],
+            "atividades_b": []
+          }
+        }
+      },
+      "desenhos_identicos": [
+        "AGENDA",
+        "ARTE",
+        "BANDEIRA",
+        "BOLA",
+        "BOLSA",
+        "BORRACHA",
+        "CADERNO",
+        "CARTA",
+        "CASA",
+        "COR",
+        "DADO",
+        "DOCUMENTO",
+        "ESCOLA",
+        "ESTOJO",
+        "FICHA",
+        "FOTO",
+        "GRUPO",
+        "JORNAL",
+        "LEI",
+        "LIVRO",
+        "LUA",
+        "LÁPIS",
+        "MAPA",
+        "MESA",
+        "MOEDA",
+        "MÃO",
+        "MÚSICA",
+        "NOME",
+        "NÚMERO",
+        "PAPEL",
+        "PEIXE",
+        "PESSOA",
+        "PINCEL",
+        "PLANTA",
+        "PONTE",
+        "PORTA",
+        "PRAÇA",
+        "RELÓGIO",
+        "RETRATO",
+        "RUA",
+        "RÉGUA",
+        "SOL",
+        "TABELA",
+        "TEMPO",
+        "TERRA",
+        "VOTO",
+        "ÁGUA"
+      ]
+    }
+  ]
+}

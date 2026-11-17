@@ -1,0 +1,14 @@
+{
+  "estado": "compilado_e_testado_em_dom",
+  "origem": "Biblioteca-de-Diagramacao/estacao/orquestrar_aulas.py",
+  "biblioteca_commit": "09167b1896bed3b0d5a0ff4b55be8b4588660bd6",
+  "curriculares_e_exemplos": 512,
+  "inclusivas": 768,
+  "navegador_local": "Não executado: Chromium bloqueado pelo ambiente; conferir publicação em navegador conectado.",
+  "pendencias": [
+    "Validação com estudantes e celular físico",
+    "Códigos BNCC/RCG não presumidos; alertas de fonte preservados no pedido",
+    "Apoios retomam intencionalmente objetos escolares comuns entre séries e componentes; não são declarados vocabulário inédito"
+  ],
+  "pdfs": "Doze PDFs discentes gerados e renderizados; exposição docente separada e privada."
+}

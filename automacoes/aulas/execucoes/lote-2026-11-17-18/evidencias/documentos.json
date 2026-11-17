@@ -1,0 +1,98 @@
+{
+  "cidadania-direitos-e-participacao-3serie": {
+    "pdfs": {
+      "apoio-leitura.pdf": {
+        "paginas": 48,
+        "sha256": "043ab627e6592f31847157dd8c91cd531030b2b1b4468707ff5af1e6fd5000c2"
+      },
+      "aula-impressa.pdf": {
+        "paginas": 36,
+        "sha256": "8c39174624c7304bfe7b16ea48300fd24944ab94b643d97b2f540526cc967e19"
+      },
+      "exemplos.pdf": {
+        "paginas": 24,
+        "sha256": "9ef23a6738d787440d34f0125dce33ad8a1ba2d28ebf91ace529de85ad6056d8"
+      }
+    },
+    "rotas": {
+      "principal": 32,
+      "exemplos": 96,
+      "apoio_letras": 48,
+      "apoio_palavras": 24,
+      "apoio_frases": 24,
+      "frases_opcionais": 96
+    }
+  },
+  "leitura-tabelas-e-sintese-8ano": {
+    "pdfs": {
+      "apoio-leitura.pdf": {
+        "paginas": 48,
+        "sha256": "fe70deb21ff558f8097aa3291c6aa209a272ab096ff64083bcd6e0a349b53bea"
+      },
+      "aula-impressa.pdf": {
+        "paginas": 36,
+        "sha256": "2325f1e31aade33aff5daa3b28c62d522f908e0c66afa06487477061a6cd18f1"
+      },
+      "exemplos.pdf": {
+        "paginas": 24,
+        "sha256": "5a58b900fed9ece234c5986f486efee663f026084df79d058b5a6cf06b9bf98c"
+      }
+    },
+    "rotas": {
+      "principal": 32,
+      "exemplos": 96,
+      "apoio_letras": 48,
+      "apoio_palavras": 24,
+      "apoio_frases": 24,
+      "frases_opcionais": 96
+    }
+  },
+  "herancas-africanas-cotidiano-9ano": {
+    "pdfs": {
+      "apoio-leitura.pdf": {
+        "paginas": 48,
+        "sha256": "948a8c4482d65fc07977d5c5e64203fe6094a7df116249648924e558d2041d95"
+      },
+      "aula-impressa.pdf": {
+        "paginas": 36,
+        "sha256": "6275dd79e5c903858ab29ac1f5ec43450ffddba2552a1978681b6f991fc8cfa2"
+      },
+      "exemplos.pdf": {
+        "paginas": 24,
+        "sha256": "314a17d7087414cb76cd982c5e5bad6dbdb0d61b80092a1b73e773024ecb4e28"
+      }
+    },
+    "rotas": {
+      "principal": 32,
+      "exemplos": 96,
+      "apoio_letras": 48,
+      "apoio_palavras": 24,
+      "apoio_frases": 24,
+      "frases_opcionais": 96
+    }
+  },
+  "planejar-resolver-conferir-7ano": {
+    "pdfs": {
+      "apoio-leitura.pdf": {
+        "paginas": 48,
+        "sha256": "57231fd5d4622850922f2490b4cafbc5c134c95abe60151d6c6f2d40affc5264"
+      },
+      "aula-impressa.pdf": {
+        "paginas": 36,
+        "sha256": "59fbf052fd369ead979b480bfd37a81e881826b9b27b1241701c339c608a7857"
+      },
+      "exemplos.pdf": {
+        "paginas": 24,
+        "sha256": "9cfbdda431a72d4df10931e2a39124f82c4ec91c3d1b2a4443ef170232cc90b1"
+      }
+    },
+    "rotas": {
+      "principal": 32,
+      "exemplos": 96,
+      "apoio_letras": 48,
+      "apoio_palavras": 24,
+      "apoio_frases": 24,
+      "frases_opcionais": 96
+    }
+  }
+}

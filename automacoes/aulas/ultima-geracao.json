@@ -1,0 +1,10 @@
+{
+  "pedido": "insumos-aulas/pedido.json",
+  "estado": "revisao_pendente",
+  "artefatos": [
+    "aulas/cidadania-direitos-e-participacao-3serie",
+    "aulas/leitura-tabelas-e-sintese-8ano",
+    "aulas/herancas-africanas-cotidiano-9ano",
+    "aulas/planejar-resolver-conferir-7ano"
+  ]
+}

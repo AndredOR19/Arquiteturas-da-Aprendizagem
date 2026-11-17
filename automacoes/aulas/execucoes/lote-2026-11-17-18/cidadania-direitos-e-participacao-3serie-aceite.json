@@ -1,0 +1,97 @@
+{
+  "versao": "3.9.0",
+  "aula": "cidadania-direitos-e-participacao-3serie",
+  "estado": "revisao_pendente",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "pacote_sha256": "16bfbd8fc22a4d251884c2f209268b2522c961ab6ce8e33969f38d4076c34f0d",
+  "requisitos": {
+    "curriculo_aee": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Plano recebido, continuidade, BNCC/RCG conferidos; AEE, D/R/E/L, recuperação e transferência; sem inventar aplicação"
+    },
+    "jogos_principal": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Personagem controlável, cenário explorável, NPCs, missões encadeadas, inventário e consequências curriculares; não quiz decorado"
+    },
+    "jogos_exemplos": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Mesmo padrão de game e maturidade visual na alternativa curricular; operações variadas, modelagem, retorno e registro próprio"
+    },
+    "jogos_apoio": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Apoio associativo anterior preservado: banco, sequência, imagens/objetos, palavras, letras, sílabas, montagem e contexto; acesso direto, áudio e mediação, sem RPG obrigatório nem leitura de missões. Alterar somente layout conforme pedido."
+    },
+    "visual_tema_idade": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Identidade visual temática adequada à série. No apoio não leitor, desenhos, textura e composição aprimoram a mesma atividade associativa; não impor controles, navegação ou leitura. Fundos/composições específicos por tema e ilustrações claras dos objetos existentes, sem repetir a mesma cena genérica."
+    },
+    "pdf_discente": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "PDF diagramado com identidade temática, âncoras didáticas, boa leitura e atividades/jogos imprimíveis; não só formulário textual"
+    },
+    "pdf_docente": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Somente aula expositiva pronta para a fala docente antes do percurso: conceitos, causalidade e exemplos encadeados; sem plano por minutos, relatório de jogo, gabarito ou instruções de condução; série/componente/tema, arquivo reservado separado."
+    },
+    "acessibilidade_tres_rotas": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Teclado/toque, foco, zoom, contraste, fontes/layout, áudio e falha de voz, menos estímulos, retorno sem perda nas três rotas"
+    },
+    "avaliacao_recuperacao": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "32 originais e primeira confirmação preservados; regra 1/2/4 e teto 128 informados; apoios livres; experiência obrigatória antes de nota final"
+    },
+    "relatorios_tres_rotas": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Prévia/cópia/TXT/JSON integrais, tentativas e apoios reais separados; entrega manual explícita ou recibo real; sem envio fictício"
+    },
+    "registro_escola_rs": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Mesmo título/resumo/habilidades no acervo e aula, cópia integral; sem afirmar envio ao Escola RS"
+    },
+    "privacidade_licencas": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Sem dados de estudantes, segredos ou guias no pacote discente; direitos de todos os ativos conferidos"
+    },
+    "navegador_multiplataforma": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Evidências por rota em desktop, Chromebook e celular; toque e teclado, recarga, erro/acerto, progresso e exportações"
+    },
+    "pdf_renderizado": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Todas as páginas de PDFs renderizadas e inspecionadas; sem cortes, sobreposições, fontes ausentes ou imagens ilegíveis"
+    },
+    "conteudo_reutilizavel": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "No acervo, aula e PDFs: série e tema, sem data/turma/horário/ano de aplicação; contexto real apenas no relatório/painel interno; datas históricas do conteúdo preservadas"
+    },
+    "linguagem_clara": {
+      "estado": "pendente",
+      "evidencias": [],
+      "observacao": "Seção 38: VEJA → ENTENDA → EXEMPLO (outro caso) → AGORA É SUA VEZ → CONFERIR em toda atividade; sem rótulo interno visível; comando com ação concreta; exemplo com outros dados; resultado do próprio item só após a primeira tentativa. Entrega exige validador sem bloqueios, lista dos itens em revisão humana e roteiro de observação em sala; o resultado da observação é registrado quando ocorrer e fica como pendência explícita até lá — zero alertas não comprova compreensão."
+    }
+  },
+  "publicacao": {
+    "pages": {
+      "estado": "pendente"
+    },
+    "vercel": {
+      "estado": "pendente"
+    }
+  }
+}

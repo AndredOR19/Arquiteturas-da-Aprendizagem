@@ -1,0 +1,145 @@
+VÁLIDO projetos/pedidos/lote-2026-11-17-18/cidadania-direitos-e-participacao-3serie
+PRODUZIDO PELA ESTAÇÃO cidadania-direitos-e-participacao-3serie HTML + PDF
+VÁLIDO projetos/pedidos/lote-2026-11-17-18/leitura-tabelas-e-sintese-8ano
+PRODUZIDO PELA ESTAÇÃO leitura-tabelas-e-sintese-8ano HTML + PDF
+VÁLIDO projetos/pedidos/lote-2026-11-17-18/herancas-africanas-cotidiano-9ano
+PRODUZIDO PELA ESTAÇÃO herancas-africanas-cotidiano-9ano HTML + PDF
+VÁLIDO projetos/pedidos/lote-2026-11-17-18/planejar-resolver-conferir-7ano
+PRODUZIDO PELA ESTAÇÃO planejar-resolver-conferir-7ano HTML + PDF
+{
+  "estado": "revisao_pendente",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "politica": "3.9.0",
+  "aulas": [
+    {
+      "id": "cidadania-direitos-e-participacao-3serie",
+      "destino": "aulas/cidadania-direitos-e-participacao-3serie",
+      "recibo": "automacoes/aulas/execucoes/lote-2026-11-17-18/cidadania-direitos-e-participacao-3serie-aceite.json",
+      "estado": "revisao_pendente",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/cidadania-direitos-e-participacao-3serie",
+        "destino": "aulas/cidadania-direitos-e-participacao-3serie",
+        "titulo": "Direitos em movimento",
+        "contrato_entrega": "3.8.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "História"
+          ],
+          "series": [
+            "3ª série"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Distinguir direito escrito, condição de acesso e ação coletiva; explicar uma conquista democrática com uma fonte e reconhecer limites.",
+          "titulo_exibicao": "Direitos em movimento",
+          "palavras_chave": [
+            "Da Constituição à vida cotidiana: direitos, participação e democracia"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leitura-tabelas-e-sintese-8ano",
+      "destino": "aulas/leitura-tabelas-e-sintese-8ano",
+      "recibo": "automacoes/aulas/execucoes/lote-2026-11-17-18/leitura-tabelas-e-sintese-8ano-aceite.json",
+      "estado": "revisao_pendente",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/leitura-tabelas-e-sintese-8ano",
+        "destino": "aulas/leitura-tabelas-e-sintese-8ano",
+        "titulo": "O que a tabela mostra?",
+        "contrato_entrega": "3.8.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Estudos Orientados"
+          ],
+          "series": [
+            "8º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Ler título, colunas e unidades de uma tabela, fazer comparações e escrever uma conclusão que os dados permitem.",
+          "titulo_exibicao": "O que a tabela mostra?",
+          "palavras_chave": [
+            "Ler tabelas, comparar informações e explicar uma conclusão"
+          ]
+        }
+      }
+    },
+    {
+      "id": "herancas-africanas-cotidiano-9ano",
+      "destino": "aulas/herancas-africanas-cotidiano-9ano",
+      "recibo": "automacoes/aulas/execucoes/lote-2026-11-17-18/herancas-africanas-cotidiano-9ano-aceite.json",
+      "estado": "revisao_pendente",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/herancas-africanas-cotidiano-9ano",
+        "destino": "aulas/herancas-africanas-cotidiano-9ano",
+        "titulo": "Saberes que seguem vivos",
+        "contrato_entrega": "3.8.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Eletiva de Base"
+          ],
+          "series": [
+            "9º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Relacionar uma prática afro-brasileira a pessoas, saberes, transmissão e contexto, evitando tratar África como uma cultura única.",
+          "titulo_exibicao": "Saberes que seguem vivos",
+          "palavras_chave": [
+            "Heranças africanas no cotidiano: saberes, autoria e cultura viva"
+          ]
+        }
+      }
+    },
+    {
+      "id": "planejar-resolver-conferir-7ano",
+      "destino": "aulas/planejar-resolver-conferir-7ano",
+      "recibo": "automacoes/aulas/execucoes/lote-2026-11-17-18/planejar-resolver-conferir-7ano-aceite.json",
+      "estado": "revisao_pendente",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/planejar-resolver-conferir-7ano",
+        "destino": "aulas/planejar-resolver-conferir-7ano",
+        "titulo": "Oficina do tempo",
+        "contrato_entrega": "3.8.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Estudos Orientados"
+          ],
+          "series": [
+            "7º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Separar pergunta e dados, representar partes de uma duração e conferir se uma resposta é coerente com o total.",
+          "titulo_exibicao": "Oficina do tempo",
+          "palavras_chave": [
+            "Planejar, resolver e conferir: problemas de tempo e frações"
+          ]
+        }
+      }
+    }
+  ],
+  "publicacao": "bloqueada até evidências de todas as exigências; nenhum cadastro público automático"
+}
+cidadania-direitos-e-participacao-3serie: 128 atividades · bloqueadas 0 · revisão humana 0 · aprovadas automaticamente 128
+leitura-tabelas-e-sintese-8ano: 128 atividades · bloqueadas 0 · revisão humana 33 · aprovadas automaticamente 95
+herancas-africanas-cotidiano-9ano: 128 atividades · bloqueadas 0 · revisão humana 0 · aprovadas automaticamente 128
+planejar-resolver-conferir-7ano: 128 atividades · bloqueadas 0 · revisão humana 12 · aprovadas automaticamente 116
+Total: 512 atividades · bloqueadas 0 · revisão humana 45 · aprovadas automaticamente 467

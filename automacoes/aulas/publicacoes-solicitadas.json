@@ -71,6 +71,66 @@
         "Publicação Pages e Vercel e QR somente após validação e URLs verificadas; recibos mantidos pendentes."
       ],
       "verificacao_tecnica": "512 atividades curriculares/exemplos e 768 inclusivas reexecutadas com sucesso em jsdom; não equivale a teste em aparelho real."
+    },
+    {
+      "aula": "cidadania-direitos-e-participacao-3serie",
+      "destino": "aulas/cidadania-direitos-e-participacao-3serie",
+      "pacote_sha256": "16bfbd8fc22a4d251884c2f209268b2522c961ab6ce8e33969f38d4076c34f0d",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou criar e publicar as quatro aulas digitais produzidas pela Biblioteca de Diagramação, reiterado nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-17-18/linguagem/relatorio.json",
+      "pendencias": [
+        "Validação com estudantes e celular físico",
+        "Códigos BNCC/RCG não presumidos; alertas de fonte preservados no pedido",
+        "Apoios retomam intencionalmente objetos escolares comuns entre séries e componentes; não são declarados vocabulário inédito",
+        "Confirmação dos destinos públicos e QR após implantação; não equivale a homologação."
+      ],
+      "verificacao_tecnica": "automacoes/aulas/execucoes/lote-2026-11-17-18/evidencias/verificacao.json"
+    },
+    {
+      "aula": "leitura-tabelas-e-sintese-8ano",
+      "destino": "aulas/leitura-tabelas-e-sintese-8ano",
+      "pacote_sha256": "5c61b56b815acfdff7fe91e2154de37255e43afcdf22fd6f0c7cf26a64d63a41",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou criar e publicar as quatro aulas digitais produzidas pela Biblioteca de Diagramação, reiterado nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-17-18/linguagem/relatorio.json",
+      "pendencias": [
+        "Validação com estudantes e celular físico",
+        "Códigos BNCC/RCG não presumidos; alertas de fonte preservados no pedido",
+        "Apoios retomam intencionalmente objetos escolares comuns entre séries e componentes; não são declarados vocabulário inédito",
+        "Confirmação dos destinos públicos e QR após implantação; não equivale a homologação."
+      ],
+      "verificacao_tecnica": "automacoes/aulas/execucoes/lote-2026-11-17-18/evidencias/verificacao.json"
+    },
+    {
+      "aula": "herancas-africanas-cotidiano-9ano",
+      "destino": "aulas/herancas-africanas-cotidiano-9ano",
+      "pacote_sha256": "33671d826a1c072a5240668151ac21a00dfeb880853626c6af57014f26d5a03e",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou criar e publicar as quatro aulas digitais produzidas pela Biblioteca de Diagramação, reiterado nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-17-18/linguagem/relatorio.json",
+      "pendencias": [
+        "Validação com estudantes e celular físico",
+        "Códigos BNCC/RCG não presumidos; alertas de fonte preservados no pedido",
+        "Apoios retomam intencionalmente objetos escolares comuns entre séries e componentes; não são declarados vocabulário inédito",
+        "Confirmação dos destinos públicos e QR após implantação; não equivale a homologação."
+      ],
+      "verificacao_tecnica": "automacoes/aulas/execucoes/lote-2026-11-17-18/evidencias/verificacao.json"
+    },
+    {
+      "aula": "planejar-resolver-conferir-7ano",
+      "destino": "aulas/planejar-resolver-conferir-7ano",
+      "pacote_sha256": "e677c9c4f768c29873fb099ac11758465a296c54cfcba4d8e9b07b20c9eaa7fc",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou criar e publicar as quatro aulas digitais produzidas pela Biblioteca de Diagramação, reiterado nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-17-18/linguagem/relatorio.json",
+      "pendencias": [
+        "Validação com estudantes e celular físico",
+        "Códigos BNCC/RCG não presumidos; alertas de fonte preservados no pedido",
+        "Apoios retomam intencionalmente objetos escolares comuns entre séries e componentes; não são declarados vocabulário inédito",
+        "Confirmação dos destinos públicos e QR após implantação; não equivale a homologação."
+      ],
+      "verificacao_tecnica": "automacoes/aulas/execucoes/lote-2026-11-17-18/evidencias/verificacao.json"
     }
   ]
 }
