@@ -1,0 +1,5869 @@
+{
+ "protocolo": "linguagem-clara-3.9",
+ "gerado_em": "2026-11-18T16:15:40.570913+00:00",
+ "criterios": {
+  "bloqueios": [
+   "rotulo_interno_visivel",
+   "jargao_no_comando",
+   "pergunta_vazia",
+   "comando_sem_acao",
+   "exemplo_ausente",
+   "exemplo_do_proprio_caso",
+   "situacao_ausente"
+  ],
+  "avisos": [
+   "frase_longa",
+   "jargao_no_conteudo",
+   "palavra_dificil_alem_do_glossario",
+   "muitas_opcoes",
+   "opcao_longa"
+  ]
+ },
+ "limite": "Filtro preliminar. Ausência de alerta não comprova compreensão; exige revisão humana e observação com estudantes.",
+ "aulas": {
+  "potencias-raizes-e-arranjos-6ano": {
+   "titulo": "Oficina dos quadrados",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "708f171a5fd663b7283b23a09e14b0cf21ef89a27d6b8b2126e3cd34cee05a29",
+   "clareza_sha256": "6ba33f137403744506dc9bc0115aa6b3a63065222190f7dfc0183bfa60921fc2",
+   "abertura": "Relacionar arranjos, multiplicação, potências e raízes quadradas exatas, explicando e conferindo cada resultado.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 0,
+   "bloqueado": 0,
+   "revisao_humana": 0,
+   "aprovado_automatico": 128,
+   "regras": {},
+   "itens": [
+    {
+     "id": "p-1-0-1",
+     "rota": "principal",
+     "caso": "Fileiras iguais",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-2",
+     "rota": "principal",
+     "caso": "Fileiras iguais",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-3",
+     "rota": "principal",
+     "caso": "Fileiras iguais",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-4",
+     "rota": "principal",
+     "caso": "Fileiras iguais",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-1",
+     "rota": "principal",
+     "caso": "Quadrado de um número",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-2",
+     "rota": "principal",
+     "caso": "Quadrado de um número",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-3",
+     "rota": "principal",
+     "caso": "Quadrado de um número",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-4",
+     "rota": "principal",
+     "caso": "Quadrado de um número",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-1",
+     "rota": "principal",
+     "caso": "Potência não é soma",
+     "kind": "number",
+     "titulo": "Calcule a potência",
+     "comando": "Calcule 4³? Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule a potência",
+      "command": "Calcule 4³? Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-2",
+     "rota": "principal",
+     "caso": "Potência não é soma",
+     "kind": "match",
+     "titulo": "Ligue a escrita à expansão",
+     "comando": "Ligue cada escrita à sua expansão. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Ligue a escrita à expansão",
+      "command": "Ligue cada escrita à sua expansão. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-3",
+     "rota": "principal",
+     "caso": "Potência não é soma",
+     "kind": "order",
+     "titulo": "Calcule sem trocar a regra",
+     "comando": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule sem trocar a regra",
+      "command": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-4",
+     "rota": "principal",
+     "caso": "Potência não é soma",
+     "kind": "sort",
+     "titulo": "Identifique o erro comum",
+     "comando": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Identifique o erro comum",
+      "command": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-1",
+     "rota": "principal",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-2",
+     "rota": "principal",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-3",
+     "rota": "principal",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-4",
+     "rota": "principal",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-1",
+     "rota": "principal",
+     "caso": "Quadrado e cubo",
+     "kind": "number",
+     "titulo": "Conte os blocos",
+     "comando": "Quantos blocos há na montagem? Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte os blocos",
+      "command": "Quantos blocos há na montagem? Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-2",
+     "rota": "principal",
+     "caso": "Quadrado e cubo",
+     "kind": "match",
+     "titulo": "Compare camada e montagem",
+     "comando": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Compare camada e montagem",
+      "command": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-3",
+     "rota": "principal",
+     "caso": "Quadrado e cubo",
+     "kind": "order",
+     "titulo": "Conte por camadas",
+     "comando": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte por camadas",
+      "command": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-4",
+     "rota": "principal",
+     "caso": "Quadrado e cubo",
+     "kind": "sort",
+     "titulo": "Explique cada dimensão",
+     "comando": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Explique cada dimensão",
+      "command": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-1",
+     "rota": "principal",
+     "caso": "Estimar antes de calcular",
+     "kind": "match",
+     "titulo": "Encontre os limites",
+     "comando": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Encontre os limites",
+      "command": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-2",
+     "rota": "principal",
+     "caso": "Estimar antes de calcular",
+     "kind": "sort",
+     "titulo": "Estimativa ou igualdade?",
+     "comando": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Estimativa ou igualdade?",
+      "command": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-3",
+     "rota": "principal",
+     "caso": "Estimar antes de calcular",
+     "kind": "order",
+     "titulo": "Construa a estimativa",
+     "comando": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Construa a estimativa",
+      "command": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-4",
+     "rota": "principal",
+     "caso": "Estimar antes de calcular",
+     "kind": "number",
+     "titulo": "Confira o quadrado menor",
+     "comando": "Qual é o quadrado de 7? Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Confira o quadrado menor",
+      "command": "Qual é o quadrado de 7? Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-1",
+     "rota": "principal",
+     "caso": "Conferir a operação inversa",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-2",
+     "rota": "principal",
+     "caso": "Conferir a operação inversa",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-3",
+     "rota": "principal",
+     "caso": "Conferir a operação inversa",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-4",
+     "rota": "principal",
+     "caso": "Conferir a operação inversa",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-1",
+     "rota": "principal",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-2",
+     "rota": "principal",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-3",
+     "rota": "principal",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-4",
+     "rota": "principal",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-1",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-2",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-3",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-4",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-1",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-2",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-3",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-4",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-1",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-2",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-3",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-4",
+     "rota": "exemplos",
+     "caso": "Fileiras iguais",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Fileiras iguais."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-1",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-2",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-3",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-4",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-1",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-2",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-3",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-4",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-1",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-2",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-3",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-4",
+     "rota": "exemplos",
+     "caso": "Quadrado de um número",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Quadrado de um número."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-1",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "number",
+     "titulo": "Calcule a potência",
+     "comando": "Calcule 5³? Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule a potência",
+      "command": "Calcule 5³? Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-2",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "match",
+     "titulo": "Ligue a escrita à expansão",
+     "comando": "Ligue cada escrita à sua expansão. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Ligue a escrita à expansão",
+      "command": "Ligue cada escrita à sua expansão. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-3",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "order",
+     "titulo": "Calcule sem trocar a regra",
+     "comando": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule sem trocar a regra",
+      "command": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-4",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "sort",
+     "titulo": "Identifique o erro comum",
+     "comando": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Identifique o erro comum",
+      "command": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-1",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "number",
+     "titulo": "Calcule a potência",
+     "comando": "Calcule 6³? Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule a potência",
+      "command": "Calcule 6³? Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-2",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "match",
+     "titulo": "Ligue a escrita à expansão",
+     "comando": "Ligue cada escrita à sua expansão. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Ligue a escrita à expansão",
+      "command": "Ligue cada escrita à sua expansão. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-3",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "order",
+     "titulo": "Calcule sem trocar a regra",
+     "comando": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule sem trocar a regra",
+      "command": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-4",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "sort",
+     "titulo": "Identifique o erro comum",
+     "comando": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Identifique o erro comum",
+      "command": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-1",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "number",
+     "titulo": "Calcule a potência",
+     "comando": "Calcule 7³? Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule a potência",
+      "command": "Calcule 7³? Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-2",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "match",
+     "titulo": "Ligue a escrita à expansão",
+     "comando": "Ligue cada escrita à sua expansão. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Ligue a escrita à expansão",
+      "command": "Ligue cada escrita à sua expansão. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-3",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "order",
+     "titulo": "Calcule sem trocar a regra",
+     "comando": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Calcule sem trocar a regra",
+      "command": "Coloque na ordem: a expansão e o cálculo da potência. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-4",
+     "rota": "exemplos",
+     "caso": "Potência não é soma",
+     "kind": "sort",
+     "titulo": "Identifique o erro comum",
+     "comando": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma.",
+     "antes": {
+      "title": "Identifique o erro comum",
+      "command": "Separe as frases corretas sobre estas escritas. Caso: Potência não é soma."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-1",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-2",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-3",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-4",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-1",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-2",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-3",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-4",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-1",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-2",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-3",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-4",
+     "rota": "exemplos",
+     "caso": "Raiz reconstrói o lado",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Raiz reconstrói o lado."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-1",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "number",
+     "titulo": "Conte os blocos",
+     "comando": "Quantos blocos há na montagem? Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte os blocos",
+      "command": "Quantos blocos há na montagem? Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-2",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "match",
+     "titulo": "Compare camada e montagem",
+     "comando": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Compare camada e montagem",
+      "command": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-3",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "order",
+     "titulo": "Conte por camadas",
+     "comando": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte por camadas",
+      "command": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-4",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "sort",
+     "titulo": "Explique cada dimensão",
+     "comando": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Explique cada dimensão",
+      "command": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-1",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "number",
+     "titulo": "Conte os blocos",
+     "comando": "Quantos blocos há na montagem? Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte os blocos",
+      "command": "Quantos blocos há na montagem? Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-2",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "match",
+     "titulo": "Compare camada e montagem",
+     "comando": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Compare camada e montagem",
+      "command": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-3",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "order",
+     "titulo": "Conte por camadas",
+     "comando": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte por camadas",
+      "command": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-4",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "sort",
+     "titulo": "Explique cada dimensão",
+     "comando": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Explique cada dimensão",
+      "command": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-1",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "number",
+     "titulo": "Conte os blocos",
+     "comando": "Quantos blocos há na montagem? Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte os blocos",
+      "command": "Quantos blocos há na montagem? Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-2",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "match",
+     "titulo": "Compare camada e montagem",
+     "comando": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Compare camada e montagem",
+      "command": "Ligue cada parte à contagem correspondente. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-3",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "order",
+     "titulo": "Conte por camadas",
+     "comando": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Conte por camadas",
+      "command": "Coloque na ordem: o caminho de contagem. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-4",
+     "rota": "exemplos",
+     "caso": "Quadrado e cubo",
+     "kind": "sort",
+     "titulo": "Explique cada dimensão",
+     "comando": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo.",
+     "antes": {
+      "title": "Explique cada dimensão",
+      "command": "Separe o que a montagem permite afirmar. Caso: Quadrado e cubo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-1",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "match",
+     "titulo": "Encontre os limites",
+     "comando": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Encontre os limites",
+      "command": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-2",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "sort",
+     "titulo": "Estimativa ou igualdade?",
+     "comando": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Estimativa ou igualdade?",
+      "command": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-3",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "order",
+     "titulo": "Construa a estimativa",
+     "comando": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Construa a estimativa",
+      "command": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-4",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "number",
+     "titulo": "Confira o quadrado menor",
+     "comando": "Qual é o quadrado de 8? Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Confira o quadrado menor",
+      "command": "Qual é o quadrado de 8? Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-1",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "match",
+     "titulo": "Encontre os limites",
+     "comando": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Encontre os limites",
+      "command": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-2",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "sort",
+     "titulo": "Estimativa ou igualdade?",
+     "comando": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Estimativa ou igualdade?",
+      "command": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-3",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "order",
+     "titulo": "Construa a estimativa",
+     "comando": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Construa a estimativa",
+      "command": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-4",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "number",
+     "titulo": "Confira o quadrado menor",
+     "comando": "Qual é o quadrado de 9? Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Confira o quadrado menor",
+      "command": "Qual é o quadrado de 9? Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-1",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "match",
+     "titulo": "Encontre os limites",
+     "comando": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Encontre os limites",
+      "command": "Ligue cada comparação ao que ela informa. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-2",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "sort",
+     "titulo": "Estimativa ou igualdade?",
+     "comando": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Estimativa ou igualdade?",
+      "command": "Separe afirmações compatíveis com os números. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-3",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "order",
+     "titulo": "Construa a estimativa",
+     "comando": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Construa a estimativa",
+      "command": "Coloque na ordem: o caminho para localizar a raiz. Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-4",
+     "rota": "exemplos",
+     "caso": "Estimar antes de calcular",
+     "kind": "number",
+     "titulo": "Confira o quadrado menor",
+     "comando": "Qual é o quadrado de 2? Caso: Estimar antes de calcular.",
+     "antes": {
+      "title": "Confira o quadrado menor",
+      "command": "Qual é o quadrado de 2? Caso: Estimar antes de calcular."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-1",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-2",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-3",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-4",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-1",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-2",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-3",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-4",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-1",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "number",
+     "titulo": "Descubra o lado",
+     "comando": "Quantas peças há em cada lado? Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Descubra o lado",
+      "command": "Quantas peças há em cada lado? Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-2",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-3",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-4",
+     "rota": "exemplos",
+     "caso": "Conferir a operação inversa",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Conferir a operação inversa."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-1",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-2",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-3",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-4",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-1",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-2",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-3",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-4",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-1",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "number",
+     "titulo": "Conte as peças",
+     "comando": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Conte as peças",
+      "command": "Quantas peças há no arranjo completo? Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-2",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "match",
+     "titulo": "Ligue escrita e significado",
+     "comando": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Ligue escrita e significado",
+      "command": "Ligue cada escrita ao que ela representa. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-3",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "order",
+     "titulo": "Monte a conferência",
+     "comando": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Monte a conferência",
+      "command": "Coloque na ordem: os passos para conferir o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-4",
+     "rota": "exemplos",
+     "caso": "Criar e explicar um arranjo",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as frases de acordo com o arranjo. Caso: Criar e explicar um arranjo."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    }
+   ]
+  },
+  "pesquisa-do-registro-a-conclusao-7ano": {
+   "titulo": "Da pesquisa à conclusão",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "a9831f583fb9db111d5da17c4489807203830fa7f31afe7bed9c9bd676c4eb46",
+   "clareza_sha256": "6ba33f137403744506dc9bc0115aa6b3a63065222190f7dfc0183bfa60921fc2",
+   "abertura": "Planejar uma pesquisa, conferir frequências e gráficos e comunicar uma conclusão limitada ao grupo que respondeu.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 4,
+   "bloqueado": 0,
+   "revisao_humana": 4,
+   "aprovado_automatico": 124,
+   "regras": {
+    "aviso:jargao_no_conteudo": 4
+   },
+   "itens": [
+    {
+     "id": "p-1-0-1",
+     "rota": "principal",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Defina o grupo da pesquisa",
+     "comando": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Defina o grupo da pesquisa",
+      "command": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-2",
+     "rota": "principal",
+     "caso": "Quem queremos conhecer?",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-3",
+     "rota": "principal",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-4",
+     "rota": "principal",
+     "caso": "Quem queremos conhecer?",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-1",
+     "rota": "principal",
+     "caso": "Pergunta clara",
+     "kind": "order",
+     "titulo": "Prepare a pergunta",
+     "comando": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Prepare a pergunta",
+      "command": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-2",
+     "rota": "principal",
+     "caso": "Pergunta clara",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-3",
+     "rota": "principal",
+     "caso": "Pergunta clara",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-4",
+     "rota": "principal",
+     "caso": "Pergunta clara",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-1",
+     "rota": "principal",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Confira as fichas",
+     "comando": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Confira as fichas",
+      "command": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-2",
+     "rota": "principal",
+     "caso": "Cada resposta uma vez",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-3",
+     "rota": "principal",
+     "caso": "Cada resposta uma vez",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-4",
+     "rota": "principal",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-1",
+     "rota": "principal",
+     "caso": "Da ficha à tabela",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-2",
+     "rota": "principal",
+     "caso": "Da ficha à tabela",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-3",
+     "rota": "principal",
+     "caso": "Da ficha à tabela",
+     "kind": "order",
+     "titulo": "Organize as frequências",
+     "comando": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Organize as frequências",
+      "command": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-4",
+     "rota": "principal",
+     "caso": "Da ficha à tabela",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-1",
+     "rota": "principal",
+     "caso": "Da tabela ao gráfico",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-2",
+     "rota": "principal",
+     "caso": "Da tabela ao gráfico",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-3",
+     "rota": "principal",
+     "caso": "Da tabela ao gráfico",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-4",
+     "rota": "principal",
+     "caso": "Da tabela ao gráfico",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-1",
+     "rota": "principal",
+     "caso": "Total e diferença",
+     "kind": "number",
+     "titulo": "Compare duas categorias",
+     "comando": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença.",
+     "antes": {
+      "title": "Compare duas categorias",
+      "command": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-2",
+     "rota": "principal",
+     "caso": "Total e diferença",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Total e diferença.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-3",
+     "rota": "principal",
+     "caso": "Total e diferença",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-4",
+     "rota": "principal",
+     "caso": "Total e diferença",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Total e diferença.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-1",
+     "rota": "principal",
+     "caso": "Maior não significa maioria",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-2",
+     "rota": "principal",
+     "caso": "Maior não significa maioria",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-3",
+     "rota": "principal",
+     "caso": "Maior não significa maioria",
+     "kind": "match",
+     "titulo": "Diferencie três situações",
+     "comando": "Ligue a situação à definição correta. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Diferencie três situações",
+      "command": "Ligue a situação à definição correta. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-4",
+     "rota": "principal",
+     "caso": "Maior não significa maioria",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-1",
+     "rota": "principal",
+     "caso": "Relatório com limites",
+     "kind": "order",
+     "titulo": "Monte o relatório",
+     "comando": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Monte o relatório",
+      "command": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "generalizar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "p-8-0-2",
+     "rota": "principal",
+     "caso": "Relatório com limites",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-3",
+     "rota": "principal",
+     "caso": "Relatório com limites",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-4",
+     "rota": "principal",
+     "caso": "Relatório com limites",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-1",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Defina o grupo da pesquisa",
+     "comando": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Defina o grupo da pesquisa",
+      "command": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-2",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-3",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-4",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-1",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Defina o grupo da pesquisa",
+     "comando": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Defina o grupo da pesquisa",
+      "command": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-2",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-3",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-4",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-1",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Defina o grupo da pesquisa",
+     "comando": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Defina o grupo da pesquisa",
+      "command": "Ligue o tipo de pesquisa ao grupo observado. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-2",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-3",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-4",
+     "rota": "exemplos",
+     "caso": "Quem queremos conhecer?",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Quem queremos conhecer?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-1",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "order",
+     "titulo": "Prepare a pergunta",
+     "comando": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Prepare a pergunta",
+      "command": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-2",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-3",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-4",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-1",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "order",
+     "titulo": "Prepare a pergunta",
+     "comando": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Prepare a pergunta",
+      "command": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-2",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-3",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-4",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-1",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "order",
+     "titulo": "Prepare a pergunta",
+     "comando": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Prepare a pergunta",
+      "command": "Coloque na ordem: a preparação e a conferência da coleta. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-2",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-3",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-4",
+     "rota": "exemplos",
+     "caso": "Pergunta clara",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Pergunta clara.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Pergunta clara."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-1",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Confira as fichas",
+     "comando": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Confira as fichas",
+      "command": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-2",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-3",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-4",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-1",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Confira as fichas",
+     "comando": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Confira as fichas",
+      "command": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-2",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-3",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-4",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-1",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Confira as fichas",
+     "comando": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Confira as fichas",
+      "command": "Separe os cuidados que preservam a contagem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-2",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-3",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-4",
+     "rota": "exemplos",
+     "caso": "Cada resposta uma vez",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Cada resposta uma vez."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-1",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-2",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-3",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "order",
+     "titulo": "Organize as frequências",
+     "comando": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Organize as frequências",
+      "command": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-4",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-1",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-2",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-3",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "order",
+     "titulo": "Organize as frequências",
+     "comando": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Organize as frequências",
+      "command": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-4",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-1",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-2",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-3",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "order",
+     "titulo": "Organize as frequências",
+     "comando": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Organize as frequências",
+      "command": "Coloque na ordem: o trabalho com as fichas. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-4",
+     "rota": "exemplos",
+     "caso": "Da ficha à tabela",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da ficha à tabela."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-1",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-2",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-3",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-4",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-1",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-2",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-3",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-4",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-1",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-2",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-3",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-4",
+     "rota": "exemplos",
+     "caso": "Da tabela ao gráfico",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Da tabela ao gráfico."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-1",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "number",
+     "titulo": "Compare duas categorias",
+     "comando": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença.",
+     "antes": {
+      "title": "Compare duas categorias",
+      "command": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-2",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Total e diferença.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-3",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-4",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Total e diferença.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-1",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "number",
+     "titulo": "Compare duas categorias",
+     "comando": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença.",
+     "antes": {
+      "title": "Compare duas categorias",
+      "command": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-2",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Total e diferença.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-3",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-4",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Total e diferença.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-1",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "number",
+     "titulo": "Compare duas categorias",
+     "comando": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença.",
+     "antes": {
+      "title": "Compare duas categorias",
+      "command": "Quantas respostas a mais teve leitura em relação a esporte? Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-2",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Total e diferença.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-3",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-4",
+     "rota": "exemplos",
+     "caso": "Total e diferença",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Total e diferença.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Total e diferença."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-1",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-2",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-3",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "match",
+     "titulo": "Diferencie três situações",
+     "comando": "Ligue a situação à definição correta. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Diferencie três situações",
+      "command": "Ligue a situação à definição correta. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-4",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-1",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-2",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-3",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "match",
+     "titulo": "Diferencie três situações",
+     "comando": "Ligue a situação à definição correta. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Diferencie três situações",
+      "command": "Ligue a situação à definição correta. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-4",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-1",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "number",
+     "titulo": "Confira quantas respostas",
+     "comando": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Confira quantas respostas",
+      "command": "Quantas pessoas responderam? Some as três categorias. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-2",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-3",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "match",
+     "titulo": "Diferencie três situações",
+     "comando": "Ligue a situação à definição correta. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Diferencie três situações",
+      "command": "Ligue a situação à definição correta. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-4",
+     "rota": "exemplos",
+     "caso": "Maior não significa maioria",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Maior não significa maioria."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-1",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "order",
+     "titulo": "Monte o relatório",
+     "comando": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Monte o relatório",
+      "command": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "generalizar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-1-2",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-3",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-4",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-1",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "order",
+     "titulo": "Monte o relatório",
+     "comando": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Monte o relatório",
+      "command": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "generalizar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-2-2",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-3",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-4",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-1",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "order",
+     "titulo": "Monte o relatório",
+     "comando": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Monte o relatório",
+      "command": "Coloque na ordem: os elementos para comunicar a pesquisa. Caso: Relatório com limites."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "generalizar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-3-2",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "bars",
+     "titulo": "Represente a tabela",
+     "comando": "Coloque cada barra ao número da categoria. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Represente a tabela",
+      "command": "Coloque cada barra ao número da categoria. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-3",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "match",
+     "titulo": "Ligue informação e cuidado",
+     "comando": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Ligue informação e cuidado",
+      "command": "Ligue cada pergunta ao cuidado correspondente. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-4",
+     "rota": "exemplos",
+     "caso": "Relatório com limites",
+     "kind": "sort",
+     "titulo": "Escreva uma conclusão fiel",
+     "comando": "Separe as conclusões que os dados permitem. Caso: Relatório com limites.",
+     "antes": {
+      "title": "Escreva uma conclusão fiel",
+      "command": "Separe as conclusões que os dados permitem. Caso: Relatório com limites."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    }
+   ]
+  },
+  "comparar-estrategias-e-revisar-7ano": {
+   "titulo": "Duas estratégias, uma resposta",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "44161091bef62db9d91ad46af716f63ccbb7c844e66afcfa8156fdf836f865c9",
+   "clareza_sha256": "6ba33f137403744506dc9bc0115aa6b3a63065222190f7dfc0183bfa60921fc2",
+   "abertura": "Comparar representações de frações de uma duração, localizar erros e justificar uma solução por dois caminhos.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 0,
+   "bloqueado": 0,
+   "revisao_humana": 0,
+   "aprovado_automatico": 128,
+   "regras": {},
+   "itens": [
+    {
+     "id": "p-1-0-1",
+     "rota": "principal",
+     "caso": "O que a pergunta pede?",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-2",
+     "rota": "principal",
+     "caso": "O que a pergunta pede?",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-3",
+     "rota": "principal",
+     "caso": "O que a pergunta pede?",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-4",
+     "rota": "principal",
+     "caso": "O que a pergunta pede?",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-1",
+     "rota": "principal",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Compare dois inteiros",
+     "comando": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Compare dois inteiros",
+      "command": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-2",
+     "rota": "principal",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-3",
+     "rota": "principal",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-4",
+     "rota": "principal",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-1",
+     "rota": "principal",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "number",
+     "titulo": "Reúna três partes",
+     "comando": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Reúna três partes",
+      "command": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-2",
+     "rota": "principal",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-3",
+     "rota": "principal",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-4",
+     "rota": "principal",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-1",
+     "rota": "principal",
+     "caso": "Somar partes sem repetir",
+     "kind": "number",
+     "titulo": "Some sem sobreposição",
+     "comando": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Some sem sobreposição",
+      "command": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-2",
+     "rota": "principal",
+     "caso": "Somar partes sem repetir",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-3",
+     "rota": "principal",
+     "caso": "Somar partes sem repetir",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-4",
+     "rota": "principal",
+     "caso": "Somar partes sem repetir",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-1",
+     "rota": "principal",
+     "caso": "Encontrar o que resta",
+     "kind": "number",
+     "titulo": "Descubra a sobra",
+     "comando": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Descubra a sobra",
+      "command": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-2",
+     "rota": "principal",
+     "caso": "Encontrar o que resta",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-3",
+     "rota": "principal",
+     "caso": "Encontrar o que resta",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-4",
+     "rota": "principal",
+     "caso": "Encontrar o que resta",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-1",
+     "rota": "principal",
+     "caso": "Explicar um erro",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-2",
+     "rota": "principal",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Localize o erro",
+     "comando": "Veja uma solução que fez 140 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Localize o erro",
+      "command": "Veja uma solução que fez 140 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-3",
+     "rota": "principal",
+     "caso": "Explicar um erro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-4",
+     "rota": "principal",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-1",
+     "rota": "principal",
+     "caso": "Conferir por outro caminho",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-2",
+     "rota": "principal",
+     "caso": "Conferir por outro caminho",
+     "kind": "match",
+     "titulo": "Confira por duas representações",
+     "comando": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Confira por duas representações",
+      "command": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-3",
+     "rota": "principal",
+     "caso": "Conferir por outro caminho",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-4",
+     "rota": "principal",
+     "caso": "Conferir por outro caminho",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-1",
+     "rota": "principal",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-2",
+     "rota": "principal",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-3",
+     "rota": "principal",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "order",
+     "titulo": "Escreva uma explicação curta",
+     "comando": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Escreva uma explicação curta",
+      "command": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-4",
+     "rota": "principal",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-1",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-2",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-3",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-4",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-1",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-2",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-3",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-4",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-1",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-2",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-3",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-4",
+     "rota": "exemplos",
+     "caso": "O que a pergunta pede?",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: O que a pergunta pede?."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-1",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Compare dois inteiros",
+     "comando": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Compare dois inteiros",
+      "command": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-2",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-3",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-4",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-1",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Compare dois inteiros",
+     "comando": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Compare dois inteiros",
+      "command": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-2",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-3",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-4",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-1",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Compare dois inteiros",
+     "comando": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Compare dois inteiros",
+      "command": "Ligue cada duração ao seu quarto. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-2",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-3",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-4",
+     "rota": "exemplos",
+     "caso": "Representar o mesmo inteiro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Representar o mesmo inteiro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-1",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "number",
+     "titulo": "Reúna três partes",
+     "comando": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Reúna três partes",
+      "command": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-2",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-3",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-4",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-1",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "number",
+     "titulo": "Reúna três partes",
+     "comando": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Reúna três partes",
+      "command": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-2",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-3",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-4",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-1",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "number",
+     "titulo": "Reúna três partes",
+     "comando": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Reúna três partes",
+      "command": "Quantos minutos correspondem a 3/4 da oficina? Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-2",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-3",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-4",
+     "rota": "exemplos",
+     "caso": "Dividir antes de multiplicar",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Dividir antes de multiplicar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-1",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "number",
+     "titulo": "Some sem sobreposição",
+     "comando": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Some sem sobreposição",
+      "command": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-2",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-3",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-4",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-1",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "number",
+     "titulo": "Some sem sobreposição",
+     "comando": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Some sem sobreposição",
+      "command": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-2",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-3",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-4",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-1",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "number",
+     "titulo": "Some sem sobreposição",
+     "comando": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Some sem sobreposição",
+      "command": "Quantos minutos foram usados na preparação e na produção juntas? Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-2",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-3",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-4",
+     "rota": "exemplos",
+     "caso": "Somar partes sem repetir",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Somar partes sem repetir."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-1",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "number",
+     "titulo": "Descubra a sobra",
+     "comando": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Descubra a sobra",
+      "command": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-2",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-3",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-4",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-1",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "number",
+     "titulo": "Descubra a sobra",
+     "comando": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Descubra a sobra",
+      "command": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-2",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-3",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-4",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-1",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "number",
+     "titulo": "Descubra a sobra",
+     "comando": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Descubra a sobra",
+      "command": "Quantos minutos sobram depois da preparação e da produção? Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-2",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-3",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-4",
+     "rota": "exemplos",
+     "caso": "Encontrar o que resta",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Encontrar o que resta.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Encontrar o que resta."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-1",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-2",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Localize o erro",
+     "comando": "Veja uma solução que fez 144 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Localize o erro",
+      "command": "Veja uma solução que fez 144 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-3",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-4",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-1",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-2",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Localize o erro",
+     "comando": "Veja uma solução que fez 148 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Localize o erro",
+      "command": "Veja uma solução que fez 148 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-3",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-4",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-1",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-2",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Localize o erro",
+     "comando": "Veja uma solução que fez 152 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Localize o erro",
+      "command": "Veja uma solução que fez 152 × 4 para achar um quarto. Separe as explicações corretas. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-3",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-4",
+     "rota": "exemplos",
+     "caso": "Explicar um erro",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Explicar um erro.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Explicar um erro."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-1",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-2",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "match",
+     "titulo": "Confira por duas representações",
+     "comando": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Confira por duas representações",
+      "command": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-3",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-4",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-1",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-2",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "match",
+     "titulo": "Confira por duas representações",
+     "comando": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Confira por duas representações",
+      "command": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-3",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-4",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-1",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-2",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "match",
+     "titulo": "Confira por duas representações",
+     "comando": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Confira por duas representações",
+      "command": "Ligue cada expressão à representação que mostra a mesma quantidade. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-3",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "order",
+     "titulo": "Planeje a resolução",
+     "comando": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Planeje a resolução",
+      "command": "Coloque na ordem: uma resolução para descobrir a sobra. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-4",
+     "rota": "exemplos",
+     "caso": "Conferir por outro caminho",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Conferir por outro caminho."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-1",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-2",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-3",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "order",
+     "titulo": "Escreva uma explicação curta",
+     "comando": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Escreva uma explicação curta",
+      "command": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-4",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-1",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-2",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-3",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "order",
+     "titulo": "Escreva uma explicação curta",
+     "comando": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Escreva uma explicação curta",
+      "command": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-2-4",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-1",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "number",
+     "titulo": "Calcule uma parte",
+     "comando": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Calcule uma parte",
+      "command": "Quantos minutos são 1/4 da oficina? Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-2",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "match",
+     "titulo": "Ligue as partes ao significado",
+     "comando": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Ligue as partes ao significado",
+      "command": "Ligue cada informação à pergunta que ela responde. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-3",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "order",
+     "titulo": "Escreva uma explicação curta",
+     "comando": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Escreva uma explicação curta",
+      "command": "Coloque na ordem: as informações de uma explicação curta curta. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-3-4",
+     "rota": "exemplos",
+     "caso": "Aplicar e escrever a síntese",
+     "kind": "sort",
+     "titulo": "Revise as conclusões",
+     "comando": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese.",
+     "antes": {
+      "title": "Revise as conclusões",
+      "command": "Separe as explicações que representam o problema. Caso: Aplicar e escrever a síntese."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    }
+   ]
+  }
+ },
+ "total": {
+  "atividades": 384,
+  "bloqueado": 0,
+  "revisao_humana": 4,
+  "aprovado_automatico": 380
+ }
+}

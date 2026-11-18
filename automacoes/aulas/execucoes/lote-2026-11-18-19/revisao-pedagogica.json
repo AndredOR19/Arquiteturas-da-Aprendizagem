@@ -1,0 +1,14 @@
+{
+  "fontes": {
+    "historia_192": "Plano do 3º trimestre, semana 16–19/11: abertura, Diretas Já e transição democrática. Aula existente reutilizada sem alterar sessões.",
+    "praticas_162": "162 - 3º tri - Plano de aula (1).docx: semanas 9–10, nomenclatura de frações e trilha de potências/raízes; rótulo interno de trimestre divergente. Consolidação proposta para 19/11.",
+    "praticas_171": "Tema previamente informado pelo professor: EF07MA36, pesquisa e gráficos. Novo material; último aplicado não presumido.",
+    "estudos_172": "Oficina do tempo já publicada para 18/11; comparação de estratégias e revisão de erro proposta para 19/11.",
+    "horario": "Confirmado diretamente pelo professor nesta sessão: cinco encontros de dois períodos."
+  },
+  "producao": "automacoes/aulas/gerar.py → estacao/orquestrar_aulas.py → estacao/produzir.py, Biblioteca 0d2464443e7fc36a2262cea5dbd4f969d1734ea4",
+  "revisao_linguagem": "Quatro avisos com generalizar em cartão de relatório. Termo usado no sentido de estender conclusões além do grupo; texto explicita que não se pode afirmar resultado para toda a cidade. Avisos revisados; observação em sala pendente.",
+  "inclusao": "48 letras + 24 palavras + 24 frases; 96 frases opcionais separadas. Letras iniciais e vocabulário escolar retomados com finalidade explícita de discriminação, montagem e uso em frases; não se declara ineditismo de cada palavra.",
+  "pdf": "Arquivos discentes renderizados; PDF docente separado, somente exposição, sem guias ou dados de estudantes no público.",
+  "aplicacao": "planejada_nao_confirmada"
+}

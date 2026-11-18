@@ -1,10 +1,9 @@
 {
-  "pedido": "insumos-aulas/pedido.json",
+  "pedido": "automacoes/aulas/pedidos/2026-11-18-19.json",
   "estado": "revisao_pendente",
   "artefatos": [
-    "aulas/cidadania-direitos-e-participacao-3serie",
-    "aulas/leitura-tabelas-e-sintese-8ano",
-    "aulas/herancas-africanas-cotidiano-9ano",
-    "aulas/planejar-resolver-conferir-7ano"
+    "aulas/potencias-raizes-e-arranjos-6ano",
+    "aulas/pesquisa-do-registro-a-conclusao-7ano",
+    "aulas/comparar-estrategias-e-revisar-7ano"
   ]
 }

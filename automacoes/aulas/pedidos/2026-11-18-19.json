@@ -1,0 +1,40 @@
+{
+  "id": "lote-2026-11-18-19",
+  "data": "2026-11-19",
+  "aulas": [
+    {
+      "id": "potencias-raizes-e-arranjos-6ano",
+      "turma": "162",
+      "tema": "Oficina dos quadrados",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "periodos": 2,
+      "conteudo": "_biblioteca_privada/insumos/potencias-raizes-e-arranjos-6ano.json",
+      "documentos_base": [
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    },
+    {
+      "id": "pesquisa-do-registro-a-conclusao-7ano",
+      "turma": "171",
+      "tema": "Da pesquisa à conclusão",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "periodos": 2,
+      "conteudo": "_biblioteca_privada/insumos/pesquisa-do-registro-a-conclusao-7ano.json",
+      "documentos_base": [
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    },
+    {
+      "id": "comparar-estrategias-e-revisar-7ano",
+      "turma": "172",
+      "tema": "Duas estratégias, uma resposta",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "periodos": 2,
+      "conteudo": "_biblioteca_privada/insumos/comparar-estrategias-e-revisar-7ano.json",
+      "documentos_base": [
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    }
+  ],
+  "observacao": "Complementa Oficina do tempo (18/11 172) e Vozes nas ruas, voto em disputa (19/11 192). Horário confirmado nesta sessão. Aplicação anterior não presumida."
+}

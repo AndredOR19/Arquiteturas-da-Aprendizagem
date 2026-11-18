@@ -131,6 +131,51 @@
         "Confirmação dos destinos públicos e QR após implantação; não equivale a homologação."
       ],
       "verificacao_tecnica": "automacoes/aulas/execucoes/lote-2026-11-17-18/evidencias/verificacao.json"
+    },
+    {
+      "aula": "potencias-raizes-e-arranjos-6ano",
+      "destino": "aulas/potencias-raizes-e-arranjos-6ano",
+      "pacote_sha256": "7bfd2ce694c922a7bc65d1d03c9f711cdd8661e653925ff0fc43a5730b4992e8",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou aulas de 18 e 19/11 com links e confirmou o horário; reiterou uso da Biblioteca de Diagramação nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-18-19/linguagem/relatorio.json",
+      "pendencias": [
+        "Observação com estudantes e teste em celular/Chromebook físico não realizados.",
+        "Conferência visual interativa em navegador remoto após a publicação; teste local de Chromium bloqueado por restrição de sockets.",
+        "O plano da 162 rotula internamente 2º trimestre; recorte de consolidação de potências/raízes de 13/11, sem afirmar aplicação prévia.",
+        "Plano específico atual da 171 e de Estudos Orientados não localizado; fonte temática anterior e BNCC conferidas."
+      ],
+      "verificacao_tecnica": "384 tarefas principal/exemplos e 576 associações/frases verificadas em DOM; PDFs renderizados. Não equivale a homologação."
+    },
+    {
+      "aula": "pesquisa-do-registro-a-conclusao-7ano",
+      "destino": "aulas/pesquisa-do-registro-a-conclusao-7ano",
+      "pacote_sha256": "128841831b21fdf9ad548c25c4a23d8596ceabbf1462540440fdfbf55b32138a",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou aulas de 18 e 19/11 com links e confirmou o horário; reiterou uso da Biblioteca de Diagramação nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-18-19/linguagem/relatorio.json",
+      "pendencias": [
+        "Observação com estudantes e teste em celular/Chromebook físico não realizados.",
+        "Conferência visual interativa em navegador remoto após a publicação; teste local de Chromium bloqueado por restrição de sockets.",
+        "O plano da 162 rotula internamente 2º trimestre; recorte de consolidação de potências/raízes de 13/11, sem afirmar aplicação prévia.",
+        "Plano específico atual da 171 e de Estudos Orientados não localizado; fonte temática anterior e BNCC conferidas."
+      ],
+      "verificacao_tecnica": "384 tarefas principal/exemplos e 576 associações/frases verificadas em DOM; PDFs renderizados. Não equivale a homologação."
+    },
+    {
+      "aula": "comparar-estrategias-e-revisar-7ano",
+      "destino": "aulas/comparar-estrategias-e-revisar-7ano",
+      "pacote_sha256": "873b6d186e4545b02e289b7f40d1d79e8e974743e1973fe6bc2f0e5a9c9751a1",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "Prof. André solicitou aulas de 18 e 19/11 com links e confirmou o horário; reiterou uso da Biblioteca de Diagramação nesta sessão.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-18-19/linguagem/relatorio.json",
+      "pendencias": [
+        "Observação com estudantes e teste em celular/Chromebook físico não realizados.",
+        "Conferência visual interativa em navegador remoto após a publicação; teste local de Chromium bloqueado por restrição de sockets.",
+        "O plano da 162 rotula internamente 2º trimestre; recorte de consolidação de potências/raízes de 13/11, sem afirmar aplicação prévia.",
+        "Plano específico atual da 171 e de Estudos Orientados não localizado; fonte temática anterior e BNCC conferidas."
+      ],
+      "verificacao_tecnica": "384 tarefas principal/exemplos e 576 associações/frases verificadas em DOM; PDFs renderizados. Não equivale a homologação."
     }
   ]
 }

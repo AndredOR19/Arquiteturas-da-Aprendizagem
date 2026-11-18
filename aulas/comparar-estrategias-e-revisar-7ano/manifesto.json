@@ -1,0 +1,139 @@
+{
+  "projeto": "comparar-estrategias-e-revisar-7ano",
+  "titulo": "Duas estratégias, uma resposta",
+  "status": "adaptada_testes_em_revisao",
+  "motor": "estacao/produzir.py - tipo aula-gei",
+  "biblioteca_origem": "0d2464443e7fc36a2262cea5dbd4f969d1734ea4",
+  "rotas": {
+    "principal": 32,
+    "exemplos": 96,
+    "apoio": 96
+  },
+  "arquivos": [
+    {
+      "arquivo": "LICENCAS.md",
+      "bytes": 469,
+      "sha256": "4d0489e05013fe4ce1e446827edad589c9174bbf4f4644c6458e9d744cbcd325"
+    },
+    {
+      "arquivo": "apoio/apoio.css",
+      "bytes": 2680,
+      "sha256": "e606cffbf5734faea07f1ae624303b74f7c843772aeddcf4c84fceb429783b02"
+    },
+    {
+      "arquivo": "apoio/apoio.js",
+      "bytes": 9837,
+      "sha256": "fd25f1adf967a57844623fb96cfe217ac8b0fbf858876c083fa30e27a8eb7f03"
+    },
+    {
+      "arquivo": "apoio/banco.json",
+      "bytes": 335090,
+      "sha256": "f73e82e968ff9cba770ddf7c9233394f84c2cbeef5d33aa2ac772352b29d6381"
+    },
+    {
+      "arquivo": "apoio/index.html",
+      "bytes": 234780,
+      "sha256": "94c05e3edadcb4bb7f2c834bab3637a2f435c75dbab984ba0fae83bc1e02ec01"
+    },
+    {
+      "arquivo": "apoio/tema.css",
+      "bytes": 2221,
+      "sha256": "a6885c9c58cc5b877249bf9dc89c981694e6600e60970a5303a70b645222a899"
+    },
+    {
+      "arquivo": "apoio-leitura.pdf",
+      "bytes": 249488,
+      "sha256": "78cfa3ed93690c1a393fe24e66dc99cd3436b75d223219de1db16bb61b1ec2b0"
+    },
+    {
+      "arquivo": "assets/apoio-relacional.js",
+      "bytes": 148,
+      "sha256": "9c0c9b2eb73fa6c5d621646104df29a930d1cd8d050912610ad1815f834340e9"
+    },
+    {
+      "arquivo": "assets/aula.css",
+      "bytes": 11113,
+      "sha256": "ae5937ac753a1f5e0cbf4167a79ba6dff4537726d3755ec3f81b424431eef6a8"
+    },
+    {
+      "arquivo": "assets/aula.js",
+      "bytes": 42693,
+      "sha256": "c62b12e8572b7eb47b4101f530684cf04937d8d52af7d781dab5a57671833849"
+    },
+    {
+      "arquivo": "assets/cenario.png",
+      "bytes": 24107,
+      "sha256": "ed8664622ce1d75b42994d749d469e7e66656143af4170e64a7ac736563ff1eb"
+    },
+    {
+      "arquivo": "assets/cidade.css",
+      "bytes": 4769,
+      "sha256": "8d9aa2f33109cb265b53af9e1203d57f756bbce389e5712715b4d751a9c6cca7"
+    },
+    {
+      "arquivo": "assets/clareza.css",
+      "bytes": 4675,
+      "sha256": "21568bf80112d9971376681d77a752f9fda5bc0037b4266f75054f2dc4c636c4"
+    },
+    {
+      "arquivo": "assets/clareza.js",
+      "bytes": 39103,
+      "sha256": "6ba33f137403744506dc9bc0115aa6b3a63065222190f7dfc0183bfa60921fc2"
+    },
+    {
+      "arquivo": "assets/complementos.js",
+      "bytes": 17324,
+      "sha256": "949f494621806121e12f217f3c92d1c366b15cb31fce691198456483c6f67c92"
+    },
+    {
+      "arquivo": "assets/conteudo.js",
+      "bytes": 394875,
+      "sha256": "44161091bef62db9d91ad46af716f63ccbb7c844e66afcfa8156fdf836f865c9"
+    },
+    {
+      "arquivo": "assets/gei.css",
+      "bytes": 3231,
+      "sha256": "4e4f4fb5af8d4a7c12e1f97984ed536d86debd219f2fa1d3781887fd76110ff2"
+    },
+    {
+      "arquivo": "assets/gei.js",
+      "bytes": 8792,
+      "sha256": "3fbf05aedd44cd01b4f75f3961717107460519b926d7b4b3ff93aa825f2910ce"
+    },
+    {
+      "arquivo": "assets/marcadores.png",
+      "bytes": 642,
+      "sha256": "becb9f75087e9f0f3b430c672117c1b5f53d4316933bbbd696b156bd5ba88995"
+    },
+    {
+      "arquivo": "assets/missoes.js",
+      "bytes": 946,
+      "sha256": "1c1e75649fdbefa51711c1e86606c6a8d4cebcaa16e00cc43b4262dcc4b591af"
+    },
+    {
+      "arquivo": "assets/representacoes.js",
+      "bytes": 5361,
+      "sha256": "2abfade2644d120c2ec6b039d2fcec1057d83b40d0fe23d4a14b910fdfe8b058"
+    },
+    {
+      "arquivo": "assets/solo-lab.js",
+      "bytes": 2657,
+      "sha256": "7118f6327d91c423e0c7120f1ca2a1b048bb17c22ef54c479b51db856ced2c0a"
+    },
+    {
+      "arquivo": "aula-impressa.pdf",
+      "bytes": 180863,
+      "sha256": "d8c44a4daf22397f315eb6d02b80ef0f1735fd3b9d4ccee3e9e597c9a51328e2"
+    },
+    {
+      "arquivo": "exemplos.pdf",
+      "bytes": 117327,
+      "sha256": "d7216c76320ab3655b96afc85f393ad9e58e5564ba08a2fce328be9878939aa5"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 7613,
+      "sha256": "f7728b53ec4660e5e2225f009c9ca757c8aa6d88a81a45d248e496bc368c57c2"
+    }
+  ]
+}
