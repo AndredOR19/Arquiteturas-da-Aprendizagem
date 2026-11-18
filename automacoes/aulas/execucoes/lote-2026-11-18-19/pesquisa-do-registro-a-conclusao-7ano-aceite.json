@@ -3,7 +3,7 @@
   "aula": "pesquisa-do-registro-a-conclusao-7ano",
   "estado": "revisao_pendente",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
-  "pacote_sha256": "128841831b21fdf9ad548c25c4a23d8596ceabbf1462540440fdfbf55b32138a",
+  "pacote_sha256": "62a6e78fbd37f0abf1226b7818494af7a303b62a6fdf3d692daffdf1802ee37a",
   "requisitos": {
     "curriculo_aee": {
       "estado": "pendente",

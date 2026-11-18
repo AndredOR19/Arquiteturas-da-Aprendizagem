@@ -135,7 +135,7 @@
     {
       "aula": "potencias-raizes-e-arranjos-6ano",
       "destino": "aulas/potencias-raizes-e-arranjos-6ano",
-      "pacote_sha256": "7bfd2ce694c922a7bc65d1d03c9f711cdd8661e653925ff0fc43a5730b4992e8",
+      "pacote_sha256": "7f23787dba62ac61993dfe5270668c6fd9557548c6cc77722d6d78f652c9a61c",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "Prof. André solicitou aulas de 18 e 19/11 com links e confirmou o horário; reiterou uso da Biblioteca de Diagramação nesta sessão.",
       "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-18-19/linguagem/relatorio.json",
@@ -150,7 +150,7 @@
     {
       "aula": "pesquisa-do-registro-a-conclusao-7ano",
       "destino": "aulas/pesquisa-do-registro-a-conclusao-7ano",
-      "pacote_sha256": "128841831b21fdf9ad548c25c4a23d8596ceabbf1462540440fdfbf55b32138a",
+      "pacote_sha256": "62a6e78fbd37f0abf1226b7818494af7a303b62a6fdf3d692daffdf1802ee37a",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "Prof. André solicitou aulas de 18 e 19/11 com links e confirmou o horário; reiterou uso da Biblioteca de Diagramação nesta sessão.",
       "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-18-19/linguagem/relatorio.json",
@@ -165,7 +165,7 @@
     {
       "aula": "comparar-estrategias-e-revisar-7ano",
       "destino": "aulas/comparar-estrategias-e-revisar-7ano",
-      "pacote_sha256": "873b6d186e4545b02e289b7f40d1d79e8e974743e1973fe6bc2f0e5a9c9751a1",
+      "pacote_sha256": "e1a135b1fb9be2435bb1cf3a6cd655fc9c36ab1b556ea421dfea747499a039a1",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "Prof. André solicitou aulas de 18 e 19/11 com links e confirmou o horário; reiterou uso da Biblioteca de Diagramação nesta sessão.",
       "linguagem_relatorio": "automacoes/aulas/execucoes/lote-2026-11-18-19/linguagem/relatorio.json",

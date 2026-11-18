@@ -3,7 +3,7 @@
   "aula": "comparar-estrategias-e-revisar-7ano",
   "estado": "revisao_pendente",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
-  "pacote_sha256": "873b6d186e4545b02e289b7f40d1d79e8e974743e1973fe6bc2f0e5a9c9751a1",
+  "pacote_sha256": "e1a135b1fb9be2435bb1cf3a6cd655fc9c36ab1b556ea421dfea747499a039a1",
   "requisitos": {
     "curriculo_aee": {
       "estado": "pendente",

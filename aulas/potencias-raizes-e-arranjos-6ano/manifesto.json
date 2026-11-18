@@ -57,8 +57,8 @@
     },
     {
       "arquivo": "assets/aula.js",
-      "bytes": 42693,
-      "sha256": "c62b12e8572b7eb47b4101f530684cf04937d8d52af7d781dab5a57671833849"
+      "bytes": 42611,
+      "sha256": "c7d7311ab18d119dad05e8ad67fca78c6949ab9f4ecaf55fcf5dd5ad18bba571"
     },
     {
       "arquivo": "assets/cenario.png",
@@ -135,5 +135,6 @@
       "bytes": 7595,
       "sha256": "cf5158ecc8addb0111cd013793a2a1cd5f5286a4123ada303e359b2299d122a1"
     }
-  ]
+  ],
+  "biblioteca_correcao": "bc0f9bdd60511afe9dcee8c425324658299df786"
 }

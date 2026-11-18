@@ -3,7 +3,7 @@
   "aula": "potencias-raizes-e-arranjos-6ano",
   "estado": "revisao_pendente",
   "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
-  "pacote_sha256": "7bfd2ce694c922a7bc65d1d03c9f711cdd8661e653925ff0fc43a5730b4992e8",
+  "pacote_sha256": "7f23787dba62ac61993dfe5270668c6fd9557548c6cc77722d6d78f652c9a61c",
   "requisitos": {
     "curriculo_aee": {
       "estado": "pendente",
