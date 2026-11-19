@@ -2251,6 +2251,62 @@
           "Duas estratégias, uma resposta"
         ]
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/expedicao-rochas-e-fosseis-6ano",
+      "destino": "aulas/expedicao-rochas-e-fosseis-6ano",
+      "titulo": "Expedição: as histórias das rochas",
+      "contrato_entrega": "3.8.0",
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais em Ciências e Matemática"
+        ],
+        "series": [
+          "6º ano"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Relacionar os três grupos de rochas aos seus processos de formação e explicar por que fósseis são encontrados principalmente em rochas sedimentares.",
+        "titulo_exibicao": "Expedição: as histórias das rochas",
+        "palavras_chave": [
+          "Expedição: as histórias das rochas"
+        ]
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "laboratorios/expedicao-rochas-6ano",
+      "destino": "laboratorios/expedicao-rochas-6ano",
+      "titulo": "Expedição pelas rochas · 6º ano",
+      "interface_autonoma": true,
+      "portal": {
+        "ano_letivo": null,
+        "categoria": "laboratorio",
+        "componentes": [
+          "Práticas Experimentais em Ciências e Matemática"
+        ],
+        "series": [
+          "6º ano"
+        ],
+        "turmas": [],
+        "escola": "ETE Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "descricao": "Exploração 2D ilustrada de vulcão, rio, montanha e laboratório, com áudio e acesso aos percursos de rochas e fósseis.",
+        "titulo_exibicao": "Expedição pelas rochas · 6º ano",
+        "palavras_chave": [
+          "Rochas",
+          "Fósseis",
+          "Magmáticas",
+          "Sedimentares",
+          "Metamórficas",
+          "Imersiva"
+        ],
+        "acesso": "aberto"
+      }
     }
   ]
 }

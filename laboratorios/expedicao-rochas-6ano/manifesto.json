@@ -1,0 +1,62 @@
+{
+  "projeto": "projetos/expedicao-rochas-6ano",
+  "titulo": "Expedição pelas rochas",
+  "status": "rascunho",
+  "arquivos": [
+    {
+      "arquivo": "assets/recursos/1a63a967460fd657f3e7e5f41ec800d484b3472870aabcc0804899be5694ffe1.png",
+      "bytes": 17146,
+      "sha256": "1a63a967460fd657f3e7e5f41ec800d484b3472870aabcc0804899be5694ffe1"
+    },
+    {
+      "arquivo": "assets/recursos/87cabc5d643f96941736adc456df5099f249c01ea4597d9fe9fbd9e0bf80374f.png",
+      "bytes": 17972,
+      "sha256": "87cabc5d643f96941736adc456df5099f249c01ea4597d9fe9fbd9e0bf80374f"
+    },
+    {
+      "arquivo": "assets/recursos/8e948d1389f0a9643a6ccb8e0de20fcba64b68f8993599a0a423c4f26b5a619f.png",
+      "bytes": 12938,
+      "sha256": "8e948d1389f0a9643a6ccb8e0de20fcba64b68f8993599a0a423c4f26b5a619f"
+    },
+    {
+      "arquivo": "assets/recursos/a2457d4103607cc9155fd44f5d63e610be85ea267a573cdac8b39e93d3de4f53.png",
+      "bytes": 21733,
+      "sha256": "a2457d4103607cc9155fd44f5d63e610be85ea267a573cdac8b39e93d3de4f53"
+    },
+    {
+      "arquivo": "cenas/laboratorio.html",
+      "bytes": 5422,
+      "sha256": "f5decdd9d273c2c32bf89fceaa487ec9746b8bcfe8f08e5f8e460e5d38730dcc"
+    },
+    {
+      "arquivo": "cenas/montanha.html",
+      "bytes": 5103,
+      "sha256": "c7050eff8455bb09e789c0109138d1bdd1480df2be9d22b23548f926c6d15dc8"
+    },
+    {
+      "arquivo": "cenas/rio.html",
+      "bytes": 5424,
+      "sha256": "fce41edf94859621558b65f571ea79e95b4b10a353feaec9d0167f291b59100a"
+    },
+    {
+      "arquivo": "cenas/vulcao.html",
+      "bytes": 5028,
+      "sha256": "551ebc120a9a8bf7c0c065d0a4646fd4e1bfb10030aa685d742d492bafa041ba"
+    },
+    {
+      "arquivo": "index.html",
+      "bytes": 998,
+      "sha256": "8c9052701e5ad70b3284efa847883b1ace9af442be87a81dc6bc138d8db67bf6"
+    },
+    {
+      "arquivo": "producao-eie.json",
+      "bytes": 262,
+      "sha256": "d5675dca9350d602f8361634893f4462c828117c48fb2515ca31d3dce3b54e1b"
+    },
+    {
+      "arquivo": "style.css",
+      "bytes": 1574,
+      "sha256": "dd1c4fef88d562552a29fa2be087eac2ce68734e4d34bcf9fdcd214f8187a406"
+    }
+  ]
+}

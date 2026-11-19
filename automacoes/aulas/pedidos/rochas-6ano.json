@@ -1,0 +1,18 @@
+{
+  "id": "substituicao-rochas-6ano-20261119",
+  "data": "2026-11-19",
+  "aulas": [
+    {
+      "id": "expedicao-rochas-e-fosseis-6ano",
+      "turma": "161",
+      "tema": "Expedição: as histórias das rochas",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "periodos": 2,
+      "conteudo": "_biblioteca_privada/insumos/expedicao-rochas-e-fosseis-6ano.json",
+      "documentos_base": [
+        "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+      ]
+    }
+  ],
+  "observacao": "Substituição confirmada pelo professor. Duração em dois períodos é proposta ajustável, não informação do horário."
+}

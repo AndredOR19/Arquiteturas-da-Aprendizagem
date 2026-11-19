@@ -1,0 +1,31 @@
+{
+  "aula": "expedicao-rochas-e-fosseis-6ano",
+  "serie": "6º ano",
+  "planejamento_lido": "161 - 3º tri - Plano de aula(1).docx; EF06CI12; conteúdo confirmado pelo professor",
+  "motor_base": "125265aad29289990153ea1d63dcc92ba43a5fb0",
+  "verificacoes": [
+    "Orquestrador e compilador centrais executados",
+    "128 tarefas curriculares e 192 tarefas inclusivas concluídas em jsdom",
+    "Sem bloqueios no validador de linguagem",
+    "PDFs renderizados; amostras inicial, intermediária e final inspecionadas",
+    "Cenas validadas pelo modelo EIE; links relativos preservam base do Pages e Vercel"
+  ],
+  "revisao_avisos": "Termos rocha, lava e evidência são conteúdo da aula e estão explicados no contexto. Não são obstáculos no comando.",
+  "limites": [
+    "Cenários 2D ilustrados, sem escala; não são 3D nem fotos de lugares reais.",
+    "Relatório das atividades não registra automaticamente a visita às cenas.",
+    "Teste em aparelhos físicos da escola e observação da compreensão em sala pendentes."
+  ],
+  "aee": {
+    "ancora": "Tipos de rocha e fósseis",
+    "mecanica": "Relacionar processos de formação a pistas observáveis",
+    "circuito": [
+      "Vulcão",
+      "Rio",
+      "Montanha",
+      "Laboratório"
+    ],
+    "dialetica": "Evitar classificar só pela cor; exigir uma pista e sua relação com a formação."
+  },
+  "pacote_sha256": "4a2dae90ffac381fbcecc00fcd4d0da574c188c1d4d330ddf98205366a93228d"
+}

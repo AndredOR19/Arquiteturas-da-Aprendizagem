@@ -1,0 +1,39 @@
+{
+  "estado": "revisao_pendente",
+  "prompt_sha256": "01a5241bfba488aec450acd0e8819b495dfa49726f884e33762ce95397498275",
+  "politica": "3.9.0",
+  "aulas": [
+    {
+      "id": "expedicao-rochas-e-fosseis-6ano",
+      "destino": "aulas/expedicao-rochas-e-fosseis-6ano",
+      "recibo": "automacoes/aulas/execucoes/substituicao-rochas-6ano-20261119/expedicao-rochas-e-fosseis-6ano-aceite.json",
+      "estado": "revisao_pendente",
+      "catalogo": {
+        "tipo": "html",
+        "origem": "aulas/expedicao-rochas-e-fosseis-6ano",
+        "destino": "aulas/expedicao-rochas-e-fosseis-6ano",
+        "titulo": "Expedição: as histórias das rochas",
+        "contrato_entrega": "3.8.0",
+        "portal": {
+          "ano_letivo": null,
+          "categoria": "aula",
+          "componentes": [
+            "Práticas Experimentais em Ciências e Matemática"
+          ],
+          "series": [
+            "6º ano"
+          ],
+          "turmas": [],
+          "escola": "ETE Bernardina Rodrigues Padilha",
+          "escola_curta": "Bernardina",
+          "descricao": "Relacionar os três grupos de rochas aos seus processos de formação e explicar por que fósseis são encontrados principalmente em rochas sedimentares.",
+          "titulo_exibicao": "Expedição: as histórias das rochas",
+          "palavras_chave": [
+            "Expedição: as histórias das rochas"
+          ]
+        }
+      }
+    }
+  ],
+  "publicacao": "bloqueada até evidências de todas as exigências; nenhum cadastro público automático"
+}

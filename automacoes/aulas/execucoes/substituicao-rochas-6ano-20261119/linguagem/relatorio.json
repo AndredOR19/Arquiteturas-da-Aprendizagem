@@ -1,0 +1,2136 @@
+{
+ "protocolo": "linguagem-clara-3.9",
+ "gerado_em": "2026-11-19T12:23:37.839692+00:00",
+ "criterios": {
+  "bloqueios": [
+   "rotulo_interno_visivel",
+   "jargao_no_comando",
+   "pergunta_vazia",
+   "comando_sem_acao",
+   "exemplo_ausente",
+   "exemplo_do_proprio_caso",
+   "situacao_ausente"
+  ],
+  "avisos": [
+   "frase_longa",
+   "jargao_no_conteudo",
+   "palavra_dificil_alem_do_glossario",
+   "muitas_opcoes",
+   "opcao_longa"
+  ]
+ },
+ "limite": "Filtro preliminar. Ausência de alerta não comprova compreensão; exige revisão humana e observação com estudantes.",
+ "aulas": {
+  "expedicao-rochas-e-fosseis-6ano": {
+   "titulo": "Expedição: as histórias das rochas",
+   "revisao": "clareza-2",
+   "conteudo_sha256": "9daffe6b6d062e26b719d161413096bc8b4d32d45333a166812c3caabdb960a8",
+   "clareza_sha256": "6ba33f137403744506dc9bc0115aa6b3a63065222190f7dfc0183bfa60921fc2",
+   "abertura": "Relacionar os três grupos de rochas aos seus processos de formação e explicar por que fósseis são encontrados principalmente em rochas sedimentares.",
+   "atividades": 128,
+   "bloqueios": 0,
+   "avisos": 24,
+   "bloqueado": 0,
+   "revisao_humana": 16,
+   "aprovado_automatico": 112,
+   "regras": {
+    "aviso:jargao_no_conteudo": 8,
+    "aviso:palavra_dificil_alem_do_glossario": 16
+   },
+   "itens": [
+    {
+     "id": "p-1-0-1",
+     "rota": "principal",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-2",
+     "rota": "principal",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-3",
+     "rota": "principal",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-1-0-4",
+     "rota": "principal",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-1",
+     "rota": "principal",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-2",
+     "rota": "principal",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-3",
+     "rota": "principal",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-2-0-4",
+     "rota": "principal",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-1",
+     "rota": "principal",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-2",
+     "rota": "principal",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-3",
+     "rota": "principal",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-3-0-4",
+     "rota": "principal",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-1",
+     "rota": "principal",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-2",
+     "rota": "principal",
+     "caso": "No rio: do grão à rocha",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-3",
+     "rota": "principal",
+     "caso": "No rio: do grão à rocha",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-4-0-4",
+     "rota": "principal",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-1",
+     "rota": "principal",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-2",
+     "rota": "principal",
+     "caso": "Camadas e fósseis",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-3",
+     "rota": "principal",
+     "caso": "Camadas e fósseis",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-5-0-4",
+     "rota": "principal",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-1",
+     "rota": "principal",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-2",
+     "rota": "principal",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-3",
+     "rota": "principal",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-6-0-4",
+     "rota": "principal",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-1",
+     "rota": "principal",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-2",
+     "rota": "principal",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-3",
+     "rota": "principal",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-7-0-4",
+     "rota": "principal",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "p-8-0-1",
+     "rota": "principal",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha",
+        "lava"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "p-8-0-2",
+     "rota": "principal",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "p-8-0-3",
+     "rota": "principal",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "p-8-0-4",
+     "rota": "principal",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-1-1-1",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-2",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-3",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-1-4",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-1",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-2",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-3",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-2-4",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-1",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-2",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-3",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-1-3-4",
+     "rota": "exemplos",
+     "caso": "Uma rocha guarda pistas",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-1",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-2",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-3",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-1-4",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-1",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-2",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-3",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-2-4",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-1",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-2",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-3",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-2-3-4",
+     "rota": "exemplos",
+     "caso": "No vulcão: resfriar e solidificar",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-1",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-2",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-3",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-1-4",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-1",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-2",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-3",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-2-4",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-1",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-2",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-3",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-3-3-4",
+     "rota": "exemplos",
+     "caso": "Cristais e tempo de resfriamento",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-1",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-2",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-3",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-1-4",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-1",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-2",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-3",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-2-4",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-1",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-2",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-3",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-4-3-4",
+     "rota": "exemplos",
+     "caso": "No rio: do grão à rocha",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-1",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-2",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-3",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-1-4",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-1",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-2",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-3",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-2-4",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-1",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-2",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-3",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-5-3-4",
+     "rota": "exemplos",
+     "caso": "Camadas e fósseis",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-1",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-2",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-3",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-1-4",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-1",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-2",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-3",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-2-4",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-1",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-2",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-3",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-6-3-4",
+     "rota": "exemplos",
+     "caso": "Na montanha: transformar sem derreter",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-1",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-2",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-3",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-1-4",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-1",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-2",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-3",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-2-4",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-1",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-2",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-3",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-7-3-4",
+     "rota": "exemplos",
+     "caso": "O ciclo tem caminhos diferentes",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+     },
+     "estado": "aprovado_automatico",
+     "bloqueios": [],
+     "avisos": []
+    },
+    {
+     "id": "e-8-1-1",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha",
+        "lava"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-1-2",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha",
+        "lava"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-1-3",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha",
+        "lava"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-1-4",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-2-1",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-2-2",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-2-3",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-2-4",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha",
+        "lava"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-3-1",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Relacione as pistas",
+     "comando": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Relacione as pistas",
+      "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-3-2",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "sort",
+     "titulo": "Confira a explicação",
+     "comando": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Confira a explicação",
+      "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-3-3",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "order",
+     "titulo": "Reconstrua o processo",
+     "comando": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Reconstrua o processo",
+      "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-8-3-4",
+     "rota": "exemplos",
+     "caso": "Laboratório: evidência antes do nome",
+     "kind": "match",
+     "titulo": "Explique com evidências",
+     "comando": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome.",
+     "antes": {
+      "title": "Explique com evidências",
+      "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+     },
+     "estado": "revisao_humana",
+     "bloqueios": [],
+     "avisos": [
+      {
+       "regra": "jargao_no_conteudo",
+       "detalhe": [
+        "evidência"
+       ]
+      },
+      {
+       "regra": "palavra_dificil_alem_do_glossario",
+       "detalhe": [
+        "rocha",
+        "lava"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "total": {
+  "atividades": 128,
+  "bloqueado": 0,
+  "revisao_humana": 16,
+  "aprovado_automatico": 112
+ }
+}

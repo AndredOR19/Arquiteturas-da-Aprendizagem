@@ -176,6 +176,19 @@
         "Plano específico atual da 171 e de Estudos Orientados não localizado; fonte temática anterior e BNCC conferidas."
       ],
       "verificacao_tecnica": "384 tarefas principal/exemplos e 576 associações/frases verificadas em DOM; PDFs renderizados. Não equivale a homologação."
+    },
+    {
+      "aula": "expedicao-rochas-e-fosseis-6ano",
+      "destino": "aulas/expedicao-rochas-e-fosseis-6ano",
+      "pacote_sha256": "4a2dae90ffac381fbcecc00fcd4d0da574c188c1d4d330ddf98205366a93228d",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "19/11/2026: substituição na turma 161, sexto ano; criar aula imersiva sobre rochas, no contexto de entrega de links das aulas.",
+      "linguagem_relatorio": "automacoes/aulas/execucoes/substituicao-rochas-6ano-20261119/linguagem/relatorio.json",
+      "pendencias": [
+        "Teste em aparelhos físicos da escola e observação da compreensão em sala.",
+        "A exploração 2D abre percursos por links; visitas às cenas não são unificadas no relatório das atividades."
+      ],
+      "verificacao_tecnica": "Orquestrador e compiladores centrais; 128 tarefas curriculares e 192 inclusivas em jsdom; zero bloqueios de linguagem; PDFs renderizados e amostras inspecionadas."
     }
   ]
 }

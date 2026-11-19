@@ -1,0 +1,1811 @@
+{
+ "aula": "expedicao-rochas-e-fosseis-6ano",
+ "kind": "science",
+ "dicionario": {
+  "perguntas": {
+   "dado": "📌 O que aconteceu?",
+   "relacao": "💡 Qual é a ideia que explica?",
+   "efeito": "➡️ O que resulta disso?",
+   "limite": "⚠️ Até onde vale a conclusão?"
+  },
+  "rotulos": {
+   "Dado observado": "📌 O que aconteceu?",
+   "Relação explicada": "💡 Qual é a ideia que explica?",
+   "Efeito ou resultado": "➡️ O que resulta disso?",
+   "Limite da conclusão": "⚠️ Até onde vale a conclusão?",
+   "O que não posso generalizar?": "⚠️ O que vale só para este caso?",
+   "Que conclusão cabe aqui?": "💡 O que dá para concluir?",
+   "Minha conclusão ficou ampla demais": "Minha conclusão foi longe demais",
+   "Não expliquei a ligação": "Não expliquei a ligação entre as ideias"
+  },
+  "grupos": {
+   "porTitulo": {
+    "Testar o alcance": [
+     "✔ É verdade neste caso",
+     "✘ Não dá para afirmar"
+    ],
+    "Comunicar sem extrapolar": [
+     "✔ Os dados mostram isso",
+     "✘ Os dados não mostram isso"
+    ],
+    "Distinguir observar e inventar": [
+     "✔ Observar com cuidado",
+     "✘ Inventar"
+    ],
+    "Validar a síntese do caso": [
+     "✔ Mostra que entendi",
+     "✘ Não mostra que entendi"
+    ],
+    "Conferir duas leituras": [
+     "✔ Combina com o caso",
+     "✘ Precisa corrigir"
+    ],
+    "Reconhecer uma extrapolação": [
+     "✔ Fica dentro do que sabemos",
+     "✘ Exagera, sem prova"
+    ]
+   },
+   "porRotulo": {
+    "Sustentado": "✔ Tem base nos dados",
+    "Não sustentado": "✘ Não dá para afirmar",
+    "Sustentado neste caso": "✔ É verdade neste caso",
+    "Compatível com o caso": "✔ Combina com o caso",
+    "Exige correção": "✘ Precisa corrigir",
+    "Mantém os limites": "✔ Fica dentro do que sabemos",
+    "Amplia sem evidência": "✘ Exagera, sem prova"
+   }
+  },
+  "prefixos": [
+   [
+    "Situar o caso ",
+    "1º — Apresento o caso: "
+   ],
+   [
+    "Apresentar o dado: ",
+    "2º — Digo o que aconteceu: "
+   ],
+   [
+    "Explicar a relação: ",
+    "3º — Explico a ideia: "
+   ],
+   [
+    "Delimitar a conclusão: ",
+    "4º — Digo até onde vale: "
+   ],
+   [
+    "Localizar a informação: ",
+    "Acho a informação: "
+   ],
+   [
+    "Conferir a ligação com a pergunta de ",
+    "Vejo se ela responde à pergunta de "
+   ],
+   [
+    "Comparar a interpretação com ",
+    "Comparo com a ideia: "
+   ],
+   [
+    "Registrar a restrição: ",
+    "Anoto o limite: "
+   ],
+   [
+    "Reconhecer a informação do caso: ",
+    "Começo pelo fato: "
+   ],
+   [
+    "Explicitar o critério de comparação de ",
+    "Digo como vou comparar "
+   ],
+   [
+    "Construir uma interpretação: ",
+    "Explico a ideia: "
+   ],
+   [
+    "Declarar o alcance: ",
+    "Digo até onde vale: "
+   ],
+   [
+    "Receber outra apresentação do mesmo caso",
+    "Vejo o mesmo caso contado de outro jeito"
+   ],
+   [
+    "Procurar nela uma informação equivalente a ",
+    "Procuro nela a mesma informação: "
+   ],
+   [
+    "Conferir se a relação ",
+    "Vejo se a ideia «"
+   ],
+   [
+    "Manter ou rever a conclusão explicitando ",
+    "Mantenho ou corrijo a conclusão, lembrando: "
+   ]
+  ],
+  "titulos": {
+   "Reconstruir o percurso": "Coloque os passos na ordem",
+   "Conectar dado e explicação": "Ligue cada pergunta à sua resposta",
+   "Testar o alcance": "Isso é verdade neste caso?",
+   "Preparar uma explicação": "Monte sua explicação em 4 passos",
+   "Conferir a coleta": "Conte as respostas",
+   "Construir a representação": "Monte o gráfico de barras",
+   "Recuperar o total": "Some tudo: qual é o total?",
+   "Comunicar sem extrapolar": "O que dá para afirmar com esses dados?",
+   "Montar uma comparação controlada": "Mude só uma coisa",
+   "Descrever as repetições": "Calcule a média",
+   "Conferir a variação": "Veja a diferença entre as medidas",
+   "Aplicar a contagem em outro problema": "Conte de outro jeito",
+   "Reconhecer a explicação": "Que pergunta esta frase responde?",
+   "Separar informação e alcance": "Qual é o fato e qual é o limite?",
+   "Conferir duas leituras": "Combina com o caso ou precisa corrigir?",
+   "Escolher a pergunta certa": "Qual trecho responde à pergunta?",
+   "Reconhecer uma extrapolação": "Está dentro do que sabemos?",
+   "Produzir um roteiro de revisão": "Qual ação resolve a dúvida?",
+   "Distinguir observar e inventar": "Isso é observar ou inventar?",
+   "Transferir o procedimento": "Use o mesmo jeito em outra situação",
+   "Revisar uma fala pública": "O que falta na fala?",
+   "Validar a síntese do caso": "Isso mostra que entendi o caso?",
+   "Preparar a conferência": "Monte o roteiro para conferir",
+   "Dado não é conclusão": "Do fato até a conclusão, passo a passo"
+  },
+  "frases": {
+   "Caminhada": "vão a pé",
+   "Ônibus": "vão de ônibus",
+   "Bicicleta": "vão de bicicleta",
+   "Conto": "preferem conto",
+   "HQ": "preferem HQ",
+   "Reportagem": "preferem reportagem",
+   "Esporte": "usam o pátio para esporte",
+   "Conversa": "usam o pátio para conversar",
+   "Leitura": "usam o pátio para ler",
+   "Reciclável": "separam resíduo reciclável",
+   "Orgânico": "separam resíduo orgânico",
+   "Rejeito": "separam rejeito",
+   "Caderno": "estudam pelo caderno",
+   "Livro": "estudam pelo livro",
+   "Digital": "estudam no digital",
+   "Bebedouro": "bebem água no bebedouro",
+   "Garrafa": "trazem garrafa de água",
+   "Outro": "bebem água de outro jeito",
+   "Semanal": "vão à biblioteca toda semana",
+   "Mensal": "vão à biblioteca todo mês",
+   "Raro": "quase não vão à biblioteca",
+   "Praça": "querem uma praça",
+   "Biblioteca": "querem uma biblioteca",
+   "Ciclovia": "querem uma ciclovia"
+  },
+  "situacoes": null,
+  "abertura": null,
+  "glossario": [
+   {
+    "termo": "frequência",
+    "significado": "quantas vezes algo aparece. Aqui: quantas pessoas deram cada resposta."
+   },
+   {
+    "termo": "censo",
+    "significado": "pesquisa que pergunta para TODAS as pessoas do grupo."
+   },
+   {
+    "termo": "amostra",
+    "significado": "pesquisa que pergunta só para uma parte do grupo, escolhida com critério."
+   },
+   {
+    "termo": "categoria",
+    "significado": "cada opção de resposta (por exemplo: caminhada, ônibus, bicicleta)."
+   },
+   {
+    "termo": "escala",
+    "significado": "os números marcados no gráfico; precisa ser a mesma para todas as barras."
+   },
+   {
+    "termo": "extrapolar",
+    "significado": "ir além do que os dados mostram; concluir mais do que dá para concluir."
+   },
+   {
+    "termo": "generalizar",
+    "significado": "pegar o que vale para um caso ou um grupo pequeno e dizer que vale para todos."
+   },
+   {
+    "termo": "sustentado",
+    "significado": "apoiado por dados ou provas. Afirmação sustentada = afirmação que tem base."
+   },
+   {
+    "termo": "alcance",
+    "significado": "até onde uma conclusão vale: para quem, para onde, quando."
+   },
+   {
+    "termo": "limite",
+    "significado": "o que o dado ou a fonte NÃO permite afirmar."
+   },
+   {
+    "termo": "evidência",
+    "significado": "informação que serve de prova para uma ideia."
+   },
+   {
+    "termo": "fonte",
+    "significado": "de onde vem uma informação: documento, jornal, pessoa, levantamento."
+   },
+   {
+    "termo": "critério",
+    "significado": "a regra usada para decidir ou comparar."
+   },
+   {
+    "termo": "média",
+    "significado": "soma de todos os valores dividida por quantos valores são."
+   },
+   {
+    "termo": "variação",
+    "significado": "quanto os valores mudam de uma medida para outra."
+   },
+   {
+    "termo": "controle",
+    "significado": "manter uma condição igual nos dois copos, para ela não atrapalhar a comparação."
+   },
+   {
+    "termo": "variável",
+    "significado": "a coisa que muda (ou que decidimos mudar) no teste."
+   },
+   {
+    "termo": "ensaio",
+    "significado": "cada teste feito no laboratório."
+   },
+   {
+    "termo": "repetição",
+    "significado": "fazer o mesmo teste de novo para ver se o resultado se repete."
+   },
+   {
+    "termo": "simulado",
+    "significado": "feito no computador ou inventado para treinar; não foi medido de verdade."
+   },
+   {
+    "termo": "bancada",
+    "significado": "a mesa do laboratório onde se faz o experimento de verdade."
+   },
+   {
+    "termo": "dissolução",
+    "significado": "quando o sal «some» na água, espalhando-se nela."
+   },
+   {
+    "termo": "partição",
+    "significado": "divisão de um território em partes ou países."
+   },
+   {
+    "termo": "descolonização",
+    "significado": "processo em que colônias deixam de ser controladas por outro país e ficam independentes."
+   },
+   {
+    "termo": "soberania",
+    "significado": "o poder de um país de governar a si mesmo."
+   },
+   {
+    "termo": "metrópole",
+    "significado": "o país que controla a colônia."
+   },
+   {
+    "termo": "resolução (ONU)",
+    "significado": "decisão escrita e aprovada pelos países da ONU."
+   },
+   {
+    "termo": "autodeterminação",
+    "significado": "direito de um povo de decidir o próprio destino."
+   },
+   {
+    "termo": "não alinhado",
+    "significado": "países que não queriam ficar do lado dos EUA nem da União Soviética na Guerra Fria."
+   },
+   {
+    "termo": "Guerra Fria",
+    "significado": "disputa entre EUA e União Soviética (1947–1991), sem guerra direta entre os dois, mas com conflitos em outros países."
+   },
+   {
+    "termo": "fonte normativa",
+    "significado": "documento que diz como as coisas DEVEM ser (uma regra), não como elas são de fato."
+   },
+   {
+    "termo": "agência local",
+    "significado": "a capacidade das próprias pessoas e grupos do lugar de agir e decidir."
+   },
+   {
+    "termo": "coexistir",
+    "significado": "existir ao mesmo tempo, lado a lado."
+   },
+   {
+    "termo": "liberdade de consciência",
+    "significado": "direito de cada pessoa acreditar (ou não) no que quiser, sem ser forçada."
+   },
+   {
+    "termo": "dignidade",
+    "significado": "o valor de toda pessoa; ninguém pode ser humilhado."
+   },
+   {
+    "termo": "adesão",
+    "significado": "concordar e entrar em algo. «Sem adesão» = participar sem precisar concordar."
+   },
+   {
+    "termo": "constrangimento",
+    "significado": "situação em que a pessoa se sente forçada ou envergonhada."
+   },
+   {
+    "termo": "coerção",
+    "significado": "forçar alguém a fazer algo."
+   },
+   {
+    "termo": "convicção",
+    "significado": "aquilo em que a pessoa acredita com firmeza."
+   },
+   {
+    "termo": "hierarquizar",
+    "significado": "colocar em ordem de «melhor» para «pior»; aqui, tratar uma crença como superior a outra."
+   },
+   {
+    "termo": "proselitismo",
+    "significado": "tentar convencer alguém a mudar de religião."
+   },
+   {
+    "termo": "lacuna",
+    "significado": "uma parte que ficou faltando."
+   },
+   {
+    "termo": "equivalente",
+    "significado": "que vale o mesmo (1/2 e 2/4 são equivalentes)."
+   },
+   {
+    "termo": "inteiro",
+    "significado": "o todo que foi dividido em partes."
+   },
+   {
+    "termo": "levantamento",
+    "significado": "pesquisa que reúne informações."
+   },
+   {
+    "termo": "seminário",
+    "significado": "apresentação oral de um tema para a turma."
+   },
+   {
+    "termo": "sujeitos",
+    "significado": "as pessoas ou grupos que agem numa situação."
+   },
+   {
+    "termo": "estratégia",
+    "significado": "o jeito planejado de fazer algo."
+   },
+   {
+    "termo": "síntese",
+    "significado": "resumo com as ideias principais."
+   },
+   {
+    "termo": "interpretação",
+    "significado": "o sentido que damos ao que lemos ou observamos."
+   },
+   {
+    "termo": "transferir",
+    "significado": "usar o que aprendeu em outra situação."
+   },
+   {
+    "termo": "procedimento",
+    "significado": "sequência de passos para fazer algo."
+   },
+   {
+    "termo": "delimitar",
+    "significado": "marcar até onde vale."
+   },
+   {
+    "termo": "hipótese",
+    "significado": "uma explicação provisória que ainda vai ser testada."
+   },
+   {
+    "termo": "unidade",
+    "significado": "a medida que acompanha o número: segundos, mililitros, graus."
+   }
+  ]
+ },
+ "antes_depois": [
+  {
+   "id": "p-1-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "p-1-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "p-1-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "p-1-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "p-2-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "p-2-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "p-2-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "p-2-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "p-3-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "p-3-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "p-3-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "p-3-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "p-4-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "p-4-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "p-4-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "p-4-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "p-5-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "p-5-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "p-5-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "p-5-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "p-6-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "p-6-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "p-6-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "p-6-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "p-7-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "p-7-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "p-7-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "p-7-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "p-8-0-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "p-8-0-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "p-8-0-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "p-8-0-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-1-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-1-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Uma rocha guarda pistas."
+   }
+  },
+  {
+   "id": "e-2-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-2-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No vulcão: resfriar e solidificar."
+   }
+  },
+  {
+   "id": "e-3-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-3-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Cristais e tempo de resfriamento."
+   }
+  },
+  {
+   "id": "e-4-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-4-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: No rio: do grão à rocha."
+   }
+  },
+  {
+   "id": "e-5-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-5-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Camadas e fósseis."
+   }
+  },
+  {
+   "id": "e-6-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-6-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Na montanha: transformar sem derreter."
+   }
+  },
+  {
+   "id": "e-7-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-7-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: O ciclo tem caminhos diferentes."
+   }
+  },
+  {
+   "id": "e-8-1-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-1-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-1-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-1-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-2-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-2-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-2-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-2-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-3-1",
+   "antes": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Relacione as pistas",
+    "command": "Ligue cada pista ao que ela explica. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-3-2",
+   "antes": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Confira a explicação",
+    "command": "Separe as afirmações compatíveis com a investigação. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-3-3",
+   "antes": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Reconstrua o processo",
+    "command": "Coloque as etapas do processo na ordem. Caso: Laboratório: evidência antes do nome."
+   }
+  },
+  {
+   "id": "e-8-3-4",
+   "antes": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   },
+   "depois": {
+    "title": "Explique com evidências",
+    "command": "Ligue cada registro à explicação correspondente. Caso: Laboratório: evidência antes do nome."
+   }
+  }
+ ]
+}

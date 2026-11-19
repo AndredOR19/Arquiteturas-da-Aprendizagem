@@ -1,0 +1,11 @@
+{
+  "eie_version": "1.0.0",
+  "scenes": [
+    "cenas/vulcao.html",
+    "cenas/rio.html",
+    "cenas/montanha.html",
+    "cenas/laboratorio.html"
+  ],
+  "resources": 4,
+  "status": "exploração 2D; percursos ligados por navegação, sem fusão de relatórios"
+}
