@@ -2285,7 +2285,7 @@
       "interface_autonoma": true,
       "portal": {
         "ano_letivo": null,
-        "categoria": "laboratorio",
+        "categoria": "apresentacao",
         "componentes": [
           "Práticas Experimentais em Ciências e Matemática"
         ],
