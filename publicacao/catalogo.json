@@ -2307,6 +2307,102 @@
         ],
         "acesso": "aberto"
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/23-11-2026-exploracao-imersiva-182",
+      "destino": "aulas/23-11-2026-exploracao-imersiva-182",
+      "titulo": "Agência de Investigação — pistas, dados e decisões",
+      "estilo_visual": "exploracao-investigativa",
+      "versao_visual": "piloto-1.0",
+      "atualizado_em": "2026-11-22",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [
+          "182"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "imersiva",
+          "pesquisa",
+          "investigação"
+        ],
+        "descricao": "Investigação em camadas de fontes, pesquisas, gráficos e decisões fundamentadas.",
+        "titulo_exibicao": "Agência de Investigação — pistas, dados e decisões",
+        "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/23-11-2026-exploracao-imersiva-191",
+      "destino": "aulas/23-11-2026-exploracao-imersiva-191",
+      "titulo": "Laboratório do Solo Vivo — o caminho da água",
+      "estilo_visual": "exploracao-investigativa",
+      "versao_visual": "piloto-1.0",
+      "atualizado_em": "2026-11-22",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "191"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "imersiva",
+          "pesquisa",
+          "investigação"
+        ],
+        "descricao": "Pesquisa de infiltração, erosão, controle de variáveis e conservação do solo.",
+        "titulo_exibicao": "Laboratório do Solo Vivo — o caminho da água",
+        "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/23-11-2026-exploracao-imersiva-172",
+      "destino": "aulas/23-11-2026-exploracao-imersiva-172",
+      "titulo": "Detetives do Estudo — decifrar, resolver e explicar",
+      "estilo_visual": "exploracao-investigativa",
+      "versao_visual": "piloto-1.0",
+      "atualizado_em": "2026-11-22",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [
+          "172"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "imersiva",
+          "pesquisa",
+          "investigação"
+        ],
+        "descricao": "Exploração guiada de enunciados, cálculo e explicação de estratégias.",
+        "titulo_exibicao": "Detetives do Estudo — decifrar, resolver e explicar",
+        "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
+      }
     }
   ]
 }
