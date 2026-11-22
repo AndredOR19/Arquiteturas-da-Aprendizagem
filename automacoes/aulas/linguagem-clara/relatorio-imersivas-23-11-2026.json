@@ -5,7 +5,7 @@
   "aulas": {
     "23-11-2026-exploracao-imersiva-172": {
       "titulo": "Detetives do Estudo — decifrar, resolver e explicar",
-      "index_sha256": "f2403128ea9c3cc9b56eea5d8452ea5f87522f97e9357664307571071d2d6d67",
+      "index_sha256": "0968f8cc86f45582a01ba38dd936edb65c2c28fa58f74d6ce56931a39148ec5a",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -15,11 +15,16 @@
         "Quantos livros cada sala recebe?",
         "Qual explicação justifica o resultado?"
       ],
-      "orientacao_docente": "Apresentar oralmente o sentido de operação antes do primeiro desafio."
+      "orientacao_docente": "Apresentar oralmente o sentido de operação antes do primeiro desafio.",
+      "imagens_sha256": {
+        "cena-1.webp": "73a97a3d1921c0f846d379ef3d6f1b022a4700d01b98b7a063e8d739af919f45",
+        "cena-2.webp": "d98764c37d28d9ce0311ee3806270f6b7ba31a5ed01019f6602e907aa0e8809d",
+        "cena-3.webp": "f93acb4c76ef7d2a296f7f6666c050791c0c5a3f0682ebbbe0f0bc50fcd4f0d4"
+      }
     },
     "23-11-2026-exploracao-imersiva-182": {
       "titulo": "Agência de Investigação — pistas, dados e decisões",
-      "index_sha256": "f6eeafd2771edb84ba08b44725b6e5477907d4733b10937ef02f9ba9115dcfae",
+      "index_sha256": "96cb1664a7a06937831edf55ea03c6fbe018122fad242a93df9fbec377a6adc4",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -29,11 +34,16 @@
         "Podemos generalizar para toda a escola?",
         "Que recomendação você faria?"
       ],
-      "orientacao_docente": "Explicar amostragem como a maneira de escolher quem participa da pesquisa."
+      "orientacao_docente": "Explicar amostragem como a maneira de escolher quem participa da pesquisa.",
+      "imagens_sha256": {
+        "cena-1.webp": "2dc794e8fecc1a2cf98d48f18c746130a1ec349c6ed15d41363b8473905fda08",
+        "cena-2.webp": "545c2d9dc5206bf74172501372e194a2bdd3d47c0b76958000c648ad6b59feea",
+        "cena-3.webp": "ec9eea34cdb5b6a24c1a3a31ed5848f0ee0ea7f204667a7e02c5a2d2c8b24340"
+      }
     },
     "23-11-2026-exploracao-imersiva-191": {
       "titulo": "Laboratório do Solo Vivo — o caminho da água",
-      "index_sha256": "8f04854b1c8e711cc8473fed5be623a396cabdcdea97a34b2d280ca1987a960b",
+      "index_sha256": "0b277333185f83a4fa2674d2e1b36392cbb7e644c3634a092a5e15d3feddd69d",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -43,7 +53,18 @@
         "Como controlar as variáveis?",
         "Qual é a orientação mais fundamentada?"
       ],
-      "orientacao_docente": "Explicar declive como inclinação e fundamentada como apoiada em evidências."
+      "orientacao_docente": "Explicar declive como inclinação e fundamentada como apoiada em evidências.",
+      "imagens_sha256": {
+        "cena-1.webp": "e089c9499f77f4e7ccb5e624d0b3167b9f4f22f96f1865b796bb638fe3ef6d65",
+        "cena-2.webp": "f769acabce2794554e727989962cc4f3ab5b07a2091ca5ea737aba748148955b",
+        "cena-3.webp": "7782a86d87c013ee54b63ce4cd33b04188cf68e137d88289422a277772a47264"
+      }
     }
+  },
+  "revisao_visual": {
+    "biblioteca_commit": "c8c00b76a379c3edfeb9ef9afe863875ed039881",
+    "motor": "estacao/imersivas/render-eie-juvenil.mjs",
+    "repositorio_pedagogico_origem": "2f3a24a90b9211b7aad05329b4cd75366327ae29",
+    "imagens": "Nove ilustrações didáticas sintéticas, três por turma, em WebP."
   }
 }
