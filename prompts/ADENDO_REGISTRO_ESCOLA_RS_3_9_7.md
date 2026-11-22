@@ -2,6 +2,12 @@
 
 Complementa a seção 15.1 do Prompt Mestre. Aplicar a **toda aula nova e a toda aula revisada**, em qualquer turma, componente, formato ou nível de ensino. A regra também vale para aulas imersivas, jogos e pilotos destinados às turmas.
 
+## O plano vigente da turma orienta a aula
+
+1. Antes de escolher tema, atividades ou habilidades, localizar e ler o **plano vigente da turma e do componente**, na versão mais recente disponível no acervo autorizado. Conferir o período letivo e a sequência prevista para a data ou semana da aula.
+2. Retirar do plano o conteúdo previsto e os códigos e descrições das habilidades que aquela aula efetivamente trabalhará. Elaborar o plano diário, a aula digital e o registro do Escola RS a partir dessa mesma seleção. Adaptar a linguagem, os recursos e os percursos ao público, mantendo o conteúdo e as habilidades definidos no plano.
+3. Registrar a referência ao documento consultado e à página, semana ou seção usada. Quando o plano remeter à matriz ou à ementa, ler também a referência indicada para conferir os códigos. Se faltar acesso ao plano, houver versões conflitantes ou faltar um código no trecho aplicável, apontar a pendência antes de entregar a aula como pronta.
+
 ## Conteúdo obrigatório por aula
 
 | Campo | Como preencher |
@@ -10,7 +16,7 @@ Complementa a seção 15.1 do Prompt Mestre. Aplicar a **toda aula nova e a toda
 | Registro da aula | Texto breve, pronto para copiar no diário, com o conteúdo estudado e a atividade realizada ou proposta. Usar o tempo verbal correspondente ao que já foi confirmado pelo professor. |
 | Habilidades tratadas | Para cada habilidade efetivamente trabalhada, incluir o **código oficial**, a descrição correspondente e a referência curricular verificada. Conferir a correspondência com as atividades da aula. |
 
-Consultar a matriz, o planejamento ou a ementa vigente do componente e da turma. Conferir ali os códigos e a descrição oficial ou na referência curricular indicada por esses documentos, como BNCC, Referencial Curricular Gaúcho ou matriz oficial da rede. Registrar a fonte usada. Quando o componente não tiver código próprio na BNCC, usar o código do referencial adotado para a turma, com o vínculo validado. Se a fonte ou o código não puder ser confirmado, indicar exatamente o que falta. A aula fica pendente de publicação como entrega pronta enquanto o registro estiver incompleto.
+Conferir os códigos e as descrições no plano da turma e, quando necessário, na referência curricular que ele adota, como BNCC, Referencial Curricular Gaúcho ou matriz oficial da rede. Registrar a fonte usada. Quando o componente não tiver código próprio na BNCC, usar o código do referencial adotado para a turma, com o vínculo validado. Se a fonte ou o código não puder ser confirmado, indicar exatamente o que falta. A aula fica pendente de publicação como entrega pronta enquanto o registro estiver incompleto.
 
 ## Localização e conferência
 
