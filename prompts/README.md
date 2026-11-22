@@ -35,3 +35,6 @@ Ler o [adendo de áudio do Prompt Mestre](ADENDO_AUDIO_MUSEUS_3_9_4.md) e labora
 
 ## Adendo obrigatório 3.9.6 — nova estética imersiva juvenil
 Para novas explorações EIE e revisões solicitadas, ler [consulta obrigatória aos dois GitHubs e padrão visual juvenil](ADENDO_EIE_VISUAL_JUVENIL_CONSULTA_OBRIGATORIA_3_9_6.md). Vale para qualquer fluxo quando a aula envolver exploração: cena protagonista, investigação em camadas, hotspots, subcenas, interação e caderno discreto; não painel administrativo. A direção visual específica está na Biblioteca privada de Diagramação, `docs/DIRETRIZ-VISUAL-EIE-JUVENIL.md`. Preservar hashes e recibos da base 3.9.0, sem atribuir implementação a requisitos documentais.
+
+## Adendo obrigatório 3.9.7 — Registro para Escola RS
+Aplicar [o adendo de registro para o Escola RS](ADENDO_REGISTRO_ESCOLA_RS_3_9_7.md) junto à seção 15.1 do Prompt Mestre em toda aula nova ou revisada. A entrega exige registro copiável e códigos oficiais das habilidades verificadas no acervo e na aula.

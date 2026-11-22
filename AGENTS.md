@@ -149,7 +149,7 @@ Bloqueio de conclusão: validar completude em todas as rotas de resultado e apó
 
 
 ## Registro para Escola RS
-- Cumprir seção 15.1 do Prompt Mestre: toda nova aula deve mostrar título, resumo para registro e habilidades (código e descrição com fonte verificada), tanto no painel de acesso/acervo quanto dentro da aula.
+- Aplicar a seção 15.1 e o [adendo obrigatório 3.9.7](prompts/ADENDO_REGISTRO_ESCOLA_RS_3_9_7.md) em toda aula nova ou revisada. Conferir no acervo e na aula a identificação, o registro copiável e o código oficial, descrição e fonte curricular de cada habilidade efetivamente trabalhada. O registro completo é condição da entrega pronta, inclusive para imersivas e pilotos destinados às turmas.
 - Usar a mesma fonte de metadados, permitir consulta antes da entrada e oferecer cópia integral do registro com alternativa manual. Conferir presença, igualdade e leitura em celular; não exigir conclusão ou nota.
 - O professor revisa e transfere o texto para o Escola RS. Não afirmar envio automático, aplicação da aula ou atualização de páginas antigas por uma mudança documental.
 

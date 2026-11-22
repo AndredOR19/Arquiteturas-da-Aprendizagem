@@ -47,3 +47,6 @@ Toda IA/colaborador deve consultar **a cada pedido** o estado atual de `AndredOR
 
 ### Conferência visual antes de entregar uma aula imersiva
 Abra o link que o aluno receberá, no GitHub Pages e na Vercel. Confira no navegador, em tela larga e estreita, que a primeira tela abre no cenário ilustrado e que os pontos de investigação ficam sobre os objetos. Mantenha o diário recolhido e os controles de som depois da exploração. Abra uma pista e confira o retorno à cena. Em revisão visual, preserve os desafios, a narração e o progresso já salvo. Confirme a versão publicada nos dois endereços antes de enviá-los ao professor.
+
+### Registro para Escola RS em toda aula
+Para toda aula nova ou revisada, aplicar o [adendo obrigatório 3.9.7](prompts/ADENDO_REGISTRO_ESCOLA_RS_3_9_7.md). Conferir título, turma, componente, data, texto copiável e códigos oficiais das habilidades efetivamente trabalhadas na própria aula e no acervo antes da entrega.
