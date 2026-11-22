@@ -2403,6 +2403,105 @@
         "titulo_exibicao": "Detetives do Estudo — decifrar, resolver e explicar",
         "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
       }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/imersivas-eie/182",
+      "destino": "aulas/imersivas-eie/182",
+      "titulo": "PILOTO EIE · Operação Biblioteca — descubra a verdade",
+      "estilo_visual": "eie-juvenil-cenas",
+      "versao_visual": "0.2-piloto",
+      "atualizado_em": "2026-11-22",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "8º ano · EF"
+        ],
+        "turmas": [
+          "182"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "piloto",
+          "imersiva",
+          "eie",
+          "exploração"
+        ],
+        "descricao": "Piloto visual com três cenas e nove evidências; avaliação completa e percursos inclusivos ainda não homologados.",
+        "titulo_exibicao": "PILOTO · Operação Biblioteca — descubra a verdade",
+        "metadados_fonte": "Gerado por renderizador piloto reutilizável da Biblioteca de Diagramação, estacao/imersivas/render-eie-juvenil.mjs; não é aula curricular integral homologada."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/imersivas-eie/191",
+      "destino": "aulas/imersivas-eie/191",
+      "titulo": "PILOTO EIE · Solo Vivo — investigação da chuva",
+      "estilo_visual": "eie-juvenil-cenas",
+      "versao_visual": "0.2-piloto",
+      "atualizado_em": "2026-11-22",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Práticas Experimentais"
+        ],
+        "series": [
+          "9º ano · EF"
+        ],
+        "turmas": [
+          "191"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "piloto",
+          "imersiva",
+          "eie",
+          "exploração"
+        ],
+        "descricao": "Piloto visual com três cenas e nove evidências; avaliação completa e percursos inclusivos ainda não homologados.",
+        "titulo_exibicao": "PILOTO · Solo Vivo — investigação da chuva",
+        "metadados_fonte": "Gerado por renderizador piloto reutilizável da Biblioteca de Diagramação, estacao/imersivas/render-eie-juvenil.mjs; não é aula curricular integral homologada."
+      }
+    },
+    {
+      "tipo": "html",
+      "origem": "aulas/imersivas-eie/172",
+      "destino": "aulas/imersivas-eie/172",
+      "titulo": "PILOTO EIE · Código 36 — o enigma dos livros",
+      "estilo_visual": "eie-juvenil-cenas",
+      "versao_visual": "0.2-piloto",
+      "atualizado_em": "2026-11-22",
+      "portal": {
+        "ano_letivo": 2026,
+        "categoria": "aula",
+        "componentes": [
+          "Estudos Orientados"
+        ],
+        "series": [
+          "7º ano · EF"
+        ],
+        "turmas": [
+          "172"
+        ],
+        "escola": "Bernardina Rodrigues Padilha",
+        "escola_curta": "Bernardina",
+        "palavras_chave": [
+          "piloto",
+          "imersiva",
+          "eie",
+          "exploração"
+        ],
+        "descricao": "Piloto visual com três cenas e nove evidências; avaliação completa e percursos inclusivos ainda não homologados.",
+        "titulo_exibicao": "PILOTO · Código 36 — o enigma dos livros",
+        "metadados_fonte": "Gerado por renderizador piloto reutilizável da Biblioteca de Diagramação, estacao/imersivas/render-eie-juvenil.mjs; não é aula curricular integral homologada."
+      }
     }
   ]
 }
