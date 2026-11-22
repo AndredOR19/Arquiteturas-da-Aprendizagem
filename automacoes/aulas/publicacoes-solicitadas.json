@@ -189,6 +189,42 @@
         "A exploração 2D abre percursos por links; visitas às cenas não são unificadas no relatório das atividades."
       ],
       "verificacao_tecnica": "Orquestrador e compiladores centrais; 128 tarefas curriculares e 192 inclusivas em jsdom; zero bloqueios de linguagem; PDFs renderizados e amostras inspecionadas."
+    },
+    {
+      "aula": "23-11-2026-exploracao-imersiva-172",
+      "destino": "aulas/23-11-2026-exploracao-imersiva-172",
+      "pacote_sha256": "e85572bb466fc1b630fa3ab316264575832148ed98b51c152004f3d7bdbbcccd",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
+      "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
+      "pendencias": [
+        "Conferência do alinhamento à ementa específica.",
+        "Percursos integrais do Prompt Mestre e validação em sala."
+      ]
+    },
+    {
+      "aula": "23-11-2026-exploracao-imersiva-182",
+      "destino": "aulas/23-11-2026-exploracao-imersiva-182",
+      "pacote_sha256": "410e7a64fe0c19ddb705da95c7b258599f228cbf22ead1361c8ea1e2804f0cc6",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
+      "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
+      "pendencias": [
+        "Conferência do alinhamento à ementa específica.",
+        "Percursos integrais do Prompt Mestre e validação em sala."
+      ]
+    },
+    {
+      "aula": "23-11-2026-exploracao-imersiva-191",
+      "destino": "aulas/23-11-2026-exploracao-imersiva-191",
+      "pacote_sha256": "253c36c8e23d9b642e26391757ae897d976e537130d0a179e5654ce30dc9e409",
+      "estado": "publicacao_solicitada_com_revisoes_pendentes",
+      "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
+      "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
+      "pendencias": [
+        "Conferência do alinhamento à ementa específica.",
+        "Percursos integrais do Prompt Mestre e validação em sala."
+      ]
     }
   ]
 }

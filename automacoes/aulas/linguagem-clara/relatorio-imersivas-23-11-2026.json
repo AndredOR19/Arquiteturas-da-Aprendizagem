@@ -1,0 +1,49 @@
+{
+  "protocolo": "linguagem-clara-3.9",
+  "metodo": "Revisão dos enunciados, opções e feedback do JSON embutido no HTML. O extrator automatizado GEI exige assets/conteudo.js e não foi aplicado a este formato.",
+  "limite": "Revisão restrita aos nove desafios existentes. Ementa, percursos integrais e observação em sala seguem pendentes.",
+  "aulas": {
+    "23-11-2026-exploracao-imersiva-172": {
+      "titulo": "Detetives do Estudo — decifrar, resolver e explicar",
+      "index_sha256": "f2403128ea9c3cc9b56eea5d8452ea5f87522f97e9357664307571071d2d6d67",
+      "conteudo_sha256": null,
+      "clareza_sha256": null,
+      "atividades": 3,
+      "bloqueado": 0,
+      "enunciados_revisados": [
+        "Qual é a primeira operação?",
+        "Quantos livros cada sala recebe?",
+        "Qual explicação justifica o resultado?"
+      ],
+      "orientacao_docente": "Apresentar oralmente o sentido de operação antes do primeiro desafio."
+    },
+    "23-11-2026-exploracao-imersiva-182": {
+      "titulo": "Agência de Investigação — pistas, dados e decisões",
+      "index_sha256": "f6eeafd2771edb84ba08b44725b6e5477907d4733b10937ef02f9ba9115dcfae",
+      "conteudo_sha256": null,
+      "clareza_sha256": null,
+      "atividades": 3,
+      "bloqueado": 0,
+      "enunciados_revisados": [
+        "O que é comprovado?",
+        "Podemos generalizar para toda a escola?",
+        "Que recomendação você faria?"
+      ],
+      "orientacao_docente": "Explicar amostragem como a maneira de escolher quem participa da pesquisa."
+    },
+    "23-11-2026-exploracao-imersiva-191": {
+      "titulo": "Laboratório do Solo Vivo — o caminho da água",
+      "index_sha256": "8f04854b1c8e711cc8473fed5be623a396cabdcdea97a34b2d280ca1987a960b",
+      "conteudo_sha256": null,
+      "clareza_sha256": null,
+      "atividades": 3,
+      "bloqueado": 0,
+      "enunciados_revisados": [
+        "Qual fator diferencia as superfícies?",
+        "Como controlar as variáveis?",
+        "Qual é a orientação mais fundamentada?"
+      ],
+      "orientacao_docente": "Explicar declive como inclinação e fundamentada como apoiada em evidências."
+    }
+  }
+}
