@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "lesson": {
+    "id": "laboratorio-solo-vivo-191",
+    "title": "Solo Vivo — investigação da chuva",
+    "objective": "Comparar o escoamento em superfícies diferentes, formular hipóteses e planejar uma comparação controlada.",
+    "subject": "Práticas Experimentais",
+    "grade": "9º ano"
+  },
+  "entry_scene": "cena-1",
+  "scenes": [
+    {
+      "id": "cena-1",
+      "title": "O vale depois da chuva",
+      "summary": "Por que a água escorre de maneiras diferentes em cada encosta?",
+      "image": {
+        "src": "cena-01.svg",
+        "alt": "Ilustração esquemática do ambiente O vale depois da chuva. Três objetos marcados convidam à investigação.",
+        "attribution": "Ilustração vetorial esquemática original do projeto.",
+        "license": "Autoral, uso pedagógico.",
+        "kind": "illustration"
+      },
+      "hotspots": [
+        {
+          "id": "pista-1-1",
+          "label": "Encosta vegetada",
+          "x": 31,
+          "y": 42,
+          "action": "detail",
+          "description": "Raízes e cobertura vegetal podem amortecer o impacto da chuva e favorecer a infiltração, conforme o solo e o relevo.",
+          "narration": "A cobertura ajuda a proteger partículas contra o impacto direto."
+        },
+        {
+          "id": "pista-1-2",
+          "label": "Solo descoberto",
+          "x": 68,
+          "y": 44,
+          "action": "detail",
+          "description": "Em solo exposto, as gotas podem desagregar partículas, que são carregadas pelo escoamento.",
+          "narration": "O transporte de sedimentos é uma manifestação da erosão."
+        },
+        {
+          "id": "pista-1-3",
+          "label": "Piso impermeável",
+          "x": 51,
+          "y": 64,
+          "action": "detail",
+          "description": "Uma superfície impermeável reduz a entrada de água no solo e favorece o escoamento superficial.",
+          "narration": "Nem todo escoamento corresponde automaticamente a erosão do próprio piso."
+        }
+      ]
+    },
+    {
+      "id": "cena-2",
+      "title": "O experimento justo",
+      "summary": "Como saber se foi a cobertura vegetal que alterou o resultado?",
+      "image": {
+        "src": "cena-02.svg",
+        "alt": "Ilustração esquemática do ambiente O experimento justo. Três objetos marcados convidam à investigação.",
+        "attribution": "Ilustração vetorial esquemática original do projeto.",
+        "license": "Autoral, uso pedagógico.",
+        "kind": "illustration"
+      },
+      "hotspots": [
+        {
+          "id": "pista-2-1",
+          "label": "A chuva",
+          "x": 31,
+          "y": 41,
+          "action": "detail",
+          "description": "Use o mesmo volume de água, a mesma altura e a mesma duração em ambas as bandejas.",
+          "narration": "A intensidade da água precisa ser comparável."
+        },
+        {
+          "id": "pista-2-2",
+          "label": "O terreno",
+          "x": 67,
+          "y": 42,
+          "action": "detail",
+          "description": "Use solos de características semelhantes e a mesma inclinação; varie somente a cobertura.",
+          "narration": "Controlar variáveis reduz explicações concorrentes."
+        },
+        {
+          "id": "pista-2-3",
+          "label": "O coletor",
+          "x": 51,
+          "y": 63,
+          "action": "detail",
+          "description": "Compare volumes escoados e quantidade de sedimentos coletados. Ainda não existem medições reais nesta aula.",
+          "narration": "O simulador é conceitual: o estudante deve medir um ensaio real para obter resultados."
+        }
+      ]
+    },
+    {
+      "id": "cena-3",
+      "title": "Proteja a encosta",
+      "summary": "Que decisões reduzem riscos e preservam o solo?",
+      "image": {
+        "src": "cena-03.svg",
+        "alt": "Ilustração esquemática do ambiente Proteja a encosta. Três objetos marcados convidam à investigação.",
+        "attribution": "Ilustração vetorial esquemática original do projeto.",
+        "license": "Autoral, uso pedagógico.",
+        "kind": "illustration"
+      },
+      "hotspots": [
+        {
+          "id": "pista-3-1",
+          "label": "Cobertura protetora",
+          "x": 32,
+          "y": 42,
+          "action": "detail",
+          "description": "Vegetação, palhada e manejo adequado podem reduzir o impacto da chuva sobre o solo.",
+          "narration": "A proteção não elimina a necessidade de avaliar o terreno."
+        },
+        {
+          "id": "pista-3-2",
+          "label": "Água e drenagem",
+          "x": 68,
+          "y": 42,
+          "action": "detail",
+          "description": "A direção da água e a inclinação precisam ser investigadas antes de intervenções.",
+          "narration": "O caminho do escoamento influencia onde há maior desgaste."
+        },
+        {
+          "id": "pista-3-3",
+          "label": "Plano de observação",
+          "x": 51,
+          "y": 64,
+          "action": "detail",
+          "description": "Registre condições, hipótese, variáveis, resultados medidos e limitações.",
+          "narration": "Experimento confiável separa observação de interpretação."
+        }
+      ]
+    }
+  ],
+  "sources": []
+}
