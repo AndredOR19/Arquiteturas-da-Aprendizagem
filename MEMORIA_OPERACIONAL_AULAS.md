@@ -41,3 +41,6 @@ Ler a atualização prevalente no [adendo inclusivo](prompts/ADENDO_PERCURSO_INC
 
 ## Áudio dos museus — adendo 3.9.4 (15/11/2026)
 Ler o [adendo de áudio do Prompt Mestre](prompts/ADENDO_AUDIO_MUSEUS_3_9_4.md) e laboratorios/PROTOCOLO_MUSEUS.md ao criar ou revisar museus. Passos opcionais, início mudo, deslocamento real e alternância L/R. Correção 3.9.5: carpete/veludo abafado substitui madeira; passada tranquila e intervalo mínimo de 480 ms, sem rajadas. Materiais automáticos e surround 3D são futuros. Separar testes automatizados, navegador, celular físico e confirmação de publicação.
+
+## Regra permanente de consulta viva — adendo 3.9.6 (22/11/2026)
+Toda IA/colaborador deve consultar **a cada pedido** o estado atual de `AndredOR19/Arquiteturas-da-Aprendizagem` E `AndredOR19/Biblioteca-de-Diagramacao`, respectivos prompts, histórico, modelos, contratos e revisões. Não se basear em memória ou respostas anteriores. Ler `prompts/ADENDO_EIE_VISUAL_JUVENIL_CONSULTA_OBRIGATORIA_3_9_6.md` e, na Biblioteca privada, `docs/DIRETRIZ-VISUAL-EIE-JUVENIL.md`. Criar aulas através dos motores oficiais, com experiência exploratória juvenil e cenários visuais no primeiro plano; rejeitar dashboard/formulários como estética primária. Confirmar separadamente funcionamento, GitHub Pages, Vercel e QR. Adendo documental não comprova implementação/homologação.
