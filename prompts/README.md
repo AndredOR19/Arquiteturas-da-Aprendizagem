@@ -32,3 +32,6 @@ Ler a atualização prevalente no [adendo inclusivo](ADENDO_PERCURSO_INCLUSIVO_9
 
 ## Áudio dos museus — adendo 3.9.4 (15/11/2026)
 Ler o [adendo de áudio do Prompt Mestre](ADENDO_AUDIO_MUSEUS_3_9_4.md) e laboratorios/PROTOCOLO_MUSEUS.md ao criar ou revisar museus. Passos opcionais, início mudo, deslocamento real e alternância L/R. Correção 3.9.5: carpete/veludo abafado substitui madeira; passada tranquila e intervalo mínimo de 480 ms, sem rajadas. Materiais automáticos e surround 3D são futuros. Separar testes automatizados, navegador, celular físico e confirmação de publicação.
+
+## Adendo obrigatório 3.9.6 — nova estética imersiva juvenil
+Para novas explorações EIE e revisões solicitadas, ler [consulta obrigatória aos dois GitHubs e padrão visual juvenil](ADENDO_EIE_VISUAL_JUVENIL_CONSULTA_OBRIGATORIA_3_9_6.md). Vale para qualquer fluxo quando a aula envolver exploração: cena protagonista, investigação em camadas, hotspots, subcenas, interação e caderno discreto; não painel administrativo. A direção visual específica está na Biblioteca privada de Diagramação, `docs/DIRETRIZ-VISUAL-EIE-JUVENIL.md`. Preservar hashes e recibos da base 3.9.0, sem atribuir implementação a requisitos documentais.
