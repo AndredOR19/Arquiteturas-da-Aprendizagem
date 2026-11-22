@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "lesson": {
+    "id": "detetives-do-estudo-172",
+    "title": "Código 36 — o enigma dos livros",
+    "objective": "Compreender enunciados, organizar as operações e justificar uma solução matemática.",
+    "subject": "Estudos Orientados",
+    "grade": "7º ano"
+  },
+  "entry_scene": "cena-1",
+  "scenes": [
+    {
+      "id": "cena-1",
+      "title": "A sala da mensagem",
+      "summary": "Uma turma separou 36 livros, entregou 14 à biblioteca e dividirá o restante entre duas salas.",
+      "image": {
+        "src": "cena-01.svg",
+        "alt": "Ilustração esquemática do ambiente A sala da mensagem. Três objetos marcados convidam à investigação.",
+        "attribution": "Ilustração vetorial esquemática original do projeto.",
+        "license": "Autoral, uso pedagógico.",
+        "kind": "illustration"
+      },
+      "hotspots": [
+        {
+          "id": "pista-1-1",
+          "label": "Quantidade inicial",
+          "x": 30,
+          "y": 41,
+          "action": "detail",
+          "description": "Há 36 livros ao todo. Esse número é o ponto de partida.",
+          "narration": "Não comece dividindo sem identificar o que será repartido."
+        },
+        {
+          "id": "pista-1-2",
+          "label": "A entrega",
+          "x": 67,
+          "y": 42,
+          "action": "detail",
+          "description": "Quatorze livros saem do conjunto original: 36 menos 14 deixa 22.",
+          "narration": "A palavra 'restante' sugere subtrair antes de dividir."
+        },
+        {
+          "id": "pista-1-3",
+          "label": "A pergunta",
+          "x": 51,
+          "y": 64,
+          "action": "detail",
+          "description": "O problema pede quantos livros cada uma das duas salas recebe.",
+          "narration": "Descobrir a pergunta evita contas sem relação com o objetivo."
+        }
+      ]
+    },
+    {
+      "id": "cena-2",
+      "title": "Mesa de cálculos",
+      "summary": "Qual sequência de operações atende ao enunciado?",
+      "image": {
+        "src": "cena-02.svg",
+        "alt": "Ilustração esquemática do ambiente Mesa de cálculos. Três objetos marcados convidam à investigação.",
+        "attribution": "Ilustração vetorial esquemática original do projeto.",
+        "license": "Autoral, uso pedagógico.",
+        "kind": "illustration"
+      },
+      "hotspots": [
+        {
+          "id": "pista-2-1",
+          "label": "Primeiro passo",
+          "x": 31,
+          "y": 42,
+          "action": "detail",
+          "description": "36 − 14 = 22. Esse é o número de livros que sobrou.",
+          "narration": "A subtração determina o novo total disponível."
+        },
+        {
+          "id": "pista-2-2",
+          "label": "Segundo passo",
+          "x": 67,
+          "y": 43,
+          "action": "detail",
+          "description": "22 ÷ 2 = 11. Cada sala recebe onze livros.",
+          "narration": "A divisão acontece depois que o restante foi encontrado."
+        },
+        {
+          "id": "pista-2-3",
+          "label": "Conferência reversa",
+          "x": 51,
+          "y": 63,
+          "action": "detail",
+          "description": "11 + 11 + 14 = 36. O resultado reconstrói o total original.",
+          "narration": "Verificar em sentido inverso ajuda a detectar erros."
+        }
+      ]
+    },
+    {
+      "id": "cena-3",
+      "title": "Portal da explicação",
+      "summary": "Você consegue resolver um caso diferente e explicar o motivo de cada conta?",
+      "image": {
+        "src": "cena-03.svg",
+        "alt": "Ilustração esquemática do ambiente Portal da explicação. Três objetos marcados convidam à investigação.",
+        "attribution": "Ilustração vetorial esquemática original do projeto.",
+        "license": "Autoral, uso pedagógico.",
+        "kind": "illustration"
+      },
+      "hotspots": [
+        {
+          "id": "pista-3-1",
+          "label": "Novo desafio",
+          "x": 30,
+          "y": 42,
+          "action": "detail",
+          "description": "Quarenta e oito cartões: doze são reservados e o restante é dividido entre três grupos.",
+          "narration": "É outro caso para testar se a estratégia foi compreendida."
+        },
+        {
+          "id": "pista-3-2",
+          "label": "Estratégia",
+          "x": 69,
+          "y": 42,
+          "action": "detail",
+          "description": "48 − 12 = 36; 36 ÷ 3 = 12 cartões por grupo.",
+          "narration": "Usamos a mesma ordem de operações em dados novos."
+        },
+        {
+          "id": "pista-3-3",
+          "label": "Seu argumento",
+          "x": 51,
+          "y": 63,
+          "action": "detail",
+          "description": "Explique com suas palavras: 'Primeiro encontrei o restante; depois distribuí igualmente'.",
+          "narration": "Saber explicar é mais que fornecer um número isolado."
+        }
+      ]
+    }
+  ],
+  "sources": []
+}
