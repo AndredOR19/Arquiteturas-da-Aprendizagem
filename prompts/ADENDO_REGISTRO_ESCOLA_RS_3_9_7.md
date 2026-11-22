@@ -8,6 +8,14 @@ Complementa a seção 15.1 do Prompt Mestre. Aplicar a **toda aula nova e a toda
 2. Retirar do plano o conteúdo previsto e os códigos e descrições das habilidades que aquela aula efetivamente trabalhará. Elaborar o plano diário, a aula digital e o registro do Escola RS a partir dessa mesma seleção. Adaptar a linguagem, os recursos e os percursos ao público, mantendo o conteúdo e as habilidades definidos no plano.
 3. Registrar a referência ao documento consultado e à página, semana ou seção usada. Quando o plano remeter à matriz ou à ementa, ler também a referência indicada para conferir os códigos. Se faltar acesso ao plano, houver versões conflitantes ou faltar um código no trecho aplicável, apontar a pendência antes de entregar a aula como pronta.
 
+### Usar os planos cadastrados pelo professor
+
+Quando o professor pedir uma aula, uma semana ou a sequência do ano, consultar primeiro os planos que ele disponibilizou no acervo autorizado, sem pedir que repita conteúdos e habilidades já documentados. Identificar escola, ano letivo, turma, componente e período. Para pedidos semanais, cruzar a sequência do plano anual, trimestral ou semestral com o calendário, o horário e o plano semanal da turma, quando disponíveis. Usar o plano semanal ou diário vigente para localizar o recorte exato quando ele existir. Para consultas sobre o ano todo, apresentar a sequência do planejamento anual e detalhá-la na medida em que os documentos a organizem por período.
+
+Quando o plano indicar conteúdo apenas por trimestre ou unidade, declarar essa granularidade. Usar a programação semanal disponível para datar aulas. Se faltar essa referência, identificar qualquer distribuição semanal como proposta, sem atribuir ao plano uma data que ele não informa. Conferir também registros de aulas anteriores quando forem necessários para distinguir o que estava previsto do que a turma já estudou. Quando houver dúvida material entre planos vigentes, explicitar a divergência e pedir só a informação necessária.
+
+A consulta acontece ao receber o pedido e depende do acesso aos arquivos. O envio de um plano, por si só, não dispara produção semanal automática.
+
 ## Conteúdo obrigatório por aula
 
 | Campo | Como preencher |
