@@ -27,6 +27,15 @@
         "fonte": "planejar-resolver-conferir-7ano",
         "relatorio_linguagem_base": "09167b1896bed3b0d5a0ff4b55be8b4588660bd6",
         "nota": "Banco temático existente reutilizado. Regras adaptativas habilitadas no motor da publicação."
+      },
+      "cena_jogo": {
+        "origem": "Ilustrações autorais sintéticas para a aula, em WebP.",
+        "arquivos": {
+          "cenario-ilustrado.webp": "849cc8ed8a11898bf80088584731cc85b3ab9bb4b79e1e0da22095d56c417ffa",
+          "lia.webp": "65b38d58a5beea40ea19687e8b431eef2f395e0bc69188a21e529436be6d4f37",
+          "estudante.webp": "fefe4a35412ea353355f9a85fbac06517fbb5bdbaf60d931847640a00ac9036a",
+          "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
+        }
       }
     },
     "23-11-2026-exploracao-imersiva-182": {
@@ -53,6 +62,15 @@
         "fonte": "leitura-tabelas-e-sintese-8ano",
         "relatorio_linguagem_base": "09167b1896bed3b0d5a0ff4b55be8b4588660bd6",
         "nota": "Banco temático existente reutilizado. Regras adaptativas habilitadas no motor da publicação."
+      },
+      "cena_jogo": {
+        "origem": "Ilustrações autorais sintéticas para a aula, em WebP.",
+        "arquivos": {
+          "cenario-ilustrado.webp": "70958c12438bc0de70641deac68ab1d6effa8e676840b973044b347b4b0fb6a9",
+          "lia.webp": "65b38d58a5beea40ea19687e8b431eef2f395e0bc69188a21e529436be6d4f37",
+          "estudante.webp": "fefe4a35412ea353355f9a85fbac06517fbb5bdbaf60d931847640a00ac9036a",
+          "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
+        }
       }
     },
     "23-11-2026-exploracao-imersiva-191": {
@@ -79,6 +97,15 @@
         "fonte": "erosao-solo-7ano",
         "relatorio_linguagem_base": "c267a67bc635abba6e52e782699014f320566368",
         "nota": "Banco temático existente reutilizado. Regras adaptativas habilitadas no motor da publicação."
+      },
+      "cena_jogo": {
+        "origem": "Ilustrações autorais sintéticas para a aula, em WebP.",
+        "arquivos": {
+          "cenario-ilustrado.webp": "4e0e6ec9e0a4832baae2db05e6a5fcf869b2eba829b637b3c2bd0dc58ad186e7",
+          "lia.webp": "65b38d58a5beea40ea19687e8b431eef2f395e0bc69188a21e529436be6d4f37",
+          "estudante.webp": "fefe4a35412ea353355f9a85fbac06517fbb5bdbaf60d931847640a00ac9036a",
+          "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
+        }
       }
     }
   },

@@ -193,7 +193,7 @@
     {
       "aula": "23-11-2026-exploracao-imersiva-172",
       "destino": "aulas/23-11-2026-exploracao-imersiva-172",
-      "pacote_sha256": "58db11d08245b44589230b3341e196cf421b7b4cc71eafdb09d98598552dc3b5",
+      "pacote_sha256": "4dbf6413aaa358bd701e6f37d2e92d24020248bdb08148797f7b10a54b6e7c75",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
       "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
@@ -205,7 +205,7 @@
     {
       "aula": "23-11-2026-exploracao-imersiva-182",
       "destino": "aulas/23-11-2026-exploracao-imersiva-182",
-      "pacote_sha256": "58cbef8348c49c5596b3d6ff2c3edd4ec2daa391c624ea2ddd775e27b61e6d51",
+      "pacote_sha256": "4d7545c76ad7d0febe3d784fa30a48cc8cb04511e8cacf49f0582dcdb0ef37b9",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
       "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
@@ -217,7 +217,7 @@
     {
       "aula": "23-11-2026-exploracao-imersiva-191",
       "destino": "aulas/23-11-2026-exploracao-imersiva-191",
-      "pacote_sha256": "e12b73390fc6e1a54c1f7d6f67f8177cd2d1a26f1171c257ae15391c743b40ca",
+      "pacote_sha256": "0315ad0931855f29e9843345451030bc6c15c3f8df3f7dd695ee3f38d3b6516a",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
       "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",

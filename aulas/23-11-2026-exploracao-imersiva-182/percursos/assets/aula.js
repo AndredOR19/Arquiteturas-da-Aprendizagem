@@ -28,16 +28,40 @@ for(const p of [panel,reports,mapPanel])p.addEventListener('keydown',e=>{if(e.ke
 function setMission(){const t=current();const done=Object.values(route().records).filter(r=>r.done).length;api?.mission(t?names[S.route]+' · '+(route().index+1)+'/'+bank().length+' · Procure '+stations[t.station].name+'. '+t.command:'Caminho concluído. Compartilhe sua explicação e confira o caderno de bordo.');$('[data-progresso]').textContent=done+'/'+bank().length;$('[data-contagem]').textContent=String(Object.values(route().records).filter(r=>r.done).length);$('[data-area-label]').textContent=t?.context||'Fórum de descobertas';arena.dataset.etapa=String(route().index);arena.dataset.rota=S.route;arena.dataset.concluida=String(!t);loadScene();save();}
 function buildMission(){mission=GEI.criarMissoes(bank().map(t=>({texto:t.command,verificar:ctx=>ctx?.id===t.id&&ctx.correct===true})),()=>{route().index=mission.estado().indice;setMission();});if(route().index>0)mission.restaurar(route().index);setMission();}
 function loadImage(name){if(!images[name]){images[name]={pending:true};api.loadImage('assets/'+name).then(img=>{images[name]={img};arena.dataset['asset'+name.replace(/\W/g,'')]='ok';}).catch(()=>{images[name]={error:true};$('[data-dica]').textContent='Recurso visual indisponível. O mapa e as construções continuam acessíveis.';});}}
-function sceneName(){return C.scene||'cenario.png';}function loadScene(){if(api)loadImage(sceneName());}
+const backgroundArt = 'cenario-ilustrado.webp';
+const characterArt = { 1: 'lia.webp', 3: 'ana.webp', 4: 'estudante.webp' };
+function sceneName(){return C.scene||'cenario.png';}
+function loadScene(){
+ if(!api)return;
+ loadImage(sceneName());
+ loadImage(backgroundArt);
+ Object.values(characterArt).forEach(loadImage);
+}
 function nearest(){return stations.map((s,i)=>({...s,i,d:Math.hypot(s.x-player.x,450-player.y)})).filter(s=>s.d<78).sort((a,b)=>a.d-b.d)[0];}
 function update(dt,d){time+=dt;player.walking=!!(d.x||d.y);if(d.x)player.face=d.x<0?-1:1;player.x=Math.max(45,Math.min(915,player.x+d.x*230*dt));player.y=Math.max(390,Math.min(505,player.y+d.y*190*dt));arena.dataset.posicao=Math.round(player.x)+','+Math.round(player.y);const n=nearest(),hint=n?'Interagir com '+n.name:'Procure o ponto dourado ou use o mapa de locais.';if(lastHint!==hint){lastHint=hint;$('[data-dica]').textContent=hint;if(S.auto&&n)speak(hint);}if(player.walking&&time-lastSave>2){save();lastSave=time;}}
 function sprite(ctx,col,row,x,y,w=64,flip=false){
+ const portrait=images[characterArt[col]]?.img;
+ if(portrait){
+  const height=w*1.42;
+  const width=height*portrait.width/portrait.height;
+  ctx.save();
+  ctx.fillStyle='rgba(13,18,23,.56)';
+  ctx.beginPath();
+  ctx.ellipse(x,y+1,width*.39,height*.06,0,0,Math.PI*2);
+  ctx.fill();
+  ctx.translate(x,y);
+  if(flip)ctx.scale(-1,1);
+  ctx.imageSmoothingEnabled=true;
+  ctx.drawImage(portrait,-width/2,-height,width,height);
+  ctx.restore();
+  return;
+ }
  const coat=row===7&&col===4?'#efad65':col===1?'#88d0cc':'#bda8e4';const h=w/64;ctx.save();ctx.translate(x,y);ctx.scale(h*(flip?-1:1),h);ctx.strokeStyle='#243344';ctx.lineWidth=5;ctx.lineCap='round';
  const stride=player.walking&&!S.calm?Math.sin(time*11)*5:0;
  ctx.beginPath();ctx.moveTo(-7,-22);ctx.lineTo(-8+stride,0);ctx.moveTo(7,-22);ctx.lineTo(8-stride,0);ctx.stroke();
  ctx.fillStyle=coat;ctx.beginPath();ctx.roundRect(-13,-49,26,30,7);ctx.fill();ctx.strokeStyle=coat;ctx.lineWidth=7;ctx.beginPath();ctx.moveTo(-12,-44);ctx.lineTo(-18,-25+stride);ctx.moveTo(12,-44);ctx.lineTo(18,-25-stride);ctx.stroke();
  ctx.fillStyle=col===1?'#a26749':'#dcae86';ctx.beginPath();ctx.arc(0,-60,10,0,Math.PI*2);ctx.fill();ctx.fillStyle='#273343';ctx.beginPath();ctx.arc(0,-63,10,Math.PI,Math.PI*2);ctx.fill();ctx.fillRect(-10,-63,20,4);ctx.fillStyle='#253948';ctx.fillRect(-4,-59,2,2);ctx.fillRect(3,-59,2,2);ctx.restore();}
-function render(ctx){const im=images[sceneName()]?.img;ctx.fillStyle='#263e3c';ctx.fillRect(0,0,960,540);if(!im){ctx.fillStyle='#fff2d9';ctx.font='22px system-ui';ctx.fillText('Preparando o cenário de estudos…',280,250);}ctx.save();api.camera(ctx,{x:player.x,y:player.y,zoom:arena.getBoundingClientRect().width<600?1.6:1});if(im){ctx.imageSmoothingEnabled=true;ctx.drawImage(im,0,0,960,540);}const t=current();stations.forEach((s,i)=>{const target=t?.station===i;ctx.fillStyle=target?'#f2c777':'#a1bcb1';ctx.beginPath();ctx.ellipse(s.x,462,25,8,0,0,Math.PI*2);ctx.fill();if(s.type==='pessoa')sprite(ctx,...s.sprite,s.x,465);else{ctx.fillStyle=s.type==='maquina'?'#e5a669':'#f1e6c7';ctx.strokeStyle='#24454b';ctx.lineWidth=3;ctx.beginPath();ctx.roundRect(s.x-22,418,44,36,6);ctx.fill();ctx.stroke();ctx.fillStyle='#24454b';ctx.font='bold 18px system-ui';ctx.textAlign='center';ctx.fillText(s.type==='maquina'?'↔':'▤',s.x,444);}if(target||nearest()?.i===i){ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.lineWidth=5;ctx.strokeStyle='#173332';ctx.fillStyle='#ffe2a8';ctx.strokeText(s.name,s.x,385);ctx.fillText(s.name,s.x,385);if(target){ctx.font='28px system-ui';ctx.fillText('◆',s.x,355);}}});const bob=player.walking&&!S.calm&&!api.reducedMotion?Math.sin(time*12)*3:0;sprite(ctx,4,7,player.x,player.y+15+bob,64,player.face<0);ctx.font='bold 18px system-ui';ctx.textAlign='center';ctx.strokeStyle='#173332';ctx.lineWidth=4;ctx.fillStyle='#fff3df';ctx.strokeText('VOCÊ',player.x,player.y+36);ctx.fillText('VOCÊ',player.x,player.y+36);const completed=Object.keys(route().records).filter(id=>route().records[id].done).length;for(let i=0;i<8;i++){ctx.fillStyle=i<Math.floor(completed/(S.route==='principal'?4:S.route==='exemplos'?12:3))?'#89dbbd':'#294f5a';ctx.fillRect(34+i*27,500,20,8);}ctx.restore();}
+function render(ctx){const im=images[backgroundArt]?.img||images[sceneName()]?.img;ctx.fillStyle='#15232c';ctx.fillRect(0,0,960,540);if(!im){ctx.fillStyle='#fff2d9';ctx.font='22px system-ui';ctx.fillText('Preparando o cenário de estudos…',280,250);}ctx.save();api.camera(ctx,{x:player.x,y:player.y,zoom:arena.getBoundingClientRect().width<600?1.6:1});if(im){ctx.imageSmoothingEnabled=true;ctx.drawImage(im,0,0,960,540);}const t=current();stations.forEach((s,i)=>{const target=t?.station===i;ctx.fillStyle=target?'#f2c777':'#a1bcb1';ctx.beginPath();ctx.ellipse(s.x,462,25,8,0,0,Math.PI*2);ctx.fill();if(s.type==='pessoa')sprite(ctx,...s.sprite,s.x,465);else{ctx.fillStyle=s.type==='maquina'?'#e5a669':'#f1e6c7';ctx.strokeStyle='#24454b';ctx.lineWidth=3;ctx.beginPath();ctx.roundRect(s.x-22,418,44,36,6);ctx.fill();ctx.stroke();ctx.fillStyle='#24454b';ctx.font='bold 18px system-ui';ctx.textAlign='center';ctx.fillText(s.type==='maquina'?'↔':'▤',s.x,444);}if(target||nearest()?.i===i){ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.lineWidth=5;ctx.strokeStyle='#173332';ctx.fillStyle='#ffe2a8';ctx.strokeText(s.name,s.x,385);ctx.fillText(s.name,s.x,385);if(target){ctx.font='28px system-ui';ctx.fillText('◆',s.x,355);}}});const bob=player.walking&&!S.calm&&!api.reducedMotion?Math.sin(time*12)*3:0;sprite(ctx,4,7,player.x,player.y+15+bob,64,player.face<0);ctx.font='bold 18px system-ui';ctx.textAlign='center';ctx.strokeStyle='#173332';ctx.lineWidth=4;ctx.fillStyle='#fff3df';ctx.strokeText('VOCÊ',player.x,player.y+36);ctx.fillText('VOCÊ',player.x,player.y+36);const completed=Object.keys(route().records).filter(id=>route().records[id].done).length;for(let i=0;i<8;i++){ctx.fillStyle=i<Math.floor(completed/(S.route==='principal'?4:S.route==='exemplos'?12:3))?'#89dbbd':'#294f5a';ctx.fillRect(34+i*27,500,20,8);}ctx.restore();}
 function interact(){if(!started)return;const t=current(),n=nearest();if(!t){openReport();return;}if(!n||n.i!==t.station){$('[data-dica]').textContent='A missão atual está com '+stations[t.station].name+'. Use o mapa para localizar.';if(S.auto)speak($('[data-dica]').textContent);return;}showTask();}
 api=GEI.criar(root,{immersive:true,update,render,interact,onNarrationUnavailable(){$('[data-inicio-voz-status]').hidden=false;}});buildMission();api.setPaused(true);[sceneName()].forEach(loadImage);
 let getValue=null,allowCheck=false,displayedTask=null;
