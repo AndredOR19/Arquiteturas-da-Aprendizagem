@@ -5,7 +5,7 @@
   "aulas": {
     "23-11-2026-exploracao-imersiva-172": {
       "titulo": "Detetives do Estudo — decifrar, resolver e explicar",
-      "index_sha256": "24d9bcc7fcbddd3a19b5a49cef0dc8c1cbf0f7816c313f72279492fac52c415d",
+      "index_sha256": "1dbf18ef545794a3280b3c0d6ba5e636d0a5e7e7c4a1b6dff9929e974d1b066d",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -36,11 +36,12 @@
           "estudante.webp": "fefe4a35412ea353355f9a85fbac06517fbb5bdbaf60d931847640a00ac9036a",
           "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
         }
-      }
+      },
+      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional."
     },
     "23-11-2026-exploracao-imersiva-182": {
       "titulo": "Agência de Investigação — pistas, dados e decisões",
-      "index_sha256": "7d950049bca7169a639842960bbffc5c831f4f8da027453531fe520f11a7ddc6",
+      "index_sha256": "e43761c37af7f2d4336fee60ea7ebeae27730ed042602a4469087cf134b40a4c",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -71,19 +72,20 @@
           "estudante.webp": "fefe4a35412ea353355f9a85fbac06517fbb5bdbaf60d931847640a00ac9036a",
           "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
         }
-      }
+      },
+      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional."
     },
     "23-11-2026-exploracao-imersiva-191": {
       "titulo": "Laboratório do Solo Vivo — o caminho da água",
-      "index_sha256": "f46f412e021320663e9459f24b338f6456c5e067fe7f5656b7e39aed78579215",
+      "index_sha256": "48db326a0597ae6d720f90edf71a8245047bacb52c938c95277f287ae1ac713d",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
       "bloqueado": 0,
       "enunciados_revisados": [
-        "Qual fator diferencia as superfícies?",
-        "Como controlar as variáveis?",
-        "Qual é a orientação mais fundamentada?"
+        "Qual fator protege o solo contra o impacto das gotas?",
+        "Qual preparação permite comparar apenas a cobertura das bandejas?",
+        "Qual medida ajuda a proteger o solo exposto da chuva?"
       ],
       "orientacao_docente": "Explicar declive como inclinação e fundamentada como apoiada em evidências.",
       "imagens_sha256": {
@@ -106,7 +108,8 @@
           "estudante.webp": "fefe4a35412ea353355f9a85fbac06517fbb5bdbaf60d931847640a00ac9036a",
           "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
         }
-      }
+      },
+      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional."
     }
   },
   "revisao_visual": {
