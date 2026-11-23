@@ -1,0 +1,82 @@
+{
+  "id": "lote-2026-11-24-historia-231",
+  "data": "2026-11-24",
+  "turma": "231",
+  "disciplina": "História",
+  "tema": "Direitos em ação",
+  "fonte_curricular": "Planejamento História 231, 3º trimestre, semana de 23–27/11: desigualdade, discriminação e painel Direitos em Ação.",
+  "habilidades": [
+    "EM13CHS502 — analisar situações de desigualdade e discriminação e propor ações de promoção dos direitos humanos."
+  ],
+  "design": {
+    "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+    "revisao": "ferramentas/biblioteca.lock.json",
+    "modelo": "Fluxo 03 por componentes centrais; apoio inclusivo associativo direto",
+    "politica": "automacoes/aulas/politica-entrega.json",
+    "visual": "Centro de memória da redemocratização, com inscrição, linha do tempo e mesa de fontes."
+  },
+  "estado": "rascunho",
+  "aulas": [
+    {
+      "key": "historia-231",
+      "id": "direitos-em-acao-231",
+      "turma": "231",
+      "serie": "3ª série · EM",
+      "disciplina": "História",
+      "turno": "Manhã",
+      "periodos_horario": "1º e 2º",
+      "tema": "Direitos em ação",
+      "fonte_curricular": "Planejamento História 231, 3º trimestre, semana de 23–27/11: desigualdade, discriminação e painel Direitos em Ação.",
+      "habilidades": [
+        "EM13CHS502 — analisar situações de desigualdade e discriminação e propor ações de promoção dos direitos humanos."
+      ],
+      "objetivo": "Analisar uma barreira, sustentar a leitura com uma evidência e propor ação concreta.",
+      "experiencia": "Demonstrar caso fictício de inscrição digital, ler art. 3º IV da Constituição e montar painel com barreira, evidência e ação. Modelo resolvido: oficina gratuita com inscrições exclusivamente digitais em 24 horas. Oito solicitações de ajuda por falta de conexão evidenciam barreira, sem demonstrar desistência ou intenção. Plantão presencial no mesmo prazo e critério comum de vagas. Transferência: curso acaba às 18h10 e último ônibus sai às 17h40. Propor uma mudança e indicador. Fonte: Constituição Federal de 1988, art. 3º, IV, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Exemplos com outros dados e áudio reabrível antes de toda prática, com recuperação explicada.",
+      "vocabulario": [
+        "DIREITO",
+        "DADO",
+        "LEI",
+        "PAINEL",
+        "ESCOLA",
+        "ACESSO",
+        "AÇÃO",
+        "FONTE"
+      ],
+      "data": "2026-11-24",
+      "periodos": 2,
+      "conteudo_id": "direitos-em-acao-231",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho",
+      "documentos_base": [
+        "MEMORIA_OPERACIONAL_AULAS.md",
+        "prompts/ADENDO_EIE_VISUAL_JUVENIL_CONSULTA_OBRIGATORIA_3_9_6.md",
+        "prompts/ADENDO_REGISTRO_ESCOLA_RS_3_9_7.md"
+      ],
+      "registro_escola_rs": "Será analisada a relação entre direitos constitucionais e barreiras de acesso por meio da leitura de evidências e da elaboração do painel Direitos em Ação. Habilidade: EM13CHS502."
+    }
+  ],
+  "contrato_adicional": {
+    "aula_principal": 32,
+    "exemplos": 96,
+    "apoio_nao_leitor_alvo": 96,
+    "progressao_inclusiva": "3.9.3",
+    "distribuicao_inclusiva": {
+      "letras": 48,
+      "palavras": 24,
+      "frases": 24
+    },
+    "fase_2_frases": 96,
+    "fase_2_obrigatoria": false,
+    "quantidades_sao_requisitos_nao_evidencias": true,
+    "linguagem": "VEJA → ENTENDA → EXEMPLO COM OUTROS DADOS → SUA VEZ → CONFERIR",
+    "bloqueios": [
+      "não declarar 3.9.3 sem inspecionar bancos reais e testar",
+      "não declarar aulas concluídas sem textos, PDFs, testes e publicação dupla",
+      "não criar motor HTML independente",
+      "não marcar recibos aprovados automaticamente",
+      "não publicar guia docente, respostas reservadas ou dados individuais"
+    ],
+    "entregas": "HTML principal, exemplos, apoio associativo, PDFs discentes diagramados, exposição docente reservada, relatórios, auditoria de repetição, recibos reais, Pages e Vercel, QR após URLs"
+  },
+  "observacao": "Aplicar implementação canônica 4cb5f548657e963b00b006ab363d01428189cd49. Explicar antes da prática e em recuperação. Manter QR após verificação nos dois destinos."
+}
