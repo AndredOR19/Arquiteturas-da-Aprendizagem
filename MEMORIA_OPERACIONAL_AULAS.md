@@ -57,3 +57,13 @@ Usar [Exploração Visual em Camadas](https://github.com/AndredOR19/Biblioteca-d
 
 ### Ensinar antes de pedir resposta
 A aula digital conduz o ensino. Aplicar a sequência situação concreta → explicação em linguagem cotidiana → exemplo resolvido com outros dados → prática curta → feedback que ensina. Conferir a sequência na experiência publicada, incluindo a recuperação. Ver [critério de conferência didática](prompts/ADENDO_EIE_VISUAL_JUVENIL_CONSULTA_OBRIGATORIA_3_9_6.md#a-própria-aula-precisa-ensinar).
+
+## Implementações canônicas aprovadas pelo Prof. André
+
+A revisão didática das turmas 172, 182 e 191 no commit `4cb5f548657e963b00b006ab363d01428189cd49` é a referência canônica vigente. Consultar os exemplos [172](https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/tree/4cb5f548657e963b00b006ab363d01428189cd49/aulas/23-11-2026-exploracao-imersiva-172), [182](https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/tree/4cb5f548657e963b00b006ab363d01428189cd49/aulas/23-11-2026-exploracao-imersiva-182) e [191](https://github.com/AndredOR19/Arquiteturas-da-Aprendizagem/tree/4cb5f548657e963b00b006ab363d01428189cd49/aulas/23-11-2026-exploracao-imersiva-191). Usar o comportamento aprovado como base para novas aulas e revisões, adaptando o conteúdo ao planejamento da turma.
+
+- Ensinar na abertura, nos blocos e na recuperação: situação concreta, explicação em linguagem cotidiana, demonstração com exemplo resolvido de outro caso e só então prática. Manter a explicação revisável e disponível por áudio. Apresentar dados em representações adequadas, como tabelas com cabeçalhos e unidades.
+- Verificar compreensão por uma ação breve, como escolha com evidência, associação ou montagem. A síntese escrita permanece opcional quando a atividade já oferece evidência suficiente. A abertura de uma pista sozinha não conclui um percurso.
+- Preservar a exploração visual e a arena temática com personagens ilustrados, os 32 percursos principais, a recuperação adaptativa e a conclusão condicionada às atividades exigidas. Conferir o fluxo no material que chega ao estudante.
+
+Somente um upgrade explicitamente aprovado pelo Prof. André pode substituir esta referência. Propostas e pilotos ficam separados até aprovação. Ao aprovar um upgrade, registrar neste ponto o novo commit e as diferenças em relação à versão anterior.
