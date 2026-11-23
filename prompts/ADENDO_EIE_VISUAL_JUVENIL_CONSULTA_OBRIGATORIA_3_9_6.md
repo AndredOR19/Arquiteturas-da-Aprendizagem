@@ -24,3 +24,6 @@ Referência conceitual: Explorações Imersivas do Google/Gemini Estudantes, **s
 ## Aplicação
 Aplica-se a todas as novas aulas imersivas e revisões visuais solicitadas. Não migra retroativamente aulas antigas nem altera notas, IDs, recibos ou URLs. Pilotos 182/191/172 de 23/11/2026 são não homologados até reconstrução por motor oficial e testes.
 **Referência técnica vinculada:** Biblioteca de Diagramação / `docs/DIRETRIZ-VISUAL-EIE-JUVENIL.md`.
+
+## Conferência da arena após iniciar a aula
+Quando a experiência incluir deslocamento, abrir **Iniciar aula principal** e entrar no jogo antes da revisão visual. Conferir o fundo temático ilustrado no espaço de jogo, o protagonista e os personagens-guia carregados e legíveis, a escala em relação ao cenário e a indicação do próximo ponto de interação. Testar pelo menos um movimento e a abertura de uma atividade. Repetir a conferência no GitHub Pages e na Vercel. A capa e a cena de introdução são etapas distintas dessa verificação.
