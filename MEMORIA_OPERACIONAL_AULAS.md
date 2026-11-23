@@ -50,3 +50,7 @@ Abra o link que o aluno receberá, no GitHub Pages e na Vercel. Confira no naveg
 
 ### Registro para Escola RS em toda aula
 Para toda aula nova ou revisada, aplicar o [adendo obrigatório 3.9.7](prompts/ADENDO_REGISTRO_ESCOLA_RS_3_9_7.md). Conferir título, turma, componente, data, texto copiável e códigos oficiais das habilidades efetivamente trabalhadas na própria aula e no acervo antes da entrega.
+
+## Artefato aprovado — Exploração Visual em Camadas
+
+Usar [Exploração Visual em Camadas](https://github.com/AndredOR19/Biblioteca-de-Diagramacao/blob/main/docs/AULAS-IMERSIVAS-EIE.md#exploração-visual-em-camadas) quando a atividade pedir que o estudante observe uma cena, inspecione um objeto e explique uma relação com base no que observou. Pode compor um dos 32 percursos da aula. Quando houver vínculo curricular, a atividade associada é que determina a conclusão do percurso.
