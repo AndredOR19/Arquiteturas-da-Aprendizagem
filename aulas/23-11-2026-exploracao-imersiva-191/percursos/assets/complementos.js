@@ -6,15 +6,15 @@ $('.inicio-card').style.setProperty('--scene','url("assets/cenario.png")');
 const how=make('div',undefined,'orientacao-inicial');how.innerHTML='<p><strong>01 Entender</strong> · Veja uma relação explicada.</p><p><strong>02 Observar</strong> · Localize dados e limites.</p><p><strong>03 Construir</strong> · Caminhe, converse e monte sua resposta.</p><p><strong>04 Explicar</strong> · Guarde a evidência e aplique em outro caso.</p>';
 $('.controles-intro').before(how);
 const rule=make('div',undefined,'regra-inicial');rule.innerHTML='<p><strong>Regra de recuperação</strong>: acertou de primeira, siga. O primeiro erro naquele conjunto acrescenta uma experiência. O segundo amplia para três extras. O limite é quatro atividades por conjunto: de 32 a 128 no principal. Pistas, áudio e apoios opcionais não aumentam a carga.</p><label><input type="checkbox" data-regra-confirmar> Conferi as regras; posso pedir ajuda para entendê-las.</label><p data-regra-status role="status"></p>';
-$('[data-comecar]').closest('.inicio-acoes').before(rule);$('[data-regra-confirmar]').checked=S.rulesConfirmed;
+if(!$('[data-regra-confirmar]'))$('[data-comecar]').closest('.inicio-acoes').before(rule);$('[data-regra-confirmar]').checked=S.rulesConfirmed;
 const worldIntro=make('button','Entender a aula');worldIntro.type='button';$('.ferramentas').prepend(worldIntro);
 const intro=make('section',undefined,'painel painel-entender');intro.hidden=true;intro.setAttribute('role','dialog');intro.setAttribute('aria-modal','true');intro.innerHTML='<article class="tarefa-card"><div class="tarefa-top"><span>ENTENDER · EXPOSIÇÃO E EXEMPLO</span><button data-entender-voltar>Voltar ao cenário</button></div><h2></h2><div data-exposicao></div><h3>Um exemplo de construção</h3><p>Uma representação tem dados, uma relação e um limite. Primeiro veja o modelo; depois aplique o critério às peças. O exemplo explicado é treino e não conta como atividade concluída.</p><div data-modelo-resolvido></div><button data-entender-ouvir>Ouvir a explicação</button></article>';root.append(intro);
 intro.querySelector('h2').textContent=C.title;
 for(const [title,text]of C.exposition||[]){intro.querySelector('[data-exposicao]').append(make('h3',title),make('p',text));}
-const demo=C.cases[0];intro.querySelector('[data-modelo-resolvido]').append(make('p','Dado: '+demo.facts.dado),make('p','Relação: '+demo.facts.relacao),make('p','Limite: '+demo.facts.limite));
+const demo=C.teaching?.[0];if(demo){intro.querySelector('[data-exposicao]').replaceChildren(make('p',demo[0]),make('p',demo[1]));intro.querySelector('[data-modelo-resolvido]').append(make('p',demo[2]));intro.querySelector('[data-modelo-resolvido]').previousElementSibling.hidden=true;}
 worldIntro.onclick=()=>{intro.hidden=false;A.api.setPaused(true);intro.querySelector('[data-entender-voltar]').focus();};
 intro.querySelector('[data-entender-voltar]').onclick=()=>{intro.hidden=true;A.api.setPaused(false);$('.gei-arena').focus();};
-intro.querySelector('[data-entender-ouvir]').onclick=()=>A.speak((C.exposition||[]).map(x=>x.join('. ')).join('. '));
+intro.querySelector('[data-entender-ouvir]').onclick=()=>A.speak(demo?.join('. ')||(C.exposition||[]).map(x=>x.join('. ')).join('. '));
 // Representações do caso ficam junto da ação, sem confundir fundo com fonte.
 const representation=make('div',undefined,'relacao-visual');$('[data-tarefa-explica]').after(representation);
 root.addEventListener('aula:tarefa',e=>{const t=e.detail.task;representation.replaceChildren();
@@ -51,9 +51,9 @@ const record=make('details',undefined,'registro-publico');record.innerHTML='<sum
 if(C.guidedClarity){
  root.classList.add('aula-guiada');
  how.innerHTML='<p><strong>Observe</strong> a situação e o exemplo.</p><p><strong>Responda</strong> uma atividade por vez. Pode ouvir ou pedir ajuda.</p><p><strong>Explique</strong> sua escolha ao professor.</p>';
- rule.hidden=true;$('.controles-intro').hidden=true;
+ rule.hidden=!C.adaptiveRecovery;$('.controles-intro').hidden=true;
  $('[data-comecar]').textContent='Começar a atividade';
- $('[data-ouvir-inicio]').onclick=()=>A.speak(C.title+'. '+C.objective+'. Veja o exemplo, escolha sua resposta e confira. Pode pedir ajuda sem ganhar tarefas extras.');
+ $('[data-ouvir-inicio]').onclick=()=>A.speak(C.title+'. '+C.objective+'. Veja o exemplo, escolha sua resposta e confira. Pistas e áudio ajudam. Erros confirmados abrem atividades de recuperação.');
  $('[data-tarefa-voltar]').textContent='Pausar / ver cenário';
  $('[data-tarefa-conferir]').textContent='Conferir minha resposta';
  $('[data-tarefa-seguir]').textContent='Continuar';
@@ -64,11 +64,13 @@ if(C.guidedClarity){
  function formula(d){const ops=Array.isArray(d.operands)?d.operands:[];if(!ops.length)return '';if(d.operation==='media')return '('+ops.join(' + ')+') ÷ '+ops.length+' = '+d.answer;if(ops.reduce((a,b)=>a+b,0)===d.answer)return ops.join(' + ')+' = '+d.answer;if(Math.max(...ops)-Math.min(...ops)===d.answer)return Math.max(...ops)+' − '+Math.min(...ops)+' = '+d.answer;return '';}
  function model(t){const d=t.data;if(t.kind==='order')return d.parts.map((p,i)=>(i+1)+'º '+p).join('\n');if(t.kind==='match')return d.pairs.map(p=>p.join('\n   → ')).join('\n');if(t.kind==='sort')return d.labels[0]+': '+d.yes[0]+'\n'+d.labels[1]+': '+d.no[0];if(t.kind==='number')return formula(d)?'Como fazer a conta: '+formula(d)+' '+(d.unit||''):'Resultado para conferir depois da tentativa: '+d.answer+' '+(d.unit||'');if(t.kind==='bars'||t.kind==='tally')return d.labels.map((l,i)=>l+': '+d.values[i]).join(' · ');if(t.kind==='lab')return 'Exemplo: para testar a '+variableName(d.variable)+', deixe os dois copos iguais em tudo e mude só a '+variableName(d.variable)+' no copo B. Assim, se o tempo mudar, você sabe que foi por causa dela.';return t.explain;}
  root.addEventListener('aula:tarefa',e=>{const t=e.detail.task,o=operation[t.kind]||['Observe a figura e escolha.','Você pode ouvir e comparar.'],first=t.case===0&&S.route!=='apoio';guide.replaceChildren();
+  if(C.teaching?.[t.case]){ guide.hidden=true;return; }
+  guide.hidden=false;
   const label=make('p','Atividade '+((S.routes[S.route].index%4)+1)+' de 4 deste bloco · uma de cada vez.');guide.append(label,make('h3','O que fazer'),make('p',o[0]));
   const alternate=make('details');alternate.append(make('summary','Diga de outro jeito'),make('p',o[1]));guide.append(alternate);
   const ex=C.plain?.example?.(t,C.routes[S.route]),example=make('details');example.open=first&&!!ex;example.dataset.exemplo=ex?'outro-caso':'proprio';
   if(ex)example.append(make('summary','2 · Ver exemplo com outro caso: «'+ex.caso+'»'),make('p',ex.texto),make('p','Mesma tarefa, outros dados. Agora faça com os dados deste caso.','nota'));
-  else example.append(make('summary','Ver exemplo resolvido, se precisar'),make('p',model(t)),make('p','Ideia para guardar: '+t.relation));
+  else { example.hidden=true; }
   guide.append(example);
   const reveal=make('details',undefined,'gabarito-proprio');reveal.hidden=true;reveal.append(make('summary','Ver como fica este caso'),make('p',model(t)),make('p','Ideia para guardar: '+t.relation));guide.append(reveal);
   const hear=make('button','Ouvir a orientação');hear.onclick=()=>A.speak(o.join('. ')+'. '+t.explain+'. '+t.command);guide.append(hear);

@@ -67,7 +67,59 @@ api=GEI.criar(root,{immersive:true,update,render,interact,onNarrationUnavailable
 let getValue=null,allowCheck=false,displayedTask=null;
 function shuffle(items,seed=0){return items.map((value,i)=>({value,key:(i*7+seed*3)%11})).sort((a,b)=>a.key-b.key).map(x=>x.value);}
 function diagram(word,meaning){if(window.Representacoes){const figure=node('figure',undefined,'palavra-figura');figure.innerHTML=window.Representacoes.svg(word,meaning,C.kind);figure.append(node('figcaption',meaning));return figure;}const wrap=node('figure',undefined,'palavra-figura'),svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 420 130');svg.setAttribute('role','img');svg.setAttribute('aria-label',meaning);let shape='';if(/COPO|ÁGUA|SAL|VOLUME|SOLUÇÃO|CRISTAL/.test(word))shape='<path d="M160 14h100l-12 94h-76Z" stroke="#31544f" stroke-width="4" fill="#d9eee3"/><path d="M169 54h82l-6 50h-71Z" fill="#7cbbb3"/><circle cx="198" cy="90" r="4" fill="white"/><circle cx="221" cy="85" r="4" fill="white"/>';else if(/DADO|TOTAL|TABELA|BARRA|ESCALA|CONTAGEM|MAIOR|MENOR|MÉDIA|CENSO|AMOSTRA/.test(word))shape='<path d="M98 110h230M105 110V10" stroke="#31544f" stroke-width="4"/><path d="M130 108V65h38v43M193 108V27h38v81M256 108V47h38v61" fill="#bc8254"/>';else if(/TEMPO|DATA|PAUSA/.test(word))shape='<circle cx="210" cy="63" r="46" fill="#d9eee3" stroke="#31544f" stroke-width="4"/><path d="M210 27v36l27 18" fill="none" stroke="#bc8254" stroke-width="6"/>';else if(/FONTE|TEXTO|LIVRO|REGISTRO|TÍTULO|DIREITO/.test(word))shape='<path d="M125 15h85v98l-85-14Zm85 0h85v84l-85 14Z" fill="#e8d4b5" stroke="#31544f" stroke-width="3"/><path d="M140 36h54M140 54h54M226 36h54M226 54h54" stroke="#31544f" stroke-width="4"/>';else shape='<circle cx="100" cy="70" r="22" fill="#bc8254"/><circle cx="210" cy="35" r="22" fill="#7cbbb3"/><circle cx="320" cy="85" r="22" fill="#bc8254"/><path d="m123 63 64-21m45 3 65 29" stroke="#31544f" stroke-width="5"/>';svg.innerHTML=shape;wrap.append(svg,node('figcaption',meaning));return wrap;}
-function showTask(){const t=current();if(!t)return;displayedTask=t;const rec=record();openModal('task');$('[data-tarefa-capitulo]').textContent=(t.isRecovery?'Recuperação complementar':names[S.route])+' · '+t.context+' · '+(route().index+1)+'/'+bank().length;$ ('#tarefa-titulo').textContent=t.title;$('[data-tarefa-explica]').textContent=t.explain;$('[data-tarefa-comando]').textContent=t.command;$('[data-tarefa-feedback]').textContent='Construa sua resposta e confira a relação. Pedir ajuda não desconta.';$('[data-tarefa-conferir]').hidden=false;$('[data-tarefa-conferir]').disabled=false;$('[data-tarefa-seguir]').hidden=true;const box=$('[data-tarefa-tabuleiro]');box.replaceChildren();getValue=null;allowCheck=true;const d=t.data;root.dispatchEvent(new CustomEvent('aula:tarefa',{detail:{task:t}}));
+const taughtTasks = new Set();
+const teaching = node('section',undefined,'tarefa-card');
+teaching.setAttribute('aria-label','Explicação da aula');
+panel.querySelector('.tarefa-card').prepend(teaching);
+function showTeaching(task) {
+ const lesson = C.teaching?.[task.case];
+ if (!lesson || taughtTasks.has(task.id)) return false;
+ openModal('task');
+ const article=panel.querySelector('.tarefa-card');
+ const content=[...article.children].filter(el=>el!==teaching && !el.classList.contains('tarefa-top'));
+ for(const el of content) { el.dataset.visibleBeforeTeaching=String(el.hidden); el.hidden=true; }
+ teaching.hidden=false;
+ teaching.replaceChildren(node('h2','Vamos entender juntos'));
+ const headings=['A situação','Como funciona','Veja um exemplo resolvido'];
+ lesson.forEach((text,index)=>teaching.append(node('h3',headings[index]),node('p',text)));
+ if(C.kind==='data' && task.case!==5){
+  const table=node('table');
+  table.style.cssText='width:100%;text-align:left';
+  const header=node('tr');
+  ['Grupo','Páginas','Minutos','Questões respondidas'].forEach(label=>{const th=node('th',label);th.scope='col';header.append(th);});
+  const head=node('thead');head.append(header);table.append(head);
+  const body=node('tbody');
+  for(const values of [['A',8,20,4],['B',12,30,6],['C',10,25,5]]){
+   const row=node('tr');
+   values.forEach((value,index)=>{const cell=node(index?'td':'th',String(value));if(!index)cell.scope='row';row.append(cell);});
+   body.append(row);
+  }
+  table.append(body);
+  teaching.insertBefore(table,teaching.children[3]);
+ }
+ button('Ouvir a explicação',()=>speak(lesson.join('. ')),teaching);
+ const next=button('Agora é sua vez',()=>{
+  taughtTasks.add(task.id);
+  clearTeaching();
+  showTask();
+  $('[data-tarefa-comando]').setAttribute('tabindex','-1');
+  $('[data-tarefa-comando]').focus();
+ },teaching);
+ next.focus();
+ return true;
+}
+function clearTeaching(){
+ teaching.hidden=true;
+ teaching.replaceChildren();
+ for(const el of panel.querySelectorAll('[data-visible-before-teaching]')){
+  el.hidden=el.dataset.visibleBeforeTeaching==='true';
+  delete el.dataset.visibleBeforeTeaching;
+ }
+}
+teaching.hidden=true;
+panel.addEventListener('keydown',e=>{if(e.key==='Escape')clearTeaching();},true);
+$('[data-tarefa-voltar]').addEventListener('click',clearTeaching);
+function showTask(){const t=current();if(!t)return;clearTeaching();if(showTeaching(t))return;displayedTask=t;const rec=record();openModal('task');$('[data-tarefa-capitulo]').textContent=(t.isRecovery?'Recuperação complementar':names[S.route])+' · '+t.context+' · '+(route().index+1)+'/'+bank().length;$ ('#tarefa-titulo').textContent=t.title;$('[data-tarefa-explica]').textContent=C.teaching?.[t.case]?.[0]||t.explain;$('[data-tarefa-comando]').textContent=t.command;$('[data-tarefa-feedback]').textContent='Construa sua resposta e confira a relação. Pedir ajuda não desconta.';$('[data-tarefa-conferir]').hidden=false;$('[data-tarefa-conferir]').disabled=false;$('[data-tarefa-seguir]').hidden=true;const box=$('[data-tarefa-tabuleiro]');box.replaceChildren();getValue=null;allowCheck=true;const d=t.data;if(C.teaching?.[t.case])button('Rever a explicação',()=>{taughtTasks.delete(t.id);showTask();},box);root.dispatchEvent(new CustomEvent('aula:tarefa',{detail:{task:t}}));
  if(t.kind==='order'||t.kind==='letters'){
  if(C.guidedClarity&&t.kind==='order'){
   const built=[],line=node('div',undefined,'construcao'),prompt=node('p'),choices=node('div',undefined,'pecas');box.append(prompt,line,choices);

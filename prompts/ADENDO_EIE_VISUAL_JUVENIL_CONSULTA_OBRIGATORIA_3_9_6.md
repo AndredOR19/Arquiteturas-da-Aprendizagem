@@ -27,3 +27,9 @@ Aplica-se a todas as novas aulas imersivas e revisões visuais solicitadas. Não
 
 ## Conferência da arena após iniciar a aula
 Quando a experiência incluir deslocamento, abrir **Iniciar aula principal** e entrar no jogo antes da revisão visual. Conferir o fundo temático ilustrado no espaço de jogo, o protagonista e os personagens-guia carregados e legíveis, a escala em relação ao cenário e a indicação do próximo ponto de interação. Testar pelo menos um movimento e a abertura de uma atividade. Repetir a conferência no GitHub Pages e na Vercel. A capa e a cena de introdução são etapas distintas dessa verificação.
+
+## A própria aula precisa ensinar
+
+Aplicar em toda aula, imersiva ou não, antes da abertura, de cada novo bloco, da prática e da recuperação. Apresentar uma situação compreensível, explicar a relação em linguagem cotidiana e demonstrar uma resolução passo a passo com outros dados. Só então oferecer uma ação curta ao estudante. Mostrar tabelas como tabelas, com títulos e unidades, e narrar como ler uma linha, uma coluna ou uma representação. Usar o termo curricular depois de tornar a ideia inteligível. O exemplo resolvido deve estar visível antes da pergunta e disponível para retomar, inclusive por áudio.
+
+Na conferência de entrega, iniciar a aula como um estudante que nunca viu o assunto. Percorrer abertura, mudança de bloco, exemplo, primeira atividade e recuperação. Verificar que o próprio material ensina como chegar à resposta e que comandos, legendas e feedback não substituem a explicação. Explicar a relação antes de repetir a prática após erro. Aceitar respostas breves por escolha fundamentada, montagem, fala mediada ou escrita curta, conforme o objetivo.

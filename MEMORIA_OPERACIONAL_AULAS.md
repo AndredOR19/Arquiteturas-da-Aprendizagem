@@ -54,3 +54,6 @@ Para toda aula nova ou revisada, aplicar o [adendo obrigatório 3.9.7](prompts/A
 ## Artefato aprovado — Exploração Visual em Camadas
 
 Usar [Exploração Visual em Camadas](https://github.com/AndredOR19/Biblioteca-de-Diagramacao/blob/main/docs/AULAS-IMERSIVAS-EIE.md#exploração-visual-em-camadas) quando a atividade pedir que o estudante observe uma cena, inspecione um objeto e explique uma relação com base no que observou. Pode compor um dos 32 percursos da aula. Quando houver vínculo curricular, a atividade associada é que determina a conclusão do percurso.
+
+### Ensinar antes de pedir resposta
+A aula digital conduz o ensino. Aplicar a sequência situação concreta → explicação em linguagem cotidiana → exemplo resolvido com outros dados → prática curta → feedback que ensina. Conferir a sequência na experiência publicada, incluindo a recuperação. Ver [critério de conferência didática](prompts/ADENDO_EIE_VISUAL_JUVENIL_CONSULTA_OBRIGATORIA_3_9_6.md#a-própria-aula-precisa-ensinar).

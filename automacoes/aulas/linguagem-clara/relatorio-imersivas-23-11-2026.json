@@ -5,7 +5,7 @@
   "aulas": {
     "23-11-2026-exploracao-imersiva-172": {
       "titulo": "Detetives do Estudo — decifrar, resolver e explicar",
-      "index_sha256": "1dbf18ef545794a3280b3c0d6ba5e636d0a5e7e7c4a1b6dff9929e974d1b066d",
+      "index_sha256": "d2c00759136b93622cb55117e1fc1e5bf4557b9e6421be5b29b4724e1dae4bab",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -37,11 +37,12 @@
           "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
         }
       },
-      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional."
+      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional.",
+      "revisao_didatica": "Três demonstrações na abertura e oito blocos de ensino antes da prática, com exemplo externo e voz. Banco avaliado preservado."
     },
     "23-11-2026-exploracao-imersiva-182": {
       "titulo": "Agência de Investigação — pistas, dados e decisões",
-      "index_sha256": "e43761c37af7f2d4336fee60ea7ebeae27730ed042602a4469087cf134b40a4c",
+      "index_sha256": "4f587239f398a0bfd71c5733eaccdfdfd184a1d3d9edd622096085b53b2d4e3f",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -73,11 +74,12 @@
           "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
         }
       },
-      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional."
+      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional.",
+      "revisao_didatica": "Três demonstrações na abertura e oito blocos de ensino antes da prática, com exemplo externo e voz. Banco avaliado preservado."
     },
     "23-11-2026-exploracao-imersiva-191": {
       "titulo": "Laboratório do Solo Vivo — o caminho da água",
-      "index_sha256": "48db326a0597ae6d720f90edf71a8245047bacb52c938c95277f287ae1ac713d",
+      "index_sha256": "9cf5d2e4ea3b7f37d4e7686548b4560e9aa75efab7fa7f95cd657b1bad7276e6",
       "conteudo_sha256": null,
       "clareza_sha256": null,
       "atividades": 3,
@@ -109,7 +111,8 @@
           "ana.webp": "8a66af74696f68ba579ae1c59f752ace5d3818b067c72103507d813b14720505"
         }
       },
-      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional."
+      "resposta_curta": "Na introdução, resposta e evidência selecionadas; sem escrita obrigatória. No percurso, síntese opcional.",
+      "revisao_didatica": "Três demonstrações na abertura e oito blocos de ensino antes da prática, com exemplo externo e voz. Banco avaliado preservado."
     }
   },
   "revisao_visual": {
