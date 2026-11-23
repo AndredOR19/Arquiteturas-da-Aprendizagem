@@ -1,0 +1,176 @@
+{
+  "id": "lote-2026-11-24-terca",
+  "data": "2026-11-24",
+  "turma": "231,192,182",
+  "disciplina": "História / Ensino Religioso / Estudos Orientados / Eletiva de Base",
+  "tema": "Quatro aulas de terça-feira, 24/11/2026",
+  "fonte_curricular": "Ver fontes e pendências por aula.",
+  "habilidades": [
+    "Usar somente códigos e redações conferidos em fonte oficial; há incompatibilidade no código da Eletiva do plano recebido."
+  ],
+  "design": {
+    "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+    "revisao": "ferramentas/biblioteca.lock.json",
+    "modelo": "Fluxo 03 por componentes centrais; apoio inclusivo associativo direto",
+    "politica": "automacoes/aulas/politica-entrega.json",
+    "visual": "Quatro composições distintas por tema e série; preservar maturidade visual."
+  },
+  "estado": "rascunho",
+  "documentos_base": [
+    "PROMPT_MESTRE_AULAS_DIGITAIS.md",
+    "MEMORIA_OPERACIONAL_AULAS.md",
+    "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md",
+    "automacoes/aulas/inclusao/README.md",
+    "automacoes/aulas/inclusao/registro.json",
+    "banco-pedagogico/planejamentos/bernardina/2026/3-trimestre/eletiva/turma-192/conteudo.md"
+  ],
+  "aulas": [
+    {
+      "key": "historia-231",
+      "id": "direitos-em-acao-231",
+      "turma": "231",
+      "serie": "3ª série · EM",
+      "disciplina": "História",
+      "turno": "Manhã",
+      "periodos_horario": "1º e 2º",
+      "tema": "Direitos em ação",
+      "fonte_curricular": "Planejamento História 231, 3º trimestre, semana de 23–27/11: desigualdade, discriminação e painel Direitos em Ação.",
+      "habilidades": [
+        "EM13CHS502 — analisar situações de desigualdade e discriminação e propor ações de promoção dos direitos humanos."
+      ],
+      "objetivo": "Analisar uma barreira, sustentar a leitura com uma evidência e propor ação concreta.",
+      "experiencia": "Demonstrar caso fictício de inscrição digital, ler art. 3º IV da Constituição e montar painel com barreira, evidência e ação.",
+      "vocabulario": [
+        "DIREITO",
+        "DADO",
+        "LEI",
+        "PAINEL",
+        "ESCOLA",
+        "ACESSO",
+        "AÇÃO",
+        "FONTE"
+      ],
+      "data": "2026-11-24",
+      "periodos": 2,
+      "conteudo_id": "direitos-em-acao-231",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    },
+    {
+      "key": "er-192",
+      "id": "conviver-com-dignidade-192",
+      "turma": "192",
+      "serie": "9º ano · EF",
+      "disciplina": "Ensino Religioso",
+      "turno": "Manhã",
+      "periodos_horario": "3º",
+      "tema": "Conviver sem exigir concordância",
+      "fonte_curricular": "Continuidade dos registros de convivência ética da 192; habilidade BNCC conferida.",
+      "habilidades": [
+        "EF09ER06 — reconhecer a coexistência como atitude ética de respeito à vida e à dignidade humana."
+      ],
+      "objetivo": "Propor uma resposta respeitosa diante de uma exclusão por crença ou ausência de crença.",
+      "experiencia": "Modelar situação fictícia de liberdade de consciência antes da prática; usar personagens e nunca exigir declaração de crença.",
+      "vocabulario": [
+        "RESPEITO",
+        "DIÁLOGO",
+        "ESCOLA",
+        "GRUPO",
+        "ESCUTA",
+        "ACORDO",
+        "VIDA"
+      ],
+      "data": "2026-11-24",
+      "periodos": 1,
+      "conteudo_id": "conviver-com-dignidade-192",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    },
+    {
+      "key": "estudos-182",
+      "id": "qual-grafico-mostra-melhor-182",
+      "turma": "182",
+      "serie": "8º ano · EF",
+      "disciplina": "Estudos Orientados",
+      "turno": "Manhã",
+      "periodos_horario": "4º e 5º",
+      "tema": "Qual gráfico mostra melhor?",
+      "fonte_curricular": "Recorte de continuidade da leitura de tabelas de 23/11 articulado à BNCC de Matemática; plano específico indisponível.",
+      "habilidades": [
+        "EF08MA23 — avaliar a adequação de diferentes gráficos para representar dados de pesquisa."
+      ],
+      "objetivo": "Escolher um gráfico adequado à pergunta e justificar com evidência visual.",
+      "experiencia": "Modelar com 7, 4 e 2 preferências; praticar com 9, 5 e 3; comparar barras para categorias com linhas para evolução temporal.",
+      "vocabulario": [
+        "GRÁFICO",
+        "TABELA",
+        "BARRA",
+        "LINHA",
+        "TEMPO",
+        "DADO",
+        "TÍTULO",
+        "ESCALA"
+      ],
+      "data": "2026-11-24",
+      "periodos": 2,
+      "conteudo_id": "qual-grafico-mostra-melhor-182",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    },
+    {
+      "key": "eletiva-192",
+      "id": "do-tabuleiro-a-mesa-192",
+      "turma": "192",
+      "serie": "9º ano · EF",
+      "disciplina": "Eletiva de Base",
+      "turno": "Tarde",
+      "periodos_horario": "3º e 4º",
+      "tema": "Do tabuleiro à mesa",
+      "fonte_curricular": "Plano de Isac, semana 9, referência 23/11: culinária africana no cotidiano; fonte patrimonial Iphan, Ofício das Baianas de Acarajé.",
+      "habilidades": [
+        "Identificar práticas, pessoas e transmissão de saberes. EM13CNT102RS consta no plano de Isac e é de Ensino Médio; validação para esta turma pendente."
+      ],
+      "objetivo": "Relacionar ingredientes, técnicas de preparo e transmissão de saberes no Ofício das Baianas de Acarajé.",
+      "experiencia": "Modelar ficha ingrediente, técnica, pessoas e fonte. Fazer curadoria de ficha de exposição com identificação das baianas como detentoras do saber.",
+      "vocabulario": [
+        "FEIJÃO",
+        "DENDÊ",
+        "MASSA",
+        "TABULEIRO",
+        "FEIRA",
+        "FICHA",
+        "FONTE",
+        "SABER"
+      ],
+      "data": "2026-11-24",
+      "periodos": 2,
+      "conteudo_id": "do-tabuleiro-a-mesa-192",
+      "versao_conteudo": "1.0.0",
+      "estado": "rascunho"
+    }
+  ],
+  "contrato_adicional": {
+    "aula_principal": 32,
+    "exemplos": 96,
+    "apoio_nao_leitor_alvo": 96,
+    "progressao_inclusiva": "3.9.3",
+    "distribuicao_inclusiva": {
+      "letras": 48,
+      "palavras": 24,
+      "frases": 24
+    },
+    "fase_2_frases": 96,
+    "fase_2_obrigatoria": false,
+    "quantidades_sao_requisitos_nao_evidencias": true,
+    "linguagem": "VEJA → ENTENDA → EXEMPLO COM OUTROS DADOS → SUA VEZ → CONFERIR",
+    "bloqueios": [
+      "não declarar 3.9.3 sem inspecionar bancos reais e testar",
+      "não declarar aulas concluídas sem textos, PDFs, testes e publicação dupla",
+      "não criar motor HTML independente",
+      "não marcar recibos aprovados automaticamente",
+      "não publicar guia docente, respostas reservadas ou dados individuais"
+    ],
+    "entregas": "HTML principal, exemplos, apoio associativo, PDFs discentes diagramados, exposição docente reservada, relatórios, auditoria de repetição, recibos reais, Pages e Vercel, QR após URLs"
+  },
+  "observacao": "Aplicar implementação canônica 4cb5f548657e963b00b006ab363d01428189cd49. Explicar antes da prática e em recuperação. Manter QR após verificação nos dois destinos."
+}
