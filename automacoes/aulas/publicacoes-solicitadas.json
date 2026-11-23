@@ -193,37 +193,37 @@
     {
       "aula": "23-11-2026-exploracao-imersiva-172",
       "destino": "aulas/23-11-2026-exploracao-imersiva-172",
-      "pacote_sha256": "94ac13c3b1ebf47a47533da4fca65b5906ea738de3104d180f74a2feb834ab46",
+      "pacote_sha256": "58db11d08245b44589230b3341e196cf421b7b4cc71eafdb09d98598552dc3b5",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
       "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
       "pendencias": [
-        "Conferência do alinhamento à ementa específica.",
-        "Percursos integrais do Prompt Mestre e validação em sala."
+        "Validação em sala e conferência com o plano específico da turma quando disponível.",
+        "Conferir o código próprio do componente no Escola RS."
       ]
     },
     {
       "aula": "23-11-2026-exploracao-imersiva-182",
       "destino": "aulas/23-11-2026-exploracao-imersiva-182",
-      "pacote_sha256": "06dcda03b2224f30e38aad8702a71527f605258cb5c5b2435fefdfb1a2d9b38e",
+      "pacote_sha256": "58cbef8348c49c5596b3d6ff2c3edd4ec2daa391c624ea2ddd775e27b61e6d51",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
       "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
       "pendencias": [
-        "Conferência do alinhamento à ementa específica.",
-        "Percursos integrais do Prompt Mestre e validação em sala."
+        "Validação em sala e conferência com o plano específico da turma quando disponível.",
+        "Conferir o código próprio do componente no Escola RS."
       ]
     },
     {
       "aula": "23-11-2026-exploracao-imersiva-191",
       "destino": "aulas/23-11-2026-exploracao-imersiva-191",
-      "pacote_sha256": "713306cbdbae27222b24424c71d29a8c5253b96110b01679c712f79e92000bc4",
+      "pacote_sha256": "e12b73390fc6e1a54c1f7d6f67f8177cd2d1a26f1171c257ae15391c743b40ca",
       "estado": "publicacao_solicitada_com_revisoes_pendentes",
       "solicitacao_usuario": "22/11/2026: Publique lá no GitHub e no Vercel.",
       "linguagem_relatorio": "automacoes/aulas/linguagem-clara/relatorio-imersivas-23-11-2026.json",
       "pendencias": [
-        "Conferência do alinhamento à ementa específica.",
-        "Percursos integrais do Prompt Mestre e validação em sala."
+        "Validação em sala e conferência com o plano específico da turma quando disponível.",
+        "Conferir o código próprio do componente no Escola RS."
       ]
     }
   ]

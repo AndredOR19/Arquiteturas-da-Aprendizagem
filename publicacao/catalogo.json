@@ -2335,9 +2335,21 @@
           "pesquisa",
           "investigação"
         ],
-        "descricao": "Investigação em camadas de fontes, pesquisas, gráficos e decisões fundamentadas.",
+        "descricao": "Comparação de fontes e leitura de tabelas de pesquisa. Localização de valores e unidades, comparação de resultados e elaboração de conclusões apoiadas nos dados.",
         "titulo_exibicao": "Agência de Investigação — pistas, dados e decisões",
-        "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
+        "metadados_fonte": "Composição de exploração visual com percursos compilados pela Biblioteca de Diagramação. Referência curricular de apoio: BNCC. Plano específico da turma não disponibilizado.",
+        "registro_escola_rs": {
+          "titulo": "Agência de Investigação — pistas, dados e decisões · turma 182 · 23/11/2026",
+          "resumo": "Comparação de fontes e leitura de tabelas de pesquisa. Localização de valores e unidades, comparação de resultados e elaboração de conclusões apoiadas nos dados.",
+          "habilidades": [
+            "Articulação com Matemática (BNCC): leitura e interpretação de tabelas. Código específico do componente pendente de confirmação."
+          ]
+        },
+        "rotas": [
+          "Aula principal",
+          "Aprender de outro jeito",
+          "Apoio à leitura"
+        ]
       }
     },
     {
@@ -2367,9 +2379,21 @@
           "pesquisa",
           "investigação"
         ],
-        "descricao": "Pesquisa de infiltração, erosão, controle de variáveis e conservação do solo.",
+        "descricao": "Investigação da erosão: comparação de superfícies com e sem cobertura, controle das condições de uma chuva simulada e interpretação de evidências sobre o deslocamento de sedimentos.",
         "titulo_exibicao": "Laboratório do Solo Vivo — o caminho da água",
-        "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
+        "metadados_fonte": "Composição de exploração visual com percursos compilados pela Biblioteca de Diagramação. Referência curricular de apoio: BNCC. Plano específico da turma não disponibilizado.",
+        "registro_escola_rs": {
+          "titulo": "Laboratório do Solo Vivo — o caminho da água · turma 191 · 23/11/2026",
+          "resumo": "Investigação da erosão: comparação de superfícies com e sem cobertura, controle das condições de uma chuva simulada e interpretação de evidências sobre o deslocamento de sedimentos.",
+          "habilidades": [
+            "Competência geral 2 da BNCC — investigação e análise crítica. Código específico do componente pendente de confirmação."
+          ]
+        },
+        "rotas": [
+          "Aula principal",
+          "Aprender de outro jeito",
+          "Apoio à leitura"
+        ]
       }
     },
     {
@@ -2399,9 +2423,21 @@
           "pesquisa",
           "investigação"
         ],
-        "descricao": "Exploração guiada de enunciados, cálculo e explicação de estratégias.",
+        "descricao": "Resolução de problemas com números racionais e frações de duração. Identificação de dados, escolha de operações e conferência das respostas.",
         "titulo_exibicao": "Detetives do Estudo — decifrar, resolver e explicar",
-        "metadados_fonte": "Protótipo investigativo produzido para uso em 23/11/2026; alinhamento à ementa específica pendente de conferência."
+        "metadados_fonte": "Composição de exploração visual com percursos compilados pela Biblioteca de Diagramação. Referência curricular de apoio: BNCC. Plano específico da turma não disponibilizado.",
+        "registro_escola_rs": {
+          "titulo": "Detetives do Estudo — decifrar, resolver e explicar · turma 172 · 23/11/2026",
+          "resumo": "Resolução de problemas com números racionais e frações de duração. Identificação de dados, escolha de operações e conferência das respostas.",
+          "habilidades": [
+            "EF07MA12 (Matemática, BNCC) — resolver e elaborar problemas com operações envolvendo números racionais."
+          ]
+        },
+        "rotas": [
+          "Aula principal",
+          "Aprender de outro jeito",
+          "Apoio à leitura"
+        ]
       }
     }
   ]
