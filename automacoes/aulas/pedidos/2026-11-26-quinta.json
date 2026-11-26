@@ -1,0 +1,83 @@
+{
+  "id": "lote-2026-11-26-quinta",
+  "data": "2026-11-26",
+  "turma": "162,172",
+  "disciplina": "Práticas Experimentais / Estudos Orientados",
+  "tema": "Aulas de quinta-feira à tarde",
+  "fonte_curricular": "BNCC de Matemática; continuidade de 19/11 e grade da ETE Bernardina.",
+  "habilidades": [
+    "EF06MA03",
+    "EF06MA24",
+    "EF07MA05",
+    "EF07MA12"
+  ],
+  "design": {
+    "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+    "revisao": "ferramentas/biblioteca.lock.json",
+    "modelo": "Fluxo 03 — Território de Experiências"
+  },
+  "estado": "rascunho",
+  "documentos_base": [
+    "automacoes/aulas/roteiros/2026-11-26-quinta.md",
+    "automacoes/aulas/pedidos/2026-11-18-19.json",
+    "prompts/ADENDO_PERCURSO_INCLUSIVO_96_E_FRASES.md"
+  ],
+  "aulas": [
+    {
+      "id": "laboratorio-de-mosaicos-6ano",
+      "conteudo_id": "laboratorio-de-mosaicos-6ano",
+      "versao_conteudo": "1.0.0",
+      "turma": "162",
+      "serie": "6º ano",
+      "disciplina": "Práticas Experimentais",
+      "tema": "Laboratório de mosaicos",
+      "periodos_horario": "1º e 2º",
+      "periodos": 2,
+      "turno": "Tarde",
+      "data": "2026-11-26",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "habilidades": [
+        "EF06MA03",
+        "EF06MA24"
+      ],
+      "fonte_curricular": "BNCC de Matemática e aula anterior de 19/11; ver roteiro.",
+      "objetivo": "Distinguir área e perímetro e determinar o lado inteiro de um arranjo quadrado.",
+      "experiencia": "Prever, montar e conferir quadrados com peças de papel; investigar cobertura, moldura e raízes exatas.",
+      "design": {
+        "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+        "revisao": "ferramentas/biblioteca.lock.json",
+        "modelo": "Fluxo 03 — Território de Experiências",
+        "visual": "Malha manipulável, fileiras visíveis e borda assinalada por traço."
+      },
+      "estado": "rascunho"
+    },
+    {
+      "id": "plantao-de-horarios-7ano",
+      "conteudo_id": "plantao-de-horarios-7ano",
+      "versao_conteudo": "1.0.0",
+      "turma": "172",
+      "serie": "7º ano",
+      "disciplina": "Estudos Orientados",
+      "tema": "Plantão de horários",
+      "periodos_horario": "3º e 4º",
+      "periodos": 2,
+      "turno": "Tarde",
+      "data": "2026-11-26",
+      "escola": "ETE Bernardina Rodrigues Padilha",
+      "habilidades": [
+        "EF07MA05",
+        "EF07MA12"
+      ],
+      "fonte_curricular": "BNCC de Matemática e aula anterior de 19/11; ver roteiro.",
+      "objetivo": "Calcular uma fração de uma duração e justificar um horário final por dois caminhos.",
+      "experiencia": "Resolver pedidos de agenda com faixa de tempo e comparar partilha e complemento antes de justificar.",
+      "design": {
+        "biblioteca": "AndredOR19/Biblioteca-de-Diagramacao",
+        "revisao": "ferramentas/biblioteca.lock.json",
+        "modelo": "Fluxo 03 — Território de Experiências",
+        "visual": "Linha do tempo manipulável com passagem explícita pela hora cheia."
+      },
+      "estado": "rascunho"
+    }
+  ]
+}
